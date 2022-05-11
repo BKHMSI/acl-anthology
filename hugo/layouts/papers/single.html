@@ -85,8 +85,18 @@
   <h2 id="title">
     {{ with $paper.pdf }}
     <a href="{{ . }}">{{ $paper.title_html | safeHTML }}</a>
+    <a href="{{ . }}">{{ $paper.title_arab_html | safeHTML }}</a>
+    <a href="{{ . }}">{{ $paper.title_cn_html | safeHTML }}</a>
+    <a href="{{ . }}">{{ $paper.title_fr_html | safeHTML }}</a>
+    <a href="{{ . }}">{{ $paper.title_ru_html | safeHTML }}</a>
+    <a href="{{ . }}">{{ $paper.title_sp_html | safeHTML }}</a>
     {{ else }}
       {{ $paper.title_html | safeHTML }}
+      {{ $paper.title_arab_html | safeHTML }}
+      {{ $paper.title_cn_html | safeHTML }}
+      {{ $paper.title_fr_html | safeHTML }}
+      {{ $paper.title_ru_html | safeHTML }}
+      {{ $paper.title_sp_html | safeHTML }}
     {{ end }}
   </h2>
   {{ with $paper.author }}
@@ -116,6 +126,56 @@
       {{ end }}
 
       {{ with $paper.abstract_html }}
+      <div class="card bg-light mb-2 mb-lg-3">
+        <div class="card-body acl-abstract">
+          <h5 class="card-title">Abstract</h5>
+          <span {{ with $paper.retracted }} style="text-decoration: line-through" {{ end }}>
+          {{ . | safeHTML }}
+          </span>
+        </div>
+      </div>
+      {{ end }}
+      {{ with $paper.abstract_arab_html }}
+      <div class="card bg-light mb-2 mb-lg-3">
+        <div class="card-body acl-abstract">
+          <h5 class="card-title">Abstract</h5>
+          <span {{ with $paper.retracted }} style="text-decoration: line-through" {{ end }}>
+          {{ . | safeHTML }}
+          </span>
+        </div>
+      </div>
+      {{ end }}
+      {{ with $paper.abstract_cn_html }}
+      <div class="card bg-light mb-2 mb-lg-3">
+        <div class="card-body acl-abstract">
+          <h5 class="card-title">Abstract</h5>
+          <span {{ with $paper.retracted }} style="text-decoration: line-through" {{ end }}>
+          {{ . | safeHTML }}
+          </span>
+        </div>
+      </div>
+      {{ end }}
+      {{ with $paper.abstract_fr_html }}
+      <div class="card bg-light mb-2 mb-lg-3">
+        <div class="card-body acl-abstract">
+          <h5 class="card-title">Abstract</h5>
+          <span {{ with $paper.retracted }} style="text-decoration: line-through" {{ end }}>
+          {{ . | safeHTML }}
+          </span>
+        </div>
+      </div>
+      {{ end }}
+      {{ with $paper.abstract_ru_html }}
+      <div class="card bg-light mb-2 mb-lg-3">
+        <div class="card-body acl-abstract">
+          <h5 class="card-title">Abstract</h5>
+          <span {{ with $paper.retracted }} style="text-decoration: line-through" {{ end }}>
+          {{ . | safeHTML }}
+          </span>
+        </div>
+      </div>
+      {{ end }}
+      {{ with $paper.abstract_sp_html }}
       <div class="card bg-light mb-2 mb-lg-3">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -273,6 +333,19 @@
         {{ range $i, $t := . }}{{ if $i }},&nbsp;{{ end }}<a href="{{ $t.url }}">{{ $t.name }}</a>{{ end }}
         </dd>
       {{ end }}
+
+      <dt>Terminologies:</dt>
+      <dd>{{ with $paper.terminology }}{{ . }}{{ end }}</dd>
+      <dt>Terminologies:</dt>
+      <dd>{{ with $paper.terminology_arab }}{{ . }}{{ end }}</dd>
+      <dt>Terminologies:</dt>
+      <dd>{{ with $paper.terminology_cn }}{{ . }}{{ end }}</dd>
+      <dt>Terminologies:</dt>
+      <dd>{{ with $paper.terminology_fr }}{{ . }}{{ end }}</dd>
+      <dt>Terminologies:</dt>
+      <dd>{{ with $paper.terminology_ru }}{{ . }}{{ end }}</dd>
+      <dt>Terminologies:</dt>
+      <dd>{{ with $paper.terminology_sp }}{{ . }}{{ end }}</dd>
 
     </dl>
     </div>

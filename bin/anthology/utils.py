@@ -409,7 +409,10 @@ def parse_element(xml_element):
     for element in xml_element:
         # parse value
         tag = element.tag.lower()
-        if tag in ("abstract", "title", "booktitle"):
+        # if tag in ("abstract", "title", "booktitle"):
+        if tag in ("abstract", "title", "booktitle", 'abstract_arab', 'abstract_cn', \
+            'abstract_fr', 'abstract_ru', 'abstract_sp', 'title_arab', 'title_cn', \
+            'title_fr', 'title_ru', 'title_sp'):
             tag = f"xml_{tag}"
             value = element
         elif tag == "url":
