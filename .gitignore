@@ -25,8 +25,8 @@ Icon
 **/__pycache__
 
 # generated website
-/build/
-/build*
+/build*/
 
 #virtual environment
 /venv/
+
