@@ -59,12 +59,18 @@ def export_anthology(anthology, outdir, clean=False, dryrun=False):
         data["title_html"] = paper.get_title("html")
         if "xml_title" in data:
             del data["xml_title"]
+        if 'xml_title_arab' in data:
+            data["title_arab_html"], data["title_cn_html"], data["title_fr_html"], data["title_ru_html"], data["title_sp_html"] = paper.get_other_titles("html")
+            del data["xml_title_arab"], data["xml_title_cn"], data["xml_title_fr"], data["xml_title_ru"], data["xml_title_sp"]
         if "xml_booktitle" in data:
             data["booktitle_html"] = paper.get_booktitle("html")
             del data["xml_booktitle"]
         if "xml_abstract" in data:
             data["abstract_html"] = paper.get_abstract("html")
             del data["xml_abstract"]
+        if 'xml_abstract_arab' in data:
+            data["abstract_arab_html"], data["abstract_cn_html"], data["abstract_fr_html"], data["abstract_ru_html"], data["abstract_sp_html"] = paper.get_other_abstracts("html")
+            del data["xml_abstract_arab"], data["xml_abstract_cn"], data["xml_abstract_fr"], data["xml_abstract_ru"], data["xml_abstract_sp"]
         if "xml_url" in data:
             del data["xml_url"]
         if "author" in data:

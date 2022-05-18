@@ -321,12 +321,26 @@ class Paper:
         """
         return self.formatter(self.get("xml_title"), form)
 
+    def get_other_titles(self, form='xml'):
+        return self.formatter(self.get("xml_title_arab"), form),\
+            self.formatter(self.get("xml_title_cn"), form),\
+            self.formatter(self.get("xml_title_fr"), form), \
+            self.formatter(self.get("xml_title_ru"), form),\
+            self.formatter(self.get("xml_title_sp"), form)
+
     def get_abstract(self, form="xml"):
         """Returns the abstract, optionally formatting it.
 
         See `get_title()` for details.
         """
         return self.formatter(self.get("xml_abstract"), form, allow_url=True)
+
+    def get_other_abstracts(self, form='xml'):
+        return self.formatter(self.get("xml_abstract_arab"), form, allow_url=True),\
+            self.formatter(self.get("xml_abstract_cn"), form, allow_url=True),\
+            self.formatter(self.get("xml_abstract_fr"), form, allow_url=True), \
+            self.formatter(self.get("xml_abstract_ru"), form, allow_url=True),\
+            self.formatter(self.get("xml_abstract_sp"), form, allow_url=True)
 
     def get_booktitle(self, form="xml", default=""):
         """Returns the booktitle, optionally formatting it.
