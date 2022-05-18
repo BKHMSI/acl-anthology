@@ -9487,7 +9487,7 @@
       <bibkey>pan-etal-2021-zero</bibkey>
       <pwccode url="https://github.com/teacherpeterpan/Zero-shot-Fact-Verification" additional="false">teacherpeterpan/Zero-shot-Fact-Verification</pwccode>
       <pwcdataset url="https://paperswithcode.com/dataset/fever">FEVER</pwcdataset>
-      <terminology>Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network</terminology></paper>
+      <terminology>Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network, Dialogue generation, Relation extraction, Neural network</terminology>
       <pwcdataset url="https://paperswithcode.com/dataset/qa2d">QA2D</pwcdataset>
     </paper>
     <paper id="62">

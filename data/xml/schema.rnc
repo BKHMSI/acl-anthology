@@ -37,11 +37,66 @@ Paper = element paper {
   attribute ingest-date { xsd:date }?,
   attribute type { xsd:string }?,
   (element abstract { MarkupText }?
-   & element abstract_arab { MarkupText }?
-   & element abstract_cn { MarkupText }?
-   & element abstract_fr { MarkupText }?
-   & element abstract_ru { MarkupText }?
-   & element abstract_sp { MarkupText }?
+    & element abstract_af { MarkupText }?
+    & element abstract_sq { MarkupText }?
+    & element abstract_am { MarkupText }?
+    & element abstract_ar { MarkupText }?
+    & element abstract_hy { MarkupText }?
+    & element abstract_az { MarkupText }?
+    & element abstract_bn { MarkupText }?
+    & element abstract_bs { MarkupText }?
+    & element abstract_bg { MarkupText }?
+    & element abstract_ca { MarkupText }?
+    & element abstract_zh { MarkupText }?
+    & element abstract_hr { MarkupText }?
+    & element abstract_cs { MarkupText }?
+    & element abstract_da { MarkupText }?
+    & element abstract_nl { MarkupText }?
+    & element abstract_et { MarkupText }?
+    & element abstract_fl { MarkupText }?
+    & element abstract_fi { MarkupText }?
+    & element abstract_fr { MarkupText }?
+    & element abstract_ka { MarkupText }?
+    & element abstract_de { MarkupText }?
+    & element abstract_el { MarkupText }?
+    & element abstract_ha { MarkupText }?
+    & element abstract_he { MarkupText }?
+    & element abstract_hi { MarkupText }?
+    & element abstract_hu { MarkupText }?
+    & element abstract_is { MarkupText }?
+    & element abstract_id { MarkupText }?
+    & element abstract_ga { MarkupText }?
+    & element abstract_it { MarkupText }?
+    & element abstract_ja { MarkupText }?
+    & element abstract_jv { MarkupText }?
+    & element abstract_kk { MarkupText }?
+    & element abstract_ko { MarkupText }?
+    & element abstract_lt { MarkupText }?
+    & element abstract_mk { MarkupText }?
+    & element abstract_ms { MarkupText }?
+    & element abstract_ml { MarkupText }?
+    & element abstract_mt { MarkupText }?
+    & element abstract_mn { MarkupText }?
+    & element abstract_no { MarkupText }?
+    & element abstract_fa { MarkupText }?
+    & element abstract_pl { MarkupText }?
+    & element abstract_pt { MarkupText }?
+    & element abstract_ro { MarkupText }?
+    & element abstract_ru { MarkupText }?
+    & element abstract_sr { MarkupText }?
+    & element abstract_si { MarkupText }?
+    & element abstract_sk { MarkupText }?
+    & element abstract_so { MarkupText }?
+    & element abstract_es { MarkupText }?
+    & element abstract_sw { MarkupText }?
+    & element abstract_sv { MarkupText }?
+    & element abstract_ta { MarkupText }?
+    & element abstract_bo { MarkupText }?
+    & element abstract_tr { MarkupText }?
+    & element abstract_uk { MarkupText }?
+    & element abstract_ur { MarkupText }?
+    & element abstract_uz { MarkupText }?
+    & element abstract_vi { MarkupText }?
    & attachment*
    & element bibkey { bibtex-key }
    & element author { Person }*
@@ -71,11 +126,66 @@ Paper = element paper {
    & element note { text }?
    & element pages { text }?
    & element title { MarkupText }
-   & element title_arab { MarkupText }
-   & element title_cn { MarkupText }
-   & element title_fr { MarkupText }
-   & element title_ru { MarkupText }
-   & element title_sp { MarkupText }
+    & element title_af { MarkupText }?
+    & element title_sq { MarkupText }?
+    & element title_am { MarkupText }?
+    & element title_ar { MarkupText }?
+    & element title_hy { MarkupText }?
+    & element title_az { MarkupText }?
+    & element title_bn { MarkupText }?
+    & element title_bs { MarkupText }?
+    & element title_bg { MarkupText }?
+    & element title_ca { MarkupText }?
+    & element title_zh { MarkupText }?
+    & element title_hr { MarkupText }?
+    & element title_cs { MarkupText }?
+    & element title_da { MarkupText }?
+    & element title_nl { MarkupText }?
+    & element title_et { MarkupText }?
+    & element title_fl { MarkupText }?
+    & element title_fi { MarkupText }?
+    & element title_fr { MarkupText }?
+    & element title_ka { MarkupText }?
+    & element title_de { MarkupText }?
+    & element title_el { MarkupText }?
+    & element title_ha { MarkupText }?
+    & element title_he { MarkupText }?
+    & element title_hi { MarkupText }?
+    & element title_hu { MarkupText }?
+    & element title_is { MarkupText }?
+    & element title_id { MarkupText }?
+    & element title_ga { MarkupText }?
+    & element title_it { MarkupText }?
+    & element title_ja { MarkupText }?
+    & element title_jv { MarkupText }?
+    & element title_kk { MarkupText }?
+    & element title_ko { MarkupText }?
+    & element title_lt { MarkupText }?
+    & element title_mk { MarkupText }?
+    & element title_ms { MarkupText }?
+    & element title_ml { MarkupText }?
+    & element title_mt { MarkupText }?
+    & element title_mn { MarkupText }?
+    & element title_no { MarkupText }?
+    & element title_fa { MarkupText }?
+    & element title_pl { MarkupText }?
+    & element title_pt { MarkupText }?
+    & element title_ro { MarkupText }?
+    & element title_ru { MarkupText }?
+    & element title_sr { MarkupText }?
+    & element title_si { MarkupText }?
+    & element title_sk { MarkupText }?
+    & element title_so { MarkupText }?
+    & element title_es { MarkupText }?
+    & element title_sw { MarkupText }?
+    & element title_sv { MarkupText }?
+    & element title_ta { MarkupText }?
+    & element title_bo { MarkupText }?
+    & element title_tr { MarkupText }?
+    & element title_uk { MarkupText }?
+    & element title_ur { MarkupText }?
+    & element title_uz { MarkupText }?
+    & element title_vi { MarkupText }?
    & url-with-checksum?
    & element video {
        attribute href { xsd:anyURI },
@@ -94,11 +204,6 @@ Paper = element paper {
        text
      }?
    & element terminology { text }*
-   & element terminology_arab { text }*
-   & element terminology_cn { text }*
-   & element terminology_fr { text }*
-   & element terminology_ru { text }*
-   & element terminology_sp { text }*
    )
 }
 Meta = element meta {
