@@ -1,0 +1,74 @@
+{{ define "javascript" }}
+<script>
+    
+    function filterTerms(){
+        let query = document.getElementById('lang_query').value;
+        var table = document.getElementById('term_content');
+        for (var i = 1, row; row = table.rows[i]; i+=6) {
+            let text = row.cells[0].innerHTML;
+            if(query.trim() == ''){
+                for(var j = i; j<6+i; j++){
+                    table.rows[j].style.display = '';
+                }
+            }else if(!text.includes(query)){
+                for(var j = i; j<6+i; j++){
+                    table.rows[j].style.display = 'none';
+                }
+            }
+        }
+    }
+
+
+</script>
+{{ end }}
+
+{{ define "main" }}
+<main aria-role="main">
+  <h1 id="title">
+    {{ .Title }}
+  </h1>
+  {{ with .Params.subtitle }}
+  <p class="lead text-muted">{{ . }}</p>
+  {{ end }}
+  <hr />
+
+  {{ if not .Date.IsZero }}
+  <p class="font-weight-light font-italic text-muted">{{ .Date.Format "January 2, 2006" }}</p>
+  {{ end }}
+
+  <div class="input-group" style="padding:20px">
+    <div class="form-outline">
+      <input type="search" id="lang_query" class="form-control" placeholder="Search..." style="display:inline-block; width:80%"/>
+        <button type="button" onclick="filterTerms()" class="btn btn-primary">Search
+        <i class="fas fa-search"></i>
+        </button>
+    </div>
+  </div>
+
+  <table class="table table-striped" id="term_content">
+    <thead>
+        <tr>
+            <th scope="col"> Term </th>
+            <th scope="col"> Frequency </th>
+            <th scope="col"> Contexts </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Site.Data.terms }}
+            <tr>
+                <td rowspan="6"> {{ .term }} </td>
+                <td rowspan="6"> {{ .frequency }} </td>
+            </tr>
+            {{ range .sentences}}
+            <tr>
+                <td> {{.sentence }} </td>
+            </tr>
+            {{end}}
+        {{ end }}
+    </tbody>
+
+  </table>
+
+
+</main>
+{{ end }}
