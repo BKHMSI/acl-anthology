@@ -1,12 +1,18 @@
 {{ define "javascript" }}
 <script>
+
+    function clearSearch(){
+        document.getElementById('lang_query').value = "";
+        filterTerms();
+    }
     
     function filterTerms(){
         let query = document.getElementById('lang_query').value;
         var table = document.getElementById('term_content');
+        let flag = query.trim() == '';
         for (var i = 1, row; row = table.rows[i]; i+=6) {
             let text = row.cells[0].innerHTML;
-            if(query.trim() == ''){
+            if(flag && row.style.display == 'none'){
                 for(var j = i; j<6+i; j++){
                     table.rows[j].style.display = '';
                 }
@@ -17,6 +23,12 @@
             }
         }
     }
+
+    $("#lang_query").on('keyup', function (event) {
+      if (event.keyCode === 13) {
+         filterTerms();
+      }
+   });
 
 
 </script>
@@ -42,10 +54,12 @@
         <button type="button" onclick="filterTerms()" class="btn btn-primary">Search
         <i class="fas fa-search"></i>
         </button>
+        <button type="button" onclick="clearSearch()" class="btn btn-danger">Clear
+        </button>
     </div>
   </div>
 
-  <table class="table table-striped" id="term_content">
+  <table class="table table-striped table-responsive-lg" id="term_content">
     <thead>
         <tr>
             <th scope="col"> Term </th>
@@ -56,7 +70,11 @@
     <tbody>
         {{ range .Site.Data.terms }}
             <tr>
-                <td rowspan="6"> {{ .term }} </td>
+                {{ if eq .wiki ""}}
+                    <td rowspan="6"> {{ .term }} </td>
+                {{else}}
+                    <td rowspan="6"> <a href="{{.wiki}}"> {{ .term }} </a> </td>
+                {{end}}
                 <td rowspan="6"> {{ .frequency }} </td>
             </tr>
             {{ range .sentences}}
