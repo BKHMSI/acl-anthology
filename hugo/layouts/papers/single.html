@@ -76,6 +76,25 @@
       }
   });
 
+    $("#lang_query").on("input", function(e) {
+      var input = $(this);
+      var val = input.val();
+      let button_div = document.getElementById("buttons");
+      button_div.innerHTML = "";
+
+      if (input.data("lastval") != val) {
+        input.data("lastval", val);
+
+        //your change action goes here 
+        for(let idx in languages){
+          let lang = languages[idx];
+          let code = lang_codes[idx];
+          if(lang.includes(val))
+            button_div.innerHTML += `<button class='btn btn-secondary' onclick="show_lang('${code}')" data-dismiss='modal' style='margin:10px; width:120px; text-align: center;'><span class='pl-2'>${lang}</span></button>`;
+      }
+    }
+  });
+
   function create_buttons(){
     let button_div = document.getElementById("buttons");
     for(let idx in languages){
