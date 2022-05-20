@@ -213,34 +213,56 @@ for code, langs in languages_codes:
         lang_to_code[lang.strip()] = code
 
 
-elements = ["abstract", "title", "terminology"]
+elements = ["abstract", "title"]
 template = "& element {}_{} {{ MarkupText }}?"
 
 codes = set()
+# for el in elements:
+#     print("="*100)
+#     for lang in languages:
+#         codes.add(lang_to_code[lang])
+#         print(template.format(el, lang_to_code[lang]))
+
+template_1 = "data['{}_{}_html']"
+template_2 = "data['xml_{}_{}']"
+
 for el in elements:
+    to_add = []
+    to_del = []
     print("="*100)
     for lang in languages:
-        codes.add(lang_to_code[lang])
-        print(template.format(el, lang_to_code[lang]))
+        to_add += [template_1.format(el, lang_to_code[lang])]
+        to_del += [template_2.format(el, lang_to_code[lang])]
+    print(', '.join(to_add))
+    print(', '.join(to_del))
+
+
+template_1 = 'self.formatter(self.get("xml_{}_{}"), form),\\'
+for el in elements:
+    code = []
+    print("="*100)
+    for lang in languages:
+        code += [template_1.format(el, lang_to_code[lang])]
+    print('\n'.join(code))
 
 codes = sorted(codes)
 
-for code in codes:
-    # html = f"""
-    #       {{{{ with $paper.abstract_{code}_html }}}}
-    #       <div class="card bg-light mb-2 mb-lg-3" id="{code}_abstract" style="display:none;">
-    #         <div class="card-body acl-abstract">
-    #           <h5 class="card-title">Abstract</h5>
-    #           <span {{{{ with $paper.retracted }}}} style="text-decoration: line-through;" {{{{ end }}}}>
-    #               {{{{ . | safeHTML }}}}
-    #           </span>
-    #         </div>
-    #       </div>
-    #       {{{{ end }}}}
-    # """
+# for code in codes:
+#     # html = f"""
+#     #       {{{{ with $paper.abstract_{code}_html }}}}
+#     #       <div class="card bg-light mb-2 mb-lg-3" id="{code}_abstract" style="display:none;">
+#     #         <div class="card-body acl-abstract">
+#     #           <h5 class="card-title">Abstract</h5>
+#     #           <span {{{{ with $paper.retracted }}}} style="text-decoration: line-through;" {{{{ end }}}}>
+#     #               {{{{ . | safeHTML }}}}
+#     #           </span>
+#     #         </div>
+#     #       </div>
+#     #       {{{{ end }}}}
+#     # """
 
-    html = f"<a id='{code}_title' style='display:none;' href='{{{{ . }}}}'>{{{{ $paper.title_{code}_html | safeHTML }}}}</a>"
-    # html = f"<div id='{code}_title' style='display:none;'>{{{{ $paper.title_{code}_html | safeHTML }}}}</div>"
-    print(html)
+#     html = f"<a id='{code}_title' style='display:none;' href='{{{{ . }}}}'>{{{{ $paper.title_{code}_html | safeHTML }}}}</a>"
+#     # html = f"<div id='{code}_title' style='display:none;'>{{{{ $paper.title_{code}_html | safeHTML }}}}</div>"
+#     print(html)
 
 
