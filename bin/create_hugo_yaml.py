@@ -34,6 +34,7 @@ from tqdm import tqdm
 import logging as log
 import os
 import yaml, yamlfix
+import sys
 
 try:
     from yaml import CSafeDumper as Dumper
@@ -230,7 +231,11 @@ def export_anthology(anthology, outdir, clean=False, dryrun=False):
         progress = tqdm(total=len(papers) + len(people) + 7)
         for collection_id, paper_list in papers.items():
             with open("{}/papers/{}.yaml".format(outdir, collection_id), "w") as f:
-                yaml.dump(paper_list, Dumper=Dumper, stream=f)
+                try:
+                    yaml.dump(paper_list, Dumper=Dumper, stream=f)
+                except:
+                    print(collection_id) 
+                    sys.exit()
             progress.update()
 
         with open("{}/volumes.yaml".format(outdir), "w") as f:
