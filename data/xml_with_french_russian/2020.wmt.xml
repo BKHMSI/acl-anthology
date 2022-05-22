@@ -1,0 +1,776 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="2020.wmt">
+  <volume id="1" ingest-date="2020-12-22">
+    <meta>
+      <booktitle>Proceedings of the Fifth Conference on Machine Translation</booktitle>
+      <editor><first>Loïc</first><last>Barrault</last></editor>
+      <editor><first>Ondřej</first><last>Bojar</last></editor>
+      <editor><first>Fethi</first><last>Bougares</last></editor>
+      <editor><first>Rajen</first><last>Chatterjee</last></editor>
+      <editor><first>Marta R.</first><last>Costa-jussà</last></editor>
+      <editor><first>Christian</first><last>Federmann</last></editor>
+      <editor><first>Mark</first><last>Fishel</last></editor>
+      <editor><first>Alexander</first><last>Fraser</last></editor>
+      <editor><first>Yvette</first><last>Graham</last></editor>
+      <editor><first>Paco</first><last>Guzman</last></editor>
+      <editor><first>Barry</first><last>Haddow</last></editor>
+      <editor><first>Matthias</first><last>Huck</last></editor>
+      <editor><first>Antonio Jimeno</first><last>Yepes</last></editor>
+      <editor><first>Philipp</first><last>Koehn</last></editor>
+      <editor><first>André</first><last>Martins</last></editor>
+      <editor><first>Makoto</first><last>Morishita</last></editor>
+      <editor><first>Christof</first><last>Monz</last></editor>
+      <editor><first>Masaaki</first><last>Nagata</last></editor>
+      <editor><first>Toshiaki</first><last>Nakazawa</last></editor>
+      <editor><first>Matteo</first><last>Negri</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>November</month>
+      <year>2020</year>
+    </meta>
+    <frontmatter>
+      <url hash="42919a30">2020.wmt-1.0</url>
+      <bibkey>wmt-2020-machine</bibkey>
+    </frontmatter>
+    <paper id="12">
+      <title>Tohoku-AIP-NTT at WMT 2020 News Translation Task<fixed-case>AIP</fixed-case>-<fixed-case>NTT</fixed-case> at <fixed-case>WMT</fixed-case> 2020 News Translation Task</title>
+      <author><first>Shun</first><last>Kiyono</last></author>
+      <author><first>Takumi</first><last>Ito</last></author>
+      <author><first>Ryuto</first><last>Konno</last></author>
+      <author><first>Makoto</first><last>Morishita</last></author>
+      <author><first>Jun</first><last>Suzuki</last></author>
+      <pages>145–155</pages>
+      <abstract>In this paper, we describe the submission of Tohoku-AIP-NTT to the WMT’20 news translation task. We participated in this task in two language pairs and four language directions : <a href="https://en.wikipedia.org/wiki/German_language">English   German</a> and <a href="https://en.wikipedia.org/wiki/Japanese_language">English   Japanese</a>. Our system consists of techniques such as <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a> and <a href="https://en.wikipedia.org/wiki/Fine-tuning">fine-tuning</a>, which are already widely adopted in translation tasks. We attempted to develop new <a href="https://en.wikipedia.org/wiki/Methodology">methods</a> for both synthetic data filtering and <a href="https://en.wikipedia.org/wiki/Ranking">reranking</a>. However, the <a href="https://en.wikipedia.org/wiki/Scientific_method">methods</a> turned out to be ineffective, and they provided us with no significant improvement over the <a href="https://en.wikipedia.org/wiki/Baseline_(medicine)">baseline</a>. We analyze these negative results to provide insights for future studies.</abstract>
+      <url hash="e5b6c4c9">2020.wmt-1.12</url>
+      <video href="https://slideslive.com/38939545" />
+      <bibkey>kiyono-etal-2020-tohoku</bibkey>
+    </paper>
+    <paper id="13">
+      <title>NRC Systems for the 2020 Inuktitut-English News Translation Task<fixed-case>NRC</fixed-case> Systems for the 2020 <fixed-case>I</fixed-case>nuktitut-<fixed-case>E</fixed-case>nglish News Translation Task</title>
+      <author><first>Rebecca</first><last>Knowles</last></author>
+      <author><first>Darlene</first><last>Stewart</last></author>
+      <author><first>Samuel</first><last>Larkin</last></author>
+      <author><first>Patrick</first><last>Littell</last></author>
+      <pages>156–170</pages>
+      <abstract>We describe the National Research Council of Canada (NRC) submissions for the 2020 Inuktitut-English shared task on news translation at the Fifth Conference on Machine Translation (WMT20). Our submissions consist of ensembled domain-specific finetuned transformer models, trained using the Nunavut Hansard and news data and, in the case of Inuktitut-English, backtranslated news and parliamentary data. In this work we explore challenges related to the relatively small amount of parallel data, morphological complexity, and domain shifts.</abstract>
+      <url hash="a834ee2f">2020.wmt-1.13</url>
+      <video href="https://slideslive.com/38939639" />
+      <bibkey>knowles-etal-2020-nrc</bibkey>
+    </paper>
+    <paper id="14">
+      <title>CUNI Submission for the Inuktitut Language in WMT News 2020<fixed-case>CUNI</fixed-case> Submission for the <fixed-case>I</fixed-case>nuktitut Language in <fixed-case>WMT</fixed-case> News 2020</title>
+      <author><first>Tom</first><last>Kocmi</last></author>
+      <pages>171–174</pages>
+      <abstract>This paper describes CUNI submission to the WMT 2020 News Translation Shared Task for the low-resource scenario InuktitutEnglish in both translation directions. Our system combines <a href="https://en.wikipedia.org/wiki/Transfer_learning">transfer learning</a> from a CzechEnglish high-resource language pair and backtranslation. We notice surprising behaviour when using synthetic data, which can be possibly attributed to a narrow domain of training and test data. We are using the Transformer model in a constrained submission.</abstract>
+      <url hash="bb9e6059">2020.wmt-1.14</url>
+      <video href="https://slideslive.com/38939666" />
+      <bibkey>kocmi-2020-cuni</bibkey>
+    </paper>
+    <paper id="17">
+      <title>Speed-optimized, Compact Student Models that Distill Knowledge from a Larger Teacher Model : the UEDIN-CUNI Submission to the WMT 2020 News Translation Task<fixed-case>UEDIN</fixed-case>-<fixed-case>CUNI</fixed-case> Submission to the <fixed-case>WMT</fixed-case> 2020 News Translation Task</title>
+      <author><first>Ulrich</first><last>Germann</last></author>
+      <author><first>Roman</first><last>Grundkiewicz</last></author>
+      <author><first>Martin</first><last>Popel</last></author>
+      <author><first>Radina</first><last>Dobreva</last></author>
+      <author><first>Nikolay</first><last>Bogoychev</last></author>
+      <author><first>Kenneth</first><last>Heafield</last></author>
+      <pages>191–196</pages>
+      <abstract>We describe the joint submission of the University of Edinburgh and Charles University, Prague, to the Czech / English track in the WMT 2020 Shared Task on News Translation. Our fast and compact student models distill knowledge from a larger, slower teacher. They are designed to offer a good trade-off between translation quality and <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference efficiency</a>. On the WMT 2020 Czech   English test sets, they achieve translation speeds of over 700 whitespace-delimited source words per second on a single <a href="https://en.wikipedia.org/wiki/Thread_(computing)">CPU thread</a>, thus making neural translation feasible on consumer hardware without a <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPU</a>.</abstract>
+      <url hash="511f1989">2020.wmt-1.17</url>
+      <video href="https://slideslive.com/38939661" />
+      <bibkey>germann-etal-2020-speed</bibkey>
+    </paper>
+    <paper id="18">
+      <title>The University of Edinburgh’s submission to the German-to-English and English-to-German Tracks in the WMT 2020 News Translation and Zero-shot Translation Robustness Tasks<fixed-case>U</fixed-case>niversity of <fixed-case>E</fixed-case>dinburgh’s submission to the <fixed-case>G</fixed-case>erman-to-<fixed-case>E</fixed-case>nglish and <fixed-case>E</fixed-case>nglish-to-<fixed-case>G</fixed-case>erman Tracks in the <fixed-case>WMT</fixed-case> 2020 News Translation and Zero-shot Translation Robustness Tasks</title>
+      <author><first>Ulrich</first><last>Germann</last></author>
+      <pages>197–201</pages>
+      <abstract>This paper describes the University of Edinburgh’s submission of German-English systems to the WMT2020 Shared Tasks on News Translation and Zero-shot Robustness.</abstract>
+      <url hash="9fa30b19">2020.wmt-1.18</url>
+      <video href="https://slideslive.com/38939663" />
+      <bibkey>germann-2020-university</bibkey>
+    </paper>
+    <paper id="22">
+      <title>SJTU-NICT’s Supervised and Unsupervised Neural Machine Translation Systems for the WMT20 News Translation Task<fixed-case>SJTU</fixed-case>-<fixed-case>NICT</fixed-case>’s Supervised and Unsupervised Neural Machine Translation Systems for the <fixed-case>WMT</fixed-case>20 News Translation Task</title>
+      <author><first>Zuchao</first><last>Li</last></author>
+      <author><first>Hai</first><last>Zhao</last></author>
+      <author><first>Rui</first><last>Wang</last></author>
+      <author><first>Kehai</first><last>Chen</last></author>
+      <author><first>Masao</first><last>Utiyama</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <pages>218–229</pages>
+      <abstract>In this paper, we introduced our joint team SJTU-NICT ‘s participation in the WMT 2020 machine translation shared task. In this shared task, we participated in four translation directions of three language pairs : English-Chinese, English-Polish on supervised machine translation track, German-Upper Sorbian on low-resource and unsupervised machine translation tracks. Based on different conditions of language pairs, we have experimented with diverse neural machine translation (NMT) techniques : document-enhanced NMT, XLM pre-trained language model enhanced NMT, bidirectional translation as a pre-training, reference language based UNMT, data-dependent gaussian prior objective, and BT-BLEU collaborative filtering self-training. We also used the TF-IDF algorithm to filter the training set to obtain a domain more similar set with the test set for <a href="https://en.wikipedia.org/wiki/Finetuning">finetuning</a>. In our submissions, the primary systems won the first place on <a href="https://en.wikipedia.org/wiki/English_language">English</a> to <a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a>, <a href="https://en.wikipedia.org/wiki/Polish_language">Polish</a> to <a href="https://en.wikipedia.org/wiki/English_language">English</a>, and German to Upper Sorbian translation directions.</abstract>
+      <url hash="65d90d87">2020.wmt-1.22</url>
+      <video href="https://slideslive.com/38939657" />
+      <bibkey>li-etal-2020-sjtu</bibkey>
+    </paper>
+    <paper id="28">
+      <title>CUNI English-Czech and English-Polish Systems in WMT20 : Robust Document-Level Training<fixed-case>CUNI</fixed-case> <fixed-case>E</fixed-case>nglish-<fixed-case>C</fixed-case>zech and <fixed-case>E</fixed-case>nglish-<fixed-case>P</fixed-case>olish Systems in <fixed-case>WMT</fixed-case>20: Robust Document-Level Training</title>
+      <author><first>Martin</first><last>Popel</last></author>
+      <pages>269–273</pages>
+      <abstract>We describe our two NMT systems submitted to the WMT 2020 shared task in English-Czech and English-Polish news translation. One <a href="https://en.wikipedia.org/wiki/System">system</a> is sentence level, translating each sentence independently. The second system is document level, translating multiple sentences, trained on <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">multi-sentence sequences</a> up to 3000 characters long.</abstract>
+      <url hash="fdb9dba0">2020.wmt-1.28</url>
+      <video href="https://slideslive.com/38939668" />
+      <bibkey>popel-2020-cuni</bibkey>
+    </paper>
+    <paper id="30">
+      <title>OPPO’s Machine Translation Systems for WMT20<fixed-case>OPPO</fixed-case>’s Machine Translation Systems for <fixed-case>WMT</fixed-case>20</title>
+      <author><first>Tingxun</first><last>Shi</last></author>
+      <author><first>Shiyu</first><last>Zhao</last></author>
+      <author><first>Xiaopu</first><last>Li</last></author>
+      <author><first>Xiaoxue</first><last>Wang</last></author>
+      <author><first>Qian</first><last>Zhang</last></author>
+      <author><first>Di</first><last>Ai</last></author>
+      <author><first>Dawei</first><last>Dang</last></author>
+      <author><first>Xue</first><last>Zhengshan</last></author>
+      <author><first>Jie</first><last>Hao</last></author>
+      <pages>282–292</pages>
+      <abstract>In this paper we demonstrate our (OPPO’s) machine translation systems for the WMT20 Shared Task on News Translation for all the 22 language pairs. We will give an overview of the common aspects across all the systems firstly, including two parts : the data preprocessing part will show how the data are preprocessed and filtered, and the system part will show our models architecture and the techniques we followed. Detailed information, such as training hyperparameters and the results generated by each technique will be depicted in the corresponding subsections. Our final submissions ranked top in 6 directions (English   Czech, English   Russian, French   German and Tamil   English), third in 2 directions (English   German, English   Japanese), and fourth in 2 directions (English   Pashto and and English   Tamil).<tex-math>\leftrightarrow</tex-math> Czech, English <tex-math>\leftrightarrow</tex-math> Russian, French <tex-math>\rightarrow</tex-math> German and Tamil <tex-math>\rightarrow</tex-math> English), third in 2 directions (English <tex-math>\rightarrow</tex-math> German, English <tex-math>\rightarrow</tex-math> Japanese), and fourth in 2 directions (English <tex-math>\rightarrow</tex-math> Pashto and and English <tex-math>\rightarrow</tex-math> Tamil).</abstract>
+      <url hash="b7ee25aa">2020.wmt-1.30</url>
+      <video href="https://slideslive.com/38939558" />
+      <bibkey>shi-etal-2020-oppos</bibkey>
+    </paper>
+    <paper id="31">
+      <title>HW-TSC’s Participation in the WMT 2020 News Translation Shared Task<fixed-case>HW</fixed-case>-<fixed-case>TSC</fixed-case>’s Participation in the <fixed-case>WMT</fixed-case> 2020 News Translation Shared Task</title>
+      <author><first>Daimeng</first><last>Wei</last></author>
+      <author><first>Hengchao</first><last>Shang</last></author>
+      <author><first>Zhanglin</first><last>Wu</last></author>
+      <author><first>Zhengzhe</first><last>Yu</last></author>
+      <author><first>Liangyou</first><last>Li</last></author>
+      <author><first>Jiaxin</first><last>Guo</last></author>
+      <author><first>Minghan</first><last>Wang</last></author>
+      <author><first>Hao</first><last>Yang</last></author>
+      <author><first>Lizhi</first><last>Lei</last></author>
+      <author><first>Ying</first><last>Qin</last></author>
+      <author><first>Shiliang</first><last>Sun</last></author>
+      <pages>293–299</pages>
+      <abstract>This paper presents our work in the WMT 2020 News Translation Shared Task. We participate in 3 language pairs including Zh / En, Km / En, and Ps / En and in both directions under the constrained condition. We use the standard Transformer-Big model as the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> and obtain the best performance via two variants with larger parameter sizes. We perform detailed pre-processing and filtering on the provided large-scale bilingual and monolingual dataset. Several commonly used strategies are used to train our <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> such as <a href="https://en.wikipedia.org/wiki/Back_translation">Back Translation</a>, Ensemble Knowledge Distillation, etc. We also conduct experiment with similar language augmentation, which lead to positive results, although not used in our submission. Our submission obtains remarkable results in the final evaluation.</abstract>
+      <url hash="db78d297">2020.wmt-1.31</url>
+      <video href="https://slideslive.com/38939573" />
+      <bibkey>wei-etal-2020-hw</bibkey>
+    </paper>
+    <paper id="33">
+      <title>The Volctrans Machine Translation System for WMT20<fixed-case>WMT</fixed-case>20</title>
+      <author><first>Liwei</first><last>Wu</last></author>
+      <author><first>Xiao</first><last>Pan</last></author>
+      <author><first>Zehui</first><last>Lin</last></author>
+      <author><first>Yaoming</first><last>Zhu</last></author>
+      <author><first>Mingxuan</first><last>Wang</last></author>
+      <author><first>Lei</first><last>Li</last></author>
+      <pages>305–312</pages>
+      <abstract>This paper describes our submission systems for VolcTrans for WMT20 shared news translation task. We participated in 8 translation directions. Our basic systems are based on Transformer (CITATION), into which we also employed new architectures (bigger or deeper Transformers, dynamic convolution). The final systems include text pre-process, subword(a.k.a. BPE(CITATION)), baseline model training, iterative back-translation, model ensemble, knowledge distillation and multilingual pre-training.</abstract>
+      <url hash="58264a1d">2020.wmt-1.33</url>
+      <video href="https://slideslive.com/38939581" />
+      <bibkey>wu-etal-2020-volctrans</bibkey>
+    </paper>
+    <paper id="37">
+      <title>The NiuTrans Machine Translation Systems for WMT20<fixed-case>N</fixed-case>iu<fixed-case>T</fixed-case>rans Machine Translation Systems for <fixed-case>WMT</fixed-case>20</title>
+      <author><first>Yuhao</first><last>Zhang</last></author>
+      <author><first>Ziyang</first><last>Wang</last></author>
+      <author><first>Runzhe</first><last>Cao</last></author>
+      <author><first>Binghao</first><last>Wei</last></author>
+      <author><first>Weiqiao</first><last>Shan</last></author>
+      <author><first>Shuhan</first><last>Zhou</last></author>
+      <author><first>Abudurexiti</first><last>Reheman</last></author>
+      <author><first>Tao</first><last>Zhou</last></author>
+      <author><first>Xin</first><last>Zeng</last></author>
+      <author><first>Laohu</first><last>Wang</last></author>
+      <author><first>Yongyu</first><last>Mu</last></author>
+      <author><first>Jingnan</first><last>Zhang</last></author>
+      <author><first>Xiaoqian</first><last>Liu</last></author>
+      <author><first>Xuanjun</first><last>Zhou</last></author>
+      <author><first>Yinqiao</first><last>Li</last></author>
+      <author><first>Bei</first><last>Li</last></author>
+      <author><first>Tong</first><last>Xiao</last></author>
+      <author><first>Jingbo</first><last>Zhu</last></author>
+      <pages>338–345</pages>
+      <abstract>This paper describes NiuTrans neural machine translation systems of the WMT20 news translation tasks. We participated in Japanese-English, English-Chinese, Inuktitut-English and Tamil-English total five tasks and rank first in Japanese-English both sides. We mainly utilized iterative back-translation, different depth and widen model architectures, iterative knowledge distillation and iterative fine-tuning. And we find that adequately widened and deepened the <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> simultaneously, the performance will significantly improve. Also, iterative fine-tuning strategy we implemented is effective during adapting domain. For Inuktitut-English and Tamil-English tasks, we built multilingual models separately and employed pretraining word embedding to obtain better performance.</abstract>
+      <url hash="d2a127ab">2020.wmt-1.37</url>
+      <video href="https://slideslive.com/38939572" />
+      <bibkey>zhang-etal-2020-niutrans</bibkey>
+    </paper>
+    <paper id="39">
+      <title>Gender Coreference and Bias Evaluation at WMT 2020<fixed-case>WMT</fixed-case> 2020</title>
+      <author><first>Tom</first><last>Kocmi</last></author>
+      <author><first>Tomasz</first><last>Limisiewicz</last></author>
+      <author><first>Gabriel</first><last>Stanovsky</last></author>
+      <pages>357–364</pages>
+      <abstract>Gender bias in <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a> can manifest when choosing gender inflections based on spurious gender correlations. For example, always translating doctors as men and nurses as women. This can be particularly harmful as <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> become more popular and deployed within commercial systems. Our work presents the largest evidence for the phenomenon in more than 19 systems submitted to the WMT over four diverse target languages : <a href="https://en.wikipedia.org/wiki/Czech_language">Czech</a>, <a href="https://en.wikipedia.org/wiki/German_language">German</a>, <a href="https://en.wikipedia.org/wiki/Polish_language">Polish</a>, and <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a>. To achieve this, we use WinoMT, a recent automatic test suite which examines gender coreference and bias when translating from <a href="https://en.wikipedia.org/wiki/English_language">English</a> to languages with <a href="https://en.wikipedia.org/wiki/Grammatical_gender">grammatical gender</a>. We extend WinoMT to handle two new <a href="https://en.wikipedia.org/wiki/Language">languages</a> tested in WMT : <a href="https://en.wikipedia.org/wiki/Polish_language">Polish</a> and <a href="https://en.wikipedia.org/wiki/Czech_language">Czech</a>. We find that all <a href="https://en.wikipedia.org/wiki/System">systems</a> consistently use spurious correlations in the data rather than meaningful <a href="https://en.wikipedia.org/wiki/Context_(language_use)">contextual information</a>.</abstract>
+      <url hash="7a9c379f">2020.wmt-1.39</url>
+      <video href="https://slideslive.com/38939659" />
+      <bibkey>kocmi-etal-2020-gender</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2020">WMT 2020</pwcdataset>
+    </paper>
+    <paper id="42">
+      <title>Translating Similar Languages : Role of <a href="https://en.wikipedia.org/wiki/Mutual_intelligibility">Mutual Intelligibility</a> in Multilingual Transformers</title>
+      <author><first>Ife</first><last>Adebara</last></author>
+      <author><first>El Moatez Billah</first><last>Nagoudi</last></author>
+      <author><first>Muhammad</first><last>Abdul Mageed</last></author>
+      <pages>381–386</pages>
+      <abstract>In this work we investigate different approaches to translate between similar languages despite low resource limitations. This work is done as the participation of the UBC NLP research group in the WMT 2019 Similar Languages Translation Shared Task. We participated in all language pairs and performed various experiments. We used a transformer architecture for all the <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> and used <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a> for one of the language pairs. We explore both bilingual and multi-lingual approaches. We describe the pre-processing, training, translation and results for each <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a>. We also investigate the role of <a href="https://en.wikipedia.org/wiki/Mutual_intelligibility">mutual intelligibility</a> in <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> performance.</abstract>
+      <url hash="56245539">2020.wmt-1.42</url>
+      <video href="https://slideslive.com/38939640" />
+      <bibkey>adebara-etal-2020-translating</bibkey>
+    </paper>
+    <paper id="47">
+      <title>The IPN-CIC team system submission for the WMT 2020 similar language task<fixed-case>IPN</fixed-case>-<fixed-case>CIC</fixed-case> team system submission for the <fixed-case>WMT</fixed-case> 2020 similar language task</title>
+      <author><first>Luis A.</first><last>Menéndez-Salazar</last></author>
+      <author><first>Grigori</first><last>Sidorov</last></author>
+      <author><first>Marta R.</first><last>Costa-Jussà</last></author>
+      <pages>409–413</pages>
+      <abstract>This paper describes the participation of the NLP research team of the IPN Computer Research center in the WMT 2020 Similar Language Translation Task. We have submitted <a href="https://en.wikipedia.org/wiki/Linguistic_system">systems</a> for the Spanish-Portuguese language pair (in both directions). The three submitted systems are based on the Transformer architecture and used fine tuning for <a href="https://en.wikipedia.org/wiki/Domain_Adaptation">domain Adaptation</a>.</abstract>
+      <url hash="553ba031">2020.wmt-1.47</url>
+      <video href="https://slideslive.com/38939595" />
+      <bibkey>menendez-salazar-etal-2020-ipn</bibkey>
+    </paper>
+    <paper id="49">
+      <title>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020<fixed-case>NUIG</fixed-case>-Panlingua-<fixed-case>KMI</fixed-case> <fixed-case>H</fixed-case>indi-<fixed-case>M</fixed-case>arathi <fixed-case>MT</fixed-case> Systems for Similar Language Translation Task @ <fixed-case>WMT</fixed-case> 2020</title>
+      <author><first>Atul Kr.</first><last>Ojha</last></author>
+      <author><first>Priya</first><last>Rani</last></author>
+      <author><first>Akanksha</first><last>Bansal</last></author>
+      <author><first>Bharathi Raja</first><last>Chakravarthi</last></author>
+      <author><first>Ritesh</first><last>Kumar</last></author>
+      <author><first>John P.</first><last>McCrae</last></author>
+      <pages>418–423</pages>
+      <abstract>NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for HindiMarathi language pair. As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages. Among the 4 MT systems prepared under this task, 1 PBSMT systems were prepared for HindiMarathi each and 1 NMT systems were developed for <a href="https://en.wikipedia.org/wiki/Marathi_language">HindiMarathi</a> using Byte PairEn-coding (BPE) into subwords. The results show that different architectures NMT could be an effective method for developing MT systems for closely related languages. Our Hindi-Marathi NMT system was ranked 8th among the 14 teams that participated and our Marathi-Hindi NMT system was ranked 8th among the 11 teams participated for the task.</abstract>
+      <url hash="4d53a2ad">2020.wmt-1.49</url>
+      <video href="https://slideslive.com/38939638" />
+      <bibkey>ojha-etal-2020-nuig</bibkey>
+    <title_ar>NUIG-Panlingua-KMI Hindi-Marathi MT Systems لمهمة ترجمة لغة مماثلة @ WMT 2020</title_ar>
+      <title_pt>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_pt>
+      <title_fr>Systèmes de traduction automatique nuig-panlingua-KMI Hindi-Marathi pour tâche de traduction dans une langue similaire @ WMT 2020</title_fr>
+      <title_es>Sistemas de MT hindi-marathi de NUIG-Panlingua-KMI para tareas de traducción de idiomas similares @ WMT 2020</title_es>
+      <title_ja>類似言語翻訳タスクのためのNUIG - Panlingua - KMIヒンディー語-マラーティー語MTシステム@ WMT 2020</title_ja>
+      <title_zh>NUIG-Panlingua-KMI印地语-马拉地语MT统于类译@ WMT 2020</title_zh>
+      <title_hi>NUIG-Panlingua-KMI हिंदी-मराठी MT Systems for similar language translation task @ WMT 2020</title_hi>
+      <title_ru>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for similar language translation task @ WMT 2020</title_ru>
+      <title_ga>NUIG-Panlingua-KMI Hindi-Marathi Córais MT do Thasc Aistriúcháin Teangacha Comhchosúla @ WMT 2020</title_ga>
+      <title_ka>Name</title_ka>
+      <title_el>Συστήματα ΜΤ Χίντι-Μαραθί NUIG-Panlingua-KMI για εργασία μετάφρασης παρόμοιων γλωσσών</title_el>
+      <title_hu>NUIG-Panlingua-KMI Hindi-Marathi MT rendszerek hasonló nyelvű fordítási feladatokhoz @ WMT 2020</title_hu>
+      <title_it>Sistemi MT NUIG-Panlingua-KMI Hindi-Marathi per attività di traduzione di lingue simili @ WMT 2020</title_it>
+      <title_kk>NUIG- Panlingua- KMI Hindi- Marathi MT тіл аудару тапсырмасының жүйелері @ WMT 2020</title_kk>
+      <title_lt>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_lt>
+      <title_mk>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_mk>
+      <title_ms>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_ms>
+      <title_ml>@ WMT 2020</title_ml>
+      <title_mt>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_mt>
+      <title_pl>NUIG-Panlingua-KMI Hindi-Marathi systemy MT dla zadania tłumaczenia podobnego języka</title_pl>
+      <title_ro>Sisteme MT NUIG-Panlingua-KMI Hindi-Marathi pentru sarcina de traducere a limbilor similare @ WMT 2020</title_ro>
+      <title_no>NUIG- Panlingua- KMI Hindi- Marathi MT- systemer for liknande språk- omsetjingsverkt @ WMT 2020</title_no>
+      <title_so>@ WMT 2020</title_so>
+      <title_sv>NUIG-Panlingua-KMI Hindi-Marathi MT-system för översättning av liknande språk @ WMT 2020</title_sv>
+      <title_ta>@ WMT 2020</title_ta>
+      <title_sr>NUIG-Panlingua-KMI Hindi-Marathi MT sistemi za slični prevodni zadatak jezika @ WMT 2020</title_sr>
+      <title_si>@ WMT 2020Name</title_si>
+      <title_mn>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_mn>
+      <title_ur>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_ur>
+      <title_uz>@ WMT 2020</title_uz>
+      <title_vi>Hệ thống NIG-Panlinga-K Hindi-Marati MTV cho Công việc dịch ngôn ngữ tương tự... WM 2020</title_vi>
+      <title_bg>Хинди-марати МТ системи за подобна задача за превод на езици @ УМТ 2020</title_bg>
+      <title_nl>NUIG-Panlingua-KMI Hindi-Marathi MT-systemen voor vertaaltaken in vergelijkbare talen</title_nl>
+      <title_da>NUIG-Panlingua-KMI Hindi-Marathi MT-systemer til oversættelse af lignende sprog opgave @ WMT 2020</title_da>
+      <title_de>NUIG-Panlingua-KMI Hindi-Marathi MT-Systeme für ähnliche Übersetzungsaufgaben (WMT 2020)</title_de>
+      <title_ko>유사한 언어 번역 작업@WMT 2020용 NUIG Panlingua KMI Hindi Marathi 기계 번역 시스템</title_ko>
+      <title_fa>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_fa>
+      <title_sw>NUIG-Panlingua-KMI Hindi-Marathi MT Mfumo wa Tafsiri ya Lugha inayofanana</title_sw>
+      <title_af>NUIG- Panlingua- KMI Hindi- Marathi MT stelsels vir gelyklike taal vertaling taak@ WMT 2020</title_af>
+      <title_tr>NUIG-Panlingua-KMI Hindi-Marathi MT Öňe Diller terjime görevi üçin sistemler @WMT 2020</title_tr>
+      <title_hr>NUIG-Panlingua-KMI Hindi-Marathi MT sustavi za slični prevodni zadatak jezika @ WMT 2020</title_hr>
+      <title_sq>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_sq>
+      <title_am>የNUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task@WMT 2020</title_am>
+      <title_id>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_id>
+      <title_hy>Նմանատիպ լեզվի թարգմանման համակարգեր</title_hy>
+      <title_az>NUIG-Panlingua-KMI Hindi-Marathi MT Similar Dil Çeviri Gözəli Sistemləri @ WMT 2020</title_az>
+      <title_bn>@ WMT 2020</title_bn>
+      <title_cs>NUIG-Panlingua-KMI Hindi-Marathi MT systémy pro překlad podobného jazyka</title_cs>
+      <title_bs>NUIG-Panlingua-KMI Hindi-Marathi MT sistemi za slični prevodni zadatak jezika @ WMT 2020</title_bs>
+      <title_ca>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_ca>
+      <title_et>NUIG-Panlingua-KMI Hindi-Marathi MT süsteemid sarnase keele tõlke ülesandeks @ WMT 2020</title_et>
+      <title_fi>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_fi>
+      <title_jv>NUIG-Panlanguage-kmI Hong-Marati MT Sistem kanggo Terjamahan Inggal Kabungan Panlanguage</title_jv>
+      <title_ha>@ WMT 2020</title_ha>
+      <title_he>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_he>
+      <title_sk>NUIG-Panlingua-KMI Hindi-Marathi MT sistemi za podobno prevajanje jezikov @ WMT 2020</title_sk>
+      <title_bo>NUIG-Panlingua-KMI Hindi-Marathi MT Systems for Similar Language Translation Task @ WMT 2020</title_bo>
+      <abstract_fr>La soumission de Nuig-Panlingua-KMI au WMT 2020 vise à améliorer la technologie de la tâche de traduction dans une langue similaire pour la paire de langues hindi ↔ marathi. Dans le cadre de ces efforts, nous avons mené une série d'expériences visant à relever les défis de la traduction entre des langues similaires. Parmi les 4 systèmes de MT préparés dans le cadre de cette tâche, 1 système PBSMT a été préparé pour Hindi ↔ Marathi chacun et 1 système NMT a été développé pour Hindi ↔ Marathi en utilisant le codage par paires d'octets (BPE) dans des sous-mots. Les résultats montrent que différentes architectures NMT pourraient être une méthode efficace pour développer des systèmes de TA pour des langues étroitement liées. Notre système NMT Hindi-Marathi a été classé 8e parmi les 14 équipes qui ont participé et notre système NMT marathi-hindi a été classé 8e parmi les 11 équipes participantes pour la tâche.</abstract_fr>
+      <abstract_ar>يسعى تقديم NUIG-Panlingua-KMI إلى WMT 2020 إلى دفع مهمة ترجمة اللغة الأكثر حداثة لزوج اللغات الهندية الماراثية. كجزء من هذه الجهود ، أجرينا سلسلة من التجارب لمواجهة تحديات الترجمة بين اللغات المتشابهة. من بين أنظمة MT الأربعة التي تم إعدادها في إطار هذه المهمة ، تم إعداد 1 أنظمة PBSMT لكل من Hindi↔Marathi وتم تطوير 1 أنظمة NMT لـ Hindi -Marathi باستخدام Byte PairEn-coding (BPE) في كلمات فرعية. أظهرت النتائج أن البنى المختلفة NMT يمكن أن تكون طريقة فعالة لتطوير أنظمة الترجمة الآلية للغات وثيقة الصلة. تم تصنيف نظام Indian-Marathi NMT الخاص بنا في المرتبة الثامنة من بين 14 فريقًا شاركوا ، وتم تصنيف نظام Marathi-Indian NMT الخاص بنا في المرتبة 8 من بين 11 فريقًا شاركوا في المهمة.</abstract_ar>
+      <abstract_pt>A submissão do NUIG-Panlingua-KMI ao WMT 2020 busca impulsionar o estado da arte na tarefa de tradução de idiomas semelhantes para o par de idiomas hindi↔marathi. Como parte desses esforços, realizamos uma série de experimentos para enfrentar os desafios da tradução entre idiomas semelhantes. Entre os 4 sistemas MT preparados para esta tarefa, 1 sistema PBSMT foi preparado para Hindi↔Marathi cada e 1 sistema NMT foi desenvolvido para Hindi↔Marathi usando a codificação Byte PairEn (BPE) em subpalavras. Os resultados mostram que diferentes arquiteturas NMT podem ser um método eficaz para o desenvolvimento de sistemas MT para linguagens intimamente relacionadas. Nosso sistema Hindi-Marathi NMT ficou em 8º lugar entre as 14 equipes que participaram e nosso sistema Marathi-Hindi NMT ficou em 8º lugar entre as 11 equipes que participaram da tarefa.</abstract_pt>
+      <abstract_es>La presentación de NUIG-Panlingua-KMI al WMT 2020 busca impulsar el estado de la técnica en tareas de traducción de idiomas similares para el par de idiomas hindi ↔ marathi. Como parte de estos esfuerzos, realizamos una serie de experimentos para abordar los desafíos de la traducción entre idiomas similares. Entre los 4 sistemas MT preparados en esta tarea, se preparó 1 sistema PBSMT para Hindi ↔ Marathi cada uno y se desarrolló 1 sistema NMT para Hindi ↔ Marathi utilizando la codificación Byte Pair (BPE) en subpalabras. Los resultados muestran que diferentes arquitecturas NMT podrían ser un método eficaz para desarrollar sistemas de MT para lenguajes estrechamente relacionados. Nuestro sistema NMT hindi-marathi ocupó el octavo lugar entre los 14 equipos que participaron y nuestro sistema NMT marathi-hindi ocupó el octavo lugar entre los 11 equipos que participaron en la tarea.</abstract_es>
+      <abstract_ja>WMT 2020へのNUIG - Panlingua - KMI提出は、ヒンディー語と↔マラーティー語のペアのための類似言語翻訳タスクの最先端を推進しようとしています。これらの取り組みの一環として、同様の言語間の翻訳の課題に対処するための一連の実験を実施しました。このタスクの下で準備された4つのMTシステムのうち、1つのPBSMTシステムはヒンディー語↔マラーティー語のために各々準備され、1つのNMTシステムは、Byte PairEn - coding (BPE)をサブワードに使用してヒンディー語↔マラーティー語のために開発されました。結果は、異なるアーキテクチャNMTが密接に関連する言語のMTシステムを開発するための効果的な方法である可能性を示している。私たちのヒンディー・マラティNMTシステムは、参加した14チームの中で8位であり、私たちのマラティ・ヒンディーNMTシステムは、タスクのために参加した11チームの中で8位でした。</abstract_ja>
+      <abstract_hi>डब्ल्यूएमटी 2020 को एनयूआईजी-पनलिंगुआ-केएमआई प्रस्तुत करने का उद्देश्य हिंदी↔मराठा भाषा जोड़ी के लिए समान भाषा अनुवाद कार्य में अत्याधुनिक को आगे बढ़ाना है। इन प्रयासों के हिस्से के रूप में, हमने समान भाषाओं के बीच अनुवाद के लिए चुनौतियों का सामना करने के लिए प्रयोगों की एक श्रृंखला आयोजित की। इस कार्य के तहत तैयार की गई 4 एमटी प्रणालियों में से, हिंदी↔मराठा के लिए 1 पीबीएसएमटी प्रणालियां तैयार की गई थीं और हिंदी↔मराठा के लिए बाइट पेयरएन-कोडिंग (बीपीई) को उप-शब्दों में उपयोग करके 1 एनएमटी प्रणालियों को विकसित किया गया था। परिणामों से पता चलता है कि विभिन्न आर्किटेक्चर एनएमटी निकटता से संबंधित भाषाओं के लिए एमटी सिस्टम विकसित करने के लिए एक प्रभावी तरीका हो सकता है। हमारी हिंदी-मराठी एनएमटी प्रणाली भाग लेने वाली 14 टीमों में 8 वें स्थान पर थी और हमारी मराठी-हिंदी एनएमटी प्रणाली को कार्य के लिए भाग लेने वाली 11 टीमों में से 8 वें स्थान पर रखा गया था।</abstract_hi>
+      <abstract_zh>NUIG-Panlingua-KMI向WMT 2020文旨在推印地语↔马拉地语对类语译。 为此一分,列实验,以应类言。 以此4MT统,各为HindiMarathi↔备1PBSMT,用Byte PairEn编码(BPE)为HindiMarathi↔发1NMT统。 结果表明异架构NMT者,或为密言开机器翻译系统之效也。 吾印地语 - 马拉地语NMT系于参事者14一团队中排名第8位,吾马拉地语 - 印地语NMT系于参事者11团队中排名第8位。</abstract_zh>
+      <abstract_ru>Представление NUIG-Panlingua-KMI на WMT 2020 направлено на продвижение современной задачи аналогичного перевода языка для↔ языковой пары хинди-маратхи. В рамках этих усилий мы провели серию экспериментов для решения проблем перевода между похожими языками. Среди 4 систем MT, подготовленных в соответствии с этой задачей, 1 система PBSMT была подготовлена для↔ каждого хинди-маратхи и 1 система NMT была разработана для хинди-маратхи с↔ использованием кодирования Byte PairEn (BPE) в подсловы. Результаты показывают, что различные архитектуры NMT могут быть эффективным методом разработки систем МП для тесно связанных языков. Наша система NMT Hindi-Marathi заняла 8-е место среди 14 команд, которые участвовали в задании, а наша система NMT Marathi-Hindi заняла 8-е место среди 11 команд, участвовавших в задании.</abstract_ru>
+      <abstract_ga>Féachann aighneacht NUIG-Panlingua-KMI chuig WMT 2020 leis an Tasc Aistriúcháin Teanga den chéad scoth a bhrú chun cinn don phéire teangacha Hiondúis↔Maraitis. Mar chuid de na hiarrachtaí seo, rinneamar sraith turgnamh chun dul i ngleic leis na dúshláin a bhaineann le haistriúchán idir teangacha comhchosúla. I measc na 4 chóras MT a ullmhaíodh faoin tasc seo, ullmhaíodh 1 chóras PBSMT le haghaidh Hiondúis↔Maraitis an ceann agus forbraíodh 1 chóras NMT don Hindi↔Marathi ag baint úsáide as Byte PairEn-coding (BPE) ina bhfofhocail. Léiríonn na torthaí go bhféadfadh ailtireachtaí éagsúla NMT a bheith ina mhodh éifeachtach chun córais MT a fhorbairt do theangacha dlúthghaolmhara. Rangaíodh ár gcóras NMT Hiondúis-Maraitis san 8ú háit i measc na 14 fhoireann a ghlac páirt agus bhí ár gcóras NMT Maraitis-Hiondúis san 8ú háit i measc na 11 fhoireann a ghlac páirt sa tasc.</abstract_ga>
+      <abstract_el>Η υποβολή του NUIG-Panlingua-KMI στο WMT 2020 επιδιώκει να προωθήσει την υπερσύγχρονη εργασία μετάφρασης παρόμοιων γλωσσών για το ζεύγος γλωσσών Χίντι Μαραθί. Στο πλαίσιο αυτών των προσπαθειών, πραγματοποιήσαμε μια σειρά πειραμάτων για την αντιμετώπιση των προκλήσεων για τη μετάφραση μεταξύ παρόμοιων γλωσσών. Μεταξύ των τεσσάρων συστημάτων MT που προετοιμάστηκαν στο πλαίσιο αυτού του έργου, προετοιμάστηκαν 1 συστήματα PBSMT για τα Hindi Marathi κάθε και 1 συστήματα NMT αναπτύχθηκαν για Hindi Marathi χρησιμοποιώντας την κωδικοποίηση Byte PairEn (BPE) σε υπολέξεις. Τα αποτελέσματα δείχνουν ότι οι διαφορετικές αρχιτεκτονικές θα μπορούσαν να αποτελέσουν αποτελεσματική μέθοδο για την ανάπτυξη συστημάτων ΜΤ για στενά συνδεδεμένες γλώσσες. Το σύστημα μας Χίντι-Μαραθί κατατάχθηκε 8η μεταξύ των 14ων ομάδων που συμμετείχαν και το σύστημα μας Μαραθί-Χίντι κατατάχθηκε 8η μεταξύ των 11ων ομάδων που συμμετείχαν για το έργο.</abstract_el>
+      <abstract_ka>NUIG-Panlingua-KMI WMT 2020-ს გადაწყვეტილებას ძირებს იგივე მსგავსი ენის გადაწყვეტილების რაოდენობაში ჰინდი მარატი ენის ზოგებისთვის გადაწყვეტილება. როგორც ამ ძალების ნაწილი, ჩვენ ექსპერიმენტების სერიონი გავაკეთეთ, როგორც იგივე ენების შორის გადაწყვეტილებისთვის გამოცდილება. 4 MT სისტემების განმავლობაში, ამ დავალების გამოყენებაში 1 PBSMT სისტემები ჰინდი მარატის განმავლობაში ყოველ და 1 NMT სისტემები ჰინდი მარატის გამოყენებაში გამოყენებული ბაიტი PairEn-coding (BPE) სისტემებში გავი შედეგი გამოჩვენება, რომ განსხვავებული არქტიქტურები NMT შეიძლება იყოს ეფექტიური პროცემი MT სისტემის განვითარება მხოლოდ დაკავშირებული ენებისთ ჩვენი ჰინდი-მარატი NMT სისტემა იყო 8-ი პრონეტი 14 ჯგუფი, რომელიც ჩვენი მარატი-ჰინდი NMT სისტემა იყო 8-ი პრონეტი 11 ჯგუფი განმავლობაში.</abstract_ka>
+      <abstract_hu>A NUIG-Panlingua-KMI benyújtása a WMT 2020-ra törekszik arra, hogy előmozdítsa a hasonló nyelvű fordítási feladatokat a hindi marathi nyelvpár számára. Ezen erőfeszítések részeként kísérletsorozatot végeztünk a hasonló nyelvek közötti fordítás kihívásainak kezelésére. Az e feladat keretében előkészített 4 MT rendszer közül 1 PBSMT rendszert készítettek Hindi Marathi számára, 1 NMT rendszert pedig a Hindi Marathi számára Byte PairEn kódolással (BPE) fejlesztettek ki. Az eredmények azt mutatják, hogy a különböző architektúrák NMT hatékony módszer lehet MT rendszerek fejlesztésére szorosan kapcsolódó nyelvek számára. Hindi-Marathi NMT rendszerünk a 14 résztvevő csapat közül a 8. helyen állt, Marathi-Hindi NMT rendszerünk pedig a 8. helyen állt a feladatra részt vevő 11 csapat közül.</abstract_hu>
+      <abstract_it>La presentazione di NUIG-Panlingua-KMI a WMT 2020 mira a spingere lo stato dell'arte nella traduzione di lingue simili per la coppia di lingue Hindi Marathi. Nell'ambito di questi sforzi, abbiamo condotto una serie di esperimenti per affrontare le sfide della traduzione tra lingue simili. Tra i 4 sistemi MT preparati nell'ambito di questo compito, 1 sistemi PBSMT sono stati preparati per Hindi Marathi ciascuno e 1 sistemi NMT sono stati sviluppati per Hindi Marathi utilizzando la codifica Byte PairEn (BPE) in subparole. I risultati mostrano che diverse architetture NMT potrebbero essere un metodo efficace per sviluppare sistemi MT per linguaggi strettamente correlati. Il nostro sistema NMT Hindi-Marathi si è classificato ottavo tra le 14 squadre che hanno partecipato e il nostro sistema NMT Marathi-Hindi si è classificato ottavo tra le 11 squadre partecipanti al compito.</abstract_it>
+      <abstract_kk>NUIG-Panlingua-KMI WMT 2020 дегенге жіберу үшін хинди марати тілдерінің екі үшін ұқсас тілдерді аудару тапсырмасының күйін басып тастау керек. Бұл әрекеттердің бір бөлігі болса, біз ұқсас тілдер арасындағы аудармалардың өзгерістерін өзгерту үшін бірнеше тәжірибелерді жасадық. Бұл тапсырманың астындағы 4 MT жүйелердің арасында 1 PBSMT жүйелері инду марати үшін әрбір NMT жүйелері инду марати үшін Байт Пайеренкодирову (BPE) бағытты сөздерге жасалған. Нәтижелер NMT архитектуралары жақын тілдер үшін MT жүйелерін жасау әдісі болуы мүмкін. Біздің Хинди-Марати NMT жүйесіміз 14 топтардың 8-ші ретінде сақталды. Марати-Хинди NMT жүйесіміз 11 топтардың 8-ші ретінде сақталды.</abstract_kk>
+      <abstract_lt>NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for Hindi Marathi language pair.  As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  Iš 4 MT sistemų, parengtų pagal šią užduotį, viena PBSMT sistema buvo parengta Hindi Marathi, viena NMT sistema buvo parengta Hindi Marathi, o viena NMT sistema buvo sukurta Hindi Marathi, naudojant Byte PairEn kodavimą (BPE) į parašus. Rezultatai rodo, kad skirtingos NMT architektūros galėtų būti veiksmingas metodas plėtoti glaudžiai susijusių kalbų MT sistemas. Mūsų Hindi-Marathi NMT sistema buvo 8-oji iš 14 komandų, kurios dalyvavo, o mūsų Marathi-Hindi NMT sistema buvo 8-oji iš 11 komandų, kurios dalyvavo šioje užduotyje.</abstract_lt>
+      <abstract_mk>Предложението на НУИГ-Панлингва-КМИ на ВМТ 2020 се обидува да ја притисне најновата техничка задача за преведување на слични јазици за парот на хиндиски маратски јазик. As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  Among the 4 MT systems prepared under this task, 1 PBSMT systems were prepared for Hindi Marathi each and 1 NMT systems were developed for Hindi Marathi using Byte PairEn-coding (BPE) into subwords.  Резултатите покажуваат дека различните архитектури НМТ би можеле да бидат ефикасен метод за развој на МТ системи за блиски поврзани јазици. Нашиот хинди-маратски НМТ систем беше рангиран на осмиот место меѓу 14 тимови кои учествуваа, а нашиот марати-хинди НМТ систем беше рангиран на осмиот место меѓу 11 тимови кои учествуваа во задачата.</abstract_mk>
+      <abstract_ml>ഹിന്ദി മാരാത്തി ഭാഷയുടെ ജോടികള്‍ക്കുള്ള പോലുള്ള ഭാഷയിലെ സ്ഥിതിയുടെ രാജ്യത്തെ പ്രവര്‍ത്തിപ്പിക്കാന്‍ ശ്രമിക്കുന്നു. ഇത്തരം പരീക്ഷണങ്ങളില്‍ ഒരു ഭാഗമായി ഞങ്ങള്‍ പരീക്ഷണങ്ങള്‍ നടത്തിയിട്ടുണ്ട്. അതുപോലെയുള്ള ഭാഷകള്‍ക്കിടയില്‍ വ്യാ Among the 4 MT systems prepared under this task, 1 PBSMT systems were prepared for Hindi Marathi each and 1 NMT systems were developed for Hindi Marathi using Byte PairEn-coding (BPE) into subwords.  അതിന്റെ ഫലങ്ങള്‍ ഞങ്ങളുടെ ഹിന്ദി-മാരാത്തി NMT സിസ്റ്റത്തില്‍ പങ്കുചേര്‍ന്ന 14 ഗ്രൂപ്പുകളില്‍ എട്ടാമത്തെ റാഞ്ച് ചെയ്തു. ഞങ്ങളുടെ മാരാത്തി-ഹിന്ദി-എം</abstract_ml>
+      <abstract_mn>NUIG-Panlingua-KMI WMT 2020-д хэлж байгаа нь Хинди Марати хэлний хоёрын төстэй хэлний хөрөнгө хөрөнгө оруулах үйл явц юм. Эдгээр хичээлийн нэг хэсэг болгон бид төстэй хэл хоорондоо орчуулахын тулд олон туршилтыг хийсэн. Энэ ажлын доор бэлдэн 4 MT системийн дотор 1 PBSMT систем нь Хинди Марати-д бүр 1 NMT систем бүрдүүлсэн бөгөөд Хинди Марати-д Байт PairEn-кодлог (BPE) гэсэн үг болгон хөгжүүлсэн. Үүний үр дүнд NMT-ийн өөр архитектурууд ойролцоогоор холбоотой хэлний MT системийг хөгжүүлэх эффективний арга болж чадна. Бидний Хинди-Марати NMT систем 14 багт оролцсон бөгөөд Марати-Хинди NMT систем 11 багт оролцсон бөгөөд 8-р багт оролцсон.</abstract_mn>
+      <abstract_no>NUIG-Panlingua-KMI-submission to WMT 2020 seeks to push the state-of-the-art in similar Language Translation Task for Hindi Marathi language pair. Som ein del av desse forsøka har vi gjennomført rekkje eksperimenter for å handsama utfordringane for omsetjing mellom liknande språk. Av 4 MT-systema som er forberedt under denne oppgåva vart 1 PBSMT-systemet forberedt for Hindi-Marathi kvar og 1 NMT-systemet utvikla for Hindi-Marathi med byte-PairEn-koding (BPE) i underord. Resultatet viser at ulike arkitekturar NMT kan vera ein effektiv metode for å utvikla MT-systemet for nærare relaterte språk. Vårt Hindi-Marathi NMT-system var rankert 8. mellom de 14 gruppene som deltok, og vårt Marathi-Hindi NMT-system var rankert 8. mellom de 11 gruppene deltok i oppgåva.</abstract_no>
+      <abstract_pl>Zgłoszenie NUIG-Panlingua-KMI do WMT 2020 ma na celu przekształcenie najnowocześniejszych zadań tłumaczeniowych podobnych języków dla pary językowej Hindi Marathi. W ramach tych wysiłków przeprowadziliśmy serię eksperymentów mających na celu sprostanie wyzwaniom związanym z tłumaczeniem między podobnymi językami. Wśród 4-MT systemów przygotowanych w ramach tego zadania przygotowano systemy 1 PBSMT dla Hindi Marathi każdy i 1 NMT systemy zostały opracowane dla Hindi Marathi z wykorzystaniem kodowania Byte PairEn (BPE) w podsłowa. Wyniki pokazują, że różne architektury NMT mogłyby być skuteczną metodą tworzenia systemów MT dla blisko pokrewnych języków. Nasz system NMT Hindi-Marathi znalazł się ósmym miejscem wśród czternastu zespołów, które uczestniczyły, a nasz system NMT Marathi-Hindi znalazł się ósmym miejscem wśród jedenastu zespołów uczestniczących w tym zadaniu.</abstract_pl>
+      <abstract_ro>Prezentarea NUIG-Panlingua-KMI la WMT 2020 urmărește să promoveze activitatea de ultimă generație în traducerea limbilor similare pentru perechea de limbi hindi marathi. Ca parte a acestor eforturi, am realizat o serie de experimente pentru a aborda provocările legate de traducerea între limbi similare. Dintre cele 4 sisteme MT pregătite în cadrul acestei sarcini, 1 sisteme PBSMT au fost pregătite fiecare pentru Hindi Marathi și 1 sisteme NMT au fost dezvoltate pentru Hindi Marathi folosind codificarea Byte PairEn (BPE) în subcuvinte. Rezultatele arată că diferite arhitecturi NMT ar putea fi o metodă eficientă pentru dezvoltarea sistemelor MT pentru limbi strâns conexe. Sistemul nostru NMT Hindi-Marathi a fost clasat pe locul 8 în rândul celor 14 echipe care au participat, iar sistemul nostru NMT Marathi-Hindi a fost clasat pe locul 8 în rândul celor 11 echipe participate la această sarcină.</abstract_ro>
+      <abstract_sr>NUIG-Panlingua-KMI podnošenje WMT 2020 traži da gura državu umjetnosti u sličnom jezičkom prevodnom zadatku za indijske maratijske parove. Kao deo tih napora, proveli smo seriju eksperimenata da se riješimo izazovima za prevod između sličnih jezika. Između 4 MT sustava pripremljenih pod ovim zadatkom, 1 PBSMT sistem je pripremljen za Hindi Marathi i 1 NMT sistem je razvijen za Hindi Marathi koristeći Byte PairEn-kodiranje (BPE) u podreči. Rezultati pokazuju da bi različite arhitekture NMT mogle biti efikasni metod razvoja MT-sistema za bliski povezane jezike. Naš Hindi-Marathi NMT sistem je bio 8. red među 14 tima koji su sudjelovali, a naš Marathi-Hindi NMT sistem je bio 8. red među 11 tima koji su sudjelovali u tom zadatku.</abstract_sr>
+      <abstract_so>NUIG-Panlingua-KMI ayaa u dhiibaya WMT 2020 wuxuu doonayaa inuu dhaqaajiyo xaalada-the-art oo ku qoran turjumista luqada isku mid ah ee Hindi Marathi labaad. Qayb ka mid ah hawlahaas, waxaan sameynay jirrabooyin badan si aan uga sheekeyno dhibaatooyinka turjumidda luuqadaha oo isku mid ah. 4 MT systems oo lagu diyaariyey shuqulkaas hoostiisa, 1 PBSMT nidaam waxaa loo diyaariyey Hindi Marathi mid kasta iyo 1 NMT systems waxaa loo horumariyey Hindi Marathi using Byte Pairen coding (BPE). Abaalku waxay muuqataa in dhismaha kala duwan ee NMT wuxuu noqon karaa qaab faa’iido ah oo u horumarinta nidaamka MT ee luuqadaha ku dhow ee la xidhiidha. Xindi-Marathi NMT nidaamkayagii waxaa lagu kala soocay 8aad oo ka mid ahaa kooxda 14 ee ka qayb galay, waxaana nidaamka Marathi-Hindi NMT lagu kala soocay 8aad oo ka mid ahaa kooxda u qayb galay shaqada.</abstract_so>
+      <abstract_si>NAIG-Panlinga-KMI WMT 2020ට පිළිගන්න සැලසුම් කරනවා හින්දි මාරාති භාෂාව සඳහා සමාන භාෂාව භාෂාව සඳහා සමාන භාෂාව සඳහා ක්‍රියා මේ උත්සහේ කොටසක් විදිහට, අපි පරීක්ෂණාවක් කරනවා වගේ භාෂාවක් අතර වාර්තාවක් සඳහා අභ්‍යාගයක් ස මේ වැඩේ හරි MT පද්ධති 4 අතර, 1 PBSMT පද්ධතිය හින්දි මාරාති වලට සූදානම් කරලා හින්දි මාරාති වලට බායිට් පයේරෙන් කෝඩින් වලට (BPE) භාවිත කරන් ප්‍රතිචාරය පෙන්වන්නේ වෙනස් ස්ථාපනය NMT විශේෂ විදිහට සම්බන්ධ භාෂාවක් සඳහා MT පද්ධතිය ව අපේ හින්දී-මාරාතී NMT පද්ධතිය අංශි අංශි අංශි අංශි අංශි අංශි අංශි අංශි අංශි අංශි අංශි අ</abstract_si>
+      <abstract_sv>NUIG-Panlingua-KMI inlämnande till WMT 2020 syftar till att driva den senaste uppgiften för översättning av liknande språk för hindi marathi språkpar. Som en del av dessa insatser genomförde vi en serie experiment för att ta itu med utmaningarna för översättning mellan liknande språk. Bland de 4 MT-system som utarbetats under denna uppgift förbereddes 1 PBSMT-system för Hindi Marathi var och en och 1 NMT-system utvecklades för Hindi Marathi med Byte PairEn-kodning (BPE) till underord. Resultaten visar att olika arkitekturer NMT kan vara en effektiv metod för att utveckla MT-system för närbesläktade språk. Vårt Hindi-Marathi NMT-system rankades 8:e bland de 14 lag som deltog och vårt Marathi-Hindi NMT-system rankades 8:e bland de 11 lag som deltog för uppgiften.</abstract_sv>
+      <abstract_ta>Name இந்த முயற்சிகளின் பகுதி இந்த பணிக்கு கீழே தயாரிக்கப்பட்ட 4 MT அமைப்புகளில், 1 PBSMT அமைப்புகள் ஒவ்வொரு மற்றும் 1 NMT அமைப்புகள் துணை வார்த்தைகளில் பைட் பேரின் குறியீடு (BPE) பயன்படுத The results show that different architectures NMT could be an effective method for developing MT systems for closely related languages.  எங்கள் இந்தி-மாராத்தி என்எம்டி அமைப்பு பங்கிடப்பட்ட 14 குழுக்களில் 8வது பங்கிடப்பட்டது மற்றும் எங்கள் மாராத்தி-ஹின்டி-என்எம்டி அமைப்பு பணிக</abstract_ta>
+      <abstract_ur>NUIG-Panlingua-KMI WMT 2020 کے تحویل کی کوشش ہے کہ ہندی مارتی زبان جوڑوں کے لئے سیدھی زبان ترجمہ ٹاکس میں فشار کرنا چاہتا ہے. ہم نے ان تلاشوں میں سے ایک حصہ کے طور پر ایک سری تجربے کی جگہ پہنچائیں جیسی زبانوں کے درمیان ترجمہ کرنے کے لئے چالیں کرنے کے لئے۔ اس کام کے نیچے تیار کیے گئے 4 MT سیستم میں 1 PBSMT سیستم ہندی ماراتی کے لئے تیار کیے گئے، ہر ایک NMT سیستم ہندی ماراتی کے لئے بائیٹ پایرن کوڈینگ (BPE) کے مطابق زیر کلمات کے لئے تیار کیے گئے۔ نتائج دکھاتے ہیں کہ مختلف معماری NMT ایک عمدہ طریقہ بن سکتا ہے MT سیستموں کے لئے نزدیک مرتبہ زبانوں کے لئے۔ ہماری ہندی ماراتی NMT سیسٹم 14 تیموں میں 8 رقم تھا اور ہماری ماراتی-ہندی NMT سیسٹم 11 تیموں میں 8 رقم تھا جو اس کام کے لئے شرکت کی تھی.</abstract_ur>
+      <abstract_mt>NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for Hindi Marathi language pair.  Bħala parti minn dawn l-isforzi, wettaqna sensiela ta’ esperimenti biex nindirizzaw l-isfidi għat-traduzzjoni bejn lingwi simili. Among the 4 MT systems prepared under this task, 1 PBSMT systems were prepared for Hindi Marathi each and 1 NMT systems were developed for Hindi Marathi using Byte PairEn-coding (BPE) into subwords.  The results show that different architectures NMT could be an effective method for developing MT systems for closely related languages.  Our Hindi-Marathi NMT system was ranked 8th among the 14 teams that participated and our Marathi-Hindi NMT system was ranked 8th among the 11 teams participated for the task.</abstract_mt>
+      <abstract_ms>NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for Hindi Marathi language pair.  As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  Among the 4 MT systems prepared under this task, 1 PBSMT systems were prepared for Hindi Marathi each and 1 NMT systems were developed for Hindi Marathi using Byte PairEn-coding (BPE) into subwords.  The results show that different architectures NMT could be an effective method for developing MT systems for closely related languages.  Sistem NMT Hindi-Marathi kami ditetapkan ke-8 diantara 14 pasukan yang berpartisipasi dan sistem NMT Marathi-Hindi kami ditetapkan ke-8 diantara 11 pasukan yang berpartisipasi untuk tugas.</abstract_ms>
+      <abstract_uz>Name Bu jarayonlarning bir qismida biz bir necha tajribalarni bajardik, bu o'xshash tillar orasidagi tarjima qilish uchun muammolarni boshqarish uchun. Ushbu vazifa ichida tayyorlangan 4 MT tizimdan bir PBSMT tizimi Hindi Marathi uchun tayyorlangan va 1 NMT tizimi Byte Pairen kodlash (BPE) bilan bir xizmatga yaratildi. @ info Bizning Hindi-Marathi NMT tizimimiz ishga tayyorlangan 14 guruhdagi 8 ta ta ta'mindan boshlangan edi va bizning Marathi-Hindi NMT tizimimizning 11 guruhi uchun qiziqarishga ega bo'lgan 11 guruhdan 8 ta ta ta'mindan boshlanadi.</abstract_uz>
+      <abstract_vi>Người cung cấp cho WRT 2020 đã tìm cách thúc đẩy tiến trình độ cao của ngôn ngữ tương tự dịch cho cá nhân Ấn Độ Độ Độ Độ Độ Độ Độ. Trong những nỗ lực này, chúng tôi tiến hành một loạt các thí nghiệm nhằm giải quyết các vấn đề dịch thuật giữa các ngôn ngữ tương tự. Trong những hệ thống 4 MTV được chuẩn bị trong phần này, 1 hệ thống PBSMT được chuẩn bị cho cá nhân Ấn Độ Marath và 1 hệ thống NMT được phát triển cho Hindi Marath, sử dụng Byte pair Ent-code (BPE) thành chữ phụ. Kết quả cho thấy cấu trúc khác nhau NMB có thể là một cách thức hiệu quả để phát triển hệ thống MTV cho các ngôn ngữ liên quan mật thiết. Hệ thống NMB của chúng tôi được phân loại 8th trong các đội bốn người đã tham gia và hệ thống NMB của chúng tôi được phân loại 8th trong các đội 11 đã tham gia nhiệm vụ.</abstract_vi>
+      <abstract_da>NUIG-Panlingua-KMI indsendelse til WMT 2020 søger at skubbe den avancerede opgave inden for oversættelse af lignende sprog til hindi marathi sprogpar. Som led i disse bestræbelser gennemførte vi en række eksperimenter for at imødegå udfordringerne for oversættelse mellem lignende sprog. Blandt de 4 MT systemer, der blev udarbejdet under denne opgave, blev 1 PBSMT systemer forberedt til Hindi Marathi hver og 1 NMT systemer blev udviklet til Hindi Marathi ved hjælp af Byte PairEn-kodning (BPE) til underord. Resultaterne viser, at forskellige arkitekturer NMT kunne være en effektiv metode til udvikling af MT systemer til nært beslægtede sprog. Vores Hindi-Marathi NMT system blev placeret 8. blandt de 14 hold, der deltog, og vores Marathi-Hindi NMT system blev placeret 8. blandt de 11 hold, der deltog i opgaven.</abstract_da>
+      <abstract_nl>NUIG-Panlingua-KMI indiening aan WMT 2020 streeft ernaar de state-of-the-art in Vergelijkbare Taalvertaaltaak voor Hindi Marathi taalpaar te pushen. Als onderdeel van deze inspanningen hebben we een reeks experimenten uitgevoerd om de uitdagingen voor de vertaling tussen vergelijkbare talen aan te pakken. Onder de vier MT-systemen die onder deze taak werden voorbereid, werden 1 PBSMT-systemen voorbereid voor Hindi Marathi elk en 1 NMT-systemen werden ontwikkeld voor Hindi Marathi met behulp van Byte PairEn-codering (BPE) in subwoorden. De resultaten tonen aan dat verschillende architecturen NMT een effectieve methode zou kunnen zijn voor het ontwikkelen van MT systemen voor nauw verwante talen. Ons Hindi-Marathi NMT systeem werd 8e onder de 14-teams die deelnamen en ons Marathi-Hindi NMT systeem werd 8e geplaatst onder de elf teams die aan de taak deelnamen.</abstract_nl>
+      <abstract_bg>Представянето на НУИГ-Панлингуа-КМИ за WMT 2020 се стреми да тласне най-съвременната задача за превод на сходни езици за езиковата двойка хинди марати. Като част от тези усилия проведохме серия от експерименти за справяне с предизвикателствата пред превода между сходни езици. Сред 4-те МТ системи, подготвени по тази задача, са изготвени по 1 ПБСМТ системи за хинди марати и 1 НМТ системи за хинди марати са разработени с помощта на байт pairEn кодиране (BPE) в поддуми. Резултатите показват, че различните архитектури могат да бъдат ефективен метод за разработване на МТ системи за тясно свързани езици. Нашата Хинди-Марати НМТ система бе класирана на 8-о място сред 14-те отбора, които участваха, а нашата Марати-Хинди НМТ система бе класирана на 8-о място сред 11-те отбора, участващи в задачата.</abstract_bg>
+      <abstract_de>Die NUIG-Panlingua-KMI-Einreichung bei WMT 2020 zielt darauf ab, den Stand der Technik in der Übersetzungsaufgabe ähnlicher Sprachen für Hindi Marathi Sprachpaare voranzutreiben. Im Rahmen dieser Bemühungen führten wir eine Reihe von Experimenten durch, um die Herausforderungen bei der Übersetzung zwischen ähnlichen Sprachen anzugehen. Unter den vier MT-Systemen, die unter dieser Aufgabe vorbereitet wurden, wurden 1 PBSMT-Systeme für Hindi Marathi vorbereitet. Jedes NMT-System wurde für Hindi Marathi mit Byte PairEn-Coding (BPE) in Unterwörter entwickelt. Die Ergebnisse zeigen, dass verschiedene Architekturen NMT eine effektive Methode zur Entwicklung von MT-Systemen für eng verwandte Sprachen sein könnten. Unser Hindi-Marathi NMT-System wurde achtster unter den 14-Teams, die teilgenommen haben, und unser Marathi-Hindi NMT-System wurde achtster unter den elf Teams, die an dieser Aufgabe teilgenommen haben.</abstract_de>
+      <abstract_ko>NUIG Panlingua KMI가 WMT 2020에 제출한 문서는 비슷한 언어 번역 작업에 대한 인도어-말라디어의 최신 진전을 추진하기 위한 것이다.이러한 노력의 일부로서 우리는 유사한 언어 간의 번역 도전에 대응하기 위해 일련의 실험을 진행했다.이 임무에 준비된 4개 기계번역시스템 중 각 시스템은 인디언 말라디어를 위한 PBSMT 시스템을, 인디언 말라디어를 위한 NMT 시스템을 1개씩 개발해 바이트 쌍 코드(BPE)를 사용해 자자로 전환했다.그 결과 서로 다른 체계 구조의 NMT는 밀접한 관계를 가진 언어를 위해 기계 번역 시스템을 개발하는 효과적인 방법임이 밝혀졌다.우리의 인디언 말라티NMT 시스템은 14개 참가팀 중 8위, 우리의 말라티인디언NMT 시스템은 11개 참가팀 중 8위에 올랐다.</abstract_ko>
+      <abstract_fa>NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for Hindi Marathi language pair. به عنوان بخشی از این تلاش، ما مجموعه آزمایشات را انجام دادیم تا چالش های ترجمه بین زبانهای مشابه را حل کنیم. بین سیستم‌های ۴ MT آماده شده در زیر این کار، ۱ سیستم PBSMT برای ماراتی هندی آماده شده بود و ۱ سیستم NMT برای ماراتی هندی با استفاده از کید سایت پایرن (BPE) به زیر کلمه توسعه داده شد. نتیجه‌ها نشان می‌دهند که معماری‌های مختلف NMT می‌تواند روش موثری برای توسعه سیستم‌های MT برای زبانهای نزدیک ارتباط باشد. سیستم NMT هندی-ماراتی ما از ۱۴ تیم شرکت کردند و سیستم NMT ماراتی-هندی ما از ۱۱ تیم شرکت کردند.</abstract_fa>
+      <abstract_sw>NUIG-Panlingua-KMI inawasilisha WMT 2020 inakusudia kushinikiza hali ya sanaa inayofanana na kazi ya Tafsiri ya lugha ya Kihindi Marathi. As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  Miongoni mwa mifumo minne ya MT iliyoandaliwa chini ya kazi hii, mifumo 1 ya PBSMT yaliandaliwa kwa ajili ya Mfumo wa Kihindi Marathi kila na moja ya NMT zilianzishwa kwa ajili ya Hindi Marathi kwa kutumia simu za Byte Pairen (BPE). Matokeo yanaonyesha kwamba majengo tofauti ya NMT inaweza kuwa njia yenye ufanisi wa kutengeneza mfumo wa MT kwa lugha zinazohusiana na karibu. Mfumo wetu wa NMT wa Hindi-Marathi ulikuwa wa rangi ya nane kati ya timu 14 zilizoshiriki na mfumo wetu wa Marathi-Hindi NMT ulikuwa wa rangi ya nane kati ya timu 11 walishiriki kufanya kazi hiyo.</abstract_sw>
+      <abstract_tr>NUIG-Panlingua-KMI WMT 2020'a teslim etmek isleýär. Hindi Marathi dil çiftleri üçin bir nusga meýdançasynyň durumyny täze etmek isleýär. Bu çabalaryň bir bölegi bolsa, meňzeş diller arasynda terjime etmek üçin kynçylyklary çözmek üçin birnäçe deneyler etdik. 4 MT sistemalarynda bu işiň altynda taýýarlanan, 1 PBSMT sistemalary Hindi Marathi üçin taýýarlandy we 1 NMT sistemalary Hindi Marathi üçin baýt PairEn-ködleme (BPE) dilinde döredildi. Netijiler NMT'iň farklı arhitektura ýakyn diller üçin MT sistemlerini geliştirmek üçin etkinlik bir yöntem bolup biler diýip görkezilýär. Biziň Hindi-Marathi NMT sistemamyz 14 topardan 8-nji düzüldi we Marathi-Hindi NMT sistemamyz 11 topardan bäri goşuldy.</abstract_tr>
+      <abstract_af>NUIG-Panlingua-KMI ondersoek na WMT 2020 soek om die staat-van-die-kuns in gelyke taal vertaling taak vir Hindi Marathi taal paar te druk. As deel van hierdie versoekte het ons reeks eksperimente gedoen om die uitdagings vir vertaling tussen gelyke tale te raak. onder die 4 MT stelsels wat onder hierdie taak gereed is, was 1 PBSMT stelsels berei vir Hindi Marathi elke en 1 NMT stelsels ontwikkel vir Hindi Marathi gebruik Byte PairEn-kodering (BPE) in subwoorde. Die resultate vertoon dat verskillende arkitektuure NMT 'n effektief metode kan wees vir ontwikkeling van MT stelsels vir naby verwante tale. Ons Hindi-Marathi-NMT stelsel is rankeerd 8de onder die 14 teams wat gedeel het en ons Marathi-Hindi NMT stelsel is rankeerd 8de onder die 11 teams gedeel het vir die taak.</abstract_af>
+      <abstract_sq>Subjektimi i NUIG-Panlingua-KMI në WMT 2020 kërkon të shtyjë gjendjen më të lartë në detyrën e përkthimit të gjuhës së ngjashme për çiftin e gjuhëve të marathisë së Hindi. Si pjesë e këtyre përpjekjeve, ne kryejmë një seri eksperimentesh për të trajtuar sfidat për përkthimin midis gjuhëve të ngjashme. Midis 4 sistemeve MT të përgatitura nën këtë detyrë, 1 sistem PBSMT u përgatit për Marathin Hindi secili dhe 1 sistem NMT u zhvilluan për Marathin Hindi duke përdorur Byte PairEn-kodimin (BPE) në nënfjalë. Rezultatet tregojnë se arkitektura të ndryshme NMT mund të jetë një metodë efektive për zhvillimin e sistemeve MT për gjuhë të lidhura ngushtë. Sistemi ynë i NMT-së Hindi-Marathi u rendit i teti midis 14 ekipave që morën pjesë dhe sistemi ynë i NMT-së Marathi-Hindi u rendit i teti midis 11 ekipave që morën pjesë në këtë detyrë.</abstract_sq>
+      <abstract_hr>Predloženje NUIG-Panlingua-KMI WMT 2020-u pokušava gurati državu umjetnosti u sličnom jezičkom prevodnom zadatku za Hindi Marathi jezički par. Kao dio tih napora, provodili smo niz eksperimenata kako bi riješili izazove za prevod između sličnih jezika. Između 4 MT sustava pripremljenih pod ovim zadatkom, 1 PBSMT sustava je pripremljen za Hindi Marathi svaki i 1 NMT sustav je razvijen za Hindi Marathi koristeći Byte PairEn-kodiranje (BPE) u podriječi. Rezultati pokazuju da bi različite arhitekture NMT mogle biti učinkovit metod razvoja MT sustava za bliski povezane jezike. Naš Hindi-Marathi NMT sustav je bio 8. redak među 14 tim koji su sudjelovali, a naš Marathi-Hindi NMT sustav je bio 8. redak među 11 tima koji su sudjelovali u tom zadatku.</abstract_hr>
+      <abstract_am>የNUIG-Panlingua-KMI ወደ WMT 2020 በመስጠት ይሻላል፤ በተለያዩ ቋንቋ ትርጉም ትርጉም ስራ ለHindi ማርታቲ ቋንቋ ሁለት. As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  ከዚህ ስራ በታች የተዘጋጁት 4 MT ስርዓቶች ውስጥ 1 PBSMT ስርዓቶች ለHindi ማራታይ እና 1 NMT ስርዓቶች በByte Pairen-coding (BPE) በመጠቀም ለHindi ማራታይ የተዘጋጁ ናቸው፡፡ ፍጥረቱም ልዩ የመዝገብ ግንኙነት ለቋንቋዎች አካባቢ የሆኑት የMT ስርዓቶች ለመፍጠር የሚችል ሥርዓት እንዲሆን ያሳያል፡፡ የኪንዲ-ማርታይ NMT ስርዓታችን በአካባቢው 14 ጭፍሮች መካከል ስምንተኛው ተካፈለ፤ ማራታይ-Hindi NMT ስርዓታችንም ስምንተኛው ተካፈለ፡፡</abstract_am>
+      <abstract_id>NUIG-Panlingua-KMI submission to WMT 2020 seeks to push the state-of-the-art in Similar Language Translation Task for Hindi Marathi language pair.  As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  Di antara 4 sistem MT yang disediakan di bawah tugas ini, 1 sistem PBSMT yang disediakan untuk Hindi Marathi masing-masing dan 1 sistem NMT yang dikembangkan untuk Hindi Marathi menggunakan Byte PairEn-coding (BPE) menjadi subkata. Hasilnya menunjukkan bahwa arsitektur yang berbeda NMT bisa menjadi metode efektif untuk mengembangkan sistem MT untuk bahasa yang berhubungan dekat. Sistem NMT Hindi-Marathi kami ditandai ke-8 diantara 14 tim yang berpartisipasi dan sistem NMT Marathi-Hindi kami ditandai ke-8 diantara 11 tim yang berpartisipasi untuk tugas.</abstract_id>
+      <abstract_hy>Նյուգ-Պանլեզու-ՔՄI-ի ներկայացումը Հինդի մարաթի լեզվի զույգի նմանատիպ լեզվի թարգմանման հանձնարարություններում փորձում է շարժվել: Այս ջանքերի մեջ մենք մի շարք փորձեր կատարեցինք, որպեսզի լուծենք նման լեզուների միջև թարգմանման խնդիրները: Այս խնդրի ընթացքում պատրաստված 4 ՄԹ համակարգերից մեկը Հինդի մարաթի համար պատրաստված էր, յուրաքանչյուրը մեկը՝ Հինդի մարաթի համար պատրաստված էր, օգտագործելով Բայթ Պարենի կոդավորումը (Bpe) ենթաբառերի մեջ: Արդյունքները ցույց են տալիս, որ տարբեր ճարտարապետությունները NMT-ը կարող է լինել արդյունավետ մեթոդ MT համակարգերի զարգացման համար միմյանց հետ կապված լեզուների համար: Մեր Հինդի-Հինդի NMT համակարգը 8-րդ դասակարգված էր 14 թիմերի մեջ, իսկ մեր Մարաթի-Հինդի NMT համակարգը 8-րդ դասակարգված էր 11 թիմերի մեջ, ովքեր մասնակցել էին այս խնդիրը:</abstract_hy>
+      <abstract_bn>এনইজি-পাঙ্লিঙ্গুয়া- কেএমএমটি ২০২০ এর প্রতি জমা দেয়ার চেষ্টা করেছে যে হিন্দি মারাথি ভাষার জোড়ার জন্য অনুবাদের ভাষার অনুবাদের কাজের র এই প্রচেষ্টার অংশ হিসেবে আমরা অনুবাদের মধ্যে অনুবাদের চ্যালেঞ্জের বিভিন্ন পরীক্ষা করেছি। এই কাজের অধীনে প্রস্তুত ৪টি এমটি সিস্টেমের মধ্যে ১ পিবিএসএমটি সিস্টেম হিন্দি মারাথির জন্য প্রস্তুত হয়েছে এবং ১ এনএমটি সিস্টেম বাইট পাইরেন কোডিং (বিপেই ফলাফল দেখা যাচ্ছে যে ভিন্ন কাঠামো এনএমটি নিকটবর্তী ভাষার জন্য এমটি সিস্টেম উন্নয়নের কার্যকর পদ্ধতি হতে পারে। আমাদের হিন্দি-মারাথি এনএমটি সিস্টেম ১৪টি দলের মধ্যে আটতম রান্না হয়েছিল যারা অংশগ্রহণ করেছিল এবং আমাদের মারাথি হিন্দি এনএমটি সিস্টেম কাজে</abstract_bn>
+      <abstract_ca>La presentació de NUIG-Panlingua-KMI a WMT 2020 busca empenyar l'última tasca de traducció de llenguatges semblants per a un parell de llenguatges de marati hindí. As part of these efforts, we conducteda series of experiments to address the challenges for translation between similar languages.  Entre els 4 sistemes MT preparats sota aquesta tasca, 1 sistema PBSMT es van preparar per a Hindi Marathi cada un i 1 sistema NMT es van desenvolupar per a Hindi Marathi fent servir Byte PairEn coding (BPE) en subparaules. Els resultats mostran que diferents arquitectures NMT podrien ser un mètode eficaç per desenvolupar sistemes MT per llengües estretament relacionades. El nostre sistema NMT hindi-hindi va ser al 8è lloc entre els 14 equips que van participar i el nostre sistema NMT hindi-hindi va ser al 8è lloc entre els 11 equips que van participar a la tasca.</abstract_ca>
+      <abstract_az>NUIG-Panlingua-KMI WMT 2020-ə təsdiqlənməsi Hindi Marathi dil çiftəsinə bənzər dil çeviri işində məşğul olmaq istəyir. Bu çabaların bir parçası kimi, bənzər dillər arasındakı tercümə üçün çətinlikləri çəkmək üçün bəzi təminatlar etdik. Bu işin altında hazırlanmış 4 MT sistemlərindən 1 PBSMT sistemi Hindi Marathi üçün hazırlanmış və 1 NMT sistemi Hindi Marathi üçün Bajt PairEn-kodlaması (BPE) ilə altı sözlərə təşkil edilmişdir. NMT müxtəlif arhitektarların yaxın dillər üçün MT sistemlərini inkişaf etmək üçün faydalı bir yol olaraq göstərir. Bizim Hindi-Marathi NMT sistemimiz 14 dəstədə səf edildi və Marathi-Hindi NMT sistemimiz 11 dəstədə işə katıldı.</abstract_az>
+      <abstract_bs>Predloženje NUIG-Panlingua-KMI na WMT 2020 pokušava gurati državu umjetnosti u sličnom jezičkom prevodnom zadatku za parove hindijskog marathija. Kao dio tih napora, provodili smo niz eksperimenata da riješimo izazove za prevod između sličnih jezika. Između 4 MT sustava pripremljenih pod ovim zadatkom, 1 PBSMT sustava je pripremljen za Hindi Marathi svaki i 1 NMT sustav je razvijen za Hindi Marathi koristeći Byte PairEn-kodiranje (BPE) u podriječi. Rezultati pokazuju da bi različite arhitekture NMT mogle biti efikasni metod razvoja MT-sistema za bliski povezane jezike. Naš Hindi-Marathi NMT sistem je bio 8. red među 14 tima koji su sudjelovali, a naš Marathi-Hindi NMT sistem je bio 8. red među 11 tima koji su sudjelovali u tom zadatku.</abstract_bs>
+      <abstract_cs>Podání NUIG-Panlingua-KMI do WMT 2020 usiluje o posílení nejmodernějších úloh překladu podobného jazyka pro jazykový pár Hindi Marathi. V rámci těchto snah jsme prováděli sérii experimentů s cílem řešit výzvy při překladu mezi podobnými jazyky. Mezi čtyřmi MT systémy připravenými v rámci tohoto úkolu byly připraveny 1 PBSMT systémy pro Hindi Marathi každý a 1 NMT systémy byly vyvinuty pro Hindi Marathi pomocí Byte PairEn kódování (BPE) do podslov. Výsledky ukazují, že různé architektury NMT by mohly být efektivní metodou pro vývoj MT systémů pro úzce příbuzné jazyky. Náš hindi-marathi NMT systém byl osmý mezi čtrnácti týmy, které se zúčastnily, a náš marathi-hindi NMT systém byl osmý mezi jedenácti týmy zúčastněnými pro tento úkol.</abstract_cs>
+      <abstract_et>NUIG-Panlingua-KMI esitamine WMT 2020 eesmärk on tõsta kaasaegset sarnase keele tõlke ülesannet hindi marathi keelepaari jaoks. Nende jõupingutuste raames viisime läbi mitmeid katseid, et käsitleda sarnaste keelte vahelise tõlke probleeme. Selle ülesande raames valmistatud neljast MT süsteemist valmistati igaühele hindi marathi jaoks ette 1 PBSMT süsteem ja hindi marathi jaoks välja 1 NMT süsteem, kasutades Byte PairEn-kodeerimist (BPE) alamsõnadeks. Tulemused näitavad, et erinevad arhitektuurid NMT võiksid olla tõhus meetod MT süsteemide arendamiseks tihedalt seotud keeltele. Meie Hindi-Marathi NMT süsteem oli 14 osalenud meeskonna seas 8. kohal ja meie Marathi-Hindi NMT süsteem oli 8. kohal 11 ülesandes osalenud meeskonna seas.</abstract_et>
+      <abstract_fi>NUIG-Panlingua-KMI-hakemus WMT 2020 -ohjelmaan pyrkii edistämään hindi marathi -kieliparille samanlaisten kielten käännöstehtävän viimeisintä kehitystä. Osana näitä pyrkimyksiä toteutimme useita kokeiluja vastaaaksemme samankaltaisten kielten välisiin käännöksiin liittyviin haasteisiin. Tässä tehtävässä tehdyistä neljästä MT-järjestelmästä valmistettiin yksi PBSMT-järjestelmä hindi-marathille kullekin ja yksi NMT-järjestelmä hindi-marathille kehitettiin Byte PairEn-koodauksella (BPE). Tulokset osoittavat, että eri arkkitehtuurit NMT voisivat olla tehokas tapa kehittää MT-järjestelmiä läheisesti toisiinsa liittyville kielille. Hindi-Marathi NMT -järjestelmämme sijoittui kahdeksanneksi 14 joukkueen joukossa ja Marathi-Hindi NMT -järjestelmämme sijoittui kahdeksanneksi tehtävään osallistuneista 11 tiimistä.</abstract_fi>
+      <abstract_jv>NUIG Sampeyan karo perbudhakan iki, kita dadi sak ilang akeh operasi kanggo ngakses nggambar tarjamah ning langa sing luwih. Genjer-genjer 4 MT sistem sing wis ditambah nggunakake iki, sistem PGSMT 1 wis digasai kanggo masalah barang-barang mbut 1 NMT bisa ditambah kanggo masalah batir Marati nggawe barang-pakan (BBE). Rejalaké wong liyane karo akeh-akeh sing sampeyan NMT iso ngubah layang kanggo nggawe sistem MT kanggo langgambaran sing wis ana. Kita tatak-Marati NMT sistem sing wis rampun asat kanggo wong liyane 14 sing katêpakan karo sistèm Marati-Hong-NMT kuwi wis rampun asat karo 11 sing katêpakan karo pawartos.</abstract_jv>
+      <abstract_ha>@ item: inmenu Kama wani abu daga wannan aikinsa, mun samun jarrabi masu yawa dõmin mu yi addu'a ga masu motsari wa fassarar a tsakanin harshen daban. Bayan wasu na'urar MT da aka ƙayyade shi a lokacin wannan aikin, an yi amfani da Byte Pairen-coding (BLE) na buƙata 1 PBSMT na'urar wa matsayin Hindu Marati kodi kodi kodi kowace. The results show that different architectures NMT could be an effective method for developing MT systems for closely related languages.  SisteminMu na Hidi-Marati NMT na ranar da 8 daga jama'a 14 waɗanda suka yi shirin, kuma tsarin Marati-Hidi NMT ya ranar da 8 daga jama'a 11 waɗanda suka yi shiyya ga aikin.</abstract_ha>
+      <abstract_he>השימוש של NUIG-Panlingua-KMI ל-WMT 2020 מנסה לדחוף את המצב המאודף במשימת התרגום לשפה דומה לזוג שפת האינדי מרתי. כחלק מהמאמצים האלה, ביצענו סדרה של ניסויים כדי להתמודד עם האתגרים לתרגום בין שפות דומות. בין 4 מערכות MT מוכנות תחת המשימה הזו, 1 מערכת PBSMT הוכנה למראתי הינדי כל מערכת NMT הופתחה למראתי הינדי בשימוש בקוד בייט פארן (BPE) לתת מילים. התוצאות מראות שארכיטקטורות שונות NMT יכולות להיות שיטה יעילה לפיתוח מערכות MT לשפות קרובות. מערכת NMT הינדי-הינדי שלנו הוצבה ב-8 בין 14 הקבוצות שהשתתפו והמערכת NMT הינדי-הינדי שלנו הוצבה ב-8 בין 11 הקבוצות השתתפו במשימה.</abstract_he>
+      <abstract_sk>Predložitev NUIG-Panlingua-KMI na WMT 2020 želi spodbuditi najsodobnejšo nalogo prevajanja podobnih jezikov za jezikovni par hindijskega maratha. V okviru teh prizadevanj smo izvedli vrsto eksperimentov za reševanje izzivov prevajanja med podobnimi jeziki. Med štirimi sistemi MT, pripravljenimi v okviru te naloge, je bil za Hindi Marathi pripravljen 1 sistem PBSMT, za Hindi Marathi pa je bil razvit 1 sistem NMT z uporabo Byte PairEn-kodiranja (BPE) v podbesedah. Rezultati kažejo, da bi različne arhitekture NMT lahko bile učinkovita metoda za razvoj MT sistemov za tesno sorodne jezike. Naš Hindi-Marathi NMT sistem se je uvrstil na 8. mesto med 14 ekipami, ki so sodelovale pri nalogi, naš Marathi-Hindi NMT sistem pa je bil 8. mesto med 11 ekipami, ki so sodelovale pri nalogi.</abstract_sk>
+      <abstract_bo>NUIG-Panlingua-KMI WMT 2020 ཡིས་གནས་སྟངས་དང་འདྲ་བའི་སྐད་ཡིག་གནས་སྟངས་དང་མཉམ་དུ་སྤྲོད་ཀྱི་ཡོད། བྱ་ཚུལ་འདི་དག་གི་ཆ་ཤས་གཅིག་གི་ནང་དུ་ང་ཚོས་སྐྱེས་པའི་སྐད་རིགས་དབར་བཟོས་བའི་དཀའ་ངལ བྱ་འགུལ་འདིའི་འོག་ཏུ་MT མ་ལག་ཆ་འདིའི་ནང་དུ་གྲ་སྒྲིག་པ་ལས་ PBSMT་རིམ་པ་གཅིག་གིས་རྒྱ་གར་Marathi་རེ་རེའི་སྒྲིག་ཆ་གཅིག་དང་NMT་རིམ་པ་དེ་རྣམས་ལ་ཡར་བསྐྲ དབྱིབས་འབྲས་བྱས་ན། NMT བཟོ་སྒྲིག་འགོད་འདི་མ་འདྲ་བའི་སྐད་ཡིག་ཆ་དང་མཐུན་པ་མཚོན་པའི་འགྱུར་བ་ཞིག་ཡིན་པ ང་ཚོའི་རྒྱ་ནག་མ་རེ་ཤི་ཡི་(Hindi-Marathi NMT)མ་ལག་གི་ཆེད་དུ་འགྲོ་བཞིན་པའི་གནད་མེད་སྤྱི་ཚོགས་ཀྱི་ཕྱོགས་དང་། ང་ཚོའི་རེ་ཤི་ཡི་(Marathi-Hindi NMT)མ་ལག་གི་</abstract_bo>
+      </paper>
+    <paper id="53">
+      <title>Document Level NMT of Low-Resource Languages with Backtranslation<fixed-case>NMT</fixed-case> of Low-Resource Languages with Backtranslation</title>
+      <author><first>Sami</first><last>Ul Haq</last></author>
+      <author><first>Sadaf</first><last>Abdul Rauf</last></author>
+      <author><first>Arsalan</first><last>Shaukat</last></author>
+      <author><first>Abdullah</first><last>Saeed</last></author>
+      <pages>442–446</pages>
+      <abstract>This paper describes our system submission to WMT20 shared task on similar language translation. We examined the use of documentlevel neural machine translation (NMT) systems for low-resource, similar language pair MarathiHindi. Our system is an extension of state-of-the-art Transformer architecture with hierarchical attention networks to incorporate <a href="https://en.wikipedia.org/wiki/Context_(language_use)">contextual information</a>. Since, NMT requires large amount of parallel data which is not available for this task, our approach is focused on utilizing <a href="https://en.wikipedia.org/wiki/Monolingualism">monolingual data</a> with <a href="https://en.wikipedia.org/wiki/Back_translation">back translation</a> to train our <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a>. Our experiments reveal that document-level NMT can be a reasonable alternative to sentence-level NMT for improving translation quality of low resourced languages even when used with synthetic data.</abstract>
+      <url hash="a32a4c70">2020.wmt-1.53</url>
+      <video href="https://slideslive.com/38939608" />
+      <bibkey>ul-haq-etal-2020-document</bibkey>
+    </paper>
+    <paper id="56">
+      <title>The University of Maryland’s Submissions to the WMT20 Chat Translation Task : Searching for More Data to Adapt Discourse-Aware Neural Machine Translation<fixed-case>U</fixed-case>niversity of <fixed-case>M</fixed-case>aryland’s Submissions to the <fixed-case>WMT</fixed-case>20 Chat Translation Task: Searching for More Data to Adapt Discourse-Aware Neural Machine Translation</title>
+      <author><first>Calvin</first><last>Bao</last></author>
+      <author><first>Yow-Ting</first><last>Shiue</last></author>
+      <author><first>Chujun</first><last>Song</last></author>
+      <author><first>Jie</first><last>Li</last></author>
+      <author><first>Marine</first><last>Carpuat</last></author>
+      <pages>456–461</pages>
+      <abstract>This paper describes the University of Maryland’s submissions to the WMT20 Shared Task on Chat Translation. We focus on translating agent-side utterances from <a href="https://en.wikipedia.org/wiki/English_language">English</a> to <a href="https://en.wikipedia.org/wiki/German_language">German</a>. We started from an off-the-shelf BPE-based standard transformer model trained with WMT17 news and fine-tuned it with the provided in-domain training data. In addition, we augment the training set with its best matches in the WMT19 news dataset. Our primary submission uses a standard <a href="https://en.wikipedia.org/wiki/Transformers_(toy_line)">Transformer</a>, while our contrastive submissions use multi-encoder Transformers to attend to previous utterances. Our primary submission achieves 56.7 <a href="https://en.wikipedia.org/wiki/BLEU">BLEU</a> on the agent side (ende), outperforming a baseline system provided by the task organizers by more than 13 BLEU points. Moreover, according to an evaluation on a set of carefully-designed examples, the multi-encoder architecture is able to generate more coherent translations.</abstract>
+      <url hash="aab797e5">2020.wmt-1.56</url>
+      <video href="https://slideslive.com/38939647" />
+      <bibkey>bao-etal-2020-university</bibkey>
+    </paper>
+    <paper id="62">
+      <title>Fast Interleaved Bidirectional Sequence Generation</title>
+      <author><first>Biao</first><last>Zhang</last></author>
+      <author><first>Ivan</first><last>Titov</last></author>
+      <author><first>Rico</first><last>Sennrich</last></author>
+      <pages>503–515</pages>
+      <abstract>Independence assumptions during sequence generation can speed up <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference</a>, but parallel generation of highly inter-dependent tokens comes at a cost in quality. Instead of assuming independence between neighbouring tokens (semi-autoregressive decoding, SA), we take inspiration from bidirectional sequence generation and introduce a decoder that generates target words from the left-to-right and right-to-left directions simultaneously. We show that we can easily convert a standard architecture for unidirectional decoding into a bidirectional decoder by simply interleaving the two directions and adapting the word positions and selfattention masks. Our interleaved bidirectional decoder (IBDecoder) retains the model simplicity and training efficiency of the standard Transformer, and on five machine translation tasks and two document summarization tasks, achieves a decoding speedup of ~2x compared to autoregressive decoding with comparable quality. Notably, it outperforms left-to-right SA because the <a href="https://en.wikipedia.org/wiki/Independence_(probability_theory)">independence assumptions</a> in IBDecoder are more felicitous. To achieve even higher speedups, we explore hybrid models where we either simultaneously predict multiple neighbouring tokens per direction, or perform multi-directional decoding by partitioning the target sequence. These methods achieve speedups to 4x11x across different <a href="https://en.wikipedia.org/wiki/Task_(computing)">tasks</a> at the cost of 1 <a href="https://en.wikipedia.org/wiki/BLEU">BLEU</a> or 0.5 ROUGE (on average)</abstract>
+      <url hash="1b00560c">2020.wmt-1.62</url>
+      <video href="https://slideslive.com/38939588" />
+      <bibkey>zhang-etal-2020-fast</bibkey>
+      <pwccode url="https://github.com/bzhangGo/zero" additional="false">bzhangGo/zero</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/c4">C4</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2014">WMT 2014</pwcdataset>
+    </paper>
+    <paper id="70">
+      <title>Towards Multimodal Simultaneous Neural Machine Translation</title>
+      <author><first>Aizhan</first><last>Imankulova</last></author>
+      <author><first>Masahiro</first><last>Kaneko</last></author>
+      <author><first>Tosho</first><last>Hirasawa</last></author>
+      <author><first>Mamoru</first><last>Komachi</last></author>
+      <pages>594–603</pages>
+      <abstract>Simultaneous translation involves translating a sentence before the speaker’s utterance is completed in order to realize real-time understanding in multiple languages. This task is significantly more challenging than the general full sentence translation because of the shortage of input information during decoding. To alleviate this shortage, we propose multimodal simultaneous neural machine translation (MSNMT), which leverages visual information as an additional modality. Our experiments with the Multi30k dataset showed that MSNMT significantly outperforms its text-only counterpart in more timely translation situations with low latency. Furthermore, we verified the importance of visual information during decoding by performing an adversarial evaluation of MSNMT, where we studied how models behaved with incongruent input modality and analyzed the effect of different word order between source and target languages.</abstract>
+      <url hash="6f2582e1">2020.wmt-1.70</url>
+      <video href="https://slideslive.com/38939559" />
+      <bibkey>imankulova-etal-2020-towards</bibkey>
+      <pwccode url="https://github.com/toshohirasawa/mst" additional="false">toshohirasawa/mst</pwccode>
+    </paper>
+    <paper id="74">
+      <title>Document-aligned Japanese-English Conversation Parallel Corpus<fixed-case>J</fixed-case>apanese-<fixed-case>E</fixed-case>nglish Conversation Parallel Corpus</title>
+      <author><first>Matīss</first><last>Rikters</last></author>
+      <author><first>Ryokan</first><last>Ri</last></author>
+      <author><first>Tong</first><last>Li</last></author>
+      <author><first>Toshiaki</first><last>Nakazawa</last></author>
+      <pages>639–645</pages>
+      <abstract>Sentence-level (SL) machine translation (MT) has reached acceptable quality for many high-resourced languages, but not document-level (DL) MT, which is difficult to 1) train with little amount of DL data ; and 2) evaluate, as the main methods and data sets focus on SL evaluation. To address the first issue, we present a document-aligned Japanese-English conversation corpus, including balanced, high-quality business conversation data for tuning and testing. As for the second issue, we manually identify the main areas where SL MT fails to produce adequate translations in lack of context. We then create an evaluation set where these phenomena are annotated to alleviate automatic evaluation of DL systems. We train MT models using our <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> to demonstrate how using <a href="https://en.wikipedia.org/wiki/Context_(language_use)">context</a> leads to improvements.</abstract>
+      <url hash="1ab7229f">2020.wmt-1.74</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="b789c2b8">2020.wmt-1.74.OptionalSupplementaryMaterial.pdf</attachment>
+      <video href="https://slideslive.com/38939560" />
+      <bibkey>rikters-etal-2020-document</bibkey>
+      <pwccode url="https://github.com/tsuruoka-lab/AMI-Meeting-Parallel-Corpus" additional="false">tsuruoka-lab/AMI-Meeting-Parallel-Corpus</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/business-scene-dialogue">Business Scene Dialogue</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/jparacrawl">JParaCrawl</pwcdataset>
+    </paper>
+    <paper id="75">
+      <title>Findings of the WMT 2020 Shared Task on Automatic Post-Editing<fixed-case>WMT</fixed-case> 2020 Shared Task on Automatic Post-Editing</title>
+      <author><first>Rajen</first><last>Chatterjee</last></author>
+      <author><first>Markus</first><last>Freitag</last></author>
+      <author><first>Matteo</first><last>Negri</last></author>
+      <author><first>Marco</first><last>Turchi</last></author>
+      <pages>646–659</pages>
+      <abstract>We present the results of the 6th round of the WMT task on MT Automatic Post-Editing. The task consists in automatically correcting the output of a black-box machine translation system by learning from existing human corrections of different sentences. This year, the challenge consisted of fixing the errors present in English Wikipedia pages translated into <a href="https://en.wikipedia.org/wiki/German_language">German</a> and <a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a> by state-ofthe-art, not domain-adapted neural MT (NMT) systems unknown to participants. Six teams participated in the English-German task, submitting a total of 11 runs. Two teams participated in the English-Chinese task submitting 2 runs each. Due to i) the different source / domain of data compared to the past (Wikipedia vs Information Technology), ii) the different quality of the initial translations to be corrected and iii) the introduction of a new language pair (English-Chinese), this year’s results are not directly comparable with last year’s round. However, on both language directions, participants’ submissions show considerable improvements over the baseline results. On <a href="https://en.wikipedia.org/wiki/German_language">English-German</a>, the top ranked system improves over the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> by -11.35 TER and +16.68 BLEU points, while on <a href="https://en.wikipedia.org/wiki/Chinese_language">EnglishChinese</a> the improvements are respectively up to -12.13 TER and +14.57 BLEU points. Overall, coherent gains are also highlighted by the outcomes of human evaluation, which confirms the effectiveness of APE to improve MT quality, especially in the new generic domain selected for this year’s round.</abstract>
+      <url hash="a77d9210">2020.wmt-1.75</url>
+      <video href="https://slideslive.com/38939672" />
+      <bibkey>chatterjee-etal-2020-findings</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/escape">eSCAPE</pwcdataset>
+    </paper>
+    <paper id="77">
+      <title>Results of the WMT20 Metrics Shared Task<fixed-case>WMT</fixed-case>20 Metrics Shared Task</title>
+      <author><first>Nitika</first><last>Mathur</last></author>
+      <author><first>Johnny</first><last>Wei</last></author>
+      <author><first>Markus</first><last>Freitag</last></author>
+      <author><first>Qingsong</first><last>Ma</last></author>
+      <author><first>Ondřej</first><last>Bojar</last></author>
+      <pages>688–725</pages>
+      <abstract>This paper presents the results of the WMT20 Metrics Shared Task. Participants were asked to score the outputs of the translation systems competing in the WMT20 News Translation Task with <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">automatic metrics</a>. Ten research groups submitted 27 metrics, four of which are <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">reference-less metrics</a>. In addition, we computed five baseline metrics, including sentBLEU, <a href="https://en.wikipedia.org/wiki/BLEU">BLEU</a>, TER and using the SacreBLEU scorer. All <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metrics</a> were evaluated on how well they correlate at the system-, document- and segment-level with the WMT20 official human scores. We present an extensive analysis on influence of different reference translations on <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metric reliability</a>, how well automatic metrics score human translations, and we also flag major discrepancies between <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metric</a> and human scores when evaluating MT systems. Finally, we investigate whether we can use <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">automatic metrics</a> to flag incorrect human ratings.</abstract>
+      <url hash="8830e5cf">2020.wmt-1.77</url>
+      <bibkey>mathur-etal-2020-results</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2020">WMT 2020</pwcdataset>
+    </paper>
+    <paper id="81">
+      <title>Cross-Lingual Transformers for Neural Automatic Post-Editing</title>
+      <author><first>Dongjun</first><last>Lee</last></author>
+      <pages>772–776</pages>
+      <abstract>In this paper, we describe the Bering Lab’s submission to the WMT 2020 Shared Task on Automatic Post-Editing (APE). First, we propose a cross-lingual Transformer architecture that takes a concatenation of a source sentence and a machine-translated (MT) sentence as an input to generate the post-edited (PE) output. For further improvement, we mask incorrect or missing words in the PE output based on word-level quality estimation and then predict the actual word for each mask based on the fine-tuned cross-lingual language model (XLM-RoBERTa). Finally, to address the over-correction problem, we select the final output among the PE outputs and the original MT sentence based on a sentence-level quality estimation. When evaluated on the WMT 2020 English-German APE test dataset, our <a href="https://en.wikipedia.org/wiki/System">system</a> improves the NMT output by -3.95 and +4.50 in terms of <a href="https://en.wikipedia.org/wiki/Terminology_of_the_Low_Countries">TER</a> and BLEU, respectively.</abstract>
+      <url hash="08284caf">2020.wmt-1.81</url>
+      <video href="https://slideslive.com/38939547" />
+      <bibkey>lee-2020-cross</bibkey>
+    </paper>
+    <paper id="82">
+      <title>POSTECH-ETRI’s Submission to the WMT2020 APE Shared Task : Automatic Post-Editing with Cross-lingual Language Model<fixed-case>POSTECH</fixed-case>-<fixed-case>ETRI</fixed-case>’s Submission to the <fixed-case>WMT</fixed-case>2020 <fixed-case>APE</fixed-case> Shared Task: Automatic Post-Editing with Cross-lingual Language Model</title>
+      <author><first>Jihyung</first><last>Lee</last></author>
+      <author><first>WonKee</first><last>Lee</last></author>
+      <author><first>Jaehun</first><last>Shin</last></author>
+      <author><first>Baikjin</first><last>Jung</last></author>
+      <author><first>Young-Kil</first><last>Kim</last></author>
+      <author><first>Jong-Hyeok</first><last>Lee</last></author>
+      <pages>777–782</pages>
+      <abstract>This paper describes POSTECH-ETRI’s submission to WMT2020 for the shared task on automatic post-editing (APE) for 2 language pairs : English-German (En-De) and English-Chinese (En-Zh). We propose APE systems based on a cross-lingual language model, which jointly adopts translation language modeling (TLM) and masked language modeling (MLM) training objectives in the pre-training stage ; the APE models then utilize jointly learned language representations between the source language and the target language. In addition, we created 19 million new sythetic triplets as additional training data for our final ensemble model. According to experimental results on the WMT2020 APE development data set, our models showed an improvement over the baseline by <a href="https://en.wikipedia.org/wiki/Terminology">TER</a> of -3.58 and a BLEU score of +5.3 for the <a href="https://en.wikipedia.org/wiki/Terminology">En-De subtask</a> ; and <a href="https://en.wikipedia.org/wiki/Terminology">TER</a> of -5.29 and a BLEU score of +7.32 for the <a href="https://en.wikipedia.org/wiki/Terminology">En-Zh subtask</a>.</abstract>
+      <url hash="f1249c8d">2020.wmt-1.82</url>
+      <video href="https://slideslive.com/38939561" />
+      <bibkey>lee-etal-2020-postech</bibkey>
+    </paper>
+    <paper id="84">
+      <title>Alibaba’s Submission for the WMT 2020 APE Shared Task : Improving Automatic Post-Editing with Pre-trained Conditional Cross-Lingual BERT<fixed-case>A</fixed-case>libaba’s Submission for the <fixed-case>WMT</fixed-case> 2020 <fixed-case>APE</fixed-case> Shared Task: Improving Automatic Post-Editing with Pre-trained Conditional Cross-Lingual <fixed-case>BERT</fixed-case></title>
+      <author><first>Jiayi</first><last>Wang</last></author>
+      <author><first>Ke</first><last>Wang</last></author>
+      <author><first>Kai</first><last>Fan</last></author>
+      <author><first>Yuqi</first><last>Zhang</last></author>
+      <author><first>Jun</first><last>Lu</last></author>
+      <author><first>Xin</first><last>Ge</last></author>
+      <author><first>Yangbin</first><last>Shi</last></author>
+      <author><first>Yu</first><last>Zhao</last></author>
+      <pages>789–796</pages>
+      <abstract>The goal of Automatic Post-Editing (APE) is basically to examine the automatic methods for correcting translation errors generated by an unknown machine translation (MT) system. This paper describes Alibaba’s submissions to the WMT 2020 APE Shared Task for the English-German language pair. We design a two-stage training pipeline. First, a BERT-like cross-lingual language model is pre-trained by randomly masking target sentences alone. Then, an additional neural decoder on the top of the pre-trained model is jointly fine-tuned for the APE task. We also apply an imitation learning strategy to augment a reasonable amount of pseudo APE training data, potentially preventing the model to overfit on the limited real training data and boosting the performance on held-out data. To verify our proposed model and <a href="https://en.wikipedia.org/wiki/Data_augmentation">data augmentation</a>, we examine our approach with the well-known benchmarking English-German dataset from the WMT 2017 APE task. The experiment results demonstrate that our <a href="https://en.wikipedia.org/wiki/System">system</a> significantly outperforms all other <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baselines</a> and achieves the state-of-the-art performance. The final results on the WMT 2020 test dataset show that our <a href="https://en.wikipedia.org/wiki/Subscription_business_model">submission</a> can achieve +5.56 <a href="https://en.wikipedia.org/wiki/British_thermal_unit">BLEU</a> and -4.57 TER with respect to the official MT baseline.</abstract>
+      <url hash="42810c42">2020.wmt-1.84</url>
+      <video href="https://slideslive.com/38939622" />
+      <bibkey>wang-etal-2020-alibabas</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/escape">eSCAPE</pwcdataset>
+    </paper>
+    <paper id="86">
+      <title>LIMSI @ WMT 2020<fixed-case>LIMSI</fixed-case> @ <fixed-case>WMT</fixed-case> 2020</title>
+      <author><first>Sadaf</first><last>Abdul Rauf</last></author>
+      <author><first>José Carlos</first><last>Rosales Núñez</last></author>
+      <author><first>Minh Quang</first><last>Pham</last></author>
+      <author><first>François</first><last>Yvon</last></author>
+      <pages>803–812</pages>
+      <abstract>This paper describes LIMSI’s submissions to the translation shared tasks at WMT’20. This year we have focused our efforts on the biomedical translation task, developing a resource-heavy system for the translation of medical abstracts from <a href="https://en.wikipedia.org/wiki/English_language">English</a> into <a href="https://en.wikipedia.org/wiki/French_language">French</a>, using back-translated texts, terminological resources as well as multiple pre-processing pipelines, including pre-trained representations. Systems were also prepared for the robustness task for translating from <a href="https://en.wikipedia.org/wiki/English_language">English</a> into <a href="https://en.wikipedia.org/wiki/German_language">German</a> ; for this large-scale task we developed multi-domain, noise-robust, translation systems aim to handle the two test conditions : zero-shot and few-shot domain adaptation.</abstract>
+      <url hash="02a6bd30">2020.wmt-1.86</url>
+      <video href="https://slideslive.com/38939618" />
+      <bibkey>abdul-rauf-etal-2020-limsi</bibkey>
+    </paper>
+    <paper id="87">
+      <title>Elhuyar submission to the Biomedical Translation Task 2020 on terminology and abstracts translation</title>
+      <author><first>Ander</first><last>Corral</last></author>
+      <author><first>Xabier</first><last>Saralegi</last></author>
+      <pages>813–819</pages>
+      <abstract>This article describes the systems submitted by Elhuyar to the 2020 Biomedical Translation Shared Task, specifically the systems presented in the subtasks of terminology translation for English-Basque and abstract translation for English-Basque and English-Spanish. In all cases a Transformer architecture was chosen and we studied different strategies to combine <a href="https://en.wikipedia.org/wiki/Open_data">open domain data</a> with biomedical domain data for building the training corpora. For the English-Basque pair, given the scarcity of parallel corpora in the biomedical domain, we set out to create domain training data in a synthetic way. The <a href="https://en.wikipedia.org/wiki/System">systems</a> presented in the terminology and abstract translation subtasks for the English-Basque language pair ranked first in their respective tasks among four participants, achieving 0.78 accuracy for terminology translation and a <a href="https://en.wikipedia.org/wiki/BLEU">BLEU</a> of 0.1279 for the translation of abstracts. In the abstract translation task for the English-Spanish pair our team ranked second (BLEU=0.4498) in the case of OK sentences.</abstract>
+      <url hash="1120ae61">2020.wmt-1.87</url>
+      <video href="https://slideslive.com/38939591" />
+      <bibkey>corral-saralegi-2020-elhuyar</bibkey>
+    </paper>
+    <paper id="88">
+      <title>YerevaNN’s Systems for WMT20 Biomedical Translation Task : The Effect of Fixing Misaligned Sentence Pairs<fixed-case>Y</fixed-case>ereva<fixed-case>NN</fixed-case>’s Systems for <fixed-case>WMT</fixed-case>20 Biomedical Translation Task: The Effect of Fixing Misaligned Sentence Pairs</title>
+      <author><first>Karen</first><last>Hambardzumyan</last></author>
+      <author><first>Hovhannes</first><last>Tamoyan</last></author>
+      <author><first>Hrant</first><last>Khachatrian</last></author>
+      <pages>820–825</pages>
+      <abstract>This report describes YerevaNN’s neural machine translation systems and data processing pipelines developed for WMT20 biomedical translation task. We provide <a href="https://en.wikipedia.org/wiki/Language_planning">systems</a> for English-Russian and English-German language pairs. For the English-Russian pair, our submissions achieve the best BLEU scores, with enru direction outperforming the other systems by a significant margin. We explain most of the improvements by our heavy data preprocessing pipeline which attempts to fix poorly aligned sentences in the parallel data.<tex-math>\rightarrow</tex-math>ru direction outperforming the other systems by a significant margin. We explain most of the improvements by our heavy data preprocessing pipeline which attempts to fix poorly aligned sentences in the parallel data.</abstract>
+      <url hash="76c0c7c9">2020.wmt-1.88</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="c2ea9401">2020.wmt-1.88.OptionalSupplementaryMaterial.tgz</attachment>
+      <video href="https://slideslive.com/38939644" />
+      <bibkey>hambardzumyan-etal-2020-yerevanns</bibkey>
+    </paper>
+    <paper id="89">
+      <title>Pretrained Language Models and Backtranslation for English-Basque Biomedical Neural Machine Translation<fixed-case>E</fixed-case>nglish-<fixed-case>B</fixed-case>asque Biomedical Neural Machine Translation</title>
+      <author><first>Inigo</first><last>Jauregi Unanue</last></author>
+      <author><first>Massimo</first><last>Piccardi</last></author>
+      <pages>826–832</pages>
+      <abstract>This paper describes the machine translation systems proposed by the University of Technology Sydney Natural Language Processing (UTS_NLP) team for the WMT20 English-Basque biomedical translation tasks. Due to the limited parallel corpora available, we have proposed to train a BERT-fused NMT model that leverages the use of pretrained language models. Furthermore, we have augmented the training corpus by backtranslating monolingual data. Our experiments show that NMT models in low-resource scenarios can benefit from combining these two <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training techniques</a>, with improvements of up to 6.16 BLEU percentual points in the case of biomedical abstract translations.</abstract>
+      <url hash="85596cf6">2020.wmt-1.89</url>
+      <video href="https://slideslive.com/38939562" />
+      <bibkey>jauregi-unanue-piccardi-2020-pretrained</bibkey>
+    </paper>
+    <paper id="90">
+      <title>Lite Training Strategies for Portuguese-English and English-Portuguese Translation<fixed-case>P</fixed-case>ortuguese-<fixed-case>E</fixed-case>nglish and <fixed-case>E</fixed-case>nglish-<fixed-case>P</fixed-case>ortuguese Translation</title>
+      <author><first>Alexandre</first><last>Lopes</last></author>
+      <author><first>Rodrigo</first><last>Nogueira</last></author>
+      <author><first>Roberto</first><last>Lotufo</last></author>
+      <author><first>Helio</first><last>Pedrini</last></author>
+      <pages>833–840</pages>
+      <abstract>Despite the widespread adoption of <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning</a> for <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>, it is still expensive to develop high-quality translation models. In this work, we investigate the use of pre-trained models, such as T5 for Portuguese-English and English-Portuguese translation tasks using low-cost hardware. We explore the use of Portuguese and English pre-trained language models and propose an adaptation of the English tokenizer to represent Portuguese characters, such as <a href="https://en.wikipedia.org/wiki/Diaeresis_(diacritic)">diaeresis</a>, acute and grave accents. We compare our models to the Google Translate API and MarianMT on a subset of the ParaCrawl dataset, as well as to the winning submission to the WMT19 Biomedical Translation Shared Task. We also describe our submission to the WMT20 Biomedical Translation Shared Task. Our results show that our <a href="https://en.wikipedia.org/wiki/Computer_simulation">models</a> have a competitive performance to state-of-the-art <a href="https://en.wikipedia.org/wiki/Computer_simulation">models</a> while being trained on modest hardware (a single 8 GB gaming GPU for nine days). Our <a href="https://en.wikipedia.org/wiki/Data">data</a>, models and code are available in our GitHub repository.</abstract>
+      <url hash="6264f17a">2020.wmt-1.90</url>
+      <video href="https://slideslive.com/38939645" />
+      <bibkey>lopes-etal-2020-lite</bibkey>
+      <pwccode url="https://github.com/unicamp-dl/Lite-T5-Translation" additional="false">unicamp-dl/Lite-T5-Translation</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/capes">capes</pwcdataset>
+    </paper>
+    <paper id="94">
+      <title>Addressing Exposure Bias With Document Minimum Risk Training : Cambridge at the WMT20 Biomedical Translation Task<fixed-case>C</fixed-case>ambridge at the <fixed-case>WMT</fixed-case>20 Biomedical Translation Task</title>
+      <author><first>Danielle</first><last>Saunders</last></author>
+      <author><first>Bill</first><last>Byrne</last></author>
+      <pages>862–869</pages>
+      <abstract>The 2020 WMT Biomedical translation task evaluated Medline abstract translations. This is a small-domain translation task, meaning limited relevant training data with very distinct style and vocabulary. Models trained on such <a href="https://en.wikipedia.org/wiki/Data">data</a> are susceptible to <a href="https://en.wikipedia.org/wiki/Exposure_bias">exposure bias effects</a>, particularly when training sentence pairs are imperfect translations of each other. This can result in poor behaviour during <a href="https://en.wikipedia.org/wiki/Inference">inference</a> if the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> learns to neglect the source sentence. The UNICAM entry addresses this problem during <a href="https://en.wikipedia.org/wiki/Fine-tuning">fine-tuning</a> using a robust variant on Minimum Risk Training. We contrast this approach with data-filtering to remove ‘problem’ training examples. Under MRT fine-tuning we obtain good results for both directions of English-German and English-Spanish biomedical translation. In particular we achieve the best English-to-Spanish translation result and second-best Spanish-to-English result, despite using only single models with no ensembling.</abstract>
+      <url hash="dcb9d8e6">2020.wmt-1.94</url>
+      <video href="https://slideslive.com/38939583" />
+      <bibkey>saunders-byrne-2020-addressing</bibkey>
+    </paper>
+    <paper id="101">
+      <title>Unbabel’s Participation in the WMT20 Metrics Shared Task<fixed-case>WMT</fixed-case>20 Metrics Shared Task</title>
+      <author><first>Ricardo</first><last>Rei</last></author>
+      <author><first>Craig</first><last>Stewart</last></author>
+      <author><first>Ana C</first><last>Farinha</last></author>
+      <author><first>Alon</first><last>Lavie</last></author>
+      <pages>911–920</pages>
+      <abstract>We present the contribution of the Unbabel team to the WMT 2020 Shared Task on Metrics. We intend to participate on the segmentlevel, document-level and system-level tracks on all language pairs, as well as the QE as a Metric track. Accordingly, we illustrate results of our <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> in these <a href="https://en.wikipedia.org/wiki/Track_(rail_transport)">tracks</a> with reference to test sets from the previous year. Our submissions build upon the recently proposed COMET framework : we train several estimator models to regress on different humangenerated quality scores and a novel ranking model trained on relative ranks obtained from Direct Assessments. We also propose a simple technique for converting segment-level predictions into a document-level score. Overall, our <a href="https://en.wikipedia.org/wiki/System">systems</a> achieve strong results for all language pairs on previous test sets and in many cases set a new <a href="https://en.wikipedia.org/wiki/State_of_the_art">state-of-the-art</a>.</abstract>
+      <url hash="362e34a3">2020.wmt-1.101</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="828c2126">2020.wmt-1.101.OptionalSupplementaryMaterial.pdf</attachment>
+      <video href="https://slideslive.com/38939604" />
+      <bibkey>rei-etal-2020-unbabels</bibkey>
+    </paper>
+    <paper id="104">
+      <title>Incorporate Semantic Structures into Machine Translation Evaluation via <a href="https://en.wikipedia.org/wiki/UCCA">UCCA</a><fixed-case>UCCA</fixed-case></title>
+      <author><first>Jin</first><last>Xu</last></author>
+      <author><first>Yinuo</first><last>Guo</last></author>
+      <author><first>Junfeng</first><last>Hu</last></author>
+      <pages>934–939</pages>
+      <abstract>Copying mechanism has been commonly used in neural paraphrasing networks and other text generation tasks, in which some important words in the input sequence are preserved in the output sequence. Similarly, in <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>, we notice that there are certain words or phrases appearing in all good translations of one source text, and these words tend to convey important semantic information. Therefore, in this work, we define words carrying important semantic meanings in sentences as semantic core words. Moreover, we propose an MT evaluation approach named Semantically Weighted Sentence Similarity (SWSS). It leverages the power of UCCA to identify semantic core words, and then calculates sentence similarity scores on the overlap of semantic core words. Experimental results show that SWSS can consistently improve the performance of popular MT evaluation metrics which are based on <a href="https://en.wikipedia.org/wiki/Lexical_similarity">lexical similarity</a>.</abstract>
+      <url hash="23fd41d7">2020.wmt-1.104</url>
+      <video href="https://slideslive.com/38939565" />
+      <bibkey>xu-etal-2020-incorporate</bibkey>
+    </paper>
+    <paper id="105">
+      <title>Filtering Noisy Parallel Corpus using Transformers with Proxy Task Learning</title>
+      <author><first>Haluk</first><last>Açarçiçek</last></author>
+      <author><first>Talha</first><last>Çolakoğlu</last></author>
+      <author><first>Pınar Ece</first><last>Aktan Hatipoğlu</last></author>
+      <author><first>Chong Hsuan</first><last>Huang</last></author>
+      <author><first>Wei</first><last>Peng</last></author>
+      <pages>940–946</pages>
+      <abstract>This paper illustrates Huawei’s submission to the WMT20 low-resource parallel corpus filtering shared task. Our approach focuses on developing a proxy task learner on top of a transformer-based multilingual pre-trained language model to boost the filtering capability for noisy parallel corpora. Such a supervised task also helps us to iterate much more quickly than using an existing <a href="https://en.wikipedia.org/wiki/Neural_machine_translation">neural machine translation system</a> to perform the same <a href="https://en.wikipedia.org/wiki/Task_(computing)">task</a>. After performing empirical analyses of the finetuning task, we benchmark our approach by comparing the results with past years’ state-of-theart records. This paper wraps up with a discussion of limitations and future work. The scripts for this study will be made publicly available.</abstract>
+      <url hash="5dc0edc3">2020.wmt-1.105</url>
+      <video href="https://slideslive.com/38939606" />
+      <bibkey>acarcicek-etal-2020-filtering</bibkey>
+      <pwccode url="https://github.com/wpti/proxy-filter" additional="false">wpti/proxy-filter</pwccode>
+    </paper>
+    <paper id="106">
+      <title>Score Combination for Improved Parallel Corpus Filtering for Low Resource Conditions</title>
+      <author><first>Muhammad</first><last>ElNokrashy</last></author>
+      <author><first>Amr</first><last>Hendy</last></author>
+      <author><first>Mohamed</first><last>Abdelghaffar</last></author>
+      <author><first>Mohamed</first><last>Afify</last></author>
+      <author><first>Ahmed</first><last>Tawfik</last></author>
+      <author><first>Hany</first><last>Hassan Awadalla</last></author>
+      <pages>947–951</pages>
+      <abstract>This paper presents the description of our submission to WMT20 sentence filtering task. We combine scores from custom LASER built for each source language, a <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifier</a> built to distinguish positive and negative pairs and the original scores provided with the task. For the mBART setup, provided by the organizers, our method shows 7 % and 5 % relative improvement, over the baseline, in sacreBLEU score on the test set for <a href="https://en.wikipedia.org/wiki/Pashto">Pashto</a> and <a href="https://en.wikipedia.org/wiki/Khmer_language">Khmer</a> respectively.</abstract>
+      <url hash="f7f93dee">2020.wmt-1.106</url>
+      <video href="https://slideslive.com/38939612" />
+      <bibkey>elnokrashy-etal-2020-score</bibkey>
+    </paper>
+    <paper id="108">
+      <title>An exploratory approach to the Parallel Corpus Filtering shared task WMT20<fixed-case>WMT</fixed-case>20</title>
+      <author><first>Ankur</first><last>Kejriwal</last></author>
+      <author><first>Philipp</first><last>Koehn</last></author>
+      <pages>959–965</pages>
+      <abstract>In this document we describe our submission to the parallel corpus filtering task using multilingual word embedding, <a href="https://en.wikipedia.org/wiki/Language_model">language models</a> and an ensemble of pre and post filtering rules. We use the norms of embedding and the perplexities of language models along with pre / post filtering rules to complement the LASER baseline scores and in the end get an improvement on the dev set in both language pairs.</abstract>
+      <url hash="86dd458a">2020.wmt-1.108</url>
+      <video href="https://slideslive.com/38939649" />
+      <bibkey>kejriwal-koehn-2020-exploratory</bibkey>
+    </paper>
+    <paper id="113">
+      <title>PATQUEST : Papago Translation Quality Estimation<fixed-case>PATQUEST</fixed-case>: Papago Translation Quality Estimation</title>
+      <author><first>Yujin</first><last>Baek</last></author>
+      <author><first>Zae Myung</first><last>Kim</last></author>
+      <author><first>Jihyung</first><last>Moon</last></author>
+      <author><first>Hyunjoong</first><last>Kim</last></author>
+      <author><first>Eunjeong</first><last>Park</last></author>
+      <pages>991–998</pages>
+      <abstract>This paper describes the <a href="https://en.wikipedia.org/wiki/System">system</a> submitted by Papago team for the quality estimation task at WMT 2020. It proposes two key strategies for quality estimation : (1) task-specific pretraining scheme, and (2) task-specific data augmentation. The former focuses on devising learning signals for pretraining that are closely related to the downstream task. We also present data augmentation techniques that simulate the varying levels of <a href="https://en.wikipedia.org/wiki/Errors_and_residuals">errors</a> that the downstream dataset may contain. Thus, our PATQUEST models are exposed to erroneous translations in both stages of task-specific pretraining and <a href="https://en.wikipedia.org/wiki/Finetuning">finetuning</a>, effectively enhancing their generalization capability. Our submitted models achieve significant improvement over the baselines for Task 1 (Sentence-Level Direct Assessment ; EN-DE only), and Task 3 (Document-Level Score).</abstract>
+      <url hash="ca5662d5">2020.wmt-1.113</url>
+      <video href="https://slideslive.com/38939610" />
+      <bibkey>baek-etal-2020-patquest</bibkey>
+    </paper>
+    <paper id="118">
+      <title>Two-Phase Cross-Lingual Language Model Fine-Tuning for Machine Translation Quality Estimation</title>
+      <author><first>Dongjun</first><last>Lee</last></author>
+      <pages>1024–1028</pages>
+      <abstract>In this paper, we describe the Bering Lab’s submission to the WMT 2020 Shared Task on Quality Estimation (QE). For word-level and sentence-level translation quality estimation, we fine-tune XLM-RoBERTa, the state-of-the-art cross-lingual language model, with a few additional parameters. Model training consists of two phases. We first pre-train our <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> on a huge artificially generated QE dataset, and then we fine-tune the <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> with a human-labeled dataset. When evaluated on the WMT 2020 English-German QE test set, our systems achieve the best result on the target-side of word-level QE and the second best results on the source-side of word-level QE and sentence-level QE among all submissions.</abstract>
+      <url hash="4beb1299">2020.wmt-1.118</url>
+      <video href="https://slideslive.com/38939546" />
+      <bibkey>lee-2020-two</bibkey>
+    </paper>
+    <paper id="119">
+      <title>IST-Unbabel Participation in the WMT20 Quality Estimation Shared Task<fixed-case>IST</fixed-case>-Unbabel Participation in the <fixed-case>WMT</fixed-case>20 Quality Estimation Shared Task</title>
+      <author><first>João</first><last>Moura</last></author>
+      <author><first>Miguel</first><last>Vera</last></author>
+      <author><first>Daan</first><last>van Stigt</last></author>
+      <author><first>Fabio</first><last>Kepler</last></author>
+      <author><first>André F. T.</first><last>Martins</last></author>
+      <pages>1029–1036</pages>
+      <abstract>We present the joint contribution of IST and Unbabel to the WMT 2020 Shared Task on Quality Estimation. Our team participated on all tracks (Direct Assessment, Post-Editing Effort, Document-Level), encompassing a total of 14 submissions. Our submitted systems were developed by extending the OpenKiwi framework to a transformer-based predictor-estimator architecture, and to cope with glass-box, uncertainty-based features coming from neural machine translation systems.</abstract>
+      <url hash="1dfb6e6c">2020.wmt-1.119</url>
+      <video href="https://slideslive.com/38939643" />
+      <bibkey>moura-etal-2020-ist</bibkey>
+    </paper>
+    <paper id="122">
+      <title>TransQuest at WMT2020 : Sentence-Level Direct Assessment<fixed-case>T</fixed-case>rans<fixed-case>Q</fixed-case>uest at <fixed-case>WMT</fixed-case>2020: Sentence-Level Direct Assessment</title>
+      <author><first>Tharindu</first><last>Ranasinghe</last></author>
+      <author><first>Constantin</first><last>Orasan</last></author>
+      <author><first>Ruslan</first><last>Mitkov</last></author>
+      <pages>1049–1055</pages>
+      <abstract>This paper presents the team TransQuest’s participation in Sentence-Level Direct Assessment shared task in WMT 2020. We introduce a simple QE framework based on cross-lingual transformers, and we use it to implement and evaluate two different neural architectures. The proposed methods achieve state-of-the-art results surpassing the results obtained by OpenKiwi, the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> used in the shared task. We further fine tune the QE framework by performing ensemble and <a href="https://en.wikipedia.org/wiki/Data_augmentation">data augmentation</a>. Our approach is the winning solution in all of the language pairs according to the WMT 2020 official results.</abstract>
+      <url hash="32d15a4f">2020.wmt-1.122</url>
+      <video href="https://slideslive.com/38939607" />
+      <bibkey>ranasinghe-etal-2020-transquest-wmt2020</bibkey>
+      <pwccode url="https://github.com/tharindudr/transQuest" additional="false">tharindudr/transQuest</pwccode>
+    </paper>
+    <paper id="124">
+      <title>Tencent submission for WMT20 Quality Estimation Shared Task<fixed-case>WMT</fixed-case>20 Quality Estimation Shared Task</title>
+      <author><first>Haijiang</first><last>Wu</last></author>
+      <author><first>Zixuan</first><last>Wang</last></author>
+      <author><first>Qingsong</first><last>Ma</last></author>
+      <author><first>Xinjie</first><last>Wen</last></author>
+      <author><first>Ruichen</first><last>Wang</last></author>
+      <author><first>Xiaoli</first><last>Wang</last></author>
+      <author><first>Yulin</first><last>Zhang</last></author>
+      <author><first>Zhipeng</first><last>Yao</last></author>
+      <author><first>Siyao</first><last>Peng</last></author>
+      <pages>1062–1067</pages>
+      <abstract>This paper presents Tencent’s submission to the WMT20 Quality Estimation (QE) Shared Task : Sentence-Level Post-editing Effort for English-Chinese in Task 2. Our system ensembles two <a href="https://en.wikipedia.org/wiki/Computer_architecture">architectures</a>, XLM-based and Transformer-based Predictor-Estimator models. For the XLM-based Predictor-Estimator architecture, the predictor produces two types of contextualized token representations, i.e., masked XLM and non-masked XLM ; the LSTM-estimator and Transformer-estimator employ two effective strategies, top-K and multi-head attention, to enhance the sentence feature representation. For Transformer-based Predictor-Estimator architecture, we improve a top-performing model by conducting three modifications : using multi-decoding in machine translation module, creating a new model by replacing the transformer-based predictor with XLM-based predictor, and finally integrating two models by a weighted average. Our submission achieves a <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearson correlation</a> of 0.664, ranking first (tied) on <a href="https://en.wikipedia.org/wiki/Standard_Chinese">English-Chinese</a>.</abstract>
+      <url hash="193481f0">2020.wmt-1.124</url>
+      <video href="https://slideslive.com/38939609" />
+      <bibkey>wu-etal-2020-tencent-submission</bibkey>
+    </paper>
+    <paper id="126">
+      <title>NLPRL System for Very Low Resource Supervised Machine Translation<fixed-case>NLPRL</fixed-case> System for Very Low Resource Supervised Machine Translation</title>
+      <author><first>Rupjyoti</first><last>Baruah</last></author>
+      <author><first>Rajesh Kumar</first><last>Mundotiya</last></author>
+      <author><first>Amit</first><last>Kumar</last></author>
+      <author><first>Anil kumar</first><last>Singh</last></author>
+      <pages>1075–1078</pages>
+      <abstract>This paper describes the results of the system that we used for the WMT20 very low resource (VLR) supervised MT shared task. For our experiments, we use a byte-level version of BPE, which requires a base vocabulary of size 256 only. BPE based models are a kind of sub-word models. Such models try to address the Out of Vocabulary (OOV) word problem by performing <a href="https://en.wikipedia.org/wiki/Word_segmentation">word segmentation</a> so that segments correspond to morphological units. They are also reported to work across different languages, especially similar languages due to their sub-word nature. Based on BLEU cased score, our NLPRL systems ranked ninth for HSB to GER and tenth in GER to HSB translation scenario.</abstract>
+      <url hash="671b4450">2020.wmt-1.126</url>
+      <video href="https://slideslive.com/38939625" />
+      <bibkey>baruah-etal-2020-nlprl</bibkey>
+    </paper>
+    <paper id="129">
+      <title>UdS-DFKI@WMT20 : Unsupervised MT and Very Low Resource Supervised MT for German-Upper Sorbian<fixed-case>U</fixed-case>d<fixed-case>S</fixed-case>-<fixed-case>DFKI</fixed-case>@<fixed-case>WMT</fixed-case>20: Unsupervised <fixed-case>MT</fixed-case> and Very Low Resource Supervised <fixed-case>MT</fixed-case> for <fixed-case>G</fixed-case>erman-<fixed-case>U</fixed-case>pper <fixed-case>S</fixed-case>orbian</title>
+      <author><first>Sourav</first><last>Dutta</last></author>
+      <author><first>Jesujoba</first><last>Alabi</last></author>
+      <author><first>Saptarashmi</first><last>Bandyopadhyay</last></author>
+      <author><first>Dana</first><last>Ruiter</last></author>
+      <author><first>Josef</first><last>van Genabith</last></author>
+      <pages>1092–1098</pages>
+      <abstract>This paper describes the UdS-DFKI submission to the shared task for unsupervised machine translation (MT) and very low-resource supervised MT between German (de) and Upper Sorbian (hsb) at the Fifth Conference of Machine Translation (WMT20). We submit <a href="https://en.wikipedia.org/wiki/System">systems</a> for both the supervised and unsupervised tracks. Apart from various experimental approaches like bitext mining, model pre-training, and iterative back-translation, we employ a factored machine translation approach on a small BPE vocabulary.</abstract>
+      <url hash="70031bea">2020.wmt-1.129</url>
+      <video href="https://slideslive.com/38939584" />
+      <bibkey>dutta-etal-2020-uds</bibkey>
+    </paper>
+    <paper id="133">
+      <title>CUNI Systems for the Unsupervised and Very Low Resource Translation Task in WMT20<fixed-case>CUNI</fixed-case> Systems for the Unsupervised and Very Low Resource Translation Task in <fixed-case>WMT</fixed-case>20</title>
+      <author><first>Ivana</first><last>Kvapilíková</last></author>
+      <author><first>Tom</first><last>Kocmi</last></author>
+      <author><first>Ondřej</first><last>Bojar</last></author>
+      <pages>1123–1128</pages>
+      <abstract>This paper presents a description of CUNI systems submitted to the WMT20 task on unsupervised and very low-resource supervised machine translation between <a href="https://en.wikipedia.org/wiki/German_language">German</a> and Upper Sorbian. We experimented with training on <a href="https://en.wikipedia.org/wiki/Synthetic_data">synthetic data</a> and pre-training on a related language pair. In the fully unsupervised scenario, we achieved 25.5 and 23.7 BLEU translating from and into Upper Sorbian, respectively. Our low-resource systems relied on <a href="https://en.wikipedia.org/wiki/Transfer_learning">transfer learning</a> from German-Czech parallel data and achieved 57.4 BLEU and 56.1 BLEU, which is an improvement of 10 BLEU points over the baseline trained only on the available small German-Upper Sorbian parallel corpus.</abstract>
+      <url hash="a9c59155">2020.wmt-1.133</url>
+      <video href="https://slideslive.com/38939641" />
+      <bibkey>kvapilikova-etal-2020-cuni</bibkey>
+    </paper>
+    <paper id="134">
+      <title>The University of Helsinki and Aalto University submissions to the WMT 2020 news and low-resource translation tasks<fixed-case>U</fixed-case>niversity of <fixed-case>H</fixed-case>elsinki and Aalto University submissions to the <fixed-case>WMT</fixed-case> 2020 news and low-resource translation tasks</title>
+      <author><first>Yves</first><last>Scherrer</last></author>
+      <author><first>Stig-Arne</first><last>Grönroos</last></author>
+      <author><first>Sami</first><last>Virpioja</last></author>
+      <pages>1129–1138</pages>
+      <abstract>This paper describes the joint participation of University of Helsinki and Aalto University to two shared tasks of WMT 2020 : the news translation between Inuktitut and <a href="https://en.wikipedia.org/wiki/English_language">English</a> and the low-resource translation between <a href="https://en.wikipedia.org/wiki/German_language">German</a> and Upper Sorbian. For both tasks, our efforts concentrate on efficient use of monolingual and related bilingual corpora with scheduled multi-task learning as well as an optimized subword segmentation with <a href="https://en.wikipedia.org/wiki/Sampling_(statistics)">sampling</a>. Our submission obtained the highest score for <a href="https://en.wikipedia.org/wiki/Upper_Sorbian">Upper Sorbian-German</a> and was ranked second for German-Upper Sorbian according to <a href="https://en.wikipedia.org/wiki/BLEU">BLEU scores</a>. For EnglishInuktitut, we reached ranks 8 and 10 out of 11 according to BLEU scores.</abstract>
+      <url hash="eb48442e">2020.wmt-1.134</url>
+      <video href="https://slideslive.com/38939589" />
+      <bibkey>scherrer-etal-2020-university</bibkey>
+    </paper>
+    <paper id="135">
+      <title>The NITS-CNLP System for the Unsupervised MT Task at WMT 2020<fixed-case>NITS</fixed-case>-<fixed-case>CNLP</fixed-case> System for the Unsupervised <fixed-case>MT</fixed-case> Task at <fixed-case>WMT</fixed-case> 2020</title>
+      <author><first>Salam Michael</first><last>Singh</last></author>
+      <author><first>Thoudam Doren</first><last>Singh</last></author>
+      <author><first>Sivaji</first><last>Bandyopadhyay</last></author>
+      <pages>1139–1143</pages>
+      <abstract>We describe NITS-CNLP’s submission to WMT 2020 unsupervised machine translation shared task for German language (de) to Upper Sorbian (hsb) in a constrained setting i.e, using only the data provided by the organizers. We train our <a href="https://en.wikipedia.org/wiki/Unsupervised_learning">unsupervised model</a> using monolingual data from both the languages by jointly pre-training the <a href="https://en.wikipedia.org/wiki/Encoder">encoder</a> and <a href="https://en.wikipedia.org/wiki/Code">decoder</a> and fine-tune using backtranslation loss. The final model uses the source side (de) monolingual data and the target side (hsb) synthetic data as a pseudo-parallel data to train a pseudo-supervised system which is tuned using the provided development set(dev set).</abstract>
+      <url hash="64ef4f2f">2020.wmt-1.135</url>
+      <video href="https://slideslive.com/38939575" />
+      <bibkey>singh-etal-2020-nits</bibkey>
+    </paper>
+    <paper id="136">
+      <title>Adobe AMPS’s Submission for Very Low Resource Supervised Translation Task at WMT20<fixed-case>AMPS</fixed-case>’s Submission for Very Low Resource Supervised Translation Task at <fixed-case>WMT</fixed-case>20</title>
+      <author><first>Keshaw</first><last>Singh</last></author>
+      <pages>1144–1149</pages>
+      <abstract>In this paper, we describe our <a href="https://en.wikipedia.org/wiki/System">systems</a> submitted to the very low resource supervised translation task at WMT20. We participate in both translation directions for Upper Sorbian-German language pair. Our primary submission is a subword-level Transformer-based neural machine translation model trained on original training bitext. We also conduct several experiments with backtranslation using limited monolingual data in our post-submission work and include our results for the same. In one such experiment, we observe jumps of up to 2.6 BLEU points over the primary system by <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">pretraining</a> on a synthetic, backtranslated corpus followed by <a href="https://en.wikipedia.org/wiki/Fine-tuning">fine-tuning</a> on the original parallel training data.</abstract>
+      <url hash="7d02bb70">2020.wmt-1.136</url>
+      <video href="https://slideslive.com/38939621" />
+      <bibkey>singh-2020-adobe</bibkey>
+    </paper>
+    <paper id="140">
+      <title>Human-Paraphrased References Improve Neural Machine Translation</title>
+      <author><first>Markus</first><last>Freitag</last></author>
+      <author><first>George</first><last>Foster</last></author>
+      <author><first>David</first><last>Grangier</last></author>
+      <author><first>Colin</first><last>Cherry</last></author>
+      <pages>1183–1192</pages>
+      <abstract>Automatic evaluation comparing candidate translations to human-generated paraphrases of reference translations has recently been proposed by freitag2020bleu. When used in place of original references, the paraphrased versions produce <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metric scores</a> that correlate better with <a href="https://en.wikipedia.org/wiki/Judgement">human judgment</a>. This effect holds for a variety of different automatic metrics, and tends to favor natural formulations over more literal (translationese) ones. In this paper we compare the results of performing end-to-end system development using standard and paraphrased references. With state-of-the-art English-German NMT components, we show that tuning to paraphrased references produces a system that is ignificantly better according to human judgment, but 5 BLEU points worse when tested on standard references. Our work confirms the finding that paraphrased references yield metric scores that correlate better with human judgment, and demonstrates for the first time that using these scores for system development can lead to significant improvements.</abstract>
+      <url hash="3dccb6eb">2020.wmt-1.140</url>
+      <video href="https://slideslive.com/38939593" />
+      <bibkey>freitag-etal-2020-human</bibkey>
+    </paper>
+    <paper id="141">
+      <title>Incorporating Terminology Constraints in Automatic Post-Editing</title>
+      <author><first>David</first><last>Wan</last></author>
+      <author><first>Chris</first><last>Kedzie</last></author>
+      <author><first>Faisal</first><last>Ladhak</last></author>
+      <author><first>Marine</first><last>Carpuat</last></author>
+      <author><first>Kathleen</first><last>McKeown</last></author>
+      <pages>1193–1204</pages>
+      <abstract>Users of <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation (MT)</a> may want to ensure the use of specific <a href="https://en.wikipedia.org/wiki/Terminology">lexical terminologies</a>. While there exist techniques for incorporating terminology constraints during <a href="https://en.wikipedia.org/wiki/Inference">inference</a> for MT, current APE approaches can not ensure that they will appear in the final translation. In this paper, we present both autoregressive and non-autoregressive models for lexically constrained APE, demonstrating that our approach enables preservation of 95 % of the terminologies and also improves translation quality on English-German benchmarks. Even when applied to lexically constrained MT output, our approach is able to improve preservation of the terminologies. However, we show that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> do not learn to copy constraints systematically and suggest a simple data augmentation technique that leads to improved performance and <a href="https://en.wikipedia.org/wiki/Robust_statistics">robustness</a>.</abstract>
+      <url hash="e3b0f9c7">2020.wmt-1.141</url>
+      <video href="https://slideslive.com/38939650" />
+      <bibkey>wan-etal-2020-incorporating</bibkey>
+      <pwccode url="https://github.com/zerocstaker/constrained_ape" additional="false">zerocstaker/constrained_ape</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/escape">eSCAPE</pwcdataset>
+    </paper>
+  </volume>
+</collection>

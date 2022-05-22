@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="2021.wnut">
+  <volume id="1" ingest-date="2021-11-12">
+    <meta>
+      <booktitle>Proceedings of the Seventh Workshop on Noisy User-generated Text (W-NUT 2021)</booktitle>
+      <editor><first>Wei</first><last>Xu</last></editor>
+      <editor><first>Alan</first><last>Ritter</last></editor>
+      <editor><first>Tim</first><last>Baldwin</last></editor>
+      <editor><first>Afshin</first><last>Rahimi</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>November</month>
+      <year>2021</year>
+    </meta>
+    <frontmatter>
+      <url hash="375a0bef">2021.wnut-1.0</url>
+      <bibkey>wnut-2021-noisy</bibkey>
+    </frontmatter>
+    <paper id="1">
+      <title>Text Simplification for Comprehension-based Question-Answering</title>
+      <author><first>Tanvi</first><last>Dadu</last></author>
+      <author><first>Kartikey</first><last>Pant</last></author>
+      <author><first>Seema</first><last>Nagar</last></author>
+      <author><first>Ferdous</first><last>Barbhuiya</last></author>
+      <author><first>Kuntal</first><last>Dey</last></author>
+      <pages>1–10</pages>
+      <abstract>Text simplification is the process of splitting and rephrasing a sentence to a sequence of sentences making it easier to read and understand while preserving the content and approximating the original meaning. Text simplification has been exploited in NLP applications like <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>, <a href="https://en.wikipedia.org/wiki/Automatic_summarization">summarization</a>, <a href="https://en.wikipedia.org/wiki/Semantic_role_labeling">semantic role labeling</a>, and <a href="https://en.wikipedia.org/wiki/Information_extraction">information extraction</a>, opening a broad avenue for its exploitation in comprehension-based question-answering downstream tasks. In this work, we investigate the effect of <a href="https://en.wikipedia.org/wiki/Text_simplification">text simplification</a> in the task of <a href="https://en.wikipedia.org/wiki/Question_answering">question-answering</a> using a <a href="https://en.wikipedia.org/wiki/Context_(language_use)">comprehension context</a>. We release Simple-SQuAD, a simplified version of the widely-used SQuAD dataset. Firstly, we outline each step in the dataset creation pipeline, including style transfer, thresholding of sentences showing correct transfer, and offset finding for each answer. Secondly, we verify the quality of the transferred sentences through various <a href="https://en.wikipedia.org/wiki/Methodology">methodologies</a> involving both automated and human evaluation. Thirdly, we benchmark the newly created <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> and perform an ablation study for examining the effect of the simplification process in the SQuAD-based question answering task. Our experiments show that simplification leads to up to 2.04 % and 1.74 % increase in <a href="https://en.wikipedia.org/wiki/Exact_Match">Exact Match</a> and F1, respectively. Finally, we conclude with an analysis of the transfer process, investigating the types of edits made by the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>, and the effect of <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">sentence length</a> on the transfer model.</abstract>
+      <url hash="7f5d9cfb">2021.wnut-1.1</url>
+      <bibkey>dadu-etal-2021-text</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.1</doi>
+      <pwccode url="https://github.com/kartikeypant/text-simplification-qa-www2021" additional="false">kartikeypant/text-simplification-qa-www2021</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/squad">SQuAD</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikisplit">WikiSplit</pwcdataset>
+    </paper>
+    <paper id="4">
+      <title>Keyphrase Extraction with Incomplete Annotated Training Data</title>
+      <author><first>Yanfei</first><last>Lei</last></author>
+      <author><first>Chunming</first><last>Hu</last></author>
+      <author><first>Guanghui</first><last>Ma</last></author>
+      <author><first>Richong</first><last>Zhang</last></author>
+      <pages>26–34</pages>
+      <abstract>Extracting keyphrases that summarize the main points of a document is a fundamental task in <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a>. Supervised approaches to keyphrase extraction(KPE) are largely developed based on the assumption that the training data is fully annotated. However, due to the difficulty of keyphrase annotating, KPE models severely suffer from incomplete annotated problem in many scenarios. To this end, we propose a more robust <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training method</a> that learns to mitigate the misguidance brought by unlabeled keyphrases. We introduce negative sampling to adjust training loss, and conduct experiments under different scenarios. Empirical studies on synthetic datasets and open domain dataset show that our model is robust to incomplete annotated problem and surpasses prior baselines. Extensive experiments on five scientific domain datasets of different scales demonstrate that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> is competitive with the state-of-the-art method.</abstract>
+      <url hash="f5db7d3a">2021.wnut-1.4</url>
+      <attachment type="Software" hash="429484a1">2021.wnut-1.4.Software.zip</attachment>
+      <bibkey>lei-etal-2021-keyphrase</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.4</doi>
+      <pwcdataset url="https://paperswithcode.com/dataset/kp20k">KP20k</pwcdataset>
+    </paper>
+    <paper id="5">
+      <title>Fine-grained Temporal Relation Extraction with Ordered-Neuron LSTM and Graph Convolutional Networks<fixed-case>LSTM</fixed-case> and Graph Convolutional Networks</title>
+      <author><first>Minh</first><last>Tran Phu</last></author>
+      <author><first>Minh Van</first><last>Nguyen</last></author>
+      <author><first>Thien Huu</first><last>Nguyen</last></author>
+      <pages>35–45</pages>
+      <abstract>Fine-grained temporal relation extraction (FineTempRel) aims to recognize the durations and timeline of event mentions in text. A missing part in the current deep learning models for FineTempRel is their failure to exploit the <a href="https://en.wikipedia.org/wiki/Syntax">syntactic structures</a> of the input sentences to enrich the <a href="https://en.wikipedia.org/wiki/Representation_(mathematics)">representation vectors</a>. In this work, we propose to fill this gap by introducing novel methods to integrate the <a href="https://en.wikipedia.org/wiki/Syntax">syntactic structures</a> into the <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning models</a> for FineTempRel. The proposed <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> focuses on two types of syntactic information from the <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">dependency trees</a>, i.e., the syntax-based importance scores for representation learning of the words and the syntactic connections to identify important <a href="https://en.wikipedia.org/wiki/Context_(language_use)">context words</a> for the <a href="https://en.wikipedia.org/wiki/Context_(language_use)">event mentions</a>. We also present two novel techniques to facilitate the knowledge transfer between the subtasks of FineTempRel, leading to a novel model with the state-of-the-art performance for this task.</abstract>
+      <url hash="81e1333c">2021.wnut-1.5</url>
+      <bibkey>tran-phu-etal-2021-fine</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.5</doi>
+    </paper>
+    <paper id="9">
+      <title>A Text Editing Approach to Joint Japanese Word Segmentation, <a href="https://en.wikipedia.org/wiki/Tag_(metadata)">POS Tagging</a>, and Lexical Normalization<fixed-case>J</fixed-case>apanese Word Segmentation, <fixed-case>POS</fixed-case> Tagging, and Lexical Normalization</title>
+      <author><first>Shohei</first><last>Higashiyama</last></author>
+      <author><first>Masao</first><last>Utiyama</last></author>
+      <author><first>Taro</first><last>Watanabe</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <pages>67–80</pages>
+      <abstract>Lexical normalization, in addition to <a href="https://en.wikipedia.org/wiki/Word_segmentation">word segmentation</a> and <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part-of-speech tagging</a>, is a fundamental task for Japanese user-generated text processing. In this paper, we propose a text editing model to solve the three task jointly and methods of pseudo-labeled data generation to overcome the problem of data deficiency. Our experiments showed that the proposed <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> achieved better <a href="https://en.wikipedia.org/wiki/Normalization_(statistics)">normalization</a> performance when trained on more diverse pseudo-labeled data.</abstract>
+      <url hash="16c82883">2021.wnut-1.9</url>
+      <bibkey>higashiyama-etal-2021-text</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.9</doi>
+    </paper>
+    <paper id="10">
+      <title>Intrinsic evaluation of language models for <a href="https://en.wikipedia.org/wiki/Code-switching">code-switching</a></title>
+      <author><first>Sik Feng</first><last>Cheong</last></author>
+      <author><first>Hai Leong</first><last>Chieu</last></author>
+      <author><first>Jing</first><last>Lim</last></author>
+      <pages>81–86</pages>
+      <abstract>Language models used in <a href="https://en.wikipedia.org/wiki/Speech_recognition">speech recognition</a> are often either evaluated intrinsically using <a href="https://en.wikipedia.org/wiki/Perplexity">perplexity</a> on test data, or extrinsically with an automatic speech recognition (ASR) system. The former <a href="https://en.wikipedia.org/wiki/Evaluation">evaluation</a> does not always correlate well with <a href="https://en.wikipedia.org/wiki/Signaling_(telecommunications)">ASR</a> performance, while the latter could be specific to particular <a href="https://en.wikipedia.org/wiki/Signaling_(telecommunications)">ASR systems</a>. Recent work proposed to evaluate language models by using them to classify ground truth sentences among alternative phonetically similar sentences generated by a fine state transducer. Underlying such an <a href="https://en.wikipedia.org/wiki/Evaluation">evaluation</a> is the assumption that the generated sentences are linguistically incorrect. In this paper, we first put this assumption into question, and observe that alternatively generated sentences could often be linguistically correct when they differ from the ground truth by only one edit. Secondly, we showed that by using multi-lingual BERT, we can achieve better performance than previous work on two code-switching data sets. Our implementation is publicly available on Github at https://github.com/sikfeng/language-modelling-for-code-switching.</abstract>
+      <url hash="dab0802c">2021.wnut-1.10</url>
+      <bibkey>cheong-etal-2021-intrinsic</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.10</doi>
+      <pwccode url="https://github.com/sikfeng/language-modelling-for-code-switching" additional="false">sikfeng/language-modelling-for-code-switching</pwccode>
+    </paper>
+    <paper id="12">
+      <title>Perceived and Intended Sarcasm Detection with Graph Attention Networks</title>
+      <author><first>Joan</first><last>Plepi</last></author>
+      <author><first>Lucie</first><last>Flek</last></author>
+      <pages>97–105</pages>
+      <abstract>Existing sarcasm detection systems focus on exploiting <a href="https://en.wikipedia.org/wiki/Marker_(linguistics)">linguistic markers</a>, <a href="https://en.wikipedia.org/wiki/Context_(language_use)">context</a>, or user-level priors. However, social studies suggest that the relationship between the author and the audience can be equally relevant for the sarcasm usage and interpretation. In this work, we propose a <a href="https://en.wikipedia.org/wiki/Software_framework">framework</a> jointly leveraging (1) a user context from their historical tweets together with (2) the social information from a user’s conversational neighborhood in an interaction graph, to contextualize the interpretation of the post. We use graph attention networks (GAT) over users and tweets in a conversation thread, combined with dense user history representations. Apart from achieving state-of-the-art results on the recently published dataset of 19k Twitter users with 30 K labeled tweets, adding 10 M unlabeled tweets as context, our results indicate that the model contributes to interpreting the sarcastic intentions of an author more than to predicting the sarcasm perception by others.</abstract>
+      <url hash="fc846cee">2021.wnut-1.12</url>
+      <bibkey>plepi-flek-2021-perceived</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.12</doi>
+      <pwccode url="https://github.com/caisa-lab/sarcasm_detection" additional="false">caisa-lab/sarcasm_detection</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/spirs">SPIRS</pwcdataset>
+    </paper>
+    <paper id="18">
+      <title>Comparing Grammatical Theories of Code-Mixing</title>
+      <author><first>Adithya</first><last>Pratapa</last></author>
+      <author><first>Monojit</first><last>Choudhury</last></author>
+      <pages>158–167</pages>
+      <abstract>Code-mixed text generation systems have found applications in many downstream tasks, including <a href="https://en.wikipedia.org/wiki/Speech_recognition">speech recognition</a>, <a href="https://en.wikipedia.org/wiki/Translation">translation</a> and <a href="https://en.wikipedia.org/wiki/Dialogue">dialogue</a>. A paradigm of these generation systems relies on well-defined grammatical theories of code-mixing, and there is a lack of comparison of these <a href="https://en.wikipedia.org/wiki/Theory">theories</a>. We present a large-scale human evaluation of two popular grammatical theories, Matrix-Embedded Language (ML) and Equivalence Constraint (EC). We compare them against three heuristic-based models and quantitatively demonstrate the effectiveness of the two <a href="https://en.wikipedia.org/wiki/Grammatical_theory">grammatical theories</a>.</abstract>
+      <url hash="251fcc03">2021.wnut-1.18</url>
+      <bibkey>pratapa-choudhury-2021-comparing</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.18</doi>
+    </paper>
+    <paper id="21">
+      <title>Mitigation of Diachronic Bias in Fake News Detection Dataset</title>
+      <author><first>Taichi</first><last>Murayama</last></author>
+      <author><first>Shoko</first><last>Wakamiya</last></author>
+      <author><first>Eiji</first><last>Aramaki</last></author>
+      <pages>182–188</pages>
+      <abstract>Fake news causes significant damage to society. To deal with these <a href="https://en.wikipedia.org/wiki/Fake_news">fake news</a>, several studies on building detection models and arranging datasets have been conducted. Most of the fake news datasets depend on a specific time period. Consequently, the detection models trained on such a dataset have difficulty detecting novel <a href="https://en.wikipedia.org/wiki/Fake_news">fake news</a> generated by political changes and social changes ; they may possibly result in biased output from the input, including specific person names and organizational names. We refer to this problem as Diachronic Bias because it is caused by the creation date of news in each dataset. In this study, we confirm the <a href="https://en.wikipedia.org/wiki/Bias">bias</a>, especially <a href="https://en.wikipedia.org/wiki/Proper_noun">proper nouns</a> including <a href="https://en.wikipedia.org/wiki/Personal_name">person names</a>, from the deviation of phrase appearances in each dataset. Based on these findings, we propose masking methods using <a href="https://en.wikipedia.org/wiki/Wikidata">Wikidata</a> to mitigate the influence of person names and validate whether they make fake news detection models robust through experiments with in-domain and out-of-domain data.</abstract>
+      <url hash="6b3d5998">2021.wnut-1.21</url>
+      <bibkey>murayama-etal-2021-mitigation</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.21</doi>
+    </paper>
+    <paper id="24">
+      <title>Changes in Twitter geolocations : Insights and suggestions for future usage<fixed-case>T</fixed-case>witter geolocations: Insights and suggestions for future usage</title>
+      <author><first>Anna</first><last>Kruspe</last></author>
+      <author><first>Matthias</first><last>Häberle</last></author>
+      <author><first>Eike J.</first><last>Hoffmann</last></author>
+      <author><first>Samyo</first><last>Rode-Hasinger</last></author>
+      <author><first>Karam</first><last>Abdulahhad</last></author>
+      <author><first>Xiao Xiang</first><last>Zhu</last></author>
+      <pages>212–221</pages>
+      <abstract>Twitter data has become established as a valuable source of data for various application scenarios in the past years. For many such <a href="https://en.wikipedia.org/wiki/Application_software">applications</a>, it is necessary to know where Twitter posts (tweets) were sent from or what location they refer to. Researchers have frequently used exact coordinates provided in a small percentage of tweets, but <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a> removed the option to share these <a href="https://en.wikipedia.org/wiki/Coordinate_system">coordinates</a> in mid-2019. Moreover, there is reason to suspect that a large share of the provided coordinates did not correspond to <a href="https://en.wikipedia.org/wiki/Global_Positioning_System">GPS coordinates</a> of the user even before that. In this paper, we explain the situation and the 2019 policy change and shed light on the various options of still obtaining location information from <a href="https://en.wikipedia.org/wiki/Twitter">tweets</a>. We provide usage statistics including changes over time, and analyze what the removal of exact coordinates means for various common research tasks performed with Twitter data. Finally, we make suggestions for future research requiring geolocated tweets.</abstract>
+      <url hash="80627891">2021.wnut-1.24</url>
+      <bibkey>kruspe-etal-2021-changes</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.24</doi>
+    </paper>
+    <paper id="32">
+      <title>Coping with Noisy Training Data Labels in Paraphrase Detection</title>
+      <author><first>Teemu</first><last>Vahtola</last></author>
+      <author><first>Mathias</first><last>Creutz</last></author>
+      <author><first>Eetu</first><last>Sjöblom</last></author>
+      <author><first>Sami</first><last>Itkonen</last></author>
+      <pages>291–296</pages>
+      <abstract>We present new state-of-the-art benchmarks for <a href="https://en.wikipedia.org/wiki/Paraphrase_detection">paraphrase detection</a> on all six languages in the Opusparcus sentential paraphrase corpus : <a href="https://en.wikipedia.org/wiki/English_language">English</a>, <a href="https://en.wikipedia.org/wiki/Finnish_language">Finnish</a>, <a href="https://en.wikipedia.org/wiki/French_language">French</a>, <a href="https://en.wikipedia.org/wiki/German_language">German</a>, <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a>, and <a href="https://en.wikipedia.org/wiki/Swedish_language">Swedish</a>. We reach these <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baselines</a> by fine-tuning BERT. The best results are achieved on smaller and cleaner subsets of the training sets than was observed in previous research. Additionally, we study a translation-based approach that is competitive for the languages with more limited and noisier training data.</abstract>
+      <url hash="d302747c">2021.wnut-1.32</url>
+      <bibkey>vahtola-etal-2021-coping</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.32</doi>
+      <pwcdataset url="https://paperswithcode.com/dataset/opensubtitles">OpenSubtitles</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/opusparcus">Opusparcus</pwcdataset>
+    <title_es>Cómo hacer frente a etiquetas de datos de entrenamiento ruidosas en la detección de paráfrasis</title_es>
+      <title_pt>Lidando com rótulos de dados de treinamento barulhentos na detecção de paráfrase</title_pt>
+      <title_ar>التعامل مع تسميات بيانات التدريب الصاخبة في اكتشاف إعادة الصياغة</title_ar>
+      <title_fr>Faire face aux étiquettes de données d'entraînement bruyantes dans la détection de paraphrase</title_fr>
+      <title_ja>パラフレーズ検出におけるノイズの多いトレーニングデータラベルへの対応</title_ja>
+      <title_zh>于释义检处噪声训练数据标签</title_zh>
+      <title_ru>Работа с шумными ярлыками обучающих данных при обнаружении парафраз</title_ru>
+      <title_hi>पैराफ़्रेज़ डिटेक्शन में शोर प्रशिक्षण डेटा लेबल के साथ मुकाबला करना</title_hi>
+      <title_ga>Déileáil le Lipéid Sonraí Oiliúna Noisy i mBraith Athfhrása</title_ga>
+      <title_ka>Name</title_ka>
+      <title_hu>Zajos edzési adatcímkék kezelése a parafrázis detektálásban</title_hu>
+      <title_el>Αντιμετώπιση των θορυβωδών ετικετών δεδομένων κατάρτισης στην ανίχνευση παραφράσεων</title_el>
+      <title_kk>Парафразды анықтау үшін дыбыс оқыту деректер жарлықтарымен көшірмелеу</title_kk>
+      <title_it>Affrontare le etichette dei dati di allenamento rumoroso nel rilevamento delle parafrasi</title_it>
+      <title_mk>Копирање со ознаките на податоци за шумна обука во детекција на парафрази</title_mk>
+      <title_lt>Coping with Noisy Training Data Labels in Paraphrase Detection</title_lt>
+      <title_ms>Menyalin dengan Label Data Latihan Bunyi dalam Pengesanan Parafrasa</title_ms>
+      <title_mt>Kopjar mat-Tikketti tad-Dejta dwar it-Taħriġ bl-Istorbju fid-Detezzjoni tal-Parafrażi</title_mt>
+      <title_ml>പാരാഫ്രായിസ് ഡേറ്റാ ലേബലുകളുമായി പരിശീലിക്കുന്ന വിവരങ്ങള്‍ ലഭ്യമാക്കുന്നു</title_ml>
+      <title_mn>Парафрейз тогтоохын тулд шууд дасгал өгөгдлийн найзуудтай хууль</title_mn>
+      <title_no>Comment</title_no>
+      <title_pl>Radzenie sobie z hałasowymi etykietami danych treningowych w wykrywaniu parafraz</title_pl>
+      <title_ro>Gestionarea etichetelor de date de instruire zgomotoasă în detectarea parafrazelor</title_ro>
+      <title_sr>Kopirajući sa etiketama podataka za obuku u parafrazi</title_sr>
+      <title_si>Name</title_si>
+      <title_so>Codsashada baaritaanka macluumaadka waxbarashada noocyada ah ee baaritaanka Paraphrase</title_so>
+      <title_sv>Hantera bullriga träningsdataetiketter i parafrasedetektering</title_sv>
+      <title_ta>தேவையற்ற தகவல் விளக்கச்சீட்டுகளுடன் இணைப்பு</title_ta>
+      <title_ur>پارافریز اچانک میں نویسی ٹرینینگ ڈاٹ لیبل کے ساتھ کپی کیا جاتا ہے</title_ur>
+      <title_vi>Đang xử lý các thẻ sửa chữa nhiễu trong phát thanh Paracụm từ</title_vi>
+      <title_uz>Name</title_uz>
+      <title_bg>Справяне с етикетите за данни за шумно обучение при откриване на парафрази</title_bg>
+      <title_da>Håndtering af støjende træningsdataetiketter i parafraseregistrering</title_da>
+      <title_hr>Kopirajući s etiketama podataka za vježbanje glasina u otkrivanju parafraze</title_hr>
+      <title_nl>Omgaan met ruige trainingsgegevenslabels in parafrasedetectie</title_nl>
+      <title_de>Umgang mit lärmenden Trainingsdatenetiketten in der Paraphrasenerkennung</title_de>
+      <title_id>Coping with Noisy Training Data Labels in Paraphrase Detection</title_id>
+      <title_fa>Name</title_fa>
+      <title_ko>해석 검측 중 소음 훈련 데이터 라벨 처리</title_ko>
+      <title_sw>Kuunganisha na mabango ya mafunzo ya Taarifa isiyo ya kawaida katika Ugunduzi wa Paraphrase</title_sw>
+      <title_tr>Parafraz Aňlamak Derjesi bilen nusgala</title_tr>
+      <title_af>Name</title_af>
+      <title_sq>Kopjimi me etiketat e të dhënave të trajnimit të zhurmshëm në zbulimin e parafrazave</title_sq>
+      <title_am>ምርጫዎች</title_am>
+      <title_hy>Փարաֆրեսի հայտնաբերման ընթացքում աղմկոտ փորձի տվյալների պիտակների հետ հաղթահարելը</title_hy>
+      <title_az>Parafrazidə keşfetməsində Söyüd Eğitimi Veri Etiketleri ilə Kopyalanır</title_az>
+      <title_bn>প্যারাফ্রাজের ডাটা লেবেলের সাথে কোপিং</title_bn>
+      <title_bs>Kopirajući sa etiketama podataka za vježbanje Noisy u detekciji parafraze</title_bs>
+      <title_ca>Comprar amb les etiquetes de dades d'entrenament ruidosa en la detecció de parafrases</title_ca>
+      <title_cs>Zvládání šumových štítků tréninkových dat v detekci parafráz</title_cs>
+      <title_et>Mürakate koolitusandmete märgistega toimetulek parafraaside tuvastamisel</title_et>
+      <title_fi>Meluisten harjoitustietomerkint√∂jen k√§sittely parafraasien tunnistuksessa</title_fi>
+      <title_jv>gagal</title_jv>
+      <title_he>עותק עם תוויות מידע אימון רעש בחקירה של פראפרזיה</title_he>
+      <title_ha>KCharselect unicode block name</title_ha>
+      <title_sk>Obvladovanje hrupnih nalepk podatkov o usposabljanju pri zaznavanju parafraz</title_sk>
+      <title_bo>Paraphrase Detection ནང་གི་Noisy Training Data Labels དང་མཉམ་དུ་འདྲ་བཤུ་བྱེད་པ</title_bo>
+      <abstract_ar>نقدم أحدث المعايير الجديدة لاكتشاف إعادة الصياغة على جميع اللغات الست في مجموعة إعادة صياغة النص Opusparcus: الإنجليزية ، والفنلندية ، والفرنسية ، والألمانية ، والروسية ، والسويدية. نصل إلى خطوط الأساس هذه من خلال ضبط BERT. يتم تحقيق أفضل النتائج على مجموعات فرعية أصغر وأنظف من مجموعات التدريب مما لوحظ في البحث السابق. بالإضافة إلى ذلك ، ندرس نهجًا قائمًا على الترجمة قادرًا على المنافسة للغات مع بيانات تدريب أكثر محدودية وأكثر ضجيجًا.</abstract_ar>
+      <abstract_fr>Nous présentons de nouveaux repères de pointe pour la détection de la paraphrase dans les six langues du corpus de paraphrase sententielle Opusparcus : anglais, finnois, français, allemand, russe et suédois. Nous atteignons ces niveaux de référence en ajustant le BERT. Les meilleurs résultats sont obtenus sur des sous-ensembles plus petits et plus propres des ensembles d'entraînement que ceux observés dans les recherches précédentes. De plus, nous étudions une approche basée sur la traduction qui est compétitive pour les langues dont les données d'apprentissage sont plus limitées et plus bruyantes.</abstract_fr>
+      <abstract_pt>Apresentamos novos benchmarks de última geração para detecção de paráfrases em todos os seis idiomas do corpus de paráfrases sentenciais do Opusparcus: inglês, finlandês, francês, alemão, russo e sueco. Alcançamos essas linhas de base ajustando o BERT. Os melhores resultados são alcançados em subconjuntos menores e mais limpos dos conjuntos de treinamento do que foi observado em pesquisas anteriores. Além disso, estudamos uma abordagem baseada em tradução que é competitiva para os idiomas com dados de treinamento mais limitados e mais barulhentos.</abstract_pt>
+      <abstract_es>Presentamos nuevos parámetros de referencia de última generación para la detección de paráfrasis en los seis idiomas del corpus de paráfrasis oracional de Opusparcus: inglés, finés, francés, alemán, ruso y sueco. Alcanzamos estas líneas de base ajustando BERT. Los mejores resultados se obtienen en subconjuntos más pequeños y limpios de los conjuntos de entrenamiento que los observados en investigaciones anteriores. Además, estudiamos un enfoque basado en la traducción que sea competitivo para los idiomas con datos de formación más limitados y ruidosos.</abstract_es>
+      <abstract_ja>Opusparcusセンセーショナル・パラフレーズ・コーパス（英語、フィンランド語、フランス語、ドイツ語、ロシア語、スウェーデン語）のすべての6言語でパラフレーズ検出のための最新のベンチマークを提供しています。BERTを微調整することで、これらのベースラインに到達します。最良の結果は、以前の研究で観察されたものよりも小さく、より清潔な訓練セットのサブセットで達成される。さらに、より限定的で騒音の大きいトレーニングデータを持つ言語に対して競争力のある翻訳ベースのアプローチを研究しています。</abstract_ja>
+      <abstract_zh>臣等条上新最先进之准,施于Opusparcus句释义语料库中所有六语释义检:英语,芬兰语,法语,德语,俄语瑞典语。 微 BERT 以致基线。 比之前所观,在更小,更净练集上取最佳。 又考之于译法,其于训练有限,噪声语有竞争力。</abstract_zh>
+      <abstract_ru>Мы представляем новые современные эталоны для обнаружения парафраз на всех шести языках в корпусе парафраз Opusparcus: английском, финском, французском, немецком, русском и шведском. Мы достигаем этих базовых линий, точно настраивая БЕРТА. Наилучшие результаты достигаются в отношении меньших и более чистых подмножеств учебных наборов, чем это было отмечено в предыдущих исследованиях. Кроме того, мы изучаем подход, основанный на переводе, который является конкурентоспособным для языков с более ограниченными и более шумными данными обучения.</abstract_ru>
+      <abstract_hi>हम ओपसपारकस सेंटेन्शियल पैराफ्रेज कॉर्पस में सभी छह भाषाओं पर पैराफ्रेज डिटेक्शन के लिए नए अत्याधुनिक बेंचमार्क प्रस्तुत करते हैं: अंग्रेजी, फिनिश, फ्रेंच, जर्मन, रूसी और स्वीडिश। हम BERT को ठीक ट्यून करके इन आधार रेखाओं तक पहुंचते हैं। पिछले शोध में देखे गए प्रशिक्षण सेटों के छोटे और क्लीनर सबसेट पर सबसे अच्छे परिणाम प्राप्त किए जाते हैं। इसके अतिरिक्त, हम एक अनुवाद-आधारित दृष्टिकोण का अध्ययन करते हैं जो अधिक सीमित और शोर प्रशिक्षण डेटा वाली भाषाओं के लिए प्रतिस्पर्धी है।</abstract_hi>
+      <abstract_ga>Cuirimid tagarmharcanna úrscothacha i láthair chun athinsint a bhrath ar gach ceann de na sé theanga i gcorpas athinsint sentential Opussparcus: Béarla, Fionlainnis, Fraincis, Gearmáinis, Rúisis agus Sualainnis. Bainimid na bunlínte sin amach trí BERT a mhionchoigeartú. Baintear na torthaí is fearr amach ar fho-thacair níos lú agus níos glaine de na tacair oiliúna ná mar a breathnaíodh i dtaighde roimhe seo. Ina theannta sin, déanaimid staidéar ar chur chuige bunaithe ar aistriúchán atá iomaíoch do na teangacha le sonraí oiliúna níos teoranta agus níos torannaí.</abstract_ga>
+      <abstract_ka>ჩვენ ჩვენ ახალი სურათის ბენქმარკები პრაფრეზის განახლებისთვის ყველა შვიდი ენაში Opusparcus sentential paraphrase corpus: ანგლისური, ფინური, ფრანგური, გერმანური, პირუსი და შვედიული. ჩვენ მივიღეთ ეს ფესური ხაზების შესახებ BERT. ყველაზე საუკეთესო წარმოდგენა, რომლებიც უფრო პატარა და უფრო ფრთხოვრებული სპესტებში, ვიდრე წინა სწავლა სწავლა. დამატებით, ჩვენ შევსწავლობთ გადაწყვეტილების მიხედვილი, რომელიც კონპექტიურია ენებისთვის, რომელიც უფრო დავზრუნდებული და უფრო ბუნდა განა</abstract_ka>
+      <abstract_hu>Új, korszerű referenciaértékeket mutatunk be az Opusparcus sentintial parafrázis corpus mind a hat nyelvén: angol, finn, francia, német, orosz és svéd. A BERT finomhangolásával érjük el ezeket az alapokat. A legjobb eredményeket a korábbi kutatásoknál megfigyelhetőnél kisebb és tisztább részhalmazokon érjük el. Továbbá olyan fordításalapú megközelítést tanulmányozunk, amely versenyképes a korlátozottabb és zajosabb képzési adatokkal rendelkező nyelvek számára.</abstract_hu>
+      <abstract_el>Παρουσιάζουμε νέα πρότυπα αναφοράς τελευταίας τεχνολογίας για την ανίχνευση παραφράσεων και στις έξι γλώσσες στο σώμα παραφράσεων Opusparcus sentential: αγγλικά, φινλανδικά, γαλλικά, γερμανικά, ρωσικά και σουηδικά. Φτάνουμε σε αυτές τις γραμμές βάσης με την τελειοποίηση του BERT. Τα καλύτερα αποτελέσματα επιτυγχάνονται σε μικρότερα και καθαρότερα υποσύνολα των εκπαιδευτικών συνόλων από ό,τι παρατηρήθηκε σε προηγούμενη έρευνα. Επιπλέον, μελετούμε μια προσέγγιση βασισμένη στη μετάφραση που είναι ανταγωνιστική για τις γλώσσες με πιο περιορισμένα και θορυβώδη δεδομένα κατάρτισης.</abstract_el>
+      <abstract_kk>Біз Opusparcus sentential paraphrase corpus: ағылшын, финск, француз, неміс, руссиян және шведша тілдерінің барлық алты тілдерін анықтау үшін жаңа күй- жай бағдарламаларды таңдаймыз. Біз бұл негізгі сызықтарды BERT баптауына жеткіземіз. Ең жақсы нәтижелер кейінгі зерттеу бағдарламаларының кіші және тазалау бағдарламаларының ішінде болады. Сонымен қатар, біз тілдерге көмектесетін және дыбыс оқыту деректері бар аудармаларды негіздеген тәсілді зерттейміз.</abstract_kk>
+      <abstract_it>Presentiamo nuovi benchmark all'avanguardia per il rilevamento di parafrasi in tutte e sei le lingue del corpus sentimentale di parafrasi Opusparcus: inglese, finlandese, francese, tedesco, russo e svedese. Raggiungiamo queste linee di base regolando BERT. I risultati migliori si ottengono su sottoinsiemi più piccoli e più puliti dei set di formazione rispetto a quelli osservati nelle ricerche precedenti. Inoltre, studiamo un approccio basato sulla traduzione che è competitivo per le lingue con dati di formazione più limitati e rumorosi.</abstract_it>
+      <abstract_mk>Презентираме нови најсовремени референтни значки за детекција на парафрази на сите шест јазици во Опуспаркускиот реченствен парафразен тел: англиски, фински, француски, германски, руски и шведски. We reach these baselines by fine-tuning BERT.  Најдобрите резултати се постигнати за помали и почисти подгрупи на наборите на обуки отколку што беа забележани во претходните истражувања. Покрај тоа, студираме пристап базиран на превод кој е конкурентен за јазиците со поголеми ограничени и повисоки податоци за обука.</abstract_mk>
+      <abstract_ml>ഓപുസ്പാര്‍ക്കുസിന്റെ സെന്റെന്റില്‍ ആറു ഭാഷകള്‍ കണ്ടുപിടിക്കുന്നതിനുള്ള പുതിയ സ്റ്റേറ്റ് ഫ്രെഞ്ച്, ജര്‍മ്മന്‍, റഷ്യന്‍, സ്വീഷ്യന്‍ നമ്മള്‍ ഈ ബെസ്റ്റ് ലൈനുകളിലേക്ക് എത്തുന്നത് നല്ല ടൂണിങ്ങ് ബെര്‍ട്ട്. പരിശീലനത്തിന്റെ ചെറിയ വിഭവങ്ങളില്‍ ഏറ്റവും മികച്ച ഫലങ്ങള്‍ നേടിയിരിക്കുന്നു. മുമ്പ് പരിശീലനത്തിനെക്ക കൂടാതെ, ഞങ്ങള്‍ ഒരു പരിഭാഷയുടെ അടിസ്ഥാനത്തില്‍ പരിശോധിക്കുന്ന പ്രായോഗ്യം പഠിക്കുന്നു. അത് ഭാഷകള്‍ക്ക് വേണ്ട</abstract_ml>
+      <abstract_ms>We present new state-of-the-art benchmarks for paraphrase detection on all six languages in the Opusparcus sentential paraphrase corpus: English, Finnish, French, German, Russian, and Swedish.  Kita mencapai garis dasar ini dengan memperbaiki BERT. Hasil terbaik dicapai pada subkumpulan kecil dan lebih bersih set latihan daripada yang dilihat dalam kajian sebelumnya. Additionally, we study a translation-based approach that is competitive for the languages with more limited and noisier training data.</abstract_ms>
+      <abstract_no>Vi presenterer nye benchmarker for parafrase-oppdaging på alle seks språk i Opusparcus sentencial parafrase korpus: engelsk, finsk, fransk, tysk, russisk og svensk. Vi når desse grunnlinjene ved å finna BERT. Den beste resultatene er oppnådd på mindre og reinere undergruppene av opplæringssettet enn det ble observert i førre forskning. I tillegg studerer vi eit omsetjingsbasert tilnærming som er konkurentivt for språka med meir begrenset og større opplæringsdata.</abstract_no>
+      <abstract_mn>Бид Opusparcus өгүүлбэрийн үгийн 6 хэл дээр шинэ урлагийн багц багц дээр тайлбарлаж байна: Англи, Финляйн, Француз, Герман, Орос, Швед. Бид эдгээр суурь шугам хүртэл БЕРТ-г сайжруулж чадна. Хамгийн сайн үр дүнг нь өмнөх судалгаанд ажиглагдсан бага болон цэвэрлэх сургалтын хэсэг дээр гарч ирсэн. Мөн бид хэл дээр илүү хязгаарлагдсан, илүү чимээгүй сургалтын өгөгдлийн талаар өрсөлдөг орнуудыг судалдаг.</abstract_mn>
+      <abstract_ro>Vă prezentăm noi criterii de referință de ultimă generație pentru detectarea parafrazelor pe toate cele șase limbi din corpul de parafrază sentimentală Opusparcus: engleză, finlandeză, franceză, germană, rusă și suedeză. Ajungem la aceste linii de bază prin reglarea fină a BERT. Cele mai bune rezultate sunt obținute pe subseturi mai mici și mai curate ale seturilor de formare decât s-a observat în cercetările anterioare. În plus, studiem o abordare bazată pe traduceri, care este competitivă pentru limbile cu date de formare mai limitate și mai zgomotoase.</abstract_ro>
+      <abstract_pl>Przedstawiamy nowe najnowocześniejsze standardy wykrywania parafraz we wszystkich sześciu językach w korpusie parafraz Opusparcus sentential: angielskim, fińskim, francuskim, niemieckim, rosyjskim i szwedzkim. Dotrzemy do tych linii podstawowych poprzez dostosowanie BERT. Najlepsze wyniki osiąga się na mniejszych i czystszych podzbiorach zestawów szkoleniowych niż obserwowano w poprzednich badaniach. Dodatkowo badamy podejście oparte na tłumaczeniach, które jest konkurencyjne dla języków z bardziej ograniczonymi i głośniejszymi danymi szkoleniowymi.</abstract_pl>
+      <abstract_si>අපි අළුත් ස්ථානය-of-the-art benches පෙන්වන්නේ පැරැෆ්‍රේස් හොයාගන්න සියළු භාෂාවල් හතරක් හොයාගන්න පුළුවන්: ඉංග්‍රීසි, ෆින්ලි අපි මේ ප්‍රධාන පැත්තෙන් පොඩ්ඩක් ප්‍රවේශනය කරනවා BERT එක්ක. හොඳම ප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රත තවත්, අපි භාෂාවට අභිවාදයක් අධ්‍යානය කරනවා ඒක තරම් සීමාවිත සහ ශ්‍රීෂාවක් තොරතුරක් තියෙනවා.</abstract_si>
+      <abstract_so>Waxaannu soo bandhignaynaa qoraalka farshaxanka ee ku qoran lix luqadood oo dhan oo ku qoran qoraalka farshaxanka ee Opusparcus: Ingiriis, Finnish, Faraansiis, Jarmal, Ruush iyo Iswidish. Waxaynu gaadhnaa heerarkaas oo ku qoran BERT Midhaha ugu wanaagsan waxaa laga helaa kooxaha waxbarashada ka yar iyo ka nadiifsan kooxaha waxbarashada ee ugu horeeyay. Sidoo kale waxaynu baranaynaa qaabab turjuman oo ku dadaalaya luqadaha oo ku qoran macluumaad waxbarasho aad u xadan iyo aad u dhawaaq.</abstract_so>
+      <abstract_sv>Vi presenterar nya toppmoderna riktmärken för parafrasdetektering på alla sex språk i Opusparcus sentential parafrascorpus: engelska, finska, franska, tyska, ryska och svenska. Vi når dessa baslinjer genom att finjustera BERT. De bästa resultaten uppnås på mindre och renare delgrupper av träningsuppsättningar än vad som observerats i tidigare forskning. Dessutom studerar vi ett översättningsbaserat tillvägagångssätt som är konkurrenskraftigt för språken med mer begränsade och bullriga utbildningsdata.</abstract_sv>
+      <abstract_ta>நாங்கள் ஒபுஸ்பார்க்ஸ் சென்டியல் கார்புஸ் மூலம் அனைத்து ஆறு மொழிகள் கண்டுபிடிப்பதற்கான புதிய மாநிலை குறிப்புகளை கூட்டுகிறோம்: ஆங்கிலம்,  நாம் இந்த அடிப்படைக்கோடுகளை நல்ல தூண்டுதல் பெர்ட் மூலம் அடையும். முந்தைய ஆய்வுகளில் பார்க்கப்பட்டதை விட சிறிய மற்றும் சுத்தமான பயிற்சி அமைப்புகளின் சிறந்த முடிவு மேலும், நாம் மொழிகளுக்கு பொருத்தமான ஒரு மொழிபெயர்ப்பு அடிப்படையான செயல்பாட்டை படிக்கிறோம். அது மிகவும் வரம்</abstract_ta>
+      <abstract_lt>Pateikiame naujus naujausius lyginamuosius rodiklius parafrazėms aptikti visomis šešiomis Opusparcus baudžiamosios parafrazės korpusais: anglų, suomių, prancūzų, vokiečių, rusų ir švedų. Mes pasiekiame šias bazines linijas patobulindami BERT. The best results are achieved on smaller and cleaner subsets of the training sets than was observed in previous research.  Be to, mes tiriame vertimo principu grindžiamą požiūrį, kuris yra konkurencingesnis kalboms, turinčioms ribotesnius ir triukšmingesnius mokymo duomenis.</abstract_lt>
+      <abstract_mt>Aħna nippreżentaw punti ta’ riferiment moderni ġodda għall-identifikazzjoni tal-parafrażi fis-sitt lingwi kollha fil-parafrażi sentenzjali tal-Opusparcus corpus: Ingliż, Finlandiż, Franċiż, Ġermaniż, Russu u Żvediż. Aħna nilħqu dawn il-linji bażi permezz ta’ aġġustament fin tal-BERT. The best results are achieved on smaller and cleaner subsets of the training sets than was observed in previous research.  Barra minn hekk, nistudjaw approċċ ibbażat fuq it-traduzzjoni li huwa kompetittiv għall-lingwi b’dejta ta’ taħriġ aktar limitata u aktar storbjuża.</abstract_mt>
+      <abstract_sr>Predstavljamo nove standarde za detekciju parafraze na svih šest jezika na opusparcuskom sentencijalnom parafrazu korpusu: engleskom, finskom, francuskom, njemačkom, ruskom i švedskom. Došli smo do osnovnih linija sa središtem BERT-a. Najbolji rezultati su postignuti na manjim i čišćem podskupinama obuke nego što je posmatrano u prethodnim istraživanjima. Osim toga, proučavamo pristup na prevodu koji je konkurentniji za jezike sa ograničenijim i bukovijim podacima o obuci.</abstract_sr>
+      <abstract_ur>ہم نے انگلیسی, فنلاندی, فرانسوی, جرمانی, روسی اور سوئڈی کے سارے چھ زبانوں پر پارافریز شناسایی کے لئے نئی حالت بنچ مارک پیش کیے ہیں۔ ہم ان بنیاس لینوں کو ٹھیک تنظیم BERT کے ذریعہ پہنچ رہے ہیں. سب سے بہترین نتیجے چھوٹے اور پاکیزہ ترینس سٹوں پر پہنچ گئے ہیں جو پہلے تحقیقات میں دیکھی گئی تھی۔ اور اضافہ، ہم ایک ترجمہ پر بنیادی طریقہ کی تلاش کرتے ہیں جو زبانوں کے لئے زیادہ محدودہ اور زیادہ صوت ترجمہ ڈیٹا کے ساتھ مساوی ہے.</abstract_ur>
+      <abstract_uz>Biz Opusparcus sentensial paraphrase corpusida hamma lixda tillarni aniqlash uchun yangi holatning imkoniyatlarini hosil qilamiz: Inglizcha, Finnchacha, Fransuzcha, Olmoncha, Ruscha va Shvetsiya. Biz bu asboblarni BERT bilan yaxshi ko'rinishimiz mumkin. Eng yaxshi natijalar oldingi taʼminlovchi ko'proq taʼminlovchi bir nechta va yaxshi bir guruhlarda bajariladi. Additionally, we study a translation-based approach that is competitive for the languages with more limited and noisier training data.</abstract_uz>
+      <abstract_vi>Chúng tôi giới thiệu những tiêu chuẩn cao cấp mới cho việc phát hiện tập ảnh dài tập thể hình của tất cả sáu ngôn ngữ trong tập thể hình thành của người Anh, Phần Lan, Pháp, Đức, Nga và Thụy Điển. Chúng ta sẽ hoàn thành nền văn phòng bằng rượu. Những kết quả tốt nhất được đạt được trên các nhóm nhỏ hơn và sạch sẽ trong các bộ huấn luyện hơn so với những nghiên cứu trước. Hơn nữa, chúng tôi nghiên cứu một phương pháp dịch dựa trên cạnh tranh cho ngôn ngữ với thông tin về huấn luyện ngắn và đa dạng hơn.</abstract_vi>
+      <abstract_bg>Представяме нови най-съвременни показатели за откриване на парафрази на всичките шест езика в корпуса на парафразата: английски, финландски, френски, немски, руски и шведски. Достигаме тези базови линии чрез фина настройка на BERT. Най-добрите резултати се постигат при по-малки и по-чисти подгрупи от обучителните групи, отколкото е наблюдавано в предишни изследвания. Освен това изучаваме подход, базиран на преводи, който е конкурентен за езиците с по-ограничени и шумни данни за обучение.</abstract_bg>
+      <abstract_nl>We presenteren nieuwe state-of-the-art benchmarks voor parafrasedetectie op alle zes talen in het Opusparcus sentential parafrasedecorpus: Engels, Fins, Frans, Duits, Russisch en Zweeds. We bereiken deze basislijnen door BERT te finetunen. De beste resultaten worden bereikt op kleinere en schonere subsets van de trainingssets dan in vorig onderzoek werd waargenomen. Daarnaast bestuderen we een vertaalgebaseerde aanpak die concurrerend is voor de talen met meer beperkte en luidruchtige trainingsgegevens.</abstract_nl>
+      <abstract_da>Vi præsenterer nye state-of-the-art benchmarks for parafrasedetektion på alle seks sprog i Opusparcus sentential parafrase corpus: engelsk, finsk, fransk, tysk, russisk og svensk. Vi når disse grundlinjer ved at finjustere BERT. De bedste resultater opnås på mindre og renere delmængder af træningssættene, end der blev observeret i tidligere forskning. Derudover studerer vi en oversættelsesbaseret tilgang, der er konkurrencedygtig for sprogene med mere begrænsede og støjende træningsdata.</abstract_da>
+      <abstract_hr>Predstavljamo nove kriterije za otkrivanje parafraze na svih šest jezika u Opusparcus sentencijalnom parafrazu korpusu: engleskom, finskom, francuskom, njemačkom, ruskom i švedskom. Stižemo do osnovnih linija sa dobrim sredstvima BERT-a. Najbolji rezultati su postignuti na manjim i čišćem podskupinama obuke nego što je promatrano u prethodnim istraživanjima. Osim toga, proučavamo pristup na temelju prevoda koji je konkurentniji za jezike s ograničenijim i bukovijim podacima o obuci.</abstract_hr>
+      <abstract_de>Im Opusparcus sentential Paraphrasenkorpus präsentieren wir neue Benchmarks für die Paraphrasenerkennung in allen sechs Sprachen: Englisch, Finnisch, Französisch, Deutsch, Russisch und Schwedisch. Diese Grundlinien erreichen wir durch Feinabstimmung von BERT. Die besten Ergebnisse werden bei kleineren und saubereren Teilmengen der Trainingssets erzielt, als in früheren Untersuchungen beobachtet wurde. Darüber hinaus untersuchen wir einen übersetzungsbasierten Ansatz, der für die Sprachen mit begrenzteren und lauteren Trainingsdaten wettbewerbsfähig ist.</abstract_de>
+      <abstract_id>Kami mempersembahkan benchmark terbaru untuk deteksi parafrasa pada semua enam bahasa dalam hukum Opusparcus parafrasa mayat: Inggris, Finlandia, Perancis, Jerman, Rusia, dan Swedia. Kita mencapai garis dasar ini dengan memperbaiki BERT. Hasil terbaik dicapai pada subset yang lebih kecil dan lebih bersih dari set pelatihan dibandingkan pada penelitian sebelumnya. Selain itu, kami mempelajari pendekatan berdasarkan terjemahan yang kompetitif untuk bahasa dengan data latihan yang lebih terbatas dan lebih bunyi.</abstract_id>
+      <abstract_ko>우리는 Opusparcus 문장 해석 자료 라이브러리의 모든 6개 언어(영어, 핀란드어, 프랑스어, 독일어, 러시아어와 스웨덴어)에 최신 해석 검측 기준을 제공하였다.BERT를 미세하게 조정하여 이러한 베이스라인에 도달했습니다.이전 연구에 비해 더 작고 깨끗한 훈련 모음집에서 얻은 효과가 가장 좋다.그 밖에 우리는 번역을 바탕으로 하는 방법을 연구했는데 이런 방법은 훈련 데이터가 더욱 제한적이고 소음이 큰 언어에 경쟁력이 있다.</abstract_ko>
+      <abstract_fa>ما نقشه‌های جدید در حالت هنر برای شناسایی پارافریز در تمام شش زبان در پارافریز مجازات Opusparcus corpus: انگلیسی، فنلاندی، فرانسوی، آلمانی، روسی و سوئدی را نشان می‌دهیم. ما به این خط پایین‌ها با توسط BERT درست کردن رسیدیم. بهترین نتیجه‌های کوچکتر و پاکیزه‌ترین مجموعه‌های آموزش از تحقیقات قبلی به دست آورده می‌شوند. به اضافه، ما یک روش بر اساس ترجمه را مطالعه می کنیم که برای زبانها با داده های آموزش محدودیت و صداتر رقابت می کند.</abstract_fa>
+      <abstract_sw>Tunaweza kuweka bendera mpya ya hali ya sanaa kwa ajili ya kutambua lugha zote sita katika makampuni ya sentensi ya Opusparcus: Kiingereza, Kifaransa, Kijerumani, Urusi na Kiswahili. Tunapata mistari haya kwa kutumia vizuri vya BERT. Matokeo bora zaidi yamefikiliwa katika vipindi vidogo na safi zaidi vya vituo vya mafunzo kuliko vilivyoonekana katika utafiti uliopita. Zaidi ya hayo, tunasoma mbinu za kutafsiri inayohusiana na jitihada kwa lugha zenye taarifa za mafunzo mipango na sauti.</abstract_sw>
+      <abstract_tr>Opusparcus duýularynda ähli alty diller gözlemek üçin täze sanat taýýarlaryny: Iňlisçe, Finçe, fransuzça, nemesçe, Rusça we Şwedçe Biz bu temel hatlary BERT taýýarlap ýetirip otyrys. Iň gowy netijede, okuwçylyk toparynyň kiçi we temizlik toparynda öňki araştyrmalarda gözleýän netijede berilýär. Hem, biz terjime etmäge tabanly bir ýazşy öwrenýärdik. Diller üçin ýakynlaşyk diýip çarpan we gürrüňli terjime etmeli maglumatlar bilen.</abstract_tr>
+      <abstract_af>Ons stel nuwe staat-van-kuns benchmarke voor parafrase opdekking op alle ses tale in die Opusparcus sentenciele parafrase korpus: Engels, Finnish, Frans, Duits, Russies en Sweedse. Ons bereik hierdie basilyne deur fin-tuning BERT. Die beste resultate word ontvang op kleiner en skoonmaar subartikels van die onderwerp stelle as in vorige onderwerp aangesien word. Ons studiereer ook 'n oorsettingsbaseerde toegang wat vir die tale rekenaar is met meer beperk en gelukkiger onderwerking data.</abstract_af>
+      <abstract_am>We present new state-of-the-art benchmarks for paraphrase detection on all six languages in the Opusparcus sentential paraphrase corpus: English, Finnish, French, German, Russian, and Swedish.  እነዚህን መሠረቶች BERT በመጠቀም እናደርጋለን፡፡ የቀድሞው ትምህርት ውስጥ ከመታወቂያው ይልቅ ትንሽ እና ንጹሕ የግንኙነት ክፍሎች ላይ የተደረገ ውጤቶች ይደረጋሉ፡፡ በተጨማሪም፣ ለቋንቋዎች በተቃራኒ እና የድምፅ ትርጓሜ ዳታዎችን በተጨማሪው የቋንቋዎች ሥርዓት እናስተማራለን፡፡</abstract_am>
+      <abstract_az>Biz Opusparcus sentencial parafraz korpusu: İngilizce, Finlandiya, Fransız, Almanca, Rusya və İsveçə dillərində parafraz keşfetmək üçün yeni məlumatları göstəririk. Biz bu əsas sətirlərə BERT'u düzəltmək üçün çatdıq. Ən yaxşı sonuçlar əvvəlki araştırmalardan daha kiçik və daha temizlənmiş təhsil qurularında başarılır. Əksinə, biz həmin dillərə daha sınırlı və daha gürültülü təhsil məlumatları ilə müəllif olan çeviri tabanlı təhsil öyrənirik.</abstract_az>
+      <abstract_hy>Մենք ներկայացնում ենք նոր բարձրագույն համեմատական նշաններ, որոնք օգտագործում են պարաֆրեզի հայտնաբերումը բոլոր վեց լեզուների վրա Օպուսպարկուս նախադասության պարաֆրեզիայի մարմնի վրա' անգլերեն, ֆինլարեն, ֆրանսերեն, գերմաներեն, ռուսերեն և We reach these baselines by fine-tuning BERT.  Լավագույն արդյունքները հասնում են կրթության համակարգերի փոքր և մաքուր ենթախմբերի վրա, քան նախորդ հետազոտություններում: Ավելին, մենք ուսումնասիրում ենք թարգմանման հիմնված մոտեցում, որը մրցակցում է լեզուների համար ավելի սահմանափակ և ձանձրալի ուսումնասիրության տվյալներով:</abstract_hy>
+      <abstract_bn>We present new state-of-the-art benchmarks for paraphrase detection on all six languages in the Opusparcus sentential paraphrase corpus: English, Finnish, French, German, Russian, and Swedish.  আমরা ভালো টুনিং বের্টের মাধ্যমে এই বেসেলাইনে পৌঁছাই। পূর্ববর্তী গবেষণার চেয়ে ছোট এবং পরিষ্কার করা প্রশিক্ষণের সাবস্টগুলোতে সবচেয়ে ভাল ফলাফল অর্জন করা হয়েছে। এছাড়াও আমরা অনুবাদ ভিত্তিক উপায় গবেষণা করি যা ভাষার জন্য প্রতিযোগিতায় আরো সীমিত এবং শব্দের প্রশিক্ষণের তথ্য দিয়ে</abstract_bn>
+      <abstract_sq>Ne paraqesim nivele të reja të larta për zbulimin e parafrazave në të gjashtë gjuhët në kufomën e parafrazave të dënimit Opusparcus: anglisht, finlandez, francez, gjerman, rus dhe suedez. Ne arrijmë këto linja bazë duke rregulluar BERT. Rezultatet më të mira arrihen në nëngrupe më të vogla dhe më të pastra të grupeve të trainimit sesa u vëzhguan në kërkimet e mëparshme. Përveç kësaj, ne studiojmë një qasje bazuar në përkthime që është konkurruese për gjuhët me të dhëna më të kufizuara dhe më të zhurmshme trainimi.</abstract_sq>
+      <abstract_ca>Presentam nous punts de referència actuals per a la detecció de parafrases en totes les sis llengües del corps de parafrases sentencials Opusparcus: anglès, finlandès, francès, alemany, rus i suec. Arribem a aquestes línies de base ajustando BERT. Els millors resultats s'aconsegueixen en subgrups més petits i netes dels conjunts d'entrenament que en recerca anterior. A més, estudiem un enfocament basat en la traducció competitiu per a les llengües amb dades de formació més limitades i sorolloses.</abstract_ca>
+      <abstract_bs>Predstavljamo nove kritike za otkrivanje parafraze na svih šest jezika na sentencijalnom parafrazu Opusparcus korpusu: engleskom, finskom, francuskom, njemačkom, ruskom i švedskom. Stižemo do osnovnih linija sa dobrim sredstvima BERT-a. Najbolji rezultati su postignuti na manjim i čišćem podskupinama obuke nego što je posmatrano u prethodnim istraživanjima. Osim toga, proučavamo pristup na temelju prevoda koji je konkurentniji za jezike sa ograničenijim i buknijim podacima o obuci.</abstract_bs>
+      <abstract_cs>Představujeme nové nejmodernější měřítka pro detekci parafráze ve všech šesti jazycích v korpusu Opusparcus sentential parafráze: angličtina, finština, francouzština, němčina, ruština a švédština. Dosáhneme těchto základních linií jemným laděním BERT. Nejlepších výsledků je dosaženo na menších a čistších podskupinách tréninkových sad, než bylo pozorováno v předchozím výzkumu. Navíc studujeme přístup založený na překladu, který je konkurenceschopný pro jazyky s omezenějšími a hlučnějšími tréninkovými daty.</abstract_cs>
+      <abstract_et>Esitleme Opusparcuse sentimental parafraasikorpuses uusi kaasaegseid parameetreid parafraaside tuvastamiseks kõigis kuues keeles: inglise, soome, prantsuse, saksa, vene ja rootsi keel. Me jõuame baasjooneni BERTi täpsustades. Parimad tulemused saavutatakse koolituskomplektide väiksematel ja puhtamatel alagruppidel, kui varasemates uuringutes täheldatud. Lisaks uurime tõlkepõhist lähenemisviisi, mis on konkurentsivõimeline keelte jaoks piiratumate ja mürarikamate koolitusandmetega.</abstract_et>
+      <abstract_fi>Esittelemme Opusparcus sentential parafraasikorpusessa uusia viitearvoja parafraasien havaitsemiseen kaikilla kuudella kielellä: englanti, suomi, ranska, saksa, venäjä ja ruotsi. Saavutamme nämä perusviivat hienosäätämällä BERT:tä. Parhaimmat tulokset saavutetaan pienemmillä ja puhtaammilla koulutussarjojen osaryhmillä kuin aiemmassa tutkimuksessa havaittiin. Lisäksi tutkimme käännöksiin perustuvaa lähestymistapaa, joka on kilpailukykyinen kielille, joilla on rajallisempaa ja meluisampaa koulutustietoa.</abstract_fi>
+      <abstract_jv>Awak dhéwé éntuk perusahaan langkung wih-wih nggawe gerakno kanggo ngerasakno sawar karo hal basa sing dibutungan karo perusahaan Opusual: Inggris, Finis, Perancis, Russisk, Russisk lan Suwiti. Awak dhéwé ngerti barang-barang iki dibenakake BERT . Ndoleh sing paling dhéwé kuwi nggawe aturan luwih lan akeh njaluk sak ning acara dadi, nik awak dhéwé kuwi duluran kanggo ranjut dhéwé. Mungkin maneh, awak dhéwé ngeremu dadi kanggo tarjamahan sing bisa gerakan kanggo langgar luwih apik lan akeh dhéwé kuwi nggawe gerakan.</abstract_jv>
+      <abstract_he>אנו מציגים נקודות רמז חדשות של המצב המיוחד לגילוי המילים על כל ששת שפות במילים המשפטיים של אופוספארקוס: אנגלית, פינית, צרפתית, גרמנית, רוסית ושודית. אנחנו מגיעים לשורות הבסיס האלה על ידי התרגיל ברט. התוצאות הטובות ביותר נעשות על תת-קבוצות קטנות ונקיות יותר של קבוצות האימונים ממה שנצפה במחקר קודם. בנוסף, אנו לומדים גישה מבוססת על תרגום שהיא תחרותית לשפות עם נתונים אימונים מוגבלים יותר ויותר רעשים.</abstract_he>
+      <abstract_ha>We present new state-of-the-art benchmarks for paraphrase detection on all six languages in the Opusparcus sentential paraphrase corpus: English, Finnish, French, German, Russian, and Swedish.  Mãsu kai ga waɗannan salaffi da ke samun BERT. Suna sami mafi kyaun matsala a kan ƙanƙanan da masu ƙaranci da mai tsari daga an gane su da zaman fitina. Ina ƙaranci, munã karatun wani hanyoyi mai fassarwa wanda ke ƙunci wa lugha da data masu tsari da saurãre ta ƙaranci.</abstract_ha>
+      <abstract_sk>Predstavljamo nove najsodobnejše referenčne vrednosti za odkrivanje parafraz na vseh šestih jezikih v korpusu parafraze Opusparcus sentential: angleščina, finščina, francoščina, nemščina, ruščina in švedščina. Te temeljne črte dosežemo z natančnim nastavitvijo BERT. Najboljši rezultati so doseženi na manjših in čistejših podskupinah treningov, kot smo opazili v prejšnjih raziskavah. Poleg tega preučujemo prevajalski pristop, ki je konkurenčen za jezike z bolj omejenimi in hrupnimi podatki o usposabljanju.</abstract_sk>
+      <abstract_bo>ང་ཚོས་རྒྱལ་ཁབ་ཀྱི་ཐབས་ལམ་ལ་གནད་སྡུད་མིག་གི་ནང་གི་སྐད་རིགས་གཟུགས་ཐག་མ་གསལ་བཤད་པ་ཚོར་བཀོད་སྟོན་ཡོད། ཨིན་ཇིའི་དང་ མཐའ་མ།(ཨོ་མར། ང་ཚོས་BERT་ལྟར་ཞིབ་ཀྱིས་གཞི་རྟེན་འདི་ཚོ་ཐོག་ཡོད། གྲུབ་འབྲས་འདི་ཚོ་ལས་ཉུང་ཤོས་བྱས་ཆོས་ཉུང་དང་གཙང་དག་བཟོ་བྱེད་ཀྱི་ཡོད་པ་རེད། འོན་ཀྱང་། ང་ཚོས་སྐད་ཡིག</abstract_bo>
+      </paper>
+    <paper id="35">
+      <title>Detecting Cross-Geographic Biases in Toxicity Modeling on <a href="https://en.wikipedia.org/wiki/Social_media">Social Media</a></title>
+      <author><first>Sayan</first><last>Ghosh</last></author>
+      <author><first>Dylan</first><last>Baker</last></author>
+      <author><first>David</first><last>Jurgens</last></author>
+      <author><first>Vinodkumar</first><last>Prabhakaran</last></author>
+      <pages>313–328</pages>
+      <abstract>Online social media platforms increasingly rely on Natural Language Processing (NLP) techniques to detect abusive content at scale in order to mitigate the harms it causes to their users. However, these techniques suffer from various sampling and association biases present in training data, often resulting in sub-par performance on content relevant to <a href="https://en.wikipedia.org/wiki/Social_exclusion">marginalized groups</a>, potentially furthering disproportionate harms towards them. Studies on such biases so far have focused on only a handful of axes of disparities and subgroups that have annotations / lexicons available. Consequently, biases concerning non-Western contexts are largely ignored in the literature. In this paper, we introduce a weakly supervised method to robustly detect lexical biases in broader geo-cultural contexts. Through a case study on a publicly available toxicity detection model, we demonstrate that our method identifies salient groups of cross-geographic errors, and, in a follow up, demonstrate that these groupings reflect human judgments of offensive and inoffensive language in those geographic contexts. We also conduct analysis of a <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> trained on a <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> with ground truth labels to better understand these biases, and present preliminary mitigation experiments.</abstract>
+      <url hash="66cc0450">2021.wnut-1.35</url>
+      <bibkey>ghosh-etal-2021-detecting</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.35</doi>
+    </paper>
+    <paper id="36">
+      <title>Detection of Puffery on the <a href="https://en.wikipedia.org/wiki/English_Wikipedia">English Wikipedia</a><fixed-case>E</fixed-case>nglish <fixed-case>W</fixed-case>ikipedia</title>
+      <author><first>Amanda</first><last>Bertsch</last></author>
+      <author><first>Steven</first><last>Bethard</last></author>
+      <pages>329–333</pages>
+      <abstract>On <a href="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a>, an online crowdsourced encyclopedia, volunteers enforce the encyclopedia’s editorial policies. Wikipedia’s policy on maintaining a neutral point of view has inspired recent research on bias detection, including <a href="https://en.wikipedia.org/wiki/Weasel_word">weasel words</a> and <a href="https://en.wikipedia.org/wiki/Hedge_(finance)">hedges</a>. Yet to date, little work has been done on identifying <a href="https://en.wikipedia.org/wiki/Puffery">puffery</a>, phrases that are overly positive without a verifiable source. We demonstrate that collecting training data for this task requires some care, and construct a <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> by combining <a href="https://en.wikipedia.org/wiki/Wikipedia_community">Wikipedia editorial annotations</a> and <a href="https://en.wikipedia.org/wiki/Information_retrieval">information retrieval techniques</a>. We compare several approaches to predicting puffery, and achieve 0.963 <a href="https://en.wikipedia.org/wiki/F-number">f1 score</a> by incorporating <a href="https://en.wikipedia.org/wiki/Citation">citation features</a> into a RoBERTa model. Finally, we demonstrate how to integrate our model with Wikipedia’s public infrastructure to give back to the Wikipedia editor community.</abstract>
+      <url hash="17a682c2">2021.wnut-1.36</url>
+      <bibkey>bertsch-bethard-2021-detection</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.36</doi>
+      <pwccode url="https://github.com/abertsch72/wikipedia-puffery-detection" additional="false">abertsch72/wikipedia-puffery-detection</pwccode>
+    </paper>
+    <paper id="37">
+      <title>Robustness and Sensitivity of BERT Models Predicting Alzheimer’s Disease from Text<fixed-case>BERT</fixed-case> Models Predicting <fixed-case>A</fixed-case>lzheimer’s Disease from Text</title>
+      <author><first>Jekaterina</first><last>Novikova</last></author>
+      <pages>334–339</pages>
+      <abstract>Understanding robustness and <a href="https://en.wikipedia.org/wiki/Sensitivity_and_specificity">sensitivity</a> of BERT models predicting Alzheimer’s disease from text is important for both developing better classification models and for understanding their capabilities and limitations. In this paper, we analyze how a controlled amount of desired and undesired text alterations impacts performance of BERT. We show that BERT is robust to natural linguistic variations in text. On the other hand, we show that BERT is not sensitive to removing clinically important information from text.</abstract>
+      <url hash="02c68688">2021.wnut-1.37</url>
+      <bibkey>novikova-2021-robustness</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.37</doi>
+    </paper>
+    <paper id="39">
+      <title>CIDEr-R : Robust Consensus-based Image Description Evaluation<fixed-case>CIDE</fixed-case>r-<fixed-case>R</fixed-case>: Robust Consensus-based Image Description Evaluation</title>
+      <author><first>Gabriel</first><last>Oliveira dos Santos</last></author>
+      <author><first>Esther Luna</first><last>Colombini</last></author>
+      <author><first>Sandra</first><last>Avila</last></author>
+      <pages>351–360</pages>
+      <abstract>This paper shows that CIDEr-D, a traditional evaluation metric for image description, does not work properly on datasets where the number of words in the sentence is significantly greater than those in the MS COCO Captions dataset. We also show that CIDEr-D has performance hampered by the lack of multiple reference sentences and high variance of <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">sentence length</a>. To bypass this problem, we introduce CIDEr-R, which improves CIDEr-D, making it more flexible in dealing with <a href="https://en.wikipedia.org/wiki/Data_set">datasets</a> with high sentence length variance. We demonstrate that CIDEr-R is more accurate and closer to human judgment than CIDEr-D ; CIDEr-R is more robust regarding the number of available references. Our results reveal that using Self-Critical Sequence Training to optimize CIDEr-R generates descriptive captions. In contrast, when CIDEr-D is optimized, the generated captions’ length tends to be similar to the reference length. However, the <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> also repeat several times the same word to increase the <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">sentence length</a>.</abstract>
+      <url hash="1e750212">2021.wnut-1.39</url>
+      <bibkey>oliveira-dos-santos-etal-2021-cider</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.39</doi>
+      <pwcdataset url="https://paperswithcode.com/dataset/coco">COCO</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/coco-captions">COCO Captions</pwcdataset>
+    </paper>
+    <paper id="42">
+      <title>Improved Multilingual Language Model Pretraining for Social Media Text via Translation Pair Prediction</title>
+      <author><first>Shubhanshu</first><last>Mishra</last></author>
+      <author><first>Aria</first><last>Haghighi</last></author>
+      <pages>381–388</pages>
+      <abstract>We evaluate a simple approach to improving zero-shot multilingual transfer of mBERT on social media corpus by adding a pretraining task called translation pair prediction (TPP), which predicts whether a pair of cross-lingual texts are a valid translation. Our approach assumes access to translations (exact or approximate) between source-target language pairs, where we fine-tune a <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> on source language task data and evaluate the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> in the target language. In particular, we focus on language pairs where <a href="https://en.wikipedia.org/wiki/Transfer_learning">transfer learning</a> is difficult for mBERT : those where source and target languages are different in script, <a href="https://en.wikipedia.org/wiki/Vocabulary">vocabulary</a>, and <a href="https://en.wikipedia.org/wiki/Linguistic_typology">linguistic typology</a>. We show improvements from TPP pretraining over mBERT alone in zero-shot transfer from <a href="https://en.wikipedia.org/wiki/English_language">English</a> to <a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>, <a href="https://en.wikipedia.org/wiki/Arabic">Arabic</a>, and <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> on two social media tasks : NER (a 37 % average relative improvement in F1 across target languages) and sentiment classification (12 % relative improvement in F1) on social media text, while also benchmarking on a non-social media task of Universal Dependency POS tagging (6.7 % relative improvement in accuracy). Our results are promising given the lack of social media bitext corpus. Our code can be found at : https://github.com/twitter-research/multilingual-alignment-tpp.</abstract>
+      <url hash="d9d16d6b">2021.wnut-1.42</url>
+      <bibkey>mishra-haghighi-2021-improved</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.42</doi>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikimatrix">WikiMatrix</pwcdataset>
+    </paper>
+    <paper id="46">
+      <title>Character Transformations for Non-Autoregressive GEC Tagging<fixed-case>GEC</fixed-case> Tagging</title>
+      <author><first>Milan</first><last>Straka</last></author>
+      <author><first>Jakub</first><last>Náplava</last></author>
+      <author><first>Jana</first><last>Straková</last></author>
+      <pages>417–422</pages>
+      <abstract>We propose a character-based non-autoregressive GEC approach, with automatically generated character transformations. Recently, per-word classification of correction edits has proven an efficient, parallelizable alternative to current encoder-decoder GEC systems. We show that word replacement edits may be suboptimal and lead to explosion of rules for <a href="https://en.wikipedia.org/wiki/Spelling">spelling</a>, diacritization and errors in morphologically rich languages, and propose a method for generating character transformations from GEC corpus. Finally, we train character transformation models for <a href="https://en.wikipedia.org/wiki/Czech_language">Czech</a>, <a href="https://en.wikipedia.org/wiki/German_language">German</a> and <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a>, reaching solid results and dramatic speedup compared to autoregressive systems. The source code is released at https://github.com/ufal/wnut2021_character_transformations_gec.</abstract>
+      <url hash="23583507">2021.wnut-1.46</url>
+      <bibkey>straka-etal-2021-character</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.46</doi>
+      <pwccode url="https://github.com/ufal/wnut2021_character_transformations_gec" additional="false">ufal/wnut2021_character_transformations_gec</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/akces-gec">AKCES-GEC</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/conll-2014-shared-task-grammatical-error">CoNLL-2014 Shared Task: Grammatical Error Correction</pwcdataset>
+    </paper>
+    <paper id="47">
+      <title>Can Character-based Language Models Improve Downstream Task Performances In Low-Resource And Noisy Language Scenarios?</title>
+      <author><first>Arij</first><last>Riabi</last></author>
+      <author><first>Benoît</first><last>Sagot</last></author>
+      <author><first>Djamé</first><last>Seddah</last></author>
+      <pages>423–436</pages>
+      <abstract>Recent impressive improvements in <a href="https://en.wikipedia.org/wiki/Natural_language_processing">NLP</a>, largely based on the success of contextual neural language models, have been mostly demonstrated on at most a couple dozen high- resource languages. Building language mod- els and, more generally, NLP systems for non- standardized and low-resource languages remains a challenging task. In this work, we fo- cus on North-African colloquial dialectal Arabic written using an extension of the <a href="https://en.wikipedia.org/wiki/Latin_script">Latin script</a>, called NArabizi, found mostly on social media and messaging communication. In this low-resource scenario with data display- ing a high level of variability, we compare the downstream performance of a character-based language model on <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part-of-speech tagging</a> and dependency parsing to that of monolingual and multilingual models. We show that a character-based model trained on only 99k sentences of NArabizi and fined-tuned on a small treebank of this language leads to performance close to those obtained with the same architecture pre- trained on large multilingual and monolingual models. Confirming these results a on much larger data set of noisy French user-generated content, we argue that such character-based language models can be an asset for <a href="https://en.wikipedia.org/wiki/Natural_language_processing">NLP</a> in low-resource and high language variability set- tings.</abstract>
+      <url hash="0dee8f63">2021.wnut-1.47</url>
+      <bibkey>riabi-etal-2021-character</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.47</doi>
+    </paper>
+    <paper id="48">
+      <title>Something Something Hota Hai ! An Explainable Approach towards <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">Sentiment Analysis</a> on Indian Code-Mixed Data<fixed-case>I</fixed-case>ndian Code-Mixed Data</title>
+      <author><first>Aman</first><last>Priyanshu</last></author>
+      <author><first>Aleti</first><last>Vardhan</last></author>
+      <author><first>Sudarshan</first><last>Sivakumar</last></author>
+      <author><first>Supriti</first><last>Vijay</last></author>
+      <author><first>Nipuna</first><last>Chhabra</last></author>
+      <pages>437–444</pages>
+      <abstract>The increasing use of social media sites in countries like India has given rise to large volumes of code-mixed data. Sentiment analysis of this <a href="https://en.wikipedia.org/wiki/Data">data</a> can provide integral insights into people’s perspectives and opinions. Code-mixed data is often noisy in nature due to multiple spellings for the same word, lack of definite order of words in a sentence, and random abbreviations. Thus, working with code-mixed data is more challenging than monolingual data. Interpreting a <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>’s predictions allows us to determine the <a href="https://en.wikipedia.org/wiki/Robust_statistics">robustness</a> of the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> against different forms of <a href="https://en.wikipedia.org/wiki/Noise_(signal_processing)">noise</a>. In this paper, we propose a <a href="https://en.wikipedia.org/wiki/Methodology">methodology</a> to integrate explainable approaches into code-mixed sentiment analysis. By interpreting the predictions of <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis models</a> we evaluate how well the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> is able to adapt to the implicit noises present in code-mixed data.</abstract>
+      <url hash="8350c695">2021.wnut-1.48</url>
+      <bibkey>priyanshu-etal-2021-something</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.48</doi>
+    </paper>
+    <paper id="49">
+      <title>BERTweetFR : Domain Adaptation of Pre-Trained Language Models for French Tweets<fixed-case>BERT</fixed-case>weet<fixed-case>FR</fixed-case> : Domain Adaptation of Pre-Trained Language Models for <fixed-case>F</fixed-case>rench Tweets</title>
+      <author><first>Yanzhu</first><last>Guo</last></author>
+      <author><first>Virgile</first><last>Rennard</last></author>
+      <author><first>Christos</first><last>Xypolopoulos</last></author>
+      <author><first>Michalis</first><last>Vazirgiannis</last></author>
+      <pages>445–450</pages>
+      <abstract>We introduce BERTweetFR, the first large-scale pre-trained language model for French tweets. Our <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> is initialised using a general-domain French language model CamemBERT which follows the base architecture of BERT. Experiments show that BERTweetFR outperforms all previous general-domain French language models on two downstream Twitter NLP tasks of offensiveness identification and <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">named entity recognition</a>. The <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> used in the offensiveness detection task is first created and annotated by our team, filling in the gap of such analytic datasets in <a href="https://en.wikipedia.org/wiki/French_language">French</a>. We make our model publicly available in the transformers library with the aim of promoting future research in analytic tasks for French tweets.</abstract>
+      <url hash="594c8dad">2021.wnut-1.49</url>
+      <bibkey>guo-etal-2021-bertweetfr</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.49</doi>
+      <pwccode url="" additional="true" />
+    </paper>
+    <paper id="50">
+      <title>To What Extent Does Lexical Normalization Help English-as-a-Second Language Learners to Read Noisy English Texts?<fixed-case>E</fixed-case>nglish-as-a-Second Language Learners to Read Noisy <fixed-case>E</fixed-case>nglish Texts?</title>
+      <author><first>Yo</first><last>Ehara</last></author>
+      <pages>451–456</pages>
+      <abstract>How difficult is it for English-as-a-second language (ESL) learners to read noisy English texts? Do <a href="https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language">ESL learners</a> need lexical normalization to read noisy English texts? These questions may also affect community formation on <a href="https://en.wikipedia.org/wiki/Social_networking_service">social networking sites</a> where differences can be attributed to <a href="https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language">ESL learners</a> and <a href="https://en.wikipedia.org/wiki/First_language">native English speakers</a>. However, few studies have addressed these questions. To this end, we built highly accurate readability assessors to evaluate the readability of texts for <a href="https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language">ESL learners</a>. We then applied these assessors to noisy English texts to further assess the readability of the texts. The experimental results showed that although intermediate-level ESL learners can read most noisy English texts in the first place, lexical normalization significantly improves the readability of noisy English texts for <a href="https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language">ESL learners</a>.</abstract>
+      <url hash="4c6e5af1">2021.wnut-1.50</url>
+      <bibkey>ehara-2021-extent-lexical</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.50</doi>
+      <pwcdataset url="https://paperswithcode.com/dataset/onestopenglish">OneStopEnglish</pwcdataset>
+    </paper>
+    <paper id="51">
+      <title>Multilingual Sequence Labeling Approach to solve Lexical Normalization</title>
+      <author><first>Divesh</first><last>Kubal</last></author>
+      <author><first>Apurva</first><last>Nagvenkar</last></author>
+      <pages>457–464</pages>
+      <abstract>The task of converting a <a href="https://en.wikipedia.org/wiki/Nonstandard_dialect">nonstandard text</a> to a standard and readable text is known as lexical normalization. Almost all the Natural Language Processing (NLP) applications require the text data in normalized form to build quality task-specific models. Hence, lexical normalization has been proven to improve the performance of numerous natural language processing tasks on <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>. This study aims to solve the problem of Lexical Normalization by formulating the Lexical Normalization task as a Sequence Labeling problem. This paper proposes a sequence labeling approach to solve the problem of Lexical Normalization in combination with the word-alignment technique. The goal is to use a single model to normalize text in various languages namely <a href="https://en.wikipedia.org/wiki/Croatian_language">Croatian</a>, <a href="https://en.wikipedia.org/wiki/Danish_language">Danish</a>, <a href="https://en.wikipedia.org/wiki/Dutch_language">Dutch</a>, <a href="https://en.wikipedia.org/wiki/English_language">English</a>, <a href="https://en.wikipedia.org/wiki/Indonesian_language">Indonesian-English</a>, <a href="https://en.wikipedia.org/wiki/German_language">German</a>, <a href="https://en.wikipedia.org/wiki/Italian_language">Italian</a>, <a href="https://en.wikipedia.org/wiki/Serbian_language">Serbian</a>, <a href="https://en.wikipedia.org/wiki/Slovene_language">Slovenian</a>, <a href="https://en.wikipedia.org/wiki/Spanish_language">Spanish</a>, <a href="https://en.wikipedia.org/wiki/Turkish_language">Turkish</a>, and <a href="https://en.wikipedia.org/wiki/Turkish_language">Turkish-German</a>. This is a shared task in 2021 The 7th Workshop on Noisy User-generated Text (W-NUT) in which the participants are expected to create a system / model that performs lexical normalization, which is the translation of non-canonical texts into their canonical equivalents, comprising data from over 12 languages. The proposed single multilingual model achieves an overall ERR score of 43.75 on intrinsic evaluation and an overall Labeled Attachment Score (LAS) score of 63.12 on extrinsic evaluation. Further, the proposed <a href="https://en.wikipedia.org/wiki/Methodology">method</a> achieves the highest Error Reduction Rate (ERR) score of 61.33 among the participants in the shared task.</abstract>
+      <url hash="8be67a39">2021.wnut-1.51</url>
+      <bibkey>kubal-nagvenkar-2021-multilingual</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.51</doi>
+    </paper>
+    <paper id="52">
+      <title>Sesame Street to Mount Sinai : BERT-constrained character-level Moses models for multilingual lexical normalization<fixed-case>BERT</fixed-case>-constrained character-level <fixed-case>M</fixed-case>oses models for multilingual lexical normalization</title>
+      <author><first>Yves</first><last>Scherrer</last></author>
+      <author><first>Nikola</first><last>Ljubešić</last></author>
+      <pages>465–472</pages>
+      <abstract>This paper describes the HEL-LJU submissions to the MultiLexNorm shared task on multilingual lexical normalization. Our system is based on a BERT token classification preprocessing step, where for each token the type of the necessary transformation is predicted (none, uppercase, lowercase, capitalize, modify), and a character-level SMT step where the text is translated from original to normalized given the BERT-predicted transformation constraints. For some languages, depending on the results on development data, the <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training data</a> was extended by back-translating OpenSubtitles data. In the final ordering of the ten participating teams, the HEL-LJU team has taken the second place, scoring better than the previous <a href="https://en.wikipedia.org/wiki/State_of_the_art">state-of-the-art</a>.</abstract>
+      <url hash="255f5f11">2021.wnut-1.52</url>
+      <bibkey>scherrer-ljubesic-2021-sesame</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.52</doi>
+    </paper>
+    <paper id="53">
+      <title>Sequence-to-Sequence Lexical Normalization with Multilingual Transformers</title>
+      <author><first>Ana-Maria</first><last>Bucur</last></author>
+      <author><first>Adrian</first><last>Cosma</last></author>
+      <author><first>Liviu P.</first><last>Dinu</last></author>
+      <pages>473–482</pages>
+      <abstract>Current benchmark tasks for <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> contain text that is qualitatively different from the text used in informal day to day digital communication. This discrepancy has led to severe performance degradation of state-of-the-art NLP models when fine-tuned on real-world data. One way to resolve this issue is through lexical normalization, which is the process of transforming non-standard text, usually from <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>, into a more standardized form. In this work, we propose a sentence-level sequence-to-sequence model based on mBART, which frames the problem as a <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation problem</a>. As the noisy text is a pervasive problem across languages, not just <a href="https://en.wikipedia.org/wiki/English_language">English</a>, we leverage the multi-lingual pre-training of mBART to fine-tune it to our data. While current approaches mainly operate at the word or subword level, we argue that this approach is straightforward from a technical standpoint and builds upon existing pre-trained transformer networks. Our results show that while word-level, intrinsic, performance evaluation is behind other methods, our model improves performance on extrinsic, downstream tasks through <a href="https://en.wikipedia.org/wiki/Normalization_(statistics)">normalization</a> compared to models operating on raw, unprocessed, social media text.</abstract>
+      <url hash="1fbf78c4">2021.wnut-1.53</url>
+      <bibkey>bucur-etal-2021-sequence</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.53</doi>
+      <pwcdataset url="https://paperswithcode.com/dataset/olid">OLID</pwcdataset>
+    </paper>
+    <paper id="54">
+      <title>FAL at MultiLexNorm 2021 : Improving Multilingual Lexical Normalization by Fine-tuning ByT5<fixed-case>ÚFAL</fixed-case> at <fixed-case>M</fixed-case>ulti<fixed-case>L</fixed-case>ex<fixed-case>N</fixed-case>orm 2021: Improving Multilingual Lexical Normalization by Fine-tuning <fixed-case>B</fixed-case>y<fixed-case>T</fixed-case>5</title>
+      <author><first>David</first><last>Samuel</last></author>
+      <author><first>Milan</first><last>Straka</last></author>
+      <pages>483–492</pages>
+      <abstract>We present the winning entry to the Multilingual Lexical Normalization (MultiLexNorm) shared task at W-NUT 2021 (van der Goot et al., 2021a), which evaluates lexical-normalization systems on 12 social media datasets in 11 languages. We base our solution on a pre-trained byte-level language model, ByT5 (Xue et al., 2021a), which we further pre-train on synthetic data and then fine-tune on authentic normalization data. Our system achieves the best performance by a wide margin in intrinsic evaluation, and also the best performance in extrinsic evaluation through dependency parsing. The source code is released at https://github.com/ufal/multilexnorm2021 and the fine-tuned models at https://huggingface.co/ufal.</abstract>
+      <url hash="ba0bc551">2021.wnut-1.54</url>
+      <bibkey>samuel-straka-2021-ufal</bibkey>
+      <doi>10.18653/v1/2021.wnut-1.54</doi>
+      <pwccode url="https://github.com/ufal/multilexnorm2021" additional="false">ufal/multilexnorm2021</pwccode>
+    </paper>
+    </volume>
+</collection>

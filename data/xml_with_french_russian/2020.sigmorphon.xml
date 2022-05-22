@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="2020.sigmorphon">
+  <volume id="1" ingest-date="2020-06-21">
+    <meta>
+      <booktitle>Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology</booktitle>
+      <editor><first>Garrett</first><last>Nicolai</last></editor>
+      <editor><first>Kyle</first><last>Gorman</last></editor>
+      <editor><first>Ryan</first><last>Cotterell</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>July</month>
+      <year>2020</year>
+      <url hash="52a1928d">2020.sigmorphon-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="348ca84d">2020.sigmorphon-1.0</url>
+      <bibkey>sigmorphon-2020-sigmorphon</bibkey>
+    </frontmatter>
+    <paper id="6">
+      <title>The CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0 : Language-Specific Cross-Lingual Transfer<fixed-case>CMU</fixed-case>-<fixed-case>LTI</fixed-case> submission to the <fixed-case>SIGMORPHON</fixed-case> 2020 Shared Task 0: Language-Specific Cross-Lingual Transfer</title>
+      <author><first>Nikitha</first><last>Murikinati</last></author>
+      <author><first>Antonios</first><last>Anastasopoulos</last></author>
+      <pages>79–84</pages>
+      <abstract>This paper describes the CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0 on typologically diverse morphological inflection. The (unrestricted) submission uses the cross-lingual approach of our last year’s winning submission (Anastasopoulos and Neubig, 2019), but adapted to use specific transfer languages for each test language. Our <a href="https://en.wikipedia.org/wiki/System">system</a>, with fixed non-tuned hyperparameters, achieved a macro-averaged accuracy of 80.65 ranking 20th among 31 systems, but it was still tied for best <a href="https://en.wikipedia.org/wiki/System">system</a> in 25 of the 90 total languages.</abstract>
+      <url hash="78fecf87">2020.sigmorphon-1.6</url>
+      <doi>10.18653/v1/2020.sigmorphon-1.6</doi>
+      <bibkey>murikinati-anastasopoulos-2020-cmu</bibkey>
+    </paper>
+    <paper id="7">
+      <title>Grapheme-to-Phoneme Conversion with a Multilingual Transformer Model</title>
+      <author><first>Omnia</first><last>ElSaadany</last></author>
+      <author><first>Benjamin</first><last>Suter</last></author>
+      <pages>85–89</pages>
+      <abstract>In this paper, we describe our three submissions to the SIGMORPHON 2020 shared task 1 on grapheme-to-phoneme conversion for 15 languages. We experimented with a single multilingual transformer model. We observed that the multilingual model achieves results on par with our separately trained <a href="https://en.wikipedia.org/wiki/Monolingualism">monolingual models</a> and is even able to avoid a few of the errors made by the <a href="https://en.wikipedia.org/wiki/Monolingualism">monolingual models</a>.</abstract>
+      <url hash="f2153579">2020.sigmorphon-1.7</url>
+      <doi>10.18653/v1/2020.sigmorphon-1.7</doi>
+      <bibkey>elsaadany-suter-2020-grapheme</bibkey>
+    <title_ar>تحويل حروف الكتابة إلى الصوت باستخدام نموذج محول متعدد اللغات</title_ar>
+      <title_fr>Conversion de graphème en phonème avec un modèle de transformateur multilingue</title_fr>
+      <title_es>Conversión de grafema a fonema con un modelo de transformador multilingüe</title_es>
+      <title_pt>Conversão de grafema para fonema com um modelo de transformador multilíngue</title_pt>
+      <title_ja>多言語変圧器式による音素間グラフ変換</title_ja>
+      <title_zh>多语言转换器模字素至音素转换</title_zh>
+      <title_hi>Grapheme-to-Phoneme रूपांतरण एक बहुभाषी ट्रांसफॉर्मर मॉडल के साथ</title_hi>
+      <title_ru>Преобразование графем в фонемы с использованием многоязычной модели трансформатора</title_ru>
+      <title_ga>Tiontú Grapheme-go-Fóin le Múnla Trasfhoirmeora Ilteangach</title_ga>
+      <title_ka>Name</title_ka>
+      <title_el>Μετατροπή γραφεμού σε φωνεμό με ένα μοντέλο πολυγλωσσικού μετασχηματιστή</title_el>
+      <title_it>Conversione da Grapheme a Phoneme con un modello di trasformatore multilingue</title_it>
+      <title_lt>Name</title_lt>
+      <title_kk>Көптілік түрлендіруші үлгісімен графим- мен фонемеге аудару</title_kk>
+      <title_ms>Grapheme-to-Phoneme Conversion with a Multilingual Transformer Model</title_ms>
+      <title_ml>Multilingual Transformer Model</title_ml>
+      <title_mk>Name</title_mk>
+      <title_mn>Графим-ээс фонемийн шилжүүлэлт олон хэлний шилжүүлэгч загвартай</title_mn>
+      <title_mt>Konverżjoni Grapheme-to-Phoneme b’Mudell ta’ Trasferiment Multilingwi</title_mt>
+      <title_hu>Grapheme-to-Phoneme konverzió többnyelvű transzformátor modellel</title_hu>
+      <title_no>Name</title_no>
+      <title_ro>Conversie grafică în fonemă cu un model de transformator multilingv</title_ro>
+      <title_pl>Konwersja grafeme-na-foneme z wielojęzycznym modelem transformatora</title_pl>
+      <title_sr>Konverzija grafika na telefon sa multijezičkim modelom transformera</title_sr>
+      <title_si>ග්‍රාෆේම් ටි- ෆෝනේම් වර්තනය ගොඩක් භාෂාවක් වෙනස් මොඩල් එක්ක</title_si>
+      <title_so>Soo wareejiya sawir-sawir oo ku qoran Model Transformer luuqado badan</title_so>
+      <title_sv>Grafem-till-fonem konvertering med en flerspråkig transformatormodell</title_sv>
+      <title_ta>பல மொழி மாற்றி மாற்றும் மாதிரி</title_ta>
+      <title_ur>Multilingual Transformer Model کے ساتھ گرافم-to-Phoneme تبدیل</title_ur>
+      <title_uz>Name</title_uz>
+      <title_vi>Name=Xử lí đồ hoạ với mô biến hình đa ngôn ngữ</title_vi>
+      <title_bg>Конвертиране на графима към телефона с многоезичен трансформаторен модел</title_bg>
+      <title_da>Grafeme-til-Phoneme konvertering med en flersproget transformatormodel</title_da>
+      <title_nl>Grafeem-naar-Phoneme conversie met een meertalig transformatormodel</title_nl>
+      <title_hr>Konvertacija grafike na telefon sa multijezičkim modelom transformera</title_hr>
+      <title_ko>다중 언어 변환 모델에서의 자음 변환</title_ko>
+      <title_de>Umwandlung von Graphen in Phoneme mit einem mehrsprachigen Transformatormodell</title_de>
+      <title_id>Conversion Grapheme-to-Phoneme dengan Model Transformer Berbahasa</title_id>
+      <title_fa>Name</title_fa>
+      <title_sw>Mabadiliko ya Picha kwa lugha nyingi</title_sw>
+      <title_tr>Bir näçe dilli tertibleyici modi bilen grafüme-täze</title_tr>
+      <title_af>Grapheme- na- foon- omskakeling met 'n Multilingual Transformer Model</title_af>
+      <title_sq>Konversioni nga grafi në telefon me një model transformues shumëgjuhës</title_sq>
+      <title_am>undo-type</title_am>
+      <title_az>Çoxlu dil Transformer Modeli ilə Grafikə-ya-Fonimə dönüşü</title_az>
+      <title_hy>Grapheme-to-Phoneme Conversion with a Multilingual Transformer Model</title_hy>
+      <title_bn>একটি বহুভাষী ভাষায় ট্রান্সফ্রান্সভার মডেল দিয়ে গ্রাফিম- থো- ফটোনেম রংস্করণ</title_bn>
+      <title_bs>Konvertacija grafike na telefon sa multijezičkim modelom transformera</title_bs>
+      <title_ca>Conversió de gràfic a fonem amb un model de transformador multilingüe</title_ca>
+      <title_et>Graafik telefoniks teisendamine mitmekeelse transformaatori mudeliga</title_et>
+      <title_fi>Graafisesta puhelimeen muuntaminen monikielisellä muunnosmallilla</title_fi>
+      <title_cs>Převod grafeme na foneme s vícejazyčným transformátorem</title_cs>
+      <title_sk>Pretvorba grafike v telefon z večjezičnim modelom transformatorja</title_sk>
+      <title_ha>KCharselect unicode block name</title_ha>
+      <title_jv>structural navigation</title_jv>
+      <title_he>Grapheme-to-Phoneme Conversion with a Multilingual Transformer Model</title_he>
+      <title_bo>རྣམ་བརྙན་ལས་སྐུད་ལ་བརྙན་འཕྲིན་དང་བསྒྱུར་ནུས་ཀྱི་སྣ་ཚོགས་དབྱིབས་བཟོས་མ་དབྱིབས</title_bo>
+      <abstract_ar>في هذه الورقة ، نصف تقديماتنا الثلاثة لمهمة SIGMORPHON 2020 المشتركة 1 حول تحويل حروف الكتابة إلى الصوت لـ 15 لغة. جربنا نموذج محول متعدد اللغات واحد. لاحظنا أن النموذج متعدد اللغات يحقق نتائج على قدم المساواة مع نماذجنا أحادية اللغة المدربة بشكل منفصل وحتى أنه قادر على تجنب بعض الأخطاء التي تسببها النماذج أحادية اللغة.</abstract_ar>
+      <abstract_fr>Dans cet article, nous décrivons nos trois soumissions à la tâche partagée 1 de SIGMORPHON 2020 sur la conversion de graphème en phonème pour 15 langues. Nous avons expérimenté un modèle de transformateur multilingue unique. Nous avons observé que le modèle multilingue donne des résultats comparables à ceux de nos modèles monolingues entraînés séparément et qu'il est même capable d'éviter quelques-unes des erreurs commises par les modèles monolingues.</abstract_fr>
+      <abstract_es>En este artículo, describimos nuestras tres presentaciones a la tarea compartida 1 de SIGMORPHON 2020 sobre conversión de grafema a fonema para 15 idiomas. Experimentamos con un único modelo de transformador multilingüe. Observamos que el modelo multilingüe logra resultados a la par de nuestros modelos monolingües entrenados por separado e incluso es capaz de evitar algunos de los errores cometidos por los modelos monolingües.</abstract_es>
+      <abstract_pt>Neste artigo, descrevemos nossas três submissões para a tarefa compartilhada 1 do SIGMORPHON 2020 sobre conversão de grafema para fonema para 15 idiomas. Experimentamos um único modelo de transformador multilíngue. Observamos que o modelo multilíngue alcança resultados semelhantes aos nossos modelos monolíngues treinados separadamente e é até capaz de evitar alguns dos erros cometidos pelos modelos monolíngues.</abstract_pt>
+      <abstract_zh>本文,我们向SIGMORPHON 2020共享职务1提交的三份15种语言的字素到音素转换的提交。 试单个多言变压器模样。 吾观之,多言与吾独教者单语相当,至能免单语之过。</abstract_zh>
+      <abstract_ja>本稿では、SIGMORPHON 2020の15言語の音素間変換に関する共有タスク1への3つの提出について説明します。単一の多言語変圧器モデルを実験しました。多言語モデルは、別々に訓練されたモノリンガルモデルと同等の結果を達成し、モノリンガルモデルが犯したいくつかのエラーを回避することさえできることを観察しました。</abstract_ja>
+      <abstract_hi>इस पेपर में, हम 15 भाषाओं के लिए ग्राफेम-टू-फोनमे रूपांतरण पर SIGMORPHON 2020 साझा कार्य 1 के लिए हमारे तीन प्रस्तुतियों का वर्णन करते हैं। हमने एक एकल बहुभाषी ट्रांसफॉर्मर मॉडल के साथ प्रयोग किया। हमने देखा कि बहुभाषी मॉडल हमारे अलग-अलग प्रशिक्षित मोनोलिंगुअल मॉडल के बराबर परिणाम प्राप्त करता है और मोनोलिंगुअल मॉडल द्वारा की गई कुछ त्रुटियों से बचने में भी सक्षम है।</abstract_hi>
+      <abstract_ru>В этой статье мы описываем наши три представления на SIGMORPHON 2020, совместно выполненную задачу 1 по преобразованию графем в фонемы для 15 языков. Экспериментировали с единой многоязычной трансформаторной моделью. Мы заметили, что многоязычная модель достигает результатов наравне с нашими отдельно обученными одноязычными моделями и даже способна избежать некоторых ошибок, допущенных одноязычными моделями.</abstract_ru>
+      <abstract_ga>Sa pháipéar seo, déanaimid cur síos ar na trí aighneacht atá déanta againn do thasc roinnte 1 SIGMORPHON 2020 ar chomhshó graif-go-fónéim do 15 theanga. Rinneamar turgnamh le samhail ilteangach amháin de chlaochladán. Thugamar faoi deara go mbaineann an tsamhail ilteangach torthaí amach ar chomhchéim lenár múnlaí aonteangacha oilte ar leithligh agus go bhfuil sé in ann fiú roinnt de na hearráidí a dhéanann na samhlacha aonteangacha a sheachaint.</abstract_ga>
+      <abstract_ka>ამ დოკუნეში, ჩვენ სამი წარმოდგენება SIGMORPHON 2020-ს გაყოფილი სამუშაო სამუშაო სამუშაო სამუშაო სამუშაო სამუშაო სამუშაო დავაწერეთ ჩვენ ერთი მულტილენგური ტრანფორმეტრის მოდელზე ექსპერიმენტით. ჩვენ შევხედავთ, რომ მრავალენგური მოდელეში გავაკეთებთ წარმოდგენების პარამეტრებით, რომელიც ჩვენი განსხვავებული მონოლენგური მოდელეებით და კიდევ შეუძლებელია მონოლენგური მოდელეების</abstract_ka>
+      <abstract_el>Σε αυτή την εργασία, περιγράφουμε τις τρεις υποβολές μας στο κοινό έργο 1 για τη μετατροπή γραφεμού σε φωνήμες για 15 γλώσσες. Πειραματιστήκαμε με ένα ενιαίο πολύγλωσσο μοντέλο μετασχηματιστή. Παρατηρήσαμε ότι το πολύγλωσσο μοντέλο επιτυγχάνει αποτελέσματα ισοδύναμα με τα ξεχωριστά εκπαιδευμένα μονόγλωσσα μοντέλα μας και είναι ακόμη σε θέση να αποφύγει μερικά από τα λάθη που γίνονται από τα μονογλωσσικά μοντέλα.</abstract_el>
+      <abstract_hu>Ebben a tanulmányban bemutatjuk három beadványunkat a SIGGMRPHON 2020 közös feladatához, amelyek 15 nyelvre történő graféma-fonéma konverzióról szólnak. Kísérleteztünk egyetlen többnyelvű transzformátor modellel. Megfigyeltük, hogy a többnyelvű modell a külön képzett egynyelvű modellekkel egyenértékű eredményeket ér el, sőt képes elkerülni az egynyelvű modellek néhány hibáját.</abstract_hu>
+      <abstract_it>In questo articolo, descriviamo i nostri tre contributi al compito condiviso 1 di SIGGMORPHON 2020 sulla conversione da grafe a fonema per 15 lingue. Abbiamo sperimentato un unico modello di trasformatore multilingue. Abbiamo osservato che il modello multilingue raggiunge risultati alla pari dei nostri modelli monolingue formati separatamente ed è anche in grado di evitare alcuni errori commessi dai modelli monolingue.</abstract_it>
+      <abstract_kk>Бұл қағазда, біз 3 жіберімізді SIGMORPHON 2020 жылы 15 тіл үшін графимде-фонемде ортақ тапсырманы ортақтастырып тастадық. Біз бір көп тілді түрлендіруші үлгісімен тәжірибедік. Біз көптеген тілді моделі бір-біріміздің бір-біріміздің монолингі модельдеріміздің нәтижелерін жеткізеді және бір-біріміздің монолингі модельдерінің бірнеше қателерінің қатесін алмай алады де</abstract_kk>
+      <abstract_lt>Šiame dokumente apibūdiname tris mūsų pranešimus SIGMORPHON 2020 bendrai uždavinei Nr. 1 dėl grafimo į telefoną konversijos 15 kalbų. Eksperimentavome su vienu daugiakalbiu transformatoriumi. Pastebėjome, kad daugiakalbis model is pasiekia rezultatų lygiai su atskirai parengtais vienakalbiais modeliais ir net gali išvengti kelių klaidų, padarytų vienakalbiais modeliais.</abstract_lt>
+      <abstract_mk>Во овој весник, ги опишуваме нашите три поднесувања на СИГМОРФОН 2020 заедничката задача 1 за графем-на-телефон конверзија на 15 јазици. Експериментиравме со еден мултијазичен модел на трансформатор. We observed that the multilingual model achieves results on par with our separately trained monolingual models and is even able to avoid a few of the errors made by the monolingual models.</abstract_mk>
+      <abstract_ms>Dalam kertas ini, kami menggambarkan tiga penghantaran kami kepada tugas kongsi SIGMORPHON 2020 1 pada konversi grafeme-to-phoneme untuk 15 bahasa. Kami eksperimen dengan satu model pengubah berbilang bahasa. Kami memperhatikan bahawa model berbilang bahasa mencapai keputusan yang sama dengan model monobahasa kita terlatih secara terpisah dan bahkan mampu menghindari beberapa kesalahan yang dibuat oleh model monobahasa.</abstract_ms>
+      <abstract_ml>ഈ പത്രത്തില്‍ ഞങ്ങള്‍ ഞങ്ങളുടെ മൂന്ന് കീഴടങ്ങള്‍ സിഗ്മോര്‍പ്പോണ്‍ 2020-ലേക്ക് വിവരിച്ചുകൊടുക്കുന്നു. 15 ഭാഷകള്‍ക്ക് ഗ്രാഫീമിലേക ഞങ്ങള്‍ ഒരു പല ഭാഷ മാറ്റങ്ങള്‍ മോഡില്‍ പരീക്ഷിച്ചു. ഞങ്ങള്‍ കണ്ടുപിടിച്ചു കൊണ്ടിരിക്കുന്നു നമ്മുടെ പ്രത്യേക പരിശീലിക്കപ്പെട്ട മോഡലുകള്‍ പാര്‍ക്ക് ഫലങ്ങള്‍ നേടിയെടുക്കുന്നത്. മോണോളില്‍</abstract_ml>
+      <abstract_mt>F’dan id-dokument, aħna niddeskrivu t-tliet sottomissjonijiet tagħna lis-SIGMORPHON 2020 kompitu komuni 1 dwar konverżjoni grafika-fonema għal 15-il lingwa. Esperimentajna b’mudell wieħed ta’ trasformatur multilingwi. Aħna osservajna li l-mudell multilingwi jikseb riżultati daqs il-mudelli monolingwi mħarrġa separatament tagħna u huwa saħansitra kapaċi jevita xi wħud mill-iżbalji magħmula mill-mudelli monolingwi.</abstract_mt>
+      <abstract_mn>Энэ цаасан дээр бид SIGMORPHON 2020-н 15 хэл дээр графим-с-фоннемийн шилжүүлэлтийн 1 даалгавартай 3 даалгаврыг тайлбарлаж байна. Бид олон хэл шилжүүлэгч загвартай туршилт хийсэн. Бид олон хэлний загварын нэг хэлний загвараар үр дүнг гаргаж чадна гэдгийг анзаарсан. Мөн ганц хэлний загвараар хийсэн хэдэн алдаа гаргаж чадна.</abstract_mn>
+      <abstract_no>I denne papiret beskriver vi våre tre oppføringar til den delte oppgåva SIGMORPHON 2020 1 om konvertering av grapheme-to-phoneme for 15 språk. Vi eksperimenterte med eit enkelt multispråk transformeringsmodell. Vi observerte at multispråk modellen gjer resultat på par med våre individuelt trengte monospråk modeller og er i stand til å unngå nokre av feilene gjeven av dei monospråk modelane.</abstract_no>
+      <abstract_pl>W niniejszym artykule opisujemy nasze trzy zgłoszenia do wspólnego zadania SIGMORPHON 2020 dotyczącego konwersji grafem na fonem dla 15-języków. Eksperymentowaliśmy z jednym wielojęzycznym modelem transformatora. Zaobserwowaliśmy, że model wielojęzyczny osiąga rezultaty na równi z naszymi oddzielnie trenowanymi modelami jednojęzycznymi, a nawet jest w stanie uniknąć kilku błędów popełnianych przez modele jednojęzyczne.</abstract_pl>
+      <abstract_ro>În această lucrare, descriem cele trei depuneri ale noastre la sarcina comună SIGGMRPHON 2020 1 privind conversia graf-fonem pentru 15 limbi. Am experimentat cu un singur model de transformator multilingv. Am observat că modelul multilingv obține rezultate egale cu modelele noastre monolingve instruite separat și este chiar capabil să evite câteva dintre erorile făcute de modelele monolingve.</abstract_ro>
+      <abstract_sr>U ovom papiru opisujemo naše tri podatke na podatke SIGMORPHON 2020. zajedničkom zadatku 1 o preobraćanju grafima na telefon za 15 jezika. Eksperimentirali smo jednog multijezičkog model a transformacije. Primijetili smo da multijezički model postigne rezultate na par sa našim odvojenim monojezičkim modelima i čak je u stanju izbjeći nekoliko grešaka koji su napravili monojezički modeli.</abstract_sr>
+      <abstract_si>මේ පත්තරේ අපි අපේ පත්තර තුනක් ප්‍රවේශනය කරනවා SIGMORPHON 2020යි භාෂාවක් 15 වෙනුවෙන් ග්‍රාෆේම් ටි-ෆෝනේම් වෙනස් කරනවා  අපි එකම භාෂාවක් වෙනස් මොඩල් එක්ක පරීක්ෂණය කළා. අපි බලාපොරොත්තු කරලා තියෙන්නේ විශේෂ භාෂාත්මක මොඩල් එක්කෙන් අපේ විශේෂ විශේෂ ප්‍රශ්නය කරලා තියෙනවා කියලා අපේ විශේ</abstract_si>
+      <abstract_so>Warqadan waxaynu ku qornaa saddexdayada warqad ee SIGMORPHON 2020 oo loo qeybeeyey shaqo 1 oo ku saabsan beddelinta telefoonka ee 15 luqadood. Waxaan ku tijaabinay qaab isku mid ah oo isbedelka luuqadaha kala duduwan. Waxaan aragnay in qaababka luuqadaha kala duduwanu ay sameyn jireeno noocyada kala duwan ee muuqashada afka noocyada ah, waxayna awoodi karaan inuu ka fogeeyo qaar qaladyo ah oo modellada afka ah sameeyay.</abstract_so>
+      <abstract_sv>I denna uppsats beskriver vi våra tre bidrag till SIGGMORPHON 2020 delade uppgift 1 om grafem-till-fonem konvertering för 15 språk. Vi experimenterade med en enda flerspråkig transformatormodell. Vi konstaterade att den flerspråkiga modellen uppnår resultat i nivå med våra separat utbildade enspråkiga modeller och kan till och med undvika några av de fel som görs av de enspråkiga modellerna.</abstract_sv>
+      <abstract_ta>இந்த காகிதத்தில், நாம் SIGMORPHON 2020 பகிர்ந்த பணியை குறிப்பிடுகிறோம் 15 மொழிகளுக்கு வரைப்படம் மாற்றும் தொலைபேசி மாற்றும் ம நாங்கள் ஒரு பல மொழி மாற்றம் மாதிரி முறைமையைக் கொண்டு சோதனைப்படுத்தினோம். நாங்கள் பார்த்தோம் பல மொழி மாதிரி நமது தனியாக பயிற்சிக்கப்பட்ட மாதிரிகளுடன் பார் மீது முடிவுகள் பெறுகிறது மற்றும் மானோலிங்கால் மாத</abstract_ta>
+      <abstract_ur>اس کاغذ میں ہم نے اپنے تین مضبوطی سیGMORPHON 2020 میں تقسیم کی تابع ۱ کے بارے میں 15 زبانوں کے بارے میں گرافیم-to-phoneme تبدیل کرنے کے بارے میں توصیح کی ہے. ہم نے ایک multilingual transformer model سے آزمائش کی۔ ہم نے دیکھا کہ بہت سی زبان کی مدل ہمارے مختلف ایک زبان کی مدل کے ساتھ نتائج حاصل کرتی ہے اور یہ بھی ایک زبان کی مدل کے ذریعہ بہت سی خطاؤں سے بچ سکتا ہے۔</abstract_ur>
+      <abstract_uz>Bu qogʻozda, biz uchta imkoniyatlarimizni 2020 SIGMORPHON 2020'ga qaytarilgan vazifa 1'ni 15 tillar uchun grammatik- to-phoni aylantirish uchun qisqaramiz. Biz bir necha tillar o'zgartirish modelini sinab ko'rdik. Biz ko'pchilik modeli o'zgarishga o'xshash o'rganilgan monolingan modellarimiz bilan bir necha xil xatolarni olib keladi.</abstract_uz>
+      <abstract_vi>Trong tờ giấy này, chúng tôi mô tả ba kiến nghị của chúng tôi về nhiệm vụ đã chia sẻ SIGROOPUN 2020 về việc chuyển đổi graphheme-to-phonme cho 15-languages. Chúng tôi đã thử nghiệm với một mô hình chuyển đổi đa dạng. Chúng tôi quan sát rằng mẫu ngôn ngữ đa dạng đạt được kết quả trùng với mẫu ngôn ngữ được đào tạo riêng của chúng tôi và thậm chí còn có thể tránh được một số lỗi của mô hình độc ngôn ngữ.</abstract_vi>
+      <abstract_bg>В настоящата статия описваме трите ни предложения за споделена задача 1 за преобразуване графем-в-фон за 15 езика. Експериментирахме с един многоезичен трансформаторен модел. Наблюдавахме, че многоезичният модел постига резултати, равни на нашите самостоятелно обучени едноезични модели и дори може да избегне някои от грешките, допуснати от едноезичните модели.</abstract_bg>
+      <abstract_da>I denne artikel beskriver vi vores tre indlæg til SIGGMORPHON 2020 delte opgave 1 om grafem-til-fonem konvertering til 15 sprog. Vi eksperimenterede med en enkelt flersproget transformermodel. Vi bemærkede, at den flersprogede model opnår resultater på samme niveau som vores særskilt uddannede ensprogede modeller og endda er i stand til at undgå nogle af de fejl, som de ensprogede modeller begår.</abstract_da>
+      <abstract_nl>In dit artikel beschrijven we onze drie inzendingen aan de SIGMORPHON 2020 gedeelde taak 1 over grafeem-naar-foneemconversie voor 15-talen. We hebben geëxperimenteerd met één meertalig transformatormodel. We zagen dat het meertalige model resultaten behaalt die vergelijkbaar zijn met onze afzonderlijk getrainde eentalige modellen en zelfs enkele fouten van de eentalige modellen kan voorkomen.</abstract_nl>
+      <abstract_hr>U ovom papiru opisujemo svoje tri podatke podijeljenom zadatku 1 o preobraćanju grafima na telefon za 15 jezika. Eksperimentirali smo jednog multijezičkog model a transformacije. Primijetili smo da multijezički model postigne rezultate na par sa našim odvojenim monojezičkim modelima i čak je u stanju izbjeći nekoliko grešaka koje su napravili monojezički modeli.</abstract_hr>
+      <abstract_de>In diesem Beitrag beschreiben wir unsere drei Einreichungen zur gemeinsamen Aufgabe 1 von SIGMORPHON 2020 zur Graphem-zu-Phonem-Konvertierung für 15-Sprachen. Wir haben mit einem einzigen mehrsprachigen Transformatormodell experimentiert. Wir haben festgestellt, dass das mehrsprachige Modell Ergebnisse auf Augenhöhe mit unseren separat trainierten einsprachigen Modellen erzielt und sogar einige Fehler der einsprachigen Modelle vermeiden kann.</abstract_de>
+      <abstract_sw>Katika karatasi hii, tunaelezea ujumbe wetu wa tatu wa SIGMORPHON 2020 ulishiriki kazi 1 kwenye mabadiliko ya simu kwa lugha 15. Tulijaribu kwa muundo mmoja wa mabadiliko ya lugha mbalimbali. Tuliangalia kuwa mtindo wa lugha mbalimbali unafanikiwa matokeo kwa ajili ya vifaa vyetu pamoja na mifano yetu tofauti inayofundishwa na lugha za kimonolinguzi na pia inaweza kuepuka na makosa machache yaliyofanywa na mifano ya kimonolinguli.</abstract_sw>
+      <abstract_id>Dalam kertas ini, kami menggambarkan tiga pengiriman kami ke SIGMORPHON 2020 berbagi tugas 1 pada konversi grafeme-to-phoneme untuk 15 bahasa. Kami eksperimen dengan model transformator multibahasa tunggal. Kami memperhatikan bahwa model berbilang bahasa mencapai hasil yang sama dengan model monobahasa kita terlatih secara terpisah dan bahkan dapat menghindari beberapa kesalahan yang dibuat oleh model monobahasa.</abstract_id>
+      <abstract_fa>در این کاغذ، ما سه تسلیم‌های خودمان را به وظیفه‌ی SIGMORPHON 2020 در مورد تبدیل گرافیم-به-فونیم برای ۱۵ زبان توصیف می‌کنیم. ما با یک مدل تغییر دهنده multilingual آزمایش کردیم. ما مشاهده کردیم که مدل چندین زبان نتیجه‌ها را با مدل‌های تنها زبان آموزش می‌دهیم و حتی می‌تواند از چند اشتباه‌ها که توسط مدل‌های تنها زبان انجام می‌دهند فرار کند.</abstract_fa>
+      <abstract_af>In hierdie papier beskrywe ons drie onderskrywings aan die SIGMORPHON 2020 deel taak 1 op grafém-na-foonêre omskakeling vir 15 tale. Ons het eksperimenteer met 'n enkele multilinglike transformeermodel. Ons het opgemerk dat die multitaalse model resultate bereik op par met ons aparte onderwyse monotaalse modele en is selfs in staat om 'n paar van die foute wat deur die monotaalse modele gemaak is te verdwyn.</abstract_af>
+      <abstract_sq>Në këtë letër, ne përshkruajmë tre paraqitjet tona në SIGMORPHON 2020 detyrën e përbashkët 1 mbi konversimin grafik-në-telefonim për 15 gjuhë. Eksperimentuam me një model transformues shumëgjuhës. Kemi vëzhguar se modeli shumëgjuhës arrin rezultate të barabarta me modelet tona monogjuhës të trajnuar veçanërisht dhe është në gjendje madje të shmangë disa nga gabimet e bërë nga modelet monogjuhës.</abstract_sq>
+      <abstract_tr>Bu kagyzda, biz SIGMORPHON 2020'a 3 gönderişimizi 15 diller üçin grafime-to-foneme dönüşünde paylaşdyrýarys. Biz birnäçe bilim üýtgetmeli nusga bilen synanyşdyrdyk. Birnäçe dilli nusgalaryň öz-özimizde bilim alýan monodil nusgalarymyz bilen netijelerini ýetip bilýändigini we hatda monodil nusgalarymyzyň birnäçe hatadan çykyp biler.</abstract_tr>
+      <abstract_am>In this paper, we describe our three submissions to the SIGMORPHON 2020 shared task 1 on grapheme-to-phoneme conversion for 15 languages.  በአንድ ብዙዎች የቋንቋ ለውጥ ምሳሌ ፈተናል:: በብዙ ቋንቋ ሞዴል በተለየ የተማሩ የሞሎንቋል ሞዴላዎች ፍሬዎችን እንዲያገኙ እናም በሞሎልጋል ዓይነቶች ከተደረገው ጥቂቶች ስሕተት ይራቅ ዘንድ ይችላል፡፡</abstract_am>
+      <abstract_hy>In this paper, we describe our three submissions to the SIGMORPHON 2020 shared task 1 on grapheme-to-phoneme conversion for 15 languages.  Մենք փորձեցինք մեկ բազլեզու վերափոխողի մոդելի օգնությամբ: Մենք նկատեցինք, որ բազլեզու մոդելը ստանում է արդյունքներ հավասար մեր առանձին վարժեցված միալեզու մոդելների հետ և նույնիսկ կարող է խուսափել միալեզու մոդելների սխալներից մի քանիսից:</abstract_hy>
+      <abstract_ko>본고에서 우리는 SIGMORPHON 2020 공유 임무 1에 제출한 15개 언어의 자음 변환에 관한 세 가지 보고서를 묘사했다.우리는 단일한 다언어 변환기 모델을 시험했다.우리는 다중 언어 모델이 얻은 결과가 우리가 단독으로 훈련한 단어 모델과 비슷하고 심지어 단어 모델이 발생하는 오류를 피할 수 있다는 것을 관찰했다.</abstract_ko>
+      <abstract_bn>এই কাগজটিতে আমরা আমাদের তিনটি প্রতিবেদন বর্ণনা করেছি সিগ্রামকর্পশন ২০২০ সালে ১৫ ভাষার জন্য গ্রাফেম থেকে ফোন পরিবর্তনের জন্য। আমরা একটা মাল্টিভাল ভাষায় পরিবর্তনের মডেল দিয়ে পরীক্ষা করেছি। আমরা দেখেছি যে মাল্টিভাষার মডেল পারে আমাদের বিভিন্ন প্রশিক্ষিত মোনোলিভাল মডেলের ফলাফল অর্জন করেছে এবং এমনকি মোনোলিভাল মডেলের কিছু ভুল থ</abstract_bn>
+      <abstract_az>Bu kağızda, üç təbliğlərimizi SIGMORPHON 2020-nin 15 dillərə grafik-to-foneme dönüşü haqqında paylaşdığı 1-ci görevi barəsində tanımlıyıq. Biz bir çoxlu dil transformer modeli ilə təcrübə etdik. Biz çoxlu dil modeli, ayrı-ayrı təhsil edilmiş monodil modellərimizlə müxtəlif sonuçları başa çatdığını və hətta monodil modellərin bir neçə hatalarından uzaqlaşdığını gördük.</abstract_az>
+      <abstract_bs>U ovom papiru opisujemo svoje tri podatke podijeljenom zadatku 1 o preobraćanju grafima na telefon za 15 jezika. Eksperimentirali smo sa jednom multijezičkom transformatorskom modelu. Primijetili smo da multijezički model postigne rezultate na par sa našim odvojenim monojezičkim modelima i čak je u stanju izbjeći nekoliko grešaka koji su napravili monojezički modeli.</abstract_bs>
+      <abstract_et>Käesolevas dokumendis kirjeldame oma kolme ettepanekut SIGMORPHON 2020 jagatud ülesandele 1 grafeem-foneem teisendamine 15 keeles. Me eksperimenteerisime ühe mitmekeelse transformaatori mudeliga. Me täheldasime, et mitmekeelne mudel saavutab tulemusi samaväärselt meie eraldi koolitatud ühekeelsete mudelitega ja suudab isegi vältida mõningaid vigu ühekeelsete mudelite puhul.</abstract_et>
+      <abstract_cs>V tomto článku popisujeme naše tři příspěvky na sdílený úkol 1 SIGMORPHON 2020 o konverzi grafému na foném pro 15 jazyky. Experimentovali jsme s jedním vícejazyčným modelem transformátoru. Pozorovali jsme, že vícejazyčný model dosahuje výsledků stejných jako naše samostatně vyškolené jednojjazyčné modely a dokonce dokáže zabránit několika chybám, které jednojjazyčné modely dělají.</abstract_cs>
+      <abstract_fi>Tässä artikkelissa kuvailemme kolmea SIGMORPHON 2020:n jaettuun tehtävään 1 sisältyvää hakemusta grafeemi-foneemiksi muuntamisesta 15 kielellä. Kokeilimme yhtä monikielistä muuntajamallia. Havaitsimme, että monikielinen malli saavuttaa tuloksia, jotka vastaavat erikseen koulutettuja monikielisiä malleja ja pystyy jopa välttämään joitakin yksikielisten mallien virheitä.</abstract_fi>
+      <abstract_ca>En aquest article, descrivim les nostres tres presentacions a la tasca compartida 1 SIGMORPHON 2020 sobre la conversió gràfic a fònem per 15 llengües. Hem experimentat amb un únic model de transformador multilingüe. Vam observar que el model multilingüe aconsegueix resultats iguals als nostres models monolingües formats separadament i fins i tot és capaç d'evitar alguns dels errors dels models monolingües.</abstract_ca>
+      <abstract_jv>Nang paper iki, kita rambarang tanggal telu nggawe kanggo nyelarang task 1 ning graphem-to-phonome kanggo urip kanggo kowe basa tanggal 1 Awak dh챕w챕 챕ntuk sistem karo model sing akeh multilangu transformer. Awak dh챕w챕 챕ntuk sistem sing tinimbang akeh akeh dadi kapan ning awak dh챕w챕 dadi, nik awak dh챕w챕 kuwi mod챔l singular teka-ingkang sampeyan gak dh챕w챕 ngerasakno karo hal-sampeyan sing paling dh챕w챕.</abstract_jv>
+      <abstract_ha>Daga wannan takardan, muna bayyana misalinmu uku zuwa aikin SiGMORPHAN 2020 wanda aka raba aikin da shi 1 a kan muhimmin hotofon-zuwa-fomat 15 harshen. We experimented with a single multilingual transformer model.  Ba mu gane cewa misalin mulki ya sami matsala a par da misalinmu wanda aka sanar da shi kaɗan na monoli-harshen, kuma yana iya iya nĩsantar masu kaɗan daga ɓarna da misalin mutane suka aikata.</abstract_ha>
+      <abstract_bo>ཤོག་བྱང་འདིའི་ནང་དུ་ང་ཚོའི་ནང་དུ་SIGMORPHON 2020་ཡི་ནང་དུ་འཇུག་སྣོད་གསུམ་ཀྱི་གདོང་རིམ་༡པ་ལ་grapheme-to-phoneme་བསྒྱུར་ནི་སྐད་རིགས་ལ ང་ཚོས་སྐད་རིགས་དབྱིབས་འགྱུར་བ་ཅན་གྱི་མ་དབྱིབས་གཅིག་ལས་བརྟག་ཞིག་བྱས་པ་ཡིན། ངེད་ཚོས་སྐད་ཡིག་ཆ་གི་མ་དབྱིབས་གཅིག</abstract_bo>
+      <abstract_sk>V prispevku opisujemo tri prispevke k skupni nalogi 1 SIGMORPHON 2020 o pretvorbi grafema v fonem za 15 jezikov. Eksperimentirali smo z enim večjezičnim transformatorskim modelom. Ugotovili smo, da večjezični model dosega enake rezultate kot naši ločeno usposobljeni enojezični modeli in se lahko celo izogne nekaterim napakam enojezičnih modelov.</abstract_sk>
+      <abstract_he>In this paper, we describe our three submissions to the SIGMORPHON 2020 shared task 1 on grapheme-to-phoneme conversion for 15 languages.  We experimented with a single multilingual transformer model.  We observed that the multilingual model achieves results on par with our separately trained monolingual models and is even able to avoid a few of the errors made by the monolingual models.</abstract_he>
+      </paper>
+    <paper id="9">
+      <title>The IMSCUBoulder System for the SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion<fixed-case>IMS</fixed-case>–<fixed-case>CUB</fixed-case>oulder System for the <fixed-case>SIGMORPHON</fixed-case> 2020 Shared Task on Unsupervised Morphological Paradigm Completion</title>
+      <author><first>Manuel</first><last>Mager</last></author>
+      <author><first>Katharina</first><last>Kann</last></author>
+      <pages>99–105</pages>
+      <abstract>In this paper, we present the systems of the University of Stuttgart IMS and the University of Colorado Boulder (IMSCUBoulder) for SIGMORPHON 2020 Task 2 on unsupervised morphological paradigm completion (Kann et al., 2020). The task consists of generating the <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">morphological paradigms</a> of a set of lemmas, given only the lemmas themselves and unlabeled text. Our proposed <a href="https://en.wikipedia.org/wiki/System">system</a> is a modified version of the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> introduced together with the <a href="https://en.wikipedia.org/wiki/Task_(computing)">task</a>. In particular, we experiment with substituting the inflection generation component with an LSTM sequence-to-sequence model and an LSTM pointer-generator network. Our pointer-generator system obtains the best score of all seven submitted systems on average over all languages, and outperforms the official baseline, which was best overall, on <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a> and <a href="https://en.wikipedia.org/wiki/Kannada">Kannada</a>.</abstract>
+      <url hash="4704eca8">2020.sigmorphon-1.9</url>
+      <doi>10.18653/v1/2020.sigmorphon-1.9</doi>
+      <bibkey>mager-kann-2020-ims</bibkey>
+    </paper>
+    <paper id="14">
+      <title>Exploring Neural Architectures And Techniques For Typologically Diverse Morphological Inflection</title>
+      <author><first>Pratik</first><last>Jayarao</last></author>
+      <author><first>Siddhanth</first><last>Pillay</last></author>
+      <author><first>Pranav</first><last>Thombre</last></author>
+      <author><first>Aditi</first><last>Chaudhary</last></author>
+      <pages>128–136</pages>
+      <abstract>Morphological inflection in low resource languages is critical to augment existing corpora in Low Resource Languages, which can help develop several applications in these languages with very good social impact. We describe our attention-based encoder-decoder approach that we implement using <a href="https://en.wikipedia.org/wiki/Light-emitting_diode">LSTMs</a> and <a href="https://en.wikipedia.org/wiki/Transformers_(video_game)">Transformers</a> as the base units. We also describe the ancillary techniques that we experimented with, such as <a href="https://en.wikipedia.org/wiki/Hallucination">hallucination</a>, language vector injection, sparsemax loss and adversarial language network alongside our approach to select the related language(s) for training. We present the results we generated on the constrained as well as unconstrained SIGMORPHON 2020 dataset (CITATION). One of the primary goals of our paper was to study the contribution varied components described above towards the performance of our <a href="https://en.wikipedia.org/wiki/System">system</a> and perform an analysis on the same.</abstract>
+      <url hash="1ac67b74">2020.sigmorphon-1.14</url>
+      <doi>10.18653/v1/2020.sigmorphon-1.14</doi>
+      <bibkey>jayarao-etal-2020-exploring</bibkey>
+    </paper>
+    <paper id="17">
+      <title>Leveraging Principal Parts for Morphological Inflection</title>
+      <author><first>Ling</first><last>Liu</last></author>
+      <author><first>Mans</first><last>Hulden</last></author>
+      <pages>153–161</pages>
+      <abstract>This paper presents the submission by the CU Ling team from the University of Colorado to SIGMORPHON 2020 shared task 0 on morphological inflection. The task is to generate the target <a href="https://en.wikipedia.org/wiki/Inflection">inflected word form</a> given a <a href="https://en.wikipedia.org/wiki/Lemma_(morphology)">lemma form</a> and a target <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">morphosyntactic description</a>. Our <a href="https://en.wikipedia.org/wiki/System">system</a> uses the Transformer architecture. Our overall approach is to treat the morphological inflection task as a paradigm cell filling problem and to design the system to leverage principal parts information for better morphological inflection when the training data is limited. We train one <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> for each language separately without <a href="https://en.wikipedia.org/wiki/Data">external data</a>. The overall average performance of our submission ranks the first in both <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">average accuracy</a> and <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Levenshtein distance</a> from the gold inflection among all submissions including those using external resources.</abstract>
+      <url hash="e1277421">2020.sigmorphon-1.17</url>
+      <doi>10.18653/v1/2020.sigmorphon-1.17</doi>
+      <bibkey>liu-hulden-2020-leveraging</bibkey>
+    </paper>
+    <paper id="29">
+      <title>Multi-Tiered Strictly Local Functions</title>
+      <author><first>Phillip</first><last>Burness</last></author>
+      <author><first>Kevin</first><last>McMullin</last></author>
+      <pages>245–255</pages>
+      <abstract>Tier-based Strictly Local functions, as they have so far been defined, are equipped with just a single tier. In light of this fact, they are currently incapable of modelling simultaneous phonological processes that would require different tiers. In this paper we consider whether and how we can allow a single function to operate over more than one tier. We conclude that multiple tiers can and should be permitted, but that the relationships between them must be restricted in some way to avoid overgeneration. The particular restriction that we propose comes in two parts. First, each input element is associated with a set of tiers that on their own can fully determine what the element is mapped to. Second, the set of tiers associated to a given input element must form a strict superset-subset hierarchy. In this way, we can track multiple, related sources of information when deciding how to process a particular input element. We demonstrate that doing so enables simple and intuitive analyses to otherwise challenging <a href="https://en.wikipedia.org/wiki/Phonology">phonological phenomena</a>.</abstract>
+      <url hash="da360ed7">2020.sigmorphon-1.29</url>
+      <revision id="1" href="2020.sigmorphon-1.29v1" hash="cde00479" />
+      <revision id="2" href="2020.sigmorphon-1.29v2" hash="da360ed7" date="2020-07-08">Corrected bibliography entry</revision>
+      <doi>10.18653/v1/2020.sigmorphon-1.29</doi>
+      <video href="http://slideslive.com/38929874" />
+      <bibkey>burness-mcmullin-2020-multi</bibkey>
+    </paper>
+  </volume>
+</collection>

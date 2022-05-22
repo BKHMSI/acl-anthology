@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="2018.jeptalnrecital">
+  <volume id="long" ingest-date="2020-07-21">
+    <meta>
+      <booktitle>Actes de la Conférence TALN. Volume 1 - Articles longs, articles courts de TALN</booktitle>
+      <editor><first>Pascale</first><last>Sébillot</last></editor>
+      <editor><first>Vincent</first><last>Claveau</last></editor>
+      <publisher>ATALA</publisher>
+      <address>Rennes, France</address>
+      <month>5</month>
+      <year>2018</year>
+    </meta>
+    <frontmatter>
+      <url hash="68804f0c">2018.jeptalnrecital-long.0</url>
+      <bibkey>jep-taln-recital-2018-actes</bibkey>
+    </frontmatter>
+    <paper id="4">
+      <title>Modeling infant segmentation of two morphologically diverse languages</title>
+      <author><first>Georgia-Rengina</first><last>Loukatou</last></author>
+      <author><first>Sabine</first><last>Stoll</last></author>
+      <author><first>Damian</first><last>Blasi</last></author>
+      <author><first>Alejandrina</first><last>Cristia</last></author>
+      <pages>47–60</pages>
+      <abstract>A rich literature explores unsupervised segmentation algorithms infants could use to parse their input, mainly focusing on <a href="https://en.wikipedia.org/wiki/English_language">English</a>, an <a href="https://en.wikipedia.org/wiki/Analytic_language">analytic language</a> where <a href="https://en.wikipedia.org/wiki/Word">word</a>, <a href="https://en.wikipedia.org/wiki/Morpheme">morpheme</a>, and syllable boundaries often coincide. Synthetic languages, where words are multi-morphemic, may present unique difficulties for segmentation. Our study tests corpora of two languages selected to differ in the extent of complexity of their <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">morphological structure</a>, <a href="https://en.wikipedia.org/wiki/Chintang_language">Chintang</a> and <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a>. We use three conceptually diverse word segmentation algorithms and we evaluate them on both word- and morpheme-level representations. As predicted, results for the simpler <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> are better than those for the more complex <a href="https://en.wikipedia.org/wiki/Chintang_language">Chintang</a>. However, the difference is small compared to the effect of the <a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a> (with the lexical algorithm outperforming sub-lexical ones) and the level (scores were lower when evaluating on <a href="https://en.wikipedia.org/wiki/Word">words</a> versus morphemes). There are also important interactions between language, <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a>, and evaluation level, which ought to be considered in future work.</abstract>
+      <url hash="e2b3b8ad">2018.jeptalnrecital-long.4</url>
+      <bibkey>loukatou-etal-2018-modeling</bibkey>
+    </paper>
+    </volume>
+  <volume id="court" ingest-date="2020-07-21">
+    <meta>
+      <booktitle>Actes de la Conférence TALN. Volume 1 - Articles longs, articles courts de TALN</booktitle>
+      <editor><first>Pascale</first><last>Sébillot</last></editor>
+      <editor><first>Vincent</first><last>Claveau</last></editor>
+      <publisher>ATALA</publisher>
+      <address>Rennes, France</address>
+      <month>5</month>
+      <year>2018</year>
+    </meta>
+    <frontmatter>
+      <url hash="68804f0c">2018.jeptalnrecital-court.0</url>
+      <bibkey>jep-taln-recital-2018-actes-de</bibkey>
+    </frontmatter>
+    <paper id="13">
+      <title>Predicting the Semantic Textual Similarity with Siamese CNN and LSTM<fixed-case>S</fixed-case>iamese <fixed-case>CNN</fixed-case> and <fixed-case>LSTM</fixed-case></title>
+      <author><first>Elvys</first><last>Linhares Pontes</last></author>
+      <author><first>Stéphane</first><last>Huet</last></author>
+      <author><first>Andréa Carneiro</first><last>Linhares</last></author>
+      <author><first>Juan-Manuel</first><last>Torres-Moreno</last></author>
+      <pages>311–320</pages>
+      <abstract>Semantic Textual Similarity (STS) is the basis of many applications in <a href="https://en.wikipedia.org/wiki/Natural_language_processing">Natural Language Processing (NLP)</a>. Our system combines convolution and recurrent neural networks to measure the <a href="https://en.wikipedia.org/wiki/Semantic_similarity">semantic similarity</a> of sentences. It uses a convolution network to take account of the local context of words and an LSTM to consider the global context of sentences. This combination of <a href="https://en.wikipedia.org/wiki/Complex_network">networks</a> helps to preserve the relevant information of sentences and improves the calculation of the similarity between sentences. Our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> has achieved good results and is competitive with the best state-of-the-art systems.</abstract>
+      <url hash="4b1738f9">2018.jeptalnrecital-court.13</url>
+      <bibkey>linhares-pontes-etal-2018-predicting</bibkey>
+    <title_ar>توقع التشابه الدلالي النصي مع السيامي CNN و LSTM</title_ar>
+      <title_es>Predicción de la similitud textual semántica con CNN y LSTM siameses</title_es>
+      <title_pt>Prevendo a semelhança textual semântica com CNN Siamese e LSTM</title_pt>
+      <title_fr>Prédire la similitude textuelle sémantique avec le siamois CNN et LSTM</title_fr>
+      <title_ja>Siamese CNNおよびLSTMとのセマンティックテキストの類似性の予測</title_ja>
+      <title_hi>Siamese सीएनएन और LSTM के साथ शब्दार्थ पाठ्य समानता की भविष्यवाणी</title_hi>
+      <title_zh>占与暹罗CNN及LSTM语义文本相似性</title_zh>
+      <title_ru>Прогнозирование семантического текстового сходства с сиамскими CNN и LSTM</title_ru>
+      <title_ga>Cosúlacht Téacs Shéimeantach le Siamese CNN agus LSTM a thuar</title_ga>
+      <title_el>Πρόβλεψη της Σημματικής Ομοιότητας Κειμένου με Σιαμικό CNN και LSTM</title_el>
+      <title_it>Prevedere la somiglianza testuale semantica con CNN siamese e LSTM</title_it>
+      <title_kk>Semantic Textual Similarity with Siamese CNN and LSTM</title_kk>
+      <title_hu>A szemantikus szöveghasonlóság előrejelzése a sziámi CNN-vel és LSTM-vel</title_hu>
+      <title_ka>სემანტიკური ტექსტუალური განსხვავება Siamese CNN და LSTM</title_ka>
+      <title_lt>Semantinio teksto panašumo su Siamo CNN ir LSTM prognozavimas</title_lt>
+      <title_ms>Name</title_ms>
+      <title_ml>സെമാന്റിക് ടെക്സ്റ്റുവല്‍ സമമാക്കുന്ന സിയാമിസ് സിഎന്‍എനും എംഎസ്റ്റം</title_ml>
+      <title_mt>It-Tbassir ta’ Similarità Tekstiva Semantika mas-CNN Siamese u l-LSTM</title_mt>
+      <title_mn>Сиамийн CNN болон LSTM-тэй Semantic Textual Similarity гэсэн үг</title_mn>
+      <title_mk>Предвидување на семантичната текстуална сличност со сијамската CNN и LSTM</title_mk>
+      <title_no>Forhåndsvising av semantisk tekstlikning med Siamese CNN og LSTM</title_no>
+      <title_pl>Przewidywanie semantycznej podobności tekstowej z syjamskim CNN i LSTM</title_pl>
+      <title_ro>Prevederea similarității textuale semantice cu CNN siameză și LSTM</title_ro>
+      <title_si>සියාමිස් CNN සහ LSTM සමඟ සෙමාන්ටික් පාළුවන් සමාන්‍ය පාළුවන්</title_si>
+      <title_sr>Predviđajući semantičku tekstualnu sličnost sa Siamese CNN i LSTM</title_sr>
+      <title_sv>Att förutsäga den semantiska textuella likheten med siamesiska CNN och LSTM</title_sv>
+      <title_so>Preparing the Semantic Textual Similarity with Siamese CNN and LSTM</title_so>
+      <title_ta>Name</title_ta>
+      <title_ur>سیامیز سی ان ان اور اس اس ٹیم کے ساتھ سیمانٹی ٹیکسٹیل برابری کی پیش کرتی ہے</title_ur>
+      <title_uz>Name</title_uz>
+      <title_vi>Trước hiệu ứng Văn bản Trung học với CNN và LSTM</title_vi>
+      <title_da>Forudsigelse af den semantiske tekstuelle lighed med siamesisk CNN og LSTM</title_da>
+      <title_nl>Het voorspellen van de semantische tekstuele gelijkenis met Siamese CNN en LSTM</title_nl>
+      <title_de>Vorhersage der semantischen Textgleichheit mit siamesischem CNN und LSTM</title_de>
+      <title_id>Memprediksikan Simulasi Teks Semantik dengan CNN dan LSTM Siamese</title_id>
+      <title_fa>ЩңЫЊШөвЂЊШЁЫЊЩ†ЫЊ ШөШЁШ§Щ‡ШҒ Щ…ШҒЩ† ШіЫЊШ§Щ…ЫЊ ШЁШ§ ШіЫЊШ§Щ…ЫЊ ШіЫЊЩ†вЂЊШ§Щ† Щ€ LSTM</title_fa>
+      <title_hr>Predvjedujući semantičku tekstualnu sličnost Siamese CNN i LSTM</title_hr>
+      <title_bg>Прогнозиране на семантичната текстова сходство със сиамската CNN и LSTM</title_bg>
+      <title_sw>Akiunganisha Teknolojia ya Semantic Similarity with Siamese CNN and LSTM</title_sw>
+      <title_tr>Semantik Metini Siamese CNN we LSTM bilen meňzeş</title_tr>
+      <title_ko>샴페인 CNN과 LSTM으로 의미 텍스트의 유사도를 예측하다</title_ko>
+      <title_am>ምርጫዎች</title_am>
+      <title_hy>Սիամական CNN և LSMT-ի հետ</title_hy>
+      <title_af>Voorskou die Semantiese Tekstuele Ligging met Siamese CNN en LSTM</title_af>
+      <title_sq>Parashikimi i ngjashmërisë tekstuale Semantike me CNN dhe LSTM Siamese</title_sq>
+      <title_bn>Name</title_bn>
+      <title_bs>Predviđajući semantičku tekstualnu sličnost sa Siamese CNN i LSTM</title_bs>
+      <title_cs>Předpověď sémantické textové podobnosti s siamským CNN a LSTM</title_cs>
+      <title_az>Siamese CNN v…ô LSTM il…ô Semantik Textual SimilarńĪ t…ômin edir</title_az>
+      <title_fi>Semanttisen tekstin samankaltaisuuden ennustaminen siamilaisen CNN:n ja LSTM:n kanssa</title_fi>
+      <title_ca>Predicar la Similaritat Textual Semàtica amb CNN Siames i LSTM</title_ca>
+      <title_et>Semantilise tekstilise sarnasuse prognoosimine siiami CNN ja LSTM-iga</title_et>
+      <title_jv>Ngubah kelas Sampeyan Teks semanti karo Sinamese MT lan LTT M</title_jv>
+      <title_sk>Napovedovanje semantične besedilne podobnosti s siamskimi CNN in LSTM</title_sk>
+      <title_he>Predicting the Semantic Textual Similarity with Siamese CNN and LSTM</title_he>
+      <title_ha>KCharselect unicode block name</title_ha>
+      <title_bo>Siamese CNN དང་LSTM་ལ་Semantic Textual Similarity་སྔོན་སྒྲིག་བཞིན་པ</title_bo>
+      <abstract_ar>تشابه النص الدلالي (STS) هو أساس العديد من التطبيقات في معالجة اللغة الطبيعية (NLP). يجمع نظامنا بين الالتواء والشبكات العصبية المتكررة لقياس التشابه الدلالي للجمل. يستخدم شبكة التفاف لمراعاة السياق المحلي للكلمات و LSTM للنظر في السياق العام للجمل. يساعد هذا المزيج من الشبكات في الحفاظ على المعلومات ذات الصلة بالجمل ويحسن حساب التشابه بين الجمل. لقد حقق نموذجنا نتائج جيدة وهو قادر على المنافسة مع أفضل الأنظمة الحديثة.</abstract_ar>
+      <abstract_es>La similitud textual semántica (STS) es la base de muchas aplicaciones en el procesamiento del lenguaje natural (NLP). Nuestro sistema combina redes neuronales de convolución y recurrentes para medir la similitud semántica de las oraciones. Utiliza una red de convolución para tener en cuenta el contexto local de las palabras y un LSTM para considerar el contexto global de las oraciones. Esta combinación de redes ayuda a preservar la información relevante de las oraciones y mejora el cálculo de la similitud entre las oraciones. Nuestro modelo ha logrado buenos resultados y es competitivo con los mejores sistemas de última generación.</abstract_es>
+      <abstract_fr>La similarité sémantique textuelle (STS) est à la base de nombreuses applications dans le traitement du langage naturel (NLP). Notre système combine des réseaux de neurones récurrents et de convolution pour mesurer la similitude sémantique des phrases. Il utilise un réseau de convolution pour prendre en compte le contexte local des mots et un LSTM pour prendre en compte le contexte global des phrases. Cette combinaison de réseaux permet de préserver les informations pertinentes des phrases et d'améliorer le calcul de la similitude entre les phrases. Notre modèle a obtenu de bons résultats et est compétitif par rapport aux meilleurs systèmes de pointe.</abstract_fr>
+      <abstract_ja>セマンティックテキスト類似性（ STS ）は、自然言語処理（ NLP ）における多くのアプリケーションの基礎です。私たちのシステムは、文の意味的な類似性を測定するために、畳み込みと再帰的なニューラルネットワークを組み合わせています。畳み込みネットワークを使用して、単語のローカルコンテキストを考慮し、LSTMを使用して文のグローバルコンテキストを考慮します。このネットワークの組み合わせは、文の関連情報を保存し、文間の類似性の計算を改善するのに役立ちます。当社のモデルは良い結果を得ており、最先端のシステムと競合しています。</abstract_ja>
+      <abstract_pt>Semântica Textual Similarity (STS) é a base de muitas aplicações em Processamento de Linguagem Natural (NLP). Nosso sistema combina convolução e redes neurais recorrentes para medir a similaridade semântica das sentenças. Ele usa uma rede de convolução para levar em conta o contexto local das palavras e um LSTM para considerar o contexto global das frases. Essa combinação de redes ajuda a preservar as informações relevantes das sentenças e melhora o cálculo da similaridade entre as sentenças. Nosso modelo tem alcançado bons resultados e é competitivo com os melhores sistemas de última geração.</abstract_pt>
+      <abstract_zh>语义文本相似性(STS)自然语言处(NLP)多应用程序之基也。 吾统合卷积与递归神经网络测句语义相似性。 其用卷积网络以虑单词之上下文,而以LSTM思句之全局上下文。 此网络合助留句相关信息,并改入句相似性之数。 吾曹模样得佳效,并与最先进之最竞争力。</abstract_zh>
+      <abstract_ru>Семантическое текстовое сходство (STS) является основой многих приложений в обработке естественного языка (NLP). Наша система объединяет свертку и рекуррентные нейронные сети для измерения семантического сходства предложений. Он использует сверточную сеть для учета локального контекста слов и LSTM для рассмотрения глобального контекста предложений. Такое сочетание сетей помогает сохранить актуальную информацию о предложениях и улучшает расчет сходства между предложениями. Наша модель достигла хороших результатов и конкурирует с лучшими современными системами.</abstract_ru>
+      <abstract_hi>सिमेंटिक टेक्स्ट समानता (एसटीएस) प्राकृतिक भाषा प्रसंस्करण (एनएलपी) में कई अनुप्रयोगों का आधार है। हमारी प्रणाली वाक्यों की शब्दार्थ समानता को मापने के लिए कनवल्शन और आवर्तक तंत्रिका नेटवर्क को जोड़ती है। यह शब्दों के स्थानीय संदर्भ और वाक्यों के वैश्विक संदर्भ पर विचार करने के लिए एक एलएसटीएम को ध्यान में रखने के लिए एक कनवल्शन नेटवर्क का उपयोग करता है। नेटवर्क का यह संयोजन वाक्यों की प्रासंगिक जानकारी को संरक्षित करने में मदद करता है और वाक्यों के बीच समानता की गणना में सुधार करता है। हमारे मॉडल ने अच्छे परिणाम प्राप्त किए हैं और सबसे अच्छे अत्याधुनिक प्रणालियों के साथ प्रतिस्पर्धी है।</abstract_hi>
+      <abstract_ga>Tá Cosúlacht Téacs Shéimeantach (STS) mar bhunús le go leor feidhmchlár i bPróiseáil Teanga Nádúrtha (NLP). Comhcheanglaíonn ár gcóras líonraí convolution agus néaracha athfhillteacha chun cosúlacht shéimeantach abairtí a thomhas. Úsáideann sé líonra conbhlóide chun comhthéacs áitiúil na bhfocal a chur san áireamh agus LSTM chun comhthéacs domhanda abairtí a mheas. Cuidíonn an teaglaim seo de líonraí le faisnéis ábhartha abairtí a chaomhnú agus feabhsaíonn sé ríomh na cosúlachta idir abairtí. Tá torthaí maithe bainte amach ag ár múnla agus tá sé iomaíoch leis na córais is fearr den scoth.</abstract_ga>
+      <abstract_el>Η σημειακή ομοιομορφία κειμένων (ΣΤ) αποτελεί τη βάση πολλών εφαρμογών στην επεξεργασία φυσικής γλώσσας (ΝΛΠ). Το σύστημά μας συνδυάζει σύγχυση και επαναλαμβανόμενα νευρωνικά δίκτυα για να μετρήσει τη σημασιολογική ομοιότητα των προτάσεων. Χρησιμοποιεί ένα δίκτυο σύγχυσης για να λάβει υπόψη το τοπικό πλαίσιο των λέξεων και ένα LSTM για να εξετάσει το παγκόσμιο πλαίσιο των προτάσεων. Αυτός ο συνδυασμός δικτύων βοηθά στη διατήρηση των σχετικών πληροφοριών των προτάσεων και βελτιώνει τον υπολογισμό της ομοιότητας μεταξύ των προτάσεων. Το μοντέλο μας έχει επιτύχει καλά αποτελέσματα και είναι ανταγωνιστικό με τα καλύτερα συστήματα τελευταίας τεχνολογίας.</abstract_el>
+      <abstract_hu>A szemantikus szöveghasonlóság (STS) számos alkalmazás alapja a Natural Language Processing (NLP). Rendszerünk kombinálja a konvolúciós és visszatérő neurális hálózatokat a mondatok szemantikai hasonlóságának mérésére. Konvolúciós hálózatot használ, hogy figyelembe vegye a szavak helyi kontextusát, és egy LSTM a mondatok globális kontextusát. A hálózatok kombinációja segít megőrizni a mondatok releváns információit, és javítja a mondatok hasonlóságának kiszámítását. Modellünk jó eredményeket ért el és versenyképes a legmodernebb rendszerekkel.</abstract_hu>
+      <abstract_ka>Semantic Textual Similarity (STS) არის ბევრი პროცესის ბევრი პროცესის ბაზი. ჩვენი სისტემა კონგულაცია და რეკურაციული ნეიროლური ქსელების შესაძლებელად გამოყენება სიმენტიკური სიმბოლობას. ის გამოყენება კონტულუციის ქსელი, რომელიც სიტყვების ლოკალური კონტექსტის და LSTM-ის შესახებ გლობალური კონტექსტის შესახებ. ამ ქსელების კომბინეციაცია დახმარებს შესაბამისი ინფორმაციის შესახებ და წერტილების განსხვავება შესაბამისი განსხვავება. ჩვენი მოდელის შესაძლებელია კარგი შესაძლებლობა და კონპექტიურია საუკეთესო სისტემაში.</abstract_ka>
+      <abstract_it>La somiglianza testuale semantica (STS) è alla base di molte applicazioni nell'elaborazione del linguaggio naturale (PNL). Il nostro sistema combina convoluzione e reti neurali ricorrenti per misurare la somiglianza semantica delle frasi. Utilizza una rete di convoluzione per tenere conto del contesto locale delle parole e un LSTM per considerare il contesto globale delle frasi. Questa combinazione di reti aiuta a preservare le informazioni pertinenti delle frasi e migliora il calcolo della somiglianza tra frasi. Il nostro modello ha raggiunto buoni risultati ed è competitivo con i migliori sistemi all'avanguardia.</abstract_it>
+      <abstract_lt>Semantinis tekstinis panašumas (STS) yra daugelio gamtinių kalbų apdorojimo (NLP) programų pagrindas. Mūsų sistema derina konvoliucinius ir pasikartojančius nervinius tinklus, kad išmatuotų semantinį sakinių panašumą. Ji naudoja konvoliucinį tinklą, kad atsižvelgtų į žodžių vietinę aplinkybę ir LSTM, kad atsižvelgtų į pasaulinį sakinių kontekstą. Šis tinklų derinys padeda išsaugoti atitinkamą informaciją apie sakinius ir pagerina panašumo tarp sakinių skaičiavimą. Mūsų model is pasiekgerų rezultatų ir yra konkurencingas su geriausiomis moderniomis sistemomis.</abstract_lt>
+      <abstract_mk>Семантичка текстуална сличност (STS) е основа на многу апликации во природното обработување јазик (NLP). Нашиот систем комбинира конволуција и рецидентни нервни мрежи за да ја мери семантичната сличност на речениците. Користи конволуциска мрежа за да се земе предвид локалниот контекст на зборовите и LSTM за да се земе предвид глобалниот контекст на речениците. Оваа комбинација на мрежи помага да се зачуваат релевантните информации за речениците и да се подобри пресметката на сличноста помеѓу речениците. Нашиот модел постигна добри резултати и е конкурентен со најдобрите најсовремени системи.</abstract_mk>
+      <abstract_ml>സെമാന്റിക് ടെക്സ്റ്റുവല്‍ സമമാണ് (STS) സ്വാഭാവ ഭാഷയുടെ പ്രക്രിയയില്‍ പല പ്രയോഗങ്ങളുടെയും അടിസ്ഥാനമാണു് (NLP). നമ്മുടെ സിസ്റ്റത്തിന്റെ സംവിധാനം കൂട്ടിചേര്‍ക്കുന്നു. വാക്കുകളുടെ സാമ്പത്തിക സമമാണിത്. വാക്കുകളുടെ പ്രാദേശികമായ വാക്കുകളുടെയും LSTM-ന്റെയും ലോക്കല്‍ വാക്കുകളുടെയും പരിശോധിയ്ക്കാനുള്ള ഒരു ക്ലൂ വാക്കുകളുടെ വിവരങ്ങള്‍ സൂക്ഷിക്കുവാനും വാക്കുകള്‍ക്കിടയിലുള്ള സമമായ കണക്കിന്റെ കണക്ക് മെച്ചപ്പെടുത്തുന നമ്മുടെ മോഡല്‍ നല്ല ഫലങ്ങള്‍ പ്രാപിച്ചിരിക്കുന്നു. ഏറ്റവും നല്ല സ്ഥിതിയുമായി മത്സരിക്കുന്നു.</abstract_ml>
+      <abstract_mt>Similarità Tekstulari Semantika (STS) hija l-bażi ta’ ħafna applikazzjonijiet fl-Ipproċessar tal-Lingwi Naturali (NLP). Is-sistema tagħna tikkombina netwerks newrali rikorrenti u konvoluzzjonijiet biex tkejjel is-similarità semantika tas-sentenzi. Hija tuża netwerk ta’ konvoluzzjoni biex tikkunsidra l-kuntest lokali tal-kliem u LSTM biex tikkunsidra l-kuntest globali tas-sentenzi. Din il-kombinazzjoni ta’ netwerks tgħin biex tinżamm l-informazzjoni rilevanti tas-sentenzi u ttejjeb il-kalkolu tas-similarità bejn is-sentenzi. Il-mudell tagħna kiseb riżultati tajbin u huwa kompetittiv mal-aqwa sistemi moderni.</abstract_mt>
+      <abstract_no>Semantisk tekstulikhet (STS) er grunnleggjande for mange program i naturspråk-handsaming (NLP). Sistemet vårt kombinerer konvolusjon og gjentakelige neuralnettverk for å måle semantiske liknande setningar. Det brukar eit konvolusjonsnettverk for å ta konto på den lokale konteksten av ord og ein LSTM for å vurdere det globale konteksten av setningar. Denne kombinasjonen av nettverk hjelper til å beholda det relevante informasjonen om setningar og forbedra utrekninga av liknande uttrykk mellom setningar. Modellen vårt har oppnådd gode resultat og er konkurente med dei beste kunstsystemene.</abstract_no>
+      <abstract_ms>Persamaan Teks Semantik (STS) adalah dasar bagi banyak aplikasi dalam Proses Bahasa Alami (NLP). Sistem kita menggabungkan rangkaian saraf berkembang untuk mengukur persamaan semantik kalimat. Ia menggunakan rangkaian konvolution untuk mempertimbangkan konteks perkataan setempat dan LSTM untuk mempertimbangkan konteks global kalimat. Kombinasi rangkaian ini membantu untuk menyimpan maklumat berkaitan kalimat dan memperbaiki pengiraan persamaan antara kalimat. Our model has achieved good results and is competitive with the best state-of-the-art systems.</abstract_ms>
+      <abstract_mn>Semantic Textual Similarity (STS) is the basis of many applications in Natural Language Processing (NLP). Бидний систем мэдрэлийн төстэй хэмжээсүүдийг хэмжүүлэх болон дахин давтагдах мэдрэлийн сүлжээг нэгтгэдэг. Энэ нь ертөнцийн үг болон LSTM-г дэлхийн өгүүлбэрийг ойлгохын тулд холбоотой сүлжээг ашигладаг. Энэ сүлжээний холбоотой нь өгүүлбэрийн хамааралтай мэдээллийг хадгалж, өгүүлбэрийн хоорондын адилхан тооцооллыг сайжруулдаг. Бидний загвар нь сайн үр дүнг гаргасан бөгөөд хамгийн сайн урлагийн системтэй өрсөлдөг.</abstract_mn>
+      <abstract_pl>Semantyczna podobność tekstowa (STS) jest podstawą wielu aplikacji w przetwarzaniu języka naturalnego (NLP). Nasz system łączy konwolucje i powtarzające się sieci neuronowe, aby mierzyć semantyczne podobieństwo zdań. Wykorzystuje sieć konwolucji, aby uwzględnić lokalny kontekst słów i LSTM, aby uwzględnić globalny kontekst zdań. Takie połączenie sieci pomaga zachować istotne informacje zdań i usprawnia obliczanie podobieństwa między zdaniami. Nasz model osiągnął dobre wyniki i jest konkurencyjny z najlepszymi najnowocześniejszymi systemami.</abstract_pl>
+      <abstract_sr>Semantična tekstualna sličnost (STS) je osnova mnogih aplikacija u procesu prirodnog jezika (NLP). Naš sistem kombinira konvoluciju i ponovne neuralne mreže da izmjeri semantičku sličnost rečenica. Koristi konvolucionu mrežu da bi uzeo u obzir lokalni kontekst riječi i LSTM da bi razmotrio globalni kontekst rečenica. Ova kombinacija mreža pomaže da čuva relevantne informacije rečenica i poboljša račun sličnosti rečenica. Naš model je ostvario dobre rezultate i konkurentno je sa najboljim državnim umjetničkim sistemima.</abstract_sr>
+      <abstract_kk>Semantic Textual Similarity (STS) is the basis of a lot of applications in Natural Language Processing (NLP). Біздің жүйеміз семантикалық сөздердің ұқсастығын өлшеу үшін қайталанатын невралдық желімдерді біріктіреді. Бұл сөздердің жергілікті контексті және LSTM жалпы мәліметтердің контексті есептеу үшін қолданылады. Желілердің біріктірімі сөздер туралы мәліметті сақтауға көмектеседі және сөздер арасындағы тең есептерін жақсартады. Біздің моделіміз жақсы нәтижелерді жеткіздік және әлемдік жүйелеріміздің ең жақсы күйінде жақсы жақсы болады.</abstract_kk>
+      <abstract_ro>Similaritatea textuală semantică (STS) este baza multor aplicații în procesarea limbajului natural (PNL). Sistemul nostru combină convoluția și rețelele neurale recurente pentru a măsura similitudinea semantică a propozițiilor. Acesta utilizează o rețea de convoluție pentru a lua în considerare contextul local al cuvintelor și un LSTM pentru a lua în considerare contextul global al propozițiilor. Această combinație de rețele ajută la păstrarea informațiilor relevante ale propozițiilor și îmbunătățește calculul similitudinii dintre propoziții. Modelul nostru a obținut rezultate bune și este competitiv cu cele mai bune sisteme de ultimă generație.</abstract_ro>
+      <abstract_so>Semantic Texture Similarity (STS) waa aasaaska codsiyooyin badan oo ka shaqeynta afka asalka ah (NLP). nidaamkayagu wuxuu isku daryeelaa burbur iyo shabakado naxaad ah oo dib u soo socda si ay u qiyaasaan isku mid ah xukunka. Waxay isticmaaltaa shabakadda sameynta si ay ugu xisaabiso deegaanka hadalka iyo LSTM si uu uga fikiro mukhtada caalamiga ah ee ereyada. Kanu wuxuu caawiyaa in uu ilaaliyo macluumaadka la xiriira fursad iyo inuu hagaajiyo xisaabinta isku qiimo ahaanshaha ee u dhexeeya fursad. Tusaalkayagii wuxuu helay resultooyin wanaagsan, wuxuuna ku dadaalayaa nidaamka farshaxanka ugu wanaagsan.</abstract_so>
+      <abstract_sv>Semantic Textual Similarity (STS) är grunden för många tillämpningar inom Natural Language Processing (NLP). Vårt system kombinerar konvulution och återkommande neurala nätverk för att mäta den semantiska likheten mellan meningar. Den använder ett konvulutionsnätverk för att ta hänsyn till det lokala sammanhanget av ord och en LSTM för att överväga det globala sammanhanget av meningar. Denna kombination av nätverk bidrar till att bevara relevant information om meningar och förbättrar beräkningen av likheten mellan meningar. Vår modell har uppnått goda resultat och är konkurrenskraftig med de bästa toppmoderna systemen.</abstract_sv>
+      <abstract_si>සැමැන්තික පාළුවන් සමාන්‍යතාවය (STS) තමයි ස්වභාවික භාෂාව ප්‍රක්‍රියාපනය (NLP) වලින් ගොඩක් අන් අපේ පද්ධතිය සම්බන්ධයක් සහ ආපහු ප්‍රතික්‍රියාත්මක ජාලය සම්බන්ධයක් කරනවා වචන වගේ සෙමැන්ටික් වගේ ස ඒක භාවිත කරනවා වචන සම්බන්ධය සහ LSTM වචන සම්බන්ධය සම්බන්ධය ගැන බලන්න. මේ ජාලයේ සම්බන්ධය සම්බන්ධයෙන් වාක්ය ගැන සම්බන්ධ තොරතුරු සුරක්ෂා කරන්න උදව් කරනවා සහ වචන අතර සම්බන් අපේ නිර්මාණය හොඳ ප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍රතිප්‍</abstract_si>
+      <abstract_ta>இயல்பான மொழி செயல்பாட்டில் பல பயன்பாடுகளின் அடிப்படை எங்கள் அமைப்பு குழப்பம் மற்றும் திரும்ப பும் நெருக்கமான வலைப்பின்னல்களை ஒன்று சேர்க்கிறது வாக்கியங்களின Name இந்த வலைப்பின்னல்கள் இணைப்பு வாக்கியங்களின் தொடர்பு தகவலை சேமிக்க உதவுகிறது மற்றும் வாக்கியங்களுக்கிடையில் ஒத்தி Our model has achieved good results and is competitive with the best state-of-the-art systems.</abstract_ta>
+      <abstract_ur>سیمنٹی ٹکسٹیول سیمالیٹی (STS) کی زیادہ کاربریوں کی بنیاد ہے (NLP) طبیعی زبان پرسس میں۔ ہمارا سیستم جمع کرتا ہے کہ کلمات کی سیمنٹی برابری کا اندازہ کرنا اور دوبارہ کرتا ہے نیورال نیورل نیٹورک۔ یہ کلمات کی محیط اور LSTM کی حساب لینے کے لئے ایک کانولوٹ نیٹ ورک استعمال کرتا ہے۔ یہ نیٹورک کی ترکیب باتوں کے معاملہ کی اطلاعات کی حفاظت کرنے کے لئے مدد کرتی ہے اور جماعتوں کے درمیان برابری کا شمار بہتر کرتی ہے. ہمارے مدل اچھے نتیجے پہنچ چکے ہیں اور سب سے بہترین حالت کی نظام سے مسابقه ہے.</abstract_ur>
+      <abstract_uz>Name Bizning tizimmiz birlashtirish va qaytadan tarmoq tarmoqlarini birlashtirish va soʻzlarning semantik bir xil tilini o'zgartirish uchun. Name This combination of networks helps to preserve the relevant information of sentences and improves the calculation of the similarity between sentences.  Bizning modelmiz yaxshi natijalar topildi va eng yaxshi shaxsiy tizimlar bilan ishlab chiqaradi.</abstract_uz>
+      <abstract_vi>Phân tích con phân biệt giai đoạn tương đồng (STS) là cơ sở của rất nhiều ứng dụng trong Quá trình hóa ngôn ngữ tự nhiên (NLP). Hệ thống của chúng tôi kết hợp kết hợp kết cấu và các mạng thần kinh liên tục để đo định nét chữ giống nhau. Nó dùng một mạng lưới kết cấu để quan tâm tới ngữ cảnh địa phương và một LSTM để xem xét ngữ cảnh câu to àn cầu. Sự kết hợp các mạng lưới này giúp bảo tồn thông tin về các câu và cải thiện tính tương đồng giữa các câu. Kiểu mẫu của chúng ta đạt được kết quả tốt và cạnh tranh với hệ thống hiện đại nhất.</abstract_vi>
+      <abstract_nl>Semantic Textual Similarity (STS) is de basis van vele toepassingen in Natural Language Processing (NLP). Ons systeem combineert convolutie en terugkerende neurale netwerken om de semantische gelijkenis van zinnen te meten. Het maakt gebruik van een convolutienetwerk om rekening te houden met de lokale context van woorden en een LSTM om de globale context van zinnen te overwegen. Deze combinatie van netwerken helpt de relevante informatie van zinnen te bewaren en verbetert de berekening van de gelijkenis tussen zinnen. Ons model heeft goede resultaten behaald en is concurrerend met de beste state-of-the-art systemen.</abstract_nl>
+      <abstract_bg>Семантичната текстова сходство (СТС) е в основата на много приложения в обработката на естествения език (НЛП). Системата ни съчетава конволюция и повтарящи се невронни мрежи, за да измерва семантичното сходство на изреченията. Той използва конволюционна мрежа, за да вземе предвид локалния контекст на думите, и ЛТМ, за да разгледа глобалния контекст на изреченията. Тази комбинация от мрежи помага да се запази съответната информация за изреченията и подобрява изчисляването на сходството между изреченията. Нашият модел е постигнал добри резултати и е конкурентен с най-добрите съвременни системи.</abstract_bg>
+      <abstract_da>Semantic Textual Similarity (STS) er grundlaget for mange anvendelser i Natural Language Processing (NLP). Vores system kombinerer konvulution og tilbagevendende neurale netværk til at måle semantisk lighed af sætninger. Det bruger et konvulutionsnetværk til at tage hensyn til den lokale kontekst af ord og en LSTM til at overveje den globale kontekst af sætninger. Denne kombination af netværk hjælper med at bevare de relevante oplysninger om sætninger og forbedrer beregningen af ligheden mellem sætninger. Vores model har opnået gode resultater og er konkurrencedygtig med de bedste state-of-the-art systemer.</abstract_da>
+      <abstract_id>Semantic Textual Similarity (STS) is the basis of many applications in Natural Language Processing (NLP).  Sistem kita menggabungkan konvolusi dan jaringan saraf berkurang untuk mengukur persamaan semantis kalimat. Ia menggunakan jaringan konvolusi untuk mempertimbangkan konteks lokal kata dan LSTM untuk mempertimbangkan konteks global kalimat. Kombinasi jaringan ini membantu mempertahankan informasi relevan kalimat dan memperbaiki perhitungan persamaan antara kalimat. Model kita telah mencapai hasil yang baik dan kompetitif dengan sistem terbaik yang terbaik.</abstract_id>
+      <abstract_ko>의미 텍스트 유사성(STS)은 자연 언어 처리(NLP)에서 많은 응용의 기초이다.우리 시스템은 권적과 귀속 신경 네트워크를 결합시켜 문장의 의미 유사성을 측정한다.그것은 권적 네트워크를 사용하여 단어의 국부 상하문을 고려하고, LSTM을 사용하여 문장의 전체 상하문을 고려한다.이런 네트워크의 조합은 문장에 대한 정보를 저장하고 문장 간의 유사도 계산을 개선하는 데 도움이 된다.우리의 모델은 좋은 효과를 거두었고 가장 선진적인 시스템과 경쟁력을 가지고 있다.</abstract_ko>
+      <abstract_hr>Semantička tekstualna sličnost (STS) je osnova mnogih primjena u procesu prirodnog jezika (NLP). Naš sustav kombinira konvoluciju i recidivne neurone mreže kako bi izmjerila semantičku sličnost rečenica. Koristi konvolucionu mrežu kako bi se uzela u obzir lokalni kontekst riječi i LSTM kako bi razmotrila globalni kontekst rečenica. Ova kombinacija mreža pomaže čuvati relevantne informacije o rečenicama i poboljšavati račun sličnosti između rečenica. Naš model je postigao dobre rezultate i konkurentno je sa najboljim stanjem umjetničkih sustava.</abstract_hr>
+      <abstract_de>Semantic Textual Similarity (STS) ist die Grundlage vieler Anwendungen in der Natural Language Processing (NLP). Unser System kombiniert Faltung und wiederkehrende neuronale Netze, um die semantische Ähnlichkeit von Sätzen zu messen. Es verwendet ein Faltungsnetzwerk, um den lokalen Kontext von Wörtern zu berücksichtigen und ein LSTM, um den globalen Kontext von Sätzen zu berücksichtigen. Diese Kombination von Netzwerken hilft, die relevanten Informationen von Sätzen zu erhalten und verbessert die Berechnung der Ähnlichkeit zwischen Sätzen. Unser Modell hat gute Ergebnisse erzielt und ist wettbewerbsfähig mit den besten State-of-the-Art Systemen.</abstract_de>
+      <abstract_sw>Ufananishaji wa Kiteknolojia (STS) ni msingi wa matumizi mengi katika mchakato wa lugha za asili (NLP). Mfumo wetu unaunganisha mapinduzi na unaoendelea mitandao ya neura ili kupima sawa na hukumu hizo. Inatumia mtandao wa mafanikio ili kuchukulia muktadha wa maeneo ya maneno na LSTM ili kutafakari muktadha wa hukumu za kimataifa. Muungano huu wa mitandao unasaidia kulinda taarifa muhimu za hukumu na kuboresha hisabati za usawa kati ya hukumu. Mfano wetu umefanikiwa matokeo mazuri na una ushindani wa mifumo bora ya sanaa.</abstract_sw>
+      <abstract_fa>شبیه‌سازی متن‌سازی (STS) بنیاد بسیاری از کاربردهای در پرداخت زبان طبیعی (NLP) است. سیستم ما شبکه‌های عصبی را ترکیب می‌کند و شبکه‌های عصبی را دوباره ترکیب می‌کند تا شبیه‌های سنتی از جمله‌ها را اندازه گیرند. این شبکه برای حساب کردن محیط کلمات محلی و LSTM برای توجه به محیط جهانی جمله‌ها استفاده می‌کند. این ترکیب شبکه‌ها کمک می‌کند تا اطلاعات مربوط به جمله‌ها محافظت کند و حساب مشابه بین جمله‌ها را بهتر کند. مدل ما نتیجه‌های خوب را به دست آورده و با بهترین سیستم‌های هنر رقابت می‌کند.</abstract_fa>
+      <abstract_af>Semantiese teksverdigheid (STS) is die basis van baie programme in Natuurlike Taal Verwerking (NLP). Ons stelsel kombinieer konvolusie en herhaalde neuralnetwerke om die semantiese gelykenis van setinge te maak. Dit gebruik 'n konvolusie netwerk om rekening te neem van die plaaslike konteks van woorde en 'n LSTM om die globale konteks van setinge te beskou. Hierdie kombinasie van netwerke help om die relevante inligting van setnings te bewaar en die berekening van die gelykenis tussen setnings te verbeter. Ons model het goeie resultate bereik en is medelykbaar met die beste state-of-the-art stelsels.</abstract_af>
+      <abstract_am>የተለመደው ቋንቋ ፕሮግራሞች (NLP) በብዙ ፕሮግራሞች መሠረት ነው፡፡ ሲስተካከላችን ጉዳይ እና በጊዜው የደዌብ መረብ የፍርድ ግንኙነትን ለመለካት ነው፡፡ የአስተባቢ ቃላት እና LSTM የዓለምአቀፍ ውይይት ለመቆጣጠር የጉዳይ መረብ ይጠቅማል፡፡ ይህ የተጠቃሚ መረብ የግንኙነት መረጃዎችን ለማስጠበቅ ይረዳል እናም በክፍሎች መካከል በሚያስተካክሉ ቁጥጥርን ያበጅላል፡፡ ምሳሌያችን መልካም ፍሬዎችን አግኝቷል እናም ከሁሉ በላጭ የዐርብ ስርዓት ጋር ትጋርናለች፡፡</abstract_am>
+      <abstract_hy>Semantic Textual Similarity (STS) is the basis of many applications in Natural Language Processing (NLP).  Մեր համակարգը համադրում է հակամարտություն և կրկնօրինակ նյարդային ցանցեր, որպեսզի չափենք նախադասությունների սեմանտիկ նմանությունը: Այն օգտագործում է կոնվոլյուցիոն ցանց, որպեսզի հաշվի առնենք բառերի տեղական կոնտեքստը և LSMT-ը, որպեսզի հաշվի առնենք նախադասությունների գլոբալ կոնտեքստը: Այս ցանցերի համադրումը օգնում է պահպանել նախադասությունների տեղեկատվությունը և բարելավում է նախադասությունների նմանության հաշվարկը: Մեր մոդելը լավ արդյունքներ է ստացել և մրցակցություն ունի լավագույն վերջին համակարգերի հետ:</abstract_hy>
+      <abstract_tr>Semantik metin meňzeşliki (STS) Natal dil işleýişinde köp uygulamalaryň esasy. Sistemimiz, sözlerin semantik benzeri ölçülmek için birbirine gelişmek ve tekrarlanan nöral ağlarını birleştirir. Bu sözlerin halkara kontekstlerini gözlemek üçin ýerli sözlerniň kontekstlerini we LSTM'i ulanýar. Bu syýallaryň birleşigi sözler barada wajyp maglumaty goramak üçin kömek edip, sözler arasyndaky meňzeşliklerin hasaplamagyny gowurar. Biziň modelimiz gowy netijeleri ýetip bardy we ol iň gowy ýagtylyk sistemalary bilen duşuşykly.</abstract_tr>
+      <abstract_sq>Similaritë Semantike Tekstuale (STS) është baza e shumë aplikimeve në Procesimin e Gjuhave Natyrore (NLP). Our system combines convolution and recurrent neural networks to measure the semantic similarity of sentences.  Përdor një rrjet konvolutimi për të marrë parasysh kontekstin lokal të fjalëve dhe një LSTM për të konsideruar kontekstin global të fjalëve. Kjo kombinim i rrjeteve ndihmon për të ruajtur informacionin e duhur të fjalëve dhe përmirëson llogaritjen e ngjashmërisë midis fjalëve. Modeli ynë ka arritur rezultate të mira dhe është konkurrues me sistemet më të mira të state-of-the-art.</abstract_sq>
+      <abstract_bn>সেম্যান্টিক টেক্সটুয়াল সমতা (STS) প্রাকৃতিক ভাষা প্রক্রিয়ায় অনেক অ্যাপলিকেশনের ভিত্তি আমাদের সিস্টেম সংযুক্ত এবং পুনরায় নিউরেল নেটওয়ার্ক মিলিয়ে দেয়ার জন্য সেম্পেন্টিকের সমতুল্য মাপ। এটি একটি কনফুয়েল নেটওয়ার্ক ব্যবহার করে শব্দের স্থানীয় প্রেক্ষাপট এবং একটি এলসিএম ব্যবহার করে বিশ্বের বিষয়বস্তুর বি এই নেটওয়ার্কের এই সংযোগ সাহায্য করে বাক্যের প্রাসঙ্গিক তথ্য সংরক্ষণ করতে এবং বাক্যের মধ্যে একই ধরনের গণনা উন্নত করে। আমাদের মডেল ভাল ফলাফল অর্জন করেছে এবং সেরা শিল্পের সিস্টেমের সাথে প্রতিযোগিতা করছে।</abstract_bn>
+      <abstract_az>Semantik Textual Similarity (STS) təbiətli Dil İşləməsi (NLP) içində çox proqramların temidir. Sistemimiz cümlələrin semantik bənzərini ölçürmək üçün konvolusyonu və tekrar nöral ağlarını birləşdirir. Bu sözlərin yerli məlumatlarını və cümlələrin küresel məlumatlarını düşünmək üçün bir konvolusyon a ğını istifadə edir. Bu şəbəkələrin birləşdirilməsi cümlələr barəsindəki məlumatları qorumağa və cümlələr arasındaki məlumatları hesablamağa kömək edir. Bizim modelimiz yaxşı nəticələri başa düşdü və ən yaxşı sanat sistemləri ilə müqayisədir.</abstract_az>
+      <abstract_ca>La Similaritat Textual Semàtica (STS) és la base de moltes aplicacions en el Procesament de Llingues Naturals (NLP). El nostre sistema combina xarxes neurals de convolució i recurència per mesurar la similitud semàntica de les frases. Utilitza una xarxa de convolució per tenir en compte el context local de paraules i un LSTM per considerar el context global de frases. Aquesta combinació de xarxes ajuda a conservar la informació pertinentde les frases i millora el càlcul de la similitud entre les frases. El nostre model ha aconseguit bons resultats i és competitiu amb els millors sistemes moderns.</abstract_ca>
+      <abstract_cs>Sémantická textová podobnost (STS) je základem mnoha aplikací v oblasti zpracování přirozeného jazyka (NLP). Náš systém kombinuje konvoluci a recidivující neuronové sítě pro měření sémantické podobnosti vět. Používá konvoluční síť k zohlednění lokálního kontextu slov a LSTM k zohlednění globálního kontextu vět. Tato kombinace sítí pomáhá zachovat relevantní informace o větách a zlepšuje výpočet podobnosti mezi větami. Náš model dosáhl dobrých výsledků a je konkurenceschopný s nejlepšími nejmodernějšími systémy.</abstract_cs>
+      <abstract_bs>Semantična tekstualna sličnost (STS) je osnova mnogih aplikacija u procesu prirodnog jezika (NLP). Naš sistem kombinira konvoluciju i recidivne neuralne mreže kako bi izmjerila semantičku sličnost rečenica. Koristi konvolucionu mrežu kako bi uzeo u obzir lokalni kontekst riječi i LSTM kako bi razmotrila globalni kontekst rečenica. Ova kombinacija mreža pomaže da čuva relevantne informacije o rečenicama i poboljša račun sličnosti između rečenica. Naš model je postigao dobre rezultate i konkurentno je sa najboljim državnim umjetničkim sistemima.</abstract_bs>
+      <abstract_et>Semantiline tekstisarnasus (STS) on paljude looduskeele töötlemise (NLP) rakenduste alus. Meie süsteem ühendab konvolutsiooni ja korduvaid närvivõrke lausete semantilise sarnasuse mõõtmiseks. See kasutab konvolutsioonivõrgustikku, et võtta arvesse kohalikku sõnade konteksti ja LSTM, et kaaluda lausete globaalset konteksti. See võrgustike kombinatsioon aitab säilitada lausete asjakohast teavet ja parandab lausete sarnasuse arvutamist. Meie mudel on saavutanud häid tulemusi ja on konkurentsivõimeline parimate kaasaegsete süsteemidega.</abstract_et>
+      <abstract_fi>Semanttinen tekstillinen samankaltaisuus (STS) on monien luonnonkielen prosessoinnin (NLP) sovellusten perusta. Järjestelmämme yhdistää konvoluution ja toistuvat hermoverkot mittaamaan lauseiden semanttista samankaltaisuutta. Se käyttää konvoluatioverkostoa ottamaan huomioon sanojen paikallisen kontekstin ja LSTM tarkastelemaan lauseiden maailmanlaajuista kontekstia. Tämä verkostojen yhdistelmä auttaa säilyttämään lauseiden merkitykselliset tiedot ja parantaa lauseiden samankaltaisuuden laskemista. Mallimme on saavuttanut hyviä tuloksia ja se on kilpailukykyinen huippuluokan järjestelmien kanssa.</abstract_fi>
+      <abstract_jv>Sampeyan Tekst Sampeyan (URL) iki dadi akeh aplikasi ning manung Terasar Language (NLP). Sistem awak dhéwé ngerasai convolution lan tambah Neral sing berarti kanggo meh semanti karo perusahaan langgambar. Monday Kombinsé éntuk sing mbukaké nglanggar bantuan informasi sing beraksi barêng kapan kanggo luwih bantuan kalempungan sampek winih model sing wis rampung ditambah sing luwih apik lan tambah kuwi adalah ngono sistem sing luwih-adalah sing larang.</abstract_jv>
+      <abstract_sk>Semantna besedilna podobnost (STS) je osnova številnih aplikacij v obdelavi naravnega jezika (NLP). Naš sistem združuje konvolucijo in ponavljajoče se nevronske mreže za merjenje semantične podobnosti stavkov. Uporablja mrežo konvolucij za upoštevanje lokalnega konteksta besed in LSTM za upoštevanje globalnega konteksta stavkov. Ta kombinacija omrežij pomaga ohraniti ustrezne informacije stavkov in izboljša izračun podobnosti med stavki. Naš model je dosegel dobre rezultate in je konkurenčen z najboljšimi najsodobnejšimi sistemi.</abstract_sk>
+      <abstract_ha>@ item Text character set Tsarinmu na haɗa shirin kwamfyuta da zanen tarakin neura da aka dace shi don ya iya ƙayyade misãlin mutane. Yana amfani da wani jerin kwamfyuta don ya ɗauki tsarin maganar da ke cikin lokaci da kuma an yi LSM don ya yi bincike da mazaɓa na musamman. This combination of networks helps to preserve the relevant information of sentences and improves the calculation of the similarity between sentences.  Misalinmu ya sami matsayi mai kyau kuma yana gauraya da mafi kyaun halin-na'urar.</abstract_ha>
+      <abstract_he>דמיון טקסטולי סמנטי (STS) הוא הבסיס של שימושים רבים בתהליך השפה הטבעית (NLP). המערכת שלנו משלבת רשתות עצביות משתנות כדי למדוד את הדמיון הסמנטי של המשפטים. היא משתמשת ברשת שינוי כדי לקחת בחשבון את הקשר המקומי של מילים ו LSTM כדי לשקול את הקשר הגלובלי של משפטים. שילוב הרשתות הזה עוזר לשמור על המידע הרלוונטי של המשפטים ומשתפר את חישוב הדומה בין המשפטים. הדוגמא שלנו השיגה תוצאות טובות והיא תחרותית עם המערכות המיוחדות ביותר.</abstract_he>
+      <abstract_bo>Semantic Textual Similarity (STS)is the basis of many applications in Natural Language Processing (NLP). ང་ཚོའི་མ་ལག་གིས་ཆ་མཐུན་དང་བསྐྱར་རིང་གི་ནུས་མཐུན་དྲ་རྒྱ་ཆ་མཉམ་དུ་བསྡུར་ཡོད་པ་ལྟར། དེ་སྤྱད་ནས་སྦྲེལ་མཐུད་དྲ་བ་ཞིག་ཡིན་པ་ལ་རང་ཁུལ་གྱི་ཁོར་ཡུག་དང་ LSTM་ཡིས་ཚིག དྲ་ཚོགས་ཀྱི་མཉམ་སྡུད་འདི་གིས་ཚིག་རྐང་ཀྱི་གནད་དོན་ཡོད་པའི་གསལ་བཤད་ཀྱི་ཉར་སྐྱོང་བ་དང་ཚིག་རྟགས་དབར་གྱི་མཉ ང་ཚོའི་མ་དབྱིབས་གཟུགས་འབྲས་ལེགས་པ་ཞིག་ཡོད་ཚད་ལྡན་པ་དང་མཐུན་སྣེ་མང་ཤོས་རེད།</abstract_bo>
+      </paper>
+    <paper id="23">
+      <title>Predicting failure of a mediated conversation in the context of asymetric role dialogues</title>
+      <author><first>Romain</first><last>Carbou</last></author>
+      <author><first>Delphine</first><last>Charlet</last></author>
+      <author><first>Géraldine</first><last>Damnati</last></author>
+      <author><first>Frédéric</first><last>Landragin</last></author>
+      <author><first>Jean</first><last>Léon Bouraoui</last></author>
+      <pages>401–408</pages>
+      <abstract>In a human-to-human conversation between a user and his interlocutor in an assistance center, we suppose a context where the conclusion of the dialog can characterize a notion of success or failure, explicitly annotated or deduced. The study involves different <a href="https://en.wikipedia.org/wiki/Scientific_method">approaches</a> expected to have an influence on predictive classification model of failures. On the one hand, we will aim at taking into account the asymmetry of the speakers’ roles in the modelling of the lexical distribution. On the other hand, we will determine whether the part of the lexicon most closely relating to the domain of <a href="https://en.wikipedia.org/wiki/Customer_service">customer assistance</a> studied here, modifies the quality of the prediction. We will eventually assess the perspectives of <a href="https://en.wikipedia.org/wiki/Generalization">generalization</a> to morphologically comparable corpora.</abstract>
+      <url hash="b8fcc82d">2018.jeptalnrecital-court.23</url>
+      <bibkey>carbou-etal-2018-predicting</bibkey>
+    </paper>
+    <paper id="34">
+      <title>A comparative study of <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> and other <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> for lexical complexity detection in French<fixed-case>F</fixed-case>rench</title>
+      <author><first>Aina</first><last>Garí Soler</last></author>
+      <author><first>Marianna</first><last>Apidianaki</last></author>
+      <author><first>Alexandre</first><last>Allauzen</last></author>
+      <pages>499–508</pages>
+      <abstract>Lexical complexity detection is an important step for automatic text simplification which serves to make informed lexical substitutions. In this study, we experiment with <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> for measuring the <a href="https://en.wikipedia.org/wiki/Complexity">complexity</a> of French words and combine them with other features that have been shown to be well-suited for <a href="https://en.wikipedia.org/wiki/Computational_complexity_theory">complexity prediction</a>. Our results on a synonym ranking task show that <a href="https://en.wikipedia.org/wiki/Embedding">embeddings</a> perform better than other <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> in isolation, but do not outperform frequency-based systems in this <a href="https://en.wikipedia.org/wiki/Language">language</a>.</abstract>
+      <url hash="168ba5b3">2018.jeptalnrecital-court.34</url>
+      <bibkey>gari-soler-etal-2018-comparative</bibkey>
+    </paper>
+    <paper id="37">
+      <title>JeuxDeLiens : Word Embeddings and Path-Based Similarity for Entity Linking using the French JeuxDeMots Lexical Semantic Network<fixed-case>J</fixed-case>eux<fixed-case>D</fixed-case>e<fixed-case>L</fixed-case>iens: Word Embeddings and Path-Based Similarity for Entity Linking using the <fixed-case>F</fixed-case>rench <fixed-case>J</fixed-case>eux<fixed-case>D</fixed-case>e<fixed-case>M</fixed-case>ots Lexical Semantic Network</title>
+      <author><first>Julien</first><last>Plu</last></author>
+      <author><first>Kevin</first><last>Cousot</last></author>
+      <author><first>Mathieu</first><last>Lafourcade</last></author>
+      <author><first>Raphaël</first><last>Troncy</last></author>
+      <author><first>Giuseppe</first><last>Rizzo</last></author>
+      <pages>529–538</pages>
+      <abstract>Entity linking systems typically rely on encyclopedic knowledge bases such as <a href="https://en.wikipedia.org/wiki/DBpedia">DBpedia</a> or <a href="https://en.wikipedia.org/wiki/Freebase">Freebase</a>. In this paper, we use, instead, a French lexical-semantic network named JeuxDeMots to jointly type and link entities. Our approach combines <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> and a path-based similarity resulting in encouraging results over a set of documents from the French Le Monde newspaper.</abstract>
+      <url hash="16521e81">2018.jeptalnrecital-court.37</url>
+      <bibkey>plu-etal-2018-jeuxdeliens</bibkey>
+    </paper>
+    </volume>
+  <volume id="recital" ingest-date="2020-07-21">
+    <meta>
+      <booktitle>Actes de la Conférence TALN. Volume 2 - Démonstrations, articles des Rencontres Jeunes Chercheurs, ateliers DeFT</booktitle>
+      <editor><first>Pascale</first><last>Sébillot</last></editor>
+      <editor><first>Vincent</first><last>Claveau</last></editor>
+      <publisher>ATALA</publisher>
+      <address>Rennes, France</address>
+      <month>5</month>
+      <year>2018</year>
+    </meta>
+    <frontmatter>
+      <url hash="fca9b1c7">2018.jeptalnrecital-recital.0</url>
+      <bibkey>jep-taln-recital-2018-actes-de-la</bibkey>
+    </frontmatter>
+    <paper id="2">
+      <title>Analysis of Inferences in Chinese for <a href="https://en.wikipedia.org/wiki/Opinion_mining">Opinion Mining</a><fixed-case>C</fixed-case>hinese for Opinion Mining</title>
+      <author><first>Liyun</first><last>Yan</last></author>
+      <pages>17–26</pages>
+      <abstract>Analysis of Inferences in Chinese for Opinion Mining <a href="https://en.wikipedia.org/wiki/Opinion_mining">Opinion mining</a> is an essential activity for economic watch, made easier by <a href="https://en.wikipedia.org/wiki/List_of_social_networking_websites">social networks</a> and <a href="https://en.wikipedia.org/wiki/Internet_forum">ad hoc forums</a>. The <a href="https://en.wikipedia.org/wiki/Analysis">analysis</a> generally relies on lexicon of sentiments. Nevertheless, some opinions are expressed through <a href="https://en.wikipedia.org/wiki/Inference">inferences</a>. In this paper, we propose a classification of inferences used in <a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a> in tourist comments, for an opinion mining task, based on three levels of analysis (semantic realization, modality of realization and production mode). We proved the interest to analyze the distinct types of inferences to identify the polarity of opinions expressed in corpora. We also present some results based on <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a>.</abstract>
+      <url hash="ab65c0c6">2018.jeptalnrecital-recital.2</url>
+      <bibkey>yan-2018-analysis</bibkey>
+    </paper>
+    <paper id="8">
+      <title>Automatic image annotation : the case of deforestation</title>
+      <author><first>Duy</first><last>Huynh</last></author>
+      <author><first>Nathalie</first><last>Neptune</last></author>
+      <pages>101–116</pages>
+      <abstract>Automatic image annotation : the case of <a href="https://en.wikipedia.org/wiki/Deforestation">deforestation</a>. This paper aims to present the state of the art of the methods that are used for automatic annotation of earth observation image for deforestation detection. We are interested in the various challenges that the field covers and we present the state of the art methods and the future research that we are considering.</abstract>
+      <url hash="ef5fcbf7">2018.jeptalnrecital-recital.8</url>
+      <bibkey>huynh-neptune-2018-automatic</bibkey>
+    </paper>
+    </volume>
+  <volume id="demo" ingest-date="2020-07-21">
+    <meta>
+      <booktitle>Actes de la Conférence TALN. Volume 2 - Démonstrations, articles des Rencontres Jeunes Chercheurs, ateliers DeFT</booktitle>
+      <editor><first>Pascale</first><last>Sébillot</last></editor>
+      <editor><first>Vincent</first><last>Claveau</last></editor>
+      <publisher>ATALA</publisher>
+      <address>Rennes, France</address>
+      <month>5</month>
+      <year>2018</year>
+    </meta>
+    <frontmatter>
+      <url hash="fca9b1c7">2018.jeptalnrecital-demo.0</url>
+      <bibkey>jep-taln-recital-2018-actes-de-la-taln</bibkey>
+    </frontmatter>
+    </volume>
+  <volume id="deft" ingest-date="2020-07-21">
+    <meta>
+      <booktitle>Actes de la Conférence TALN. Volume 2 - Démonstrations, articles des Rencontres Jeunes Chercheurs, ateliers DeFT</booktitle>
+      <editor><first>Pascale</first><last>Sébillot</last></editor>
+      <editor><first>Vincent</first><last>Claveau</last></editor>
+      <publisher>ATALA</publisher>
+      <address>Rennes, France</address>
+      <month>5</month>
+      <year>2018</year>
+    </meta>
+    <frontmatter>
+      <url hash="fca9b1c7">2018.jeptalnrecital-deft.0</url>
+      <bibkey>jep-taln-recital-2018-actes-de-la-taln-2</bibkey>
+    </frontmatter>
+    <paper id="12">
+      <title>Adapted Sentiment Similarity Seed Words For French Tweets’ Polarity Classification<fixed-case>F</fixed-case>rench Tweets’ Polarity Classification</title>
+      <author><first>Amal</first><last>Htait</last></author>
+      <pages>323–328</pages>
+      <abstract>We present, in this paper, our contribution in DEFT 2018 task 2 : Global polarity, determining the overall polarity (Positive, Negative, Neutral or MixPosNeg) of tweets regarding <a href="https://en.wikipedia.org/wiki/Public_transport">public transport</a>, in <a href="https://en.wikipedia.org/wiki/French_language">French language</a>. Our system is based on a list of sentiment seed-words adapted for French public transport tweets. These seed-words are extracted from DEFT’s training annotated dataset, and the sentiment relations between seed-words and other terms are captured by cosine measure of their word embeddings representations, using a French language word embeddings model of 683k words. Our <a href="https://en.wikipedia.org/wiki/Semi-supervised_learning">semi-supervised system</a> achieved an F1-measure equals to 0.64.</abstract>
+      <url hash="54c7425d">2018.jeptalnrecital-deft.12</url>
+      <bibkey>htait-2018-adapted</bibkey>
+    </paper>
+  </volume>
+</collection>

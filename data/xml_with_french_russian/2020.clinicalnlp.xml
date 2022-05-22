@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="2020.clinicalnlp">
+  <volume id="1" ingest-date="2020-11-06">
+    <meta>
+      <booktitle>Proceedings of the 3rd Clinical Natural Language Processing Workshop</booktitle>
+      <editor><first>Anna</first><last>Rumshisky</last></editor>
+      <editor><first>Kirk</first><last>Roberts</last></editor>
+      <editor><first>Steven</first><last>Bethard</last></editor>
+      <editor><first>Tristan</first><last>Naumann</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>November</month>
+      <year>2020</year>
+    </meta>
+    <frontmatter>
+      <url hash="794ae931">2020.clinicalnlp-1.0</url>
+      <bibkey>clinicalnlp-2020-clinical</bibkey>
+    </frontmatter>
+    <paper id="1">
+      <title>Various Approaches for Predicting Stroke Prognosis using Magnetic Resonance Imaging Text Records</title>
+      <author><first>Tak-Sung</first><last>Heo</last></author>
+      <author><first>Chulho</first><last>Kim</last></author>
+      <author><first>Jeong-Myeong</first><last>Choi</last></author>
+      <author><first>Yeong-Seok</first><last>Jeong</last></author>
+      <author><first>Yu-Seop</first><last>Kim</last></author>
+      <pages>1–6</pages>
+      <abstract>Stroke is one of the leading causes of death and disability worldwide. Stroke is treatable, but <a href="https://en.wikipedia.org/wiki/Information_technology">it</a> is prone to disability after treatment and must be prevented. To grasp the degree of disability caused by <a href="https://en.wikipedia.org/wiki/Stroke">stroke</a>, we use magnetic resonance imaging text records to predict <a href="https://en.wikipedia.org/wiki/Stroke">stroke</a> and measure the performance according to the document-level and sentence-level representation. As a result of the experiment, the document-level representation shows better performance.</abstract>
+      <url hash="3479fe47">2020.clinicalnlp-1.1</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.1</doi>
+      <video href="https://slideslive.com/38939817" />
+      <bibkey>heo-etal-2020-various</bibkey>
+    </paper>
+    <paper id="3">
+      <title>BERT-XML : Large Scale Automated ICD Coding Using BERT Pretraining<fixed-case>BERT</fixed-case>-<fixed-case>XML</fixed-case>: Large Scale Automated <fixed-case>ICD</fixed-case> Coding Using <fixed-case>BERT</fixed-case> Pretraining</title>
+      <author><first>Zachariah</first><last>Zhang</last></author>
+      <author><first>Jingshu</first><last>Liu</last></author>
+      <author><first>Narges</first><last>Razavian</last></author>
+      <pages>24–34</pages>
+      <abstract>ICD coding is the task of classifying and cod-ing all diagnoses, symptoms and proceduresassociated with a patient’s visit. The process isoften manual, extremely time-consuming andexpensive for hospitals as clinical interactionsare usually recorded in free text medical notes. In this paper, we propose a machine learningmodel, BERT-XML, for large scale automatedICD coding of EHR notes, utilizing recentlydeveloped unsupervised pretraining that haveachieved state of the art performance on a va-riety of NLP tasks. We train a BERT modelfrom scratch on EHR notes, learning with vo-cabulary better suited for EHR tasks and thusoutperform off-the-shelf models. We furtheradapt the BERT architecture for ICD codingwith multi-label attention. We demonstratethe effectiveness of BERT-based models on thelarge scale ICD code classification task usingmillions of EHR notes to predict thousands ofunique codes.</abstract>
+      <url hash="2fa42ef4">2020.clinicalnlp-1.3</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.3</doi>
+      <video href="https://slideslive.com/38939836" />
+      <bibkey>zhang-etal-2020-bert</bibkey>
+    </paper>
+    <paper id="4">
+      <title>Incorporating Risk Factor Embeddings in Pre-trained Transformers Improves Sentiment Prediction in Psychiatric Discharge Summaries</title>
+      <author><first>Xiyu</first><last>Ding</last></author>
+      <author><first>Mei-Hua</first><last>Hall</last></author>
+      <author><first>Timothy</first><last>Miller</last></author>
+      <pages>35–40</pages>
+      <abstract>Reducing rates of early hospital readmission has been recognized and identified as a key to improve quality of care and reduce costs. There are a number of <a href="https://en.wikipedia.org/wiki/Risk_factor">risk factors</a> that have been hypothesized to be important for understanding re-admission risk, including such factors as problems with substance abuse, ability to maintain work, relations with family. In this work, we develop Roberta-based models to predict the sentiment of sentences describing readmission risk factors in discharge summaries of patients with psychosis. We improve substantially on previous results by a scheme that shares information across <a href="https://en.wikipedia.org/wiki/Risk_factor">risk factors</a> while also allowing the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> to learn risk factor-specific information.</abstract>
+      <url hash="4a86ef4f">2020.clinicalnlp-1.4</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.4</doi>
+      <video href="https://slideslive.com/38939823" />
+      <bibkey>ding-etal-2020-incorporating</bibkey>
+    </paper>
+    <paper id="7">
+      <title>BioBERTpt-A Portuguese Neural Language Model for Clinical Named Entity Recognition<fixed-case>B</fixed-case>io<fixed-case>BERT</fixed-case>pt - A <fixed-case>P</fixed-case>ortuguese Neural Language Model for Clinical Named Entity Recognition</title>
+      <author><first>Elisa Terumi Rubel</first><last>Schneider</last></author>
+      <author><first>João Vitor Andrioli</first><last>de Souza</last></author>
+      <author><first>Julien</first><last>Knafou</last></author>
+      <author><first>Lucas Emanuel Silva e</first><last>Oliveira</last></author>
+      <author><first>Jenny</first><last>Copara</last></author>
+      <author><first>Yohan Bonescki</first><last>Gumiel</last></author>
+      <author><first>Lucas Ferro Antunes de</first><last>Oliveira</last></author>
+      <author><first>Emerson Cabrera</first><last>Paraiso</last></author>
+      <author><first>Douglas</first><last>Teodoro</last></author>
+      <author><first>Cláudia Maria Cabral Moro</first><last>Barra</last></author>
+      <pages>65–72</pages>
+      <abstract>With the growing number of <a href="https://en.wikipedia.org/wiki/Electronic_health_record">electronic health record data</a>, clinical NLP tasks have become increasingly relevant to unlock valuable information from unstructured clinical text. Although the performance of downstream NLP tasks, such as named-entity recognition (NER), in English corpus has recently improved by contextualised language models, less research is available for clinical texts in low resource languages. Our goal is to assess a deep contextual embedding model for <a href="https://en.wikipedia.org/wiki/Portuguese_language">Portuguese</a>, so called BioBERTpt, to support clinical and biomedical NER. We transfer learned information encoded in a multilingual-BERT model to a corpora of clinical narratives and biomedical-scientific papers in <a href="https://en.wikipedia.org/wiki/Brazilian_Portuguese">Brazilian Portuguese</a>. To evaluate the performance of BioBERTpt, we ran NER experiments on two annotated corpora containing clinical narratives and compared the results with existing BERT models. Our in-domain model outperformed the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline model</a> in <a href="https://en.wikipedia.org/wiki/F-number">F1-score</a> by 2.72 %, achieving higher performance in 11 out of 13 assessed entities. We demonstrate that enriching contextual embedding models with domain literature can play an important role in improving performance for specific NLP tasks. The transfer learning process enhanced the Portuguese biomedical NER model by reducing the necessity of labeled data and the demand for retraining a whole new <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>.</abstract>
+      <url hash="bcfce65d">2020.clinicalnlp-1.7</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.7</doi>
+      <video href="https://slideslive.com/38939829" />
+      <bibkey>schneider-etal-2020-biobertpt</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/semclinbr">SemClinBr</pwcdataset>
+    </paper>
+    <paper id="13">
+      <title>How You Ask Matters : The Effect of Paraphrastic Questions to BERT Performance on a Clinical SQuAD Dataset<fixed-case>BERT</fixed-case> Performance on a Clinical <fixed-case>SQ</fixed-case>u<fixed-case>AD</fixed-case> Dataset</title>
+      <author><first>Sungrim (Riea)</first><last>Moon</last></author>
+      <author><first>Jungwei</first><last>Fan</last></author>
+      <pages>111–116</pages>
+      <abstract>Reading comprehension style question-answering (QA) based on patient-specific documents represents a growing area in clinical NLP with plentiful applications. Bidirectional Encoder Representations from Transformers (BERT) and its derivatives lead the state-of-the-art accuracy on the task, but most evaluation has treated the data as a pre-mixture without systematically looking into the potential effect of imperfect train / test questions. The current study seeks to address this gap by experimenting with full versus partial train / test data consisting of paraphrastic questions. Our key findings include 1) training with all pooled question variants yielded best <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a>, 2) the <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> varied widely, from 0.74 to 0.80, when trained with each single question variant, and 3) questions of similar lexical / syntactic structure tended to induce identical answers. The results suggest that how you ask questions matters in BERT-based QA, especially at the training stage.</abstract>
+      <url hash="02b90c0a">2020.clinicalnlp-1.13</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.13</doi>
+      <video href="https://slideslive.com/38939814" />
+      <bibkey>moon-fan-2020-ask</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/squad">SQuAD</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/emrqa">emrQA</pwcdataset>
+    </paper>
+    <paper id="15">
+      <title>MeDAL : Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining<fixed-case>M</fixed-case>e<fixed-case>DAL</fixed-case>: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title>
+      <author><first>Zhi</first><last>Wen</last></author>
+      <author><first>Xing Han</first><last>Lu</last></author>
+      <author><first>Siva</first><last>Reddy</last></author>
+      <pages>130–135</pages>
+      <abstract>One of the biggest challenges that prohibit the use of many current <a href="https://en.wikipedia.org/wiki/Natural_language_processing">NLP methods</a> in clinical settings is the availability of <a href="https://en.wikipedia.org/wiki/Data_set">public datasets</a>. In this work, we present MeDAL, a large medical text dataset curated for abbreviation disambiguation, designed for <a href="https://en.wikipedia.org/wiki/Natural-language_understanding">natural language understanding</a> pre-training in the medical domain. We pre-trained several models of common architectures on this dataset and empirically showed that such pre-training leads to improved performance and <a href="https://en.wikipedia.org/wiki/Convergence_of_random_variables">convergence speed</a> when <a href="https://en.wikipedia.org/wiki/Fine-tuning">fine-tuning</a> on downstream medical tasks.</abstract>
+      <url hash="5eaf318e">2020.clinicalnlp-1.15</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="a36a04dd">2020.clinicalnlp-1.15.OptionalSupplementaryMaterial.zip</attachment>
+      <doi>10.18653/v1/2020.clinicalnlp-1.15</doi>
+      <video href="https://slideslive.com/38939819" />
+      <bibkey>wen-etal-2020-medal</bibkey>
+      <pwccode url="https://github.com/BruceWen120/medal" additional="false">BruceWen120/medal</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/medal">MeDAL</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/adam">ADAM</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/mimic-iii">MIMIC-III</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/pubmed">Pubmed</pwcdataset>
+    <title_ar>MeDAL: مجموعة بيانات توضيح الاختصارات الطبية للتدريب المسبق على فهم اللغة الطبيعية</title_ar>
+      <title_es>MEdAL: Conjunto de datos de desambiguación de abreviaturas médicas para la preformación de comprensión</title_es>
+      <title_fr>MEDal : jeu de données de désambiguïsation des abréviations médicales pour la compréhension</title_fr>
+      <title_pt>MeDAL: Conjunto de dados de desambiguação de abreviaturas médicas para pré-treinamento de compreensão de linguagem natural</title_pt>
+      <title_ja>MeDAL: Medical Abbreviation Natural Language Understanding Pre - Trainingのための曖昧さ解消データセット</title_ja>
+      <title_zh>MeDAL曰:自然语言解预训练之医缩写消歧义数据集</title_zh>
+      <title_hi>MeDAL: प्राकृतिक भाषा समझ Pretraining के लिए चिकित्सा संक्षिप्त नाम Disambiguation डेटासेट</title_hi>
+      <title_ru>MeDAL: Медицинская аббревиатура Disambiguation Dataset for Natural Language Understanding Pretraining</title_ru>
+      <title_ga>MedAL: Giorrúchán Míochaine Tacar Sonraí Disathbhrí le haghaidh Tuiscint Teanga Nádúrtha Réamhoiliúint</title_ga>
+      <title_ka>MeDAL: მედიციო დახმარება განსხვავება მონაცემების მონაცემების მონაცემებისთვის</title_ka>
+      <title_el>Σύνολο δεδομένων αποσαφήνισης ιατρικών συντομεύσεων για την κατανόηση της φυσικής γλώσσας</title_el>
+      <title_hu>MeDAL: Orvosi rövidítés Szétegyértelműsítő adatkészlet a természetes nyelv megértéséhez</title_hu>
+      <title_it>MeDAL: Set di dati di disambiguazione per la comprensione del linguaggio naturale</title_it>
+      <title_lt>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title_lt>
+      <title_kk>MeDAL: Медициялық қысқарту деңгейінің бақылау деректер бағдарламасы</title_kk>
+      <title_mk>MeDAL: Медицинска набрзина Датотека за дебабигуација за разбирање на природниот јазик</title_mk>
+      <title_ms>MeDAL: Dataset Pemindahan Persingkatan Perubatan untuk Pemahaman Bahasa Biasa</title_ms>
+      <title_ml>മെഡിയാള്‍: മെഡിക്കല്‍ അബ്രെവേഷന്‍ ഡിസ്പ്യൂമിഗഷന്‍ ഡേറ്റാസറ്റ് സ്വാഭാഷയുടെ വിവരങ്ങള്‍</title_ml>
+      <title_mt>MeDAL: Sett ta’ Dejta dwar id-Diżambigwazzjoni ta’ Abbrevjazzjoni Medika għall-Qbil ta’ Lingwi Naturali</title_mt>
+      <title_pl>MeDAL: Zestaw danych dotyczących rozdzielania skrótów medycznych dla wstępnego treningu języka naturalnego</title_pl>
+      <title_mn>MeDAL: Медицийн эмчилгээний багасгал хөгжлийн мэдээллийн багасгал хэл ойлгохын тулд</title_mn>
+      <title_ro>MeDAL: Set de date de dezambiguizare a abreviării medicale pentru înțelegerea limbii naturale</title_ro>
+      <title_no>MeDAL: Medisisk forbedringsdatabater for naturspråk forståking</title_no>
+      <title_sr>MeDAL: Datati za disambiguaciju medicinskog smanjenja za prirodno razumevanje jezika pretvaranje</title_sr>
+      <title_so>MeDAL: Disambiguation Dataset for Natural language Understanding Preparation</title_so>
+      <title_sv>MeDAL: Medicinsk förkortning Disambiguation Dataset för Natural Language Understanding Pretraining</title_sv>
+      <title_si>MeDAL: මධ්‍යාත්මක ක්‍රියාත්මක විශ්වාසය නිෂ්ප්‍රායාත්මක භාෂාව තේරුම්ගන්න</title_si>
+      <title_ur>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title_ur>
+      <title_ta>சாதாரண மொழி புரிந்து கொள்ளும் முன்பயிற்சி</title_ta>
+      <title_uz>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title_uz>
+      <title_vi>MeDAL: dữ liệu hỗ trợ thảm biến dạng y học cho hiểu biết ngôn ngữ tự nhiên</title_vi>
+      <title_bg>Медицински съкращения Диамбигационен набор от данни за разбиране на естествения език</title_bg>
+      <title_nl>MeDAL: Medische afkorting Disambiguation Dataset voor Natural Language Understanding Pretraining</title_nl>
+      <title_da>MeDAL: Medicinsk forkortelse Disambiguation Datasæt for Natural Language Understanding Pretraining</title_da>
+      <title_hr>MeDAL: Datati o disambiguaciji liječnika za razumijevanje prirodnog jezika pretvaranje</title_hr>
+      <title_id>MeDAL: Pangkalan Data Pengambangan Medis untuk Pemahaman Bahasa Alami</title_id>
+      <title_de>MeDAL: Medizinische Abkürzung Disambiguation Dataset for Natural Language Understanding Pretraining</title_de>
+      <title_ko>메달: 자연 언어 이해 훈련 전 의학 줄임말 변조 데이터 집합</title_ko>
+      <title_fa>MeDAL: Databases Disambiguation Abbreviation Medical Disambiguation for Natural Language Understanding Pretraining</title_fa>
+      <title_sw>MeDAL: Takwimu za Kupuuzwa kwa Madaktari zilizotengenezwa kwa ajili ya mafunzo ya lugha ya asili</title_sw>
+      <title_tr>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title_tr>
+      <title_af>MeDAL: Mediese afbreidingsafbreidingsdataaset vir Natuurlike Taal Verstaan</title_af>
+      <title_sq>MeDAL: Paketa e të dhënave për çambiguacionin e shkurtimeve mjekësore për kuptimin e gjuhës natyrore</title_sq>
+      <title_az>MeDAL: Təbiətli Dil Düşünməsi üçün Təbbi Qısqa Qısqa Qısqa Qısqa Qısqa Datatları</title_az>
+      <title_am>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural language Understanding Pretraining</title_am>
+      <title_hy>MeDAL: Բնական լեզուների բացատրման բժշկական աբրիվացիան</title_hy>
+      <title_bn>মেডিয়াল অ্যাব্রেভিয়েশন ডিসাম্প্রাকৃতিক ভাষার প্রশিক্ষণের জন্য ডাটাসেট</title_bn>
+      <title_bs>MeDAL: Datati o disambiguaciji medicinskog smanjenja za prirodno razumijevanje jezika pretvaranje</title_bs>
+      <title_cs>MeDAL: Lékařská zkratka Disambiguation Dataset pro předškolení přirozeného jazyka</title_cs>
+      <title_ca>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title_ca>
+      <title_fi>MeDAL: Lääketieteellinen lyhenne Disambiguation Dataset for Natural Language Understanding Esiharjoittelu</title_fi>
+      <title_et>MeDAL: Meditsiinilise lühendi disambiguatsiooni andmekogum loodusliku keele mõistmiseks eelõpetamiseks</title_et>
+      <title_jv>MeDEL: theraperiation disabled mbiguation dataase for Normal Language Compromient</title_jv>
+      <title_ha>KCharselect unicode block name</title_ha>
+      <title_sk>MeDAL: Zbirka podatkov o razjasnitvi medicinskih okrajšav za razumevanje naravnega jezika</title_sk>
+      <title_he>MeDAL: קבוצת נתונים של התקצרות רפואית על מנת להבין את השפה הטבעית</title_he>
+      <title_bo>MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining</title_bo>
+      <abstract_ar>أحد أكبر التحديات التي تحظر استخدام العديد من أساليب البرمجة اللغوية العصبية الحالية في الإعدادات السريرية هو توافر مجموعات البيانات العامة. في هذا العمل ، نقدم MeDAL ، وهي مجموعة بيانات نصية طبية كبيرة تم تنسيقها لإزالة الغموض عن الاختصارات ، وهي مصممة للتدريب المسبق لفهم اللغة الطبيعية في المجال الطبي. لقد قمنا مسبقًا بتدريب العديد من نماذج البنى الشائعة على مجموعة البيانات هذه وأظهرنا بشكل تجريبي أن مثل هذا التدريب المسبق يؤدي إلى تحسين الأداء وسرعة التقارب عند ضبط المهام الطبية النهائية.</abstract_ar>
+      <abstract_fr>L'un des plus grands défis qui interdisent l'utilisation de nombreuses méthodes de PNL actuelles en milieu clinique est la disponibilité d'ensembles de données publics. Dans ce travail, nous présentons MEDal, un vaste ensemble de données de textes médicaux conçu pour la désambiguïsation des abréviations, conçu pour la pré-formation en compréhension du langage naturel dans le domaine médical. Nous avons préformé plusieurs modèles d'architectures communes sur cet ensemble de données et avons démontré de manière empirique qu'une telle pré-formation permet d'améliorer les performances et la vitesse de convergence lors du réglage précis des tâches médicales en aval.</abstract_fr>
+      <abstract_pt>Um dos maiores desafios que proíbem o uso de muitos métodos atuais de PNL em ambientes clínicos é a disponibilidade de conjuntos de dados públicos. Neste trabalho, apresentamos o MeDAL, um grande conjunto de dados de texto médico com curadoria para desambiguação de abreviaturas, projetado para pré-treinamento de compreensão de linguagem natural no domínio médico. Nós pré-treinamos vários modelos de arquiteturas comuns neste conjunto de dados e mostramos empiricamente que esse pré-treinamento leva a um melhor desempenho e velocidade de convergência ao ajustar tarefas médicas downstream.</abstract_pt>
+      <abstract_es>Uno de los mayores desafíos que prohíben el uso de muchos métodos actuales de PNL en entornos clínicos es la disponibilidad de conjuntos de datos públicos. En este trabajo, presentamos MedAL, un gran conjunto de datos de textos médicos curados para la desambiguación de las abreviaturas, diseñado para la comprensión del lenguaje natural antes del entrenamiento en el dominio médico. Entrenamos previamente varios modelos de arquitecturas comunes en este conjunto de datos y demostramos empíricamente que dicha capacitación previa mejora el rendimiento y la velocidad de convergencia al ajustar las tareas médicas posteriores.</abstract_es>
+      <abstract_ja>現在の多くのNLP方法の臨床現場での使用を禁止する最大の課題の1つは、公開データセットの利用可能性です。この研究では、MeDALを紹介します。MeDALは、略語の曖昧さを解消するために策定された、医療領域でのトレーニング前の自然言語理解のために設計された大規模な医療テキストデータセットです。私たちは、このデータセット上で共通のアーキテクチャのいくつかのモデルを事前にトレーニングし、そのような事前トレーニングが下流の医療タスクを微調整する際のパフォーマンスと収束速度の向上につながることを経験的に示しました。</abstract_ja>
+      <abstract_zh>禁临床境内多用NLP法最大者,公共数据集之可用性。 此乃大医文本据MeDAL,以缩写消歧义,专为医域自然语言解预练之计也。 凡此数集上预,常见架构形,明于经验,微于下流,可以收敛。</abstract_zh>
+      <abstract_hi>नैदानिक सेटिंग्स में कई वर्तमान एनएलपी विधियों के उपयोग को प्रतिबंधित करने वाली सबसे बड़ी चुनौतियों में से एक सार्वजनिक डेटासेट की उपलब्धता है। इस काम में, हम MeDAL, एक बड़ा चिकित्सा पाठ डेटासेट प्रस्तुत करते हैं जो संक्षिप्त रूप के लिए क्यूरेट किया गया है, जो चिकित्सा डोमेन में पूर्व-प्रशिक्षण को समझने वाली प्राकृतिक भाषा के लिए डिज़ाइन किया गया है। हमने इस डेटासेट पर आम आर्किटेक्चर के कई मॉडलों को पूर्व-प्रशिक्षित किया और अनुभवजन्य रूप से दिखाया कि इस तरह के पूर्व-प्रशिक्षण से डाउनस्ट्रीम चिकित्सा कार्यों पर ठीक-ट्यूनिंग करते समय बेहतर प्रदर्शन और अभिसरण गति होती है।</abstract_hi>
+      <abstract_ru>Одной из самых больших проблем, которая запрещает использование многих современных методов NLP в клинических условиях, является доступность общедоступных наборов данных. В этой работе мы представляем MeDAL, большой набор медицинских текстовых данных, предназначенный для аббревиатурной размытости, предназначенный для предварительного обучения пониманию естественного языка в медицинской области. Мы предварительно обучили несколько моделей общих архитектур на этом наборе данных и эмпирически показали, что такое предварительное обучение приводит к улучшению производительности и скорости конвергенции при тонкой настройке на последующих медицинских задачах.</abstract_ru>
+      <abstract_ga>Ceann de na dúshláin is mó a chuireann cosc ar úsáid a bhaint as go leor modhanna reatha NLP i suíomhanna cliniciúla ná infhaighteacht tacar sonraí poiblí. Sa saothar seo, cuirimid i láthair MeDAL, tacar sonraí mór téacs leighis atá coimeádta le haghaidh dí-athbhrí giniúna, atá deartha le haghaidh réamhoiliúint nádúrtha i dtuiscint teanga sa réimse leighis. Rinneamar réamhoiliúna ar roinnt samhlacha ailtireachta coitianta ar an tacar sonraí seo agus léirigh sé go heimpíreach go n-eascraíonn feidhmíocht níos fearr agus luas cóineasaithe dá leithéid de réamhoiliúint agus iad ag mionchoigeartú ar thascanna leighis iartheachtacha.</abstract_ga>
+      <abstract_el>Μία από τις μεγαλύτερες προκλήσεις που απαγορεύουν τη χρήση πολλών σύγχρονων μεθόδων σε κλινικά περιβάλλοντα είναι η διαθεσιμότητα δημόσιων συνόλων δεδομένων. Σε αυτή την εργασία, παρουσιάζουμε ένα μεγάλο σύνολο δεδομένων ιατρικού κειμένου που επιμελήθηκε για αποσαφήνιση συντομεύσεων, σχεδιασμένο για την κατανόηση φυσικής γλώσσας προεκπαίδευση στον ιατρικό τομέα. Προεκπαιδεύσαμε αρκετά μοντέλα κοινών αρχιτεκτονικών σε αυτό το σύνολο δεδομένων και εμπειρικά δείξαμε ότι μια τέτοια προεκπαίδευση οδηγεί σε βελτιωμένη απόδοση και ταχύτητα σύγκλισης κατά την Feinabstimmung σε μεταγενέστερες ιατρικές εργασίες.</abstract_el>
+      <abstract_it>Una delle maggiori sfide che vietano l'uso di molti metodi attuali di PNL in contesti clinici è la disponibilità di set di dati pubblici. In questo lavoro presentiamo MeDAL, un ampio set di dati di testo medico curato per la disambiguazione delle abbreviazioni, progettato per la comprensione del linguaggio naturale pre-formazione nel campo medico. Abbiamo pre-addestrato diversi modelli di architetture comuni su questo set di dati e abbiamo dimostrato empiricamente che tale pre-formazione porta a migliorare le prestazioni e la velocità di convergenza quando si perfeziona le attività mediche a valle.</abstract_it>
+      <abstract_kk>Клиникалық параметрлерде қазіргі NLP әдістерін қолдану қажет ететін ең үлкен мәселелердің бірі - көпшілік деректер қорларының мүмкіндігі. Бұл жұмыс ішінде, медицина доменінде алдын- ала оқыту үшін табиғи тілдерді түсінуге арналған үлкен медицина мәтін деректер жинағын келтіреміз. Біз бұл деректер жиынында бірнеше жалпы архитектуралар үлгілерін алдын- ала үйрендік. Бұл алдын- ала үйрендік медицина тапсырмаларын жақсы баптауға және конвергенциялық жылдамдығын жақсарту үшін көр</abstract_kk>
+      <abstract_hu>Az egyik legnagyobb kihívás, amely megtiltja számos jelenlegi NLP-módszer klinikai környezetben történő alkalmazását, a nyilvános adatkészletek rendelkezésre állása. Ebben a munkában bemutatjuk a MeDAL-t, egy nagy orvosi szövegadatkészletet, amely rövidítésekkel egyértelműsíthető, természetes nyelv megértésére szolgál az orvosi területen. Ezen adatkészleten több közös architektúra modellt is előkészítettünk, és empirikusan megmutattuk, hogy az előkészítés javult teljesítményt és konvergencia sebességet eredményez a downstream orvosi feladatok finomhangolásakor.</abstract_hu>
+      <abstract_ka>ერთი უფრო დიდი გამოცდილებები, რომლებიც კლინიკური პარამეტრებში გამოყენებას წაშლა მხოლოდ NLP მეტოვების გამოყენება, არის საზოგადო მონაცემების ხელსახულ ამ სამუშაოში ჩვენ MeDAL-ს, დიდი მედიცინური ტექსტის მონაცემების სექტი, რომელიც განახლებელად განახლებელად გავაკეთებულია, რომელიც განახლებელად განახლებელად განახ ჩვენ დავიტანეთ რამდენიმე საერთო არქტიქტურის მოდელები ამ მონაცემების სექტირებში და ემპერიკურად გამოჩვენეთ, რომ ასეთი საერთო განაცემების წინასწორება იქნება უფრო მეფექტირების და კ</abstract_ka>
+      <abstract_ms>Salah satu cabaran terbesar yang melarang penggunaan banyak kaedah NLP semasa dalam tetapan klinik adalah kemampuan set data awam. Dalam kerja ini, kami memperkenalkan MeDAL, set data teks perubatan besar yang disiapkan untuk pengsingkatan tidak ambiguasi, direka untuk pemahaman bahasa semulajadi praselatihan dalam bidang perubatan. Kami melatih beberapa model arkitektur umum pada set data ini dan secara empirik menunjukkan bahawa pelatihan awal seperti itu membawa kepada prestasi yang lebih baik dan kelajuan konvergensi apabila memperbaiki tugas perubatan turun.</abstract_ms>
+      <abstract_ml>നിലവിലുള്ള NLP രീതികള്‍ ഉപയോഗിക്കാന്‍ നിഷിദ്ധമാക്കുന്ന ഏറ്റവും വലിയ വ്യാല്‍ക്കാരില്‍ ഒന്നാണ് പൊതു ഡാറ്റാസറ്റു ഈ ജോലിയില്‍ ഞങ്ങള്‍ മെഡിയാല്‍ ഒരു വലിയ മെഡിക്കല്‍ ടെക്സ്റ്റേറ്റ് ഡാറ്റാസ്റ്റ് സജ്ജീകരിക്കുന്നു. മെഡിക്കല്‍ ഡോമെയിനില്‍ സ്വാഭാ ഈ ഡാറ്റാസസെറ്റില്‍ സാധാരണ ആര്‍ക്കിട്ടറുകളുടെ പല മാതൃകങ്ങള്‍ മുന്‍പ് പരിശീലനം നടത്തിയിട്ടുണ്ട്. അതിനു മുന്‍പ് പരിശീലനം കാണിച്ചുകൊണ്ടിരിക്</abstract_ml>
+      <abstract_mt>Waħda mill-akbar sfidi li tipprojbixxi l-użu ta’ ħafna metodi NLP attwali f’ambjenti kliniċi hija d-disponibbiltà ta’ settijiet ta’ dejta pubbliċi. In this work, we present MeDAL, a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain.  Aħna mħarrġin minn qabel bosta mudelli ta’ arkitetturi komuni fuq dan is-sett ta’ dejta u wrejna empirikament li tali taħriġ minn qabel iwassal għal prestazzjoni mtejba u veloċità ta’ konverġenza meta jiġu aġġustati l-kompiti mediċi downstream.</abstract_mt>
+      <abstract_mk>Еден од најголемите предизвици кои забрануваат употреба на многу актуелни методи на НЛП во клиничките услови е достапноста на јавни податоци. Во оваа работа, го претставуваме МеДАЛ, голем медицински текст податок куриран за кратење на дејамбигуацијата, дизајниран за природно разбирање на јазикот предобука во медицинската област. Претрениравме неколку модели на заеднички архитектури на овој податок и емпирички покажавме дека ваквата претренирање води до подобрена резултатност и брзина на конвергенција кога се поправи на понатамошните медицински задачи.</abstract_mk>
+      <abstract_pl>Jednym z największych wyzwań zakazujących stosowania wielu obecnych metod NLP w warunkach klinicznych jest dostępność publicznych zbiorów danych. W niniejszej pracy przedstawiamy MeDAL, duży zestaw danych tekstowych medycznych kuracjonowany dla skrótów, przeznaczony do rozumienia języka naturalnego przedszkolenia w dziedzinie medycznej. Wcześniej przeszkoliliśmy kilka modeli wspólnych architektur na tym zbiorze danych i empirycznie wykazaliśmy, że takie szkolenie wstępne prowadzi do poprawy wydajności i szybkości konwergencji podczas dostrajania zadań medycznych w dalszym szczeblu.</abstract_pl>
+      <abstract_mn>Сэтгэцийн хэмжээнд олон NLP методуудыг ашиглахыг зориулсан хамгийн том сорилтуудын нэг нь нийтийн өгөгдлийн сангуудын хэрэглээ. Энэ ажлын хувьд бид MeDAL-г, эмнэлгийн эрүүл мэндийн хэлбэрээс өмнө сургалтыг ойлгохын тулд зориулагдсан том эмнэлгийн өгөгдлийн санг тайлбарлаж байна. Бид эдгээр өгөгдлийн сангийн олон нийтийн архитектуруудыг сургалтын өмнө сургалтын архитектуруудын хэд хэдэн загвар сургалтын өмнө сургалтын дасгал нь эмнэлгийн ажил дээр сайжруулах үед үйл ажиллагаа болон хурдыг са</abstract_mn>
+      <abstract_lt>Vienas didžiausių uždavinių, uždraudžiančių naudoti daugelį dabartinių NLP metodų klinikinėse aplinkybėse, yra viešų duomenų rinkinių prieinamumas. Šiame darbe pristatome MeDAL, didelį medicininio teksto duomenų rinkinį, kuruojamą santrumpų nedviprasmiškumui, sukurtą gamtiniam kalbų supratimui medicinos srityje. Šiuo duomenų rinkiniu iš anksto parengėme keletą bendrų architektūrų modelių ir empiriniu požiūriu parodėme, kad dėl tokio parengimo rezultatai ir konvergencijos greitis pagerėja, kai patobulinamos tolesnės medicinos užduotys.</abstract_lt>
+      <abstract_no>Ein av dei største utfordringane som hindrar bruk av mange gjeldande NLP-metodar i kliniske innstillingar er tilgjengeleg offentlige datasett. I denne arbeiden presenterer vi MeDAL, eit stor medisinsk tekstdataset som er korrigert for forkortingar, utforma for naturleg språk forståelse før opplæring i medisinsk domene. Vi har forelært fleire modeller av felles arkitektur på denne dataset og empirisk vist at slike føreøvinga fører til forbetra utviklingsfart og konvergensfart når det finst oppsett på nedstrekkende medisinske oppgåver.</abstract_no>
+      <abstract_si>ලොකු ප්‍රශ්නයක් තියෙන්නේ ප්‍රශ්නයක් තියෙන්නේ ප්‍රශ්නයක් තියෙන්නේ NLP විදියට ප්‍රයෝජනය විදියට ප්‍රයෝ මේ වැඩේ අපි MeDAL වෙනුවෙන්, ලොකු වෛද්‍ය විද්‍යාත්මක තේරුම් සැකසුම් සඳහා ප්‍රශ්නයක් වෙනුවෙන්, ස්වභාවික භාෂාව අපි මේ දත්ත සූදානයේ සාමාන්‍ය විශ්වාසිකරණ විතරක් ප්‍රධානය කරලා තියෙනවා ඒ වගේ ප්‍රධානය ප්‍රධානය සහ සම්බන්ධ වේගය ප්‍රධානය</abstract_si>
+      <abstract_so>Mid ka mid ah dhibaatooyinka ugu waaweyn ee diida isticmaalka hababka dhakhaatiirta ee NLP waa helitaanka macluumaadka dadweynaha. Markaas waxan shaqada ku qornaa MeDAL oo ah macluumaad warqad caafimaad oo weyn oo loo qoray baaritaanka burburinta, oo loo qoray garashada afka dabiiciga ah oo lagu barto waxbarasho horumar ah gudaha caafimaadka. Waxaannu horay u tababarinnay tusaalo kala duduwan dhismahan caadiga ah oo ku saabsan taariikhdan, waxaana ku muuqanay in waxbarashadaas horumarinta ah uu hagaajiyo tababarka iyo isbedelka marka lagu hagaajiyo shaqooyinka caafimaadka hoose.</abstract_so>
+      <abstract_ta>தற்போதைய NLP முறைகளை பயன்படுத்த தடுக்கும் பெரிய சவால்களில் ஒன்று சிகிச்சை அமைப்பு In this work, we present MeDAL, a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain.  இந்த தரவுத்தளத்தில் பொதுவான அடைவுகளின் மாதிரிகளை நாம் முன் பயிற்சி செய்தோம் மற்றும் முன்பயிற்சி செய்துள்ளோம் இது முன்பயிற்சி செயல்பாட</abstract_ta>
+      <abstract_ro>Una dintre cele mai mari provocări care interzic utilizarea multor metode actuale de PNL în cadrul clinic este disponibilitatea seturilor de date publice. În această lucrare, vă prezentăm MeDAL, un set mare de date medicale de text curat pentru dezambiguizarea abrevierilor, conceput pentru înțelegerea limbajului natural pre-formare în domeniul medical. Am pre-instruit mai multe modele de arhitecturi comune pe acest set de date și am arătat empiric că o astfel de pre-instruire duce la îmbunătățirea performanței și vitezei de convergență atunci când ajustăm fin sarcinile medicale din aval.</abstract_ro>
+      <abstract_sr>Jedan od najvećih izazova koji zabranjuje upotrebu mnogih trenutnih metoda NLP-a u kliničkim nastavama je dostupnost javnih podataka. U ovom poslu predstavljamo MeDAL, veliku medicinsku tekstualnu kompetu podataka koja je navedena za disambiguaciju kratkog reda, dizajniranu za prirodno razumevanje jezika pre obuke u medicinskom domenu. Prije treniranja smo nekoliko modela zajedničkih arhitektura na ovom setu podataka i empirički pokazali da takva predobuka vodi do poboljšanog provedbe i konverģencije brzine kada se dobro održava na ležnim medicinskim zadacima.</abstract_sr>
+      <abstract_sv>En av de största utmaningarna som förbjuder användningen av många nuvarande NLP-metoder i kliniska miljöer är tillgången till offentliga datamängder. I det här arbetet presenterar vi MeDAL, ett stort medicinskt textdataset som är framtaget för förkortningsbrytning, utformat för att förstå naturligt språk pre-training inom det medicinska området. Vi tränade flera modeller av gemensamma arkitekturer på denna datauppsättning och visade empiriskt att sådan fortbildning leder till förbättrad prestanda och konvergenshastighet vid finjustering av nedströms medicinska uppgifter.</abstract_sv>
+      <abstract_ur>سب سے بڑی چالوں میں سے ایک ہے جو کلینیکی سیٹیوں میں بہت سی موجود NLP طریقوں کا استعمال کرنے سے منع کرتی ہے۔ اس کام میں ہم نے MeDAL کو پیش آموزش دینے کے لئے طراحی کیا ہے، ایک بڑی پزشکی ٹیکسٹ ڈاکسیٹ ڈاکسیٹ ڈاکسیٹ، جو مصنوعی ڈاکسیٹ میں پیش آموزش کی تعلیم کے لئے مصنوعی زبان کے لئے طراحی کی ہے ہم نے اس ڈیٹ سٹ پر بہت سی معماری معماری نمونوں کو پہلے تدریس کی اور مضبوط طور پر دکھایا کہ اس سے پہلے تدریس کی طرح عملکرد اور سرعت کی تدریج کے لئے اچھی طرح دکھائی ہوتی ہے۔</abstract_ur>
+      <abstract_uz>Name Bu vazifanda, biz MeDAL, tibbiy domenning oldini o'rganish uchun katta medikam matn maʼlumotlarini ko'rganamiz. Biz bu maʼlumotlar sahifadagi bir necha ko'plab bir modellarni o'rganishga o'rganishmiz va shunday o'rganishdan oldin, bu taʼminlovchi tibbiy vazifalarga yaxshi tashkilotni bajarishda bajarish va tadbirlik tezligini oshirish mumkin.</abstract_uz>
+      <abstract_vi>Một trong những thử thách lớn nhất ngăn chặn việc sử dụng nhiều phương pháp NIP hiện thời trong các thiết lập lâm sàng là việc có các bộ dữ liệu công cộng. Trong công việc này, chúng tôi giới thiệu MeDAL, một tập tin văn bản y học lớn được cung cấp cho khả năng hủy hợp rút ngắn, được thiết kế để hiểu ngôn ngữ tự nhiên trước khi được đào tạo trong lĩnh vực y học. Chúng tôi đã rèn luyện trước nhiều mô hình kiến trúc chung trên bộ dữ liệu này và có kinh nghiệm cho thấy rằng tiền đào tạo có hiệu quả và tốc độ hội tụ khi nghiên cứu các công trình y học xuôi dòng.</abstract_vi>
+      <abstract_bg>Едно от най-големите предизвикателства, които забраняват използването на много съвременни методи за НЛП в клинични условия, е наличието на обществени набори от данни. В тази работа представяме голям медицински текстов набор от данни, подбран за обобщаване на съкращенията, предназначен за разбиране на естествения език предобучение в областта на медицината. Предварително обучихме няколко модела общи архитектури на този набор от данни и емпирично показахме, че такова предварително обучение води до подобряване на производителността и скоростта на сближаване при фино настройване на медицински задачи надолу по веригата.</abstract_bg>
+      <abstract_nl>Een van de grootste uitdagingen die het gebruik van veel huidige NLP-methoden in klinische omgevingen verbieden, is de beschikbaarheid van publieke datasets. In dit werk presenteren we MeDAL, een grote medische tekstdataset samengesteld voor afkortingsverduidelijking, ontworpen voor het begrijpen van natuurlijke taal pre-training in het medische domein. We hebben verschillende modellen van gemeenschappelijke architecturen vooraf getraind op deze dataset en empirisch aangetoond dat dergelijke pre-training leidt tot verbeterde prestaties en convergentiesnelheid bij het finetunen van downstream medische taken.</abstract_nl>
+      <abstract_da>En af de største udfordringer, der forbyder brugen af mange nuværende NLP-metoder i kliniske omgivelser, er tilgængeligheden af offentlige datasæt. I dette arbejde præsenterer vi MeDAL, et stort medicinsk tekstdatasæt kurateret til forkortelse disambiguation, designet til naturlig sprogforståelse pre-training på det medicinske område. Vi prætrænede flere modeller af fælles arkitekturer på dette datasæt og viste empirisk, at en sådan prætræning fører til forbedret ydeevne og konvergens hastighed ved finjustering af downstream medicinske opgaver.</abstract_da>
+      <abstract_hr>Jedan od najvećih izazova koji zabranjuju uporabu mnogih trenutnih metoda NLP-a u kliničkim nastavama je dostupnost javnih podataka. U ovom poslu predstavljamo MeDAL, veliku medicinsku tekstualnu kompletu podataka koja je navedena za disambiguaciju kratkog reda, dizajniranu za prirodno razumijevanje jezika prije obuke u medicinskoj domenu. Pretrenirali smo nekoliko modela zajedničkih arhitektura na ovom sastavu podataka i empirički pokazali da takva predobuka vodi do poboljšane učinkovitosti i konverģencije brzine kada se dobro održava na sporednim medicinskim zadatkima.</abstract_hr>
+      <abstract_de>Eine der größten Herausforderungen, die den Einsatz vieler aktueller NLP-Methoden im klinischen Umfeld verbieten, ist die Verfügbarkeit öffentlicher Datensätze. In dieser Arbeit stellen wir MeDAL vor, einen großen medizinischen Textdatensatz, der für Abkürzungsdisambiguation kuratiert wurde und für das Verständnis natürlicher Sprache im medizinischen Bereich entwickelt wurde. Wir trainierten mehrere Modelle gängiger Architekturen auf diesem Datensatz und zeigten empirisch, dass ein solches Vortraining zu verbesserter Leistung und Konvergenzgeschwindigkeit bei der Feinabstimmung von nachgelagerten medizinischen Aufgaben führt.</abstract_de>
+      <abstract_fa>یکی از بزرگترین چالش‌هایی که از استفاده از روش‌های NLP فعلی در تنظیمات کلینیک ممنوع می‌کند دسترسی داده‌های عمومی است. در این کار، ما MeDAL را نشان می دهیم، یک مجموعه داده‌های پزشکی بزرگ که برای تغییر کوتاهی تغییر داده می‌شود، برای درک زبان طبیعی پیش آموزش پیش از آموزش در دومین پزشکی طراحی شده است. ما چندتا مدل معماری مشترک را در این مجموعه داده‌ها پیش آموزش دادیم و به طور امپراطوری نشان دادیم که چنین آموزش پیش آموزش به سرعت عملکرد و کنترلژی بهتر می‌شود وقتی پایین‌ترین کار های پزشکی پایین‌ترین تغییر می‌دهد.</abstract_fa>
+      <abstract_id>Salah satu tantangan terbesar yang melarang penggunaan banyak metode NLP saat ini dalam pengaturan klinis adalah kemampuan dataset publik. Dalam pekerjaan ini, kami mempersembahkan MeDAL, sebuah set data teks medis besar yang direksi untuk penyerapan tidak ambiguasi, direncanakan untuk pemahaman bahasa alam pre-pelatihan di daerah medis. We pre-trained several models of common architectures on this dataset and empirically showed that such pre-training leads to improved performance and convergence speed when fine-tuning on downstream medical tasks.</abstract_id>
+      <abstract_sw>Moja ya changamoto kubwa zaidi zinazozuia matumizi ya njia nyingi za sasa za NLP katika mazingira ya kliniki ni upatikanaji wa taarifa za umma. In this work, we present MeDAL, a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain.  Tumejifunza mifano kadhaa ya majengo ya kawaida kwenye seti hii ya data na kwa makini tulionyesha kuwa mafunzo haya yanapelekea kuboresha ufanisi na haraka za mazungumzo wakati wa kutangaza kazi za afya chini ya mito.</abstract_sw>
+      <abstract_ko>임상 환경에서 현재 NLP 방법을 많이 사용하지 못하게 하는 가장 큰 도전 중 하나는 공공 데이터 세트의 가용성이다.이 작업에서 우리는 메달을 제시했고 대형 의학 텍스트 데이터 집합의 줄임말로 잘못된 뜻을 없애고 자연 언어 이해를 위한 의학 분야의 예비 교육을 실시했다.우리는 이 데이터 집합에서 몇 가지 흔히 볼 수 있는 체계 구조의 모델을 미리 훈련했고 경험에 의하면 하류 의료 임무를 미세하게 조정할 때 이런 사전 훈련은 성능과 수렴 속도를 높일 수 있다.</abstract_ko>
+      <abstract_tr>Kliniki düzümlerde birnäçe häzirki NLP metodlaryny ulanmaky mümkin edýän iň uly kynçylyklardan biri, halk maglumat düzümleri bar. Bu işde, biz MeDAL'i, tıbbi domaýda öň-öňünden öňünden öňünden okamak üçin guruldyran uly medenik metin setirini görkeýäris. Biz bu datasynda birnäçe nusgalary öň-okuwçylaşdyryp bilýän arhitekturlyklary we empirik bilen bu ön-okuwçylygyň täzeliklerini gowurarak we ýuwaşlyk ýigrendigini görkezdik.</abstract_tr>
+      <abstract_af>Een van die grootste uitdagings wat die gebruik van baie huidige NLP metodes in kliniske instellings verhinder is die beskikbaarheid van publieke datastelle. In hierdie werk het ons MeDAL voorgestel, 'n groot mediese teks datastel wat voorgestel is vir kruipende ontsammings, ontwerp vir natuurlike taal verstaan voor-oefening in die mediese domein. Ons het verskeie modele van gemeenskaplike arkitektuur vooraf opgelei op hierdie datastel en empiriese vertoon dat sodanige vooraf opgelegging lei na verbeterde prestasie en konvergensie spoed wanneer fyn-tuning op onderstreem mediese opdragte.</abstract_af>
+      <abstract_sq>Një nga sfidat më të mëdha që ndalojnë përdorimin e shumë metodave aktuale të NLP-së në bazat klinike është disponueshmëria e të dhënave publike. Në këtë punë, ne paraqesim MeDAL, një set të madh teksti mjekësor të dhënash kuruar për shkurtimin e çambiguacionit, të dizajnuar për kuptimin natyror të gjuhës paratrajnimi në fushën mjekësore. Ne paratrajnuam disa modele arkitekturash të përbashkëta në këtë set të dhënash dhe empirikisht treguam se paratrajnimi i tillë shpie në përmirësim të performancës dhe shpejtësisë konvergencës kur rregullohet në detyrat mjekësore më poshtë.</abstract_sq>
+      <abstract_am>የአሁኑን የNLP ሥርዓት በኪኒካሌ አካባቢዎች ውስጥ የሚከለክሉ ትልቁ ውጤቶች አንዱ የህዝብ ዳታዎችን ማግኘት ነው፡፡ በዚህ ስራ፣ መዳኛ፣ ለጥብቀት የቋንቋ ማስተማር የጥቅረት ድምፅ ማህበረሰብ የተደረገ የድምፅ ጽሑፍ ማድረጊያውን እናቀርባታለን፡፡ በዚህ ዳታ ሳንሰር የተለየ ብዙዎችን የአካባቢ መሠረቶች አስተማርተናል፡፡ እንደዚህም የፊተኛውን ትምህርት ፈጥኖችን በወንዝ ውኃ ባለው መድኃኒት ስራዎችን በመጠቀም የሚሻለውን ፍጥረት እና የሚለውጥ ፍጥረት ማድረግ ያሳየናል፡፡</abstract_am>
+      <abstract_hy>Ամենամեծ մարտահրավերներից մեկը, որը արգելնում է օգտագործել բազմաթիվ ներկայիս ՆԼՊ մեթոդներ կլինիկական միջավայրում, հանրային տվյալների համակարգերի հասանելիությունն է: In this work, we present MeDAL, a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain.  Մենք նախապատրաստում էինք այս տվյալների համակարգի ընդհանուր ճարտարապետության մի քանի մոդելներ և էմպիրիկապես ցույց տվեցինք, որ այդպիսի նախապատրաստման գործընթացը հանգեցնում է բարելավելու արդյունավետության և համընդհանուր արագության, երբ կատարվում</abstract_hy>
+      <abstract_az>Ən böyük çətinliklərdən biri, kliniki qurğularda olan çoxlu NLP metodlarını istifadə etməyi qadağan edir. Bu işdə, MeDAL'i təhsil dillərinin əvvəlcə təhsil edilməsi üçün təbiətli təhsil edilməsi üçün təbiətli təhsil edilən böyük məhsul məlumatları təyin edirik. Biz bu verilənlər qutusunda bir neçə modeli təhsil etdik və empirik olaraq, bu təhsil təhsil təhsil təhsil etdiyi təhsil və konverģenci sürəti daha yaxşılaşdırdığını göstərdik.</abstract_az>
+      <abstract_bs>Jedan od najvećih izazova koji zabranjuju korištenje mnogih trenutnih metoda NLP-a u kliničkim nastavama je dostupnost javnih podataka. U ovom poslu predstavljamo MeDAL, veliku medicinsku tekstualnu kompetu podataka koja je zaključena za disambiguaciju kratkosti, dizajniranu za prirodno razumijevanje jezika pre obuke u medicinskom domenu. Pretrenirali smo nekoliko modela zajedničkih arhitektura na ovom setu podataka i empirički pokazali da takva predobuka vodi do poboljšane učinkovitosti i konverģencije kada se dobro održava na leđim medicinskim zadacima.</abstract_bs>
+      <abstract_bn>ক্লিনিক্যাল বৈশিষ্ট্যে বর্তমান এনএলপি পদ্ধতি ব্যবহার নিষিদ্ধ করা সবচেয়ে বড় চ্যালেঞ্জের মধ্যে একটি হচ্ছে জনগণের ডাটাস এই কাজে আমরা মেডিয়ালের উপস্থাপন করছি বিশাল মেডিকেল টেক্সটের ডাটাসেট, যারা মেডিকেল ডোমেইনে প্রাকৃতিক ভাষা বুঝতে পারে নির্দিষ্ আমরা এই ডাটাসেটে সাধারণ প্রশিক্ষণের বেশ কয়েকটি মডেল প্রশিক্ষণ পূর্বে প্রশিক্ষণ প্রদান করেছি এবং সাধারণ প্রশিক্ষণ দেখিয়েছি যে এই প্রশিক্ষণের ফলে প্রথম প্রশ</abstract_bn>
+      <abstract_ca>Un dels reptes més grans que prohibeixen l'ús de molts mètodes NLP actuals en entorns clínics és la disponibilitat de conjunts de dades públics. En aquesta feina, presentem el MeDAL, un gran conjunt de dades de text mèdic curat per la desambiguació d'abreviatura, dissenyat per a entendre la llengua natural, la pré-entrenament en el domini mèdic. Vam preparar varis models d'arquitectures comunes en aquest conjunt de dades i vam demostrar empíricament que aquesta pré-formació porta a millor rendiment i velocitat de convergència quan s'ajusten a tasques mèdiques avall.</abstract_ca>
+      <abstract_cs>Jednou z největších výzev, které zakazují použití mnoha současných metod NLP v klinickém prostředí, je dostupnost veřejných datových sad. V této práci představujeme MeDAL, rozsáhlý medicínský textový datový soubor kurátorovaný pro zkratkové disambiguace, určený pro porozumění přirozenému jazyku předškolení v lékařské oblasti. Na tomto datovém souboru jsme předškolili několik modelů běžných architektur a empiricky ukázali, že takové předškolení vede ke zlepšení výkonu a konvergenční rychlosti při jemném ladění následných lékařských úkolů.</abstract_cs>
+      <abstract_fi>Yksi suurimmista haasteista, jotka estävät monien nykyisten NLP-menetelmien käytön kliinisissä olosuhteissa, on julkisten aineistojen saatavuus. Tässä työssä esittelemme MeDAL-tietokannan, joka on koottu lyhenteiden selventämiseen ja joka on suunniteltu luonnollisen kielen ymmärtämiseen lääketieteellisen alan esikoulutukseen. Esikoulutimme useita yhteisiä arkkitehtuurimalleja tähän aineistoon ja empiirisesti osoitimme, että tällainen esikoulutus johtaa parempaan suorituskykyyn ja konvergenssinopeuteen jatko-lääketieteellisissä tehtävissä.</abstract_fi>
+      <abstract_et>Üks suurimaid väljakutseid, mis keelavad paljude praeguste NLP meetodite kasutamise kliinilistes tingimustes, on avalike andmekogumite kättesaadavus. Käesolevas töös tutvustame MeDAL-i, lühendite selgitamiseks kureeritud suurt meditsiinilist teksti andmekogumit, mis on mõeldud looduskeele mõistmiseks meditsiini valdkonnas. Me eelkoolitasime selles andmekogumis mitmeid ühiste arhitektuuride mudeleid ja näitasime empiiriliselt, et selline eelkoolitus toob kaasa parema jõudluse ja lähenemise kiiruse järgnevate meditsiiniliste ülesannete täpsustamisel.</abstract_et>
+      <abstract_jv>Awak sing perbudhakan sing gak dhéwé kanggo ngnggawe sistem NLP gak bener tentang kanggo nggawe dataset publik. Nan in é, we present MeDEL, un banter text dataset curate para abbreviation dismbiguation, disenyongno kanggo langgambar terbiyang nggawe mulai-terbiyang kanggo wé-terbiyang ning token dhéwé. Awak dhéwé éntuk akses ditulaké sistem sing gak bener-ingkang sampeyan karo dataset iki lan kelangan sing nyimpen kuwi tindang kuwi tindakan ono wektu nggawe barang kelangan karo nggawe barang langgar sampeyan akeh lanjut lan ijol-ijolan, winih.</abstract_jv>
+      <abstract_ha>Babu ɗayan muramman masu girma da za'a hana su yi amfani da wasu hanyoyin NLP na yanzu a cikin kayan daidaita kwanza, yana da amfani da tsarin mutane. Daga wannan aikin, Munã halatar da MeDAL, ma'anar matsayi mai girma na matsayin da aka tsare wa abbration, aka design wa fahimtar harshen asiyya da zaman mafunzo a cikin taƙaita. Ba mu taƙaita wasu misãlai na ɗayan matsayin bakwai a kan wannan dataset, kuma muka yi empirin ya nuna cewa wannan zaman shawarar ta ƙara ga gyarawa na gyarata da sauri idan ya gyara a kan aikin da za'a shida shi na ƙarami.</abstract_ha>
+      <abstract_sk>Eden največjih izzivov, ki prepoveduje uporabo številnih sedanjih metod NLP v kliničnih okoljih, je razpoložljivost javnih naborov podatkov. V tem delu predstavljamo MeDAL, obsežen medicinski besedilni nabor podatkov, urejen za razločitev okrajšav, namenjen razumevanju naravnega jezika pred usposabljanjem na področju medicine. Na tem naboru podatkov smo vnaprej usposobili več modelov skupnih arhitektur in empirično pokazali, da takšno predusposabljanje vodi k izboljšanju zmogljivosti in hitrosti konvergence pri natančnem nastavitvi zdravstvenih nalog na koncu verige.</abstract_sk>
+      <abstract_he>אחד האתגרים הגדולים ביותר שמאסרים את השימוש בשיטות NLP הנוכחיות רבות במסגרות קליניות הוא הזמינות של קבוצות נתונים ציבוריים. בעבודה הזו, אנו מציגים את MeDAL, קבוצת נתונים רפואיים גדולה טקסט מטופלת למסגרת התקצרות, מוכנה להבין שפה טבעית לפני האימונים בתחום הרפואי. אימנו מראש מספר דוגמנים של ארכיטקטורות משותפות על קבוצת נתונים זו ואימפרית הראה כי אימון מראש כזה מוביל להופעה משתפרת ומהירות הקונגרנציה כאשר מתאים על משימות רפואיות למטה.</abstract_he>
+      <abstract_bo>གནད་དོན་ལྡན་གྱི་སྒྲིག་སྟངས In this work, we present MeDAL, a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. ང་ཚོས་གཞི་ཚོགས་སྔོན་གྱིས་མཐུན་གྱི་མིག་གཟུགས་རྩལ་མང་ཙམ་གྱི་སྔོན་གྲངས་སྒྲིག</abstract_bo>
+      </paper>
+    <paper id="21">
+      <title>Extracting Relations between Radiotherapy Treatment Details</title>
+      <author><first>Danielle</first><last>Bitterman</last></author>
+      <author><first>Timothy</first><last>Miller</last></author>
+      <author><first>David</first><last>Harris</last></author>
+      <author><first>Chen</first><last>Lin</last></author>
+      <author><first>Sean</first><last>Finan</last></author>
+      <author><first>Jeremy</first><last>Warner</last></author>
+      <author><first>Raymond</first><last>Mak</last></author>
+      <author><first>Guergana</first><last>Savova</last></author>
+      <pages>194–200</pages>
+      <abstract>We present work on extraction of radiotherapy treatment information from the clinical narrative in the <a href="https://en.wikipedia.org/wiki/Electronic_health_record">electronic medical records</a>. Radiotherapy is a central component of the treatment of most solid cancers. Its details are described in non-standardized fashions using jargon not found in other medical specialties, complicating the already difficult task of manual data extraction. We examine the performance of several state-of-the-art neural methods for relation extraction of radiotherapy treatment details, with a goal of automating detailed information extraction. The <a href="https://en.wikipedia.org/wiki/Nervous_system">neural systems</a> perform at 0.82-0.88 macro-average F1, which approximates or in some cases exceeds the <a href="https://en.wikipedia.org/wiki/Inter-annotator_agreement">inter-annotator agreement</a>. To the best of our knowledge, this is the first effort to develop models for radiotherapy relation extraction and one of the few efforts for <a href="https://en.wikipedia.org/wiki/Relation_extraction">relation extraction</a> to describe <a href="https://en.wikipedia.org/wiki/Treatment_of_cancer">cancer treatment</a> in general.</abstract>
+      <url hash="09caa91e">2020.clinicalnlp-1.21</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.21</doi>
+      <video href="https://slideslive.com/38939827" />
+      <bibkey>bitterman-etal-2020-extracting</bibkey>
+    </paper>
+    <paper id="22">
+      <title>Cancer Registry Information Extraction via <a href="https://en.wikipedia.org/wiki/Transfer_learning">Transfer Learning</a></title>
+      <author><first>Yan-Jie</first><last>Lin</last></author>
+      <author><first>Hong-Jie</first><last>Dai</last></author>
+      <author><first>You-Chen</first><last>Zhang</last></author>
+      <author><first>Chung-Yang</first><last>Wu</last></author>
+      <author><first>Yu-Cheng</first><last>Chang</last></author>
+      <author><first>Pin-Jou</first><last>Lu</last></author>
+      <author><first>Chih-Jen</first><last>Huang</last></author>
+      <author><first>Yu-Tsang</first><last>Wang</last></author>
+      <author><first>Hui-Min</first><last>Hsieh</last></author>
+      <author><first>Kun-San</first><last>Chao</last></author>
+      <author><first>Tsang-Wu</first><last>Liu</last></author>
+      <author><first>I-Shou</first><last>Chang</last></author>
+      <author><first>Yi-Hsin Connie</first><last>Yang</last></author>
+      <author><first>Ti-Hao</first><last>Wang</last></author>
+      <author><first>Ko-Jiunn</first><last>Liu</last></author>
+      <author><first>Li-Tzong</first><last>Chen</last></author>
+      <author><first>Sheau-Fang</first><last>Yang</last></author>
+      <pages>201–208</pages>
+      <abstract>A <a href="https://en.wikipedia.org/wiki/Cancer_registry">cancer registry</a> is a critical and massive database for which various types of <a href="https://en.wikipedia.org/wiki/Domain_knowledge">domain knowledge</a> are needed and whose maintenance requires labor-intensive <a href="https://en.wikipedia.org/wiki/Data_curation">data curation</a>. In order to facilitate the curation process for building a high-quality and integrated cancer registry database, we compiled a cross-hospital corpus and applied neural network methods to develop a natural language processing system for extracting cancer registry variables buried in unstructured pathology reports. The performance of the developed networks was compared with various baselines using standard <a href="https://en.wikipedia.org/wiki/Precision_(computer_science)">micro-precision</a>, recall and <a href="https://en.wikipedia.org/wiki/F-measure">F-measure</a>. Furthermore, we conducted experiments to study the feasibility of applying <a href="https://en.wikipedia.org/wiki/Transfer_learning">transfer learning</a> to rapidly develop a well-performing <a href="https://en.wikipedia.org/wiki/System">system</a> for processing reports from different sources that might be presented in different writing styles and formats. The results demonstrate that the transfer learning method enables us to develop a satisfactory <a href="https://en.wikipedia.org/wiki/System">system</a> for a new hospital with only a few annotations and suggest more opportunities to reduce the burden of <a href="https://en.wikipedia.org/wiki/Cancer_registry">cancer registry curation</a>.</abstract>
+      <url hash="837bfaa6">2020.clinicalnlp-1.22</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.22</doi>
+      <video href="https://slideslive.com/38939830" />
+      <bibkey>lin-etal-2020-cancer</bibkey>
+    </paper>
+    <paper id="24">
+      <title>Where’s the Question? A Multi-channel Deep Convolutional Neural Network for Question Identification in Textual Data</title>
+      <author><first>George</first><last>Michalopoulos</last></author>
+      <author><first>Helen</first><last>Chen</last></author>
+      <author><first>Alexander</first><last>Wong</last></author>
+      <pages>215–226</pages>
+      <abstract>In most clinical practice settings, there is no rigorous reviewing of the clinical documentation, resulting in inaccurate information captured in the patient medical records. The gold standard in clinical data capturing is achieved via expert-review, where clinicians can have a dialogue with a domain expert (reviewers) and ask them questions about data entry rules. Automatically identifying real questions in these dialogues could uncover ambiguities or common problems in data capturing in a given clinical setting. In this study, we proposed a novel multi-channel deep convolutional neural network architecture, namely Quest-CNN, for the purpose of separating real questions that expect an answer (information or help) about an issue from sentences that are not questions, as well as from questions referring to an issue mentioned in a nearby sentence (e.g., can you clarify this?), which we will refer as c-questions. We conducted a comprehensive performance comparison analysis of the proposed multi-channel deep convolutional neural network against other <a href="https://en.wikipedia.org/wiki/Deep_learning">deep neural networks</a>. Furthermore, we evaluated the performance of traditional rule-based and learning-based methods for detecting question sentences. The proposed Quest-CNN achieved the best F1 score both on a dataset of data entry-review dialogue in a dialysis care setting, and on a general domain dataset.</abstract>
+      <url hash="8cf7e093">2020.clinicalnlp-1.24</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.24</doi>
+      <video href="https://slideslive.com/38939833" />
+      <bibkey>michalopoulos-etal-2020-wheres</bibkey>
+    </paper>
+    <paper id="28">
+      <title>An Ensemble Approach for Automatic Structuring of Radiology Reports</title>
+      <author><first>Morteza</first><last>Pourreza Shahri</last></author>
+      <author><first>Amir</first><last>Tahmasebi</last></author>
+      <author><first>Bingyang</first><last>Ye</last></author>
+      <author><first>Henghui</first><last>Zhu</last></author>
+      <author><first>Javed</first><last>Aslam</last></author>
+      <author><first>Timothy</first><last>Ferris</last></author>
+      <pages>249–258</pages>
+      <abstract>Automatic structuring of electronic medical records is of high demand for clinical workflow solutions to facilitate extraction, storage, and querying of patient care information. However, developing a scalable solution is extremely challenging, specifically for radiology reports, as most healthcare institutes use either no template or department / institute specific templates. Moreover, radiologists’ reporting style varies from one to another as sentences are written in a telegraphic format and do not follow general English grammar rules. In this work, we present an <a href="https://en.wikipedia.org/wiki/Ensemble_learning">ensemble method</a> that consolidates the predictions of three models, capturing various attributes of textual information for automatic labeling of sentences with section labels. These three models are : 1) Focus Sentence model, capturing context of the target sentence ; 2) Surrounding Context model, capturing the neighboring context of the target sentence ; and finally, 3) Formatting / Layout model, aimed at learning report formatting cues. We utilize Bi-directional LSTMs, followed by sentence encoders, to acquire the context. Furthermore, we define several <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> that incorporate the structure of reports. We compare our proposed approach against multiple baselines and state-of-the-art approaches on a proprietary dataset as well as 100 manually annotated radiology notes from the MIMIC-III dataset, which we are making publicly available. Our proposed <a href="https://en.wikipedia.org/wiki/Scientific_method">approach</a> significantly outperforms other <a href="https://en.wikipedia.org/wiki/Scientific_method">approaches</a> by achieving 97.1 % <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a>.</abstract>
+      <url hash="912a4471">2020.clinicalnlp-1.28</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.28</doi>
+      <video href="https://slideslive.com/38939816" />
+      <bibkey>pourreza-shahri-etal-2020-ensemble</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/mimic-iii">MIMIC-III</pwcdataset>
+    </paper>
+    <paper id="30">
+      <title>Advancing Seq2seq with Joint Paraphrase Learning</title>
+      <author><first>So Yeon</first><last>Min</last></author>
+      <author><first>Preethi</first><last>Raghavan</last></author>
+      <author><first>Peter</first><last>Szolovits</last></author>
+      <pages>269–279</pages>
+      <abstract>We address the problem of model generalization for sequence to sequence (seq2seq) architectures. We propose going beyond <a href="https://en.wikipedia.org/wiki/Data_augmentation">data augmentation</a> via paraphrase-optimized multi-task learning and observe that it is useful in correctly handling unseen sentential paraphrases as inputs. Our <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> greatly outperform SOTA seq2seq models for <a href="https://en.wikipedia.org/wiki/Semantic_analysis_(linguistics)">semantic parsing</a> on diverse domains (Overnight-up to 3.2 % and emrQA-7 %) and <a href="https://en.wikipedia.org/wiki/Nematus">Nematus</a>, the winning solution for WMT 2017, for <a href="https://en.wikipedia.org/wiki/Czech_language">Czech to English translation</a> (CzENG 1.6-1.5 BLEU).</abstract>
+      <url hash="bdb0b4cb">2020.clinicalnlp-1.30</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.30</doi>
+      <video href="https://slideslive.com/38939834" />
+      <bibkey>min-etal-2020-advancing</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/emrqa">emrQA</pwcdataset>
+    </paper>
+    <paper id="31">
+      <title>On the diminishing return of labeling clinical reports</title>
+      <author><first>Jean-Baptiste</first><last>Lamare</last></author>
+      <author><first>Oloruntobiloba</first><last>Olatunji</last></author>
+      <author><first>Li</first><last>Yao</last></author>
+      <pages>280–290</pages>
+      <abstract>Ample evidence suggests that better machine learning models may be steadily obtained by training on increasingly larger datasets on natural language processing (NLP) problems from non-medical domains. Whether the same holds true for medical NLP has by far not been thoroughly investigated. This work shows that this is indeed not always the case. We reveal the somehow counter-intuitive observation that performant medical NLP models may be obtained with small amount of labeled data, quite the opposite to the common belief, most likely due to the domain specificity of the problem. We show quantitatively the effect of training data size on a fixed test set composed of two of the largest public chest x-ray radiology report datasets on the task of abnormality classification. The trained <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> not only make use of the training data efficiently, but also outperform the current state-of-the-art <a href="https://en.wikipedia.org/wiki/Rule-based_system">rule-based systems</a> by a significant margin.</abstract>
+      <url hash="9fdbf8b6">2020.clinicalnlp-1.31</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.31</doi>
+      <video href="https://slideslive.com/38939812" />
+      <bibkey>lamare-etal-2020-diminishing</bibkey>
+    </paper>
+    <paper id="32">
+      <title>The Chilean Waiting List Corpus : a new resource for clinical Named Entity Recognition in Spanish<fixed-case>C</fixed-case>hilean Waiting List Corpus: a new resource for clinical Named Entity Recognition in <fixed-case>S</fixed-case>panish</title>
+      <author><first>Pablo</first><last>Báez</last></author>
+      <author><first>Fabián</first><last>Villena</last></author>
+      <author><first>Matías</first><last>Rojas</last></author>
+      <author><first>Manuel</first><last>Durán</last></author>
+      <author><first>Jocelyn</first><last>Dunstan</last></author>
+      <pages>291–300</pages>
+      <abstract>In this work we describe the Waiting List Corpus consisting of de-identified referrals for several specialty consultations from the waiting list in Chilean public hospitals. A subset of 900 referrals was manually annotated with 9,029 entities, 385 attributes, and 284 pairs of relations with clinical relevance. A trained medical doctor annotated these referrals, and then together with other three researchers, consolidated each of the annotations. The annotated corpus has nested entities, with 32.2 % of entities embedded in other entities. We use this annotated corpus to obtain preliminary results for Named Entity Recognition (NER). The best results were achieved by using a biLSTM-CRF architecture using word embeddings trained over <a href="https://en.wikipedia.org/wiki/Spanish_Wikipedia">Spanish Wikipedia</a> together with clinical embeddings computed by the group. NER models applied to this <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> can leverage statistics of diseases and pending procedures within this waiting list. This work constitutes the first <a href="https://en.wikipedia.org/wiki/Text_corpus">annotated corpus</a> using clinical narratives from <a href="https://en.wikipedia.org/wiki/Chile">Chile</a>, and one of the few for the <a href="https://en.wikipedia.org/wiki/Spanish_language">Spanish language</a>. The annotated corpus, the clinical word embeddings, and the annotation guidelines are freely released to the research community.</abstract>
+      <url hash="c574ca00">2020.clinicalnlp-1.32</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.32</doi>
+      <video href="https://slideslive.com/38939828" />
+      <bibkey>baez-etal-2020-chilean</bibkey>
+    </paper>
+    <paper id="33">
+      <title>Exploring Text Specific and Blackbox Fairness Algorithms in Multimodal Clinical NLP<fixed-case>NLP</fixed-case></title>
+      <author><first>John</first><last>Chen</last></author>
+      <author><first>Ian</first><last>Berlot-Attwell</last></author>
+      <author><first>Xindi</first><last>Wang</last></author>
+      <author><first>Safwan</first><last>Hossain</last></author>
+      <author><first>Frank</first><last>Rudzicz</last></author>
+      <pages>301–312</pages>
+      <abstract>Clinical machine learning is increasingly multimodal, collected in both structured tabular formats and <a href="https://en.wikipedia.org/wiki/Unstructured_data">unstructured forms</a> such as free text. We propose a novel task of exploring fairness on a multimodal clinical dataset, adopting equalized odds for the downstream medical prediction tasks. To this end, we investigate a modality-agnostic fairness algorithm-equalized odds post processing-and compare it to a text-specific fairness algorithm : debiased clinical word embeddings. Despite the fact that debiased word embeddings do not explicitly address equalized odds of protected groups, we show that a text-specific approach to <a href="https://en.wikipedia.org/wiki/Social_justice">fairness</a> may simultaneously achieve a good balance of performance classical notions of <a href="https://en.wikipedia.org/wiki/Social_justice">fairness</a>. Our work opens the door for future work at the critical intersection of clinical NLP and <a href="https://en.wikipedia.org/wiki/Social_justice">fairness</a>.<i>fairness</i> on a multimodal clinical dataset, adopting <i>equalized odds</i> for the downstream medical prediction tasks. To this end, we investigate a modality-agnostic fairness algorithm - equalized odds post processing - and compare it to a text-specific fairness algorithm: debiased clinical word embeddings. Despite the fact that debiased word embeddings do not explicitly address equalized odds of protected groups, we show that a text-specific approach to fairness may simultaneously achieve a good balance of performance classical notions of fairness. Our work opens the door for future work at the critical intersection of clinical NLP and fairness.</abstract>
+      <url hash="67e02280">2020.clinicalnlp-1.33</url>
+      <doi>10.18653/v1/2020.clinicalnlp-1.33</doi>
+      <video href="https://slideslive.com/38939838" />
+      <bibkey>chen-etal-2020-exploring</bibkey>
+      <pwccode url="https://github.com/johntiger1/multimodal_fairness" additional="false">johntiger1/multimodal_fairness</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/mimic-iii">MIMIC-III</pwcdataset>
+    </paper>
+  </volume>
+</collection>

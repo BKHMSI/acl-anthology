@@ -1,0 +1,953 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="K17">
+  <volume id="1">
+    <meta>
+      <booktitle>Proceedings of the 21st Conference on Computational Natural Language Learning (<fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017)</booktitle>
+      <url hash="4d5de18f">K17-1</url>
+      <editor><first>Roger</first><last>Levy</last></editor>
+      <editor><first>Lucia</first><last>Specia</last></editor>
+      <doi>10.18653/v1/K17-1</doi>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Vancouver, Canada</address>
+      <month>August</month>
+      <year>2017</year>
+    </meta>
+    <frontmatter>
+      <url hash="ee31cfab">K17-1000</url>
+      <bibkey>conll-2017-natural</bibkey>
+    </frontmatter>
+    <paper id="1">
+      <title>Should Neural Network Architecture Reflect Linguistic Structure?</title>
+      <author><first>Chris</first> <last>Dyer</last></author>
+      <pages>1</pages>
+      <url hash="b3fed06d">K17-1001</url>
+      <doi>10.18653/v1/K17-1001</doi>
+      <abstract>I explore the hypothesis that conventional neural network models (e.g., recurrent neural networks) are incorrectly biased for making linguistically sensible generalizations when learning, and that a better class of <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> is based on architectures that reflect hierarchical structures for which considerable behavioral evidence exists. I focus on the problem of modeling and representing the meanings of sentences. On the generation front, I introduce recurrent neural network grammars (RNNGs), a joint, generative model of phrase-structure trees and sentences. RNNGs operate via a recursive syntactic process reminiscent of probabilistic context-free grammar generation, but decisions are parameterized using RNNs that condition on the entire (top-down, left-to-right) syntactic derivation history, thus relaxing context-free independence assumptions, while retaining a bias toward explaining decisions via syntactically local conditioning contexts. Experiments show that RNNGs obtain better results in generating language than <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> that do n’t exploit linguistic structure. On the representation front, I explore unsupervised learning of syntactic structures based on distant semantic supervision using a <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement-learning algorithm</a>. The learner seeks a <a href="https://en.wikipedia.org/wiki/Syntax">syntactic structure</a> that provides a compositional architecture that produces a good <a href="https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning">representation</a> for a downstream semantic task. Although the inferred structures are quite different from traditional syntactic analyses, the performance on the downstream tasks surpasses that of systems that use sequential RNNs and tree-structured RNNs based on treebank dependencies. This is joint work with Adhi Kuncoro, Dani Yogatama, Miguel Ballesteros, Phil Blunsom, Ed Grefenstette, Wang Ling, and Noah A. Smith.</abstract>
+      <bibkey>dyer-2017-neural</bibkey>
+    </paper>
+    <paper id="2">
+      <title>Rational Distortions of Learners’ Linguistic Input</title>
+      <author><first>Naomi</first> <last>Feldman</last></author>
+      <pages>2</pages>
+      <url hash="83dbcf94">K17-1002</url>
+      <doi>10.18653/v1/K17-1002</doi>
+      <abstract>Language acquisition can be modeled as a <a href="https://en.wikipedia.org/wiki/Statistical_inference">statistical inference problem</a> : children use <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">sentences</a> and sounds in their input to infer linguistic structure. However, in many cases, children learn from data whose statistical structure is distorted relative to the language they are learning. Such distortions can arise either in the input itself, or as a result of children’s immature strategies for encoding their input. This work examines several cases in which the statistical structure of children’s input differs from the language being learned. Analyses show that these distortions of the input can be accounted for with a statistical learning framework by carefully considering the inference problems that learners solve during <a href="https://en.wikipedia.org/wiki/Language_acquisition">language acquisition</a></abstract>
+      <bibkey>feldman-2017-rational</bibkey>
+    </paper>
+    <paper id="3">
+      <title>Exploring the Syntactic Abilities of RNNs with <a href="https://en.wikipedia.org/wiki/Multi-task_learning">Multi-task Learning</a><fixed-case>RNN</fixed-case>s with Multi-task Learning</title>
+      <author><first>Émile</first> <last>Enguehard</last></author>
+      <author><first>Yoav</first> <last>Goldberg</last></author>
+      <author><first>Tal</first> <last>Linzen</last></author>
+      <pages>3–14</pages>
+      <url hash="10dc79cf">K17-1003</url>
+      <doi>10.18653/v1/K17-1003</doi>
+      <abstract>Recent work has explored the syntactic abilities of RNNs using the subject-verb agreement task, which diagnoses sensitivity to <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">sentence structure</a>. RNNs performed this task well in common cases, but faltered in complex sentences (Linzen et al., 2016). We test whether these errors are due to inherent limitations of the architecture or to the relatively indirect supervision provided by most agreement dependencies in a corpus. We trained a single <a href="https://en.wikipedia.org/wiki/Radio-frequency_identification">RNN</a> to perform both the agreement task and an additional task, either CCG supertagging or <a href="https://en.wikipedia.org/wiki/Language_model">language modeling</a>. Multi-task training led to significantly lower error rates, in particular on complex sentences, suggesting that RNNs have the ability to evolve more sophisticated syntactic representations than shown before. We also show that easily available agreement training data can improve performance on other syntactic tasks, in particular when only a limited amount of <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training data</a> is available for those tasks. The multi-task paradigm can also be leveraged to inject <a href="https://en.wikipedia.org/wiki/Grammar">grammatical knowledge</a> into <a href="https://en.wikipedia.org/wiki/Language_model">language models</a>.</abstract>
+      <bibkey>enguehard-etal-2017-exploring</bibkey>
+      <pwccode url="https://github.com/emengd/multitask-agreement" additional="false">emengd/multitask-agreement</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/penn-treebank">Penn Treebank</pwcdataset>
+    </paper>
+    <paper id="4">
+      <title>The Effect of Different Writing Tasks on Linguistic Style : A Case Study of the ROC Story Cloze Task<fixed-case>ROC</fixed-case> Story Cloze Task</title>
+      <author><first>Roy</first> <last>Schwartz</last></author>
+      <author><first>Maarten</first> <last>Sap</last></author>
+      <author><first>Ioannis</first> <last>Konstas</last></author>
+      <author><first>Leila</first> <last>Zilles</last></author>
+      <author><first>Yejin</first> <last>Choi</last></author>
+      <author><first>Noah A.</first> <last>Smith</last></author>
+      <pages>15–25</pages>
+      <url hash="947cccb9">K17-1004</url>
+      <doi>10.18653/v1/K17-1004</doi>
+      <abstract>A writer’s style depends not just on <a href="https://en.wikipedia.org/wiki/Trait_theory">personal traits</a> but also on her intent and mental state. In this paper, we show how variants of the same writing task can lead to measurable differences in <a href="https://en.wikipedia.org/wiki/Writing_style">writing style</a>. We present a case study based on the story cloze task (Mostafazadeh et al., 2016a), where annotators were assigned similar writing tasks with different constraints : (1) writing an entire story, (2) adding a story ending for a given story context, and (3) adding an incoherent ending to a story. We show that a simple <a href="https://en.wikipedia.org/wiki/Linear_classifier">linear classifier</a> informed by stylistic features is able to successfully distinguish among the three cases, without even looking at the <a href="https://en.wikipedia.org/wiki/Context_(language_use)">story context</a>. In addition, combining our stylistic features with language model predictions reaches state of the art performance on the story cloze challenge. Our results demonstrate that different <a href="https://en.wikipedia.org/wiki/Framing_(social_sciences)">task framings</a> can dramatically affect the way people write.</abstract>
+      <bibkey>schwartz-etal-2017-effect</bibkey>
+      <pwccode url="https://github.com/roys174/writing_style" additional="false">roys174/writing_style</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/copa">COPA</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/lambada">LAMBADA</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/rocstories">ROCStories</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/snli">SNLI</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/squad">SQuAD</pwcdataset>
+    </paper>
+    <paper id="5">
+      <title>Parsing for <a href="https://en.wikipedia.org/wiki/Grammatical_relation">Grammatical Relations</a> via Graph Merging</title>
+      <author><first>Weiwei</first> <last>Sun</last></author>
+      <author><first>Yantao</first> <last>Du</last></author>
+      <author><first>Xiaojun</first> <last>Wan</last></author>
+      <pages>26–35</pages>
+      <url hash="5cdb42e1">K17-1005</url>
+      <doi>10.18653/v1/K17-1005</doi>
+      <abstract>This paper is concerned with building deep grammatical relation (GR) analysis using data-driven approach. To deal with this problem, we propose graph merging, a new perspective, for building flexible dependency graphs : Constructing complex graphs via constructing simple subgraphs. We discuss two key problems in this perspective : (1) how to decompose a <a href="https://en.wikipedia.org/wiki/Complex_graph">complex graph</a> into simple subgraphs, and (2) how to combine <a href="https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms">subgraphs</a> into a coherent complex graph. Experiments demonstrate the effectiveness of graph merging. Our <a href="https://en.wikipedia.org/wiki/Parsing">parser</a> reaches state-of-the-art performance and is significantly better than two transition-based parsers.</abstract>
+      <bibkey>sun-etal-2017-parsing</bibkey>
+    </paper>
+    <paper id="7">
+      <title>Collaborative Partitioning for Coreference Resolution</title>
+      <author><first>Olga</first> <last>Uryupina</last></author>
+      <author><first>Alessandro</first> <last>Moschitti</last></author>
+      <pages>47–57</pages>
+      <url hash="eeed52aa">K17-1007</url>
+      <doi>10.18653/v1/K17-1007</doi>
+      <abstract>This paper presents a collaborative partitioning algorithma novel ensemble-based approach to <a href="https://en.wikipedia.org/wiki/Coreference_resolution">coreference resolution</a>. Starting from the all-singleton partition, we search for a solution close to the <a href="https://en.wikipedia.org/wiki/Statistical_ensemble_(mathematical_physics)">ensemble</a>’s outputs in terms of a task-specific similarity measure. Our approach assumes a loose integration of individual components of the <a href="https://en.wikipedia.org/wiki/Statistical_ensemble_(mathematical_physics)">ensemble</a> and can therefore combine arbitrary coreference resolvers, regardless of their models. Our experiments on the CoNLL dataset show that collaborative partitioning yields results superior to those attained by the individual components, for ensembles of both strong and weak systems. Moreover, by applying the collaborative partitioning algorithm on top of three state-of-the-art resolvers, we obtain the best coreference performance reported so far in the literature (MELA v08 score of 64.47).</abstract>
+      <bibkey>uryupina-moschitti-2017-collaborative</bibkey>
+    </paper>
+    <paper id="9">
+      <title>Tell Me Why : Using Question Answering as Distant Supervision for Answer Justification</title>
+      <author><first>Rebecca</first> <last>Sharp</last></author>
+      <author><first>Mihai</first> <last>Surdeanu</last></author>
+      <author><first>Peter</first> <last>Jansen</last></author>
+      <author><first>Marco A.</first> <last>Valenzuela-Escárcega</last></author>
+      <author><first>Peter</first> <last>Clark</last></author>
+      <author><first>Michael</first> <last>Hammond</last></author>
+      <pages>69–79</pages>
+      <url hash="52ae6606">K17-1009</url>
+      <doi>10.18653/v1/K17-1009</doi>
+      <abstract>For many applications of question answering (QA), being able to explain why a given <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> chose an answer is critical. However, the lack of labeled data for answer justifications makes learning this difficult and expensive. Here we propose an approach that uses answer ranking as distant supervision for learning how to select informative justifications, where justifications serve as inferential connections between the question and the correct answer while often containing little lexical overlap with either. We propose a neural network architecture for <a href="https://en.wikipedia.org/wiki/Quality_assurance">QA</a> that reranks answer justifications as an intermediate (and human-interpretable) step in answer selection. Our approach is informed by a set of <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> designed to combine both learned representations and explicit features to capture the connection between questions, answers, and answer justifications. We show that with this end-to-end approach we are able to significantly improve upon a strong IR baseline in both justification ranking (+9 % rated highly relevant) and answer selection (+6 % P@1).</abstract>
+      <bibkey>sharp-etal-2017-tell</bibkey>
+    </paper>
+    <paper id="10">
+      <title>Learning What is Essential in Questions</title>
+      <author><first>Daniel</first> <last>Khashabi</last></author>
+      <author><first>Tushar</first> <last>Khot</last></author>
+      <author><first>Ashish</first> <last>Sabharwal</last></author>
+      <author><first>Dan</first> <last>Roth</last></author>
+      <pages>80–89</pages>
+      <url hash="73600ab7">K17-1010</url>
+      <doi>10.18653/v1/K17-1010</doi>
+      <abstract>Question answering (QA) systems are easily distracted by irrelevant or redundant words in questions, especially when faced with long or multi-sentence questions in difficult domains. This paper introduces and studies the notion of essential question terms with the goal of improving such QA solvers. We illustrate the importance of essential question terms by showing that humans’ ability to answer questions drops significantly when essential terms are eliminated from questions. We then develop a classifier that reliably (90 % mean average precision) identifies and ranks essential terms in questions. Finally, we use the classifier to demonstrate that the notion of question term essentiality allows state-of-the-art QA solver for elementary-level science questions to make better and more informed decisions, improving performance by up to 5%.We also introduce a new dataset of over 2,200 crowd-sourced essential terms annotated science questions.</abstract>
+      <bibkey>khashabi-etal-2017-learning</bibkey>
+      <pwccode url="https://github.com/allenai/essential-terms" additional="false">allenai/essential-terms</pwccode>
+    </paper>
+    <paper id="11">
+      <title>Top-Rank Enhanced Listwise Optimization for <a href="https://en.wikipedia.org/wiki/Statistical_machine_translation">Statistical Machine Translation</a></title>
+      <author><first>Huadong</first> <last>Chen</last></author>
+      <author><first>Shujian</first> <last>Huang</last></author>
+      <author><first>David</first> <last>Chiang</last></author>
+      <author><first>Xinyu</first> <last>Dai</last></author>
+      <author><first>Jiajun</first> <last>Chen</last></author>
+      <pages>90–99</pages>
+      <url hash="824faaee">K17-1011</url>
+      <doi>10.18653/v1/K17-1011</doi>
+      <abstract>Pairwise ranking methods are the most widely used discriminative training approaches for structure prediction problems in <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing (NLP)</a>. Decomposing the problem of ranking hypotheses into <a href="https://en.wikipedia.org/wiki/Pairwise_comparisons">pairwise comparisons</a> enables simple and efficient solutions. However, neglecting the global ordering of the hypothesis list may hinder <a href="https://en.wikipedia.org/wiki/Learning">learning</a>. We propose a listwise learning framework for structure prediction problems such as <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>. Our framework directly models the entire translation list’s ordering to learn parameters which may better fit the given listwise samples. Furthermore, we propose top-rank enhanced loss functions, which are more sensitive to ranking errors at higher positions. Experiments on a large-scale Chinese-English translation task show that both our listwise learning framework and top-rank enhanced listwise losses lead to significant improvements in translation quality.</abstract>
+      <bibkey>chen-etal-2017-top</bibkey>
+    </paper>
+    <paper id="12">
+      <title>Embedding Words and Senses Together via Joint Knowledge-Enhanced Training</title>
+      <author><first>Massimiliano</first> <last>Mancini</last></author>
+      <author><first>Jose</first> <last>Camacho-Collados</last></author>
+      <author><first>Ignacio</first> <last>Iacobacci</last></author>
+      <author><first>Roberto</first> <last>Navigli</last></author>
+      <pages>100–111</pages>
+      <url hash="30c614ca">K17-1012</url>
+      <doi>10.18653/v1/K17-1012</doi>
+      <abstract>Word embeddings are widely used in <a href="https://en.wikipedia.org/wiki/Natural_language_processing">Natural Language Processing</a>, mainly due to their success in capturing <a href="https://en.wikipedia.org/wiki/Semantics">semantic information</a> from <a href="https://en.wikipedia.org/wiki/Mass_media">massive corpora</a>. However, their creation process does not allow the different meanings of a word to be automatically separated, as it conflates them into a single vector. We address this issue by proposing a new <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> which learns word and sense embeddings jointly. Our model exploits large corpora and knowledge from <a href="https://en.wikipedia.org/wiki/Semantic_network">semantic networks</a> in order to produce a unified vector space of word and sense embeddings. We evaluate the main features of our approach both qualitatively and quantitatively in a variety of tasks, highlighting the advantages of the proposed method in comparison to state-of-the-art word- and sense-based models.</abstract>
+      <attachment type="presentation" hash="b006f477">K17-1012.Presentation.pdf</attachment>
+      <bibkey>mancini-etal-2017-embedding</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/word-sense-disambiguation-a-unified">Word Sense Disambiguation: a Unified Evaluation Framework and Empirical Comparison</pwcdataset>
+    </paper>
+    <paper id="15">
+      <title>An Artificial Language Evaluation of Distributional Semantic Models</title>
+      <author><first>Fatemeh</first> <last>Torabi Asr</last></author>
+      <author><first>Michael</first> <last>Jones</last></author>
+      <pages>134–142</pages>
+      <url hash="bb0adef1">K17-1015</url>
+      <doi>10.18653/v1/K17-1015</doi>
+      <abstract>Recent studies of distributional semantic models have set up a competition between <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> obtained from predictive neural networks and <a href="https://en.wikipedia.org/wiki/Word_vector">word vectors</a> obtained from abstractive count-based models. This paper is an attempt to reveal the underlying contribution of additional training data and post-processing steps on each type of <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> in word similarity and relatedness inference tasks. We do so by designing an artificial language framework, training a predictive and a count-based model on data sampled from this <a href="https://en.wikipedia.org/wiki/Grammar">grammar</a>, and evaluating the resulting word vectors in paradigmatic and syntagmatic tasks defined with respect to the <a href="https://en.wikipedia.org/wiki/Grammar">grammar</a>.</abstract>
+      <bibkey>torabi-asr-jones-2017-artificial</bibkey>
+    </paper>
+    <paper id="16">
+      <title>Learning Word Representations with Regularization from Prior Knowledge</title>
+      <author><first>Yan</first> <last>Song</last></author>
+      <author><first>Chia-Jung</first> <last>Lee</last></author>
+      <author><first>Fei</first> <last>Xia</last></author>
+      <pages>143–152</pages>
+      <url hash="58aca8f4">K17-1016</url>
+      <doi>10.18653/v1/K17-1016</doi>
+      <abstract>Conventional <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> are trained with specific <a href="https://en.wikipedia.org/wiki/Statistical_parameter">criteria</a> (e.g., based on <a href="https://en.wikipedia.org/wiki/Language_model">language modeling</a> or <a href="https://en.wikipedia.org/wiki/Co-occurrence">co-occurrence</a>) inside a single information source, disregarding the opportunity for further calibration using external knowledge. This paper presents a unified framework that leverages pre-learned or external priors, in the form of a <a href="https://en.wikipedia.org/wiki/Regularization_(mathematics)">regularizer</a>, for enhancing conventional language model-based embedding learning. We consider two types of <a href="https://en.wikipedia.org/wiki/Regularization_(physics)">regularizers</a>. The first type is derived from topic distribution by running LDA on unlabeled data. The second type is based on <a href="https://en.wikipedia.org/wiki/Dictionary">dictionaries</a> that are created with human annotation efforts. To effectively learn with the <a href="https://en.wikipedia.org/wiki/Regularization_(mathematics)">regularizers</a>, we propose a novel <a href="https://en.wikipedia.org/wiki/Data_structure">data structure</a>, trajectory softmax, in this paper. The resulting <a href="https://en.wikipedia.org/wiki/Embedding">embeddings</a> are evaluated by word similarity and sentiment classification. Experimental results show that our learning framework with <a href="https://en.wikipedia.org/wiki/Regularization_(mathematics)">regularization</a> from prior knowledge improves embedding quality across multiple datasets, compared to a diverse collection of baseline methods.</abstract>
+      <bibkey>song-etal-2017-learning</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/imdb-movie-reviews">IMDb Movie Reviews</pwcdataset>
+    <title_ar>تعلم تمثيلات الكلمات مع التنظيم من المعرفة السابقة</title_ar>
+      <title_fr>Apprentissage des représentations de mots avec régularisation à partir de connaissances antérieures</title_fr>
+      <title_es>Aprendizaje de representaciones de palabras con regularización a partir de conocimientos previos</title_es>
+      <title_pt>Aprendendo Representações de Palavras com Regularização de Conhecimento Prévio</title_pt>
+      <title_zh>学有正则化于先验者单词</title_zh>
+      <title_hi>पूर्व ज्ञान से नियमितीकरण के साथ शब्द प्रतिनिधित्व सीखना</title_hi>
+      <title_ja>既存の知識から規則化された単語表現を学ぶ</title_ja>
+      <title_ru>Представления учебных слов с упорядочением на основе предшествующих знаний</title_ru>
+      <title_ga>Ag Foghlaim Léiriúcháin Focal le Rialáil ón Réamheolas</title_ga>
+      <title_el>Μάθηση των Αντιπροσωπειών λέξεων με Ρυθμοποίηση από προηγούμενες γνώσεις</title_el>
+      <title_ka>წინ ვიცნობიდან რეგილარიზაციის სიტყვების გამოსწავლება</title_ka>
+      <title_hu>Szóreprezentációk tanulása korábbi ismeretekből történő szabályozással</title_hu>
+      <title_it>Imparare le rappresentazioni di parole con regolarizzazione da conoscenze precedenti</title_it>
+      <title_kk>Алдыңғы білім мәліметінен регулярлау үшін сөздерді таңдау</title_kk>
+      <title_lt>Mokymasis žodžių atstovavimais reguliarizuojant iš ankstesnių žinių</title_lt>
+      <title_mk>Научи претставувања на зборови со регуларизација од претходно знаење</title_mk>
+      <title_ml>പ്രധാനപരിജ്ഞാനത്തില്‍ നിന്നുള്ള വാക്കിന്റെ പ്രതിനിധികള്‍ പഠിക്കുന്നു</title_ml>
+      <title_ms>Learning Word Representations with Regularization from Prior Knowledge</title_ms>
+      <title_mt>Tagħlim Rappreżentazzjonijiet tal-kliem b’Regolarizzazzjoni minn Għarfien minn Qabel</title_mt>
+      <title_mn>Өмнөх мэдлэгийнхээ хэмжээний үг төлөөлөлт суралцах</title_mn>
+      <title_no>Læring av ordreprezentasjonar med regulering frå førre kjenning</title_no>
+      <title_ro>Învățarea reprezentărilor Word cu regularizare din cunoștințe anterioare</title_ro>
+      <title_pl>Nauka reprezentacji słowa z regularyzacją z wcześniejszej wiedzy</title_pl>
+      <title_sr>Naučenje predstavljanja riječi sa regularizacijom iz priornog znanja</title_sr>
+      <title_so>Barista hadal Representations with Regularization from Prior Knowledge</title_so>
+      <title_sv>Lär dig Word Representationer med regularisering från tidigare kunskap</title_sv>
+      <title_si>ප්‍රධාන දන්නවයෙන් ප්‍රතිස්ථානය සමග වචන ප්‍රතිස්ථානය ඉගෙන ගන්න</title_si>
+      <title_ta>முன்னால் அறிவியிலிருந்து வார்த்தையின் பிரதிநிதியுடன் விதிமுறையாக்கம் கற்று</title_ta>
+      <title_ur>پہلے علم سے روزنامہ کے ساتھ کلمات روزنامہ کی تعلیم کی جاتی ہے</title_ur>
+      <title_uz>Learning Word Representations with Regularization from Prior Knowledge</title_uz>
+      <title_vi>Học từ miễn trước khi phục hồi từ kiến thức</title_vi>
+      <title_nl>Woordvertegenwoordigingen leren met regulering vanuit voorkennis</title_nl>
+      <title_hr>Naučenje predstavljanja riječi s regularizacijom iz prije znanja</title_hr>
+      <title_da>Læring af ordrepræsentationer med regulering fra tidligere viden</title_da>
+      <title_bg>Учене на думи с регуляризация от предишни знания</title_bg>
+      <title_id>Belajar Perwakilan Kata dengan Regularisasi dari Pengetahuan Sebelumnya</title_id>
+      <title_de>Lernen von Wortdarstellungen mit Regularisierung aus Vorkenntnissen</title_de>
+      <title_ko>선험지식에 기초한 규칙화 어휘 표징 학습</title_ko>
+      <title_sw>Kujifunza maoni ya neno kwa Utawala kutoka Ujuzi Mkuu</title_sw>
+      <title_tr>Öňki Bilim bilen düzenlemek bilen söz temsilleri öwrenmek</title_tr>
+      <title_af>Leer woord voorstellings met Regulisering van Vorige kennis</title_af>
+      <title_fa>یاد گرفتن نمایش‌های کلمه با تعیین قانونی از دانش قبلی</title_fa>
+      <title_sq>Mëso përfaqësime fjalësh me rregullim nga njohuritë e mëparshme</title_sq>
+      <title_hy>Learning Word Representations with Regularization from Prior Knowledge</title_hy>
+      <title_bn>প্রাথমিক জ্ঞান থেকে নিয়মিতকরণের সাথে শব্দ প্রতিনিধি শিখা</title_bn>
+      <title_az>쿮vv톛lki Bilim t톛rzind톛n d칲zg칲n t톛rzd톛 S칬zl칲kl톛ri 칬yr톛nm톛k</title_az>
+      <title_am>ምርጫዎች</title_am>
+      <title_bs>Naučenje predstavljanja riječi sa regularizacijom iz prije znanja</title_bs>
+      <title_ca>Aprendre representacions de paraules amb regularizació des del coneixement anterior</title_ca>
+      <title_cs>Učení se slovních reprezentací s regularizací z předchozích znalostí</title_cs>
+      <title_et>Õppida sõna esindusi regulariseerimisega varasematest teadmistest</title_et>
+      <title_fi>Sanaedustuksen oppiminen ja säännöstely aiemmasta tiedosta</title_fi>
+      <title_jv>Ngubah Keterangkang Pak-Keterangkang karo Regularasyon nang Kelungan Prilikar</title_jv>
+      <title_sk>Učenje besednih predstavitev z regularizacijo iz predhodnega znanja</title_sk>
+      <title_he>Learning Word Representations with Regularization from Prior Knowledge</title_he>
+      <title_ha>KCharselect unicode block name</title_ha>
+      <title_bo>སྔོན་མ་ཤེས་པའི་ལྟ་བུའི་ཡིག་གི་རྣམ་པ་དང་མཉམ་དུ་བསླབས་པའི་ཡིག་གཟུགས་སྟོན་དགོས་པ</title_bo>
+      <abstract_ar>يتم تدريب عمليات تضمين الكلمات التقليدية وفقًا لمعايير محددة (على سبيل المثال ، استنادًا إلى نمذجة اللغة أو التواجد المشترك) داخل مصدر معلومات واحد ، مع تجاهل الفرصة لمزيد من المعايرة باستخدام المعرفة الخارجية. تقدم هذه الورقة إطارًا موحدًا يستفيد من مقدمات سابقة التعلم أو خارجية ، في شكل منظم ، لتعزيز تعلم التضمين المستند إلى نموذج اللغة التقليدية. نحن نعتبر نوعين من المنظمين. النوع الأول مشتق من توزيع الموضوع عن طريق تشغيل LDA على البيانات غير المسماة. النوع الثاني يعتمد على القواميس التي تم إنشاؤها بجهود التعليقات التوضيحية البشرية. للتعلم بشكل فعال مع المنظمين ، نقترح في هذه الورقة بنية بيانات جديدة ، مسار softmax. يتم تقييم حفلات الزفاف الناتجة عن طريق تشابه الكلمات وتصنيف المشاعر. تُظهر النتائج التجريبية أن إطار التعلم الخاص بنا مع التنظيم من المعرفة السابقة يحسن جودة التضمين عبر مجموعات بيانات متعددة ، مقارنة بمجموعة متنوعة من أساليب خط الأساس.</abstract_ar>
+      <abstract_es>Las incrustaciones de palabras convencionales se entrenan con criterios específicos (por ejemplo, basados en el modelado del lenguaje o la coexistencia) dentro de una única fuente de información, sin tener en cuenta la oportunidad de una mayor calibración mediante el uso de conocimientos externos. Este documento presenta un marco unificado que aprovecha los antecedentes preaprendidos o externos, en forma de un regularizador, para mejorar el aprendizaje de incrustación basado en modelos de lenguaje convencional. Consideramos dos tipos de regularizadores. El primer tipo se deriva de la distribución de temas mediante la ejecución de LDA en datos sin etiqueta. El segundo tipo se basa en diccionarios que se crean con esfuerzos de anotación humanos. Para aprender eficazmente con los regularizadores, proponemos en este artículo una estructura de datos novedosa, trayectoria softmax. Las incrustaciones resultantes se evalúan mediante la similitud de palabras y la clasificación de sentimientos. Los resultados experimentales muestran que nuestro marco de aprendizaje con regularización de conocimientos previos mejora la calidad de la integración en múltiples conjuntos de datos, en comparación con una colección diversa de métodos de referencia.</abstract_es>
+      <abstract_fr>Les intégrations de mots classiques sont formées avec des critères spécifiques (par exemple, basés sur la modélisation du langage ou la co-occurrence) au sein d'une source d'information unique, sans tenir compte de la possibilité d'un étalonnage supplémentaire à l'aide de connaissances externes. Cet article présente un cadre unifié qui tire parti des antécédents pré-appris ou externes, sous la forme d'un régularisateur, pour améliorer l'apprentissage par intégration basé sur un modèle de langage conventionnel. Nous considérons deux types de régularisateurs. Le premier type est dérivé de la distribution de sujets en exécutant LDA sur des données non étiquetées. Le second type est basé sur des dictionnaires créés avec des efforts d'annotation humaine. Pour apprendre efficacement avec les régularisateurs, nous proposons dans cet article une nouvelle structure de données, la trajectoire softmax. Les intégrations obtenues sont évaluées en fonction de la similitude des mots et de la classification des sentiments. Les résultats expérimentaux montrent que notre cadre d'apprentissage avec régularisation à partir de connaissances antérieures améliore la qualité de l'intégration dans de multiples ensembles de données, par rapport à un ensemble diversifié de méthodes de base.</abstract_fr>
+      <abstract_pt>Embeddings de palavras convencionais são treinados com critérios específicos (por exemplo, com base em modelagem de linguagem ou co-ocorrência) dentro de uma única fonte de informação, desconsiderando a oportunidade de calibração adicional usando conhecimento externo. Este artigo apresenta uma estrutura unificada que utiliza prioris pré-aprendidos ou externos, na forma de um regularizador, para aprimorar o aprendizado de incorporação baseado em modelo de linguagem convencional. Consideramos dois tipos de regularizadores. O primeiro tipo é derivado da distribuição de tópicos executando LDA em dados não rotulados. O segundo tipo é baseado em dicionários que são criados com esforços humanos de anotação. Para aprender efetivamente com os regularizadores, propomos uma nova estrutura de dados, trajetória softmax, neste artigo. Os embeddings resultantes são avaliados por similaridade de palavras e classificação de sentimento. Os resultados experimentais mostram que nossa estrutura de aprendizado com regularização de conhecimento prévio melhora a qualidade da incorporação em vários conjuntos de dados, em comparação com uma coleção diversificada de métodos de linha de base.</abstract_pt>
+      <abstract_ja>従来の単語埋め込みは、外部知識を使用してさらなる較正を行う機会を無視して、単一の情報源内の特定の基準（例えば、言語モデリングまたは同時発生に基づく）で訓練される。 本稿では，従来の言語モデルに基づく埋め込み学習を強化するための規則化の形で，事前に学習されたまたは外部の前歴を活用する統一されたフレームワークを提示する． 2種類のレギュラー化を検討しています。 最初のタイプは、ラベル付けされていないデータ上でLDAを実行することによってトピック分布から導出されます。 2つ目のタイプは、人間の注釈の努力で作成された辞書に基づいています。 レギュレータで効果的に学習するために、本稿では新規のデータ構造である軌道ソフトマックスを提案する。 結果として生じる埋め込みは、単語の類似性と感情の分類によって評価されます。 実験結果は、既存の知識から規則化された学習フレームワークが、ベースライン法の多様なコレクションと比較して、複数のデータセットにわたる埋め込み品質を向上させることを示しています。</abstract_ja>
+      <abstract_zh>古词嵌信息源以特定准(,盖言语建模共现)练,忽于外校准也。 本立一框架,当框架以正则化器用预习外先验以强言语模样之旧。 吾思二正则化器。 一曰行未标之数 LDA 从题分生。 二曰人工注字典。 为学正则化器,立新数据结构于本文,即轨迹softmax。 以单词相似性情分质之。 实验结果表明与多样化之基线合,吾之学框架比前知之正则化,增数集之嵌质。</abstract_zh>
+      <abstract_hi>पारंपरिक शब्द एम्बेडिंग को एक ही सूचना स्रोत के अंदर विशिष्ट मानदंडों (उदाहरण के लिए, भाषा मॉडलिंग या सह-घटना के आधार पर) के साथ प्रशिक्षित किया जाता है, बाहरी ज्ञान का उपयोग करके आगे के अंशांकन के अवसर की अनदेखी की जाती है। यह पेपर एक एकीकृत रूपरेखा प्रस्तुत करता है जो पारंपरिक भाषा मॉडल-आधारित एम्बेडिंग सीखने को बढ़ाने के लिए, एक नियमितकर्ता के रूप में पूर्व-सीखा या बाहरी प्राथमिकताओं का लाभ उठाता है। हम दो प्रकार के रेगुलराइज़र पर विचार करते हैं। पहला प्रकार बिना लेबल वाले डेटा पर LDA चलाकर विषय वितरण से व्युत्पन्न है. दूसरा प्रकार शब्दकोशों पर आधारित है जो मानव एनोटेशन प्रयासों के साथ बनाए जाते हैं। नियमितकरने वालों के साथ प्रभावी ढंग से जानने के लिए, हम इस पेपर में एक उपन्यास डेटा संरचना, प्रक्षेपवक्र सॉफ्टमैक्स का प्रस्ताव करते हैं। परिणामी एम्बेडिंग का मूल्यांकन शब्द समानता और भावना वर्गीकरण द्वारा किया जाता है। प्रयोगात्मक परिणामों से पता चलता है कि पूर्व ज्ञान से नियमितीकरण के साथ हमारा सीखने का ढांचा बेसलाइन विधियों के विविध संग्रह की तुलना में कई डेटासेट में एम्बेडिंग गुणवत्ता में सुधार करता है।</abstract_hi>
+      <abstract_ga>Cuirtear oiliúint ar ghnáthchaibidlí focal le critéir shonracha (m.sh., bunaithe ar shamhaltú teanga nó comhtharlú) laistigh d’fhoinse amháin faisnéise, agus neamhaird á tabhairt ar an deis le haghaidh calabrú breise ag baint úsáide as eolas seachtrach. Cuireann an páipéar seo i láthair creat aontaithe a ghiaráil tosaíochtaí réamhfhoghlaim nó seachtracha, i bhfoirm rialtatóir, chun feabhas a chur ar ghnáthfhoghlaim teanga bunaithe ar leabú teanga. Breithnímid dhá chineál rialtaitheoirí. Díorthaítear an chéad chineál ó dháileadh topaicí trí LDA a rith ar shonraí neamhlipéadaithe. Tá an dara cineál bunaithe ar fhoclóirí a chruthaítear le hiarrachtaí anótála daonna. Chun foghlaim go héifeachtach leis na rialtaitheoirí, molaimid struchtúr sonraí nua, trajectory softmax, sa pháipéar seo. Déantar na leabú mar thoradh air a mheas trí chosúlacht focal agus aicmiú meon. Léiríonn torthaí turgnamhacha go bhfeabhsaítear ár gcreat foghlama le rialtacht ó réamheolas ar cháilíocht leabú thar il-thacair sonraí, i gcomparáid le bailiúchán éagsúil de mhodhanna bonnlíne.</abstract_ga>
+      <abstract_ru>Традиционные вставки слов обучаются с помощью конкретных критериев (например, на основе языкового моделирования или совместного возникновения) внутри одного источника информации, игнорируя возможность дальнейшей калибровки с использованием внешних знаний. В этой статье представлена унифицированная структура, которая использует заранее изученные или внешние притязания в форме регуляризатора для улучшения обучения внедрению на основе моделей обычного языка. Мы рассматриваем два типа регуляризаторов. Первый тип получается из распределения топиков путем запуска LDA на немеченных данных. Второй тип основан на словарях, которые создаются с помощью человеческих аннотаций. Чтобы эффективно учиться с регуляризаторами, мы предлагаем новую структуру данных, траекторию softmax, в этой работе. Полученные вложения оцениваются по сходству слов и классификации настроений. Экспериментальные результаты показывают, что наша система обучения с регуляризацией на основе предшествующих знаний улучшает качество встраивания множества наборов данных по сравнению с разнообразным набором базовых методов.</abstract_ru>
+      <abstract_hu>A hagyományos szóbeágyazásokat konkrét kritériumokkal (például nyelvi modellezés vagy együttes előfordulás alapján) képezik egyetlen információforráson belül, figyelmen kívül hagyva a további kalibrálás lehetőségét külső ismeretek felhasználásával. Ez a tanulmány egy olyan egységes keretrendszert mutat be, amely a hagyományos nyelvmodelleken alapuló beágyazási tanulás javításához használja az előre megtanult vagy külső priuszokat, szabályozó formájában. Kétféle szabályozót veszünk figyelembe. Az első típus a témalelosztásból származik, úgy, hogy LDA futtatása címke nélküli adatokon történik. A második típus olyan szótárakra épül, amelyeket emberi jegyzetelési erőfeszítésekkel hoztak létre. A szabályozókkal való hatékony tanulás érdekében ebben a tanulmányban egy új adatszerkezetet, pálya softmax-ot javasolunk. A kapott beágyazásokat szóhasonlóság és hangulatosztályozás alapján értékeljük. Kísérleti eredmények azt mutatják, hogy a korábbi ismeretekből származó szabályozással rendelkező tanulási keretrendszerünk javítja a beágyazás minőségét több adatkészletben, összehasonlítva az alapvető módszerek sokféle gyűjteményével.</abstract_hu>
+      <abstract_el>Οι συμβατικές ενσωματώσεις λέξεων εκπαιδεύονται με συγκεκριμένα κριτήρια (π.χ. βασισμένα στη γλωσσική μοντελοποίηση ή συνύπαρξη) μέσα σε μια ενιαία πηγή πληροφοριών, αγνοώντας την ευκαιρία για περαιτέρω βαθμονόμηση χρησιμοποιώντας εξωτερικές γνώσεις. Η παρούσα εργασία παρουσιάζει ένα ενοποιημένο πλαίσιο που αξιοποιεί προ-μαθημένα ή εξωτερικά προηγούμενα, με τη μορφή ενός κανονικοποιητή, για την ενίσχυση της συμβατικής εκμάθησης βασισμένης στο μοντέλο γλώσσας. Εξετάζουμε δύο τύπους τακτικών. Ο πρώτος τύπος προέρχεται από τη διανομή θεμάτων με την εκτέλεση σε δεδομένα χωρίς ετικέτα. Ο δεύτερος τύπος βασίζεται σε λεξικά που δημιουργούνται με ανθρώπινες προσπάθειες σχολιασμού. Για να μάθουμε αποτελεσματικά με τους ρυθμιστές, προτείνουμε μια νέα δομή δεδομένων, τροχιά στην παρούσα εργασία. Οι προκύπτουσες ενσωματώσεις αξιολογούνται με βάση την ομοιότητα λέξεων και την ταξινόμηση συναισθημάτων. Τα πειραματικά αποτελέσματα δείχνουν ότι το μαθησιακό μας πλαίσιο με ρύθμιση από προηγούμενες γνώσεις βελτιώνει την ποιότητα ενσωμάτωσης σε πολλαπλά σύνολα δεδομένων, σε σύγκριση με μια ποικιλία μεθόδων βάσης.</abstract_el>
+      <abstract_ka>განსაკუთრებული სიტყვები კრიტირებით (მაგალითად, ენის მოდელირება ან ერთადერთი მოხდება) ერთადერთი ინფორმაციის გამოსახულებაში შემდეგ კალიბრაციის შესაძლებლობა გარეშე გამოიყენება. ეს დაახლოები ახლა ერთადერთი ფრამეტრი, რომელიც წინასწავლის ან გარეშე წინასწავლის ფორმაში, რეგილარიზერის ფორმაში, რომელიც კონტრაციონალური ენის მოდელური მოდელური გარეშე სწ ჩვენ ვფიქრობთ ორი ტიპი რეგილარიზაციელი. პირველი ტიპი ტემების გაყოფილებიდან დაიწყება LDA- ს გადაწყებით, რომელიც არაწერილი მონაცემებზე. მეორე ტიპი ადამიანის წარმოდგენებით შექმნილი სიტყვების დაბაზია. ეფექტიურად დავისწავლოთ რეგილარიზერებთან, ჩვენ პრომენტის მონაცემების სტრუქტურაციას, ტრაექტური softmax, ამ დონეში. შემდეგ შემდეგ სიტყვების სხვადასხვა და სენტიმენტის კლასიფიკაციაზე გაუმუშავება. ექსპერიმენტიური შედეგები ჩვენი სწავლების ფრამეტრის რეგილარიზაციაზე წინასწორედ ცნობილიდან უფრო უფრო უფრო უფრო უფრო უფრო უფრო უფრო უფრო უ</abstract_ka>
+      <abstract_it>Le incorporazioni convenzionali di parole vengono addestrate con criteri specifici (ad esempio, basati sulla modellazione linguistica o sulla co-occorrenza) all'interno di una singola fonte di informazioni, trascurando l'opportunità di ulteriore calibrazione utilizzando conoscenze esterne. Questo articolo presenta un framework unificato che sfrutta precedenti pre-appresi o esterni, sotto forma di regolarizzazione, per migliorare l'apprendimento basato su modelli linguistici convenzionali. Consideriamo due tipi di regolarizzatori. Il primo tipo deriva dalla distribuzione degli argomenti eseguendo LDA su dati non etichettati. Il secondo tipo si basa su dizionari creati con sforzi umani di annotazione. Per imparare efficacemente con i regolarizzatori, proponiamo una nuova struttura dati, traiectory softmax, in questo articolo. Le incorporazioni risultanti sono valutate per somiglianza di parole e classificazione sentiment. I risultati sperimentali mostrano che il nostro framework di apprendimento con regolarizzazione da conoscenze precedenti migliora la qualità di incorporamento in più set di dati, rispetto a una raccolta diversificata di metodi di base.</abstract_it>
+      <abstract_kk>Кәдімгі сөздерді ендіру бір мәлімет көзінде бір түрлі мәлімет көзінде (мысалы, тілдерді моделдеу немесе бір түрлі көзінде негізделген) арнаулы критериялармен ұқытылады, сыртқы білім Бұл қағаз алдын- үйренген немесе сыртқы алдын- ала үйренген бірлікті фреймді, әдетті тіл үлгіні негізінде ендірген оқыту үшін үлгілікті көтеру үшін қолданылады. Біз екі түрлі қадамдастырушылар деп ойлаймыз. Бірінші түрі нақышты үлестіруден LDA- ды келтірілмеген деректерге жегіп шығарылады. Екінші түрі адамдардың жазбалармен құрылған сөздіктеріне негізделген. Үлгілі түрлермен үйрену үшін, бұл қағаздың романдық деректер құрылымын, траекториялық бағдарламалық максимумын таңдаймыз. Сондағы ендірулерді сөздердің ұқсас пен сезімдердің классификациясы бойынша бағалады. Эксперименталдық нәтижелері білім алдындағы мәліметтерден өзгертілген оқыту бағдарламасы бірнеше деректер бағдарламасының салыстыру сапасына салыстырады.</abstract_kk>
+      <abstract_lt>Įprasti žodžių įterpimai rengiami taikant konkrečius kriterijus (pvz., remiantis kalbų modeliavimu arba bendra pasikartojimu) vieno informacijos šaltinio viduje, neatsižvelgiant į galimybę toliau kalibruoti naudojant išorines žinias. Šiame dokumente pateikiama bendra sistema, kuria reguliarizuojamas iš anksto išmokytas ar išorinis ankstesnis mokymasis, siekiant pagerinti tradiciniu kalbų modeliu pagrįstą įterpiamąjį mokymąsi. Mes svarstome dviejų rūšių reguliatorius. Pirmasis tipas gaunamas iš teminio paskirstymo naudojant LDA be žymės duomenis. The second type is based on dictionaries that are created with human annotation efforts.  Siekiant veiksmingai mokytis su reguliarizatoriais, šiame dokumente siūlome naują duomenų struktūrą, trajektorijos softmax. Atitinkamos įterptos vertinamos pagal žodžių panašumą ir jausmų klasifikaciją. Eksperimentiniai rezultatai rodo, kad mūsų mokymosi sistema, reguliuojama iš ankstesnių žinių, gerina kokybę įvairiuose duomenų rinkiniuose, palyginti su įvairiais baziniais metodais.</abstract_lt>
+      <abstract_mk>Конвенционалните зборови се обучуваат со специфични критериуми (на пример, базирани на јазичното моделирање или соопштено појавување) во еден извор на информации, отфрлајќи ја можноста за понатамошна калибрација користејќи надворешно знаење. Овој документ претставува унифицирана рамка која влијае на преднаучените или надворешните предходни случаи, во форма на регуларизација, за подобрување на учењето базирано на конвенционалниот јазик модел. Размислуваме за два вида регуларизачи. The first type is derived from topic distribution by running LDA on unlabeled data.  Вториот тип се базира на речници кои се создадени со напори за човечка анотација. За ефикасно да научиме со регулаторизаторите, предложуваме нова структура на податоци, траекторија софтмакс, во овој весник. Резултатите на вградувањата се проценуваат со сличност на зборовите и класификација на чувствата. Експерименталните резултати покажуваат дека нашата рамка за учење со регуларизација од претходното знаење го подобрува вклопувањето на квалитетот во повеќе податоци, во споредба со различна колекција на основни методи.</abstract_mk>
+      <abstract_ms>Pencampuran perkataan konvensional dilatih dengan kriteria khusus (cth., berdasarkan pemodelan bahasa atau kejadian sama) di dalam sumber maklumat tunggal, mengabaikan peluang untuk kalibrasi lanjut menggunakan pengetahuan luaran. Kertas ini memperkenalkan kerangka bersatu yang menggunakan latar belajar awal atau luaran, dalam bentuk pengaturan, untuk meningkatkan pembelajaran berbasis model bahasa konvensional. Kami mempertimbangkan dua jenis pengaturan. Jenis pertama dihimpunkan dari distribusi topik dengan menjalankan LDA pada data tidak ditabel. Jenis kedua berdasarkan kamus yang dicipta dengan usaha anotasi manusia. To effectively learn with the regularizers, we propose a novel data structure, trajectory softmax, in this paper.  Pencampuran yang menghasilkan diteliti dengan persamaan perkataan dan klasifikasi perasaan. Hasil percubaan menunjukkan bahawa kerangka pembelajaran kami dengan pengaturan dari pengetahuan terdahulu meningkatkan kualiti penyampaian dalam set data berbilang, dibandingkan dengan koleksi berbeza kaedah dasar.</abstract_ms>
+      <abstract_ml>സാധാരണ വാക്കുകള്‍ പ്രത്യേക പരിശീലിക്കപ്പെടുന്നു This paper presents a unified framework that leverages pre-learned or external priors, in the form of a regularizer, for enhancing conventional language model-based embedding learning.  നമ്മള്‍ രണ്ടു തരം നിയന്ത്രണക്കാരെ വിചാരിക്കുന്നു. ലേബല്‍ ചെയ്യാത്ത വിവരങ്ങളില്‍ LDA പ്രവര്‍ത്തിപ്പിക്കുന്നതില്‍ നിന്ന് ആദ്യ തരം ലഭ്യമാക്കുന്നു. രണ്ടാമത്തെ തരം മനുഷ്യരുടെ പ്രശ്നം കൊണ്ട് സൃഷ്ടിക്കപ്പെട്ട നിഘണ്ടികൾ അടിസ്ഥാനമാണ്. നിയന്ത്രണക്കാരുടെ കൂടെ പഠിക്കാന്‍ ഞങ്ങള്‍ ഒരു നോവല്‍ ഡേറ്റാ ഘടനയില്‍, ട്രാക്ടോക്ടറിന്റെ സോഫ്റ്റ്മാക്സ് ഈ പത് അതിന്റെ ഫലങ്ങള്‍ വാക്കിന്റെ തുല്യമാക്കുന്നതിന്റെയും വാക്കിന്റെയും തീരുമാനത്തിന്റെയും ക്ലാസ്ഫി പരീക്ഷണ ഫലങ്ങള്‍ കാണിച്ചു കൊണ്ടിരിക്കുന്നു നമ്മുടെ പഠിക്കുന്ന ഫ്രെയിമ്പില്‍ നിന്നും മുമ്പുള്ള വിജ്ഞാനത്തിന്റെ നിയന്ത്രണ</abstract_ml>
+      <abstract_mt>L-inkorporazzjonijiet konvenzjonali tal-kliem huma mħarrġa b’kriterji speċifiċi (pereżempju, ibbażati fuq mudell tal-lingwa jew kookkorrenza) ġewwa sors wieħed ta’ informazzjoni, filwaqt li tiġi injorata l-opportunità g ħal aktar kalibrazzjoni bl-użu ta’ għarfien estern. Dan id-dokument jippreżenta qafas unifikat li jagħti spinta lill-prijoritajiet ta’ qabel it-tagħlim jew dawk esterni, fil-form a ta’ regolarizzatur, għat-titjib tat-tagħlim inkorporat ibbażat fuq mudell ta’ lingwa konvenzjonali. Aħna nqisu żewġ tipi ta’ regolaturi. L-ewwel tip huwa derivat mid-distribuzzjoni suġġetta billi jitħaddem l-LDA fuq dejta mingħajr tikketta. It-tieni tip huwa bbażat fuq dikjaraturi li jinħolqu bl-isforzi ta’ annotazzjoni umana. Biex nitgħallmu b’mod effettiv mar-regolarizzaturi, qed nipproponu struttura ġdida ta’ dejta, trajettorja softmax, f’dan id-dokument. L-inkorporazzjonijiet li jirriżultaw huma evalwati skont is-similarità tal-kelma u l-klassifikazzjoni tas-sentimenti. Riżultati esperimentali juru li l-qafas tagħna ta’ tagħlim bir-regolarizzazzjoni minn għarfien minn qabel itejjeb l-inkorporazzjoni tal-kwalità f’settijiet ta’ dejta multipli, meta mqabbel ma’ ġbir diversifikat ta’ metodi ta’ bażi.</abstract_mt>
+      <abstract_mn>Нэг мэдээллийн эх үүсвэр дотор тодорхой хэл загвар (жишээ нь хэл загвар болон хамтран үйлдвэрлэх) тодорхой шаардлагатай үг бий болгож, гадаад мэдээллийг ашиглаж дахиад калибр хийх боломжтой боломжтой боломжтой Энэ цаас урьд суралцах эсвэл гадаад суралцагчийн хэлбэрийн загварын сургалтыг улам сайжруулахын тулд нэгтгэлтэй хэлбэрийг харуулдаг. Бид хоёр төрлийн жинхэнэ хэлбэрийг боддог. Эхний төрлийн нь сэдвийн хуваарилалт гаргасан мэдээллээр LDA-г ашиглаж ирсэн юм. Хоёр дахь төрлийн нь хүн төрөлхтний сэтгэл хөдлөл дээр бий болгосон үгсэлтүүд дээр суурилсан. Эцэст нь энгийн хүмүүстэй суралцахын тулд бид энэ цаасан дээр шинэ өгөгдлийн бүтэц, салбарын салбарын максимум гэдгийг санал дэвшүүлнэ. Үүний үр дүнг нь үг төстэй болон сэтгэл хөдлөлийн хуваалцаанд үнэлдэг. Эмчилгээний үр дүнд бидний суралцах үйл ажиллагааны үйл ажиллагааг өмнөх мэдлэгийнхээ хувьд олон өгөгдлийн сангийн хэлбэрээс харьцуулахын тулд бидний суралцах үйл ажиллагааны үйл ажиллагаа</abstract_mn>
+      <abstract_no>Innbygging av vanleg ord er utlært med spesifikke kriterier (f.eks. basert på språk modellering eller samtidig oppgåve) i ein enkelt informasjonskjelde, utan hending av muligheten for meir kalibrering ved å bruka eksterne kunnskap. Denne papiret viser eit einaste rammeverk som leverer førelærte eller eksterne førehandsvisingar, i form av eit regulært, for å forbetra konvensjonell språk-modell basert innbygging. Vi ser på to typar regulærar. Den første typen er henta frå temafordelinga ved å køyra LDA på ukjende data. Den andre typen er basert på ordbokar som er oppretta med menneske merknader. For å lære effektivt med regulære, foreslår vi eit nytt datastruktur, trajectory softmax i denne papiret. Dette resultatet innbygginga er evaluert etter ordsimilaritet og sentimentklassifikasjon. Eksperimentale resultat viser at læringsrammeverket vår med reguleringa frå førre kunnskap forbetrar innbyggingskvalitet over fleire datasett, sammenlignet med ein ulike samling av baselinjesmetodar.</abstract_no>
+      <abstract_pl>Konwencjonalne osadzenia słów są szkolone według określonych kryteriów (np. w oparciu o modelowanie językowe lub współwystępowanie) wewnątrz jednego źródła informacji, pomijając możliwość dalszej kalibracji z wykorzystaniem wiedzy zewnętrznej. Niniejszy artykuł przedstawia ujednolicone ramy, które wykorzystują wcześniej nauczone lub zewnętrzne priorytety, w postaci regularyzatora, do poprawy konwencjonalnego modelu językowego nauczania się osadzania. Rozważamy dwa rodzaje regulatorów. Pierwszy typ pochodzi z dystrybucji tematów poprzez uruchomienie LDA na danych nieoznakowanych. Drugi typ opiera się na słownikach tworzonych przy użyciu człowieka adnotacji. Aby skutecznie uczyć się z regulatorami, proponujemy w niniejszym artykule nową strukturę danych, trajektorię softmax. Wynikające z nich osadzenia oceniane są według klasyfikacji podobieństwa słów i sentymentów. Wyniki eksperymentalne pokazują, że nasze ramy uczenia się z regularyzacją z wcześniejszej wiedzy poprawiają jakość osadzenia w wielu zbiorach danych, w porównaniu do zróżnicowanego zbioru metod bazowych.</abstract_pl>
+      <abstract_so>Hadalka ku soo socota waxaa lagu baraa kaarar gaar ah (tusaale ahaan tusaale ahaan muuqashada luuqada ama iskaasha ah) marka laga eego fursadda kalibsashada aqoonta dibadda lagu isticmaalo. Qoraalkan waxaa soo saara qoraal isku darsami ah oo horay u sii kordhiya barashada qoraalka afka caadiga ah oo ku qoran horay ama dibadda. Waxaynu ka fiirsanaynaa laba nooc oo xeerarka ah. Nooca ugu horreeya waxaa laga soo saaraa qaybinta madaxa lagu soo dirayo LDA oo ku qoran macluumaad aan la labeyn. Nooca labaad waxaa ku saleysan luqadaha lagu abuuray dhibaatooyinka dadka. Si aad u faa’iido ah u barto xeerarka, waxan warqadan uga soo jeedaynaa dhismo macluumaadka saxda ah, saqafka wadiiqooyinka dhaqdhaqaaqa. Xiriirka sababta ah waxaa lagu qiimeeyaa si siman u eg iyo kalsooni. Experimental results show that our learning framework with regularization from prior knowledge improves embedding quality across multiple datasets, compared to a diverse collection of baseline methods.</abstract_so>
+      <abstract_ro>Încorporările convenționale de cuvinte sunt instruite cu criterii specifice (de exemplu, pe baza modelării limbajului sau a co-apariției) într-o singură sursă de informații, ignorând posibilitatea de calibrare ulterioară utilizând cunoștințe externe. Această lucrare prezintă un cadru unificat care valorifică antecedentele pre-învățate sau externe, sub forma unui regularizator, pentru îmbunătățirea învățării bazate pe modele lingvistice convenționale. Considerăm două tipuri de regularizatori. Primul tip este derivat din distribuția subiectului prin rularea LDA pe date fără etichete. Al doilea tip se bazează pe dicționare care sunt create cu eforturi umane de adnotare. Pentru a învăța eficient cu regularizatorii, propunem o nouă structură de date, traiectoria softmax, în această lucrare. Încorporările rezultate sunt evaluate prin similitudinea cuvintelor și clasificarea sentimentului. Rezultatele experimentale arată că cadrul nostru de învățare cu regularizare din cunoștințe anterioare îmbunătățește calitatea încorporării în mai multe seturi de date, comparativ cu o colecție diversă de metode de bază.</abstract_ro>
+      <abstract_sr>Konvencionalni integraciji reči obučeni su sa specifičnim kriterijama (na primjer na temelju modela jezika ili saradnje) unutar jednog izvora informacija, bez obzira na mogućnost daljnje kalibracije koristeći spoljno znanje. Ovaj papir predstavlja jedinstven okvir koji utiče na pre-naučene ili vanjske prethodne, u obliku regularizatora, za unapređenje konvencionalnog jezičkog model a osnovanog učenja. Smatramo dva vrsta regularizatora. Prvi tip je proizveden iz distribucije teme pokrenući LDA na neizbiljnim podacima. Drugi tip je baziran na rečnicima koje su stvorene naporima ljudskih annotacija. Da bi se efikasno naučili sa regularizatorima, predlažemo novu strukturu podataka, trajektoriju softmax, u ovom papiru. Rezultativne integracije procjenjuju sliènost rijeèi i klasifikacija sentimenta. Eksperimentalni rezultati pokazuju da naš okvir učenja sa regularizacijom iz prethodnog znanja poboljšava integraciju kvalitete na višestrukim podacima u usporedbi sa različitim kolekcijom početnih metoda.</abstract_sr>
+      <abstract_si>සාමාන්‍ය වචන සම්බන්ධ වචන සිද්ධ විශේෂ අවශ්‍ය (උදාහරණය, භාෂාව මොඩේලන් හෝ සම්බන්ධ වෙනුවෙන්) එක්ක තොරතුරු මූල්‍යයක මේ පත්තුව පෙන්වන්නේ සාමාන්‍ය භාෂාව ප්‍රධානය සඳහා ප්‍රධානයක් හෝ ප්‍රධානයක් ප්‍රධානය කරනවා. අපි හිතන්නේ සාමාන්‍ය වැඩකරු දෙකක් වගේ. පළවෙනි වර්ගයක් තේරුම් විතරයෙන් ලිපින්න බැරි දත්තේ LDA දාලා යනවා. දෙවෙනි වර්ගයක් මිනිස්සු ප්‍රශ්නයක් සඳහා නිර්මාණය කරලා තියෙන වචන වචන වලට අධාරිත වෙනව සාමාන්‍ය විදියට ඉගෙන ගන්න, අපි නියම දත්ත සංවිධානයක් ප්‍රයෝජනය කරනවා, මේ පත්තියේ ප්‍රයෝජනයක්. ප්‍රතිචාරය සම්බන්ධතාවක් වචනය සහ විශේෂතාවක් වලින් විශේෂය කරනවා. පරීක්ෂණාත්මක ප්‍රතිචාරයක් පෙන්වනවා අපේ ඉගෙන ගන්න ප්‍රතිචාරය ප්‍රතිචාරයක් ප්‍රතිචාරයෙන් ප්‍රතිචාරයෙන්</abstract_si>
+      <abstract_ta>வழக்கமான வார்த்தை உள்ளிடுதல் குறிப்பிட்ட குறிப்பிட்ட நிறுவனங்களுடன் (உதாரணமாக மொழி மாதிரி வடிவமைப்பு அல்லது ஒரு சேர்ந்த நிகழ்வு) ஒரே தகவல் மூலமு இந்த தாள் ஒரு unified சட்டத்தை குறிப்பிடுகிறது அது முன்னர் கற்றப்பட்டது அல்லது வெளிப்புற முன்னுரிமைகளை வெளியேற்றுகிறது, ஒரு வழக்கமான மொழி மாதி இரண்டு வகையான கட்டுப்பாட்டாளர்களை நாம் கருதுகிறோம். முதல் வகை குறிப்பிடப்படாத தகவலில் LDA இயக்கி தலைப்பு பங்கீட்டிலிருந்து வந்துள்ளது. இரண்டாவது வகை மனித அறிவிப்பு முயற்சிகளுடன் உருவாக்கப்பட்ட அகராதிகளை அடிப்படையாகும். விதிமுறையாளர்களுடன் கற்றுக் கொள்வதற்கு, நாம் இந்த தாளில் ஒரு புதிய தகவல் அமைப்பு, பாதையில் மென்பெரிதாக்கம் பரிந் @ info: whatsthis பரிசோதனை முடிவுகள் காண்பிக்கப்படுகிறது முன்னால் கல்வி சட்டத்திலிருந்து விதிமுறையாக்கத்திலிருந்து கற்றுக்கொள்ளும் அறிவு ம</abstract_ta>
+      <abstract_sv>Konventionella ordinbäddningar utbildas med specifika kriterier (t.ex. baserat på språkmodellering eller samtidig förekomst) inuti en enda informationskälla, bortsett från möjligheten till ytterligare kalibrering med hjälp av extern kunskap. Denna uppsats presenterar ett enhetligt ramverk som utnyttjar förkunna eller externa prioriteringar, i form av en regularizer, för att förbättra konventionellt språkmodellbaserat inbäddande lärande. Vi betraktar två typer av regularisers. Den första typen härleds från ämnesdistribution genom att köra LDA på omärkta data. Den andra typen är baserad på ordböcker som skapas med mänskliga anteckningar ansträngningar. För att effektivt lära sig med regularisers föreslår vi en ny datastruktur, traiectory softmax, i denna uppsats. De resulterande inbäddningarna utvärderas genom ordlikhet och sentimentklassificering. Experimentella resultat visar att vårt lärramverk med regularisering från tidigare kunskap förbättrar inbäddningskvaliteten över flera datauppsättningar, jämfört med en mängd olika baslinjemetoder.</abstract_sv>
+      <abstract_ur>ایک اطلاعات سورج کے درمیان (جیسے زبان موڈلینگ یا اتفاق) کے مطابق مخصوص مقداروں کے ساتھ استعمال کئے جاتے ہیں، اور باہر علم کے مطابق اضافہ کلیبرینگ کے فرصت کے ذریعے بغیر منع کئے جاتے ہیں. یہ کاغذ ایک متحدہ فریمیٹ ہے جو پہلے سکھایا جاتا ہے یا خارج سے پہلے، ایک قانون ترکیب کرنے والے کی شکل میں، ایک متحدہ زبان کی مدل پر بنیاد رکھنے کی تعلیم کے لئے استعمال کرتا ہے. ہم نے دو قسم کے معاملہ کرنے والوں کو سمجھ لیا ہے۔ پہلی ٹیپ ٹیپ ڈیٹ پریزینڈر سے لکھا گیا ہے جو LDA کو بغیر پڑھی ہوئی ڈیٹ پر چلتی ہے. دوسری طرح انسان کی اظہار کی کوشش کے ساتھ بنائے ہوئے لکھائی پر بنیاد ہے. ہم نے اس کاغذ میں ایک نئی ڈیٹا ساختار، تراژیکٹری نرم ماکس کی پیشنهاد کرتا ہے۔ نتیجۂ ایمبڈینگ لفظ کے مطابق اور احساسات کلاسیفوں کے ذریعہ ارزش کیا جاتا ہے. Experimental results show that our learning framework with regularization from prior knowledge improves embedding quality in multiple datasets, compared to a diverse collection of baseline methods.</abstract_ur>
+      <abstract_uz>Davom etilgan so'zlar tashqi maʼlumot manbasiga (m. g. tilning modeli yoki bir nechta hodisa asosida) foydalanadi. Bu qogʻoz bir birlashtirilgan freymni koʻrsatiladi. Bu qogʻoz boshqaruvchidan oldin o'rganish yoki tashqi oldin oldin o'rganish yoki tashqi oldin oldin ishlatiladi. Biz ikki tur boshqaruvchilarga o'ylaymiz. @ info: whatsthis Ikkinchi tur inson taʼminlovchi harakat bilan yaratilgan lugʻatlar asosida. Boshqaruvchilar bilan o'rganish uchun, biz bu qogʻozdagi novel maʼlumot tizimi, sakkizning soʻrov dasturi. @ info: whatsthis Tajriba natijalari shunday ko'rsatadi, biz o'rganish frameiyatlarimiz bir necha maʼlumotlar tarkibidagi sonlarning qiymatini ko'paytirish imkoniyatini oshirish mumkin, bir necha maʼlumotlar sonlariga ko'paytirish imkoniyatini ko'rsatadi.</abstract_uz>
+      <abstract_vi>Những từ ngữ thông thường được đào tạo với những tiêu chuẩn đặc biệt (v.d., dựa trên cách phát minh ngôn ngữ hay nhập nhau) bên trong một nguồn thông tin đơn lẻ, không để ý cơ hội điều chỉnh thêm dựa trên kiến thức bên ngoài. Tờ giấy này đưa ra một cơ sở thống nhất dùng để thúc đẩy sự hiểu biết trước hay ra ngoài, bằng cách làm chính thức, để phát triển khả năng học thêm ngôn ngữ truyền thống. Chúng tôi xem xét hai loại đều đặn. Loại thứ nhất bắt nguồn từ việc phân phối chủ đề bằng cách chạy LDAP với dữ liệu không tải. Kiểu thứ hai dựa trên các từ điển được tạo ra với các nỗ lực ghi chú con người. Để có hiệu quả học với các nhà hoá học, chúng tôi đề xuất một cấu trúc mới về dữ liệu, đường chuyền bóng đèn, trong tờ giấy này. Kết quả của sự ghép nối được đánh giá bằng cách phân loại từ giống nhau và cảm xúc. Kết quả thí nghiệm cho thấy cơ sở học dựa trên việc theo quy tắc dựa trên kiến thức trước cải thiện việc trộn chất lượng trên nhiều bộ dữ liệu hơn so với một loạt các phương pháp cơ bản khác nhau.</abstract_vi>
+      <abstract_bg>Конвенционалните вграждания на думи се обучават със специфични критерии (например въз основа на езиково моделиране или съвместно появяване) в рамките на един информационен източник, пренебрегвайки възможността за по-нататъшно калибриране с помощта на външни знания. Тази статия представя единна рамка, която използва предварително научени или външни приоритети под формата на регуляризатор, за подобряване на конвенционалното езиково обучение, базирано на вграждане, базирано на модели. Ние разглеждаме два вида регуляризатори. Първият тип се извлича от тематично разпределение чрез стартиране на LDA върху немаркирани данни. Вторият тип се основава на речници, които са създадени с човешки усилия за анотация. За да се научим ефективно с регуляризаторите, ние предлагаме нова структура на данните, траектория софтмакс, в тази статия. Получените вграждания се оценяват по сходство на думите и класификация на сантименталността. Експерименталните резултати показват, че нашата учебна рамка с регламентиране от предишни знания подобрява качеството на вграждането в множество набори от данни в сравнение с разнообразната колекция от базови методи.</abstract_bg>
+      <abstract_hr>Uvježbanje konvencionalnih riječi obučeno je s specifičnim kriterijama (na primjer na temelju modeliranja jezika ili saradnje) unutar jednog izvora informacija, bez obzira na mogućnost daljnje kalibracije koristeći vanjske znanje. Ovaj papir predstavlja ujedinjeni okvir koji utječe na predučenje ili vanjske prije, u obliku regularizatora, za poboljšanje konvencionalnog jezičkog model a osnovanog učenja. Smatramo dva vrsta regularizatora. Prvi tip je proizveden iz distribucije teme pokrenući LDA na neizbiljnim podacima. Drugi tip se temelji na riječi koje su stvorene naporima ljudskih annotacija. Da bi se učili s regularizatorima, predlažemo novu strukturu podataka, trajektoriju softmax, u ovom papiru. Rezultativne integracije procjenjuju sličnost riječima i klasifikacija osjećaja. Eksperimentalni rezultati pokazuju da naš okvir učenja s regularizacijom prije znanja poboljšava uključenje kvalitete u više podataka u usporedbi s različitim kolekcijom početnih metoda.</abstract_hr>
+      <abstract_nl>Conventionele woordinsluitingen worden getraind met specifieke criteria (bijvoorbeeld op basis van taalmodellering of co-voorkomen) binnen één enkele informatiebron, waarbij de mogelijkheid tot verdere kalibratie met behulp van externe kennis buiten beschouwing wordt gelaten. Dit document presenteert een uniform raamwerk dat gebruik maakt van vooraf geleerde of externe priors, in de vorm van een regularizer, voor het verbeteren van conventioneel taalmodel gebaseerd embedded learning. We beschouwen twee soorten regularisers. Het eerste type is afgeleid van topic distributie door LDA uit te voeren op gegevens zonder label. Het tweede type is gebaseerd op woordenboeken die zijn gemaakt met menselijke annotatie inspanningen. Om effectief te leren met de regularizers, stellen we in dit artikel een nieuwe datastructuur voor, trajectory softmax. De resulterende embeddings worden geëvalueerd op basis van woordgelijkenis en sentimentclassificatie. Experimentele resultaten tonen aan dat ons leerframework met regularisatie van voorkennis de kwaliteit van het inbedden in meerdere datasets verbetert, in vergelijking met een diverse verzameling basismethoden.</abstract_nl>
+      <abstract_da>Konventionelle ordindlejringer trænes med specifikke kriterier (f.eks. baseret på sprogmodellering eller samtidig forekomst) inde i en enkelt informationskilde, uden at der tages hensyn til muligheden for yderligere kalibrering ved hjælp af ekstern viden. Dette dokument præsenterer en samlet ramme, der udnytter præ-lærte eller eksterne forudsætninger, i form af en regularizer, til at forbedre konventionel sprogmodel baseret indlejring. Vi overvejer to typer regulatorisatorer. Den første type stammer fra emnefordeling ved at køre LDA på ikke-mærkede data. Den anden type er baseret på ordbøger, der er oprettet med menneskelige annoteringsindsatser. For effektivt at lære med regulariserne, foreslår vi en ny datastruktur, traiectory softmax, i denne artikel. De resulterende indlejringer evalueres ved ordlighed og sentiment klassificering. Eksperimentelle resultater viser, at vores læringsramme med regulering fra tidligere viden forbedrer indlejringskvaliteten på tværs af flere datasæt sammenlignet med en varieret samling af basismetoder.</abstract_da>
+      <abstract_de>Herkömmliche Worteinbettungen werden mit spezifischen Kriterien (z.B. basierend auf Sprachmodellierung oder Co-Vorkommen) innerhalb einer einzigen Informationsquelle trainiert, wobei die Möglichkeit einer weiteren Kalibrierung mit externem Wissen vernachlässigt wird. Dieser Beitrag stellt ein einheitliches Framework vor, das vorgelernte oder externe Priors in Form eines Regularizers nutzt, um konventionelles sprachmodellbasiertes Einbettungslernen zu verbessern. Wir betrachten zwei Arten von Regularizern. Der erste Typ wird von der Themenverteilung abgeleitet, indem LDA auf nicht beschrifteten Daten ausgeführt wird. Der zweite Typ basiert auf Wörterbüchern, die mit menschlichen Anmerkungen erstellt werden. Um effektiv mit den Regularizern zu lernen, schlagen wir in diesem Beitrag eine neuartige Datenstruktur vor, Trajektorie softmax. Die resultierenden Einbettungen werden nach Wortähnlichkeit und Stimmungsklassifikation bewertet. Experimentelle Ergebnisse zeigen, dass unser Lernframework mit Regularisierung aus Vorkenntnissen die Einbettungsqualität über mehrere Datensätze hinweg verbessert, im Vergleich zu einer Vielzahl von Basismethoden.</abstract_de>
+      <abstract_id>Pencampuran kata konvensional dilatih dengan kriteria spesifik (contohnya, berdasarkan model bahasa atau korespondensi) di dalam sumber informasi tunggal, mengabaikan kesempatan untuk kalibrasi lanjut menggunakan pengetahuan luar. Kertas ini mempersembahkan rangkaian yang bersatu yang mempengaruhi masa depan pre-belajar atau eksternal, dalam bentuk regulariser, untuk meningkatkan pembelajaran berbasis model bahasa konvensional. Kami mempertimbangkan dua jenis regulariser. Tipe pertama didirikan dari distribusi topik dengan menjalankan LDA pada data tidak ditabel. Jenis kedua berdasarkan kamus yang diciptakan dengan usaha anotasi manusia. Untuk mempelajari secara efektif dengan regularisers, kami mengusulkan struktur data baru, trajektori softmax, di kertas ini. Pencampuran hasilnya diuji dengan persamaan kata dan klasifikasi sentimen. Hasil eksperimen menunjukkan bahwa kerangka belajar kita dengan regularisasi dari pengetahuan sebelumnya meningkatkan kualitas penerbangan di berbagai set data, dibandingkan dengan koleksi berbagai metode dasar.</abstract_id>
+      <abstract_ko>특정 정보원을 바탕으로 하는 모델링(예를 들어 외부 정보원을 바탕으로 하는 모델링)이나 특정 정보원을 바탕으로 하는 모델링(예를 들어 외부 정보원을 바탕으로 하는 모델링).본고는 통일된 틀을 제시했다. 이 틀은 정규화기의 형식으로 사전 학습이나 외부 선험 지식을 이용하여 전통적인 언어 모델을 바탕으로 하는 삽입 학습을 강화한다.우리는 두 가지 정규화자를 고려한다.첫 번째 유형은 표시되지 않은 데이터에서 LDA를 실행함으로써 테마 분포에서 파생됩니다.두 번째는 인공 주석을 바탕으로 만든 사전이다.정규화기를 효과적으로 사용하여 학습을 하기 위해 본고는 새로운 데이터 구조인 궤적softmax를 제시했다.단어의 싱크로율과 감정 분류를 통해 삽입 결과를 평가한다.실험 결과에 따르면 여러 가지 기선 방법에 비해 선험지식을 바탕으로 하는 정규화 학습 구조는 여러 데이터 집합의 삽입 품질을 향상시켰다.</abstract_ko>
+      <abstract_sw>Matambo ya kawaida yanafundishwa na vigezo maalum (kwa mfano, kwa kutumia mifano ya lugha au tukio la pamoja) ndani ya chanzo moja cha habari, wakipuuza fursa ya kupatikana kwa kutumia maarifa ya nje. Gazeti hili linaleta mfumo wa muungano unaoendelea kipaumbele cha kujifunza kabla au nje, kwa namna ya mtaalamu, kwa ajili ya kuongeza mfumo wa lugha ya kawaida wa kujifunza. Tunaona aina mbili ya watengenezaji. Aina ya kwanza inatokana na usambazaji wa mada kwa kufanya LDA kwenye taarifa zisizoeleweka. aina ya pili ni ya lugha ambazo zinatengenezwa na jitihada za kutoa taarifa za binadamu. To effectively learn with the regularizers, we propose a novel data structure, trajectory softmax, in this paper.  Matokeo hayo yanavutiwa kwa maneno yanayofanana na hisia. Matokeo ya majaribio yanaonyesha kuwa mfumo wetu wa kujifunza na kudhibiti utaratibu wa maarifa ya kabla huboresha ubora wa kuzalisha katika seti za data mbalimbali, ukilinganisha na mkusanyiko wa njia mbalimbali za msingi.</abstract_sw>
+      <abstract_tr>Adatça söz integrasy (meselâ, dil modelleýäniň ýa-da bir meňzeşlik çe şmesine daýanýar) bir maglumat çeşmesinde täze bir kalibreleme mümkinçiligi ýok edip bilmeýär. Bu kagyz öňden öňden öwrenmeden ýa daşarydaky öňki öňki döwletlerini düzgün täsirleştirmek üçin birleştirilen bir çerçew görkezýär. Biz düzgün düzgünçiler diýip pikir edýäris. Ilkinji hili ýazmayan maglumaty üzerinde LDA tarapyndan tem daýratyndan çykar. Ikinji hili adam duýdurma çabalary bilen döredilen sözlerne daýanýar. Düzenli adamlar bilen öwrenmek üçin, biz bu kagyzda roman maglumat strukturuny, traktöriň ýokary maksimum teklip edip görýäris. Sonuçta içeri kelime meňzeşlik we duýgular klasifikasyna görä deňlendirilýär. Durmançylyk netijelerimiz öwrenmek framlarymyzyň öňki bilgi bilen düzenli taýýarlanmagy bilen daşary taýýarlanmagynyň köpürleýändigini görkezýär.</abstract_tr>
+      <abstract_af>Konvensionale woord inbettings word opgelei met spesifieke kriteriërs (bv. gebaseer op taal modellering of saamvoorkoms) binne 'n enkele inligting bron, onthou die geleentheid vir verdere kalibrering deur eksterne kennis te gebruik. Hierdie papier beveel 'n eenvoudige raamwerk wat voorafleer of eksterne voorafwoordes, in die vorm van 'n regulariseerder, verhoog vir die verbetering van konvensionale taal model gebaseerde inbetering leer. Ons beskou twee tipe regulariseerders. Die eerste tipe is afgeleide van onderwerp verspreiding deur loop LDA op ongeabelde data. Die tweede tipe is gebaseer op woordeboeke wat gemaak word met menslike annotasie versoekte. Om effektief te leer met die regulariseerders, voorstel ons 'n nuwe data struktuur, trajectory softmax in hierdie papier. Die resultateerde inbêdings word deur woord gelykbaarheid en sentiment klasifikasie evalueer. Eksperimentale resultate wys dat ons leer raamwerk met regularisasie van voorheede kennis verbeter inbetering kwaliteit oor veelvuldige datastelle, vergelyk met 'n verskillende versameling van basisline metodes.</abstract_af>
+      <abstract_fa>درون یک منبع اطلاعات معمولی استفاده می‌کنند که فرصت برای کالیبران بیشتری با استفاده از دانش خارجی استفاده می‌کنند. این کاغذ یک چهارچوب متحده را نشان می دهد که پیش از آموزش یافته یا خارجی را به شکل یک قانونی‌کننده، برای افزایش یادگیری‌های متحده به مدل زبان معمولی تحت تاثیر قرار می‌دهد. ما دو نوع معمولی را در نظر می گیریم. اولین نوع از توزیع موضوع با اجرای LDA در داده‌های نامزدی به دست آورده می‌شود. نوع دوم بر اساس واژه‌هایی است که با تلاش‌های اظهار انسان آفریده می‌شوند. برای موفقیت با معمولی یاد گرفتن با معمولی، ما یک ساختار داده های رمانی را پیشنهاد می کنیم، مسیر نرم ماکس، در این کاغذ. پیوند‌های نتیجه‌ای به عنوان کلمه شبیه‌ای و کلمه‌های احساسات ارزیابی می‌شوند. نتیجه‌های تجربه‌ی ما نشان می‌دهد که چهارچوب یادگیری ما با ساده‌سازی از دانش‌های قبلی در مجموعه‌های داده‌های متعدد، در مقایسه با مجموعه‌های متفاوتی از روش‌های بنیادی بهتر می‌شود.</abstract_fa>
+      <abstract_sq>Përmbajtja e fjalëve konvencionale është trajnuar me kritere të posaçme (për shembull, bazuar në modelimin gjuhësor apo bashkëndodhjen) brenda një burimi të vetëm informacioni, duke harruar mundësinë për kalibrim të mëtejshëm duke përdorur njohuritë e jashtme. Ky dokument paraqet një kuadër të unifikuar që nxjerr përparësi të mësuara ose të jashtme, në form ën e një rregullatori, për përmirësimin e mësimit të ndërtimit të gjuhës konvencionale bazuar në model in e gjuhës. Ne konsiderojmë dy lloje rregullatorësh. Tipi i parë derivohet nga shpërndarja e temës duke ecur LDA në të dhëna pa etiketë. The second type is based on dictionaries that are created with human annotation efforts.  Për të mësuar efektivisht me rregullatorët, ne propozojmë një strukturë të re të të dhënave, trajektori softmax, në këtë letër. Ndërtesat që rezultojnë vlerësohen nga ngjashmëria e fjalës dhe klasifikimi i ndjenjave. Rezultatet eksperimentale tregojnë se kuadri ynë i mësimit me rregullalizim nga njohuritë e mëparshme përmirëson përfshirjen e cilësisë nëpërmjet grupeve të të dhënave të shumta, krahasuar me një koleksion të ndryshëm të metodave bazë.</abstract_sq>
+      <abstract_am>Conventional word embeddings are trained with specific criteria (e.g., based on language modeling or co-occurrence) inside a single information source, disregarding the opportunity for further calibration using external knowledge.  ይህ ገጽ አስቀድሞ የተማረ ወይም ውጭ የውጭ ቀዳሚዎችን ያሳርፋል፡፡ ሁለት ዓይነቶች አስተዳዳሪዎች እናስባለን ። የመጀመሪያው ዓይነት አዲስ ዶሴ ፍጠር ሁለተኛይቱ ዓይነት በሰው ብሔራዊ ጉዳይ የተፈጠሩ መዝገብ ነው፡፡ በሥርዓት አስተዳሪዎች ጋር ለመማር፣ በዚህ ገጽ የመረጃ ዳታ አካባቢ፣ የግንኙነት ስፍትሕት እናሳውቃለን፡፡ የውጤቱ አካባቢዎች ቃላት በሚመስል እና በሚስማት መግለጫ ያስተካክላሉ፡፡ ፈተና ፍሬዎች ከቀድሞ እውቀታችን ጋር መማር ፍሬማችን በብዛት ዳታተር ጥያቄን እንዲያሳድጋል፣ በተለየ ብዙዎች የጥያቄ ሥርዓት እንዲያሳድግ ያሳያል፡፡</abstract_am>
+      <abstract_hy>Հավանդական բառերի ներդրումը սովորեցվում է հատուկ չափումներով (օրինակ, հիմնված լեզվի մոդելավորման կամ համապատասխանատվության վրա) մեկ տեղեկատվական աղբյուրի մեջ, անտեսելով այն հնարավորությունը, որ ապագայում կալիբրացվի արտաքին գիտելիքների Այս թղթին ներկայացնում է միասնական շրջանակ, որը ազդում է նախկին սովորված կամ արտաքին նախաձեռնություններին, օրինադրողի ձևով, ավանդական լեզվի մոդել հիմնված ուսումնասիրության բարելավման համար: Մենք դիտարկում ենք երկու տեսակի կանոնավորողներ: Առաջին տեսակը ստացվում է թեմայի բաշխման միջոցով, երբ սկսում է աշխատել ԼԴԱ-ն աննշան տվյալների վրա: Երկրորդ տեսակը հիմնված է բառարանների վրա, որոնք ստեղծվում են մարդկային նշումների միջոցով: Այս թղթի մեջ արդյունավետ սովորելու համար մենք առաջարկում ենք նոր տվյալների կառուցվածք, շարժման ծրագիր: Արդյունքում ստացված ներդրումները գնահատվում են բառի նմանության և զգացմունքների դասակարգման միջոցով: Փորձարկվող արդյունքները ցույց են տալիս, որ մեր ուսումնական շրջանակը նախկին գիտելիքներից վերահսկվող կարգավորման հետ բարելավում է բազմաթիվ տվյալների համակարգերի որակը, համեմատած հիմնական մեթոդների բազմաթիվ հավաքածուի</abstract_hy>
+      <abstract_ca>Les integracions de paraules convencionals s'entrenen amb criteris específics (per exemple, basats en modelar llengües o coincidència) dins d'una sola font d'informació, ignorant l'oportunitat de seguir calibrant fent servir coneixements externs. Aquest paper presenta un marc unificat que aprofita priors pré-aprenguts o externs, en form a de regularització, per millorar l'aprenentatge integral basat en models de llenguatge convencional. Considerem dos tipus de regularitzadors. El primer tipus es deriva de la distribució temàtica executant LDA en dades sense etiqueta. The second type is based on dictionaries that are created with human annotation efforts.  Per aprendre efectivament amb els regularitzadors, proposem una nova estructura de dades, trajectòria softmax, en aquest article. Les integracions resultants s'evaluen segons la similitud de paraules i la classificació del sentiment. Els resultats experimentals mostren que el nostre marc d'aprenentatge amb regularització a partir del coneixement anterior millora l'incorporació de la qualitat a múltiples conjunts de dades, comparat amb una diversa col·lecció de mètodes de base.</abstract_ca>
+      <abstract_az>Yalnız bir məlumat kaynağı içində müəyyən edilən sözlər içərisində müəyyən qiymətlərlə təhsil edilir, daxili bilgi ilə daha çox kalibrləmə fərqli olaraq təhsil edilir. Bu kağıt, əvvəlcə öyrənmiş və ya dış əvvəlkilərin öyrənməsini, düzgün dil modelini yüksəltmək üçün, müxtəlif dil modelini yüksəltən öyrənmək üçün birləşdirilmiş bir framework göstərir. Biz iki növlü düzgün tərzi düşünürük. İlk növ məsələlər dağıtılışından LDA vasitəsilə yazılmış məlumatlardan alındı. İkinci növ insan işarələri ilə yaratdığı sözlərə dayanılır. Bu kağızda yeni məlumat quruluşu, trajectory softmax təklif edirik. Növbəti inşallar sözlərin bənzəriliyi və hisslərin klasifikasiyası ilə değerlənir. Müxtəlif sonuçları, əvvəlki bilgi ilə müəyyən edilən öyrənmə qurğusu ilə, çoxlu veri qurğuları ilə müxtəlif dəyişiklik metodlarının müqayisədə, müxtəlif təhsil qurğusu ilə birləşdirilir.</abstract_az>
+      <abstract_bs>Konvencionalni integraciji riječi obučeni su s specifičnim kriterijama (na primjer na temelju modela jezika ili saradnje) unutar jednog izvora informacija, bez obzira na mogućnost daljnje kalibracije koristeći vanjske znanje. Ovaj papir predstavlja ujedinjeni okvir koji utiče na predučenje ili vanjske prethodne, u obliku regularizatora, za unapređenje konvencionalnog jezičkog model a osnovanog učenja ugrađenja. Smatramo dva vrsta regularizatora. Prvi tip je proizveden iz distribucije teme pokrenući LDA na neizbiljnim podacima. Drugi tip je baziran na rečnicima koje su stvorene naporima ljudskih annotacija. Da bi se efikasno naučili sa regularizatorima, predlažemo novu strukturu podataka, trajektoriju softmax, u ovom papiru. Rezultatni integraciji procjenjuju sličnost riječima i klasifikacija osjećaja. Eksperimentalni rezultati pokazuju da naš okvir učenja s regularizacijom iz prethodnog znanja poboljšava integraciju kvalitete na višestrukim podacima u usporedbi s različitim kolekcijom početnih metoda.</abstract_bs>
+      <abstract_cs>Konvenční vkládání slov jsou trénovány podle specifických kritérií (např. založených na jazykovém modelování nebo společném výskytu) uvnitř jednoho informačního zdroje, přičemž se ignoruje možnost další kalibrace pomocí externích znalostí. Tento článek představuje jednotný rámec, který využívá předučené nebo externí předchozí záznamy, ve formě regularizátoru, pro zlepšení konvenčního jazykového modelu založeného na embeddedování. Zvažujeme dva typy regularizátorů. První typ je odvozen z distribuce tématu spuštěním LDA na neoznačených datech. Druhý typ je založen na slovnících, které jsou vytvořeny s lidskými anotacemi. Abychom se efektivně učili s regularizátory, navrhujeme v tomto článku novou datovou strukturu, trajektorii softmax. Výsledné vložení jsou hodnoceny podobností slov a klasifikací sentimentů. Experimentální výsledky ukazují, že náš učební rámec s regularizací z předchozích znalostí zlepšuje kvalitu vložení do více datových sad ve srovnání s různorodou sbírkou základních metod.</abstract_cs>
+      <abstract_et>Tavapäraseid sõnade manustamist koolitatakse konkreetsete kriteeriumidega (nt keele modelleerimisel või koosesinemisel) ühes teabeallikas, jättes arvesse võimalust edasiseks kalibreerimiseks välisteadmiste abil. Käesolevas dokumendis esitatakse ühtne raamistik, mis võimendab eelõppenud või väliseid prioriteete regulariseerija kujul tavapärase keelemudelil põhineva manustamisõppe parandamiseks. Me kaalume kahte tüüpi regulaatoreid. Esimene tüüp tuletatakse teemajaotusest, käivitades LDA märgistamata andmetel. Teine tüüp põhineb sõnaraamatutel, mis on loodud inimese annoteerimise jõupingutustega. Regulariseerijatega tõhusaks õppimiseks pakume selles töös välja uudse andmestruktuuri, trajektoor softmax. Tulenevaid manustamisi hinnatakse sõna sarnasuse ja sentimentaalse klassifikatsiooni alusel. Eksperimentaalsed tulemused näitavad, et meie õppimisraamistik, mis reguleerib varasemaid teadmisi, parandab mitme andmekogumi manustamise kvaliteeti võrreldes erinevate lähtemeetodite kogumiga.</abstract_et>
+      <abstract_bn>এক তথ্য উৎসের ভিতরে বিশেষ ক্যালাবেশনের সুযোগ প্রশিক্ষণ প্রদান করা হয় (যেমন ভাষার মডেলিং অথবা একই সাথে সংঘটিত ভিত্তিক ভিত্তিক ভিত্তিক ভিত্তিক)  এই পত্রিকাটি একটি একত্রিত ফ্রেম উপস্থাপন করেছে যা পূর্বে শিক্ষা বা বাইরে শিক্ষা প্রাপ্ত বা বিদেশী শিক্ষা প্রদান করা হয়েছে, একটি নিয়মিত শিক্ষা  আমরা দুটি ধরনের নিয়মিত বিবেচনা করি। এলডিএ চালিয়ে যাওয়ার মাধ্যমে প্রথম ধরনের বিষয় বিতরণ থেকে উদ্ধার করা হয়েছে অল্প তথ্য চালানোর মাধ্যমে। দ্বিতীয় ধরনের ভিত্তিতে রয়েছে মানুষের প্রচেষ্টার মাধ্যমে যা সৃষ্টি করা হয়েছে। কার্যকরভাবে নিয়ন্ত্রণকারীদের সাথে শিখার জন্য আমরা এই কাগজটিতে একটি উপন্যাস তথ্য কাঠামো প্রস্তাব করি, ট্রাক্টরিক এর ফলে বিভিন্ন বিভিন্ন শব্দের সমতা এবং অনুভূতি বিভাগের মাধ্যমে মূল্যায়ন করা হয়। পরীক্ষার ফলাফল দেখা যাচ্ছে যে আমাদের শিক্ষার কাঠামো পূর্বের জ্ঞান নিয়ন্ত্রণের সাথে বিভিন্ন ধরনের বেসাইলাইন পদ্ধতির তুলনায় বেশ কিছ</abstract_bn>
+      <abstract_fi>Tavanomaisia sanaupotuksia koulutetaan erityisillä kriteereillä (esim. kielimallinnukseen tai rinnakkaisesiintymiseen) yhden tietolähteen sisällä ottamatta huomioon mahdollisuutta kalibroida edelleen ulkoisen tiedon avulla. Tässä artikkelissa esitellään yhtenäinen viitekehys, joka hyödyntää ennalta opittuja tai ulkoisia prioriteetteja säännöstelijän muodossa perinteisen kielimallipohjaisen upotusoppimisen parantamiseksi. Meillä on kahdenlaisia laillistajia. Ensimmäinen tyyppi johdetaan aihejakaumasta ajamalla LDA:ta merkitsemättömille tiedoille. Toinen tyyppi perustuu sanakirjoihin, jotka on luotu inhimillisillä huomautuksilla. Jotta säännöstelijöiden kanssa voitaisiin oppia tehokkaasti, ehdotamme tässä artikkelissa uutta datarakennetta, trajectory softmax. Tuloksena olevia upotuksia arvioidaan sanojen samankaltaisuuden ja tunteiden luokittelun perusteella. Kokeelliset tulokset osoittavat, että oppimiskehyksemme, jossa on säännönmukainen aikaisemmasta tiedosta, parantaa useiden tietokokonaisuuksien upottamisen laatua verrattuna moniin perusaikataulumenetelmien kokoelmaan.</abstract_fi>
+      <abstract_sk>Običajne vgradnje besed se usposabljajo s posebnimi merili (npr. na podlagi jezikovnega modeliranja ali sočasnega pojava) znotraj enega samega vira informacij, pri čemer se ne upošteva možnost nadaljnje kalibracije z uporabo zunanjega znanja. Ta prispevek predstavlja enoten okvir, ki izkorišča vnaprej učene ali zunanje predhodne predhodne naloge v obliki urejevalnika za izboljšanje vključevanja učenja, ki temelji na običajnih jezikovnih modelih. Razmišljamo o dveh vrstah regulatorjev. Prva vrsta je izpeljana iz porazdelitve teme z zagonom LDA na neoznačenih podatkih. Druga vrsta temelji na slovarjih, ki so ustvarjeni s človeškimi pripombami. Za učinkovito učenje z regulatorji v tem prispevku predlagamo novo strukturo podatkov, trajectory softmax. Nastale vdelave so ocenjene s podobnostjo besed in klasifikacijo sentimenta. Eksperimentalni rezultati kažejo, da naš učni okvir z ureditvijo iz predhodnega znanja izboljšuje kakovost vključevanja v več naborov podatkov v primerjavi z raznoliko zbirko osnovnih metod.</abstract_sk>
+      <abstract_jv>embedding Perintah iki nggawe akeh nesaturan sing paling-nesaturan sing rumangsa akeh banter, ngono nggawe barang langkung sampek kudu nggawe gerakan ingkang. Awak dhéwé sawetara duwé Tipe tualke kang tanggal Distribusi Tema nang data Gak Bukak Tipe wis digawe sing basa ning diktualisar sing dumadhi karo dolanan sing dadi populer. Awak dhéwé nggambar aturan biasane gagal, kéné ngerasakno dadi nggawe datadir, trajector software, ning basa iki. gambar Reulti sing paling-peringatan nganggep kuwi awak dhéwé sisané awak dhéwé karo sistem sing beraksi kanggo awak dhéwé kuwi tindakan akeh perusahaan karo dataset sing butawak dhéwé, ngrebut karo akeh sampek akeh perusahaan sistem sing sus</abstract_jv>
+      <abstract_ha>An sanar da maganar da ke ƙunsa da kayan ƙayyade masu ƙayyade (misali, a kan motsi da misalin harshe ko da tsohon da ke koma) cikin wani sourcen maɓalli guda, kuma ana ƙyale fursa wa kalarin da ke amfani da ilmi na ƙarƙasan. Wannan takardar na bãyar da wani firam wanda ya haɗu da shi wanda ke ƙara gaba-da-baro ko bakin-gaba, cikin the form of a Rurizor, dõmin ya ƙara wa zane-zane-da-bakin ayuka na ɗabi'a. Tuna ganin wasu nau'i biyu. @ action: button Nau'in na biyu, yana kan karatun dictionaries wanda aka halitta da aikin zartar mutane. To, dõmin a sanar da masu inganci, sai mu buƙata wani matsayin data na yanzu, matsayin hanya, cikin wannan takarda. Ana ƙaddara masu ƙaranci da aka daidaita magana da sifilawa. Matarin da aka jarraba, ya nuna firam masu karanta da jurisdictori daga gabãnin wani ilmi ya improve tsarin faɗi a kowace data-set-daban, kuma a sammeniyar da misãlai masu haɗi ko-jama'a-biyu.</abstract_ha>
+      <abstract_he>תוספת מילים מסורתיות מאומנות עם קריטורים ספציפיים (למשל, מבוססים על דוגמנית שפה או התרחשות משותפת) בתוך מקור מידע אחד, מתעלמים מההזדמנות לקליברציה נוספת באמצעות ידע חיצוני. המסמך הזה מציג מסגרת מאוחדת שמשתמשת על קודמות קודמות מלמדות או חיצוניים, בצורה של חוקית, כדי לשפר את הלימוד המבוסס על מודל שפה קונבנציונציאלי. אנחנו שוקלים שני סוגים של חוקים. הטיפוס הראשון מושג מהפיצוץ הנושא על ידי הפעלת LDA על נתונים ללא סימנים. The second type is based on dictionaries that are created with human annotation efforts.  כדי ללמוד באופן יעיל עם המפקדים, אנו מציעים מבנה נתונים חדש, מסלול softmax, בעיתון הזה. המערכות הנוצאות מוערכות על ידי דמיון מילים וסימון רגשות. תוצאות ניסויים מראות שמסגרת הלימודים שלנו עם התקנה מידע קודם משפר את הכניסה של איכות בין קבוצות נתונים רבות, בהשוואה לאספת מיוחדת של שיטות בסיסיות.</abstract_he>
+      <abstract_bo>Conventional word embeddings are trained with specific criteria (e.g., based on language modeling or co-occurrence) inside a single information source, disregarding the opportunity for further calibration using external knowledge. ཤོག ང་ཚོས་མི་འདྲ་བ་བཟོས་མཁན་གྱི་རྩིས་པ་གཉིས་བསམ་བྱེད་ཀྱི་ཡོད། རིགས་དང་པོ་དེ་ནི་ཁོང་ཡིག་ཆ་མེད་པའི་གནད་དོན་བཤད་ནས་སྤྱོད་པའི་LDA་ནས་ཕན་འབྲས་བ་རེད། དབྱེ་རིགས་གཉིས་པ་དེ་ནི་མིའི་བསྐུལ་ལུགས་ཀྱི་བཟོ་བརྗོད་པའི་འཇིག་རྟེན་དང་མཉམ་དུ་གཞི་རྟེན་ཡོད། དེ་ལྟར་འགྱུར་བ་དང་མཉམ་དུ་གྲངས་སུ་བཏང་ན། ང་ཚོས་ཤོག་བུ་འདིའི་ནང་གི་གསར་འགུལ་གྱི་ཆ་འཕྲིན་དང་། དབྱིབས་ཤུགས་ཀྱི་གནས་ཚུལ་དེ་ཚོར་བ་དང་སྒྲིག་ཚིག་གི་དབྱེ་རིགས་ལ་བསྟུན་ནས་དབྱེ་བ་བཟོས་ཡོད། Experimental results show that our learning framework with regularization from prior knowledge improves embedding quality across multiple datasets, compared with a diverse collection of baseline methods.</abstract_bo>
+      </paper>
+    <paper id="17">
+      <title>Attention-based Recurrent Convolutional Neural Network for Automatic Essay Scoring</title>
+      <author><first>Fei</first> <last>Dong</last></author>
+      <author><first>Yue</first> <last>Zhang</last></author>
+      <author><first>Jie</first> <last>Yang</last></author>
+      <pages>153–162</pages>
+      <url hash="9595a384">K17-1017</url>
+      <doi>10.18653/v1/K17-1017</doi>
+      <abstract>Neural network models have recently been applied to the task of automatic essay scoring, giving promising results. Existing work used <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural networks</a> and <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">convolutional neural networks</a> to model input essays, giving grades based on a single vector representation of the essay. On the other hand, the relative advantages of <a href="https://en.wikipedia.org/wiki/News_media">RNNs</a> and <a href="https://en.wikipedia.org/wiki/News_media">CNNs</a> have not been compared. In addition, different parts of the essay can contribute differently for scoring, which is not captured by existing <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a>. We address these issues by building a hierarchical sentence-document model to represent essays, using the attention mechanism to automatically decide the relative weights of words and sentences. Results show that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> outperforms the previous state-of-the-art methods, demonstrating the effectiveness of the attention mechanism.</abstract>
+      <bibkey>dong-etal-2017-attention</bibkey>
+    </paper>
+    <paper id="18">
+      <title>Feature Selection as <a href="https://en.wikipedia.org/wiki/Causal_inference">Causal Inference</a> : Experiments with Text Classification</title>
+      <author><first>Michael J.</first> <last>Paul</last></author>
+      <pages>163–172</pages>
+      <url hash="60ac5aea">K17-1018</url>
+      <doi>10.18653/v1/K17-1018</doi>
+      <abstract>This paper proposes a matching technique for learning <a href="https://en.wikipedia.org/wiki/Causality">causal associations</a> between <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">word features</a> and <a href="https://en.wikipedia.org/wiki/Statistical_classification">class labels</a> in <a href="https://en.wikipedia.org/wiki/Document_classification">document classification</a>. The goal is to identify more meaningful and generalizable <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> than with only <a href="https://en.wikipedia.org/wiki/Correlation_and_dependence">correlational approaches</a>. Experiments with sentiment classification show that the proposed method identifies interpretable word associations with sentiment and improves <a href="https://en.wikipedia.org/wiki/Statistical_classification">classification</a> performance in a majority of cases. The proposed feature selection method is particularly effective when applied to out-of-domain data.</abstract>
+      <bibkey>paul-2017-feature</bibkey>
+    </paper>
+    <paper id="21">
+      <title>A Supervised Approach to Extractive Summarisation of Scientific Papers</title>
+      <author><first>Ed</first> <last>Collins</last></author>
+      <author><first>Isabelle</first> <last>Augenstein</last></author>
+      <author><first>Sebastian</first> <last>Riedel</last></author>
+      <pages>195–205</pages>
+      <url hash="dd85c328">K17-1021</url>
+      <doi>10.18653/v1/K17-1021</doi>
+      <abstract>Automatic summarisation is a popular approach to reduce a document to its main arguments. Recent research in the area has focused on neural approaches to <a href="https://en.wikipedia.org/wiki/Automatic_summarization">summarisation</a>, which can be very data-hungry. However, few large datasets exist and none for the traditionally popular domain of <a href="https://en.wikipedia.org/wiki/Scientific_literature">scientific publications</a>, which opens up challenging research avenues centered on encoding large, complex documents. In this paper, we introduce a new <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> for summarisation of computer science publications by exploiting a large resource of author provided summaries and show straightforward ways of extending it further. We develop <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> on the dataset making use of both neural sentence encoding and traditionally used summarisation features and show that <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> which encode sentences as well as their local and global context perform best, significantly outperforming well-established baseline methods.</abstract>
+      <bibkey>collins-etal-2017-supervised</bibkey>
+      <pwccode url="https://github.com/EdCo95/scientific-paper-summarisation" additional="true">EdCo95/scientific-paper-summarisation</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/cspubsum">CSPubSum</pwcdataset>
+    </paper>
+    <paper id="22">
+      <title>An Automatic Approach for Document-level Topic Model Evaluation</title>
+      <author><first>Shraey</first> <last>Bhatia</last></author>
+      <author><first>Jey Han</first> <last>Lau</last></author>
+      <author><first>Timothy</first> <last>Baldwin</last></author>
+      <pages>206–215</pages>
+      <url hash="2eaad930">K17-1022</url>
+      <doi>10.18653/v1/K17-1022</doi>
+      <abstract>Topic models jointly learn <a href="https://en.wikipedia.org/wiki/Topic_and_comment">topics</a> and document-level topic distribution. Extrinsic evaluation of <a href="https://en.wikipedia.org/wiki/Topic_model">topic models</a> tends to focus exclusively on topic-level evaluation, e.g. by assessing the coherence of topics. We demonstrate that there can be large discrepancies between topic- and document-level model quality, and that basing model evaluation on topic-level analysis can be highly misleading. We propose a method for automatically predicting topic model quality based on analysis of document-level topic allocations, and provide empirical evidence for its robustness.</abstract>
+      <bibkey>bhatia-etal-2017-automatic</bibkey>
+    </paper>
+    <paper id="24">
+      <title>Cross-language Learning with Adversarial Neural Networks</title>
+      <author><first>Shafiq</first> <last>Joty</last></author>
+      <author><first>Preslav</first> <last>Nakov</last></author>
+      <author><first>Lluís</first> <last>Màrquez</last></author>
+      <author><first>Israa</first> <last>Jaradat</last></author>
+      <pages>226–237</pages>
+      <url hash="9310b2ab">K17-1024</url>
+      <doi>10.18653/v1/K17-1024</doi>
+      <abstract>We address the problem of cross-language adaptation for question-question similarity reranking in community question answering, with the objective to port a system trained on one input language to another input language given labeled training data for the first language and only unlabeled data for the second language. In particular, we propose to use adversarial training of neural networks to learn high-level features that are discriminative for the main learning task, and at the same time are invariant across the input languages. The evaluation results show sizable improvements for our cross-language adversarial neural network (CLANN) model over a strong non-adversarial system.</abstract>
+      <bibkey>joty-etal-2017-cross</bibkey>
+    </paper>
+    <paper id="26">
+      <title>A Probabilistic Generative Grammar for Semantic Parsing</title>
+      <author><first>Abulhair</first> <last>Saparov</last></author>
+      <author><first>Vijay</first> <last>Saraswat</last></author>
+      <author><first>Tom</first> <last>Mitchell</last></author>
+      <pages>248–259</pages>
+      <url hash="5d99e2ff">K17-1026</url>
+      <doi>10.18653/v1/K17-1026</doi>
+      <abstract>We present a generative model of natural language sentences and demonstrate its application to <a href="https://en.wikipedia.org/wiki/Semantic_parsing">semantic parsing</a>. In the generative process, a <a href="https://en.wikipedia.org/wiki/Logical_form">logical form</a> sampled from a prior, and conditioned on this <a href="https://en.wikipedia.org/wiki/Logical_form">logical form</a>, a <a href="https://en.wikipedia.org/wiki/Grammar">grammar</a> probabilistically generates the output sentence. Grammar induction using MCMC is applied to learn the <a href="https://en.wikipedia.org/wiki/Grammar">grammar</a> given a set of labeled sentences with corresponding <a href="https://en.wikipedia.org/wiki/Logical_form">logical forms</a>. We develop a <a href="https://en.wikipedia.org/wiki/Semantic_parser">semantic parser</a> that finds the <a href="https://en.wikipedia.org/wiki/Logical_form">logical form</a> with the highest <a href="https://en.wikipedia.org/wiki/Posterior_probability">posterior probability</a> exactly. We obtain strong results on the GeoQuery dataset and achieve state-of-the-art F1 on Jobs.</abstract>
+      <bibkey>saparov-etal-2017-probabilistic</bibkey>
+      <pwccode url="https://github.com/asaparov/parser" additional="true">asaparov/parser</pwccode>
+    </paper>
+    <paper id="27">
+      <title>Learning Contextual Embeddings for Structural Semantic Similarity using Categorical Information</title>
+      <author><first>Massimo</first> <last>Nicosia</last></author>
+      <author><first>Alessandro</first> <last>Moschitti</last></author>
+      <pages>260–270</pages>
+      <url hash="488c05b3">K17-1027</url>
+      <doi>10.18653/v1/K17-1027</doi>
+      <abstract>Tree kernels (TKs) and <a href="https://en.wikipedia.org/wiki/Neural_network">neural networks</a> are two effective approaches for automatic feature engineering. In this paper, we combine them by modeling context word similarity in semantic TKs. This way, the latter can operate subtree matching by applying neural-based similarity on <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)">tree lexical nodes</a>. We study how to learn <a href="https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning">representations</a> for the words in context such that <a href="https://en.wikipedia.org/wiki/Theory_of_Knowledge">TKs</a> can exploit more <a href="https://en.wikipedia.org/wiki/Focus_(linguistics)">focused information</a>. We found that neural embeddings produced by current methods do not provide a suitable contextual similarity. Thus, we define a new approach based on a <a href="https://en.wikipedia.org/wiki/Siamese_network">Siamese Network</a>, which produces word representations while learning a binary text similarity. We set the <a href="https://en.wikipedia.org/wiki/Logical_disjunction">latter</a> considering examples in the same category as similar. The experiments on question and sentiment classification show that our semantic TK highly improves previous results.</abstract>
+      <bibkey>nicosia-moschitti-2017-learning</bibkey>
+    </paper>
+    <paper id="29">
+      <title>Neural Domain Adaptation for Biomedical Question Answering</title>
+      <author><first>Georg</first> <last>Wiese</last></author>
+      <author><first>Dirk</first> <last>Weissenborn</last></author>
+      <author><first>Mariana</first> <last>Neves</last></author>
+      <pages>281–289</pages>
+      <url hash="ec465cda">K17-1029</url>
+      <doi>10.18653/v1/K17-1029</doi>
+      <abstract>Factoid question answering (QA) has recently benefited from the development of deep learning (DL) systems. Neural network models outperform traditional approaches in domains where large datasets exist, such as SQuAD (ca. 100,000 questions) for Wikipedia articles. However, these systems have not yet been applied to <a href="https://en.wikipedia.org/wiki/Quality_assurance">QA</a> in more specific domains, such as <a href="https://en.wikipedia.org/wiki/Biomedicine">biomedicine</a>, because datasets are generally too small to train a DL system from scratch. For example, the BioASQ dataset for biomedical QA comprises less then 900 factoid (single answer) and list (multiple answers) QA instances. In this work, we adapt a neural QA system trained on a large open-domain dataset (SQuAD, source) to a biomedical dataset (BioASQ, target) by employing various transfer learning techniques. Our <a href="https://en.wikipedia.org/wiki/Network_architecture">network architecture</a> is based on a state-of-the-art QA system, extended with biomedical word embeddings and a novel mechanism to answer list questions. In contrast to existing biomedical QA systems, our system does not rely on <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)">domain-specific ontologies</a>, <a href="https://en.wikipedia.org/wiki/Parsing">parsers</a> or <a href="https://en.wikipedia.org/wiki/Entity–relationship_model">entity taggers</a>, which are expensive to create. Despite this fact, our systems achieve state-of-the-art results on factoid questions and competitive results on list questions.</abstract>
+      <attachment type="poster" hash="b709ef27">K17-1029.Poster.pdf</attachment>
+      <bibkey>wiese-etal-2017-neural</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/squad">SQuAD</pwcdataset>
+    </paper>
+    <paper id="30">
+      <title>A phoneme clustering algorithm based on the obligatory contour principle</title>
+      <author><first>Mans</first> <last>Hulden</last></author>
+      <pages>290–300</pages>
+      <url hash="f20c0a55">K17-1030</url>
+      <doi>10.18653/v1/K17-1030</doi>
+      <abstract>This paper explores a divisive hierarchical clustering algorithm based on the well-known <a href="https://en.wikipedia.org/wiki/Obligatory_Contour_Principle">Obligatory Contour Principle</a> in <a href="https://en.wikipedia.org/wiki/Phonology">phonology</a>. The purpose is twofold : to see if such an <a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a> could be used for unsupervised classification of phonemes or graphemes in corpora, and to investigate whether this purported universal constraint really holds for several classes of <a href="https://en.wikipedia.org/wiki/Distinctive_feature">phonological distinctive features</a>. The <a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a> achieves very high accuracies in an unsupervised setting of inferring a consonant-vowel distinction, and also has a strong tendency to detect coronal phonemes in an unsupervised fashion. Remaining classes, however, do not correspond as neatly to phonological distinctive feature splits. While the results offer only mixed support for a universal Obligatory Contour Principle, the <a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a> can be very useful for many NLP tasks due to the high accuracy in revealing consonant / vowel / coronal distinctions.</abstract>
+      <bibkey>hulden-2017-phoneme</bibkey>
+      <pwccode url="https://github.com/cvocp/cvocp" additional="false">cvocp/cvocp</pwccode>
+    </paper>
+    <paper id="31">
+      <title>Learning Stock Market Sentiment Lexicon and Sentiment-Oriented Word Vector from StockTwits<fixed-case>S</fixed-case>tock<fixed-case>T</fixed-case>wits</title>
+      <author><first>Quanzhi</first> <last>Li</last></author>
+      <author><first>Sameena</first> <last>Shah</last></author>
+      <pages>301–310</pages>
+      <url hash="e3fe32fb">K17-1031</url>
+      <doi>10.18653/v1/K17-1031</doi>
+      <abstract>Previous studies have shown that investor sentiment indicators can predict stock market change. A domain-specific sentiment lexicon and sentiment-oriented word embedding model would help the <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a> in financial domain and <a href="https://en.wikipedia.org/wiki/Stock_market">stock market</a>. In this paper, we present a new approach to learning stock market lexicon from <a href="https://en.wikipedia.org/wiki/StockTwits">StockTwits</a>, a popular financial social network for investors to share ideas. It learns word polarity by predicting <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">message sentiment</a>, using a <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">neural net-work</a>. The sentiment-oriented word embeddings are learned from tens of millions of StockTwits posts, and this is the first study presenting sentiment-oriented word embeddings for <a href="https://en.wikipedia.org/wiki/Stock_market">stock market</a>. The experiments of predicting investor sentiment show that our <a href="https://en.wikipedia.org/wiki/Lexicon">lexicon</a> outperformed other lexicons built by the state-of-the-art methods, and the sentiment-oriented word vector was much better than the general word embeddings.</abstract>
+      <bibkey>li-shah-2017-learning</bibkey>
+    </paper>
+    <paper id="33">
+      <title>Idea density for predicting Alzheimer’s disease from transcribed speech<fixed-case>A</fixed-case>lzheimer’s disease from transcribed speech</title>
+      <author><first>Kairit</first> <last>Sirts</last></author>
+      <author><first>Olivier</first> <last>Piguet</last></author>
+      <author><first>Mark</first> <last>Johnson</last></author>
+      <pages>322–332</pages>
+      <url hash="4afeb965">K17-1033</url>
+      <doi>10.18653/v1/K17-1033</doi>
+      <abstract>Idea Density (ID) measures the rate at which <a href="https://en.wikipedia.org/wiki/Idea">ideas</a> or elementary predications are expressed in an utterance or in a text. Lower ID is found to be associated with an increased risk of developing Alzheimer’s disease (AD) (Snowdon et al., 1996 ; Engelman et al., 2010). ID has been used in two different versions : propositional idea density (PID) counts the expressed ideas and can be applied to any text while semantic idea density (SID) counts pre-defined information content units and is naturally more applicable to normative domains, such as picture description tasks. In this paper, we develop DEPID, a novel dependency-based method for computing PID, and its version DEPID-R that enables to exclude repeating ideasa feature characteristic to AD speech. We conduct the first comparison of automatically extracted PID and SID in the diagnostic classification task on two different AD datasets covering both closed-topic and free-recall domains. While SID performs better on the normative dataset, adding PID leads to a small but significant improvement (+1.7 F-score). On the free-topic dataset, PID performs better than SID as expected (77.6 vs 72.3 in F-score) but adding the <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> derived from the word embedding clustering underlying the automatic SID increases the results considerably, leading to an F-score of 84.8.</abstract>
+      <bibkey>sirts-etal-2017-idea</bibkey>
+    </paper>
+    <paper id="34">
+      <title>Zero-Shot Relation Extraction via Reading Comprehension</title>
+      <author><first>Omer</first> <last>Levy</last></author>
+      <author><first>Minjoon</first> <last>Seo</last></author>
+      <author><first>Eunsol</first> <last>Choi</last></author>
+      <author><first>Luke</first> <last>Zettlemoyer</last></author>
+      <pages>333–342</pages>
+      <url hash="fed4f480">K17-1034</url>
+      <doi>10.18653/v1/K17-1034</doi>
+      <abstract>We show that <a href="https://en.wikipedia.org/wiki/Relation_extraction">relation extraction</a> can be reduced to answering simple reading comprehension questions, by associating one or more natural-language questions with each relation slot. This reduction has several advantages : we can (1) learn relation-extraction models by extending recent neural reading-comprehension techniques, (2) build very large training sets for those models by combining relation-specific crowd-sourced questions with distant supervision, and even (3) do zero-shot learning by extracting new relation types that are only specified at test-time, for which we have no labeled training examples. Experiments on a Wikipedia slot-filling task demonstrate that the approach can generalize to new questions for known relation types with high <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a>, and that zero-shot generalization to unseen relation types is possible, at lower <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy levels</a>, setting the bar for future work on this task.</abstract>
+      <bibkey>levy-etal-2017-zero</bibkey>
+      <pwccode url="" additional="true" />
+      <pwcdataset url="https://paperswithcode.com/dataset/squad">SQuAD</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikireading">WikiReading</pwcdataset>
+    </paper>
+    <paper id="35">
+      <title>The Covert Helps Parse the Overt</title>
+      <author><first>Xun</first> <last>Zhang</last></author>
+      <author><first>Weiwei</first> <last>Sun</last></author>
+      <author><first>Xiaojun</first> <last>Wan</last></author>
+      <pages>343–353</pages>
+      <url hash="e92a3e90">K17-1035</url>
+      <doi>10.18653/v1/K17-1035</doi>
+      <abstract>This paper is concerned with whether deep syntactic information can help surface parsing, with a particular focus on <a href="https://en.wikipedia.org/wiki/Empty_category">empty categories</a>. We design new algorithms to produce dependency trees in which empty elements are allowed, and evaluate the impact of information about <a href="https://en.wikipedia.org/wiki/Empty_category">empty category</a> on parsing overt elements. Such information is helpful to reduce the <a href="https://en.wikipedia.org/wiki/Approximation_error">approximation error</a> in a structured parsing model, but increases the <a href="https://en.wikipedia.org/wiki/Feasible_region">search space</a> for <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference</a> and accordingly the estimation error. To deal with structure-based overfitting, we propose to integrate disambiguation models with and without empty elements, and perform structure regularization via joint decoding. Experiments on English and Chinese TreeBanks with different parsing models indicate that incorporating empty elements consistently improves surface parsing.</abstract>
+      <bibkey>zhang-etal-2017-covert</bibkey>
+    </paper>
+    <paper id="36">
+      <title>German in Flux : Detecting Metaphoric Change via Word Entropy<fixed-case>G</fixed-case>erman in Flux: Detecting Metaphoric Change via Word Entropy</title>
+      <author><first>Dominik</first> <last>Schlechtweg</last></author>
+      <author><first>Stefanie</first> <last>Eckmann</last></author>
+      <author><first>Enrico</first> <last>Santus</last></author>
+      <author><first>Sabine</first> <last>Schulte im Walde</last></author>
+      <author><first>Daniel</first> <last>Hole</last></author>
+      <pages>354–367</pages>
+      <url hash="1e5a2350">K17-1036</url>
+      <doi>10.18653/v1/K17-1036</doi>
+      <abstract>This paper explores the information-theoretic measure entropy to detect metaphoric change, transferring ideas from hypernym detection to research on <a href="https://en.wikipedia.org/wiki/Language_change">language change</a>. We build the first diachronic test set for <a href="https://en.wikipedia.org/wiki/German_language">German</a> as a standard for metaphoric change annotation. Our <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> is unsupervised, language-independent and generalizable to other processes of <a href="https://en.wikipedia.org/wiki/Semantic_change">semantic change</a>.</abstract>
+      <attachment type="presentation" hash="c9f0390e">K17-1036.Presentation.pdf</attachment>
+      <bibkey>schlechtweg-etal-2017-german</bibkey>
+      <pwccode url="https://github.com/Garrafao/MetaphoricChange" additional="false">Garrafao/MetaphoricChange</pwccode>
+    </paper>
+    <paper id="38">
+      <title>Multilingual Semantic Parsing And Code-Switching</title>
+      <author><first>Long</first> <last>Duong</last></author>
+      <author><first>Hadi</first> <last>Afshar</last></author>
+      <author><first>Dominique</first> <last>Estival</last></author>
+      <author><first>Glen</first> <last>Pink</last></author>
+      <author><first>Philip</first> <last>Cohen</last></author>
+      <author><first>Mark</first> <last>Johnson</last></author>
+      <pages>379–389</pages>
+      <url hash="fcaea308">K17-1038</url>
+      <doi>10.18653/v1/K17-1038</doi>
+      <abstract>Extending semantic parsing systems to new domains and languages is a highly expensive, time-consuming process, so making effective use of existing resources is critical. In this paper, we describe a transfer learning method using crosslingual word embeddings in a sequence-to-sequence model. On the NLmaps corpus, our approach achieves state-of-the-art <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of 85.7 % for <a href="https://en.wikipedia.org/wiki/English_language">English</a>. Most importantly, we observed a consistent improvement for <a href="https://en.wikipedia.org/wiki/German_language">German</a> compared with several baseline domain adaptation techniques. As a by-product of this approach, our models that are trained on a combination of <a href="https://en.wikipedia.org/wiki/English_language">English and German utterances</a> perform reasonably well on code-switching utterances which contain a mixture of <a href="https://en.wikipedia.org/wiki/English_language">English</a> and <a href="https://en.wikipedia.org/wiki/German_language">German</a>, even though the training data does not contain any such. As far as we know, this is the first study of <a href="https://en.wikipedia.org/wiki/Code-switching">code-switching</a> in <a href="https://en.wikipedia.org/wiki/Semantic_parsing">semantic parsing</a>. We manually constructed the set of code-switching test utterances for the NLmaps corpus and achieve 78.3 % <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> on this <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a>.</abstract>
+      <bibkey>duong-etal-2017-multilingual-semantic</bibkey>
+      <pwccode url="https://github.com/vbtagitlab/code-switching" additional="false">vbtagitlab/code-switching</pwccode>
+    </paper>
+    <paper id="39">
+      <title>Optimizing Differentiable Relaxations of Coreference Evaluation Metrics</title>
+      <author><first>Phong</first> <last>Le</last></author>
+      <author><first>Ivan</first> <last>Titov</last></author>
+      <pages>390–399</pages>
+      <url hash="0921f8fa">K17-1039</url>
+      <doi>10.18653/v1/K17-1039</doi>
+      <abstract>Coreference evaluation metrics are hard to optimize directly as they are <a href="https://en.wikipedia.org/wiki/Differentiable_function">non-differentiable functions</a>, not easily decomposable into elementary decisions. Consequently, most approaches optimize objectives only indirectly related to the end goal, resulting in suboptimal performance. Instead, we propose a differentiable relaxation that lends itself to gradient-based optimisation, thus bypassing the need for <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> or heuristic modification of cross-entropy. We show that by modifying the training objective of a competitive neural coreference system, we obtain a substantial gain in performance. This suggests that our approach can be regarded as a viable alternative to using <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> or more computationally expensive imitation learning.</abstract>
+      <bibkey>le-titov-2017-optimizing</bibkey>
+      <pwccode url="https://github.com/lephong/diffmetric_coref" additional="false">lephong/diffmetric_coref</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/conll-2012-1">CoNLL-2012</pwcdataset>
+    </paper>
+    <paper id="40">
+      <title>Neural Structural Correspondence Learning for Domain Adaptation</title>
+      <author><first>Yftah</first> <last>Ziser</last></author>
+      <author><first>Roi</first> <last>Reichart</last></author>
+      <pages>400–410</pages>
+      <url hash="01272cee">K17-1040</url>
+      <doi>10.18653/v1/K17-1040</doi>
+      <abstract>We introduce a neural network model that marries together ideas from two prominent strands of research on domain adaptation through <a href="https://en.wikipedia.org/wiki/Representation_learning">representation learning</a> : structural correspondence learning (SCL, (Blitzer et al., 2006)) and autoencoder neural networks (NNs). Our model is a three-layer NN that learns to encode the non-pivot features of an input example into a low dimensional representation, so that the existence of pivot features (features that are prominent in both domains and convey useful information for the NLP task) in the example can be decoded from that representation. The low-dimensional representation is then employed in a <a href="https://en.wikipedia.org/wiki/Machine_learning">learning algorithm</a> for the <a href="https://en.wikipedia.org/wiki/Computational_complexity_theory">task</a>. Moreover, we show how to inject pre-trained word embeddings into our model in order to improve generalization across examples with similar pivot features. We experiment with the task of cross-domain sentiment classification on 16 domain pairs and show substantial improvements over strong baselines.</abstract>
+      <bibkey>ziser-reichart-2017-neural</bibkey>
+      <pwccode url="https://github.com/yftah89/Neural-SCLDomain-Adaptation" additional="true">yftah89/Neural-SCLDomain-Adaptation</pwccode>
+    </paper>
+    <paper id="41">
+      <title>A Simple and Accurate Syntax-Agnostic Neural Model for Dependency-based Semantic Role Labeling</title>
+      <author><first>Diego</first> <last>Marcheggiani</last></author>
+      <author><first>Anton</first> <last>Frolov</last></author>
+      <author><first>Ivan</first> <last>Titov</last></author>
+      <pages>411–420</pages>
+      <url hash="3856833f">K17-1041</url>
+      <doi>10.18653/v1/K17-1041</doi>
+      <abstract>We introduce a simple and accurate neural model for dependency-based semantic role labeling. Our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> predicts predicate-argument dependencies relying on states of a bidirectional LSTM encoder. The semantic role labeler achieves competitive performance on <a href="https://en.wikipedia.org/wiki/English_language">English</a>, even without any kind of <a href="https://en.wikipedia.org/wiki/Syntax">syntactic information</a> and only using local inference. However, when automatically predicted part-of-speech tags are provided as input, it substantially outperforms all previous local models and approaches the best reported results on the English CoNLL-2009 dataset. We also consider <a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a>, <a href="https://en.wikipedia.org/wiki/Czech_language">Czech</a> and <a href="https://en.wikipedia.org/wiki/Spanish_language">Spanish</a> where our approach also achieves competitive results. Syntactic parsers are unreliable on out-of-domain data, so standard (i.e., syntactically-informed) SRL models are hindered when tested in this setting. Our syntax-agnostic model appears more robust, resulting in the best reported results on standard out-of-domain test sets.</abstract>
+      <bibkey>marcheggiani-etal-2017-simple</bibkey>
+      <pwccode url="https://github.com/diegma/neural-dep-srl" additional="true">diegma/neural-dep-srl</pwccode>
+    </paper>
+    <paper id="42">
+      <title>Joint Prediction of Morphosyntactic Categories for Fine-Grained Arabic Part-of-Speech Tagging Exploiting Tag Dictionary Information<fixed-case>A</fixed-case>rabic Part-of-Speech Tagging Exploiting Tag Dictionary Information</title>
+      <author><first>Go</first> <last>Inoue</last></author>
+      <author><first>Hiroyuki</first> <last>Shindo</last></author>
+      <author><first>Yuji</first> <last>Matsumoto</last></author>
+      <pages>421–431</pages>
+      <url hash="2d527a06">K17-1042</url>
+      <doi>10.18653/v1/K17-1042</doi>
+      <abstract>Part-of-speech (POS) tagging for morphologically rich languages such as <a href="https://en.wikipedia.org/wiki/Arabic">Arabic</a> is a challenging problem because of their enormous tag sets. One reason for this is that in the <a href="https://en.wikipedia.org/wiki/Tag_(metadata)">tagging scheme</a> for such languages, a complete POS tag is formed by combining tags from multiple tag sets defined for each morphosyntactic category. Previous approaches in Arabic POS tagging applied one <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> for each morphosyntactic tagging task, without utilizing shared information between the <a href="https://en.wikipedia.org/wiki/Task_(project_management)">tasks</a>. In this paper, we propose an approach that utilizes this information by jointly modeling multiple morphosyntactic tagging tasks with a multi-task learning framework. We also propose a method of incorporating tag dictionary information into our neural models by combining word representations with representations of the sets of possible tags. Our experiments showed that the joint model with tag dictionary information results in an <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of 91.38 % on the Penn Arabic Treebank data set, with an absolute improvement of 2.11 % over the current state-of-the-art <a href="https://en.wikipedia.org/wiki/Tagger">tagger</a>.</abstract>
+      <bibkey>inoue-etal-2017-joint</bibkey>
+    </paper>
+    <paper id="43">
+      <title>Learning from Relatives : Unified Dialectal Arabic Segmentation<fixed-case>A</fixed-case>rabic Segmentation</title>
+      <author><first>Younes</first> <last>Samih</last></author>
+      <author><first>Mohamed</first> <last>Eldesouki</last></author>
+      <author><first>Mohammed</first> <last>Attia</last></author>
+      <author><first>Kareem</first> <last>Darwish</last></author>
+      <author><first>Ahmed</first> <last>Abdelali</last></author>
+      <author><first>Hamdy</first> <last>Mubarak</last></author>
+      <author><first>Laura</first> <last>Kallmeyer</last></author>
+      <pages>432–441</pages>
+      <url hash="c9a86e76">K17-1043</url>
+      <doi>10.18653/v1/K17-1043</doi>
+      <abstract>Arabic dialects do not just share a common koin, but there are shared pan-dialectal linguistic phenomena that allow <a href="https://en.wikipedia.org/wiki/Computational_linguistics">computational models</a> for <a href="https://en.wikipedia.org/wiki/Dialect">dialects</a> to learn from each other. In this paper we build a unified segmentation model where the training data for different dialects are combined and a single <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> is trained. The model yields higher accuracies than dialect-specific models, eliminating the need for dialect identification before segmentation. We also measure the degree of <a href="https://en.wikipedia.org/wiki/Coefficient_of_relationship">relatedness</a> between four major <a href="https://en.wikipedia.org/wiki/Varieties_of_Arabic">Arabic dialects</a> by testing how a segmentation model trained on one dialect performs on the other dialects. We found that linguistic relatedness is contingent with <a href="https://en.wikipedia.org/wiki/Proxemics">geographical proximity</a>. In our experiments we use SVM-based ranking and bi-LSTM-CRF sequence labeling.</abstract>
+      <bibkey>samih-etal-2017-learning</bibkey>
+    </paper>
+    <paper id="44">
+      <title>Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks<fixed-case>RNN</fixed-case> Encoder-Decoder Networks</title>
+      <author><first>Van-Khanh</first> <last>Tran</last></author>
+      <author><first>Le-Minh</first> <last>Nguyen</last></author>
+      <pages>442–451</pages>
+      <url hash="4b5541c6">K17-1044</url>
+      <doi>10.18653/v1/K17-1044</doi>
+      <abstract>Natural language generation (NLG) is a critical component in a <a href="https://en.wikipedia.org/wiki/Spoken_dialogue_system">spoken dialogue system</a>. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances. The proposed generator can be jointly trained both sentence planning and surface realization to produce <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">natural language sentences</a>. The proposed <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> was extensively evaluated on four different NLG datasets. The experimental results showed that the proposed generators not only consistently outperform the previous methods across all the NLG domains but also show an ability to generalize from a new, unseen domain and learn from multi-domain datasets.</abstract>
+      <bibkey>tran-nguyen-2017-natural</bibkey>
+    </paper>
+    <paper id="45">
+      <title>Graph-based Neural Multi-Document Summarization</title>
+      <author><first>Michihiro</first> <last>Yasunaga</last></author>
+      <author><first>Rui</first> <last>Zhang</last></author>
+      <author><first>Kshitijh</first> <last>Meelu</last></author>
+      <author><first>Ayush</first> <last>Pareek</last></author>
+      <author><first>Krishnan</first> <last>Srinivasan</last></author>
+      <author><first>Dragomir</first> <last>Radev</last></author>
+      <pages>452–462</pages>
+      <url hash="a42896cd">K17-1045</url>
+      <doi>10.18653/v1/K17-1045</doi>
+      <abstract>We propose a neural multi-document summarization system that incorporates sentence relation graphs. We employ a Graph Convolutional Network (GCN) on the relation graphs, with sentence embeddings obtained from <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Networks</a> as input node features. Through multiple layer-wise propagation, the GCN generates high-level hidden sentence features for salience estimation. We then use a <a href="https://en.wikipedia.org/wiki/Greedy_heuristic">greedy heuristic</a> to extract salient sentences that avoid <a href="https://en.wikipedia.org/wiki/Redundancy_(information_theory)">redundancy</a>. In our experiments on DUC 2004, we consider three types of sentence relation graphs and demonstrate the advantage of combining sentence relations in <a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)">graphs</a> with the representation power of <a href="https://en.wikipedia.org/wiki/Deep_learning">deep neural networks</a>. Our model improves upon other traditional graph-based extractive approaches and the vanilla GRU sequence model with no graph, and it achieves competitive results against other state-of-the-art multi-document summarization systems.</abstract>
+      <bibkey>yasunaga-etal-2017-graph</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/duc-2004">DUC 2004</pwcdataset>
+    </paper>
+  </volume>
+  <volume id="2">
+    <meta>
+      <booktitle>Proceedings of the <fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> <fixed-case>SIGMORPHON</fixed-case> 2017 Shared Task: Universal Morphological Reinflection</booktitle>
+      <url hash="b6e282e2">K17-2</url>
+      <editor><first>Mans</first><last>Hulden</last></editor>
+      <doi>10.18653/v1/K17-2</doi>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Vancouver</address>
+      <month>August</month>
+      <year>2017</year>
+    </meta>
+    <frontmatter>
+      <url hash="fa633a4b">K17-2000</url>
+      <bibkey>conll-2017-conll</bibkey>
+    </frontmatter>
+    </volume>
+  <volume id="3">
+    <meta>
+      <booktitle>Proceedings of the <fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies</booktitle>
+      <url hash="1f3a8c57">K17-3</url>
+      <editor><first>Jan</first><last>Hajič</last></editor>
+      <editor><first>Dan</first><last>Zeman</last></editor>
+      <doi>10.18653/v1/K17-3</doi>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Vancouver, Canada</address>
+      <month>August</month>
+      <year>2017</year>
+    </meta>
+    <frontmatter>
+      <url hash="5b38a3e1">K17-3000</url>
+      <bibkey>conll-2017-conll-2017</bibkey>
+    </frontmatter>
+    <paper id="1">
+      <title>CoNLL 2017 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies<fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 Shared Task: Multilingual Parsing from Raw Text to <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Daniel</first> <last>Zeman</last></author>
+      <author><first>Martin</first> <last>Popel</last></author>
+      <author><first>Milan</first> <last>Straka</last></author>
+      <author><first>Jan</first> <last>Hajič</last></author>
+      <author><first>Joakim</first> <last>Nivre</last></author>
+      <author><first>Filip</first> <last>Ginter</last></author>
+      <author><first>Juhani</first> <last>Luotolahti</last></author>
+      <author><first>Sampo</first> <last>Pyysalo</last></author>
+      <author><first>Slav</first> <last>Petrov</last></author>
+      <author><first>Martin</first> <last>Potthast</last></author>
+      <author><first>Francis</first> <last>Tyers</last></author>
+      <author><first>Elena</first> <last>Badmaeva</last></author>
+      <author><first>Memduh</first> <last>Gokirmak</last></author>
+      <author><first>Anna</first> <last>Nedoluzhko</last></author>
+      <author><first>Silvie</first> <last>Cinková</last></author>
+      <author><first>Jan</first> <last>Hajič jr.</last></author>
+      <author><first>Jaroslava</first> <last>Hlaváčová</last></author>
+      <author><first>Václava</first> <last>Kettnerová</last></author>
+      <author><first>Zdeňka</first> <last>Urešová</last></author>
+      <author><first>Jenna</first> <last>Kanerva</last></author>
+      <author><first>Stina</first> <last>Ojala</last></author>
+      <author><first>Anna</first> <last>Missilä</last></author>
+      <author><first>Christopher D.</first> <last>Manning</last></author>
+      <author><first>Sebastian</first> <last>Schuster</last></author>
+      <author><first>Siva</first> <last>Reddy</last></author>
+      <author><first>Dima</first> <last>Taji</last></author>
+      <author><first>Nizar</first> <last>Habash</last></author>
+      <author><first>Herman</first> <last>Leung</last></author>
+      <author><first>Marie-Catherine</first> <last>de Marneffe</last></author>
+      <author><first>Manuela</first> <last>Sanguinetti</last></author>
+      <author><first>Maria</first> <last>Simi</last></author>
+      <author><first>Hiroshi</first> <last>Kanayama</last></author>
+      <author><first>Valeria</first> <last>de Paiva</last></author>
+      <author><first>Kira</first> <last>Droganova</last></author>
+      <author><first>Héctor</first> <last>Martínez Alonso</last></author>
+      <author><first>Çağrı</first> <last>Çöltekin</last></author>
+      <author><first>Umut</first> <last>Sulubacak</last></author>
+      <author><first>Hans</first> <last>Uszkoreit</last></author>
+      <author><first>Vivien</first> <last>Macketanz</last></author>
+      <author><first>Aljoscha</first> <last>Burchardt</last></author>
+      <author><first>Kim</first> <last>Harris</last></author>
+      <author><first>Katrin</first> <last>Marheinecke</last></author>
+      <author><first>Georg</first> <last>Rehm</last></author>
+      <author><first>Tolga</first> <last>Kayadelen</last></author>
+      <author><first>Mohammed</first> <last>Attia</last></author>
+      <author><first>Ali</first> <last>Elkahky</last></author>
+      <author><first>Zhuoran</first> <last>Yu</last></author>
+      <author><first>Emily</first> <last>Pitler</last></author>
+      <author><first>Saran</first> <last>Lertpradit</last></author>
+      <author><first>Michael</first> <last>Mandl</last></author>
+      <author><first>Jesse</first> <last>Kirchner</last></author>
+      <author><first>Hector Fernandez</first> <last>Alcalde</last></author>
+      <author><first>Jana</first> <last>Strnadová</last></author>
+      <author><first>Esha</first> <last>Banerjee</last></author>
+      <author><first>Ruli</first> <last>Manurung</last></author>
+      <author><first>Antonio</first> <last>Stella</last></author>
+      <author><first>Atsuko</first> <last>Shimada</last></author>
+      <author><first>Sookyoung</first> <last>Kwak</last></author>
+      <author><first>Gustavo</first> <last>Mendonça</last></author>
+      <author><first>Tatiana</first> <last>Lando</last></author>
+      <author><first>Rattima</first> <last>Nitisaroj</last></author>
+      <author><first>Josie</first> <last>Li</last></author>
+      <pages>1–19</pages>
+      <url hash="5d18318b">K17-3001</url>
+      <doi>10.18653/v1/K17-3001</doi>
+      <abstract>The Conference on Computational Natural Language Learning (CoNLL) features a shared task, in which participants train and test their <a href="https://en.wikipedia.org/wiki/Machine_learning">learning systems</a> on the same data sets. In 2017, the task was devoted to learning dependency parsers for a large number of languages, in a real-world setting without any gold-standard annotation on input. All <a href="https://en.wikipedia.org/wiki/Test_set">test sets</a> followed a unified annotation scheme, namely that of Universal Dependencies. In this paper, we define the task and evaluation methodology, describe how the data sets were prepared, report and analyze the main results, and provide a brief categorization of the different approaches of the participating systems.</abstract>
+      <bibkey>zeman-etal-2017-conll</bibkey>
+      <revision id="1" href="K17-3001v1" hash="dbb3affb" />
+      <revision id="2" href="K17-3001v2" hash="5d18318b" date="2022-02-11">Added missing acknowledgment.</revision>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="2">
+      <title>Stanford’s Graph-based Neural Dependency Parser at the CoNLL 2017 Shared Task<fixed-case>S</fixed-case>tanford’s Graph-based Neural Dependency Parser at the <fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 Shared Task</title>
+      <author><first>Timothy</first> <last>Dozat</last></author>
+      <author><first>Peng</first> <last>Qi</last></author>
+      <author><first>Christopher D.</first> <last>Manning</last></author>
+      <pages>20–30</pages>
+      <url hash="e174a8ef">K17-3002</url>
+      <doi>10.18653/v1/K17-3002</doi>
+      <abstract>This paper describes the neural dependency parser submitted by Stanford to the CoNLL 2017 Shared Task on parsing Universal Dependencies. Our system uses relatively simple LSTM networks to produce <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part of speech tags</a> and labeled dependency parses from segmented and tokenized sequences of words. In order to address the rare word problem that abounds in languages with complex morphology, we include a character-based word representation that uses an LSTM to produce embeddings from sequences of characters. Our <a href="https://en.wikipedia.org/wiki/System">system</a> was ranked first according to all five relevant <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metrics</a> for the <a href="https://en.wikipedia.org/wiki/System">system</a> : UPOS tagging (93.09 %), XPOS tagging (82.27 %), unlabeled attachment score (81.30 %), labeled attachment score (76.30 %), and content word labeled attachment score (72.57 %).</abstract>
+      <bibkey>dozat-etal-2017-stanfords</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="3">
+      <title>Combining Global Models for Parsing Universal Dependencies<fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Tianze</first> <last>Shi</last></author>
+      <author><first>Felix G.</first> <last>Wu</last></author>
+      <author><first>Xilun</first> <last>Chen</last></author>
+      <author><first>Yao</first> <last>Cheng</last></author>
+      <pages>31–39</pages>
+      <url hash="415b8b8e">K17-3003</url>
+      <doi>10.18653/v1/K17-3003</doi>
+      <abstract>We describe our entry, C2L2, to the CoNLL 2017 shared task on parsing Universal Dependencies from raw text. Our system features an ensemble of three global parsing paradigms, one graph-based and two transition-based. Each <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> leverages character-level bi-directional LSTMs as lexical feature extractors to encode <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">morphological information</a>. Though relying on baseline tokenizers and focusing only on <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a>, our system ranked second in the official end-to-end evaluation with a <a href="https://en.wikipedia.org/wiki/Macro_(computer_science)">macro-average</a> of 75.00 LAS F1 score over 81 test treebanks. In addition, we had the top average performance on the four surprise languages and on the small treebank subset.</abstract>
+      <bibkey>shi-etal-2017-combining</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="5">
+      <title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies<fixed-case>HIT</fixed-case>-<fixed-case>SCIR</fixed-case> System for End-to-End Parsing of <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Wanxiang</first> <last>Che</last></author>
+      <author><first>Jiang</first> <last>Guo</last></author>
+      <author><first>Yuxuan</first> <last>Wang</last></author>
+      <author><first>Bo</first> <last>Zheng</last></author>
+      <author><first>Huaipeng</first> <last>Zhao</last></author>
+      <author id="yang-liu"><first>Yang</first> <last>Liu</last></author>
+      <author><first>Dechuan</first> <last>Teng</last></author>
+      <author><first>Ting</first> <last>Liu</last></author>
+      <pages>52–62</pages>
+      <url hash="5688fe27">K17-3005</url>
+      <doi>10.18653/v1/K17-3005</doi>
+      <abstract>This paper describes our system (HIT-SCIR) for the CoNLL 2017 shared task : Multilingual Parsing from Raw Text to Universal Dependencies. Our system includes three pipelined components : <a href="https://en.wikipedia.org/wiki/Lexical_analysis">tokenization</a>, Part-of-Speech (POS) tagging and dependency parsing. We use character-based bidirectional long short-term memory (LSTM) networks for both tokenization and POS tagging. Afterwards, we employ a list-based transition-based algorithm for general non-projective parsing and present an improved Stack-LSTM-based architecture for representing each transition state and making predictions. Furthermore, to parse low / zero-resource languages and cross-domain data, we use a model transfer approach to make effective use of existing resources. We demonstrate substantial gains against the UDPipe baseline, with an average improvement of 3.76 % in LAS of all languages. And finally, we rank the 4th place on the official test sets.<i>tokenization</i>,
+      <i>Part-of-Speech</i> (POS) <i>tagging</i> and <i>dependency parsing</i>.
+      We use character-based bidirectional long short-term memory (LSTM) networks for
+      both tokenization and POS tagging.
+      Afterwards, we employ a list-based transition-based algorithm for general
+      non-projective parsing and present an improved Stack-LSTM-based architecture
+      for representing each transition state and making predictions.
+      Furthermore, to parse low/zero-resource languages and cross-domain data, we use
+      a model transfer approach to make effective use of existing resources.
+      We demonstrate substantial gains against the UDPipe baseline, with an average
+      improvement of 3.76% in LAS of all languages. And finally, we rank the 4th
+      place on the official test sets.
+    </abstract>
+      <bibkey>che-etal-2017-hit</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="6">
+      <title>A System for Multilingual Dependency Parsing based on Bidirectional LSTM Feature Representations<fixed-case>LSTM</fixed-case> Feature Representations</title>
+      <author><first>KyungTae</first> <last>Lim</last></author>
+      <author><first>Thierry</first> <last>Poibeau</last></author>
+      <pages>63–70</pages>
+      <url hash="2cacd098">K17-3006</url>
+      <doi>10.18653/v1/K17-3006</doi>
+      <abstract>In this paper, we present our multilingual dependency parser developed for the CoNLL 2017 UD Shared Task dealing with Multilingual Parsing from Raw Text to Universal Dependencies. Our <a href="https://en.wikipedia.org/wiki/Parsing">parser</a> extends the monolingual BIST-parser as a multi-source multilingual trainable parser. Thanks to multilingual word embeddings and one hot encodings for languages, our system can use both monolingual and multi-source training. We trained 69 monolingual language models and 13 multilingual models for the shared task. Our multilingual approach making use of different resources yield better results than the monolingual approach for 11 languages. Our <a href="https://en.wikipedia.org/wiki/System">system</a> ranked 5 th and achieved 70.93 overall LAS score over the 81 test corpora (macro-averaged LAS F1 score).</abstract>
+      <bibkey>lim-poibeau-2017-system</bibkey>
+    </paper>
+    <paper id="8">
+      <title>Parsing with Context Embeddings</title>
+      <author><first>Ömer</first> <last>Kırnap</last></author>
+      <author><first>Berkay Furkan</first> <last>Önder</last></author>
+      <author><first>Deniz</first> <last>Yuret</last></author>
+      <pages>80–87</pages>
+      <url hash="c68db857">K17-3008</url>
+      <doi>10.18653/v1/K17-3008</doi>
+      <abstract>We introduce context embeddings, dense vectors derived from a <a href="https://en.wikipedia.org/wiki/Language_model">language model</a> that represent the left / right context of a word instance, and demonstrate that context embeddings significantly improve the accuracy of our transition based parser. Our model consists of a bidirectional LSTM (BiLSTM) based language model that is pre-trained to predict words in plain text, and a multi-layer perceptron (MLP) decision model that uses features from the language model to predict the correct actions for an ArcHybrid transition based parser. We participated in the CoNLL 2017 UD Shared Task as the Ko University team and our system was ranked 7th out of 33 systems that parsed 81 treebanks in 49 languages.</abstract>
+      <bibkey>kirnap-etal-2017-parsing</bibkey>
+    </paper>
+    <paper id="9">
+      <title>Tokenizing, POS Tagging, Lemmatizing and Parsing UD 2.0 with UDPipe<fixed-case>POS</fixed-case> Tagging, Lemmatizing and Parsing <fixed-case>UD</fixed-case> 2.0 with <fixed-case>UDP</fixed-case>ipe</title>
+      <author><first>Milan</first> <last>Straka</last></author>
+      <author><first>Jana</first> <last>Straková</last></author>
+      <pages>88–99</pages>
+      <url hash="23b735a9">K17-3009</url>
+      <doi>10.18653/v1/K17-3009</doi>
+      <abstract>Many natural language processing tasks, including the most advanced ones, routinely start by several basic processing steps   tokenization and segmentation, most likely also POS tagging and <a href="https://en.wikipedia.org/wiki/Lemmatization">lemmatization</a>, and commonly <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a> as well. A multilingual pipeline performing these steps can be trained using the Universal Dependencies project, which contains annotations of the described tasks for 50 languages in the latest release UD 2.0. We present an update to UDPipe, a simple-to-use pipeline processing CoNLL-U version 2.0 files, which performs these tasks for multiple languages without requiring additional external data. We provide <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> for all 50 languages of UD 2.0, and furthermore, the <a href="https://en.wikipedia.org/wiki/Pipeline_(software)">pipeline</a> can be trained easily using data in CoNLL-U format. UDPipe is a standalone application in <a href="https://en.wikipedia.org/wiki/C++">C++</a>, with bindings available for <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>, <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C #</a> and <a href="https://en.wikipedia.org/wiki/Perl">Perl</a>. In the CoNLL 2017 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies, UDPipe was the eight best system, while achieving low running times and moderately sized models.</abstract>
+      <attachment type="poster" hash="a1c0e577">K17-3009.Poster.pdf</attachment>
+      <bibkey>straka-strakova-2017-tokenizing</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="10">
+      <title>UParse : the Edinburgh system for the CoNLL 2017 UD shared task<fixed-case>UP</fixed-case>arse: the <fixed-case>E</fixed-case>dinburgh system for the <fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 <fixed-case>UD</fixed-case> shared task</title>
+      <author><first>Clara</first> <last>Vania</last></author>
+      <author><first>Xingxing</first> <last>Zhang</last></author>
+      <author><first>Adam</first> <last>Lopez</last></author>
+      <pages>100–110</pages>
+      <url hash="a88d380c">K17-3010</url>
+      <doi>10.18653/v1/K17-3010</doi>
+      <abstract>This paper presents our submissions for the CoNLL 2017 UD Shared Task. Our <a href="https://en.wikipedia.org/wiki/Parsing">parser</a>, called UParse, is based on a neural network graph-based dependency parser. The <a href="https://en.wikipedia.org/wiki/Parsing">parser</a> uses <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> from a bidirectional LSTM to to produce a distribution over possible heads for each word in the sentence. To allow <a href="https://en.wikipedia.org/wiki/Transfer_learning">transfer learning</a> for low-resource treebanks and surprise languages, we train several multilingual models for related languages, grouped by their genus and language families. Out of 33 participants, our system achieves rank 9th in the main results, with 75.49 UAS and 68.87 LAS F-1 scores (average across 81 treebanks).</abstract>
+      <bibkey>vania-etal-2017-uparse</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="11">
+      <title>Multi-Model and Crosslingual Dependency Analysis</title>
+      <author><first>Johannes</first> <last>Heinecke</last></author>
+      <author><first>Munshi</first> <last>Asadullah</last></author>
+      <pages>111–118</pages>
+      <url hash="2fd79a3f">K17-3011</url>
+      <doi>10.18653/v1/K17-3011</doi>
+      <abstract>This paper describes the system of the Team Orange-Deskin, used for the CoNLL 2017 UD Shared Task in Multilingual Dependency Parsing. We based our approach on an existing open source tool (BistParser), which we modified in order to produce the required output. Additionally we added a kind of pseudo-projectivisation. This was needed since some of the task’s languages have a high percentage of non-projective dependency trees. In most cases we also employed <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a>. For the 4 surprise languages, the data provided seemed too little to train on. Thus we decided to use the training data of typologically close languages instead. Our <a href="https://en.wikipedia.org/wiki/System">system</a> achieved a macro-averaged LAS of 68.61 % (10th in the overall ranking) which improved to 69.38 % after <a href="https://en.wikipedia.org/wiki/Patch_(computing)">bug fixes</a>.</abstract>
+      <attachment type="poster" hash="90fa0280">K17-3011.Poster.pdf</attachment>
+      <bibkey>heinecke-asadullah-2017-multi</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="12">
+      <title>TurkuNLP : Delexicalized Pre-training of Word Embeddings for Dependency Parsing<fixed-case>T</fixed-case>urku<fixed-case>NLP</fixed-case>: Delexicalized Pre-training of Word Embeddings for Dependency Parsing</title>
+      <author><first>Jenna</first> <last>Kanerva</last></author>
+      <author><first>Juhani</first> <last>Luotolahti</last></author>
+      <author><first>Filip</first> <last>Ginter</last></author>
+      <pages>119–125</pages>
+      <url hash="de4fb55e">K17-3012</url>
+      <doi>10.18653/v1/K17-3012</doi>
+      <abstract>We present the TurkuNLP entry in the CoNLL 2017 Shared Task on Multilingual Parsing from Raw Text to Universal Dependencies. The system is based on the UDPipe parser with our focus being in exploring various techniques to pre-train the word embeddings used by the <a href="https://en.wikipedia.org/wiki/Parsing">parser</a> in order to improve its performance especially on languages with small training sets. The system ranked 11th among the 33 participants overall, being 8th on the small treebanks, 10th on the large treebanks, 12th on the parallel test sets, and 26th on the surprise languages.</abstract>
+      <bibkey>kanerva-etal-2017-turkunlp</bibkey>
+    </paper>
+    <paper id="13">
+      <title>The parse is darc and full of errors : Universal dependency parsing with transition-based and graph-based algorithms</title>
+      <author><first>Kuan</first> <last>Yu</last></author>
+      <author><first>Pavel</first> <last>Sofroniev</last></author>
+      <author><first>Erik</first> <last>Schill</last></author>
+      <author><first>Erhard</first> <last>Hinrichs</last></author>
+      <pages>126–133</pages>
+      <url hash="18cc1213">K17-3013</url>
+      <doi>10.18653/v1/K17-3013</doi>
+      <abstract>We developed two simple systems for dependency parsing : darc, a transition-based parser, and mstnn, a graph-based parser. We tested our <a href="https://en.wikipedia.org/wiki/System">systems</a> in the CoNLL 2017 UD Shared Task, with <a href="https://en.wikipedia.org/wiki/Darc">darc</a> being the official system. Darc ranked 12th among 33 systems, just above the baseline. Mstnn had no official ranking, but its main score was above the 27th. In this paper, we describe our two <a href="https://en.wikipedia.org/wiki/System">systems</a>, examine their strengths and weaknesses, and discuss the lessons we learned.</abstract>
+      <bibkey>yu-etal-2017-parse</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="14">
+      <title>A Novel Neural Network Model for Joint POS Tagging and Graph-based Dependency Parsing<fixed-case>POS</fixed-case> Tagging and Graph-based Dependency Parsing</title>
+      <author><first>Dat Quoc</first> <last>Nguyen</last></author>
+      <author><first>Mark</first> <last>Dras</last></author>
+      <author><first>Mark</first> <last>Johnson</last></author>
+      <pages>134–142</pages>
+      <url hash="9cacfef4">K17-3014</url>
+      <doi>10.18653/v1/K17-3014</doi>
+      <abstract>We present a novel <a href="https://en.wikipedia.org/wiki/Neural_network">neural network model</a> that learns <a href="https://en.wikipedia.org/wiki/Tag_(metadata)">POS tagging</a> and graph-based dependency parsing jointly. Our model uses bidirectional LSTMs to learn feature representations shared for both POS tagging and dependency parsing tasks, thus handling the feature-engineering problem. Our extensive experiments, on 19 languages from the Universal Dependencies project, show that our model outperforms the state-of-the-art neural network-based Stack-propagation model for joint POS tagging and transition-based dependency parsing, resulting in a new state of the art. Our code is open-source and available together with pre-trained models at :<url>https://github.com/datquocnguyen/jPTDP</url>
+      </abstract>
+      <bibkey>nguyen-etal-2017-novel</bibkey>
+      <pwccode url="https://github.com/datquocnguyen/jPTDP" additional="false">datquocnguyen/jPTDP</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="15">
+      <title>A non-DNN Feature Engineering Approach to Dependency Parsing   FBAML at CoNLL 2017 Shared Task<fixed-case>DNN</fixed-case> Feature Engineering Approach to Dependency Parsing – <fixed-case>FBAML</fixed-case> at <fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 Shared Task</title>
+      <author><first>Xian</first> <last>Qian</last></author>
+      <author id="yang-liu-icsi"><first>Yang</first> <last>Liu</last></author>
+      <pages>143–151</pages>
+      <url hash="91f77a17">K17-3015</url>
+      <doi>10.18653/v1/K17-3015</doi>
+      <abstract>For this year’s multilingual dependency parsing shared task, we developed a <a href="https://en.wikipedia.org/wiki/Pipeline_(software)">pipeline system</a>, which uses a variety of features for each of its <a href="https://en.wikipedia.org/wiki/Component-based_software_engineering">components</a>. Unlike the recent popular deep learning approaches that learn low dimensional dense features using non-linear classifier, our system uses structured linear classifiers to learn millions of <a href="https://en.wikipedia.org/wiki/Sparse_matrix">sparse features</a>. Specifically, we trained a <a href="https://en.wikipedia.org/wiki/Linear_classifier">linear classifier</a> for sentence boundary prediction, linear chain conditional random fields (CRFs) for <a href="https://en.wikipedia.org/wiki/Lexical_analysis">tokenization</a>, <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part-of-speech tagging</a> and morph analysis. A second order graph based parser learns the tree structure (without relations), and fa linear tree CRF then assigns relations to the dependencies in the <a href="https://en.wikipedia.org/wiki/Tree_(graph_theory)">tree</a>. Our <a href="https://en.wikipedia.org/wiki/System">system</a> achieves reasonable performance   67.87 % official averaged macro F1 score</abstract>
+      <bibkey>qian-liu-2017-non</bibkey>
+    </paper>
+    <paper id="16">
+      <title>A non-projective greedy dependency parser with bidirectional LSTMs<fixed-case>LSTM</fixed-case>s</title>
+      <author><first>David</first> <last>Vilares</last></author>
+      <author><first>Carlos</first> <last>Gómez-Rodríguez</last></author>
+      <pages>152–162</pages>
+      <url hash="d7fdf70a">K17-3016</url>
+      <doi>10.18653/v1/K17-3016</doi>
+      <abstract>The LyS-FASTPARSE team present BIST-COVINGTON, a neural implementation of the Covington (2001) algorithm for non-projective dependency parsing. The bidirectional LSTM approach by Kiperwasser and Goldberg (2016) is used to train a greedy parser with a dynamic oracle to mitigate error propagation. The <a href="https://en.wikipedia.org/wiki/Model_(person)">model</a> participated in the CoNLL 2017 UD Shared Task. In spite of not using any ensemble methods and using the baseline segmentation and PoS tagging, the <a href="https://en.wikipedia.org/wiki/Parsing">parser</a> obtained good results on both macro-average LAS and UAS in the big treebanks category (55 languages), ranking 7th out of 33 teams. In the all treebanks category (LAS and UAS) we ranked 16th and 12th. The gap between the all and big categories is mainly due to the poor performance on four parallel PUD treebanks, suggesting that some ‘suffixed’ treebanks (e.g. Spanish-AnCora) perform poorly on cross-treebank settings, which does not occur with the corresponding ‘unsuffixed’ treebank (e.g. Spanish). By changing that, we obtain the 11th best LAS among all runs (official and unofficial). The code is made available at<url>https://github.com/CoNLL-UD-2017/LyS-FASTPARSE</url>
+      </abstract>
+      <bibkey>vilares-gomez-rodriguez-2017-non</bibkey>
+      <pwccode url="https://github.com/CoNLL-UD-2017/LyS-FASTPARSE" additional="false">CoNLL-UD-2017/LyS-FASTPARSE</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/sst">SST</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="17">
+      <title>LIMSI@CoNLL’17 : UD Shared Task<fixed-case>LIMSI</fixed-case>@<fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case>’17: <fixed-case>UD</fixed-case> Shared Task</title>
+      <author><first>Lauriane</first> <last>Aufrant</last></author>
+      <author><first>Guillaume</first> <last>Wisniewski</last></author>
+      <author><first>François</first> <last>Yvon</last></author>
+      <pages>163–173</pages>
+      <url hash="0ad93afc">K17-3017</url>
+      <doi>10.18653/v1/K17-3017</doi>
+      <abstract>This paper describes LIMSI’s submission to the CoNLL 2017 UD Shared Task, which is focused on small treebanks, and how to improve low-resourced parsing only by ad hoc combination of multiple views and resources. We present our approach for low-resourced parsing, together with a detailed analysis of the results for each test treebank. We also report extensive analysis experiments on <a href="https://en.wikipedia.org/wiki/Model_selection">model selection</a> for the PUD treebanks, and on annotation consistency among UD treebanks.</abstract>
+      <bibkey>aufrant-etal-2017-limsi</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="18">
+      <title>RACAI’s Natural Language Processing pipeline for Universal Dependencies<fixed-case>RACAI</fixed-case>’s Natural Language Processing pipeline for <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Stefan Daniel</first> <last>Dumitrescu</last></author>
+      <author><first>Tiberiu</first> <last>Boros</last></author>
+      <author><first>Dan</first> <last>Tufis</last></author>
+      <pages>174–181</pages>
+      <url hash="a33928cc">K17-3018</url>
+      <doi>10.18653/v1/K17-3018</doi>
+      <abstract>This paper presents RACAI’s approach, experiments and results at CONLL 2017 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies. We handle raw text and we cover <a href="https://en.wikipedia.org/wiki/Lexical_analysis">tokenization</a>, sentence splitting, <a href="https://en.wikipedia.org/wiki/Word_segmentation">word segmentation</a>, <a href="https://en.wikipedia.org/wiki/Tag_(metadata)">tagging</a>, <a href="https://en.wikipedia.org/wiki/Lemmatization">lemmatization</a> and <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a>. All results are reported under strict training, development and testing conditions, in which the corpora provided for the shared tasks is used as is, without any modifications to the composition of the train and development sets.</abstract>
+      <bibkey>dumitrescu-etal-2017-racais</bibkey>
+    </paper>
+    <paper id="19">
+      <title>Delexicalized transfer parsing for low-resource languages using transformed and combined treebanks</title>
+      <author><first>Ayan</first> <last>Das</last></author>
+      <author><first>Affan</first> <last>Zaffar</last></author>
+      <author><first>Sudeshna</first> <last>Sarkar</last></author>
+      <pages>182–190</pages>
+      <url hash="0ac9c3fe">K17-3019</url>
+      <doi>10.18653/v1/K17-3019</doi>
+      <abstract>This paper describes our dependency parsing system in CoNLL-2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies. We primarily focus on the low-resource languages (surprise languages). We have developed a framework to combine multiple treebanks to train <a href="https://en.wikipedia.org/wiki/Parsing">parsers</a> for low resource languages by delexicalization method. We have applied transformation on source language treebanks based on syntactic features of the low-resource language to improve performance of the <a href="https://en.wikipedia.org/wiki/Parsing">parser</a>. In the official evaluation, our <a href="https://en.wikipedia.org/wiki/System">system</a> achieves an macro-averaged LAS score of 67.61 and 37.16 on the entire <a href="https://en.wikipedia.org/wiki/Blinded_experiment">blind test data</a> and the <a href="https://en.wikipedia.org/wiki/Blinded_experiment">surprise language test data</a> respectively.</abstract>
+      <bibkey>das-etal-2017-delexicalized</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="21">
+      <title>Corpus Selection Approaches for Multilingual Parsing from Raw Text to Universal Dependencies<fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Ryan</first> <last>Hornby</last></author>
+      <author><first>Clark</first> <last>Taylor</last></author>
+      <author><first>Jungyeul</first> <last>Park</last></author>
+      <pages>198–206</pages>
+      <url hash="643eeff0">K17-3021</url>
+      <doi>10.18653/v1/K17-3021</doi>
+      <abstract>This paper describes UALing’s approach to the CoNLL 2017 UD Shared Task using corpus selection techniques to reduce training data size. The methodology is simple : we use similarity measures to select a corpus from available training data (even from multiple corpora for surprise languages) and use the resulting <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> to complete the parsing task. The training and <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a> is done with the baseline UDPipe system (Straka et al., 2016). While our approach reduces the size of training data significantly, <a href="https://en.wikipedia.org/wiki/Information_technology">it</a> retains performance within 0.5 % of the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline system</a>. Due to the reduction in training data size, our <a href="https://en.wikipedia.org/wiki/System">system</a> performs faster than the nave, complete corpus method. Specifically, our <a href="https://en.wikipedia.org/wiki/System">system</a> runs in less than 10 minutes, ranking it among the fastest entries for this <a href="https://en.wikipedia.org/wiki/Task_(computing)">task</a>. Our <a href="https://en.wikipedia.org/wiki/System">system</a> is available at.<i>CoNLL 2017 UD Shared Task</i> using corpus selection techniques to reduce training data size. The methodology is simple: we use similarity measures to select a corpus from available training data (even from multiple corpora for surprise languages) and use the resulting corpus to complete the parsing task. The training and parsing is done with the baseline UDPipe system (Straka et al., 2016). While our approach reduces the size of training data significantly, it retains performance within 0.5% of the baseline system. Due to the reduction in training data size, our system performs faster than the naïve, complete corpus method. Specifically, our system runs in less than 10 minutes, ranking it among the fastest entries for this task. Our system is available at <url>https://github.com/CoNLL-UD-2017/UALING</url>. </abstract>
+      <bibkey>hornby-etal-2017-corpus</bibkey>
+      <pwccode url="https://github.com/CoNLL-UD-2017/UALING" additional="false">CoNLL-UD-2017/UALING</pwccode>
+    </paper>
+    <paper id="23">
+      <title>Initial Explorations of CCG Supertagging for Universal Dependency Parsing<fixed-case>CCG</fixed-case> Supertagging for <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependency Parsing</title>
+      <author><first>Burak Kerim</first> <last>Akkus</last></author>
+      <author><first>Heval</first> <last>Azizoglu</last></author>
+      <author><first>Ruket</first> <last>Cakici</last></author>
+      <pages>218–227</pages>
+      <url hash="c7e29f0b">K17-3023</url>
+      <doi>10.18653/v1/K17-3023</doi>
+      <abstract>In this paper we describe the system by METU team for universal dependency parsing of multilingual text. We use a neural network-based dependency parser that has a greedy transition approach to dependency parsing. CCG supertags contain rich structural information that proves useful in certain NLP tasks. We experiment with CCG supertags as additional <a href="https://en.wikipedia.org/wiki/Feature_(computer_vision)">features</a> in our experiments. The neural network parser is trained together with <a href="https://en.wikipedia.org/wiki/Coupling_(computer_programming)">dependencies</a> and simplified CCG tags as well as other <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> provided.</abstract>
+      <bibkey>akkus-etal-2017-initial</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/penn-treebank">Penn Treebank</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="24">
+      <title>CLCL (Geneva) DINN Parser : a Neural Network Dependency Parser Ten Years Later<fixed-case>CLCL</fixed-case> (Geneva) <fixed-case>DINN</fixed-case> Parser: a Neural Network Dependency Parser Ten Years Later</title>
+      <author><first>Christophe</first> <last>Moor</last></author>
+      <author><first>Paola</first> <last>Merlo</last></author>
+      <author><first>James</first> <last>Henderson</last></author>
+      <author><first>Haozhou</first> <last>Wang</last></author>
+      <pages>228–236</pages>
+      <url hash="e7d4bbed">K17-3024</url>
+      <doi>10.18653/v1/K17-3024</doi>
+      <abstract>This paper describes the University of Geneva’s submission to the CoNLL 2017 shared task Multilingual Parsing from Raw Text to Universal Dependencies (listed as the CLCL (Geneva) entry). Our submitted parsing system is the grandchild of the first transition-based neural network dependency parser, which was the University of Geneva’s entry in the CoNLL 2007 multilingual dependency parsing shared task, with some improvements to speed and portability. These results provide a baseline for investigating how far we have come in the past ten years of work on neural network dependency parsing.</abstract>
+      <bibkey>moor-etal-2017-clcl</bibkey>
+    </paper>
+    <paper id="25">
+      <title>A Fast and Lightweight System for Multilingual Dependency Parsing</title>
+      <author><first>Tao</first> <last>Ji</last></author>
+      <author><first>Yuanbin</first> <last>Wu</last></author>
+      <author><first>Man</first> <last>Lan</last></author>
+      <pages>237–242</pages>
+      <url hash="d9e67330">K17-3025</url>
+      <doi>10.18653/v1/K17-3025</doi>
+      <abstract>We present a multilingual dependency parser with a bidirectional-LSTM (BiLSTM) feature extractor and a multi-layer perceptron (MLP) classifier. We trained our transition-based projective parser in UD version 2.0 datasets without any additional data. The <a href="https://en.wikipedia.org/wiki/Parsing">parser</a> is fast, lightweight and effective on <a href="https://en.wikipedia.org/wiki/Treebank">big treebanks</a>. In the CoNLL 2017 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies, the official results show that the macro-averaged LAS F1 score of our system Mengest is 61.33 %.</abstract>
+      <bibkey>ji-etal-2017-fast</bibkey>
+    </paper>
+    <paper id="26">
+      <title>The ParisNLP entry at the ConLL UD Shared Task 2017 : A Tale of a # ParsingTragedy<fixed-case>P</fixed-case>aris<fixed-case>NLP</fixed-case> entry at the <fixed-case>C</fixed-case>on<fixed-case>LL</fixed-case> <fixed-case>UD</fixed-case> Shared Task 2017: A Tale of a #<fixed-case>P</fixed-case>arsing<fixed-case>T</fixed-case>ragedy</title>
+      <author><first>Éric</first> <last>de La Clergerie</last></author>
+      <author><first>Benoît</first> <last>Sagot</last></author>
+      <author><first>Djamé</first> <last>Seddah</last></author>
+      <pages>243–252</pages>
+      <url hash="0cadf968">K17-3026</url>
+      <doi>10.18653/v1/K17-3026</doi>
+      <abstract>We present the ParisNLP entry at the UD CoNLL 2017 parsing shared task. In addition to the UDpipe models provided, we built our own data-driven tokenization models, sentence segmenter and lexicon-based morphological analyzers. All of these were used with a range of different parsing models (neural or not, feature-rich or not, transition or graph-based, etc.) and the best combination for each language was selected. Unfortunately, a glitch in the shared task’s Matrix led our model selector to run generic, weakly lexicalized models, tailored for surprise languages, instead of our dataset-specific models. Because of this # ParsingTragedy, we officially ranked 27th, whereas our real models finally unofficially ranked 6th.</abstract>
+      <bibkey>de-la-clergerie-etal-2017-parisnlp</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="27">
+      <title>Universal Joint Morph-Syntactic Processing : The Open University of Israel’s Submission to The CoNLL 2017 Shared Task<fixed-case>O</fixed-case>pen <fixed-case>U</fixed-case>niversity of <fixed-case>I</fixed-case>srael’s Submission to The <fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 Shared Task</title>
+      <author><first>Amir</first> <last>More</last></author>
+      <author><first>Reut</first> <last>Tsarfaty</last></author>
+      <pages>253–264</pages>
+      <url hash="4774691d">K17-3027</url>
+      <doi>10.18653/v1/K17-3027</doi>
+      <abstract>We present the Open University’s submission to the CoNLL 2017 Shared Task on multilingual parsing from raw text to Universal Dependencies. The core of our system is a joint morphological disambiguator and syntactic parser which accepts morphologically analyzed surface tokens as input and returns morphologically disambiguated dependency trees as output. Our parser requires a lattice as input, so we generate morphological analyses of surface tokens using a data-driven morphological analyzer that derives its lexicon from the UD training corpora, and we rely on UDPipe for sentence segmentation and surface-level tokenization. We report our official macro-average LAS is 56.56. Although our model is not as performant as many others, it does not make use of <a href="https://en.wikipedia.org/wiki/Neural_network">neural networks</a>, therefore we do not rely on <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> or any other data source other than the corpora themselves. In addition, we show the utility of a lexicon-backed morphological analyzer for the <a href="https://en.wikipedia.org/wiki/Modern_Hebrew">MRL Modern Hebrew</a>. We use our results on <a href="https://en.wikipedia.org/wiki/Modern_Hebrew">Modern Hebrew</a> to argue that the UD community should define a UD-compatible standard for access to lexical resources, which we argue is crucial for MRLs and low resource languages in particular.</abstract>
+      <bibkey>more-tsarfaty-2017-universal</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="28">
+      <title>A Semi-universal Pipelined Approach to the CoNLL 2017 UD Shared Task<fixed-case>C</fixed-case>o<fixed-case>NLL</fixed-case> 2017 <fixed-case>UD</fixed-case> Shared Task</title>
+      <author><first>Hiroshi</first> <last>Kanayama</last></author>
+      <author><first>Masayasu</first> <last>Muraoka</last></author>
+      <author><first>Katsumasa</first> <last>Yoshikawa</last></author>
+      <pages>265–273</pages>
+      <url hash="6fa51465">K17-3028</url>
+      <doi>10.18653/v1/K17-3028</doi>
+      <abstract>This paper presents our system submitted for the CoNLL 2017 Shared Task, Multilingual Parsing from Raw Text to Universal Dependencies. We ran the <a href="https://en.wikipedia.org/wiki/System">system</a> for all languages with our own fully pipelined components without relying on re-trained baseline systems. To train the <a href="https://en.wikipedia.org/wiki/Dependency_grammar">dependency parser</a>, we used only the universal part-of-speech tags and distance between words, and applied deterministic rules to assign dependency labels. The simple and delexicalized models are suitable for cross-lingual transfer approaches and a universal language model. Experimental results show that our model performed well in some metrics and leads discussion on topics such as contribution of each component and on syntactic similarities among languages.</abstract>
+      <bibkey>kanayama-etal-2017-semi</bibkey>
+    </paper>
+    <paper id="29">
+      <title>A rule-based system for cross-lingual parsing of Romance languages with Universal Dependencies<fixed-case>R</fixed-case>omance languages with <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Marcos</first> <last>Garcia</last></author>
+      <author><first>Pablo</first> <last>Gamallo</last></author>
+      <pages>274–282</pages>
+      <url hash="5da61948">K17-3029</url>
+      <doi>10.18653/v1/K17-3029</doi>
+      <abstract>This article describes MetaRomance, a rule-based cross-lingual parser for <a href="https://en.wikipedia.org/wiki/Romance_languages">Romance languages</a> submitted to CoNLL 2017 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies. The <a href="https://en.wikipedia.org/wiki/System">system</a> is an almost delexicalized parser which does not need training data to analyze <a href="https://en.wikipedia.org/wiki/Romance_languages">Romance languages</a>. It contains linguistically motivated rules based on PoS-tag patterns. The rules included in MetaRomance were developed in about 12 hours by one expert with no prior knowledge in Universal Dependencies, and can be easily extended using a transparent formalism. In this paper we compare the performance of MetaRomance with other <a href="https://en.wikipedia.org/wiki/Supervised_learning">supervised systems</a> participating in the competition, paying special attention to the <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a> of different <a href="https://en.wikipedia.org/wiki/Treebank">treebanks</a> of the same language. We also compare our system with a delexicalized parser for <a href="https://en.wikipedia.org/wiki/Romance_languages">Romance languages</a>, and take advantage of the harmonized annotation of Universal Dependencies to propose a language ranking based on the syntactic distance each variety has from <a href="https://en.wikipedia.org/wiki/Romance_languages">Romance languages</a>.</abstract>
+      <bibkey>garcia-gamallo-2017-rule</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+  </volume>
+</collection>
