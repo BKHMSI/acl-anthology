@@ -1,0 +1,1001 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="R19">
+  <volume id="1" ingest-date="2020-01-15">
+    <meta>
+      <booktitle>Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2019)</booktitle>
+      <url hash="ff24b8c4">R19-1</url>
+      <editor><first>Ruslan</first><last>Mitkov</last></editor>
+      <editor><first>Galia</first><last>Angelova</last></editor>
+      <publisher>INCOMA Ltd.</publisher>
+      <address>Varna, Bulgaria</address>
+      <month>September</month>
+      <year>2019</year>
+    </meta>
+    <frontmatter>
+      <url hash="e25a755c">R19-1000</url>
+      <bibkey>ranlp-2019-international</bibkey>
+    </frontmatter>
+    <paper id="2">
+      <title>Identification of Good and Bad News on Twitter<fixed-case>T</fixed-case>witter</title>
+      <author><first>Piush</first><last>Aggarwal</last></author>
+      <author><first>Ahmet</first><last>Aker</last></author>
+      <pages>9–17</pages>
+      <abstract>Social media plays a great role in <a href="https://en.wikipedia.org/wiki/Dissemination">news dissemination</a> which includes <a href="https://en.wikipedia.org/wiki/News">good and bad news</a>. However, studies show that <a href="https://en.wikipedia.org/wiki/News">news</a>, in general, has a significant impact on our mental stature and that this influence is more in bad news. An ideal situation would be that we have a tool that can help to filter out the type of news we do not want to consume. In this paper, we provide the basis for such a <a href="https://en.wikipedia.org/wiki/Tool">tool</a>. In our work, we focus on <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a>. We release a manually annotated dataset containing 6,853 tweets from 5 different topical categories. Each tweet is annotated with good and bad labels. We also investigate various <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning systems</a> and <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> and evaluate their performance on the newly generated <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a>. We also perform a comparative analysis with <a href="https://en.wikipedia.org/wiki/Sentimentality">sentiments</a> showing that <a href="https://en.wikipedia.org/wiki/Sentimentality">sentiment</a> alone is not enough to distinguish between good and bad news.</abstract>
+      <url hash="86b5e65f">R19-1002</url>
+      <doi>10.26615/978-954-452-056-4_002</doi>
+      <bibkey>aggarwal-aker-2019-identification</bibkey>
+    </paper>
+    <paper id="3">
+      <title>Bilingual Low-Resource Neural Machine Translation with Round-Tripping : The Case of Persian-Spanish<fixed-case>P</fixed-case>ersian-<fixed-case>S</fixed-case>panish</title>
+      <author><first>Benyamin</first><last>Ahmadnia</last></author>
+      <author><first>Bonnie</first><last>Dorr</last></author>
+      <pages>18–24</pages>
+      <abstract>The quality of Neural Machine Translation (NMT), as a data-driven approach, massively depends on quantity, quality, and relevance of the training dataset. Such approaches have achieved promising results for bilingually high-resource scenarios but are inadequate for low-resource conditions. This paper describes a round-trip training approach to bilingual low-resource NMT that takes advantage of monolingual datasets to address training data scarcity, thus augmenting translation quality. We conduct detailed experiments on <a href="https://en.wikipedia.org/wiki/Persian_language">Persian-Spanish</a> as a bilingually low-resource scenario. Experimental results demonstrate that this competitive approach outperforms the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baselines</a>.</abstract>
+      <url hash="7f7b0b45">R19-1003</url>
+      <doi>10.26615/978-954-452-056-4_003</doi>
+      <bibkey>ahmadnia-dorr-2019-bilingual</bibkey>
+    </paper>
+    <paper id="11">
+      <title>Diachronic Analysis of Entities by Exploiting Wikipedia Page revisions<fixed-case>W</fixed-case>ikipedia Page revisions</title>
+      <author><first>Pierpaolo</first><last>Basile</last></author>
+      <author><first>Annalina</first><last>Caputo</last></author>
+      <author><first>Seamus</first><last>Lawless</last></author>
+      <author><first>Giovanni</first><last>Semeraro</last></author>
+      <pages>84–91</pages>
+      <abstract>In the last few years, the increasing availability of large corpora spanning several time periods has opened new opportunities for the diachronic analysis of language. This type of analysis can bring to the light not only linguistic phenomena related to the shift of word meanings over time, but it can also be used to study the impact that societal and cultural trends have on this language change. This paper introduces a new resource for performing the diachronic analysis of named entities built upon Wikipedia page revisions. This resource enables the analysis over time of changes in the relations between entities (concepts), surface forms (words), and the contexts surrounding entities and surface forms, by analysing the whole history of Wikipedia internal links. We provide some useful use cases that prove the impact of this <a href="https://en.wikipedia.org/wiki/Resource">resource</a> on diachronic studies and delineate some possible future usage.</abstract>
+      <url hash="9a1416ed">R19-1011</url>
+      <doi>10.26615/978-954-452-056-4_011</doi>
+      <bibkey>basile-etal-2019-diachronic</bibkey>
+    </paper>
+    <paper id="12">
+      <title>Using a Lexical Semantic Network for the Ontology Building</title>
+      <author><first>Nadia</first><last>Bebeshina-Clairet</last></author>
+      <author><first>Sylvie</first><last>Despres</last></author>
+      <author><first>Mathieu</first><last>Lafourcade</last></author>
+      <pages>92–101</pages>
+      <abstract>Building multilingual ontologies is a hard task as <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)">ontologies</a> are often data-rich resources. We introduce an approach which allows exploiting structured lexical semantic knowledge for the <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)">ontology building</a>. Given a multilingual lexical semantic (non ontological) resource and an <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)">ontology model</a>, it allows mining relevant semantic knowledge and make the ontology building and enhancement process faster.</abstract>
+      <url hash="6666a491">R19-1012</url>
+      <doi>10.26615/978-954-452-056-4_012</doi>
+      <bibkey>bebeshina-clairet-etal-2019-using</bibkey>
+    </paper>
+    <paper id="16">
+      <title>Evaluating the Consistency of Word Embeddings from <a href="https://en.wikipedia.org/wiki/Small_data">Small Data</a></title>
+      <author><first>Jelke</first><last>Bloem</last></author>
+      <author><first>Antske</first><last>Fokkens</last></author>
+      <author><first>Aurélie</first><last>Herbelot</last></author>
+      <pages>132–141</pages>
+      <abstract>In this work, we address the evaluation of distributional semantic models trained on smaller, domain-specific texts, specifically, philosophical text. Specifically, we inspect the behaviour of <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> using a pre-trained background space in <a href="https://en.wikipedia.org/wiki/Machine_learning">learning</a>. We propose a <a href="https://en.wikipedia.org/wiki/Measurement">measure</a> of <a href="https://en.wikipedia.org/wiki/Consistency">consistency</a> which can be used as an evaluation metric when no in-domain gold-standard data is available. This <a href="https://en.wikipedia.org/wiki/Measure_(mathematics)">measure</a> simply computes the ability of a <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> to learn similar embeddings from different parts of some <a href="https://en.wikipedia.org/wiki/Homogeneity_(statistics)">homogeneous data</a>. We show that in spite of being a simple evaluation, consistency actually depends on various combinations of factors, including the nature of the data itself, the model used to train the <a href="https://en.wikipedia.org/wiki/Semantic_space">semantic space</a>, and the frequency of the learnt terms, both in the background space and in the in-domain data of interest.</abstract>
+      <url hash="a9cbe167">R19-1016</url>
+      <doi>10.26615/978-954-452-056-4_016</doi>
+      <bibkey>bloem-etal-2019-evaluating</bibkey>
+    </paper>
+    <paper id="18">
+      <title>Learning Sentence Embeddings for Coherence Modelling and Beyond</title>
+      <author><first>Tanner</first><last>Bohn</last></author>
+      <author><first>Yining</first><last>Hu</last></author>
+      <author><first>Jinhang</first><last>Zhang</last></author>
+      <author><first>Charles</first><last>Ling</last></author>
+      <pages>151–160</pages>
+      <abstract>We present a novel and effective technique for performing text coherence tasks while facilitating deeper insights into the data. Despite obtaining ever-increasing task performance, modern deep-learning approaches to NLP tasks often only provide users with the final network decision and no additional understanding of the data. In this work, we show that a new type of <a href="https://en.wikipedia.org/wiki/Sentence_embedding">sentence embedding</a> learned through self-supervision can be applied effectively to text coherence tasks while serving as a window through which deeper understanding of the data can be obtained. To produce these sentence embeddings, we train a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural network</a> to take individual sentences and predict their location in a document in the form of a distribution over locations. We demonstrate that these embeddings, combined with simple visual heuristics, can be used to achieve performance competitive with <a href="https://en.wikipedia.org/wiki/State_of_the_art">state-of-the-art</a> on multiple text coherence tasks, outperforming more complex and specialized approaches. Additionally, we demonstrate that these embeddings can provide insights useful to writers for improving writing quality and informing document structuring, and assisting readers in summarizing and locating information.</abstract>
+      <url hash="b9dba296">R19-1018</url>
+      <doi>10.26615/978-954-452-056-4_018</doi>
+      <bibkey>bohn-etal-2019-learning</bibkey>
+    </paper>
+    <paper id="21">
+      <title>Classifying Author Intention for Writer Feedback in Related Work</title>
+      <author><first>Arlene</first><last>Casey</last></author>
+      <author><first>Bonnie</first><last>Webber</last></author>
+      <author><first>Dorota</first><last>Glowacka</last></author>
+      <pages>178–187</pages>
+      <abstract>The ability to produce high-quality publishable material is critical to academic success but many Post-Graduate students struggle to learn to do so. While recent years have seen an increase in tools designed to provide feedback on aspects of writing, one aspect that has so far been neglected is the Related Work section of <a href="https://en.wikipedia.org/wiki/Academic_publishing">academic research papers</a>. To address this, we have trained a <a href="https://en.wikipedia.org/wiki/Supervised_learning">supervised classifier</a> on a <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> of 94 Related Work sections and evaluated it against a manually annotated gold standard. The <a href="https://en.wikipedia.org/wiki/Classifier_(linguistics)">classifier</a> uses novel features pertaining to citation types and <a href="https://en.wikipedia.org/wiki/Co-reference">co-reference</a>, along with patterns found from studying Related Works. We show that these novel features contribute to <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifier</a> performance with performance being favourable compared to other similar works that classify author intentions and consider <a href="https://en.wikipedia.org/wiki/Feedback">feedback</a> for <a href="https://en.wikipedia.org/wiki/Academic_writing">academic writing</a>.</abstract>
+      <url hash="ce3c6934">R19-1021</url>
+      <doi>10.26615/978-954-452-056-4_021</doi>
+      <bibkey>casey-etal-2019-classifying</bibkey>
+    </paper>
+    <paper id="22">
+      <title>Sparse Victory   A Large Scale Systematic Comparison of count-based and prediction-based vectorizers for text classification</title>
+      <author><first>Rupak</first><last>Chakraborty</last></author>
+      <author><first>Ashima</first><last>Elhence</last></author>
+      <author><first>Kapil</first><last>Arora</last></author>
+      <pages>188–197</pages>
+      <abstract>In this paper we study the performance of several text vectorization algorithms on a diverse collection of 73 publicly available datasets. Traditional sparse vectorizers like Tf-Idf and Feature Hashing have been systematically compared with the latest state of the art neural word embeddings like Word2Vec, GloVe, FastText and character embeddings like ELMo, Flair. We have carried out an extensive analysis of the performance of these vectorizers across different dimensions like classification metrics (.i.e. precision, recall, accuracy), dataset-size, and imbalanced data (in terms of the distribution of the number of class labels). Our experiments reveal that the sparse vectorizers beat the neural word and character embedding models on 61 of the 73 datasets by an average margin of 3-5 % (in terms of macro f1 score) and this performance is consistent across the different dimensions of comparison.</abstract>
+      <url hash="2e9efb5f">R19-1022</url>
+      <doi>10.26615/978-954-452-056-4_022</doi>
+      <bibkey>chakraborty-etal-2019-sparse</bibkey>
+      <pwccode url="https://github.com/opennlp/Large-Scale-Text-Classification" additional="false">opennlp/Large-Scale-Text-Classification</pwccode>
+    </paper>
+    <paper id="24">
+      <title>Personality-dependent Neural Text Summarization</title>
+      <author><first>Pablo</first><last>Costa</last></author>
+      <author><first>Ivandré</first><last>Paraboni</last></author>
+      <pages>205–212</pages>
+      <abstract>In Natural Language Generation systems, personalization strategies-i.e, the use of information about a target author to generate text that (more) closely resembles human-produced language-have long been applied to improve results. The present work addresses one such strategy-namely, the use of <a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">Big Five personality information</a> about the target author-applied to the case of abstractive text summarization using neural sequence-to-sequence models. Initial results suggest that having access to <a href="https://en.wikipedia.org/wiki/Personality_type">personality information</a> does lead to more accurate (or human-like) text summaries, and paves the way for more robust systems of this kind.</abstract>
+      <url hash="07a9836c">R19-1024</url>
+      <doi>10.26615/978-954-452-056-4_024</doi>
+      <bibkey>costa-paraboni-2019-personality</bibkey>
+    </paper>
+    <paper id="29">
+      <title>Detecting Toxicity in <a href="https://en.wikipedia.org/wiki/Article_(publishing)">News Articles</a> : Application to Bulgarian<fixed-case>B</fixed-case>ulgarian</title>
+      <author><first>Yoan</first><last>Dinkov</last></author>
+      <author><first>Ivan</first><last>Koychev</last></author>
+      <author><first>Preslav</first><last>Nakov</last></author>
+      <pages>247–258</pages>
+      <abstract>Online media aim for reaching ever bigger audience and for attracting ever longer attention span. This competition creates an environment that rewards sensational, fake, and toxic news. To help limit their spread and impact, we propose and develop a news toxicity detector that can recognize various types of toxic content. While previous research primarily focused on <a href="https://en.wikipedia.org/wiki/English_language">English</a>, here we target <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a>. We created a new dataset by crawling a website that for five years has been collecting Bulgarian news articles that were manually categorized into eight toxicity groups. Then we trained a multi-class classifier with nine categories : eight toxic and one non-toxic. We experimented with different representations based on ElMo, BERT, and XLM, as well as with a variety of domain-specific features. Due to the small size of our <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a>, we created a separate <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> for each feature type, and we ultimately combined these <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> into a meta-classifier. The evaluation results show an <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of 59.0 % and a macro-F1 score of 39.7 %, which represent sizable improvements over the majority-class baseline (Acc=30.3 %, macro-F1=5.2 %).</abstract>
+      <url hash="a06b5392">R19-1029</url>
+      <doi>10.26615/978-954-452-056-4_029</doi>
+      <bibkey>dinkov-etal-2019-detecting</bibkey>
+      <pwccode url="https://github.com/yoandinkov/ranlp-2019" additional="false">yoandinkov/ranlp-2019</pwccode>
+    </paper>
+    <paper id="30">
+      <title>De-Identification of Emails : Pseudonymizing Privacy-Sensitive Data in a German Email Corpus<fixed-case>G</fixed-case>erman Email Corpus</title>
+      <author><first>Elisabeth</first><last>Eder</last></author>
+      <author><first>Ulrike</first><last>Krieg-Holz</last></author>
+      <author><first>Udo</first><last>Hahn</last></author>
+      <pages>259–269</pages>
+      <abstract>We deal with the <a href="https://en.wikipedia.org/wiki/Pseudonymization">pseudonymization</a> of those stretches of text in emails that might allow to identify real individual persons. This <a href="https://en.wikipedia.org/wiki/Task_(computing)">task</a> is decomposed into two steps. First, <a href="https://en.wikipedia.org/wiki/Legal_person">named entities</a> carrying privacy-sensitive information (e.g., names of persons, locations, phone numbers or dates) are identified, and, second, these <a href="https://en.wikipedia.org/wiki/Legal_person">privacy-bearing entities</a> are replaced by <a href="https://en.wikipedia.org/wiki/Legal_person">synthetically generated surrogates</a> (e.g., a person originally named ‘John Doe’ is renamed as ‘Bill Powers’). We describe a <a href="https://en.wikipedia.org/wiki/Systems_architecture">system architecture</a> for surrogate generation and evaluate our approach on CodeAlltag, a German email corpus.</abstract>
+      <url hash="43043d7d">R19-1030</url>
+      <doi>10.26615/978-954-452-056-4_030</doi>
+      <bibkey>eder-etal-2019-de</bibkey>
+    </paper>
+    <paper id="31">
+      <title>Lexical Quantile-Based Text Complexity Measure</title>
+      <author><first>Maksim</first><last>Eremeev</last></author>
+      <author><first>Konstantin</first><last>Vorontsov</last></author>
+      <pages>270–275</pages>
+      <abstract>This paper introduces a new <a href="https://en.wikipedia.org/wiki/Software_development_process">approach</a> to estimating the text document complexity. Common readability indices are based on average length of sentences and words. In contrast to these methods, we propose to count the number of rare words occurring abnormally often in the document. We use the reference corpus of texts and the quantile approach in order to determine what words are rare, and what frequencies are abnormal. We construct a general text complexity model, which can be adjusted for the specific <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>, and introduce two special <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a>. The experimental design is based on a set of thematically similar pairs of Wikipedia articles, labeled using <a href="https://en.wikipedia.org/wiki/Crowdsourcing">crowdsourcing</a>. The experiments demonstrate the competitiveness of the proposed <a href="https://en.wikipedia.org/wiki/Methodology">approach</a>.</abstract>
+      <url hash="553b414f">R19-1031</url>
+      <doi>10.26615/978-954-452-056-4_031</doi>
+      <bibkey>eremeev-vorontsov-2019-lexical</bibkey>
+    </paper>
+    <paper id="32">
+      <title>Demo Application for LETO : Learning Engine Through Ontologies<fixed-case>LETO</fixed-case>: Learning Engine Through Ontologies</title>
+      <author><first>Suilan</first><last>Estevez-Velarde</last></author>
+      <author><first>Andrés</first><last>Montoyo</last></author>
+      <author><first>Yudivian</first><last>Almeida-Cruz</last></author>
+      <author><first>Yoan</first><last>Gutiérrez</last></author>
+      <author><first>Alejandro</first><last>Piad-Morffis</last></author>
+      <author><first>Rafael</first><last>Muñoz</last></author>
+      <pages>276–284</pages>
+      <abstract>The massive amount of multi-formatted information available on the <a href="https://en.wikipedia.org/wiki/World_Wide_Web">Web</a> necessitates the design of <a href="https://en.wikipedia.org/wiki/Software_system">software systems</a> that leverage this information to obtain knowledge that is valid and useful. The main challenge is to discover relevant information and continuously update, enrich and integrate knowledge from various sources of structured and unstructured data. This paper presents the Learning Engine Through Ontologies(LETO) framework, an architecture for the continuous and incremental discovery of knowledge from multiple sources of unstructured and structured data. We justify the main design decision behind LETO’s architecture and evaluate the <a href="https://en.wikipedia.org/wiki/Software_framework">framework</a>’s feasibility using the Internet Movie Data Base(IMDB) and <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a> as a practical application.</abstract>
+      <url hash="2aea80b4">R19-1032</url>
+      <doi>10.26615/978-954-452-056-4_032</doi>
+      <bibkey>estevez-velarde-etal-2019-demo</bibkey>
+    </paper>
+    <paper id="33">
+      <title>Sentence Simplification for Semantic Role Labelling and Information Extraction</title>
+      <author><first>Richard</first><last>Evans</last></author>
+      <author><first>Constantin</first><last>Orasan</last></author>
+      <pages>285–294</pages>
+      <abstract>In this paper, we report on the extrinsic evaluation of an automatic sentence simplification method with respect to two NLP tasks : semantic role labelling (SRL) and information extraction (IE). The paper begins with our observation of challenges in the intrinsic evaluation of sentence simplification systems, which motivates the use of extrinsic evaluation of these systems with respect to other NLP tasks. We describe the two NLP systems and the test data used in the extrinsic evaluation, and present arguments and evidence motivating the integration of a sentence simplification step as a means of improving the <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of these <a href="https://en.wikipedia.org/wiki/System">systems</a>. Our evaluation reveals that their performance is improved by the simplification step : the SRL system is better able to assign semantic roles to the majority of the arguments of verbs and the IE system is better able to identify fillers for all IE template slots.</abstract>
+      <url hash="8704ae51">R19-1033</url>
+      <doi>10.26615/978-954-452-056-4_033</doi>
+      <bibkey>evans-orasan-2019-sentence</bibkey>
+    </paper>
+    <paper id="34">
+      <title>OlloBot-Towards A Text-Based Arabic Health Conversational Agent : Evaluation and Results<fixed-case>O</fixed-case>llo<fixed-case>B</fixed-case>ot - Towards A Text-Based <fixed-case>A</fixed-case>rabic Health Conversational Agent: Evaluation and Results</title>
+      <author><first>Ahmed</first><last>Fadhil</last></author>
+      <author><first>Ahmed</first><last>AbuRa’ed</last></author>
+      <pages>295–303</pages>
+      <abstract>We introduce OlloBot, an Arabic conversational agent that assists physicians and supports patients with the care process. It does n’t replace the physicians, instead provides health tracking and support and assists physicians with the <a href="https://en.wikipedia.org/wiki/Health_care">care delivery</a> through a conversation medium. The current model comprises <a href="https://en.wikipedia.org/wiki/Healthy_diet">healthy diet</a>, <a href="https://en.wikipedia.org/wiki/Physical_activity">physical activity</a>, <a href="https://en.wikipedia.org/wiki/Mental_health">mental health</a>, in addition to food logging. Not only OlloBot tracks user daily food, it also offers useful tips for healthier living. We will discuss the design, development and testing of OlloBot, and highlight the findings and limitations arose from the testing.</abstract>
+      <url hash="4f533371">R19-1034</url>
+      <doi>10.26615/978-954-452-056-4_034</doi>
+      <bibkey>fadhil-aburaed-2019-ollobot</bibkey>
+    </paper>
+    <paper id="36">
+      <title>Summarizing Legal Rulings : Comparative Experiments</title>
+      <author><first>Diego</first><last>Feijo</last></author>
+      <author><first>Viviane</first><last>Moreira</last></author>
+      <pages>313–322</pages>
+      <abstract>In the context of <a href="https://en.wikipedia.org/wiki/Automatic_summarization">text summarization</a>, texts in the legal domain have peculiarities related to their length and to their specialized vocabulary. Recent neural network-based approaches can achieve high-quality scores for <a href="https://en.wikipedia.org/wiki/Automatic_summarization">text summarization</a>. However, these approaches have been used mostly for generating very short abstracts for <a href="https://en.wikipedia.org/wiki/Article_(publishing)">news articles</a>. Thus, their applicability to the legal domain remains an open issue. In this work, we experimented with ten extractive and four abstractive models in a real dataset of <a href="https://en.wikipedia.org/wiki/Judgment_(law)">legal rulings</a>. These models were compared with an extractive baseline based on <a href="https://en.wikipedia.org/wiki/Heuristics_in_judgment_and_decision-making">heuristics</a> to select the most relevant parts of the text. Our results show that <a href="https://en.wikipedia.org/wiki/Abstraction">abstractive approaches</a> significantly outperform extractive methods in terms of ROUGE scores.</abstract>
+      <url hash="fe363e37">R19-1036</url>
+      <doi>10.26615/978-954-452-056-4_036</doi>
+      <bibkey>feijo-moreira-2019-summarizing</bibkey>
+    </paper>
+    <paper id="39">
+      <title>Comparing Automated Methods to Detect Explicit Content in Song Lyrics</title>
+      <author><first>Michael</first><last>Fell</last></author>
+      <author><first>Elena</first><last>Cabrio</last></author>
+      <author><first>Michele</first><last>Corazza</last></author>
+      <author><first>Fabien</first><last>Gandon</last></author>
+      <pages>338–344</pages>
+      <abstract>The Parental Advisory Label (PAL) is a warning label that is placed on <a href="https://en.wikipedia.org/wiki/Sound_recording_and_reproduction">audio recordings</a> in recognition of profanity or inappropriate references, with the intention of alerting parents of material potentially unsuitable for children. Since 2015, digital providers   such as <a href="https://en.wikipedia.org/wiki/ITunes">iTunes</a>, <a href="https://en.wikipedia.org/wiki/Spotify">Spotify</a>, <a href="https://en.wikipedia.org/wiki/Amazon_Music">Amazon Music</a> and Deezer   also follow PAL guidelines and tag such tracks as explicit. Nowadays, such <a href="https://en.wikipedia.org/wiki/Labelling">labelling</a> is carried out mainly manually on voluntary basis, with the drawbacks of being time consuming and therefore costly, error prone and partly a subjective task. In this paper, we compare automated methods ranging from dictionary-based lookup to state-of-the-art <a href="https://en.wikipedia.org/wiki/Deep_learning">deep neural networks</a> to automatically detect explicit contents in English lyrics. We show that more complex <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> perform only slightly better on this <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>, and relying on a qualitative analysis of the data, we discuss the inherent hardness and subjectivity of the <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>.</abstract>
+      <url hash="5aff7ac8">R19-1039</url>
+      <doi>10.26615/978-954-452-056-4_039</doi>
+      <bibkey>fell-etal-2019-comparing</bibkey>
+    </paper>
+    <paper id="40">
+      <title>Linguistic classification : dealing jointly with irrelevance and inconsistency</title>
+      <author><first>Laura</first><last>Franzoi</last></author>
+      <author><first>Andrea</first><last>Sgarro</last></author>
+      <author><first>Anca</first><last>Dinu</last></author>
+      <author><first>Liviu P.</first><last>Dinu</last></author>
+      <pages>345–352</pages>
+      <abstract>In this paper, we present new methods for <a href="https://en.wikipedia.org/wiki/Language_classification">language classification</a> which put to good use both syntax and fuzzy tools, and are capable of dealing with irrelevant linguistic features (i.e. features which should not contribute to the classification) and even inconsistent features (which do not make sense for specific languages). We introduce a <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metric distance</a>, based on the generalized Steinhaus transform, which allows one to deal jointly with irrelevance and inconsistency. To evaluate our methods, we test them on a syntactic data set, due to the linguist G. Longobardi and his school. We obtain <a href="https://en.wikipedia.org/wiki/Phylogenetic_tree">phylogenetic trees</a> which sometimes outperform the ones obtained by Atkinson and Gray.</abstract>
+      <url hash="5026a46f">R19-1040</url>
+      <doi>10.26615/978-954-452-056-4_040</doi>
+      <bibkey>franzoi-etal-2019-linguistic</bibkey>
+    </paper>
+    <paper id="43">
+      <title>Two Discourse Tree-Based Approaches to Indexing Answers</title>
+      <author><first>Boris</first><last>Galitsky</last></author>
+      <author><first>Dmitry</first><last>Ilvovsky</last></author>
+      <pages>367–372</pages>
+      <abstract>We explore anatomy of answers with respect to which text fragments from an answer are worth matching with a question and which should not be matched. We apply the <a href="https://en.wikipedia.org/wiki/Rhetorical_structure_theory">Rhetorical Structure Theory</a> to build a discourse tree of an answer and select elementary discourse units that are suitable for indexing. Manual rules for selection of these discourse units as well as automated classification based on web search engine mining are evaluated con-cerning improving search accuracy. We form two sets of question-answer pairs for FAQ and community QA search domains and use them for evaluation of the proposed indexing methodology, which delivers up to 16 percent improvement in search recall.</abstract>
+      <url hash="c20ac7e9">R19-1043</url>
+      <doi>10.26615/978-954-452-056-4_043</doi>
+      <bibkey>galitsky-ilvovsky-2019-two</bibkey>
+    </paper>
+    <paper id="45">
+      <title>On a <a href="https://en.wikipedia.org/wiki/Chatbot">Chatbot</a> Providing Virtual Dialogues</title>
+      <author><first>Boris</first><last>Galitsky</last></author>
+      <author><first>Dmitry</first><last>Ilvovsky</last></author>
+      <author><first>Elizaveta</first><last>Goncharova</last></author>
+      <pages>382–387</pages>
+      <abstract>We present a <a href="https://en.wikipedia.org/wiki/Chatbot">chatbot</a> that delivers content in the form of virtual dialogues automatically produced from the plain texts that are extracted and selected from the documents. This virtual dialogue content is provided in the form of answers derived from the found and selected documents split into fragments, and questions that are automatically generated for these answers based on the initial text.</abstract>
+      <url hash="45b7af73">R19-1045</url>
+      <doi>10.26615/978-954-452-056-4_045</doi>
+      <bibkey>galitsky-etal-2019-chatbot</bibkey>
+    </paper>
+    <paper id="46">
+      <title>Assessing socioeconomic status of Twitter users : A survey<fixed-case>T</fixed-case>witter users: A survey</title>
+      <author><first>Dhouha</first><last>Ghazouani</last></author>
+      <author><first>Luigi</first><last>Lancieri</last></author>
+      <author><first>Habib</first><last>Ounelli</last></author>
+      <author><first>Chaker</first><last>Jebari</last></author>
+      <pages>388–398</pages>
+      <abstract>Every day, the emotion and opinion of different people across the world are reflected in the form of short messages using <a href="https://en.wikipedia.org/wiki/Microblogging">microblogging platforms</a>. Despite the existence of enormous potential introduced by this data source, the <a href="https://en.wikipedia.org/wiki/Twitter_community">Twitter community</a> is still ambiguous and is not fully explored yet. While there are a huge number of studies examining the possibilities of inferring gender and age, there exist hardly researches on socioeconomic status (SES) inference of Twitter users. As <a href="https://en.wikipedia.org/wiki/Socioeconomic_status">socioeconomic status</a> is essential to treating diverse questions linked to <a href="https://en.wikipedia.org/wiki/Human_behavior">human behavior</a> in several fields (sociology, <a href="https://en.wikipedia.org/wiki/Demography">demography</a>, <a href="https://en.wikipedia.org/wiki/Public_health">public health</a>, etc.), we conducted a comprehensive literature review of SES studies, <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference methods</a>, and <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metrics</a>. With reference to the research on literature’s results, we came to outline the most critical challenges for researchers. To the best of our knowledge, this paper is the first review that introduces the different aspects of SES inference. Indeed, this article provides the benefits for practitioners who aim to process and explore Twitter SES inference.</abstract>
+      <url hash="607725ab">R19-1046</url>
+      <doi>10.26615/978-954-452-056-4_046</doi>
+      <bibkey>ghazouani-etal-2019-assessing</bibkey>
+    </paper>
+    <paper id="47">
+      <title>Divide and Extract   Disentangling Clause Splitting and Proposition Extraction</title>
+      <author><first>Darina</first><last>Gold</last></author>
+      <author><first>Torsten</first><last>Zesch</last></author>
+      <pages>399–408</pages>
+      <abstract>Proposition extraction from sentences is an important task for information extraction systems Evaluation of such <a href="https://en.wikipedia.org/wiki/System">systems</a> usually conflates two aspects : splitting complex sentences into clauses and the extraction of propositions. It is thus difficult to independently determine the quality of the proposition extraction step. We create a manually annotated proposition dataset from sentences taken from restaurant reviews that distinguishes between clauses that need to be split and those that do not. The resulting proposition evaluation dataset allows us to independently compare the performance of proposition extraction systems on simple and complex clauses. Although performance drastically drops on more complex sentences, we show that the same <a href="https://en.wikipedia.org/wiki/System">systems</a> perform best on both simple and complex clauses. Furthermore, we show that specific kinds of <a href="https://en.wikipedia.org/wiki/Dependent_clause">subordinate clauses</a> pose difficulties to most systems.</abstract>
+      <url hash="a6559902">R19-1047</url>
+      <doi>10.26615/978-954-452-056-4_047</doi>
+      <bibkey>gold-zesch-2019-divide</bibkey>
+    </paper>
+    <paper id="49">
+      <title>Automatic Question Answering for Medical MCQs : Can It go Further than Information Retrieval?<fixed-case>MCQ</fixed-case>s: Can It go Further than Information Retrieval?</title>
+      <author><first>Le An</first><last>Ha</last></author>
+      <author><first>Victoria</first><last>Yaneva</last></author>
+      <pages>418–422</pages>
+      <abstract>We present a novel approach to automatic question answering that does not depend on the performance of an information retrieval (IR) system and does not require that the training data come from the same source as the questions. We evaluate the <a href="https://en.wikipedia.org/wiki/System">system</a> performance on a challenging set of university-level medical science multiple-choice questions. Best performance is achieved when combining a <a href="https://en.wikipedia.org/wiki/Neural_circuit">neural approach</a> with an <a href="https://en.wikipedia.org/wiki/Information_theory">IR approach</a>, both of which work independently. Unlike previous approaches, the <a href="https://en.wikipedia.org/wiki/System">system</a> achieves statistically significant improvement over the random guess baseline even for questions that are labeled as challenging based on the performance of baseline solvers.</abstract>
+      <url hash="3f6f31c4">R19-1049</url>
+      <doi>10.26615/978-954-452-056-4_049</doi>
+      <bibkey>ha-yaneva-2019-automatic</bibkey>
+    </paper>
+    <paper id="52">
+      <title>Investigating Terminology Translation in Statistical and Neural Machine Translation : A Case Study on English-to-Hindi and Hindi-to-English<fixed-case>E</fixed-case>nglish-to-<fixed-case>H</fixed-case>indi and <fixed-case>H</fixed-case>indi-to-<fixed-case>E</fixed-case>nglish</title>
+      <author><first>Rejwanul</first><last>Haque</last></author>
+      <author><first>Md</first><last>Hasanuzzaman</last></author>
+      <author><first>Andy</first><last>Way</last></author>
+      <pages>437–446</pages>
+      <abstract>Terminology translation plays a critical role in domain-specific machine translation (MT). In this paper, we conduct a comparative qualitative evaluation on terminology translation in phrase-based statistical MT (PB-SMT) and neural MT (NMT) in two translation directions : English-to-Hindi and Hindi-to-English. For this, we select a test set from a legal domain corpus and create a gold standard for evaluating terminology translation in MT. We also propose an error typology taking the terminology translation errors into consideration. We evaluate the MT systems’ performance on terminology translation, and demonstrate our findings, unraveling strengths, weaknesses, and similarities of PB-SMT and NMT in the area of term translation.</abstract>
+      <url hash="22b4276a">R19-1052</url>
+      <doi>10.26615/978-954-452-056-4_052</doi>
+      <bibkey>haque-etal-2019-investigating</bibkey>
+    </paper>
+    <paper id="53">
+      <title>Beyond English-Only Reading Comprehension : Experiments in Zero-shot Multilingual Transfer for Bulgarian<fixed-case>E</fixed-case>nglish-Only Reading Comprehension: Experiments in Zero-shot Multilingual Transfer for <fixed-case>B</fixed-case>ulgarian</title>
+      <author><first>Momchil</first><last>Hardalov</last></author>
+      <author><first>Ivan</first><last>Koychev</last></author>
+      <author><first>Preslav</first><last>Nakov</last></author>
+      <pages>447–459</pages>
+      <abstract>Recently, reading comprehension models achieved near-human performance on large-scale datasets such as SQuAD, CoQA, MS Macro, RACE, etc. This is largely due to the release of pre-trained contextualized representations such as <a href="https://en.wikipedia.org/wiki/BERT">BERT</a> and ELMo, which can be fine-tuned for the target task. Despite those advances and the creation of more challenging datasets, most of the work is still done for <a href="https://en.wikipedia.org/wiki/English_language">English</a>. Here, we study the effectiveness of multilingual BERT fine-tuned on large-scale English datasets for <a href="https://en.wikipedia.org/wiki/Reading_comprehension">reading comprehension</a> (e.g., for RACE), and we apply it to Bulgarian multiple-choice reading comprehension. We propose a new dataset containing 2,221 questions from <a href="https://en.wikipedia.org/wiki/Matriculation_examination">matriculation exams</a> for twelfth grade in various subjects history, biology, geography and philosophy, and 412 additional questions from online quizzes in history. While the quiz authors gave no relevant context, we incorporate knowledge from <a href="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a>, retrieving documents matching the combination of question + each answer option. Moreover, we experiment with different indexing and pre-training strategies. The evaluation results show accuracy of 42.23 %, which is well above the <a href="https://en.wikipedia.org/wiki/Baseline_(medicine)">baseline</a> of 24.89 %.</abstract>
+      <url hash="21539b59">R19-1053</url>
+      <doi>10.26615/978-954-452-056-4_053</doi>
+      <bibkey>hardalov-etal-2019-beyond</bibkey>
+      <pwccode url="https://github.com/mhardalov/bg-reason-BERT" additional="false">mhardalov/bg-reason-BERT</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/bulgarian-reading-comprehension-dataset">Bulgarian Reading Comprehension Dataset</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/race">RACE</pwcdataset>
+    </paper>
+    <paper id="56">
+      <title>Emoji Powered Capsule Network to Detect Type and Target of Offensive Posts in <a href="https://en.wikipedia.org/wiki/Social_media">Social Media</a></title>
+      <author><first>Hansi</first><last>Hettiarachchi</last></author>
+      <author><first>Tharindu</first><last>Ranasinghe</last></author>
+      <pages>474–480</pages>
+      <abstract>This paper describes a novel research approach to detect type and target of offensive posts in <a href="https://en.wikipedia.org/wiki/Social_media">social media</a> using a capsule network. The input to the <a href="https://en.wikipedia.org/wiki/Computer_network">network</a> was <a href="https://en.wikipedia.org/wiki/Character_encoding">character embeddings</a> combined with <a href="https://en.wikipedia.org/wiki/Emoji">emoji embeddings</a>. The approach was evaluated on all three subtasks in Task 6-SemEval 2019 : OffensEval : Identifying and Categorizing Offensive Language in Social Media. The evaluation also showed that even though the capsule networks have not been used commonly in natural language processing tasks, they can outperform existing state of the art solutions for offensive language detection in <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>.</abstract>
+      <url hash="3f0f15b8">R19-1056</url>
+      <doi>10.26615/978-954-452-056-4_056</doi>
+      <bibkey>hettiarachchi-ranasinghe-2019-emoji</bibkey>
+    </paper>
+    <paper id="63">
+      <title>Using Syntax to Resolve NPE in English<fixed-case>NPE</fixed-case> in <fixed-case>E</fixed-case>nglish</title>
+      <author><first>Payal</first><last>Khullar</last></author>
+      <author><first>Allen</first><last>Antony</last></author>
+      <author><first>Manish</first><last>Shrivastava</last></author>
+      <pages>534–540</pages>
+      <abstract>This paper describes a novel, syntax-based system for automatic detection and resolution of Noun Phrase Ellipsis (NPE) in <a href="https://en.wikipedia.org/wiki/English_language">English</a>. The <a href="https://en.wikipedia.org/wiki/System">system</a> takes in free input English text, detects the site of nominal elision, and if present, selects potential antecedent candidates. The rules are built using the syntactic information on <a href="https://en.wikipedia.org/wiki/Ellipsis_(linguistics)">ellipsis</a> and its antecedent discussed in previous theoretical linguistics literature on NPE. Additionally, we prepare a curated dataset of 337 sentences from well-known, reliable sources, containing positive and negative samples of <a href="https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values">NPE</a>. We split this <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> into two parts, and use one part to refine our rules and the other to test the performance of our final <a href="https://en.wikipedia.org/wiki/System">system</a>. We get an <a href="https://en.wikipedia.org/wiki/Fluorescence_in_situ_hybridization">F1-score</a> of 76.47 % for <a href="https://en.wikipedia.org/wiki/Fluorescence_in_situ_hybridization">detection</a> and 70.27 % for <a href="https://en.wikipedia.org/wiki/Fluorescence_in_situ_hybridization">NPE resolution</a> on the testset. To the best of our knowledge, ours is the first <a href="https://en.wikipedia.org/wiki/System">system</a> that detects and resolves <a href="https://en.wikipedia.org/wiki/Non-player_character">NPE</a> in <a href="https://en.wikipedia.org/wiki/English_language">English</a>. The curated dataset used for this <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>, albeit small, covers a wide variety of NPE cases and will be made public for future work.</abstract>
+      <url hash="8894d46e">R19-1063</url>
+      <doi>10.26615/978-954-452-056-4_063</doi>
+      <bibkey>khullar-etal-2019-using</bibkey>
+    </paper>
+    <paper id="64">
+      <title>Is Similarity Visually Grounded? Computational Model of Similarity for the Estonian language<fixed-case>E</fixed-case>stonian language</title>
+      <author><first>Claudia</first><last>Kittask</last></author>
+      <author><first>Eduard</first><last>Barbu</last></author>
+      <pages>541–549</pages>
+      <abstract>Researchers in <a href="https://en.wikipedia.org/wiki/Computational_linguistics">Computational Linguistics</a> build <a href="https://en.wikipedia.org/wiki/Conceptual_model">models of similarity</a> and test them against <a href="https://en.wikipedia.org/wiki/Judgement">human judgments</a>. Although there are many empirical studies of the computational models of similarity for the <a href="https://en.wikipedia.org/wiki/English_language">English language</a>, the similarity for other languages is less explored. In this study we are chiefly interested in two aspects. In the first place we want to know how much of the human similarity is grounded in the <a href="https://en.wikipedia.org/wiki/Visual_perception">visual perception</a>. To answer this question two neural computer vision models are used and their correlation with the human derived similarity scores is computed. In the second place we investigate if <a href="https://en.wikipedia.org/wiki/Language">language</a> influences the similarity computation. To this purpose diverse <a href="https://en.wikipedia.org/wiki/Computational_model">computational models</a> trained on Estonian resources are evaluated against <a href="https://en.wikipedia.org/wiki/Judgement">human judgments</a></abstract>
+      <url hash="89cbffa5">R19-1064</url>
+      <doi>10.26615/978-954-452-056-4_064</doi>
+      <bibkey>kittask-barbu-2019-similarity</bibkey>
+    </paper>
+    <paper id="65">
+      <title>Language-Agnostic Twitter-Bot Detection<fixed-case>T</fixed-case>witter-Bot Detection</title>
+      <author><first>Jürgen</first><last>Knauth</last></author>
+      <pages>550–558</pages>
+      <abstract>In this paper we address the problem of detecting Twitter bots. We analyze a <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> of 8385 <a href="https://en.wikipedia.org/wiki/Twitter">Twitter accounts</a> and their <a href="https://en.wikipedia.org/wiki/Twitter">tweets</a> consisting of both humans and different kinds of <a href="https://en.wikipedia.org/wiki/Internet_bot">bots</a>. We use this <a href="https://en.wikipedia.org/wiki/Data">data</a> to train <a href="https://en.wikipedia.org/wiki/Statistical_classification">machine learning classifiers</a> that distinguish between real and bot accounts. We identify <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> that are easy to extract while still providing good results. We analyze different feature groups based on account specific, tweet specific and behavioral specific features and measure their performance compared to other state of the art bot detection methods. For easy future portability of our work we focus on language-agnostic features. With <a href="https://en.wikipedia.org/wiki/AdaBoost">AdaBoost</a>, the best performing <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifier</a>, we achieve an <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of 0.988 and an <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">AUC</a> of 0.995. As the creation of good training data in <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> is often difficult-especially in the domain of Twitter bot detection-we additionally analyze to what extent smaller amounts of training data lead to useful results by reviewing cross-validated learning curves. Our results indicate that using few but expressive features already has a good practical benefit for bot detection, especially if only a small amount of <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training data</a> is available.</abstract>
+      <url hash="59f6fcbc">R19-1065</url>
+      <doi>10.26615/978-954-452-056-4_065</doi>
+      <bibkey>knauth-2019-language</bibkey>
+    </paper>
+    <paper id="70">
+      <title>Question Similarity in Community Question Answering : A Systematic Exploration of Preprocessing Methods and Models</title>
+      <author><first>Florian</first><last>Kunneman</last></author>
+      <author><first>Thiago Castro</first><last>Ferreira</last></author>
+      <author><first>Emiel</first><last>Krahmer</last></author>
+      <author><first>Antal</first><last>van den Bosch</last></author>
+      <pages>593–601</pages>
+      <abstract>Community Question Answering forums are popular among Internet users, and a basic problem they encounter is trying to find out if their question has already been posed before. To address this issue, NLP researchers have developed methods to automatically detect question-similarity, which was one of the shared tasks in <a href="https://en.wikipedia.org/wiki/SemEval">SemEval</a>. The best performing systems for this task made use of Syntactic Tree Kernels or the SoftCosine metric. However, it remains unclear why these methods seem to work, whether their performance can be improved by better preprocessing methods and what kinds of errors they (and other methods) make. In this paper, we therefore systematically combine and compare these two approaches with the more traditional BM25 and translation-based models. Moreover, we analyze the impact of preprocessing steps (lowercasing, suppression of punctuation and stop words removal) and word meaning similarity based on different distributions (word translation probability, Word2Vec, fastText and ELMo) on the performance of the task. We conduct an error analysis to gain insight into the differences in performance between the system set-ups. The implementation is made publicly available from https://github.com/fkunneman/DiscoSumo/tree/master/ranlp.</abstract>
+      <url hash="85b47cba">R19-1070</url>
+      <doi>10.26615/978-954-452-056-4_070</doi>
+      <bibkey>kunneman-etal-2019-question</bibkey>
+      <pwccode url="https://github.com/fkunneman/DiscoSumo" additional="false">fkunneman/DiscoSumo</pwccode>
+    </paper>
+    <paper id="72">
+      <title>Resolving Pronouns for a Resource-Poor Language, <a href="https://en.wikipedia.org/wiki/Malayalam">Malayalam</a> Using Resource-Rich Language, Tamil.<fixed-case>M</fixed-case>alayalam Using Resource-Rich Language, <fixed-case>T</fixed-case>amil.</title>
+      <author><first>Sobha</first><last>Lalitha Devi</last></author>
+      <pages>611–618</pages>
+      <abstract>In this paper we give in detail how a resource rich language can be used for resolving <a href="https://en.wikipedia.org/wiki/Pronoun">pronouns</a> for a less resource language. The source language, which is resource rich language in this study, is <a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil</a> and the resource poor language is <a href="https://en.wikipedia.org/wiki/Malayalam">Malayalam</a>, both belonging to the same language family, <a href="https://en.wikipedia.org/wiki/Dravidian_languages">Dravidian</a>. The Pronominal resolution developed for <a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil</a> uses CRFs. Our approach is to leverage the Tamil language model to test Malayalam data and the processing required for Malayalam data is detailed. The similarity at the <a href="https://en.wikipedia.org/wiki/Syntax">syntactic level</a> between the languages is exploited in identifying the <a href="https://en.wikipedia.org/wiki/Feature_(linguistics)">features</a> for developing the Tamil language model. The <a href="https://en.wikipedia.org/wiki/Word_form">word form</a> or the <a href="https://en.wikipedia.org/wiki/Lexical_item">lexical item</a> is not considered as a <a href="https://en.wikipedia.org/wiki/Feature_(linguistics)">feature</a> for training the CRFs. Evaluation on Malayalam Wikipedia data shows that our approach is correct and the results, though not as good as <a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil</a>, but comparable.</abstract>
+      <url hash="a192769d">R19-1072</url>
+      <doi>10.26615/978-954-452-056-4_072</doi>
+      <bibkey>lalitha-devi-2019-resolving</bibkey>
+    </paper>
+    <paper id="73">
+      <title>Semantic Role Labeling with Pretrained Language Models for Known and Unknown Predicates</title>
+      <author><first>Daniil</first><last>Larionov</last></author>
+      <author><first>Artem</first><last>Shelmanov</last></author>
+      <author><first>Elena</first><last>Chistova</last></author>
+      <author><first>Ivan</first><last>Smirnov</last></author>
+      <pages>619–628</pages>
+      <abstract>We build the first full <a href="https://en.wikipedia.org/wiki/Pipeline_(software)">pipeline</a> for semantic role labelling of Russian texts. The <a href="https://en.wikipedia.org/wiki/Pipeline_transport">pipeline</a> implements predicate identification, argument extraction, argument classification (labeling), and global scoring via <a href="https://en.wikipedia.org/wiki/Integer_linear_programming">integer linear programming</a>. We train supervised neural network models for argument classification using Russian semantically annotated corpus   FrameBank. However, we note that this resource provides <a href="https://en.wikipedia.org/wiki/Annotation">annotations</a> only to a very limited set of predicates. We combat the problem of annotation scarcity by introducing two models that rely on different sets of <a href="https://en.wikipedia.org/wiki/Feature_(machine_learning)">features</a> : one for known predicates that are present in the training set and one for unknown predicates that are not. We show that the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> for unknown predicates can alleviate the lack of <a href="https://en.wikipedia.org/wiki/Annotation">annotation</a> by using pretrained embeddings. We perform experiments with various types of embeddings including the ones generated by deep pretrained language models : word2vec, FastText, ELMo, BERT, and show that embeddings generated by deep pretrained language models are superior to classical shallow embeddings for argument classification of both known and unknown predicates.</abstract>
+      <url hash="ce2927a0">R19-1073</url>
+      <doi>10.26615/978-954-452-056-4_073</doi>
+      <bibkey>larionov-etal-2019-semantic</bibkey>
+    </paper>
+    <paper id="76">
+      <title>The Impact of Semantic Linguistic Features in <a href="https://en.wikipedia.org/wiki/Relation_extraction">Relation Extraction</a> : A Logical Relational Learning Approach</title>
+      <author><first>Rinaldo</first><last>Lima</last></author>
+      <author><first>Bernard</first><last>Espinasse</last></author>
+      <author><first>Frederico</first><last>Freitas</last></author>
+      <pages>648–654</pages>
+      <abstract>Relation Extraction (RE) consists in detecting and classifying semantic relations between entities in a sentence. The vast majority of the state-of-the-art RE systems relies on morphosyntactic features and supervised machine learning algorithms. This paper tries to answer important questions concerning both the impact of semantic based features, and the integration of external linguistic knowledge resources on RE performance. For that, a RE system based on a logical and relational learning algorithm was used and evaluated on three reference datasets from two distinct domains. The yielded results confirm that the <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifiers</a> induced using the proposed richer feature set outperformed the <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifiers</a> built with morphosyntactic features in average 4 % (F1-measure).</abstract>
+      <url hash="962d0616">R19-1076</url>
+      <doi>10.26615/978-954-452-056-4_076</doi>
+      <bibkey>lima-etal-2019-impact</bibkey>
+    </paper>
+    <paper id="77">
+      <title>Detecting Anorexia in Spanish Tweets<fixed-case>S</fixed-case>panish Tweets</title>
+      <author><first>Pilar</first><last>López Úbeda</last></author>
+      <author><first>Flor Miriam</first><last>Plaza del Arco</last></author>
+      <author><first>Manuel Carlos</first><last>Díaz Galiano</last></author>
+      <author><first>L. Alfonso</first><last>Urena Lopez</last></author>
+      <author><first>Maite</first><last>Martin</last></author>
+      <pages>655–663</pages>
+      <abstract>Mental health is one of the main concerns of today’s society. Early detection of symptoms can greatly help people with <a href="https://en.wikipedia.org/wiki/Mental_disorder">mental disorders</a>. People are using <a href="https://en.wikipedia.org/wiki/List_of_social_networking_websites">social networks</a> more and more to express emotions, <a href="https://en.wikipedia.org/wiki/Sentimentality">sentiments</a> and <a href="https://en.wikipedia.org/wiki/Mental_state">mental states</a>. Thus, the treatment of this information using NLP technologies can be applied to the automatic detection of mental problems such as <a href="https://en.wikipedia.org/wiki/Eating_disorder">eating disorders</a>. However, the first step to solving the problem should be to provide a corpus in order to evaluate our <a href="https://en.wikipedia.org/wiki/System">systems</a>. In this paper, we specifically focus on detecting <a href="https://en.wikipedia.org/wiki/Anorexia_(symptom)">anorexia messages</a> on <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a>. Firstly, we have generated a new corpus of tweets extracted from different accounts including anorexia and non-anorexia messages in <a href="https://en.wikipedia.org/wiki/Spanish_language">Spanish</a>. The <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> is called SAD : Spanish Anorexia Detection corpus. In order to validate the effectiveness of the SAD corpus, we also propose several machine learning approaches for automatically detecting anorexia symptoms in the <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a>. The good results obtained show that the application of textual classification methods is a promising option for developing this kind of system demonstrating that these tools could be used by professionals to help in the early detection of mental problems.</abstract>
+      <url hash="48173a51">R19-1077</url>
+      <doi>10.26615/978-954-452-056-4_077</doi>
+      <bibkey>lopez-ubeda-etal-2019-detecting</bibkey>
+    </paper>
+    <paper id="79">
+      <title>v-trel : Vocabulary Trainer for Tracing Word Relations-An Implicit Crowdsourcing Approach</title>
+      <author><first>Verena</first><last>Lyding</last></author>
+      <author><first>Christos</first><last>Rodosthenous</last></author>
+      <author><first>Federico</first><last>Sangati</last></author>
+      <author><first>Umair</first><last>ul Hassan</last></author>
+      <author><first>Lionel</first><last>Nicolas</last></author>
+      <author><first>Alexander</first><last>König</last></author>
+      <author><first>Jolita</first><last>Horbacauskiene</last></author>
+      <author><first>Anisia</first><last>Katinskaia</last></author>
+      <pages>674–683</pages>
+      <abstract>In this paper, we present our work on developing a vocabulary trainer that uses exercises generated from language resources such as <a href="https://en.wikipedia.org/wiki/ConceptNet">ConceptNet</a> and crowdsources the responses of the learners to enrich the language resource. We performed an empirical evaluation of our approach with 60 non-native speakers over two days, which shows that new entries to expand Concept-Net can efficiently be gathered through vocabulary exercises on word relations. We also report on the feedback gathered from the users and an expert from <a href="https://en.wikipedia.org/wiki/Language_acquisition">language teaching</a>, and discuss the potential of the vocabulary trainer application from the user and language learner perspective. The feedback suggests that v-trel has educational potential, while in its current state some shortcomings could be identified.</abstract>
+      <url hash="e619259f">R19-1079</url>
+      <doi>10.26615/978-954-452-056-4_079</doi>
+      <bibkey>lyding-etal-2019-v</bibkey>
+    </paper>
+    <paper id="80">
+      <title>Jointly Learning Author and Annotated Character N-gram Embeddings : A Case Study in Literary Text</title>
+      <author><first>Suraj</first><last>Maharjan</last></author>
+      <author><first>Deepthi</first><last>Mave</last></author>
+      <author><first>Prasha</first><last>Shrestha</last></author>
+      <author><first>Manuel</first><last>Montes</last></author>
+      <author><first>Fabio A.</first><last>González</last></author>
+      <author><first>Thamar</first><last>Solorio</last></author>
+      <pages>684–692</pages>
+      <abstract>An author’s way of presenting a story through his / her writing style has a great impact on whether the story will be liked by readers or not. In this paper, we learn <a href="https://en.wikipedia.org/wiki/Representation_(mathematics)">representations</a> for authors of literary texts together with <a href="https://en.wikipedia.org/wiki/Representation_(mathematics)">representations</a> for character n-grams annotated with their functional roles. We train a neural character n-gram based language model using an external corpus of literary texts and transfer learned representations for use in downstream tasks. We show that augmenting the knowledge from external works of authors produces results competitive with other style-based methods for book likability prediction, genre classification, and authorship attribution.</abstract>
+      <url hash="949d78fa">R19-1080</url>
+      <doi>10.26615/978-954-452-056-4_080</doi>
+      <bibkey>maharjan-etal-2019-jointly</bibkey>
+    </paper>
+    <paper id="81">
+      <title>Generating Challenge Datasets for Task-Oriented Conversational Agents through Self-Play</title>
+      <author><first>Sourabh</first><last>Majumdar</last></author>
+      <author><first>Serra Sinem</first><last>Tekiroglu</last></author>
+      <author><first>Marco</first><last>Guerini</last></author>
+      <pages>693–702</pages>
+      <abstract>End-to-end neural approaches are becoming increasingly common in conversational scenarios due to their promising performances when provided with sufficient amount of data. In this paper, we present a novel <a href="https://en.wikipedia.org/wiki/Methodology">methodology</a> to address the interpretability of neural approaches in such scenarios by creating challenge datasets using dialogue self-play over multiple tasks / intents. Dialogue self-play allows generating large amount of synthetic data ; by taking advantage of the complete control over the generation process, we show how neural approaches can be evaluated in terms of unseen dialogue patterns. We propose several out-of-pattern test cases each of which introduces a natural and unexpected user utterance phenomenon. As a proof of concept, we built a single and a multiple memory network, and show that these two architectures have diverse performances depending on the peculiar dialogue patterns.</abstract>
+      <url hash="364417be">R19-1081</url>
+      <doi>10.26615/978-954-452-056-4_081</doi>
+      <bibkey>majumdar-etal-2019-generating</bibkey>
+    </paper>
+    <paper id="90">
+      <title>Unsupervised Data Augmentation for Less-Resourced Languages with no Standardized Spelling</title>
+      <author><first>Alice</first><last>Millour</last></author>
+      <author><first>Karën</first><last>Fort</last></author>
+      <pages>776–784</pages>
+      <abstract>Building representative linguistic resources and NLP tools for non-standardized languages is challenging : when <a href="https://en.wikipedia.org/wiki/Spelling">spelling</a> is not determined by a norm, multiple written forms can be encountered for a given word, inducing a large proportion of out-of-vocabulary words. To embrace this diversity, we propose a <a href="https://en.wikipedia.org/wiki/Methodology">methodology</a> based on crowdsourced alternative spellings we use to extract rules applied to match OOV words with one of their spelling variants. This virtuous process enables the unsupervised augmentation of multi-variant lexicons without expert rule definition. We apply this multilingual methodology on <a href="https://en.wikipedia.org/wiki/Alsatian_dialect">Alsatian</a>, a <a href="https://en.wikipedia.org/wiki/Languages_of_France">French regional language</a> and provide an intrinsic evaluation of the correctness of the variants pairs, and an extrinsic evaluation on a downstream task. We show that in a low-resource scenario, 145 inital pairs can lead to the generation of 876 additional variant pairs, and a diminution of OOV words improving the <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part-of-speech tagging</a> performance by 1 to 4 %.</abstract>
+      <url hash="4873d2ab">R19-1090</url>
+      <doi>10.26615/978-954-452-056-4_090</doi>
+      <bibkey>millour-fort-2019-unsupervised</bibkey>
+    </paper>
+    <paper id="91">
+      <title>Neural Feature Extraction for Contextual Emotion Detection</title>
+      <author><first>Elham</first><last>Mohammadi</last></author>
+      <author><first>Hessam</first><last>Amini</last></author>
+      <author><first>Leila</first><last>Kosseim</last></author>
+      <pages>785–794</pages>
+      <abstract>This paper describes a new approach for the task of contextual emotion detection. The approach is based on a neural feature extractor, composed of a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural network</a> with an <a href="https://en.wikipedia.org/wiki/Attentional_control">attention mechanism</a>, followed by a <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifier</a>, that can be neural or SVM-based. We evaluated the model with the dataset of the task 3 of SemEval 2019 (EmoContext), which includes short 3-turn conversations, tagged with 4 emotion classes. The best performing setup was achieved using ELMo word embeddings and POS tags as input, bidirectional GRU as hidden units, and an <a href="https://en.wikipedia.org/wiki/Symmetric_multiprocessing">SVM</a> as the final classifier. This configuration reached 69.93 % in terms of micro-average F1 score on the main 3 emotion classes, a score that outperformed the baseline system by 11.25 %.</abstract>
+      <url hash="7c5ca82a">R19-1091</url>
+      <doi>10.26615/978-954-452-056-4_091</doi>
+      <bibkey>mohammadi-etal-2019-neural</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/emocontext">EmoContext</pwcdataset>
+    </paper>
+    <paper id="93">
+      <title>A Fast and Accurate Partially Deterministic Morphological Analysis</title>
+      <author><first>Hajime</first><last>Morita</last></author>
+      <author><first>Tomoya</first><last>Iwakura</last></author>
+      <pages>804–809</pages>
+      <abstract>This paper proposes a partially deterministic morphological analysis method for improved processing speed. Maximum matching is a fast deterministic method for <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">morphological analysis</a>. However, the <a href="https://en.wikipedia.org/wiki/Methodology">method</a> tends to decrease performance due to lack of consideration of <a href="https://en.wikipedia.org/wiki/Context_(language_use)">contextual information</a>. In order to use <a href="https://en.wikipedia.org/wiki/Maximum_matching">maximum matching</a> safely, we propose the use of Context Independent Strings (CISs), which are strings that do not have <a href="https://en.wikipedia.org/wiki/Ambiguity">ambiguity</a> in terms of <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">morphological analysis</a>. Our method first identifies CISs in a sentence using <a href="https://en.wikipedia.org/wiki/Maximum_matching">maximum matching</a> without <a href="https://en.wikipedia.org/wiki/Context_(language_use)">contextual information</a>, then analyzes the unprocessed part of the sentence using a bi-gram-based morphological analysis model. We evaluate the <a href="https://en.wikipedia.org/wiki/Methodology">method</a> on a Japanese morphological analysis task. The experimental results show a 30 % reduction of <a href="https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)">running time</a> while maintaining improved <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a>.</abstract>
+      <url hash="4c660793">R19-1093</url>
+      <doi>10.26615/978-954-452-056-4_093</doi>
+      <bibkey>morita-iwakura-2019-fast</bibkey>
+    </paper>
+    <paper id="94">
+      <title>incom.py-A Toolbox for Calculating Linguistic Distances and Asymmetries between Related Languages</title>
+      <author><first>Marius</first><last>Mosbach</last></author>
+      <author><first>Irina</first><last>Stenger</last></author>
+      <author><first>Tania</first><last>Avgustinova</last></author>
+      <author><first>Dietrich</first><last>Klakow</last></author>
+      <pages>810–818</pages>
+      <abstract>Languages may be differently distant from each other and their <a href="https://en.wikipedia.org/wiki/Mutual_intelligibility">mutual intelligibility</a> may be asymmetric. In this paper we introduce incom.py, a toolbox for calculating <a href="https://en.wikipedia.org/wiki/Linguistic_distance">linguistic distances</a> and asymmetries between related languages. incom.py allows linguist experts to quickly and easily perform <a href="https://en.wikipedia.org/wiki/Statistics">statistical analyses</a> and compare those with experimental results. We demonstrate the efficacy of incom.py in an incomprehension experiment on two <a href="https://en.wikipedia.org/wiki/Slavic_languages">Slavic languages</a> : <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a> and <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a>. Using incom.py we were able to validate three methods to measure linguistic distances and asymmetries : <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Levenshtein distance</a>, word adaptation surprisal, and <a href="https://en.wikipedia.org/wiki/Conditional_entropy">conditional entropy</a> as predictors of success in a reading intercomprehension experiment.</abstract>
+      <url hash="45a8521a">R19-1094</url>
+      <doi>10.26615/978-954-452-056-4_094</doi>
+      <bibkey>mosbach-etal-2019-incom</bibkey>
+    </paper>
+    <paper id="95">
+      <title>A Holistic Natural Language Generation Framework for the <a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a></title>
+      <author><first>Axel-Cyrille</first><last>Ngonga Ngomo</last></author>
+      <author><first>Diego</first><last>Moussallem</last></author>
+      <author><first>Lorenz</first><last>Bühmann</last></author>
+      <pages>819–828</pages>
+      <abstract>With the ever-growing generation of data for the <a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a> comes an increasing demand for this <a href="https://en.wikipedia.org/wiki/Data">data</a> to be made available to non-semantic Web experts. One way of achieving this goal is to translate the languages of the <a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a> into <a href="https://en.wikipedia.org/wiki/Natural_language">natural language</a>. We present LD2NL, a <a href="https://en.wikipedia.org/wiki/Software_framework">framework</a> that allows verbalizing the three key languages of the <a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a>, i.e., <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a>, <a href="https://en.wikipedia.org/wiki/Web_Ontology_Language">OWL</a>, and <a href="https://en.wikipedia.org/wiki/SPARQL">SPARQL</a>. Our <a href="https://en.wikipedia.org/wiki/Conceptual_framework">framework</a> is based on a <a href="https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design">bottom-up approach</a> to <a href="https://en.wikipedia.org/wiki/Verbalization">verbalization</a>. We evaluated LD2NL in an open survey with 86 persons. Our results suggest that our <a href="https://en.wikipedia.org/wiki/Conceptual_framework">framework</a> can generate verbalizations that are close to <a href="https://en.wikipedia.org/wiki/Natural_language">natural languages</a> and that can be easily understood by non-experts. Therewith, it enables non-domain experts to interpret Semantic Web data with more than 91 % of the <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of domain experts.</abstract>
+      <url hash="acb5bff8">R19-1095</url>
+      <doi>10.26615/978-954-452-056-4_095</doi>
+      <bibkey>ngonga-ngomo-etal-2019-holistic</bibkey>
+    </paper>
+    <paper id="98">
+      <title>Large-Scale Hierarchical Alignment for Data-driven Text Rewriting</title>
+      <author><first>Nikola I.</first><last>Nikolov</last></author>
+      <author><first>Richard</first><last>Hahnloser</last></author>
+      <pages>844–853</pages>
+      <abstract>We propose a simple <a href="https://en.wikipedia.org/wiki/Unsupervised_learning">unsupervised method</a> for extracting pseudo-parallel monolingual sentence pairs from comparable corpora representative of two different text styles, such as <a href="https://en.wikipedia.org/wiki/Article_(publishing)">news articles</a> and <a href="https://en.wikipedia.org/wiki/Scientific_literature">scientific papers</a>. Our approach does not require a seed <a href="https://en.wikipedia.org/wiki/Parallel_corpus">parallel corpus</a>, but instead relies solely on hierarchical search over pre-trained embeddings of documents and sentences. We demonstrate the effectiveness of our <a href="https://en.wikipedia.org/wiki/Methodology">method</a> through automatic and extrinsic evaluation on text simplification from the normal to the Simple Wikipedia. We show that pseudo-parallel sentences extracted with our method not only supplement existing parallel data, but can even lead to competitive performance on their own.</abstract>
+      <url hash="74dab92f">R19-1098</url>
+      <doi>10.26615/978-954-452-056-4_098</doi>
+      <bibkey>nikolov-hahnloser-2019-large</bibkey>
+      <pwccode url="https://github.com/ninikolov/lha" additional="false">ninikolov/lha</pwccode>
+    </paper>
+    <paper id="99">
+      <title>Dependency-Based Relative Positional Encoding for Transformer NMT<fixed-case>NMT</fixed-case></title>
+      <author><first>Yutaro</first><last>Omote</last></author>
+      <author><first>Akihiro</first><last>Tamura</last></author>
+      <author><first>Takashi</first><last>Ninomiya</last></author>
+      <pages>854–861</pages>
+      <abstract>This paper proposes a new Transformer neural machine translation model that incorporates syntactic distances between two source words into the relative position representations of the self-attention mechanism. In particular, the proposed model encodes pair-wise relative depths on a source dependency tree, which are differences between the depths of the two source words, in the encoder’s self-attention. The experiments show that our proposed <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> achieves 0.5 point gain in BLEU on the Asian Scientific Paper Excerpt Corpus Japanese-to-English translation task.</abstract>
+      <url hash="9365c240">R19-1099</url>
+      <doi>10.26615/978-954-452-056-4_099</doi>
+      <bibkey>omote-etal-2019-dependency</bibkey>
+    </paper>
+    <paper id="101">
+      <title>Building a <a href="https://en.wikipedia.org/wiki/Morphological_analysis">Morphological Analyser</a> for Laz<fixed-case>L</fixed-case>az</title>
+      <author><first>Esra</first><last>Onal</last></author>
+      <author><first>Francis</first><last>Tyers</last></author>
+      <pages>869–877</pages>
+      <abstract>This study is an attempt to contribute to documentation and revitalization efforts of endangered Laz language, a member of South Caucasian language family mainly spoken on northeastern coastline of Turkey. It constitutes the first steps to create a general <a href="https://en.wikipedia.org/wiki/Computational_model">computational model</a> for word form recognition and production for Laz by building a rule-based morphological analyser using Helsinki Finite-State Toolkit (HFST). The evaluation results show that the <a href="https://en.wikipedia.org/wiki/Analyser">analyser</a> has a 64.9 % coverage over a corpus collected for this study with 111,365 tokens. We have also performed an error analysis on randomly selected 100 tokens from the corpus which are not covered by the analyser, and these results show that the errors mostly result from Turkish words in the corpus and missing stems in our lexicon.</abstract>
+      <url hash="b0663f1f">R19-1101</url>
+      <doi>10.26615/978-954-452-056-4_101</doi>
+      <bibkey>onal-tyers-2019-building</bibkey>
+    </paper>
+    <paper id="103">
+      <title>Quotation Detection and Classification with a Corpus-Agnostic Model</title>
+      <author><first>Sean</first><last>Papay</last></author>
+      <author><first>Sebastian</first><last>Padó</last></author>
+      <pages>888–894</pages>
+      <abstract>The detection of quotations (i.e., reported speech, <a href="https://en.wikipedia.org/wiki/Thought">thought</a>, and writing) has established itself as an <a href="https://en.wikipedia.org/wiki/Neuro-linguistic_programming">NLP analysis task</a>. However, state-of-the-art models have been developed on the basis of specific corpora and incorpo- rate a high degree of corpus-specific assumptions and knowledge, which leads to fragmentation. In the spirit of task-agnostic modeling, we present a corpus-agnostic neural model for quotation detection and evaluate it on three <a href="https://en.wikipedia.org/wiki/Text_corpus">corpora</a> that vary in language, text genre, and structural assumptions. The model (a) approaches the state-of-the-art on the <a href="https://en.wikipedia.org/wiki/Text_corpus">corpora</a> when using established feature sets and (b) shows reasonable performance even when us- ing solely word forms, which makes it applicable for non-standard (i.e., historical) corpora.</abstract>
+      <url hash="208966a6">R19-1103</url>
+      <doi>10.26615/978-954-452-056-4_103</doi>
+      <bibkey>papay-pado-2019-quotation</bibkey>
+    </paper>
+    <paper id="104">
+      <title>Validation of Facts Against Textual Sources</title>
+      <author><first>Vamsi Krishna</first><last>Pendyala</last></author>
+      <author><first>Simran</first><last>Sinha</last></author>
+      <author><first>Satya</first><last>Prakash</last></author>
+      <author><first>Shriya</first><last>Reddy</last></author>
+      <author><first>Anupam</first><last>Jamatia</last></author>
+      <pages>895–903</pages>
+      <abstract>In today’s digital world of information, a fact verification system to disprove assertions made in <a href="https://en.wikipedia.org/wiki/Public_speaking">speech</a>, <a href="https://en.wikipedia.org/wiki/Mass_media">print media</a> or <a href="https://en.wikipedia.org/wiki/Online_content">online content</a> is the need of the hour. We propose a <a href="https://en.wikipedia.org/wiki/System">system</a> which would verify a claim against a source and classify the claim to be true, false, out-of-context or an inappropriate claim with respect to the textual source provided to the <a href="https://en.wikipedia.org/wiki/System">system</a>. A true label is used if the claim is true, false if it is false, if the claim has no relation with the source then it is classified as out-of-context and if the claim can not be verified at all then it is classified as inappropriate. This would help us to verify a claim or a fact as well as know about the source or our knowledge base against which we are trying to verify our facts. We used a two-step approach to achieve our goal. At first, we retrieved evidence related to the claims from the textual source using the Term Frequency-Inverse Document Frequency(TF-IDF) vectors. Later we classified the claim-evidence pairs as true, false, inappropriate and out of context using a modified version of textual entailment module. Textual entailment module calculates the probability of each sentence supporting the claim, contradicting the claim or not providing any relevant information using Bi-LSTM network to assess the veracity of the claim. The <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> of the best performing <a href="https://en.wikipedia.org/wiki/System">system</a> is 64.49 %</abstract>
+      <url hash="0245c7d7">R19-1104</url>
+      <doi>10.26615/978-954-452-056-4_104</doi>
+      <bibkey>pendyala-etal-2019-validation</bibkey>
+    </paper>
+    <paper id="105">
+      <title>A Neural Network Component for Knowledge-Based Semantic Representations of Text</title>
+      <author><first>Alejandro</first><last>Piad-Morffis</last></author>
+      <author><first>Rafael</first><last>Muñoz</last></author>
+      <author><first>Yoan</first><last>Gutiérrez</last></author>
+      <author><first>Yudivian</first><last>Almeida-Cruz</last></author>
+      <author><first>Suilan</first><last>Estevez-Velarde</last></author>
+      <author><first>Andrés</first><last>Montoyo</last></author>
+      <pages>904–911</pages>
+      <abstract>This paper presents Semantic Neural Networks (SNNs), a knowledge-aware component based on <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning</a>. SNNs can be trained to encode explicit semantic knowledge from an arbitrary <a href="https://en.wikipedia.org/wiki/Knowledge_base">knowledge base</a>, and can subsequently be combined with other deep learning architectures. At prediction time, SNNs provide a semantic encoding extracted from the input data, which can be exploited by other neural network components to build extended representation models that can face alternative problems. The SNN architecture is defined in terms of the concepts and relations present in a <a href="https://en.wikipedia.org/wiki/Knowledge_base">knowledge base</a>. Based on this <a href="https://en.wikipedia.org/wiki/Architecture">architecture</a>, a training procedure is developed. Finally, an experimental setup is presented to illustrate the behaviour and performance of a SNN for a specific NLP problem, in this case, <a href="https://en.wikipedia.org/wiki/Opinion_mining">opinion mining</a> for the classification of movie reviews.</abstract>
+      <url hash="be4f8802">R19-1105</url>
+      <doi>10.26615/978-954-452-056-4_105</doi>
+      <bibkey>piad-morffis-etal-2019-neural</bibkey>
+    </paper>
+    <paper id="108">
+      <title>Unsupervised dialogue intent detection via hierarchical topic model</title>
+      <author><first>Artem</first><last>Popov</last></author>
+      <author><first>Victor</first><last>Bulatov</last></author>
+      <author><first>Darya</first><last>Polyudova</last></author>
+      <author><first>Eugenia</first><last>Veselova</last></author>
+      <pages>932–938</pages>
+      <abstract>One of the challenges during a task-oriented chatbot development is the scarce availability of the <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">labeled training data</a>. The best way of getting one is to ask the assessors to tag each dialogue according to its intent. Unfortunately, performing <a href="https://en.wikipedia.org/wiki/Label">labeling</a> without any provisional collection structure is difficult since the very notion of the intent is ill-defined. In this paper, we propose a hierarchical multimodal regularized topic model to obtain a first approximation of the intent set. Our rationale for hierarchical models usage is their ability to take into account several degrees of the dialogues relevancy. We attempt to build a <a href="https://en.wikipedia.org/wiki/Scientific_modelling">model</a> that can distinguish between subject-based (e.g. medicine and transport topics) and action-based (e.g. filing of an application and tracking application status) similarities. In order to achieve this, we divide set of all <a href="https://en.wikipedia.org/wiki/Feature_(linguistics)">features</a> into several groups according to part-of-speech analysis. Various feature groups are treated differently on different <a href="https://en.wikipedia.org/wiki/Hierarchy">hierarchy levels</a>.</abstract>
+      <url hash="9022d139">R19-1108</url>
+      <doi>10.26615/978-954-452-056-4_108</doi>
+      <bibkey>popov-etal-2019-unsupervised</bibkey>
+    <title_pt>Detecção de intenção de diálogo não supervisionada por meio de modelo de tópico hierárquico</title_pt>
+      <title_es>Detección de intenciones de diálogo sin supervisión mediante un modelo de temas jerárquico</title_es>
+      <title_ja>階層トピックモデルを介した監視されていないダイアログの意図の検出</title_ja>
+      <title_zh>基于分层主题模的无监督对话的意思检测</title_zh>
+      <title_ar>الكشف عن نية الحوار غير الخاضعة للإشراف عبر نموذج الموضوع الهرمي</title_ar>
+      <title_hi>पदानुक्रमित विषय मॉडल के माध्यम से असुरक्षित संवाद इरादे का पता लगाना</title_hi>
+      <title_ga>Brath rún idirphlé gan mhaoirseacht trí mhúnla topaice ordlathach</title_ga>
+      <title_el>Ανίχνευση προθέσεων διαλόγου χωρίς επιτήρηση μέσω ιεραρχικού μοντέλου θέματος</title_el>
+      <title_hu>Felügyeletlen párbeszédszándék felismerése hierarchikus témamodellen keresztül</title_hu>
+      <title_it>Rilevamento di intenti di dialogo non monitorato tramite modello gerarchico di argomento</title_it>
+      <title_lt>Neprižiūrimas dialogo ketinimų nustatymas naudojant hierarchinį teminį model į</title_lt>
+      <title_kk>Иерархикалық нақыштар үлгісімен сақталмаған диалогты анықтау мақсаты</title_kk>
+      <title_ka>ჰიერაქტიკალური ტემების მოდელის გამოყენებაში არაფერიზებული დიალოგის მისამართვა</title_ka>
+      <title_ms>Unsupervised dialogue intent detection via hierarchical topic model</title_ms>
+      <title_mk>Ненадгледувано детектирање на намерите на дијалогот преку хиерархички модел на тема</title_mk>
+      <title_ml>നിരീക്ഷിച്ചിട്ടില്ലാത്ത ഡയലോഗിന്റെ ഉത്തരവാദി കണ്ടുപിടിക്കുക</title_ml>
+      <title_mt>Id-djalogu mhux sorveljat għandu l-intenzjoni li jidentifika permezz ta’ mudell ta’ suġġett ġerarkiku</title_mt>
+      <title_mn>Диалогдоогүй диалогын санаа олох нь архитекийн сэдвийн загварын аргаар</title_mn>
+      <title_no>Ikkje oppretta oppdaging av dialogvindauget via hierarkisk emnemodul</title_no>
+      <title_pl>Niekontrolowane wykrywanie intencji dialogu za pomocą hierarchicznego modelu tematu</title_pl>
+      <title_ro>Detectarea intenției dialogului nesupravegheată prin intermediul modelului ierarhic de subiect</title_ro>
+      <title_sr>Neodređena namjera za otkrivanje dijaloga putem hijerarhičkog modela teme</title_sr>
+      <title_si>සාමාන්‍ය විදේශ මොඩල් මධ්‍යමයෙන් සුරක්ෂිත සංවාදය හොයාගන්න අවශ්‍ය සංවාදය</title_si>
+      <title_so>Unsupervised dialogue intent detection via hierarchical topic model</title_so>
+      <title_sv>Identifiering av icke övervakad dialogavsikt via hierarkisk ämnesmodell</title_sv>
+      <title_ta>கண்காணிக்கப்படாத உரையாடல் விருப்பத்தேர்வு தலைப்பு மாதிரியால் கண்டறிதல்</title_ta>
+      <title_ur>ہیرارک ٹوپ موڈل کے ذریعے غیر محافظت دیالوگ کا ارادہ اچانک</title_ur>
+      <title_uz>Name</title_uz>
+      <title_vi>âm mưu phát hiện âm mưu của đối thoại không giám sát</title_vi>
+      <title_bg>Откриване на намеренията на диалоговия прозорец без надзор чрез йерархичен модел на тема</title_bg>
+      <title_nl>Onbewaakte detectie van dialoogintenties via hiërarchisch topic model</title_nl>
+      <title_hr>Neodređeno otkrivanje namjere dijaloga putem hierarhičkog modela teme</title_hr>
+      <title_da>Ikke-overvåget dialog intention detektion via hierarkisk emnemodel</title_da>
+      <title_de>Erkennung von nicht überwachten Dialogabsichten über hierarchisches Themenmodell</title_de>
+      <title_id>Deteksi niat dialog tidak diawasi melalui model topik hierarkis</title_id>
+      <title_fa>مشخص محاورۀ محاورۀ غیرقابل حفاظت</title_fa>
+      <title_ko>층별 테마 모델 기반의 무감독 대화 의도 검출</title_ko>
+      <title_sw>Mazungumzo yasiyopangwa kwa lengo la kutambua kwa kupitia mifano ya mada</title_sw>
+      <title_tr>Hijerarşik meýdança modi görä namaýyşlanmady</title_tr>
+      <title_af>Onondersteunde dialoog doel beskrywing deur hierarkies onderwerp model</title_af>
+      <title_sq>Dialogu i pa mbikqyrur synon zbulimin nëpërmjet modelit hierarkik të temës</title_sq>
+      <title_am>dialogs-action</title_am>
+      <title_hy>Առանց վերահսկվող հաղորդակցման նպատակների հայտնաբերումը հիերարխիկ թեմայի մոդելի միջոցով</title_hy>
+      <title_az>HiyerarŇüik m…ôs…ôl…ônin modeli vasit…ôsil…ô t…ôrz edilm…ômiŇü dialog niyy…ôti keŇüif</title_az>
+      <title_bn>হিয়েরার্কিয়ার্কিয়াল বিষয় মডেলের মাধ্যমে অনলাইন করা ডায়ালগের উদ্দেশ্য সনাক্ত করা হবে</title_bn>
+      <title_ca>La detecció d'intencions del diàleg no supervisada a través del model de tema jeràrquic</title_ca>
+      <title_bs>Neodređena namjera otkrivanja dijaloga putem hijerarhičkog modela teme</title_bs>
+      <title_cs>Detekce záměru dialogu bez kontroly prostřednictvím hierarchického tématu</title_cs>
+      <title_et>Järelevalveta dialoogi kavatsuste tuvastamine hierarhilise teemamudeli abil</title_et>
+      <title_fi>Valvontaton dialogin aikomusten havaitseminen hierarkkisen aihemallin avulla</title_fi>
+      <title_jv>Coverage</title_jv>
+      <title_ha>Ana gane cikin zauren akwatin bayani da aka tsare</title_ha>
+      <title_he>Unsupervised dialogue intent detection via hierarchical topic model</title_he>
+      <title_sk>Zaznavanje namena pogovornega okna brez nadzora prek hierarhičnega modela teme</title_sk>
+      <title_bo>སྒྲིག་ཡུལ་གྱི་གནད་དོན་འདྲ་བ་དང་བསྟུན་ནས་སྐྱོད་རུང་མེད་པའི་ཌའི་ལོག་དམིགས་བསལ་བ</title_bo>
+      <abstract_ar>أحد التحديات أثناء تطوير روبوت المحادثة الموجه نحو المهام هو ندرة توافر بيانات التدريب المصنفة. أفضل طريقة للحصول على واحد هو أن تطلب من المقيّمين وضع علامة على كل حوار وفقًا لهدفه. لسوء الحظ ، يعد إجراء الملصقات بدون أي بنية تجميع مؤقتة أمرًا صعبًا نظرًا لأن فكرة النية ذاتها غير محددة بشكل جيد. في هذه الورقة ، نقترح نموذج موضوع منظم هرمي متعدد الوسائط للحصول على أول تقريب لمجموعة النوايا. الأساس المنطقي لاستخدام النماذج الهرمية هو قدرتها على مراعاة عدة درجات من ملاءمة الحوارات. نحاول بناء نموذج يمكنه التمييز بين أوجه التشابه القائمة على الموضوع (مثل موضوعات الطب والنقل) والقائمة على الإجراء (مثل إيداع طلب وتتبع حالة التطبيق). من أجل تحقيق ذلك ، نقسم مجموعة من جميع الميزات إلى عدة مجموعات وفقًا لتحليل جزء من الكلام. يتم التعامل مع مجموعات الميزات المختلفة بشكل مختلف على مستويات التدرج الهرمي المختلفة.</abstract_ar>
+      <abstract_es>Uno de los desafíos durante el desarrollo de un chatbot orientado a tareas es la escasa disponibilidad de los datos de entrenamiento etiquetados. La mejor manera de conseguir uno es pedir a los evaluadores que etiqueten cada diálogo de acuerdo con su intención. Desafortunadamente, realizar el etiquetado sin una estructura de colección provisional es difícil, ya que la noción misma de la intención está mal definida. En este artículo, proponemos un modelo de tema regularizado multimodal jerárquico para obtener una primera aproximación del conjunto de intenciones. Nuestro fundamento para el uso de modelos jerárquicos es su capacidad para tener en cuenta varios grados de relevancia de los diálogos. Intentamos crear un modelo que pueda distinguir entre similitudes basadas en el tema (por ejemplo, temas de medicina y transporte) y basadas en acciones (por ejemplo, presentación de una solicitud y seguimiento del estado de la solicitud). Para lograr esto, dividimos el conjunto de todas las características en varios grupos de acuerdo con el análisis de parte del discurso. Los distintos grupos de funciones se tratan de forma diferente en los distintos niveles de jerarquía.</abstract_es>
+      <abstract_ja>タスク指向のチャットボット開発の課題の1つは、ラベル付けされたトレーニングデータの利用可能性が乏しいことです。 1つを取得する最良の方法は、評価者にその意図に従って各対話にタグを付けるように依頼することです。 残念ながら、意図の概念自体が不明確であるため、暫定的な収集構造なしでラベル付けを行うことは困難である。 本稿では、インテント集合の第１の近似を得るための階層的多モード正規化トピックモデルを提案する。 階層モデルを使用するための私たちの理論的根拠は、ダイアログの関連性のいくつかの度合いを考慮する能力です。 私たちは、対象に基づく（例えば、医療と輸送のトピック）と行動に基づく（例えば、申請の提出と申請状況の追跡）の類似性を区別できるモデルを構築しようとしています。 これを達成するために、私たちはすべての機能のセットを音声部分分析に従っていくつかのグループに分割します。 さまざまなフィーチャーグループは、異なる階層レベルで異なる扱いを受ける。</abstract_ja>
+      <abstract_pt>Um dos desafios durante o desenvolvimento de um chatbot orientado a tarefas é a escassa disponibilidade dos dados de treinamento rotulados. A melhor maneira de conseguir um é pedir aos avaliadores que marquem cada diálogo de acordo com sua intenção. Infelizmente, realizar a rotulagem sem qualquer estrutura de coleta provisória é difícil, pois a própria noção de intenção é mal definida. Neste artigo, propomos um modelo de tópico regularizado multimodal hierárquico para obter uma primeira aproximação do conjunto de intenções. Nossa justificativa para o uso de modelos hierárquicos é sua capacidade de levar em conta vários graus de relevância dos diálogos. Tentamos construir um modelo que possa distinguir entre semelhanças baseadas em assuntos (por exemplo, tópicos de medicina e transporte) e baseadas em ações (por exemplo, apresentação de um pedido e rastreamento do status do pedido). Para isso, dividimos o conjunto de todas as características em vários grupos de acordo com a análise da parte do discurso. Vários grupos de recursos são tratados de forma diferente em diferentes níveis de hierarquia.</abstract_pt>
+      <abstract_zh>向事之聊天机器人发,挑战之一,标数之可用性稀缺也。 得一对话的最佳法是要求评估员随意标记每个对话。 不幸者,无临时收结之难,以其定义不明也。 于本文中,分层多模态正则化主题模,以得意集第一近似值。 吾用分形者基本原理其能虑言相关性数也。 吾等试立一模形,可区别于题(如医运主题)与基于动者(如提交申请及踪迹申请)相似性。 以此致之,以词性论合为数朋。 异层次结构之级,异功之制。</abstract_zh>
+      <abstract_hi>एक कार्य उन्मुख चैटबॉट विकास के दौरान चुनौतियों में से एक लेबल प्रशिक्षण डेटा की दुर्लभ उपलब्धता है। एक प्राप्त करने का सबसे अच्छा तरीका मूल्यांकनकर्ताओं को अपने इरादे के अनुसार प्रत्येक संवाद को टैग करने के लिए कहना है। दुर्भाग्य से, किसी भी अनंतिम संग्रह संरचना के बिना लेबलिंग करना मुश्किल है क्योंकि इरादे की बहुत धारणा बीमार-परिभाषित है। इस पेपर में, हम इरादा सेट का पहला सन्निकटन प्राप्त करने के लिए एक पदानुक्रमित मल्टीमॉडल नियमित विषय मॉडल का प्रस्ताव करते हैं। पदानुक्रमित मॉडल के उपयोग के लिए हमारा तर्क संवादों की प्रासंगिकता के कई डिग्री को ध्यान में रखने की उनकी क्षमता है। हम एक मॉडल बनाने का प्रयास करते हैं जो विषय-आधारित (जैसे दवा और परिवहन विषयों) और कार्रवाई-आधारित (जैसे एक आवेदन की फाइलिंग और ट्रैकिंग एप्लिकेशन स्थिति) समानताओं के बीच अंतर कर सकता है। इसे प्राप्त करने के लिए, हम सभी विशेषताओं के सेट को भाग-भाषण विश्लेषण के अनुसार कई समूहों में विभाजित करते हैं। विभिन्न सुविधा समूहों को विभिन्न पदानुक्रम स्तरों पर अलग-अलग व्यवहार किया जाता है।</abstract_hi>
+      <abstract_ga>Ar cheann de na dúshláin a bhaineann le forbairt chatbot atá dírithe ar thascanna is ea infhaighteacht ghann na sonraí oiliúna lipéadaithe. Is é an bealach is fearr chun ceann a fháil ná iarraidh ar na measúnóirí gach dialóg a chlibeáil de réir a rún. Ar an drochuair, tá sé deacair an lipéadú a dhéanamh gan aon struchtúr bailiúcháin sealadach toisc nach bhfuil coincheap na hintinne sainithe. Sa pháipéar seo, molaimid múnla topaice ordlathach ilmhódach rialtaithe chun an chéad chomhfhogasú a fháil ar an tacar rún. Is í an réasúnaíocht atá againn maidir le húsáid na múnlaí ordlathacha ná a gcumas céimeanna éagsúla d’ábharthacht an chomhphlé a chur san áireamh. Déanaimid iarracht samhail a thógáil ar féidir idirdhealú a dhéanamh idir cosúlachtaí ábhar-bhunaithe (m.sh. ábhair leigheas agus iompair) agus bunaithe ar ghníomh (m.sh. comhdú iarratais agus rianú stádas iarratais). Chun é seo a bhaint amach, roinnimid na gnéithe go léir ina ngrúpaí éagsúla de réir anailíse cuid cainte. Caitear go héagsúil le sainghrúpaí éagsúla ar leibhéil dhifriúla ordlathais.</abstract_ga>
+      <abstract_el>Μια από τις προκλήσεις κατά τη διάρκεια μιας ανάπτυξης με στόχο την εργασία είναι η σπάνια διαθεσιμότητα των επισημασμένων δεδομένων κατάρτισης. Ο καλύτερος τρόπος για να αποκτήσετε ένα είναι να ζητήσετε από τους αξιολογητές να επισημάνουν κάθε διάλογο σύμφωνα με την πρόθεσή του. Δυστυχώς, η εκτέλεση επισήμανσης χωρίς προσωρινή δομή συλλογής είναι δύσκολη, δεδομένου ότι η ίδια η έννοια της πρόθεσης δεν είναι καθορισμένη. Στην παρούσα εργασία, προτείνουμε ένα ιεραρχικό πολυτροπικό κανονισμένο θεματικό μοντέλο για να επιτευχθεί μια πρώτη προσέγγιση του συνόλου προθέσεων. Η λογική μας για τη χρήση ιεραρχικών μοντέλων είναι η ικανότητά τους να λαμβάνουν υπόψη αρκετούς βαθμούς σχετικότητας των διαλόγων. Προσπαθούμε να οικοδομήσουμε ένα μοντέλο που να μπορεί να διακρίνει μεταξύ θεμάτων (π.χ. ιατρικά και μεταφορικά θέματα) και ενεργειών (π.χ. υποβολή αίτησης και παρακολούθηση της κατάστασης της αίτησης) ομοιοτήτων. Για να επιτευχθεί αυτό, χωρίζουμε το σύνολο όλων των χαρακτηριστικών σε διάφορες ομάδες σύμφωνα με την ανάλυση μέρους του λόγου. Διάφορες ομάδες χαρακτηριστικών αντιμετωπίζονται διαφορετικά σε διαφορετικά επίπεδα ιεραρχίας.</abstract_el>
+      <abstract_hu>Egy feladatorientált chatbot fejlesztés során az egyik kihívás a címkézett képzési adatok kevés rendelkezésre állása. A legjobb módja annak, hogy megkérjük az értékelőket, hogy címkézzék meg az egyes párbeszédeket a szándékának megfelelően. Sajnos az ideiglenes gyűjtési struktúra nélküli címkézés elvégzése nehéz, mivel a szándék fogalma rosszul definiált. Jelen tanulmányban egy hierarchikus multimodális szabályozott témamodellt javasolunk a szándékkészlet első közelítésére. A hierarchikus modellek használatának indoka, hogy képesek legyenek figyelembe venni a párbeszédek relevanciáját. Megpróbálunk olyan modellt kiépíteni, amely megkülönbözteti a tantárgy alapú (pl. orvostudomány és közlekedési témák) és az akció alapú (pl. kérelem benyújtása és a kérelem állapotának nyomon követése) hasonlóságokat. Ennek érdekében a beszédrész elemzése szerint több csoportra osztjuk az összes funkciót. A különböző jellemzői csoportokat különböző hierarchiai szinteken eltérően kezelik.</abstract_hu>
+      <abstract_ka>ერთი გამოცდილებების განვითარება საქაბოტის განვითარებაში არის მარტივი საქაბოტის მონაცემების შესაძლებლობა. ყველაზე საუკეთესო გზა მიიღება არის მოთხოვრებელი, რომ ყველა დიალოგის დამატებით მისი საზოგადოდ. მართლად, საზოგადოებლოდ, საზოგადოებო საზოგადოებო კოლექციის სტრუქტურაციას უკეთესია, რადგან საზოგადოებო საზოგადოება არაა განსა ამ დომენტში ჩვენ მივიღებთ იერაქტიკური მულტიმოდიალური რეგულაციული ტემენტიკური მოდელი, რომ პირველი მივიღებთ მისი საზოგადომის მიღება. ჩვენი იერაქტიკალური მოდელების გამოყენება არის ისინი შესაძლებლობა, რომ დიალოგების მნიშვნელობის რამდენიმე გრადუსების შესახებ აღმოჩენოთ. ჩვენ ვცდილობთ მოდელის შექმნა, რომელიც შეუძლია განსხვავება საქმენტი დაბათებული (მაგალითად მედიცია და რპანტრონტი ტემების) და მოქმედების დაბათებული (მაგალითად, პროგრამის და პროგრამის სტატის ეს გავაკეთებთ, ჩვენ ყველა ფუნქციების ნაწილის ნაწილის განმავლობაში მრავალ ჯგუფებში გაყოფილი. განსხვავებული ფუნქციების ჯგუფი განსხვავებულია განსხვავებული იერაქტიის დონეში.</abstract_ka>
+      <abstract_it>Una delle sfide durante lo sviluppo di un chatbot orientato alle attività è la scarsa disponibilità dei dati di formazione etichettati. Il modo migliore per ottenerne uno è chiedere ai valutatori di taggare ogni dialogo secondo il suo intento. Purtroppo, eseguire l'etichettatura senza alcuna struttura provvisoria di raccolta è difficile poiché la nozione stessa dell'intento è mal definita. In questo articolo, proponiamo un modello tematico multimodale gerarchico regolarizzato per ottenere una prima approssimazione dell'intent set. La nostra logica per l'utilizzo dei modelli gerarchici è la loro capacità di tenere conto di diversi gradi della rilevanza dei dialoghi. Cerchiamo di costruire un modello in grado di distinguere tra somiglianze basate su soggetti (ad esempio, medicina e trasporti) e azioni (ad esempio, deposito di una domanda e monitoraggio dello stato della domanda). Per raggiungere questo obiettivo, dividiamo l'insieme di tutte le caratteristiche in diversi gruppi in base all'analisi part-of-speech. Vari gruppi di funzionalità sono trattati in modo diverso a diversi livelli gerarchici.</abstract_it>
+      <abstract_kk>Тапсырманың бағытталған шат бағыттауының бірі - жарлық оқыту деректерінің қол жеткізілмейді. Барлығын алудың ең жақсы жолы - бақылаушыларының әрбір диалогын қалай тегтерді сұрауы. Кешіріңіз, кез келген уақытты жинақтау құрылғысы жоқ жарлық жарлығын орындау қиын, себебі мақсаттың түсініктемесі дұрыс анықталмаған. Бұл қағазда бірінші мақсаттың бірінші жақсарту үшін иерархикалық көптеген нақыштар үлгісін қолданамыз. Иерархикалық үлгілерді қолдану үшін бірнеше диалогтардың маңыздылығын есептеу мүмкіндігіміз. Біз тақырыбы негіздеген (мысалы, медицина және транспорт нақыштары) мен әрекеттердің негіздеген (мысалы, қолданбаны және қолданбаның күйіне қадағалау күйінің) ұқсастығын айыратын үлгілерді құру әрекет Бұны жеткізу үшін, біз бәрін бірнеше топтарда бөліп, сөйлеу талапына сәйкес келеді. Түрлі мүмкіндіктер топтары түрлі иерархияның деңгейінде әртүрлі тұрады.</abstract_kk>
+      <abstract_lt>Vienas iš užduočių rengiant į užduotis orientuotus pokalbius kylančių uždavinių yra ribotas ženklintų mokymo duomenų prieinamumas. Geriausias būdas jį gauti yra paprašyti vertintojų pažymėti kiekvieną dialogą pagal savo ketinimus. Deja, ženklinimas be jokios laikinos surinkimo struktūros yra sudėtingas, nes tikslo sąvoka yra netinkamai apibrėžta. Šiame dokumente siūlome hierarchinį daugiarūšį reguliuojamą teminį model į, kad būtų pasiektas pirmasis ketinimų rinkinio suderinimas. Mūsų hierarchinių modelių naudojimo pagrindas yra jų gebėjimas atsižvelgti į kelis dialogų svarbos laipsnius. Bandome sukurti model į, kuris galėtų atskirti teminius (pvz., medicinos ir transporto temų) ir veiksmų (pvz., paraiškos pateikimo ir paraiškos statuso sekimo) panašumus. Kad tai būtų pasiekta, pagal kalbos dalį suskirstysime visus elementus į kelias grupes. Įvairios ypatybių grupės vertinamos skirtingai skirtingais hierarchijos lygiais.</abstract_lt>
+      <abstract_mk>Еден од предизвиците за време на развојот на шатбот ориентиран на задачите е ретката достапност на обележаните податоци за обука. Најдобар начин да се добие еден е да се побара од проценувачите да го означат секој дијалог според неговата намера. За жал, извршувањето на етикетата без привремена структура на собирање е тешко бидејќи самата идеја за намерата е лошо дефинирана. Во овој весник, предложуваме хиерархичен мултимодален регулизиран темски модел за да се добие прво приближување на намерата. Our rationale for hierarchical models usage is their ability to take into account several degrees of the dialogues relevancy.  Ние се обидуваме да изградиме модел кој може да разликува меѓу темите базирани на субјект (на пример медицина и транспортни теми) и сличностите базирани на акција (на пример поднесување апликација и следење на статусот на апликација). За да го постигнеме ова, ги поделиме сите карактеристики во неколку групи според дел од анализата на говорот. Разни групи на карактеристики се третираат различно на различни нивоа на хиерархија.</abstract_mk>
+      <abstract_ml>ചാട്ട്ബോട്ട് വികസിക്കുമ്പോള്‍ ഒരു വിലാസങ്ങളില്‍ ഒന്നാണ് ലേബിള്‍ ട്രെയിനിങ്ങളുടെ വിവരങ്ങളില്‍ കുറച്ച് കൂ അതിന്റെ ഉദ്ദേശം പ്രകാരം എല്ലാ ഡയലോഗ് ടാഗ് ചെയ്യാന്‍ കഴിവുകളോടും ചോദിക്കുന്നതാണ് ഏറ്റവും നല്ല വഴി. നിര്‍ഭാഗ്യവശാല്‍, നിര്‍ണ്ണയിക്കുന്ന ഒരു സംഘടനയില്ലാതെ ലേബിള്‍ പ്രവര്‍ത്തിപ്പിക്കുന്നത് വളരെ ബുദ്ധിമുട്ടാണ് ഈ ഉദ്ദ ഈ പത്രത്തില്‍, നമ്മള്‍ ഒരു ഹീറാര്‍ക്കിക്കല്‍ മള്‍ട്ടിമോഡല്‍ നിയന്ത്രിക്കപ്പെട്ട പ്രധാനപ്പെടുത്തിയിരിക്കുന്നു അതിന Our rationale for hierarchical models usage is their ability to take into account several degrees of the dialogues relevancy.  പ്രയോഗത്തിന്റെയും പ്രയോഗത്തിന്റെയും തിരഞ്ഞെടുക്കുന്നതിനുമിടയില്‍ വേര്‍തിരിച്ചുവെക്കാന്‍ കഴിയുന്ന ഒരു മോഡല്‍ നാം ശ്രമിക്കുന്നു. സംസാരിക്കുന്നതിന്റെ ഭാഗം അനുസരിച്ച് നമ്മള്‍ എല്ലാ വിഭാഗങ്ങളും പല ഗ്രൂപ്പുകളിലേക്ക് വേര്‍പെടുത്തും. വ്യത്യസ്ത വിഭാഗങ്ങളുടെ കൂട്ടത്തില്‍ വ്യത്യസ്തമായി വ്യത്യസ്തമായി പരിചയപ്പെടുന്നു.</abstract_ml>
+      <abstract_ms>Salah satu cabaran semasa pembangunan chatbot bertujuan-tugas adalah kecukupan data latihan yang ditabel. The best way of getting one is to ask the assessors to tag each dialogue according to its intent.  Malangnya, melaksanakan label tanpa mana-mana struktur koleksi sementara adalah sukar kerana pemahaman tujuan adalah salah ditakrif. Dalam kertas ini, kami cadangkan model topik terregularisasi multimodal hierarkik untuk mendapatkan pengungkapan pertama set tujuan. Rasional kita untuk penggunaan model hierarkis adalah kemampuan mereka untuk mempertimbangkan beberapa darjah relevansi dialog. Kami cuba untuk membina model yang boleh membezakan antara peristiwa berdasarkan subjek (cth. ubat dan subjek pengangkutan) dan peristiwa berdasarkan tindakan (cth. memasang aplikasi dan mengesan status aplikasi). Untuk mencapai ini, kita bahagikan set semua ciri-ciri kepada beberapa kumpulan mengikut sebahagian analisis-ucapan. Kumpulan ciri-ciri berbeza dianggap berbeza pada aras hierarki berbeza.</abstract_ms>
+      <abstract_mt>Waħda mill-isfidi matul żvilupp ta’ chatbot orjentat lejn ix-xogħol hija d-disponibbiltà skarsa tad-dejta ta’ taħriġ ittikkettata. L-aħjar mod kif wieħed jikseb wieħed huwa li jitlob lill-valutaturi jimmarkaw kull djalogu skont l-intenzjoni tiegħu. Unfortunately, performing labeling without any provisional collection structure is difficult since the very notion of the intent is ill-defined.  F’dan id-dokument, qed nipproponu mudell ta’ suġġett ġerarkiku multimodali regolat biex tinkiseb l-ewwel approssimazzjoni tas-sett ta’ intenzjonijiet. Ir-raġunament tagħna għall-użu ta’ mudelli ġerarkiċi huwa l-kapaċità tagħhom li jqisu diversi gradi tar-rilevanza tad-djalogi. Aħna nippruvaw nibnu mudell li jista’ jiddistingwi bejn similaritajiet ibbażati fuq is-suġġetti (pereżempju s-suġġetti tal-mediċina u t-trasport) u dawk ibbażati fuq l-azzjoni (pereżempju l-preżentazzjoni ta’ applikazzjoni u l-istatus tal-applikazzjoni ta’ traċċar). Sabiex dan jinkiseb, aħna nqasmu sett tal-karatteristiċi kollha f’diversi gruppi skont analiżi ta’ parti mid-diskors. Gruppi ta’ karatteristiċi varji jiġu ttrattati b’mod differenti fuq livelli ta’ ġerarkija differenti.</abstract_mt>
+      <abstract_mn>Тайлбарт дамжуулагдсан чадвар хөгжүүлэх үед нэг асуудал бол тэмдэглэгдсэн суралцах өгөгдлийн бага байдал юм. Нэгийг авах хамгийн сайн арга нь хүмүүст зорилгоор диалог бүрийг тэмдэглэхийг хүсч байна. Харамсалтай нь ямар ч хугацааны цуглуулалтын бүтэц байхгүй маркинг хийх нь зорилго нь буруу тодорхойлогдсон учраас хэцүү. Энэ цаасан дээр бид анхны зорилгоор ойртохын тулд олон загварын олон загварын загварыг санал болгож байна. Бидний иерархикийн загварын хэрэглээний түлхүүр нь тэдний диалогуудын хэдэн градус хамааралтай байдлыг ойлгох чадвар юм. Бид сургууль дээр суурилсан загвар (жишээ нь эмнэлэг, транспорт сэдэв) болон үйл явц дээр суурилсан загвар бүтээхийг хичээдэг. Үүнийг хүртэхийн тулд бид хэлэлцээний талаар бүх өөрчлөлтийг олон хэсэгт хувааж байна. Өөр төрлийн төрлийн бүлгүүд өөр өөр төрлийн хичээл дээр ажилладаг.</abstract_mn>
+      <abstract_pl>Jednym z wyzwań podczas rozwoju chatbotów zorientowanych na zadania jest ograniczona dostępność oznaczonych danych szkoleniowych. Najlepszym sposobem na uzyskanie takiego dialogu jest poproszenie oceniających o oznaczenie każdego dialogu zgodnie z jego intencją. Niestety, wykonanie etykietowania bez jakiejkolwiek tymczasowej struktury zbiórki jest trudne, ponieważ samo pojęcie intencji jest źle zdefiniowane. W niniejszym artykule proponujemy hierarchiczny multimodalny model tematyczny regulowany w celu uzyskania pierwszego przybliżenia zbioru intencji. Naszym uzasadnieniem stosowania modeli hierarchicznych jest ich zdolność do uwzględnienia kilku stopni istotności dialogów. Staramy się zbudować model, który może rozróżnić podobieństwa tematyczne (np. medycyna i temat transportu) i działania (np. składanie wniosku i śledzenie statusu wniosku). Aby to osiągnąć, dzielimy zestaw wszystkich cech na kilka grup zgodnie z analizą części mowy. Różne grupy funkcji są traktowane różnie na różnych poziomach hierarchii.</abstract_pl>
+      <abstract_no>Ein av utfordringane under oppgåveorientert prateutvikling er det vanskeleg tilgjengeleg av dei merkelige opplæringsdata. Den beste måten å få ein er å spørja assessorane om å merke kvar dialogvindauge etter hjelp. Dessverre er det vanskeleg å utføra merkelappen utan nokon provisional samlingsstruktur sidan det er veldig vanskeleg å gjera merkelappen. I denne papiret foreslår vi eit hierarkisk multimodal regulært temamodell for å få ein første nærminga av innstillinga. Reasjonalen vårt for bruk av hierarkiske modeller er den muligheten til å ta opp med fleire grader av dialogvindauget. Vi prøver å bygge eit modell som kan distisera mellom emnesebaserte (f.eks. medisinske og transportemne) og handlingsbaserte (f.eks. filtrering av eit program og sporingsstatus). For å oppnå dette, deler vi sett av alle funksjonar i fleire grupper etter ein del av taleanalyse. Fleire funksjonsgrupper vert behandle ulike på ulike hierarkivå.</abstract_no>
+      <abstract_sr>Jedan od izazova tokom razvoja otvorenih na zadatku je manja dostupnost označenih podataka o obuci. Najbolji način da dobijemo jedan je da pitam procenatore da označe svaki dijalog prema svojoj namjeri. Nažalost, izvršenje etikete bez ikakve privremene strukture skupljanja je teško jer je vrlo loše određena ideja namjere. U ovom papiru predlažemo hijerarhički multimodalni model regulariziranog tema kako bi dobili prvu približnost set a namera. Naš razlog za upotrebu hijerarhijskih modela je njihova sposobnost da uzimaju u obzir nekoliko stupnjeva relevantnosti dijaloga. Pokušavamo da izgradimo model koji može da razlikuje između sličnosti na temelju temelja (npr. medicinske i transportne teme) i na akciji (npr. prijave aplikacije i status praćenja aplikacije). Da bismo ovo postigli, podelimo set svih karakteristika u nekoliko grupa prema analizi dio govora. Razne grupe karakteristike se tretiraju drugačije na različitim nivoima hijerarhije.</abstract_sr>
+      <abstract_ro>Una dintre provocările în timpul dezvoltării unui chatbot orientat spre sarcini este disponibilitatea limitată a datelor de instruire etichetate. Cel mai bun mod de a obține unul este de a cere evaluatorilor să eticheteze fiecare dialog în funcție de intenția sa. Din păcate, efectuarea etichetării fără nicio structură provizorie de colectare este dificilă, deoarece însăși noțiunea de intenție este greșit definită. În această lucrare, propunem un model de subiect regularizat multimodal ierarhic pentru a obține o primă aproximare a setului de intenții. Motivul nostru pentru utilizarea modelelor ierarhice este capacitatea lor de a lua în considerare mai multe grade ale relevanței dialogurilor. Încercăm să construim un model care să facă distincția între similaritățile bazate pe subiect (de exemplu, medicină și transport) și acțiuni (de exemplu, depunerea unei cereri și urmărirea statutului cererii). Pentru a realiza acest lucru, împărțim setul de toate caracteristicile în mai multe grupuri în funcție de analiza parțială de vorbire. Diferite grupuri de caracteristici sunt tratate diferit la diferite niveluri ierarhice.</abstract_ro>
+      <abstract_sv>En av utmaningarna under en uppgiftsorienterad chatbotutveckling är den knappa tillgången på märkta träningsdata. Det bästa sättet att få en är att be bedömarna att tagga varje dialog enligt dess avsikt. Tyvärr är det svårt att genomföra märkning utan någon preliminär insamlingsstruktur eftersom själva begreppet avsikt är felaktigt definierad. I denna uppsats föreslår vi en hierarkisk multimodal regulariserad ämnesmodell för att få en första approximation av intentionsuppsättningen. Vår motivering för användning av hierarkiska modeller är deras förmåga att ta hänsyn till flera grader av dialogernas relevans. Vi försöker bygga en modell som kan skilja mellan ämnesbaserade (t.ex. medicin- och transportämnen) och handlingsbaserade (t.ex. inlämnande av en ansökan och spårning av ansökningsstatus) likheter. För att uppnå detta delar vi upp uppsättningen av alla funktioner i flera grupper enligt delanalys. Olika funktionsgrupper behandlas olika på olika hierarkiska nivåer.</abstract_sv>
+      <abstract_si>වැඩක් ප්‍රමාණය කරපු චැට්බෝට් විකාශයක් වෙනුවෙන් ප්‍රශ්නයක් තියෙන එකක් තමයි ලේබෝල් කරපු ප්‍රශ්න එකක් ගන්න හොඳම විදියට තමයි අවශ්‍යාකයෝ අහන්නේ හැම සංවාදයක්ම ඔක්කොම සංවාදයේ අවශ්‍ය විදිය අවාසනාවන්තයෙන්, කිසිම ප්‍රමාණයක් සංග්රහනයක් නැති ලේබිල් එක්ක කරන්න අමාරුයි, මේ අදහසක් ගැන හොයාගන්න අ මේ පැත්තට, අපි ප්‍රශ්නයක් සිද්ධා කරනවා මුලින්ම සැකසුම් සම්බන්ධයක් ලැබෙන්න. අපේ අධ්‍යාත්මක මොඩල් භාවිතා වෙනුවෙන් ප්‍රයෝජනය තමයි ඔවුන්ගේ ප්‍රයෝජනය සංවාදයේ විශේෂතාවක් ග අපි ප්‍රශ්නයක් හදන්න උත්සාහ කරනවා මොඩල් එකක් හදන්න පුළුවන් විදිහට (උදාහරණයෙන්, වෛද්‍ය සහ ප්‍රයෝජන විදිහට) සහ ක්‍රියාව අධ්‍යා මේක හම්බවෙන්න, අපි සියළුම අවස්ථාවක් වලින් කණ්ඩායම් වලින් කණ්ඩායම් වලින් විශේෂ කරනවා. වෙනස් විශේෂ කණ්ඩායම් වෙනස් විශේෂ ස්තූතියේ වෙනස් විදිහට ප්‍රතික්‍රියා කරනවා.</abstract_si>
+      <abstract_so>Mid ka mid ah dhibaatooyin waqtiga horumarinta chatbot ee shaqo-horaadka ah waa mid aan yarayn helin macluumaadka waxbarashada la qoray. Waddada ugu wanaagsan ee aad hesho waa in aad ku weydiisato qiimeeyayaasha in lagu tago dialog kasta si waafaqsan qasabkiisa. Nasiib la’aanta marka la sameynayo shaqo aan la’aanin dhismaha shaqada ee ku meelgaarka ah waa adag, sababtoo ah fikrada qasabka lagu sameeyo waa mid aan la caddeyn. Qoraalkan waxaynu ka soo jeedaynaa tusaale ahaan la xeerariyey oo kala duduwan, si aan u helno koox ugu horeysa qoraalka qasabka. Isticmaalka modelalka hierarkiisa waxaa ku habboon kara in aad ku xisaabiso shahaado badan oo ku saabsan labadooda. Waxaan isku mid ah sameynaa tusaale ahaan oo ku kala sooci kara maadooyinka la xiriira (tusaale ahaan mada dawooyinka iyo gaadiidka) iyo shaqooyin ku saleysan (tusaale ahaan buuxinta codsiga iyo codsiga raadsashada). Si aan taas u gaadhno, waxaan u kala qaybinaynaa kooxo oo dhan sida qayb ka mid ah baaritaanka hadalka. Kooxo gaar ah waxaa lagu dhaqdhaqaaqaaqaa heerarka hierarkii kala duduwan.</abstract_so>
+      <abstract_ta>செயல் திசைக்கும் அரட்டை உருவாக்கும் போது சவால்களில் ஒன்று குறிப்பிட்ட பயிற்சி தரவின் குறைவானது. ஒரு பெறுவதற்கு சிறந்த வழி என்னவென்றால் ஒவ்வொரு உரையாடலுக்கும் ஒட்டுக்கொள்ள வேண்டும் என்பது பார்ப்பாளர துரதிருஷ்டவசமாக, எதுவும் தற்காலிக தொகுப்பு அமைப்பு இல்லாமல் வேலையை செய்வது கடினமாகும் ஏனெனில் நிலையின் நினைவு மி இந்த காகிதத்தில், நாம் முதல் நிலையான அமைப்பின் சுருக்கம் பெற முறைமையை தேர்ந்தெடுக்க முடியும். உரையாடல் செயல்பாடுகளின் பயன்பாடுகளுக்கு எங்கள் விகிதம் என்பது அவர்களுடைய சக்தி @ info பேச்சு ஆராய்ச்சி பார்ப்பு பார்ப்பு பார்வையை பொருத்தி பல குழுக்களாக பிரிக்க வேண்டும். பல்வேறு பண்புக் குழுக்கள் வேறு வித்தியாசமாக கருதப்படுகின்றன மேலும் வித்தியாசமான நிலைகளில்.</abstract_ta>
+      <abstract_ur>ایک کام کی طرف سے چاٹبوٹ ڈولیٹ میں سے ایک چال ہے کہ لابلیٹ ٹرینگ ڈیٹوں کی کم موجودگی ہے. ایک کو حاصل کرنے کا بہترین طریقہ یہ ہے کہ آزمائش کرنے والوں سے ہر قسم کے مطابق ہر قسم کا ٹیگ کریں۔ بدبختی ہے، لابلینگ کے بغیر کسی موقت کی جمع سازی کے سامان کا انجام کرنا مشکل ہے کیونکہ مصنوعی کا خیال بد تعریف ہے. اس کاغذ میں، ہم ایک حیراتیکی ملتی موڈال کی موڈل کی پیشنهاد کرتے ہیں کہ پہلی مقصد کے قریب حاصل کریں۔ ہمارا قابل تحقیق مدل استعمال کے لئے ان کی قابل ہے کہ ان کی تعداد درجے کے معاملہ میں حساب کریں. ہم ایک مدل بنانے کی کوشش کررہے ہیں جو موضوع کی بنیادی (مثال medicine اور transport topics) اور اقدام کی بنیادی (مثال ایک کاریال اور کاریال موضوع کی تلاش کرنا) کے درمیان برابر اختلاف کرسکتا ہے۔ یہ کام کرنے کے لئے، ہم ہر قسم کے فرصت کو مختلف گروہوں میں تقسیم کرتے ہیں۔ مختلف فرصت گروپ مختلف سطح پر مختلف طریقے سے پکڑے جاتے ہیں.</abstract_ur>
+      <abstract_uz>Vazifaning tashkilotni ta ľminlovchi ta ľminlovchi ta ľminlovchi ma ľlumotlarning yetarlicha qismi. Bir narsa olish uchun eng yaxshi usuli shu bilan bir oyna qanday oyna yordam berish. Afsuski, vaqtincha to Ľxtatish tuzuvchisi yo'q bajarish juda qiyin, chunki qanday g'oya yozib berilmagan. Bu qog Ľozda, biz birinchi qanday qo'shilgan multimodal mavzu modelini qo'yish uchun birinchi darajaga qarashni talab qilamiz. Hierarchik modellarning foydalanishimizning qiymatimiz - muloqatlarning bir necha daraja muhit darajasini hisoblash mumkin. Biz mavzu asosida va transport mavzularini ajratish mumkin modelni yaratishni harakat qilamiz va amal asosida (m. g. dastur va qo Ľllash holatini to  Ľldirish mumkin). Buni amalga oshirish uchun biz hamma xossalarning bir necha guruhga aytishimiz mumkin. Har xil xossalar guruhi boshqa xierarcha darajada boshqa boshqa narsa qilinadi.</abstract_uz>
+      <abstract_vi>Một trong những thử thách trong quá trình phát triển tập tin của một Chatur là sự khan hiếm khi có các dữ liệu được đánh dấu. Cách tốt nhất để đạt được một người là yêu cầu người đánh giá đánh dấu mỗi cuộc đối thoại theo mục đích của nó. Thật không may, việc biên hàm mà không có cấu trúc bộ sưu tập tạm thời là khó khăn vì khái niệm chủ ý không rõ ràng lắm. Trong tờ giấy này, chúng tôi đề xuất một mô hình chủ đề theo quy tắc đa chiều phân cấp để đạt được một ước lượng đầu tiên của mục tiêu. Lý tưởng của việc sử dụng các mô hình cấp dưới là khả năng của họ để cân nhắc vài độ liên quan đến liên quan. Chúng tôi cố g ắng xây dựng một mô hình có thể phân biệt giữa các chủ đề (ví dụ như về y học và vận chuyển) và các đối tượng dựa trên hành động (ví dụ như việc đệ trình đơn xin tìm kiếm và tình trạng ứng dụng) tương đồng. Để đạt được điều đó, chúng ta phân chia các đặc điểm vào nhiều nhóm theo phân tích phần ngôn ngữ. Các nhóm đặc trưng được đối xử khác nhau ở các cấp bậc khác.</abstract_vi>
+      <abstract_da>En af udfordringerne under en opgaveorienteret chatbotudvikling er den knappe tilgængelighed af de mærkede træningsdata. Den bedste måde at få en på er at bede bedømmerne om at mærke hver dialog efter dens hensigt. Desværre er det vanskeligt at udføre mærkning uden nogen foreløbig indsamlingsstruktur, da selve begrebet om hensigten er dårligt defineret. I denne artikel foreslår vi en hierarkisk multimodal reguleret emnemodel for at opnå en første tilnærmelse af hensigtssættet. Vores begrundelse for brugen af hierarkiske modeller er deres evne til at tage højde for flere grader af dialogernes relevans. Vi forsøger at opbygge en model, der kan skelne mellem emnebaserede (f.eks. medicin og transport emner) og handlingsbaserede (f.eks. indgivelse af en ansøgning og sporing af ansøgningsstatus) ligheder. For at opnå dette opdeler vi sæt af alle funktioner i flere grupper i henhold til del-of-tale analyse. Forskellige funktionsgrupper behandles forskelligt på forskellige hierarki niveauer.</abstract_da>
+      <abstract_hr>Jedan od izazova tijekom razvoja otmjenih na zadatku je nedostatak dostupnosti označenih podataka o obuci. Najbolji način da ga dobijete je tražiti procjenjivača da označe svaki dijalog prema svojoj namjeri. Nažalost, izvršenje etikete bez ikakve privremene strukture skupljanja je teško jer je vrlo loše određena pojma namjere. U ovom papiru predlažemo hijerarhički multimodalni model regulariziranog tema kako bi dobili prvi približavanje namjere. Naš razlog za upotrebu hijerarhičkih modela je njihova sposobnost uzimati u obzir nekoliko stupnjeva relevantnosti dijaloga. Pokušavamo izgraditi model koji može razlikovati između sličnosti na temelju temelja (npr. lijekova i prijevoznih tema) i na temelju akcije (npr. prijava status a aplikacije i praćenja aplikacije). Da bismo to postigli, podijelili smo skup svih karakteristika u nekoliko grupa prema analizi dio govora. Razne skupine karakteristike se tretiraju drugačije na različitim nivoima hijerarhije.</abstract_hr>
+      <abstract_nl>Een van de uitdagingen tijdens een taakgerichte chatbot ontwikkeling is de schaarse beschikbaarheid van de gelabelde trainingsdata. De beste manier om er een te krijgen is door de beoordelaars te vragen elke dialoog te taggen volgens de intentie ervan. Helaas is het moeilijk etiketteren zonder enige voorlopige inzamelingsstructuur uit te voeren, omdat het begrip intentie zelf slecht gedefinieerd is. In dit artikel stellen we een hiërarchisch multimodaal geregulariseerd topic model voor om een eerste benadering van de intentieset te verkrijgen. Onze reden voor het gebruik van hiërarchische modellen is hun vermogen om rekening te houden met verschillende graden van de relevantie van de dialogen. We proberen een model te bouwen dat onderscheid kan maken tussen subject-based (bijv. geneeskunde- en transportonderwerpen) en action-based (bijvoorbeeld het indienen van een aanvraag en het bijhouden van de status van de aanvraag) overeenkomsten. Om dit te bereiken, verdelen we de set van alle kenmerken in verschillende groepen volgens een deel-van-spraak analyse. Verschillende functiegroepen worden op verschillende hiërarchieniveaus verschillend behandeld.</abstract_nl>
+      <abstract_bg>Едно от предизвикателствата при разработването на чатбот, ориентиран към задачите, е оскъдната наличност на етикетираните данни за обучение. Най-добрият начин да получите такъв е да помолите оценителите да маркират всеки диалог според намерението му. За съжаление, извършването на етикетиране без каквато и да е временна структура на събирането е трудно, тъй като самата представа за намерението е неправилно дефинирана. В настоящата статия предлагаме йерархичен мултимодален регуляризиран тематичен модел за получаване на първо приближение на набора намерения. Нашата обосновка за използването на йерархични модели е способността им да отчитат няколко степени на релевантност на диалога. Опитваме се да изградим модел, който да разграничава сходствата между тематични (например медицински и транспортни теми) и базирани на действия (например подаване на заявление и проследяване на статуса на заявлението). За да постигнем това, разделяме набор от всички функции на няколко групи според анализ на част от речта. Различни групи функции се третират различно на различни йерархични нива.</abstract_bg>
+      <abstract_id>Salah satu tantangan selama pembangunan chatbot orient tugas adalah kecepatan jarang dari data pelatihan yang ditabel. Cara terbaik untuk mendapatkan salah satu adalah meminta penilai untuk menandai setiap dialog menurut niatnya. Sayangnya, melaksanakan label tanpa struktur koleksi sementara sulit karena gagasan intinya tidak terdefinisikan. Dalam kertas ini, kami mengusulkan model topik terregularisasi multimodal hierarkis untuk mendapatkan pendekatan pertama dari set tujuan. Rasional kita untuk penggunaan model hierarkis adalah kemampuan mereka untuk mempertimbangkan beberapa derajat dari relevansi dialog. Kami mencoba membangun model yang dapat membedakan antara berbasis subjek (cth. obat dan subjek transportasi) dan kesamaan berbasis aksi (cth. mendaftar aplikasi dan melacak status aplikasi). Untuk mencapai ini, kita membagi set semua fitur ke beberapa kelompok menurut bagian dari analisis pidato. Berbagai kelompok fitur diperlakukan berbeda di tingkat hierarki berbeda.</abstract_id>
+      <abstract_de>Eine der Herausforderungen bei einer aufgabenorientierten Chatbot-Entwicklung ist die knappe Verfügbarkeit der markierten Trainingsdaten. Der beste Weg, einen Dialog zu bekommen, ist, die Assessoren zu bitten, jeden Dialog entsprechend seiner Absicht zu kennzeichnen. Leider ist es schwierig, eine Kennzeichnung ohne eine vorläufige Sammelstruktur durchzuführen, da der Begriff der Absicht selbst schlecht definiert ist. In diesem Beitrag schlagen wir ein hierarchisches multimodales regularisiertes Themenmodell vor, um eine erste Annäherung des Intent Sets zu erhalten. Unser Grund für die Verwendung hierarchischer Modelle ist ihre Fähigkeit, mehrere Grade der Dialogerelevanz zu berücksichtigen. Wir versuchen, ein Modell zu entwickeln, das zwischen fachbezogenen (z.B. Medizin- und Transportthemen) und handlungsbasierten (z.B. Antragstellung und Verfolgung des Antragsstatus) Ähnlichkeiten unterscheiden kann. Um dies zu erreichen, teilen wir den Funktionsumfang gemäß Sprachteilanalyse in mehrere Gruppen auf. Verschiedene Feature-Gruppen werden auf verschiedenen Hierarchieebenen unterschiedlich behandelt.</abstract_de>
+      <abstract_ko>임무를 위한 채팅 로봇 개발 과정에서 도전은 표시된 교육 데이터의 가용성이 부족하다는 것이다.대화를 얻는 가장 좋은 방법은 평가원이 대화의 의도에 따라 모든 대화를 표시하는 것이다.불행하게도 임시 수집 구조가 없는 상황에서 표기하는 것은 어렵다. 의도의 개념 자체가 명확하지 않기 때문이다.본고에서 우리는 층별 다중모드 정규화 주제 모델을 제시하여 의도집의 근사성을 얻었다.우리가 분층모델을 사용하는 기본 원리는 어느 정도의 관련성을 고려할 수 있다는 것이다.우리는 주제 기반(예를 들어 의학과 교통 주제)과 행동 기반(예를 들어 신청 제출과 추적 신청 상태)의 유사성을 구분할 수 있는 모델을 구축하고자 한다.이를 실현하기 위해 우리는 어성 분석에 따라 모든 특징을 몇 개의 조로 나눈다.서로 다른 요소 그룹은 서로 다른 차원에서 서로 다른 대우를 받는다.</abstract_ko>
+      <abstract_fa>یکی از چالش‌ها در طول توسعه صحبت‌های مشخص به کار کمی از دسترسی داده‌های آموزش برچسب است. بهترین راهی برای گرفتن یکی اینه که از ارزیابکاران بپرسند که هر صحبت را بر طبق هدف خود نشان دهند. متأسفانه، برچسب کردن بدون ساختار جمع‌آوری موقتی سخت است از آنجا که اصلاً فکری هدف بد تعریف شده است. در این کاغذ، ما یک مدل موضوع معمولی متعددی را پیشنهاد می‌کنیم تا اولین نزدیک کردن مجموعه‌ی هدف گیریم. قابلیت ما برای استفاده از مدل های دایره‌آرایشی توانایی آنها است که چندین درجه مربوط به درجه‌های دایره‌ها را به حساب بگیرند. ما سعی می‌کنیم یک مدل بسازیم که می‌تواند بین مشابه‌های موضوع (مثال دارویی و موضوع انتقال) و اقدام (مثال فرستادن یک کاربرد و وضعیت کاربرد را ردیابی کند) تفاوت دهد. برای رسیدن به این، مجموعه از تمام ویژه‌ها را به چند گروه تقسیم می‌کنیم بر اساس تحلیل بخشی از سخنرانی. گروه‌های ویژه‌های مختلف در سطح مختلف درمان می‌شوند.</abstract_fa>
+      <abstract_tr>G철revlerde g철rkezilen 챌채pler 철s체힊inde kyn챌ylyklary흫 biri etitlen첵채n e휓itim maglumatyny흫 첵eterli 첵erindir. Birini흫 i흫 gowy 첵oly almak - tassyz챌ylary흫 her dialogy maksadyna g철r채 terjime etmeklerini soramakdyr. Gynansakda, nama첵y흫 n채dogry d체힊체nmesi 체챌in etiketlemek kyn. Bu kagyzda, biz ilkinji maksady흫 gollanmasyny almak 체챌in bir i첵erarhi첵a multimodal nusga teklip edip g철r첵채ris 횦erear힊ik nusgalarymyz 체챌in 첵철r채n seb채bimiz, dialoglary흫 birn채챌e derejesini 챌ykarmak ukypdyr. Biz subat tabalygyny tapawutlap bilen bir nusga gurmagy synany힊첵arys (mesela derman we hat meselesi) we eylem tabalygyny (철r채n bir uygulama 첵agda첵yny흫 첵agda첵yny a 첵dyp bilmek 체챌in synany힊첵arys. Bunu ba힊armak 체챌in, b체t체n 철zellikleri birn채챌e topara 챌ykaryp 챌yky힊 analyzasyna g철r채 b철leriz. Birn채챌e wajyp topar 체첵tgewleri farkl캇 i첵erarhi첵a derejesinde 체첵tge힊iril첵채r.</abstract_tr>
+      <abstract_af>Een van die uitdagings tydens 'n taak orienteerde geselskappy ontwikkeling is die skaars beskikbaarheid van die gemerkte onderwerp data. Die beste manier om een te kry is om die aanvaarders te vra om elke dialoog te merk volgens sy doel. Ongelukkig, betekening sonder enige provisionele versameling struktuur is moeilik, omdat die baie nodiging van die doel is sleg gedefinieerd. In hierdie papier voorstel ons 'n hierarkies multimodaal regulariseerde onderwerp model om 'n eerste toekoms van die doel stel te kry. Ons rationale vir hierarkiese modelle gebruik is hul moontlik om verskeie grade van die dialoog relevante in rekening te neem. Ons probeer om 'n model te bou wat tussen onderwerp-gebaseerde onderwerp (bv. mediese en transport-onderwerpe) en aksie-gebaseerde (bv. onderwerp van 'n toepassing en onderwerp van toepassingsstatus) gelykenisse te verkies. Om dit te bereik, deel ons stel van alle funksies in verskeie groepe volgens deel van spraak analisie. Verskeie funksie groepe word verskillende behandel op verskillende hierarkie vlakke.</abstract_af>
+      <abstract_sw>Moja ya changamoto wakati wa maendeleo ya mazungumzo yanayoelekezwa na kazi ni upatikanaji mdogo wa taarifa za mafunzo. Namna bora ya kupata mtu ni kuwaomba watazamaji kuandika mazungumzo ya kila mjadala kwa mujibu wa nia yake. Kwa bahati mbaya, kutekeleza maabara bila muundo wowote wa mkusanyiko wa muda ni vigumu kwa sababu dhana ya malengo hayajaeleweka. Katika karatasi hii, tunapendekeza mtindo wa mada uliofanywa na miamba mbalimbali ili kupata takribani msingi wa kwanza wa kituo hicho. Uhalali wetu wa matumizi ya mifano ya kihafidhina ni uwezo wao wa kuangalia vyeo kadhaa vya mazungumzo yanayohusiana. Tunajaribu kutengeneza mifano inayoweza kutofautisha kati ya mada yenye msingi wa mada (kama mada ya dawa na usafiri) na kwa kutumia hatua (kama vile kuutumia programu na hali ya kufuatilia matumizi). Ili kufikia hili, tunagawanya aina zote katika makundi kadhaa kwa mujibu wa uchambuzi wa hotuba. Vikundi mbalimbali vinaonekana tofauti katika viwango tofauti vya hierarchy.</abstract_sw>
+      <abstract_sq>Një nga sfidat gjatë një zhvillimi të chatbotit të orientuar në detyrë është dispozicioni i paktë i të dhënave të trajnimit të etiketuar. The best way of getting one is to ask the assessors to tag each dialogue according to its intent.  Fatkeqësisht, kryerja e etiketave pa ndonjë strukturë të mbledhjes së përkohshme është e vështirë pasi koncepti i qëllimit është i keqpërcaktuar. Në këtë letër, propozojmë një model hierarkik të rregulluar multimodal për të marrë një përafërsim të parë të caktuar. Arsyeja jonë për përdorimin e modeleve hierarkike është aftësia e tyre për të marrë parasysh disa gradë të rëndësisë së dialogut. We attempt to build a model that can distinguish between subject-based (e.g. medicine and transport topics) and action-based (e.g. filing of an application and tracking application status) similarities.  Me qëllim që ta arrijmë këtë, ne ndajmë grupin e të gjitha karakteristikave në disa grupe sipas analizës së pjesës së fjalimit. Grupe të ndryshme karakteristike trajtohen ndryshe në nivele të ndryshme hierarkie.</abstract_sq>
+      <abstract_az>G√∂z…ôl t…ôrzind…ô √ß…ônt t…ôrzind…ô olanlarńĪn birisi etiketli t…ôrzim m…ôlumatlarńĪnńĪn √ßox az faydalanmasńĪdńĪr. Birini almaq …ôn yaxŇüńĪ yolu m√ľkafatlarńĪndan h…ôr diyal…ô niyy…ôti il…ô etiketl…ônm…ôkdir. Nec…ô olaraq, h…ôr hansńĪ bir m√ľdd…ôtli koleksiyon qurulmasńĪ olmadan etiketl…ônm…ôk m…ôqs…ôdilin fikrinin √ßox √ß…ôtin olduńüu √ľ√ß√ľn √ß…ôtin idi. Bu kańüńĪzda, bir hiyerarŇüik √ßoxlu modal m√ľzakir…ô m…ôs…ôl…ônin ilk yaxńĪnlaŇümasńĪnńĪ t…ôklif edirik. Bizim hiyerarŇüik modell…ôrin istifad…ôsi haqqńĪndakńĪmńĪz m√ľnasib…ôtimiz, dialoglarńĪn √ßoxlu d…ôr…ôc…ôl…ôrini hesablamaq bacarńĪńüńĪdńĪr. Biz m…ôs…ôl…ôl…ôr t…ôr…ôfind…ôn ayńĪrd ed…ô bil…ôc…ôk modeli inŇüa etm…ôy…ô √ßalńĪŇüńĪrńĪq (m…ôs…ôl…ôn, m…ôs…ôl…ôl…ôr v…ô t…ôkrar m…ôs…ôl…ôl…ôr arasńĪnda) v…ô eyni t…ôkrar t…ôr…ôfind…ôn t…ôkrar edil…ôn (m…ôs…ôl…ôn uyńüulama v…ô uyńüulama durumunu t…ôkrar ed…ô bil…ôc…ôk) m…ôs…ôl…ôl…ôr arasńĪnda. Bunu baŇüa d√ľŇüm…ôk √ľ√ß√ľn, s√∂zl…ôrin bir par√ßasńĪ analizi il…ô b√ľt√ľn f…ôrqli qruplara b√∂l√ľŇüd√ľk. M√ľxt…ôlif x√ľsusiyy…ôtl…ôr qruplarńĪ m√ľxt…ôlif hiyararhiya s…ôviyy…ôl…ôrind…ô m√ľxt…ôlif r…ôftar edilir.</abstract_az>
+      <abstract_hy>Խնդիրներից մեկն այն է, որ խնդիրներից մեկը, որն ուղղություն ունի խնդիրներին շտաբոտի զարգացման ընթացքում, պիտակուցված ուսուցման տվյալների հազվադեպ հասանելիությունն է: Ամեն մեկը ստանալու լավագույն միջոցն այն է, որ խնդրենք գնահատողներին, որ յուրաքանչյուր հաղորդակցվեն ըստ իր նպատակի: Դժբախտաբար, պիտակ կատարելը առանց որևէ ժամանակակից հավաքածու կառուցվածքի դժվար է, քանի որ նպատակի հասկացությունը սխալ է սահմանափակված: Այս թղթի մեջ մենք առաջարկում ենք հիերարխիկ բազմամոդալ վերահսկվող թեմային մոդել, որպեսզի ստանանք առաջին մոտեցումը նպատակների սահմանը: Մեր հիերարխիկ մոդելների օգտագործման ռացիոնալը այն է, որ նրանք կարողանում են հաշվի առնել երկու աստիճանների կարևորությունը: We attempt to build a model that can distinguish between subject-based (e.g. medicine and transport topics) and action-based (e.g. filing of an application and tracking application status) similarities.  Սա հասնելու համար մենք բաժանում ենք բոլոր հատկանիշները մի քանի խմբերի, ըստ խոսքի մասի վերլուծության: Տարբեր հատկանիշների խմբեր տարբեր կերպ են վերաբերվում տարբեր հիերարխիայի մակարդակներում:</abstract_hy>
+      <abstract_am>በተመሳሳይ አካባቢት አካባቢ ግንኙነት አንዱ የጽሑፍ ትምህርት ዳታዎችን መግኘት የጎደለው ነው፡፡ የመስጠት የሚሻለው መንገድ የአህዮቹን ማሳየት የሚጠይቅ ጥያቄ በሁሉም ማኅበረሰብ በተስፋው መጠን ነው፡፡ በተከፋች ጊዜ፣ የአስቡን አሳብ ከስህተት ግንኙነት ሳይኖር ተግባር ማድረግ አስቸጋሪ ነው፡፡ በዚህ ፕሮግራም፣ የመጀመሪያውን የጉዳዩ ጉዳይ ማግኘት የመጀመሪያውን ቁጥጥር ለማግኘት የሀይራርክቲክ ብዙኃላዊ ጉዳይ ሞዴል እናስባለን፡፡ የሀይራርክቲክ ዓይነቶችን ለመጠቀም የሚችሉትን አካባቢነታችንን በጥቂት ደረጃዎች የDialogue ግንኙነት ለመጠየቅ ይችላል፡፡ በጉዳዩ ላይ የሚለዩትን (ለምሳሌ አዲስ መድኃኒት እና ለመጓዝ ጉዳዮች) እና በሥርዓት መሠረት (ለምሳሌ ፕሮግራምን እና ፕሮግራምን በመስጠት እና የመግለጽ ሥርዓት) በሚመስል እናደርጋለን፡፡ ይህንን ለማግኘት፣ የሁሉን ምርጫዎች እንደ ንግግር አስተያየት ብዙዎችን ክፍሎች እናካፈላለን፡፡ የተለያየ ምርጫዎች ቡድን በተለየ አርእስክቲክ ደረጃዎች ላይ ይቆማል።</abstract_am>
+      <abstract_bs>Jedan od izazova tijekom razvoja otmjenih na zadatku je manja dostupnost označenih podataka o obuci. Najbolji način da dobijemo jedan je da zamolimo procjenjivače da označe svaki dijalog prema svojoj namjeri. Nažalost, izvršenje etikete bez ikakve privremene strukture skupljanja je teško jer je vrlo loše određena ideja namjere. U ovom papiru predlažemo hijerarhički multimodalni model regulariziranog tema kako bi dobili prvu približnost set a namjere. Naš racional za upotrebu hijerarhijskih modela je njihova sposobnost uzimati u obzir nekoliko stupnjeva relevantnosti dijaloga. Pokušavamo izgraditi model koji može različiti između sličnosti na temelju temelja (npr. medicinske i transportne teme) i na akciji (npr. prijavljenje aplikacije i status praćenja aplikacije). Da bismo postigli ovo, podijelili smo skup svih karakteristika u nekoliko grupa prema analizi dio govora. Razne grupe karakteristika se tretiraju drugačije na različitim nivoima hijerarhije.</abstract_bs>
+      <abstract_bn>কাজের দিকে চ্যাটবোট উন্নয়নের সময় একটি চ্যালেঞ্জ হচ্ছে লেবেল প্রশিক্ষণের তথ্য খুব কম। পাওয়ার সবচেয়ে ভাল উপায় হচ্ছে হিসাব গ্রহণকারীদের প্রত্যেক ডায়ালগ ট্যাগ করার জন্য। দুর্ভাগ্যবশত, কোন স্থায়ী সংগ্রহের কাঠামো ছাড়া লেবেল প্রদর্শন করা খুব কঠিন কারণ এই উদ্দেশ্যের ধারণা খুবই অজুহাত। এই কাগজটিতে আমরা একটি হিরেরার্কিল মাল্টিমোডাল বিষয় নিয়মিত মডেল প্রস্তাব করছি যাতে এই উদ্দেশ্যের কাছে প্রথম প্রায় প্রায় হিয়ারার্কিল মডেল ব্যবহারের জন্য আমাদের যুক্তিত্ব হচ্ছে তাদের ক্ষমতা বেশ কয়েকটি ডিগ্রি যোগাযোগের প্রয়োজনীয় ব আমরা একটি মডেল তৈরি করার চেষ্টা করছি যা বিষয়বস্তু ভিত্তিক (যেমন মেডিক এবং পরিবহন বিষয়গুলোর মধ্যে আলাদা করতে পারে) এবং কাজের ভিত্তিক (যেমন অ্যাপলিকেশন এবং অ এই বিষয়টি অর্জনের জন্য আমরা বেশ কয়েকটি বৈশিষ্ট্যাবলী বিশ্লেষণ অনুসারে বিভিন্ন গ্রুপে বিভক্ত করি। বিভিন্ন বৈশিষ্ট্যের গ্রুপ ভিন্ন ভিন্ন ভিন্ন ভিন্ন ভিন্ন ভিন্ন স্তরে চিকিৎসা করা হয়।</abstract_bn>
+      <abstract_ca>Un dels reptes durant un desenvolupament de chatbots orientat a les tasques és la escasa disponibilitat de les dades d'entrenament etiquetades. The best way of getting one is to ask the assessors to tag each dialogue according to its intent.  Malauradament, fer etiquetes sense cap estructura de col·lecció provisional és difícil, ja que la noció de l'intenció és maldefinida. En aquest paper, proposem un model de tema jeràrquic multimodal regularitzat per aconseguir una primera aproximació del conjunt d'intencions. La raó per l'ús de models jeràrquics és la seva habilitat de tenir en compte diversos graus de la pertinencia dels diàlegs. Intentem construir un model que pot distingir entre les similituds basades en temes (per exemple, medicina i temes de transport) i basades en acció (per exemple, la presentació d'una aplicació i el seguiment de l'e status de l'aplicació). Per tal d'aconseguir això, dividim el conjunt de totes les característiques en diversos grups segons l'anàlisi de part de la xerrada. Diversos grups de característiques es tracten de manera diferent a diferents nivells de jerarquia.</abstract_ca>
+      <abstract_cs>Jednou z výzev při vývoji chatbotů orientovaných na úkoly je vzácná dostupnost označených tréninkových dat. Nejlepším způsobem, jak ho získat, je požádat hodnotící, aby označili každý dialog podle jeho záměru. Bohužel, provádění označování bez jakékoliv prozatímní sběrné struktury je obtížné, protože samotný pojem záměru je špatně definovaný. V tomto článku navrhujeme hierarchický multimodální regularizovaný tématický model pro získání první aproximace záměrové sady. Naším důvodem pro využití hierarchických modelů je jejich schopnost zohlednit několik stupňů relevance dialogů. Snažíme se vytvořit model, který dokáže rozlišovat mezi subjektovými (např. medicínskými a dopravními tématy) a akčními (např. podání žádosti a sledování stavu žádosti). Abychom toho dosáhli, rozdělíme soubor všech vlastností do několika skupin podle analýzy části řeči. Různé skupiny funkcí jsou na různých úrovních hierarchie zacházeny odlišně.</abstract_cs>
+      <abstract_et>Üks ülesandepõhise chatboti arendamise väljakutseid on märgistatud koolitusandmete vähesus. Parim viis selle saamiseks on paluda hindajatel iga dialoogi märgistada vastavalt selle kavatsusele. Kahjuks on märgistamine ilma esialgse kogumisstruktuurita raske, sest kavatsuse mõiste on valesti määratletud. Käesolevas töös pakume välja hierarhilise multimodaalse regulariseeritud teemamudeli, et saada esimene lähendus kavatsuste komplekti. Hierarhiliste mudelite kasutamise põhjuseks on nende võime arvestada dialoogide asjakohasust mitmel määral. Püüame luua mudeli, mis eristaks teemapõhiseid (nt meditsiini- ja transporditeemasid) ja tegevuspõhiseid (nt taotluse esitamine ja taotluse staatuse jälgimine) sarnasusi. Selle saavutamiseks jagame kõigi omaduste komplekti mitmeks rühmaks vastavalt kõneosa analüüsile. Erinevatel hierarhiatasanditel koheldakse erinevaid funktsioonirühmi erinevalt.</abstract_et>
+      <abstract_fi>Yksi tehtävälähtöisen chatbotin kehittämisen haasteista on merkittyjen koulutustietojen niukka saatavuus. Paras tapa saada sellainen on pyytää arvioijia merkitsemään jokaisen dialogin tarkoituksen mukaan. Valitettavasti merkintöjen tekeminen ilman alustavaa keräysrakennetta on vaikeaa, koska itse tarkoituksen käsite on epäselvä. Tässä työssä ehdotamme hierarkkista multimodaalista säännösteltyä aihemallia saadaksemme ensimmäisen likimääräisen tavoitejoukon. Hierarkkisten mallien käytön peruste on niiden kyky ottaa huomioon dialogien merkityksen useat asteet. Pyrimme rakentamaan mallin, joka erottaa aihekohtaiset (esim. lääketiede- ja kuljetusaiheet) ja toimintopohjaiset (esim. hakemuksen jättäminen ja hakemuksen tilan seuranta) samankaltaisuudet. Tämän saavuttamiseksi jaamme kaikki ominaisuudet useisiin ryhmiin puheanalyysin mukaan. Erilaisia ominaisuusryhmiä kohdellaan eri hierarkian tasoilla eri tavalla.</abstract_fi>
+      <abstract_sk>Eden izmed izzivov pri razvoju klepetalnih botov, usmerjenih v naloge, je omejena razpoložljivost označenih podatkov o usposabljanju. Najboljši način je, da ocenjevalce zaprosijo, da označijo vsak dialog glede na njegov namen. Žal je izvajanje označevanja brez začasne strukture zbirke težko, saj je sam pojem namena slabo opredeljen. V prispevku predlagamo hierarhični multimodalni urejeni tematski model za pridobitev prvega približka nabora namenov. Naša logika za uporabo hierarhičnih modelov je njihova sposobnost upoštevanja več stopenj relevantnosti dialogov. Poskušamo zgraditi model, ki lahko razlikuje med tematskimi podobnostmi (npr. medicinskimi in transportnimi temami) in dejanskimi podobnostmi (npr. vložitev prijave in sledenje statusa prijave). Za dosego tega sklop vseh značilnosti razdelimo v več skupin glede na analizo dela govora. Različne skupine funkcij se obravnavajo različno na različnih ravneh hierarhije.</abstract_sk>
+      <abstract_jv>Sing barêng-barêng sing beraksi nang nggawé operasi tarjamahan karo nggawe gerakan kanggo ndelok data sing beraksi Awak dhéwé nggawe rong iki dadi kanggo nakokker-nakosik kanggo ngilangno dialog sing berarti Lalah, negori nggawe etiket sing ora ono wektu nggawe cadak, sedhaya iso nggawe barang apik sing apik gedhé. Nang pebuk iki, kita mudhun akeh sistem sistem multimodal sing ditambah bantuan nggawe gerakan kelas pertamane Awakdhéwé rationale kanggo nggawe model karo akeh dumadhi kanggo ngerasakno dadi iki dadi, ingkang dianggo barang Awak dhéwé saiki nggawe model sing bisa nggawe ungepuné karo pakem, suku isih dumateng lan cara nggawe barang seneng nggawe barang nggawe Ngawe nggo ngerti iki, kita podho nganggo cara-cara sing perusahaan nganggo cara-karo nganggo perusahaan langgar sapa-perusahaan langgar. string" in "context_BAR_stringLink</abstract_jv>
+      <abstract_ha>Babu wani daga gokuren a lokacin da aka gabatar da mazaɓa na aikin chatbot yana da ƙaranci da za'a iya sãmun data na tabar da aka rubũta. Tsarin ka fi kyãwo ka motsa guda ni'anar ka tambayi ma'anar gaske ga duk zauren akwatin bayanin da ke so. Babu rabon, performing labo bã da wani matsayin mai halayya da shi ya yi nauyi, saboda haka da an bayyana fikon aikin da ke so ba. Ga wannan takardan, Munã buɗa wata misãlin da aka yi wa hierrrchical multi-multiodal da aka ƙayyade shi dõmin ka sami kowaci ta farkon matabbata. Tsaranci na da amfani da misãlai masu hierrarci yana da abincin su ɗauki daraja guda na zauren zauren masu da muhimmi. Tuna jarraba ka samar da wani misali wanda zai iya rarraba tsakanin masu bassi (misali madaidaici da maɓallin tafiyar da hanya) da kuma masu daidaita aiki (misali filin shirin ayuka da halin shiryoyin ayuka). Dõmin mu isa wannan, muna raba kowane tsari cikin jama'a guda kamar rabon-bakin bayani. Ana yi amfani da jama'a mãsu yawa cikin daraja dabam-dabam.</abstract_ha>
+      <abstract_bo>One of the challenges during a task-oriented chatbot development is the scarce availability of the labeled training data. ཐོག་འགོད་པའི་ཐབས་ལམ་དེ་ཚོ་མཁན་ཚོས་རེ་རེའི་དམིགས་ཡུལ་དང་མཐོང་སྣང་བྱེད་དགོས་པ་དེ་རེད། Nay, performing labeling without any provisional collection structure is difficult since the very notion of the intent is ill-defined. ཤོག་བྱང་འདིའི་ནང་དུ་ང་ཚོས་གཞུང་གི་སྒྲིག་འཛུགས་ཀྱི་ཉེར་སྤྱོད་དང་པོ་ཞིག་ལ་རྐྱེན་བཟོས་པའི་མགོ་རིམ་གཞུང་ཡིན་པའི་གནད ང་ཚོའི་རྒྱུ་མཚན་དབུས་གཞུང་གི་སྤྱོད་ཀྱི་རྒྱུ་མཚན་ནི་ཁོང་ཚོའི་མཐུན་རྐྱེན་གྱི་ཌའི་ལོག་གནས་ཚུལ་མཐུན་ཚད་ལྟར་བཤ ང་ཚོས་གནད་དོན་དང་འདྲ་བ་གཉིས་ཀྱི་མིག་དཔེ་བཟོ་བྱེད་ཀྱི་རྩོམ་པ་ཞིག་ལ། To achieve this, we set of features all into several groups according to part-of-speech analysis. དབྱིབས་ཤུགས་ཀྱི་ཚོ་ཁག་མ་འདྲ་བའི་དབྱིབས་སྒྲིག་ཚད་མ་འདྲ་བའི་གནས་སྟངས་ལ་སོ་སོར་བྱེད་སོང་།</abstract_bo>
+      <abstract_he>One of the challenges during a task-oriented chatbot development is the scarce availability of the labeled training data.  The best way of getting one is to ask the assessors to tag each dialogue according to its intent.  למרבה הצער, ביצוע תיקונים ללא מבנה אוסף זמני זה קשה מאחר שהרעיון של הכוונה הוא לא מוגדר. In this paper, we propose a hierarchical multimodal regularized topic model to obtain a first approximation of the intent set.  הגיוני שלנו לשימוש בדוגמנים היררכיים הוא היכולת שלהם לשקול מספר מעלות של הרלוונטיות של הדיולוגים. אנו מנסים לבנות מודל שיכול להבדיל בין נושאים מבוססים (למשל נושאי תרופה ונושאים תחבורה) לבין נושאים מבוססים על פעולה (למשל הגישה של היישום ומעקב אחרי מצב היישום). In order to achieve this, we divide set of all features into several groups according to part-of-speech analysis.  Various feature groups are treated differently on different hierarchy levels.</abstract_he>
+      </paper>
+    <paper id="111">
+      <title>Are ambiguous conjunctions problematic for <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>?</title>
+      <author><first>Maja</first><last>Popović</last></author>
+      <author><first>Sheila</first><last>Castilho</last></author>
+      <pages>959–966</pages>
+      <abstract>The translation of ambiguous words still poses challenges for <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>. In this work, we carry out a systematic quantitative analysis regarding the ability of different <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation systems</a> to disambiguate the source language conjunctions but and and. We evaluate specialised test sets focused on the <a href="https://en.wikipedia.org/wiki/Translation_(geometry)">translation</a> of these two <a href="https://en.wikipedia.org/wiki/Logical_conjunction">conjunctions</a>. The test sets contain source languages that do not distinguish different variants of the given <a href="https://en.wikipedia.org/wiki/Logical_conjunction">conjunction</a>, whereas the target languages do. In total, we evaluate the <a href="https://en.wikipedia.org/wiki/Logical_conjunction">conjunction</a> but on 20 translation outputs, and the <a href="https://en.wikipedia.org/wiki/Logical_conjunction">conjunction</a> and on 10. All <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation systems</a> almost perfectly recognise one variant of the target conjunction, especially for the source conjunction but. The other target variant, however, represents a challenge for <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation systems</a>, with <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> varying from 50 % to 95 % for but and from 20 % to 57 % for and. The major error for all <a href="https://en.wikipedia.org/wiki/System">systems</a> is replacing the correct target variant with the opposite one.</abstract>
+      <url hash="441c540b">R19-1111</url>
+      <doi>10.26615/978-954-452-056-4_111</doi>
+      <bibkey>popovic-castilho-2019-ambiguous</bibkey>
+    </paper>
+    <paper id="114">
+      <title>NE-Table : A Neural key-value table for Named Entities<fixed-case>NE</fixed-case>-Table: A Neural key-value table for Named Entities</title>
+      <author><first>Janarthanan</first><last>Rajendran</last></author>
+      <author><first>Jatin</first><last>Ganhotra</last></author>
+      <author><first>Xiaoxiao</first><last>Guo</last></author>
+      <author><first>Mo</first><last>Yu</last></author>
+      <author><first>Satinder</first><last>Singh</last></author>
+      <author><first>Lazaros</first><last>Polymenakos</last></author>
+      <pages>980–993</pages>
+      <abstract>Many Natural Language Processing (NLP) tasks depend on using Named Entities (NEs) that are contained in texts and in external knowledge sources. While this is easy for humans, the present neural methods that rely on learned word embeddings may not perform well for these NLP tasks, especially in the presence of Out-Of-Vocabulary (OOV) or rare NEs. In this paper, we propose a solution for this problem, and present empirical evaluations on : a) a structured Question-Answering task, b) three related Goal-Oriented dialog tasks, and c) a Reading-Comprehension task, which show that the proposed method can be effective in dealing with both in-vocabulary and OOV NEs. We create extended versions of dialog bAbI tasks 1,2 and 4 and OOV versions of the CBT test set which are available at-https://github.com/IBM/ne-table-datasets/</abstract>
+      <url hash="6442b059">R19-1114</url>
+      <doi>10.26615/978-954-452-056-4_114</doi>
+      <bibkey>rajendran-etal-2019-ne</bibkey>
+      <pwccode url="https://github.com/IBM/ne-table-datasets" additional="false">IBM/ne-table-datasets</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/cbt">CBT</pwcdataset>
+    </paper>
+    <paper id="116">
+      <title>Semantic Textual Similarity with Siamese Neural Networks<fixed-case>S</fixed-case>iamese Neural Networks</title>
+      <author><first>Tharindu</first><last>Ranasinghe</last></author>
+      <author><first>Constantin</first><last>Orasan</last></author>
+      <author><first>Ruslan</first><last>Mitkov</last></author>
+      <pages>1004–1011</pages>
+      <abstract>Calculating the Semantic Textual Similarity (STS) is an important research area in <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> which plays a significant role in many applications such as <a href="https://en.wikipedia.org/wiki/Question_answering">question answering</a>, document summarisation, <a href="https://en.wikipedia.org/wiki/Information_retrieval">information retrieval</a> and <a href="https://en.wikipedia.org/wiki/Information_extraction">information extraction</a>. This paper evaluates Siamese recurrent architectures, a special type of <a href="https://en.wikipedia.org/wiki/Neural_network">neural networks</a>, which are used here to measure STS. Several variants of the <a href="https://en.wikipedia.org/wiki/Architecture">architecture</a> are compared with existing methods</abstract>
+      <url hash="40527a78">R19-1116</url>
+      <doi>10.26615/978-954-452-056-4_116</doi>
+      <bibkey>ranasinghe-etal-2019-semantic</bibkey>
+    </paper>
+    <paper id="119">
+      <title>Self-Attentional Models Application in Task-Oriented Dialogue Generation Systems</title>
+      <author><first>Mansour</first><last>Saffar Mehrjardi</last></author>
+      <author><first>Amine</first><last>Trabelsi</last></author>
+      <author><first>Osmar R.</first><last>Zaiane</last></author>
+      <pages>1031–1040</pages>
+      <abstract>Self-attentional models are a new paradigm for sequence modelling tasks which differ from common sequence modelling methods, such as recurrence-based and convolution-based sequence learning, in the way that their architecture is only based on the attention mechanism. Self-attentional models have been used in the creation of the state-of-the-art models in many NLP task such as <a href="https://en.wikipedia.org/wiki/Neural_machine_translation">neural machine translation</a>, but their usage has not been explored for the task of training end-to-end task-oriented dialogue generation systems yet. In this study, we apply these <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> on the DSTC2 dataset for training task-oriented chatbots. Our finding shows that self-attentional models can be exploited to create end-to-end task-oriented chatbots which not only achieve higher evaluation scores compared to recurrence-based models, but also do so more efficiently.</abstract>
+      <url hash="fdfbdb79">R19-1119</url>
+      <doi>10.26615/978-954-452-056-4_119</doi>
+      <bibkey>saffar-mehrjardi-etal-2019-self</bibkey>
+    </paper>
+    <paper id="121">
+      <title>Persistence pays off : Paying Attention to What the LSTM Gating Mechanism Persists<fixed-case>LSTM</fixed-case> Gating Mechanism Persists</title>
+      <author><first>Giancarlo</first><last>Salton</last></author>
+      <author><first>John</first><last>Kelleher</last></author>
+      <pages>1052–1059</pages>
+      <abstract>Recurrent Neural Network Language Models composed of LSTM units, especially those augmented with an external memory, have achieved state-of-the-art results in <a href="https://en.wikipedia.org/wiki/Language_model">Language Modeling</a>. However, these <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> still struggle to process long sequences which are more likely to contain long-distance dependencies because of information fading. In this paper we demonstrate an effective <a href="https://en.wikipedia.org/wiki/Mechanism_design">mechanism</a> for retrieving information in a memory augmented LSTM LM based on attending to information in memory in proportion to the number of timesteps the LSTM gating mechanism persisted the information.</abstract>
+      <url hash="44a99322">R19-1121</url>
+      <doi>10.26615/978-954-452-056-4_121</doi>
+      <bibkey>salton-kelleher-2019-persistence</bibkey>
+    </paper>
+    <paper id="122">
+      <title>Development and Evaluation of Three Named Entity Recognition Systems for Serbian-The Case of Personal Names<fixed-case>S</fixed-case>erbian - The Case of Personal Names</title>
+      <author><first>Branislava</first><last>Šandrih</last></author>
+      <author><first>Cvetana</first><last>Krstev</last></author>
+      <author><first>Ranka</first><last>Stankovic</last></author>
+      <pages>1060–1068</pages>
+      <abstract>In this paper we present a rule- and lexicon-based system for the recognition of Named Entities (NE) in Serbian newspaper texts that was used to prepare a gold standard annotated with personal names. It was further used to prepare training sets for four different levels of annotation, which were further used to train two Named Entity Recognition (NER) systems : Stanford and <a href="https://en.wikipedia.org/wiki/SpaCy">spaCy</a>. All obtained models, together with a rule- and lexicon-based system were evaluated on two sample texts : a part of the gold standard and an independent newspaper text of approximately the same size. The results show that rule- and lexicon-based system outperforms trained <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> in all four scenarios (measured by F1), while Stanford models has the highest <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">precision</a>. All systems obtain best results in recognizing <a href="https://en.wikipedia.org/wiki/Personal_name">full names</a>, while the recognition of first names only is rather poor. The produced <a href="https://en.wikipedia.org/wiki/Physical_model">models</a> are incorporated into a Web platform NER&amp;Beyond that provides various NE-related functions.</abstract>
+      <url hash="87989f6a">R19-1122</url>
+      <doi>10.26615/978-954-452-056-4_122</doi>
+      <bibkey>sandrih-etal-2019-development</bibkey>
+    </paper>
+    <paper id="123">
+      <title>Moral Stance Recognition and Polarity Classification from <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a> and Elicited Text<fixed-case>T</fixed-case>witter and Elicited Text</title>
+      <author><first>Wesley</first><last>Santos</last></author>
+      <author><first>Ivandré</first><last>Paraboni</last></author>
+      <pages>1069–1075</pages>
+      <abstract>We introduce a labelled corpus of stances about moral issues for the <a href="https://en.wikipedia.org/wiki/Brazilian_Portuguese">Brazilian Portuguese language</a>, and present reference results for both the stance recognition and polarity classification tasks. The <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> is built from <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a> and further expanded with data elicited through <a href="https://en.wikipedia.org/wiki/Crowdsourcing">crowd sourcing</a> and labelled by their own authors. Put together, the <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> and reference results are expected to be taken as a baseline for further studies in the field of stance recognition and polarity classification from text.</abstract>
+      <url hash="7ed1ff6b">R19-1123</url>
+      <doi>10.26615/978-954-452-056-4_123</doi>
+      <bibkey>santos-paraboni-2019-moral</bibkey>
+    </paper>
+    <paper id="125">
+      <title>Offence in Dialogues : A Corpus-Based Study</title>
+      <author><first>Johannes</first><last>Schäfer</last></author>
+      <author><first>Ben</first><last>Burtenshaw</last></author>
+      <pages>1085–1093</pages>
+      <abstract>In recent years an increasing number of analyses of offensive language has been published, however, dealing mainly with the automatic detection and classification of isolated instances. In this paper we aim to understand the impact of offensive messages in online conversations diachronically, and in particular the change in offensiveness of dialogue turns. In turn, we aim to measure the progression of offence level as well as its direction-For example, whether a conversation is escalating or declining in offence. We present our method of extracting linear dialogues from tree-structured conversations in social media data and make our code publicly available. Furthermore, we discuss methods to analyse this <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> through changes in discourse offensiveness. Our paper includes two main contributions ; first, using a <a href="https://en.wikipedia.org/wiki/Neural_network">neural network</a> to measure the level of offensiveness in conversations ; and second, the analysis of conversations around offensive comments using decoupling functions.</abstract>
+      <url hash="b9d26c8a">R19-1125</url>
+      <doi>10.26615/978-954-452-056-4_125</doi>
+      <bibkey>schafer-burtenshaw-2019-offence</bibkey>
+    </paper>
+    <paper id="127">
+      <title>A Morpho-Syntactically Informed LSTM-CRF Model for Named Entity Recognition<fixed-case>LSTM</fixed-case>-<fixed-case>CRF</fixed-case> Model for Named Entity Recognition</title>
+      <author><first>Lilia</first><last>Simeonova</last></author>
+      <author><first>Kiril</first><last>Simov</last></author>
+      <author><first>Petya</first><last>Osenova</last></author>
+      <author><first>Preslav</first><last>Nakov</last></author>
+      <pages>1104–1113</pages>
+      <abstract>We propose a morphologically informed model for <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">named entity recognition</a>, which is based on LSTM-CRF architecture and combines word embeddings, Bi-LSTM character embeddings, part-of-speech (POS) tags, and morphological information. While previous work has focused on learning from raw word input, using word and character embeddings only, we show that for morphologically rich languages, such as <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a>, access to POS information contributes more to the performance gains than the detailed morphological information. Thus, we show that <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">named entity recognition</a> needs only coarse-grained POS tags, but at the same time it can benefit from simultaneously using some POS information of different granularity. Our evaluation results over a standard <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> show sizeable improvements over the <a href="https://en.wikipedia.org/wiki/State_of_the_art">state-of-the-art</a> for Bulgarian NER.</abstract>
+      <url hash="74886e28">R19-1127</url>
+      <doi>10.26615/978-954-452-056-4_127</doi>
+      <bibkey>simeonova-etal-2019-morpho</bibkey>
+    </paper>
+    <paper id="131">
+      <title>Automated Text Simplification as a Preprocessing Step for <a href="https://en.wikipedia.org/wiki/Machine_translation">Machine Translation</a> into an Under-resourced Language</title>
+      <author><first>Sanja</first><last>Štajner</last></author>
+      <author><first>Maja</first><last>Popović</last></author>
+      <pages>1141–1150</pages>
+      <abstract>In this work, we investigate the possibility of using fully automatic text simplification system on the English source in machine translation (MT) for improving its translation into an under-resourced language. We use the state-of-the-art automatic text simplification (ATS) system for lexically and syntactically simplifying source sentences, which are then translated with two state-of-the-art English-to-Serbian MT systems, the phrase-based MT (PBMT) and the neural MT (NMT). We explore three different scenarios for using the ATS in MT : (1) using the raw output of the ATS ; (2) automatically filtering out the sentences with low grammaticality and meaning preservation scores ; and (3) performing a minimal manual correction of the ATS output. Our results show improvement in fluency of the <a href="https://en.wikipedia.org/wiki/Translation">translation</a> regardless of the chosen scenario, and difference in success of the three scenarios depending on the MT approach used (PBMT or NMT) with regards to improving <a href="https://en.wikipedia.org/wiki/Translation">translation fluency</a> and post-editing effort.</abstract>
+      <url hash="39f85c13">R19-1131</url>
+      <doi>10.26615/978-954-452-056-4_131</doi>
+      <bibkey>stajner-popovic-2019-automated</bibkey>
+    </paper>
+    <paper id="132">
+      <title>Investigating Multilingual Abusive Language Detection : A Cautionary Tale</title>
+      <author><first>Kenneth</first><last>Steimel</last></author>
+      <author><first>Daniel</first><last>Dakota</last></author>
+      <author><first>Yue</first><last>Chen</last></author>
+      <author><first>Sandra</first><last>Kübler</last></author>
+      <pages>1151–1160</pages>
+      <abstract>Abusive language detection has received much attention in the last years, and recent approaches perform the task in a number of different languages. We investigate which factors have an effect on multilingual settings, focusing on the compatibility of data and annotations. In the current paper, we focus on <a href="https://en.wikipedia.org/wiki/English_language">English</a> and <a href="https://en.wikipedia.org/wiki/German_language">German</a>. Our findings show large differences in performance between the two languages. We find that the best performance is achieved by different <a href="https://en.wikipedia.org/wiki/Statistical_classification">classification algorithms</a>. Sampling to address class imbalance issues is detrimental for <a href="https://en.wikipedia.org/wiki/German_language">German</a> and beneficial for <a href="https://en.wikipedia.org/wiki/English_language">English</a>. The only similarity that we find is that neither data set shows clear topics when we compare the results of <a href="https://en.wikipedia.org/wiki/Topic_modeling">topic modeling</a> to the gold standard. Based on our findings, we can conclude that a multilingual optimization of classifiers is not possible even in settings where comparable data sets are used.</abstract>
+      <url hash="26796c6e">R19-1132</url>
+      <doi>10.26615/978-954-452-056-4_132</doi>
+      <bibkey>steimel-etal-2019-investigating</bibkey>
+    </paper>
+    <paper id="138">
+      <title>SenZi : A Sentiment Analysis Lexicon for the Latinised Arabic (Arabizi)<fixed-case>S</fixed-case>en<fixed-case>Z</fixed-case>i: A Sentiment Analysis Lexicon for the Latinised <fixed-case>A</fixed-case>rabic (<fixed-case>A</fixed-case>rabizi)</title>
+      <author><first>Taha</first><last>Tobaili</last></author>
+      <author><first>Miriam</first><last>Fernandez</last></author>
+      <author><first>Harith</first><last>Alani</last></author>
+      <author><first>Sanaa</first><last>Sharafeddine</last></author>
+      <author><first>Hazem</first><last>Hajj</last></author>
+      <author><first>Goran</first><last>Glavaš</last></author>
+      <pages>1203–1211</pages>
+      <abstract>Arabizi is an informal written form of <a href="https://en.wikipedia.org/wiki/Varieties_of_Arabic">dialectal Arabic</a> transcribed in <a href="https://en.wikipedia.org/wiki/Latin_script">Latin alphanumeric characters</a>. It has a proven popularity on chat platforms and <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>, yet <a href="https://en.wikipedia.org/wiki/Information_technology">it</a> suffers from a severe lack of <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing (NLP) resources</a>. As such, texts written in <a href="https://en.wikipedia.org/wiki/Arabizi">Arabizi</a> are often disregarded in sentiment analysis tasks for <a href="https://en.wikipedia.org/wiki/Arabic">Arabic</a>. In this paper we describe the creation of a sentiment lexicon for <a href="https://en.wikipedia.org/wiki/Arabizi">Arabizi</a> that was enriched with <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a>. The result is a new Arabizi lexicon consisting of 11.3 K positive and 13.3 K negative words. We evaluated this <a href="https://en.wikipedia.org/wiki/Lexicon">lexicon</a> by classifying the sentiment of Arabizi tweets achieving an F1-score of 0.72. We provide a detailed error analysis to present the challenges that impact the <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a> of <a href="https://en.wikipedia.org/wiki/Arabizi">Arabizi</a>.</abstract>
+      <url hash="0f6b016e">R19-1138</url>
+      <doi>10.26615/978-954-452-056-4_138</doi>
+      <bibkey>tobaili-etal-2019-senzi</bibkey>
+    </paper>
+    <paper id="140">
+      <title>Cross-Lingual Word Embeddings for Morphologically Rich Languages</title>
+      <author><first>Ahmet</first><last>Üstün</last></author>
+      <author><first>Gosse</first><last>Bouma</last></author>
+      <author><first>Gertjan</first><last>van Noord</last></author>
+      <pages>1222–1228</pages>
+      <abstract>Cross-lingual word embedding models learn a shared vector space for two or more languages so that words with similar meaning are represented by similar vectors regardless of their language. Although the existing models achieve high performance on pairs of morphologically simple languages, they perform very poorly on morphologically rich languages such as <a href="https://en.wikipedia.org/wiki/Turkish_language">Turkish</a> and <a href="https://en.wikipedia.org/wiki/Finnish_language">Finnish</a>. In this paper, we propose a morpheme-based model in order to increase the performance of cross-lingual word embeddings on morphologically rich languages. Our <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> includes a simple extension which enables us to exploit <a href="https://en.wikipedia.org/wiki/Morpheme">morphemes</a> for cross-lingual mapping. We applied our <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> for the <a href="https://en.wikipedia.org/wiki/Finnish_language">Turkish-Finnish language pair</a> on the bilingual word translation task. Results show that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> outperforms the baseline models by 2 % in the <a href="https://en.wikipedia.org/wiki/Nearest_neighbour_search">nearest neighbour ranking</a>.</abstract>
+      <url hash="a6ad34bc">R19-1140</url>
+      <doi>10.26615/978-954-452-056-4_140</doi>
+      <bibkey>ustun-etal-2019-cross</bibkey>
+    </paper>
+    <paper id="142">
+      <title>Deep learning contextual models for prediction of sport event outcome from sportsman’s interviews</title>
+      <author><first>Boris</first><last>Velichkov</last></author>
+      <author><first>Ivan</first><last>Koychev</last></author>
+      <author><first>Svetla</first><last>Boytcheva</last></author>
+      <pages>1240–1246</pages>
+      <abstract>This paper presents an approach for prediction of results for <a href="https://en.wikipedia.org/wiki/Sport">sport events</a>. Usually the sport forecasting approaches are based on <a href="https://en.wikipedia.org/wiki/Structured_data">structured data</a>. We test the hypothesis that the sports results can be predicted by using <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> and machine learning techniques applied over interviews with the players shortly before the sport events. The proposed <a href="https://en.wikipedia.org/wiki/Methodology">method</a> uses deep learning contextual models, applied over <a href="https://en.wikipedia.org/wiki/Unstructured_data">unstructured textual documents</a>. Several experiments were performed for interviews with players in individual sports like <a href="https://en.wikipedia.org/wiki/Boxing">boxing</a>, <a href="https://en.wikipedia.org/wiki/Martial_arts">martial arts</a>, and <a href="https://en.wikipedia.org/wiki/Tennis">tennis</a>. The results from the conducted experiment confirmed our initial assumption that an interview from a sportsman before a match contains information that can be used for prediction the outcome from it. Furthermore, the results provide strong evidence in support of our research hypothesis, that is, we can predict the outcome from a sport match analyzing an interview, given before it.</abstract>
+      <url hash="54dbd560">R19-1142</url>
+      <doi>10.26615/978-954-452-056-4_142</doi>
+      <bibkey>velichkov-etal-2019-deep</bibkey>
+    </paper>
+    <paper id="144">
+      <title>Exploiting <a href="https://en.wikipedia.org/wiki/Open_IE">Open IE</a> for Deriving Multiple Premises Entailment Corpus<fixed-case>IE</fixed-case> for Deriving Multiple Premises Entailment Corpus</title>
+      <author><first>Martin</first><last>Víta</last></author>
+      <author><first>Jakub</first><last>Klímek</last></author>
+      <pages>1257–1264</pages>
+      <abstract>Natural language inference (NLI) is a key part of <a href="https://en.wikipedia.org/wiki/Natural-language_understanding">natural language understanding</a>. The NLI task is defined as a <a href="https://en.wikipedia.org/wiki/Decision_problem">decision problem</a> whether a given sentence   hypothesis   can be inferred from a given text. Typically, we deal with a text consisting of just a single premise / single sentence, which is called a single premise entailment (SPE) task. Recently, a derived task of NLI from multiple premises (MPE) was introduced together with the first annotated corpus and corresponding several strong baselines. Nevertheless, the further development in MPE field requires accessibility of huge amounts of annotated data. In this paper we introduce a novel method for rapid deriving of MPE corpora from an existing NLI (SPE) annotated data that does not require any additional annotation work. This proposed approach is based on using an open <a href="https://en.wikipedia.org/wiki/Information_extraction">information extraction system</a>. We demonstrate the application of the <a href="https://en.wikipedia.org/wiki/Methodology">method</a> on a well known SNLI corpus. Over the obtained <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a>, we provide the first evaluations as well as we state a strong <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a>.</abstract>
+      <url hash="43509211">R19-1144</url>
+      <doi>10.26615/978-954-452-056-4_144</doi>
+      <bibkey>vita-klimek-2019-exploiting</bibkey>
+    </paper>
+    <paper id="147">
+      <title>ETNLP : A Visual-Aided Systematic Approach to Select Pre-Trained Embeddings for a Downstream Task<fixed-case>ETNLP</fixed-case>: A Visual-Aided Systematic Approach to Select Pre-Trained Embeddings for a Downstream Task</title>
+      <author><first>Son</first><last>Vu Xuan</last></author>
+      <author><first>Thanh</first><last>Vu</last></author>
+      <author><first>Son</first><last>Tran</last></author>
+      <author><first>Lili</first><last>Jiang</last></author>
+      <pages>1285–1294</pages>
+      <abstract>Given many recent advanced embedding models, selecting pre-trained word representation (i.e., word embedding) models best fit for a specific downstream NLP task is non-trivial. In this paper, we propose a systematic approach to extracting, evaluating, and visualizing multiple sets of pre-trained word embed- dings to determine which embeddings should be used in a downstream task. First, for extraction, we provide a method to extract a subset of the <a href="https://en.wikipedia.org/wiki/Embedding">embeddings</a> to be used in the downstream NLP tasks. Second, for evaluation, we analyse the quality of pre-trained embeddings using an input word analogy list. Finally, we visualize the <a href="https://en.wikipedia.org/wiki/Embedding">embedding space</a> to explore the embedded words interactively. We demonstrate the effectiveness of the proposed approach on our pre-trained word embedding models in <a href="https://en.wikipedia.org/wiki/Vietnamese_language">Vietnamese</a> to select which <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> are suitable for a named entity recogni- tion (NER) task. Specifically, we create a large Vietnamese word analogy list to evaluate and select the pre-trained embedding models for the task. We then utilize the selected embed- dings for the NER task and achieve the new state-of-the-art results on the task benchmark dataset. We also apply the approach to another downstream task of privacy-guaranteed embedding selection, and show that it helps users quickly select the most suitable embeddings. In addition, we create an <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source system</a> using the proposed systematic approach to facilitate similar studies on other NLP tasks. The source code and data are available at https : //github.com / vietnlp / etnlp.</abstract>
+      <url hash="9ed67059">R19-1147</url>
+      <doi>10.26615/978-954-452-056-4_147</doi>
+      <bibkey>vu-xuan-etal-2019-etnlp</bibkey>
+      <pwccode url="https://github.com/vietnlp/etnlp" additional="true">vietnlp/etnlp</pwccode>
+    </paper>
+    <paper id="150">
+      <title>Bigger versus Similar : Selecting a Background Corpus for First Story Detection Based on Distributional Similarity</title>
+      <author><first>Fei</first><last>Wang</last></author>
+      <author><first>Robert J.</first><last>Ross</last></author>
+      <author><first>John D.</first><last>Kelleher</last></author>
+      <pages>1312–1320</pages>
+      <abstract>The current state of the art for First Story Detection (FSD) are nearest neighbour-based models with traditional term vector representations ; however, one challenge faced by FSD models is that the document representation is usually defined by the vocabulary and term frequency from a background corpus. Consequently, the ideal background corpus should arguably be both large-scale to ensure adequate term coverage, and similar to the target domain in terms of the <a href="https://en.wikipedia.org/wiki/Frequency_distribution">language distribution</a>. However, given these two factors can not always be mutually satisfied, in this paper we examine whether the distributional similarity of common terms is more important than the scale of common terms for FSD. As a basis for our analysis we propose a set of <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metrics</a> to quantitatively measure the scale of common terms and the distributional similarity between corpora. Using these <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metrics</a> we rank different background corpora relative to a target corpus. We also apply <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> based on different background corpora to the FSD task. Our results show that term distributional similarity is more predictive of good FSD performance than the scale of common terms ; and, thus we demonstrate that a smaller recent domain-related corpus will be more suitable than a very large-scale general corpus for FSD.</abstract>
+      <url hash="6dbbf3d3">R19-1150</url>
+      <doi>10.26615/978-954-452-056-4_150</doi>
+      <bibkey>wang-etal-2019-bigger</bibkey>
+    </paper>
+    <paper id="151">
+      <title>Predicting Sentiment of Polish Language Short Texts<fixed-case>P</fixed-case>olish Language Short Texts</title>
+      <author><first>Aleksander</first><last>Wawer</last></author>
+      <author><first>Julita</first><last>Sobiczewska</last></author>
+      <pages>1321–1327</pages>
+      <abstract>The goal of this paper is to use all available Polish language data sets to seek the best possible performance in supervised sentiment analysis of short texts. We use text collections with labelled sentiment such as <a href="https://en.wikipedia.org/wiki/Twitter">tweets</a>, <a href="https://en.wikipedia.org/wiki/Film_criticism">movie reviews</a> and a sentiment treebank, in three comparison modes. In the first, we examine the performance of <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> trained and tested on the same <a href="https://en.wikipedia.org/wiki/Text_corpus">text collection</a> using standard cross-validation (in-domain). In the second we train <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> on all available <a href="https://en.wikipedia.org/wiki/Data">data</a> except the given test collection, which we use for testing (one vs rest cross-domain). In the third, we train a <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> on one <a href="https://en.wikipedia.org/wiki/Data_set">data set</a> and apply it to another one (one vs one cross-domain). We compare wide range of methods including <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> on bag-of-words representation, bidirectional recurrent neural networks as well as the most recent pre-trained architectures <a href="https://en.wikipedia.org/wiki/ELMO">ELMO</a> and BERT. We formulate conclusions as to cross-domain and in-domain performance of each <a href="https://en.wikipedia.org/wiki/Method_(computer_programming)">method</a>. Unsurprisingly, BERT turned out to be a strong performer, especially in the cross-domain setting. What is surprising however, is solid performance of the relatively simple multinomial Naive Bayes classifier, which performed equally well as BERT on several data sets.</abstract>
+      <url hash="809e9378">R19-1151</url>
+      <doi>10.26615/978-954-452-056-4_151</doi>
+      <bibkey>wawer-sobiczewska-2019-predicting</bibkey>
+    </paper>
+    <paper id="152">
+      <title>Improving Named Entity Linking Corpora Quality</title>
+      <author><first>Albert</first><last>Weichselbraun</last></author>
+      <author><first>Adrian M.P.</first><last>Brasoveanu</last></author>
+      <author><first>Philipp</first><last>Kuntschik</last></author>
+      <author><first>Lyndon J.B.</first><last>Nixon</last></author>
+      <pages>1328–1337</pages>
+      <abstract>Gold standard corpora and competitive evaluations play a key role in benchmarking named entity linking (NEL) performance and driving the development of more sophisticated NEL systems. The quality of the used corpora and the used evaluation metrics are crucial in this process. We, therefore, assess the quality of three popular evaluation corpora, identifying four major issues which affect these gold standards : (i) the use of different annotation styles, (ii) incorrect and missing annotations, (iii) Knowledge Base evolution, (iv) and differences in annotating co-occurrences. This paper addresses these issues by formalizing NEL annotations and corpus versioning which allows standardizing corpus creation, supports corpus evolution, and paves the way for the use of lenses to automatically transform between different corpus configurations. In addition, the use of clearly defined scoring rules and evaluation metrics ensures a better comparability of evaluation results.</abstract>
+      <url hash="85cd3078">R19-1152</url>
+      <doi>10.26615/978-954-452-056-4_152</doi>
+      <bibkey>weichselbraun-etal-2019-improving</bibkey>
+    </paper>
+    <paper id="156">
+      <title>An Open, Extendible, and Fast Turkish Morphological Analyzer<fixed-case>T</fixed-case>urkish Morphological Analyzer</title>
+      <author><first>Olcay Taner</first><last>Yıldız</last></author>
+      <author><first>Begüm</first><last>Avar</last></author>
+      <author><first>Gökhan</first><last>Ercan</last></author>
+      <pages>1364–1372</pages>
+      <abstract>In this paper, we present a two-level morphological analyzer for <a href="https://en.wikipedia.org/wiki/Turkish_language">Turkish</a>. The morphological analyzer consists of five main components : finite state transducer, rule engine for suffixation, <a href="https://en.wikipedia.org/wiki/Lexicon">lexicon</a>, trie data structure, and <a href="https://en.wikipedia.org/wiki/LRU_cache">LRU cache</a>. We use <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java language</a> to implement finite state machine logic and rule engine, Xml language to describe the finite state transducer rules of the <a href="https://en.wikipedia.org/wiki/Turkish_language">Turkish language</a>, which makes the morphological analyzer both easily extendible and easily applicable to other languages. Empowered with the comprehensiveness of a lexicon of 54,000 bare-forms including 19,000 proper nouns, our morphological analyzer presents one of the most reliable analyzers produced so far. The analyzer is compared with Turkish morphological analyzers in the literature. By using <a href="https://en.wikipedia.org/wiki/LRU_cache">LRU cache</a> and a <a href="https://en.wikipedia.org/wiki/Trie">trie data structure</a>, the <a href="https://en.wikipedia.org/wiki/System">system</a> can analyze 100,000 words per second, which enables users to analyze huge corpora in a few hours.</abstract>
+      <url hash="b85c84ca">R19-1156</url>
+      <doi>10.26615/978-954-452-056-4_156</doi>
+      <bibkey>yildiz-etal-2019-open</bibkey>
+    </paper>
+    <paper id="159">
+      <title>Multilingual Dynamic Topic Model</title>
+      <author><first>Elaine</first><last>Zosa</last></author>
+      <author><first>Mark</first><last>Granroth-Wilding</last></author>
+      <pages>1388–1396</pages>
+      <abstract>Dynamic topic models (DTMs) capture the evolution of topics and trends in <a href="https://en.wikipedia.org/wiki/Time_series">time series data</a>. Current DTMs are applicable only to monolingual datasets. In this paper we present the multilingual dynamic topic model (ML-DTM), a novel <a href="https://en.wikipedia.org/wiki/Topic_model">topic model</a> that combines DTM with an existing multilingual topic modeling method to capture cross-lingual topics that evolve across time. We present results of this model on a parallel German-English corpus of news articles and a comparable corpus of Finnish and Swedish news articles. We demonstrate the capability of ML-DTM to track significant events related to a topic and show that it finds distinct topics and performs as well as existing multilingual topic models in aligning cross-lingual topics.</abstract>
+      <url hash="cc8f6d5d">R19-1159</url>
+      <doi>10.26615/978-954-452-056-4_159</doi>
+      <bibkey>zosa-granroth-wilding-2019-multilingual</bibkey>
+    </paper>
+    <paper id="160">
+      <title>A Wide-Coverage Context-Free Grammar for Icelandic and an Accompanying Parsing System<fixed-case>I</fixed-case>celandic and an Accompanying Parsing System</title>
+      <author><first>Vilhjálmur</first><last>Þorsteinsson</last></author>
+      <author><first>Hulda</first><last>Óladóttir</last></author>
+      <author><first>Hrafn</first><last>Loftsson</last></author>
+      <pages>1397–1404</pages>
+      <abstract>We present an open-source, wide-coverage context-free grammar (CFG) for <a href="https://en.wikipedia.org/wiki/Icelandic_language">Icelandic</a>, and an accompanying parsing system. The grammar has over 5,600 <a href="https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols">nonterminals</a>, 4,600 <a href="https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols">terminals</a> and 19,000 productions in fully expanded form, with feature agreement constraints for <a href="https://en.wikipedia.org/wiki/Grammatical_case">case</a>, <a href="https://en.wikipedia.org/wiki/Grammatical_gender">gender</a>, number and person. The parsing system consists of an enhanced <a href="https://en.wikipedia.org/wiki/Earley_parser">Earley-based parser</a> and a mechanism to select best-scoring parse trees from shared packed parse forests. Our parsing system is able to parse about 90 % of all sentences in articles published on the main Icelandic news websites. Preliminary evaluation with evalb shows an <a href="https://en.wikipedia.org/wiki/F-measure">F-measure</a> of 70.72 % on parsed sentences. Our system demonstrates that parsing a morphologically rich language using a wide-coverage CFG can be practical.</abstract>
+      <url hash="69ae74cc">R19-1160</url>
+      <doi>10.26615/978-954-452-056-4_160</doi>
+      <bibkey>thorsteinsson-etal-2019-wide</bibkey>
+    </paper>
+  </volume>
+  <volume id="2" ingest-date="2020-01-16">
+    <meta>
+      <booktitle>Proceedings of the Student Research Workshop Associated with RANLP 2019</booktitle>
+      <url hash="c2fdf0f9">R19-2</url>
+      <editor><first>Venelin</first><last>Kovatchev</last></editor>
+      <editor><first>Irina</first><last>Temnikova</last></editor>
+      <editor><first>Branislava</first><last>Šandrih</last></editor>
+      <editor><first>Ivelina</first><last>Nikolova</last></editor>
+      <publisher>INCOMA Ltd.</publisher>
+      <address>Varna, Bulgaria</address>
+      <month>September</month>
+      <year>2019</year>
+    </meta>
+    <frontmatter>
+      <url hash="dbf59d4d">R19-2000</url>
+      <bibkey>ranlp-2019-student</bibkey>
+    </frontmatter>
+    <paper id="2">
+      <title>Classification Approaches to Identify Informative Tweets</title>
+      <author><first>Piush</first><last>Aggarwal</last></author>
+      <pages>7–15</pages>
+      <abstract>Social media platforms have become prime forums for reporting news, with users sharing what they saw, heard or read on <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>. News from <a href="https://en.wikipedia.org/wiki/Social_media">social media</a> is potentially useful for various stakeholders including aid organizations, news agencies, and individuals. However, <a href="https://en.wikipedia.org/wiki/Social_media">social media</a> also contains a vast amount of non-news content. For users to be able to draw on benefits from news reported on social media it is necessary to reliably identify news content and differentiate <a href="https://en.wikipedia.org/wiki/Information_technology">it</a> from non-news. In this paper, we tackle the challenge of classifying a social post as news or not. To this end, we provide a new manually annotated dataset containing 2,992 tweets from 5 different topical categories. Unlike earlier <a href="https://en.wikipedia.org/wiki/Data_set">datasets</a>, it includes postings posted by personal users who do not promote a business or a product and are not affiliated with any organization. We also investigate various <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline systems</a> and evaluate their performance on the newly generated <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a>. Our results show that the best <a href="https://en.wikipedia.org/wiki/Statistical_classification">classifiers</a> are the SVM and BERT models.</abstract>
+      <url hash="a93d448e">R19-2002</url>
+      <doi>10.26615/issn.2603-2821.2019_002</doi>
+      <bibkey>aggarwal-2019-classification</bibkey>
+    </paper>
+    <paper id="4">
+      <title>Multilingual Language Models for <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">Named Entity Recognition</a> in <a href="https://en.wikipedia.org/wiki/German_language">German</a> and English<fixed-case>G</fixed-case>erman and <fixed-case>E</fixed-case>nglish</title>
+      <author><first>Antonia</first><last>Baumann</last></author>
+      <pages>21–27</pages>
+      <abstract>We assess the language specificity of recent <a href="https://en.wikipedia.org/wiki/Language_model">language models</a> by exploring the potential of a multilingual language model. In particular, we evaluate Google’s multilingual BERT (mBERT) model on Named Entity Recognition (NER) in <a href="https://en.wikipedia.org/wiki/German_language">German</a> and <a href="https://en.wikipedia.org/wiki/English_language">English</a>. We expand the work on language model fine-tuning by Howard and Ruder (2018), applying it to the BERT architecture. We successfully reproduce the NER results published by Devlin et al. (2019).Our results show that the multilingual language model generalises well for <a href="https://en.wikipedia.org/wiki/Natural-language_understanding">NER</a> in the chosen languages, matching the native model in <a href="https://en.wikipedia.org/wiki/English_language">English</a> and comparing well with recent approaches for <a href="https://en.wikipedia.org/wiki/German_language">German</a>. However, <a href="https://en.wikipedia.org/wiki/Information_technology">it</a> does not benefit from the added fine-tuning methods.</abstract>
+      <url hash="2c98c8ea">R19-2004</url>
+      <doi>10.26615/issn.2603-2821.2019_004</doi>
+      <bibkey>baumann-2019-multilingual</bibkey>
+    </paper>
+    <paper id="6">
+      <title>Cross-Lingual Coreference : The Case of <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a> and English<fixed-case>B</fixed-case>ulgarian and <fixed-case>E</fixed-case>nglish</title>
+      <author><first>Zara</first><last>Kancheva</last></author>
+      <pages>32–38</pages>
+      <abstract>The paper presents several common approaches towards cross- and multi-lingual coreference resolution in a search of the most effective practices to be applied within the work on Bulgarian-English manual coreference annotation of a short story. The work aims at outlining the typology of the differences in the annotated parallel texts. The results of the research prove to be comparable with the tendencies observed in similar works on other <a href="https://en.wikipedia.org/wiki/Slavic_languages">Slavic languages</a> and show surprising differences between the types of markables and their frequency in <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a> and <a href="https://en.wikipedia.org/wiki/English_language">English</a>.</abstract>
+      <url hash="c2dcc62d">R19-2006</url>
+      <doi>10.26615/issn.2603-2821.2019_006</doi>
+      <bibkey>kancheva-2019-cross</bibkey>
+    </paper>
+    <paper id="8">
+      <title>Evaluation of Stacked Embeddings for <a href="https://en.wikipedia.org/wiki/Bulgarian_language">Bulgarian</a> on the Downstream Tasks POS and NERC<fixed-case>B</fixed-case>ulgarian on the Downstream Tasks <fixed-case>POS</fixed-case> and <fixed-case>NERC</fixed-case></title>
+      <author><first>Iva</first><last>Marinova</last></author>
+      <pages>48–54</pages>
+      <abstract>This paper reports on experiments with different stacks of word embeddings and evaluation of their usefulness for Bulgarian downstream tasks such as Named Entity Recognition and Classification (NERC) and Part-of-speech (POS) Tagging. Word embeddings stay in the core of the development of NLP, with several key language models being created over the last two years like FastText (CITATION), ElMo (CITATION), BERT (CITATION) and Flair (CITATION). Stacking or combining different word embeddings is another technique used in this paper and still not reported for Bulgarian NERC. Well-established architecture is used for the sequence tagging task such as BI-LSTM-CRF, and different pre-trained language models are combined in the embedding layer to decide which combination of them scores better.</abstract>
+      <url hash="9c3bb300">R19-2008</url>
+      <doi>10.26615/issn.2603-2821.2019_008</doi>
+      <bibkey>marinova-2019-evaluation</bibkey>
+    </paper>
+    <paper id="9">
+      <title>Overview on NLP Techniques for Content-based Recommender Systems for Books<fixed-case>NLP</fixed-case> Techniques for Content-based Recommender Systems for Books</title>
+      <author><first>Melania</first><last>Berbatova</last></author>
+      <pages>55–61</pages>
+      <abstract>Recommender systems are an essential part of today’s largest websites. Without <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">them</a>, it would be hard for users to find the right products and content. One of the most popular <a href="https://en.wikipedia.org/wiki/Methodology">methods</a> for <a href="https://en.wikipedia.org/wiki/Recommender_system">recommendations</a> is <a href="https://en.wikipedia.org/wiki/Content-based_filtering">content-based filtering</a>. It relies on analysing product metadata, a great part of which is <a href="https://en.wikipedia.org/wiki/Text_(literary_theory)">textual data</a>. Despite their frequent use, there is still no standard procedure for developing and evaluating content-based recommenders. In this paper, we will first examine current approaches for designing, training and evaluating <a href="https://en.wikipedia.org/wiki/Recommender_system">recommender systems</a> based on <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">textual data</a> for <a href="https://en.wikipedia.org/wiki/Recommender_system">books recommendations</a> for <a href="https://en.wikipedia.org/wiki/GoodReads">GoodReads’ website</a>. We will give critiques on existing methods and suggest how <a href="https://en.wikipedia.org/wiki/Natural-language_understanding">natural language techniques</a> can be employed for the improvement of content-based recommenders.</abstract>
+      <url hash="515d0024">R19-2009</url>
+      <doi>10.26615/issn.2603-2821.2019_009</doi>
+      <bibkey>berbatova-2019-overview</bibkey>
+    </paper>
+    <paper id="13">
+      <title>Multilingual Complex Word Identification : <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional Neural Networks</a> with Morphological and Linguistic Features</title>
+      <author><first>Kim Cheng</first><last>Sheang</last></author>
+      <pages>83–89</pages>
+      <abstract>The paper is about our experiments with Complex Word Identification system using deep learning approach with <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> and engineered features.</abstract>
+      <url hash="b2792b26">R19-2013</url>
+      <doi>10.26615/issn.2603-2821.2019_013</doi>
+      <bibkey>sheang-2019-multilingual</bibkey>
+    </paper>
+    </volume>
+</collection>

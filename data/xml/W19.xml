@@ -7308,8 +7308,10 @@
       <url hash="fdd3300c">W19-6107</url>
       <bibkey>horenovska-2019-evaluation</bibkey>
     <title_ar>تقييم للزفافات كلمة التشيكية</title_ar>
+      <title_fr>Une évaluation des intégrations de mots tchèques</title_fr>
       <title_pt>Uma avaliação das incorporações de palavras checas</title_pt>
       <title_es>Una evaluación de las incrustaciones de palabras en checo</title_es>
+      <title_ru>Оценка вложений в чешское слово</title_ru>
       <title_zh>对捷克词嵌评估</title_zh>
       <title_ja>チェコ語埋め込みの評価</title_ja>
       <title_hi>चेक शब्द embeddings का मूल्यांकन</title_hi>
@@ -7365,8 +7367,10 @@
       <abstract_es>Presentamos una evaluación de las representaciones de palabras distribuidas de baja dimensión en checo, también conocidas como incrustaciones de palabras. Describimos cinco enfoques diferentes para entrenar los modelos y tres cuerpos diferentes utilizados en la capacitación. Evaluamos los modelos resultantes en cinco conjuntos de datos diferentes, informamos los resultados y proporcionamos su análisis más detallado.</abstract_es>
       <abstract_ar>نقدم تقييمًا لتمثيلات الكلمات التشيكية منخفضة الأبعاد الموزعة ، والمعروفة أيضًا باسم حفلات الزفاف. نصف خمسة مناهج مختلفة لتدريب النماذج وثلاث هيئات مختلفة مستخدمة في التدريب. نقوم بتقييم النماذج الناتجة على خمس مجموعات بيانات مختلفة ، ونبلغ عن النتائج ونقدم مزيدًا من التحليل.</abstract_ar>
       <abstract_pt>Apresentamos uma avaliação das representações de palavras distribuídas de baixa dimensão tcheca, também conhecidas como incorporação de palavras. Descrevemos cinco abordagens diferentes para treinar os modelos e três corpora diferentes usados no treinamento. Avaliamos os modelos resultantes em cinco conjuntos de dados diferentes, relatamos os resultados e fornecemos suas análises adicionais.</abstract_pt>
+      <abstract_fr>Nous présentons une évaluation des représentations textuelles distribuées de faible dimension tchèques, également appelées intégrations de mots. Nous décrivons cinq approches différentes pour former les modèles et trois corpus différents utilisés dans la formation. Nous évaluons les modèles résultants sur cinq ensembles de données différents, communiquons les résultats et fournissons leur analyse plus approfondie.</abstract_fr>
       <abstract_ja>我々は、ワード埋め込みとしても知られるチェコ語の低次元分散ワード表現の評価を提示する。私たちは、トレーニングで使用されるモデルと3つの異なるコーパをトレーニングするための5つの異なるアプローチについて説明します。私たちは、5つの異なるデータセットで結果のモデルを評価し、結果を報告し、さらなる分析を提供します。</abstract_ja>
       <abstract_zh>吾有捷克语低维分布式词之评,亦谓之词嵌。 言五者训练方法与三者语料库。 论五集上,告而益之。</abstract_zh>
+      <abstract_ru>Мы представляем оценку чешских низкоразмерных распределенных представлений слов, также известных как вложения слов. Мы описываем пять различных подходов к обучению моделей и три различных корпуса, используемых в обучении. Мы оцениваем полученные модели на пяти различных массивах данных, сообщаем результаты и предоставляем их дальнейший анализ.</abstract_ru>
       <abstract_hi>हम चेक कम आयामी वितरित शब्द प्रतिनिधित्व का मूल्यांकन प्रस्तुत करते हैं, जिसे शब्द एम्बेडिंग के रूप में भी जाना जाता है। हम मॉडल और प्रशिक्षण में उपयोग किए जाने वाले तीन अलग-अलग कॉर्पोरेट को प्रशिक्षित करने के लिए पांच अलग-अलग दृष्टिकोणों का वर्णन करते हैं। हम पांच अलग-अलग डेटासेट पर परिणामी मॉडल का मूल्यांकन करते हैं, परिणामों की रिपोर्ट करते हैं और उनका आगे का विश्लेषण प्रदान करते हैं।</abstract_hi>
       <abstract_ga>Cuirimid i láthair meastóireacht ar léirithe focal dáilte ísealtoiseach na Seice, ar a dtugtar leabaithe focal freisin. Déanaimid cur síos ar chúig chur chuige dhifriúla maidir le hoiliúint a chur ar na samhlacha agus trí chorpra dhifriúla a úsáidtear san oiliúint. Déanaimid measúnú ar na samhlacha a bhíonn mar thoradh orthu ar chúig thacar sonraí éagsúla, tuairiscímid na torthaí agus cuirimid a thuilleadh anailíse ar fáil.</abstract_ga>
       <abstract_ka>ჩვენ ჩემი ჩემი ჩემი ცოტა განსაზღვრებული სიტყვების განსაზღვრება, რომელიც უცნობილია სიტყვების განსაზღვრება. ჩვენ აღწერეთ ხუთი განსხვავებული მოდილები მოდელების განაკეთებაში და სამი განსხვავებული კოპორაში გამოყენებული. ჩვენ შემდეგი მოდელები 5 განსხვავებული მონაცემების შესახებ გავუმუშავებთ, შემდეგი შესახებ და დავიწყებთ მათი დამატებული ანალიზი.</abstract_ka>

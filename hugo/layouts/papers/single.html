@@ -133,129 +133,129 @@
   <div {{ if or $paper.retracted $paper.removed }} style="text-decoration: line-through" {{ end }}>
   <h2 id="title">
     {{ with $paper.pdf }}
-      <a id="en_title" href="{{ . }}">{{ $paper.title_html | safeHTML }}</a>
-      <a id='af_title' style='display:none;' href='{{ . }}'>{{ $paper.title_af_html | safeHTML }}</a>
-      <a id='am_title' style='display:none;' href='{{ . }}'>{{ $paper.title_am_html | safeHTML }}</a>
-      <a id='ar_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ar_html | safeHTML }}</a>
-      <a id='az_title' style='display:none;' href='{{ . }}'>{{ $paper.title_az_html | safeHTML }}</a>
-      <a id='bg_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bg_html | safeHTML }}</a>
-      <a id='bn_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bn_html | safeHTML }}</a>
-      <a id='bo_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bo_html | safeHTML }}</a>
-      <a id='bs_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bs_html | safeHTML }}</a>
-      <a id='ca_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ca_html | safeHTML }}</a>
-      <a id='cs_title' style='display:none;' href='{{ . }}'>{{ $paper.title_cs_html | safeHTML }}</a>
-      <a id='da_title' style='display:none;' href='{{ . }}'>{{ $paper.title_da_html | safeHTML }}</a>
-      <a id='de_title' style='display:none;' href='{{ . }}'>{{ $paper.title_de_html | safeHTML }}</a>
-      <a id='el_title' style='display:none;' href='{{ . }}'>{{ $paper.title_el_html | safeHTML }}</a>
-      <a id='es_title' style='display:none;' href='{{ . }}'>{{ $paper.title_es_html | safeHTML }}</a>
-      <a id='et_title' style='display:none;' href='{{ . }}'>{{ $paper.title_et_html | safeHTML }}</a>
-      <a id='fa_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fa_html | safeHTML }}</a>
-      <a id='fi_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fi_html | safeHTML }}</a>
-      <a id='fl_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fl_html | safeHTML }}</a>
-      <a id='fr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fr_html | safeHTML }}</a>
-      <a id='ga_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ga_html | safeHTML }}</a>
-      <a id='ha_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ha_html | safeHTML }}</a>
-      <a id='he_title' style='display:none;' href='{{ . }}'>{{ $paper.title_he_html | safeHTML }}</a>
-      <a id='hi_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hi_html | safeHTML }}</a>
-      <a id='hr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hr_html | safeHTML }}</a>
-      <a id='hu_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hu_html | safeHTML }}</a>
-      <a id='hy_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hy_html | safeHTML }}</a>
-      <a id='id_title' style='display:none;' href='{{ . }}'>{{ $paper.title_id_html | safeHTML }}</a>
-      <a id='is_title' style='display:none;' href='{{ . }}'>{{ $paper.title_is_html | safeHTML }}</a>
-      <a id='it_title' style='display:none;' href='{{ . }}'>{{ $paper.title_it_html | safeHTML }}</a>
-      <a id='ja_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ja_html | safeHTML }}</a>
-      <a id='jv_title' style='display:none;' href='{{ . }}'>{{ $paper.title_jv_html | safeHTML }}</a>
-      <a id='ka_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ka_html | safeHTML }}</a>
-      <a id='kk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_kk_html | safeHTML }}</a>
-      <a id='ko_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ko_html | safeHTML }}</a>
-      <a id='lt_title' style='display:none;' href='{{ . }}'>{{ $paper.title_lt_html | safeHTML }}</a>
-      <a id='mk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_mk_html | safeHTML }}</a>
-      <a id='ml_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ml_html | safeHTML }}</a>
-      <a id='mn_title' style='display:none;' href='{{ . }}'>{{ $paper.title_mn_html | safeHTML }}</a>
-      <a id='ms_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ms_html | safeHTML }}</a>
-      <a id='mt_title' style='display:none;' href='{{ . }}'>{{ $paper.title_mt_html | safeHTML }}</a>
-      <a id='nl_title' style='display:none;' href='{{ . }}'>{{ $paper.title_nl_html | safeHTML }}</a>
-      <a id='no_title' style='display:none;' href='{{ . }}'>{{ $paper.title_no_html | safeHTML }}</a>
-      <a id='pl_title' style='display:none;' href='{{ . }}'>{{ $paper.title_pl_html | safeHTML }}</a>
-      <a id='pt_title' style='display:none;' href='{{ . }}'>{{ $paper.title_pt_html | safeHTML }}</a>
-      <a id='ro_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ro_html | safeHTML }}</a>
-      <a id='ru_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ru_html | safeHTML }}</a>
-      <a id='si_title' style='display:none;' href='{{ . }}'>{{ $paper.title_si_html | safeHTML }}</a>
-      <a id='sk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sk_html | safeHTML }}</a>
-      <a id='so_title' style='display:none;' href='{{ . }}'>{{ $paper.title_so_html | safeHTML }}</a>
-      <a id='sq_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sq_html | safeHTML }}</a>
-      <a id='sr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sr_html | safeHTML }}</a>
-      <a id='sv_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sv_html | safeHTML }}</a>
-      <a id='sw_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sw_html | safeHTML }}</a>
-      <a id='ta_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ta_html | safeHTML }}</a>
-      <a id='tr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_tr_html | safeHTML }}</a>
-      <a id='uk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_uk_html | safeHTML }}</a>
-      <a id='ur_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ur_html | safeHTML }}</a>
-      <a id='uz_title' style='display:none;' href='{{ . }}'>{{ $paper.title_uz_html | safeHTML }}</a>
-      <a id='vi_title' style='display:none;' href='{{ . }}'>{{ $paper.title_vi_html | safeHTML }}</a>
-      <a id='zh_title' style='display:none;' href='{{ . }}'>{{ $paper.title_zh_html | safeHTML }}</a>
-    {{ else }}
-      <div id="en_title">{{ $paper.title_html | safeHTML }}</div>
-      <div id='af_title' style='display:none;'>{{ $paper.title_af_html | safeHTML }}</div>
-      <div id='am_title' style='display:none;'>{{ $paper.title_am_html | safeHTML }}</div>
-      <div id='ar_title' style='display:none;'>{{ $paper.title_ar_html | safeHTML }}</div>
-      <div id='az_title' style='display:none;'>{{ $paper.title_az_html | safeHTML }}</div>
-      <div id='bg_title' style='display:none;'>{{ $paper.title_bg_html | safeHTML }}</div>
-      <div id='bn_title' style='display:none;'>{{ $paper.title_bn_html | safeHTML }}</div>
-      <div id='bo_title' style='display:none;'>{{ $paper.title_bo_html | safeHTML }}</div>
-      <div id='bs_title' style='display:none;'>{{ $paper.title_bs_html | safeHTML }}</div>
-      <div id='ca_title' style='display:none;'>{{ $paper.title_ca_html | safeHTML }}</div>
-      <div id='cs_title' style='display:none;'>{{ $paper.title_cs_html | safeHTML }}</div>
-      <div id='da_title' style='display:none;'>{{ $paper.title_da_html | safeHTML }}</div>
-      <div id='de_title' style='display:none;'>{{ $paper.title_de_html | safeHTML }}</div>
-      <div id='el_title' style='display:none;'>{{ $paper.title_el_html | safeHTML }}</div>
-      <div id='es_title' style='display:none;'>{{ $paper.title_es_html | safeHTML }}</div>
-      <div id='et_title' style='display:none;'>{{ $paper.title_et_html | safeHTML }}</div>
-      <div id='fa_title' style='display:none;'>{{ $paper.title_fa_html | safeHTML }}</div>
-      <div id='fi_title' style='display:none;'>{{ $paper.title_fi_html | safeHTML }}</div>
-      <div id='fl_title' style='display:none;'>{{ $paper.title_fl_html | safeHTML }}</div>
-      <div id='fr_title' style='display:none;'>{{ $paper.title_fr_html | safeHTML }}</div>
-      <div id='ga_title' style='display:none;'>{{ $paper.title_ga_html | safeHTML }}</div>
-      <div id='ha_title' style='display:none;'>{{ $paper.title_ha_html | safeHTML }}</div>
-      <div id='he_title' style='display:none;'>{{ $paper.title_he_html | safeHTML }}</div>
-      <div id='hi_title' style='display:none;'>{{ $paper.title_hi_html | safeHTML }}</div>
-      <div id='hr_title' style='display:none;'>{{ $paper.title_hr_html | safeHTML }}</div>
-      <div id='hu_title' style='display:none;'>{{ $paper.title_hu_html | safeHTML }}</div>
-      <div id='hy_title' style='display:none;'>{{ $paper.title_hy_html | safeHTML }}</div>
-      <div id='id_title' style='display:none;'>{{ $paper.title_id_html | safeHTML }}</div>
-      <div id='is_title' style='display:none;'>{{ $paper.title_is_html | safeHTML }}</div>
-      <div id='it_title' style='display:none;'>{{ $paper.title_it_html | safeHTML }}</div>
-      <div id='ja_title' style='display:none;'>{{ $paper.title_ja_html | safeHTML }}</div>
-      <div id='jv_title' style='display:none;'>{{ $paper.title_jv_html | safeHTML }}</div>
-      <div id='ka_title' style='display:none;'>{{ $paper.title_ka_html | safeHTML }}</div>
-      <div id='kk_title' style='display:none;'>{{ $paper.title_kk_html | safeHTML }}</div>
-      <div id='ko_title' style='display:none;'>{{ $paper.title_ko_html | safeHTML }}</div>
-      <div id='lt_title' style='display:none;'>{{ $paper.title_lt_html | safeHTML }}</div>
-      <div id='mk_title' style='display:none;'>{{ $paper.title_mk_html | safeHTML }}</div>
-      <div id='ml_title' style='display:none;'>{{ $paper.title_ml_html | safeHTML }}</div>
-      <div id='mn_title' style='display:none;'>{{ $paper.title_mn_html | safeHTML }}</div>
-      <div id='ms_title' style='display:none;'>{{ $paper.title_ms_html | safeHTML }}</div>
-      <div id='mt_title' style='display:none;'>{{ $paper.title_mt_html | safeHTML }}</div>
-      <div id='nl_title' style='display:none;'>{{ $paper.title_nl_html | safeHTML }}</div>
-      <div id='no_title' style='display:none;'>{{ $paper.title_no_html | safeHTML }}</div>
-      <div id='pl_title' style='display:none;'>{{ $paper.title_pl_html | safeHTML }}</div>
-      <div id='pt_title' style='display:none;'>{{ $paper.title_pt_html | safeHTML }}</div>
-      <div id='ro_title' style='display:none;'>{{ $paper.title_ro_html | safeHTML }}</div>
-      <div id='ru_title' style='display:none;'>{{ $paper.title_ru_html | safeHTML }}</div>
-      <div id='si_title' style='display:none;'>{{ $paper.title_si_html | safeHTML }}</div>
-      <div id='sk_title' style='display:none;'>{{ $paper.title_sk_html | safeHTML }}</div>
-      <div id='so_title' style='display:none;'>{{ $paper.title_so_html | safeHTML }}</div>
-      <div id='sq_title' style='display:none;'>{{ $paper.title_sq_html | safeHTML }}</div>
-      <div id='sr_title' style='display:none;'>{{ $paper.title_sr_html | safeHTML }}</div>
-      <div id='sv_title' style='display:none;'>{{ $paper.title_sv_html | safeHTML }}</div>
-      <div id='sw_title' style='display:none;'>{{ $paper.title_sw_html | safeHTML }}</div>
-      <div id='ta_title' style='display:none;'>{{ $paper.title_ta_html | safeHTML }}</div>
-      <div id='tr_title' style='display:none;'>{{ $paper.title_tr_html | safeHTML }}</div>
-      <div id='uk_title' style='display:none;'>{{ $paper.title_uk_html | safeHTML }}</div>
-      <div id='ur_title' style='display:none;'>{{ $paper.title_ur_html | safeHTML }}</div>
-      <div id='uz_title' style='display:none;'>{{ $paper.title_uz_html | safeHTML }}</div>
-      <div id='vi_title' style='display:none;'>{{ $paper.title_vi_html | safeHTML }}</div>
-      <div id='zh_title' style='display:none;'>{{ $paper.title_zh_html | safeHTML }}</div>
+    <a id="en_title" href="{{ . }}">{{ $paper.title_html | safeHTML }}</a>
+    <a id='af_title' style='display:none;' href='{{ . }}'>{{ $paper.title_af | safeHTML }}</a>
+    <a id='am_title' style='display:none;' href='{{ . }}'>{{ $paper.title_am | safeHTML }}</a>
+    <a id='ar_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ar | safeHTML }}</a>
+    <a id='az_title' style='display:none;' href='{{ . }}'>{{ $paper.title_az | safeHTML }}</a>
+    <a id='bg_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bg | safeHTML }}</a>
+    <a id='bn_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bn | safeHTML }}</a>
+    <a id='bo_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bo | safeHTML }}</a>
+    <a id='bs_title' style='display:none;' href='{{ . }}'>{{ $paper.title_bs | safeHTML }}</a>
+    <a id='ca_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ca | safeHTML }}</a>
+    <a id='cs_title' style='display:none;' href='{{ . }}'>{{ $paper.title_cs | safeHTML }}</a>
+    <a id='da_title' style='display:none;' href='{{ . }}'>{{ $paper.title_da | safeHTML }}</a>
+    <a id='de_title' style='display:none;' href='{{ . }}'>{{ $paper.title_de | safeHTML }}</a>
+    <a id='el_title' style='display:none;' href='{{ . }}'>{{ $paper.title_el | safeHTML }}</a>
+    <a id='es_title' style='display:none;' href='{{ . }}'>{{ $paper.title_es | safeHTML }}</a>
+    <a id='et_title' style='display:none;' href='{{ . }}'>{{ $paper.title_et | safeHTML }}</a>
+    <a id='fa_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fa | safeHTML }}</a>
+    <a id='fi_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fi | safeHTML }}</a>
+    <a id='fl_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fl | safeHTML }}</a>
+    <a id='fr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_fr | safeHTML }}</a>
+    <a id='ga_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ga | safeHTML }}</a>
+    <a id='ha_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ha | safeHTML }}</a>
+    <a id='he_title' style='display:none;' href='{{ . }}'>{{ $paper.title_he | safeHTML }}</a>
+    <a id='hi_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hi | safeHTML }}</a>
+    <a id='hr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hr | safeHTML }}</a>
+    <a id='hu_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hu | safeHTML }}</a>
+    <a id='hy_title' style='display:none;' href='{{ . }}'>{{ $paper.title_hy | safeHTML }}</a>
+    <a id='id_title' style='display:none;' href='{{ . }}'>{{ $paper.title_id | safeHTML }}</a>
+    <a id='is_title' style='display:none;' href='{{ . }}'>{{ $paper.title_is | safeHTML }}</a>
+    <a id='it_title' style='display:none;' href='{{ . }}'>{{ $paper.title_it | safeHTML }}</a>
+    <a id='ja_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ja | safeHTML }}</a>
+    <a id='jv_title' style='display:none;' href='{{ . }}'>{{ $paper.title_jv | safeHTML }}</a>
+    <a id='ka_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ka | safeHTML }}</a>
+    <a id='kk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_kk | safeHTML }}</a>
+    <a id='ko_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ko | safeHTML }}</a>
+    <a id='lt_title' style='display:none;' href='{{ . }}'>{{ $paper.title_lt | safeHTML }}</a>
+    <a id='mk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_mk | safeHTML }}</a>
+    <a id='ml_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ml | safeHTML }}</a>
+    <a id='mn_title' style='display:none;' href='{{ . }}'>{{ $paper.title_mn | safeHTML }}</a>
+    <a id='ms_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ms | safeHTML }}</a>
+    <a id='mt_title' style='display:none;' href='{{ . }}'>{{ $paper.title_mt | safeHTML }}</a>
+    <a id='nl_title' style='display:none;' href='{{ . }}'>{{ $paper.title_nl | safeHTML }}</a>
+    <a id='no_title' style='display:none;' href='{{ . }}'>{{ $paper.title_no | safeHTML }}</a>
+    <a id='pl_title' style='display:none;' href='{{ . }}'>{{ $paper.title_pl | safeHTML }}</a>
+    <a id='pt_title' style='display:none;' href='{{ . }}'>{{ $paper.title_pt | safeHTML }}</a>
+    <a id='ro_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ro | safeHTML }}</a>
+    <a id='ru_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ru | safeHTML }}</a>
+    <a id='si_title' style='display:none;' href='{{ . }}'>{{ $paper.title_si | safeHTML }}</a>
+    <a id='sk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sk | safeHTML }}</a>
+    <a id='so_title' style='display:none;' href='{{ . }}'>{{ $paper.title_so | safeHTML }}</a>
+    <a id='sq_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sq | safeHTML }}</a>
+    <a id='sr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sr | safeHTML }}</a>
+    <a id='sv_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sv | safeHTML }}</a>
+    <a id='sw_title' style='display:none;' href='{{ . }}'>{{ $paper.title_sw | safeHTML }}</a>
+    <a id='ta_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ta | safeHTML }}</a>
+    <a id='tr_title' style='display:none;' href='{{ . }}'>{{ $paper.title_tr | safeHTML }}</a>
+    <a id='uk_title' style='display:none;' href='{{ . }}'>{{ $paper.title_uk | safeHTML }}</a>
+    <a id='ur_title' style='display:none;' href='{{ . }}'>{{ $paper.title_ur | safeHTML }}</a>
+    <a id='uz_title' style='display:none;' href='{{ . }}'>{{ $paper.title_uz | safeHTML }}</a>
+    <a id='vi_title' style='display:none;' href='{{ . }}'>{{ $paper.title_vi | safeHTML }}</a>
+    <a id='zh_title' style='display:none;' href='{{ . }}'>{{ $paper.title_zh | safeHTML }}</a>
+  {{ else }}
+    <div id="en_title">{{ $paper.title_html | safeHTML }}</div>
+    <div id='af_title' style='display:none;'>{{ $paper.title_af | safeHTML }}</div>
+    <div id='am_title' style='display:none;'>{{ $paper.title_am | safeHTML }}</div>
+    <div id='ar_title' style='display:none;'>{{ $paper.title_ar | safeHTML }}</div>
+    <div id='az_title' style='display:none;'>{{ $paper.title_az | safeHTML }}</div>
+    <div id='bg_title' style='display:none;'>{{ $paper.title_bg | safeHTML }}</div>
+    <div id='bn_title' style='display:none;'>{{ $paper.title_bn | safeHTML }}</div>
+    <div id='bo_title' style='display:none;'>{{ $paper.title_bo | safeHTML }}</div>
+    <div id='bs_title' style='display:none;'>{{ $paper.title_bs | safeHTML }}</div>
+    <div id='ca_title' style='display:none;'>{{ $paper.title_ca | safeHTML }}</div>
+    <div id='cs_title' style='display:none;'>{{ $paper.title_cs | safeHTML }}</div>
+    <div id='da_title' style='display:none;'>{{ $paper.title_da | safeHTML }}</div>
+    <div id='de_title' style='display:none;'>{{ $paper.title_de | safeHTML }}</div>
+    <div id='el_title' style='display:none;'>{{ $paper.title_el | safeHTML }}</div>
+    <div id='es_title' style='display:none;'>{{ $paper.title_es | safeHTML }}</div>
+    <div id='et_title' style='display:none;'>{{ $paper.title_et | safeHTML }}</div>
+    <div id='fa_title' style='display:none;'>{{ $paper.title_fa | safeHTML }}</div>
+    <div id='fi_title' style='display:none;'>{{ $paper.title_fi | safeHTML }}</div>
+    <div id='fl_title' style='display:none;'>{{ $paper.title_fl | safeHTML }}</div>
+    <div id='fr_title' style='display:none;'>{{ $paper.title_fr | safeHTML }}</div>
+    <div id='ga_title' style='display:none;'>{{ $paper.title_ga | safeHTML }}</div>
+    <div id='ha_title' style='display:none;'>{{ $paper.title_ha | safeHTML }}</div>
+    <div id='he_title' style='display:none;'>{{ $paper.title_he | safeHTML }}</div>
+    <div id='hi_title' style='display:none;'>{{ $paper.title_hi | safeHTML }}</div>
+    <div id='hr_title' style='display:none;'>{{ $paper.title_hr | safeHTML }}</div>
+    <div id='hu_title' style='display:none;'>{{ $paper.title_hu | safeHTML }}</div>
+    <div id='hy_title' style='display:none;'>{{ $paper.title_hy | safeHTML }}</div>
+    <div id='id_title' style='display:none;'>{{ $paper.title_id | safeHTML }}</div>
+    <div id='is_title' style='display:none;'>{{ $paper.title_is | safeHTML }}</div>
+    <div id='it_title' style='display:none;'>{{ $paper.title_it | safeHTML }}</div>
+    <div id='ja_title' style='display:none;'>{{ $paper.title_ja | safeHTML }}</div>
+    <div id='jv_title' style='display:none;'>{{ $paper.title_jv | safeHTML }}</div>
+    <div id='ka_title' style='display:none;'>{{ $paper.title_ka | safeHTML }}</div>
+    <div id='kk_title' style='display:none;'>{{ $paper.title_kk | safeHTML }}</div>
+    <div id='ko_title' style='display:none;'>{{ $paper.title_ko | safeHTML }}</div>
+    <div id='lt_title' style='display:none;'>{{ $paper.title_lt | safeHTML }}</div>
+    <div id='mk_title' style='display:none;'>{{ $paper.title_mk | safeHTML }}</div>
+    <div id='ml_title' style='display:none;'>{{ $paper.title_ml | safeHTML }}</div>
+    <div id='mn_title' style='display:none;'>{{ $paper.title_mn | safeHTML }}</div>
+    <div id='ms_title' style='display:none;'>{{ $paper.title_ms | safeHTML }}</div>
+    <div id='mt_title' style='display:none;'>{{ $paper.title_mt | safeHTML }}</div>
+    <div id='nl_title' style='display:none;'>{{ $paper.title_nl | safeHTML }}</div>
+    <div id='no_title' style='display:none;'>{{ $paper.title_no | safeHTML }}</div>
+    <div id='pl_title' style='display:none;'>{{ $paper.title_pl | safeHTML }}</div>
+    <div id='pt_title' style='display:none;'>{{ $paper.title_pt | safeHTML }}</div>
+    <div id='ro_title' style='display:none;'>{{ $paper.title_ro | safeHTML }}</div>
+    <div id='ru_title' style='display:none;'>{{ $paper.title_ru | safeHTML }}</div>
+    <div id='si_title' style='display:none;'>{{ $paper.title_si | safeHTML }}</div>
+    <div id='sk_title' style='display:none;'>{{ $paper.title_sk | safeHTML }}</div>
+    <div id='so_title' style='display:none;'>{{ $paper.title_so | safeHTML }}</div>
+    <div id='sq_title' style='display:none;'>{{ $paper.title_sq | safeHTML }}</div>
+    <div id='sr_title' style='display:none;'>{{ $paper.title_sr | safeHTML }}</div>
+    <div id='sv_title' style='display:none;'>{{ $paper.title_sv | safeHTML }}</div>
+    <div id='sw_title' style='display:none;'>{{ $paper.title_sw | safeHTML }}</div>
+    <div id='ta_title' style='display:none;'>{{ $paper.title_ta | safeHTML }}</div>
+    <div id='tr_title' style='display:none;'>{{ $paper.title_tr | safeHTML }}</div>
+    <div id='uk_title' style='display:none;'>{{ $paper.title_uk | safeHTML }}</div>
+    <div id='ur_title' style='display:none;'>{{ $paper.title_ur | safeHTML }}</div>
+    <div id='uz_title' style='display:none;'>{{ $paper.title_uz | safeHTML }}</div>
+    <div id='vi_title' style='display:none;'>{{ $paper.title_vi | safeHTML }}</div>
+    <div id='zh_title' style='display:none;'>{{ $paper.title_zh | safeHTML }}</div>
     {{ end }}
   </h2>
   {{ with $paper.author }}
@@ -295,7 +295,7 @@
       </div>
       {{ end }}
 
-      {{ with $paper.abstract_af_html }}
+      {{ with $paper.abstract_af }}
       <div class="card bg-light mb-2 mb-lg-3" id="af_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -307,7 +307,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_am_html }}
+      {{ with $paper.abstract_am }}
       <div class="card bg-light mb-2 mb-lg-3" id="am_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -319,7 +319,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ar_html }}
+      {{ with $paper.abstract_ar }}
       <div class="card bg-light mb-2 mb-lg-3" id="ar_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -331,7 +331,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_az_html }}
+      {{ with $paper.abstract_az }}
       <div class="card bg-light mb-2 mb-lg-3" id="az_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -343,7 +343,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_bg_html }}
+      {{ with $paper.abstract_bg }}
       <div class="card bg-light mb-2 mb-lg-3" id="bg_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -355,7 +355,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_bn_html }}
+      {{ with $paper.abstract_bn }}
       <div class="card bg-light mb-2 mb-lg-3" id="bn_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -367,7 +367,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_bo_html }}
+      {{ with $paper.abstract_bo }}
       <div class="card bg-light mb-2 mb-lg-3" id="bo_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -379,7 +379,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_bs_html }}
+      {{ with $paper.abstract_bs }}
       <div class="card bg-light mb-2 mb-lg-3" id="bs_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -391,7 +391,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ca_html }}
+      {{ with $paper.abstract_ca }}
       <div class="card bg-light mb-2 mb-lg-3" id="ca_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -403,7 +403,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_cs_html }}
+      {{ with $paper.abstract_cs }}
       <div class="card bg-light mb-2 mb-lg-3" id="cs_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -415,7 +415,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_da_html }}
+      {{ with $paper.abstract_da }}
       <div class="card bg-light mb-2 mb-lg-3" id="da_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -427,7 +427,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_de_html }}
+      {{ with $paper.abstract_de }}
       <div class="card bg-light mb-2 mb-lg-3" id="de_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -439,7 +439,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_el_html }}
+      {{ with $paper.abstract_el }}
       <div class="card bg-light mb-2 mb-lg-3" id="el_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -451,7 +451,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_es_html }}
+      {{ with $paper.abstract_es }}
       <div class="card bg-light mb-2 mb-lg-3" id="es_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -463,7 +463,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_et_html }}
+      {{ with $paper.abstract_et }}
       <div class="card bg-light mb-2 mb-lg-3" id="et_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -475,7 +475,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_fa_html }}
+      {{ with $paper.abstract_fa }}
       <div class="card bg-light mb-2 mb-lg-3" id="fa_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -487,7 +487,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_fi_html }}
+      {{ with $paper.abstract_fi }}
       <div class="card bg-light mb-2 mb-lg-3" id="fi_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -499,7 +499,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_fl_html }}
+      {{ with $paper.abstract_fl }}
       <div class="card bg-light mb-2 mb-lg-3" id="fl_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -511,7 +511,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_fr_html }}
+      {{ with $paper.abstract_fr }}
       <div class="card bg-light mb-2 mb-lg-3" id="fr_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -523,7 +523,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ga_html }}
+      {{ with $paper.abstract_ga }}
       <div class="card bg-light mb-2 mb-lg-3" id="ga_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -535,7 +535,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ha_html }}
+      {{ with $paper.abstract_ha }}
       <div class="card bg-light mb-2 mb-lg-3" id="ha_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -547,7 +547,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_he_html }}
+      {{ with $paper.abstract_he }}
       <div class="card bg-light mb-2 mb-lg-3" id="he_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -559,7 +559,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_hi_html }}
+      {{ with $paper.abstract_hi }}
       <div class="card bg-light mb-2 mb-lg-3" id="hi_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -571,7 +571,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_hr_html }}
+      {{ with $paper.abstract_hr }}
       <div class="card bg-light mb-2 mb-lg-3" id="hr_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -583,7 +583,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_hu_html }}
+      {{ with $paper.abstract_hu }}
       <div class="card bg-light mb-2 mb-lg-3" id="hu_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -595,7 +595,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_hy_html }}
+      {{ with $paper.abstract_hy }}
       <div class="card bg-light mb-2 mb-lg-3" id="hy_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -607,7 +607,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_id_html }}
+      {{ with $paper.abstract_id }}
       <div class="card bg-light mb-2 mb-lg-3" id="id_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -619,7 +619,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_is_html }}
+      {{ with $paper.abstract_is }}
       <div class="card bg-light mb-2 mb-lg-3" id="is_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -631,7 +631,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_it_html }}
+      {{ with $paper.abstract_it }}
       <div class="card bg-light mb-2 mb-lg-3" id="it_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -643,7 +643,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ja_html }}
+      {{ with $paper.abstract_ja }}
       <div class="card bg-light mb-2 mb-lg-3" id="ja_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -655,7 +655,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_jv_html }}
+      {{ with $paper.abstract_jv }}
       <div class="card bg-light mb-2 mb-lg-3" id="jv_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -667,7 +667,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ka_html }}
+      {{ with $paper.abstract_ka }}
       <div class="card bg-light mb-2 mb-lg-3" id="ka_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -679,7 +679,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_kk_html }}
+      {{ with $paper.abstract_kk }}
       <div class="card bg-light mb-2 mb-lg-3" id="kk_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -691,7 +691,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ko_html }}
+      {{ with $paper.abstract_ko }}
       <div class="card bg-light mb-2 mb-lg-3" id="ko_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -703,7 +703,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_lt_html }}
+      {{ with $paper.abstract_lt }}
       <div class="card bg-light mb-2 mb-lg-3" id="lt_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -715,7 +715,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_mk_html }}
+      {{ with $paper.abstract_mk }}
       <div class="card bg-light mb-2 mb-lg-3" id="mk_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -727,7 +727,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ml_html }}
+      {{ with $paper.abstract_ml }}
       <div class="card bg-light mb-2 mb-lg-3" id="ml_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -739,7 +739,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_mn_html }}
+      {{ with $paper.abstract_mn }}
       <div class="card bg-light mb-2 mb-lg-3" id="mn_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -751,7 +751,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ms_html }}
+      {{ with $paper.abstract_ms }}
       <div class="card bg-light mb-2 mb-lg-3" id="ms_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -763,7 +763,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_mt_html }}
+      {{ with $paper.abstract_mt }}
       <div class="card bg-light mb-2 mb-lg-3" id="mt_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -775,7 +775,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_nl_html }}
+      {{ with $paper.abstract_nl }}
       <div class="card bg-light mb-2 mb-lg-3" id="nl_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -787,7 +787,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_no_html }}
+      {{ with $paper.abstract_no }}
       <div class="card bg-light mb-2 mb-lg-3" id="no_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -799,7 +799,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_pl_html }}
+      {{ with $paper.abstract_pl }}
       <div class="card bg-light mb-2 mb-lg-3" id="pl_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -811,7 +811,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_pt_html }}
+      {{ with $paper.abstract_pt }}
       <div class="card bg-light mb-2 mb-lg-3" id="pt_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -823,7 +823,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ro_html }}
+      {{ with $paper.abstract_ro }}
       <div class="card bg-light mb-2 mb-lg-3" id="ro_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -835,7 +835,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ru_html }}
+      {{ with $paper.abstract_ru }}
       <div class="card bg-light mb-2 mb-lg-3" id="ru_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -847,7 +847,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_si_html }}
+      {{ with $paper.abstract_si }}
       <div class="card bg-light mb-2 mb-lg-3" id="si_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -859,7 +859,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_sk_html }}
+      {{ with $paper.abstract_sk }}
       <div class="card bg-light mb-2 mb-lg-3" id="sk_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -871,7 +871,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_so_html }}
+      {{ with $paper.abstract_so }}
       <div class="card bg-light mb-2 mb-lg-3" id="so_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -883,7 +883,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_sq_html }}
+      {{ with $paper.abstract_sq }}
       <div class="card bg-light mb-2 mb-lg-3" id="sq_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -895,7 +895,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_sr_html }}
+      {{ with $paper.abstract_sr }}
       <div class="card bg-light mb-2 mb-lg-3" id="sr_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -907,7 +907,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_sv_html }}
+      {{ with $paper.abstract_sv }}
       <div class="card bg-light mb-2 mb-lg-3" id="sv_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -919,7 +919,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_sw_html }}
+      {{ with $paper.abstract_sw }}
       <div class="card bg-light mb-2 mb-lg-3" id="sw_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -931,7 +931,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ta_html }}
+      {{ with $paper.abstract_ta }}
       <div class="card bg-light mb-2 mb-lg-3" id="ta_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -943,7 +943,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_tr_html }}
+      {{ with $paper.abstract_tr }}
       <div class="card bg-light mb-2 mb-lg-3" id="tr_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -955,7 +955,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_uk_html }}
+      {{ with $paper.abstract_uk }}
       <div class="card bg-light mb-2 mb-lg-3" id="uk_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -967,7 +967,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_ur_html }}
+      {{ with $paper.abstract_ur }}
       <div class="card bg-light mb-2 mb-lg-3" id="ur_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -979,7 +979,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_uz_html }}
+      {{ with $paper.abstract_uz }}
       <div class="card bg-light mb-2 mb-lg-3" id="uz_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -991,7 +991,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_vi_html }}
+      {{ with $paper.abstract_vi }}
       <div class="card bg-light mb-2 mb-lg-3" id="vi_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
@@ -1003,7 +1003,7 @@
       {{ end }}
 
 
-      {{ with $paper.abstract_zh_html }}
+      {{ with $paper.abstract_zh }}
       <div class="card bg-light mb-2 mb-lg-3" id="zh_abstract" style="display:none;">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>

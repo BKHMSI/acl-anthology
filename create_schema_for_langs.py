@@ -224,7 +224,7 @@ codes = set()
 #         print(template.format(el, lang_to_code[lang]))
 
 template_1 = "data['{}_{}_html']"
-template_2 = "data['xml_{}_{}']"
+template_2 = "data['{}_{}']"
 
 for el in elements:
     to_add = []
@@ -233,17 +233,17 @@ for el in elements:
     for lang in languages:
         to_add += [template_1.format(el, lang_to_code[lang])]
         to_del += [template_2.format(el, lang_to_code[lang])]
-    print(', '.join(to_add))
+    # print(', '.join(to_add))
     print(', '.join(to_del))
 
 
-template_1 = 'self.formatter(self.get("xml_{}_{}"), form),\\'
-for el in elements:
-    code = []
-    print("="*100)
-    for lang in languages:
-        code += [template_1.format(el, lang_to_code[lang])]
-    print('\n'.join(code))
+# template_1 = 'self.get("{}_{}"),\\'
+# for el in elements:
+#     code = []
+#     print("="*100)
+#     for lang in languages:
+#         code += [template_1.format(el, lang_to_code[lang])]
+#     print('\n'.join(code))
 
 codes = sorted(codes)
 

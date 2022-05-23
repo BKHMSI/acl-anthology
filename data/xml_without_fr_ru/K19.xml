@@ -1,0 +1,950 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="K19">
+  <volume id="1" ingest-date="2019-11-03">
+    <meta>
+      <booktitle>Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)</booktitle>
+      <url hash="a113dfa3">K19-1</url>
+      <editor><first>Mohit</first><last>Bansal</last></editor>
+      <editor><first>Aline</first><last>Villavicencio</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Hong Kong, China</address>
+      <month>November</month>
+      <year>2019</year>
+    </meta>
+    <frontmatter>
+      <url hash="01341017">K19-1000</url>
+      <bibkey>conll-2019-natural</bibkey>
+    </frontmatter>
+    <paper id="4">
+      <title>Investigating Cross-Lingual Alignment Methods for Contextualized Embeddings with Token-Level Evaluation</title>
+      <author><first>Qianchu</first><last>Liu</last></author>
+      <author><first>Diana</first><last>McCarthy</last></author>
+      <author><first>Ivan</first><last>Vulić</last></author>
+      <author><first>Anna</first><last>Korhonen</last></author>
+      <pages>33–43</pages>
+      <abstract>In this paper, we present a thorough investigation on methods that align pre-trained contextualized embeddings into shared cross-lingual context-aware embedding space, providing strong reference benchmarks for future context-aware crosslingual models. We propose a novel and challenging <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>, Bilingual Token-level Sense Retrieval (BTSR). It specifically evaluates the accurate alignment of words with the same meaning in cross-lingual non-parallel contexts, currently not evaluated by existing tasks such as Bilingual Contextual Word Similarity and Sentence Retrieval. We show how the proposed BTSR task highlights the merits of different alignment methods. In particular, we find that using context average type-level alignment is effective in transferring monolingual contextualized embeddings cross-lingually especially in non-parallel contexts, and at the same time improves the monolingual space. Furthermore, aligning independently trained models yields better performance than aligning multilingual embeddings with shared vocabulary.</abstract>
+      <url hash="7424b4ba">K19-1004</url>
+      <doi>10.18653/v1/K19-1004</doi>
+      <bibkey>liu-etal-2019-investigating</bibkey>
+    </paper>
+    <paper id="7">
+      <title>Using Priming to Uncover the Organization of Syntactic Representations in Neural Language Models</title>
+      <author><first>Grusha</first><last>Prasad</last></author>
+      <author><first>Marten</first><last>van Schijndel</last></author>
+      <author><first>Tal</first><last>Linzen</last></author>
+      <pages>66–76</pages>
+      <abstract>Neural language models (LMs) perform well on <a href="https://en.wikipedia.org/wiki/Task_(project_management)">tasks</a> that require sensitivity to <a href="https://en.wikipedia.org/wiki/Syntax">syntactic structure</a>. Drawing on the syntactic priming paradigm from <a href="https://en.wikipedia.org/wiki/Psycholinguistics">psycholinguistics</a>, we propose a novel technique to analyze the representations that enable such success. By establishing a gradient similarity metric between structures, this technique allows us to reconstruct the organization of the LMs’ syntactic representational space. We use this technique to demonstrate that LSTM LMs’ representations of different types of sentences with relative clauses are organized hierarchically in a linguistically interpretable manner, suggesting that the LMs track abstract properties of the sentence.</abstract>
+      <url hash="78a9008d">K19-1007</url>
+      <doi>10.18653/v1/K19-1007</doi>
+      <bibkey>prasad-etal-2019-using</bibkey>
+      <pwccode url="https://github.com/grushaprasad/RNN-Priming" additional="false">grushaprasad/RNN-Priming</pwccode>
+    </paper>
+    <paper id="9">
+      <title>Compositional Generalization in Image Captioning</title>
+      <author><first>Mitja</first><last>Nikolaus</last></author>
+      <author><first>Mostafa</first><last>Abdou</last></author>
+      <author><first>Matthew</first><last>Lamm</last></author>
+      <author><first>Rahul</first><last>Aralikatte</last></author>
+      <author><first>Desmond</first><last>Elliott</last></author>
+      <pages>87–98</pages>
+      <abstract>Image captioning models are usually evaluated on their ability to describe a held-out set of images, not on their ability to generalize to unseen concepts. We study the problem of compositional generalization, which measures how well a <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> composes unseen combinations of concepts when describing <a href="https://en.wikipedia.org/wiki/Image">images</a>. State-of-the-art image captioning models show poor generalization performance on this task. We propose a multi-task model to address the poor performance, that combines caption generation and imagesentence ranking, and uses a decoding mechanism that re-ranks the captions according their similarity to the image. This <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> is substantially better at generalizing to unseen combinations of concepts compared to state-of-the-art captioning models.</abstract>
+      <url hash="5307b8c4">K19-1009</url>
+      <attachment type="supplementary-material" hash="bd5c7969">K19-1009.Supplementary_Material.pdf</attachment>
+      <doi>10.18653/v1/K19-1009</doi>
+      <bibkey>nikolaus-etal-2019-compositional</bibkey>
+      <pwccode url="https://github.com/mitjanikolaus/compositional-image-captioning" additional="false">mitjanikolaus/compositional-image-captioning</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/coco">COCO</pwcdataset>
+    </paper>
+    <paper id="10">
+      <title>Representing Movie Characters in Dialogues</title>
+      <author><first>Mahmoud</first><last>Azab</last></author>
+      <author><first>Noriyuki</first><last>Kojima</last></author>
+      <author><first>Jia</first><last>Deng</last></author>
+      <author><first>Rada</first><last>Mihalcea</last></author>
+      <pages>99–109</pages>
+      <abstract>We introduce a new embedding model to represent movie characters and their interactions in a <a href="https://en.wikipedia.org/wiki/Dialogue">dialogue</a> by encoding in the same representation the language used by these <a href="https://en.wikipedia.org/wiki/Character_(arts)">characters</a> as well as information about the other participants in the dialogue. We evaluate the performance of these new character embeddings on two tasks : (1) character relatedness, using a dataset we introduce consisting of a dense character interaction matrix for 4,378 unique character pairs over 22 hours of dialogue from eighteen movies ; and (2) character relation classification, for fine- and coarse-grained relations, as well as sentiment relations. Our experiments show that our model significantly outperforms the traditional Word2Vec continuous bag-of-words and skip-gram models, demonstrating the effectiveness of the character embeddings we introduce. We further show how these <a href="https://en.wikipedia.org/wiki/Embedding">embeddings</a> can be used in conjunction with a visual question answering system to improve over previous results.</abstract>
+      <url hash="5c915b4b">K19-1010</url>
+      <doi>10.18653/v1/K19-1010</doi>
+      <bibkey>azab-etal-2019-representing</bibkey>
+    </paper>
+    <paper id="14">
+      <title>Weird Inflects but OK : Making Sense of Morphological Generation Errors<fixed-case>OK</fixed-case>: Making Sense of Morphological Generation Errors</title>
+      <author><first>Kyle</first><last>Gorman</last></author>
+      <author><first>Arya D.</first><last>McCarthy</last></author>
+      <author><first>Ryan</first><last>Cotterell</last></author>
+      <author><first>Ekaterina</first><last>Vylomova</last></author>
+      <author><first>Miikka</first><last>Silfverberg</last></author>
+      <author><first>Magdalena</first><last>Markowska</last></author>
+      <pages>140–151</pages>
+      <abstract>We conduct a manual error analysis of the CoNLL-SIGMORPHON Shared Task on Morphological Reinflection. This task involves <a href="https://en.wikipedia.org/wiki/Natural-language_generation">natural language generation</a> : systems are given a word in citation form (e.g., hug) and asked to produce the corresponding <a href="https://en.wikipedia.org/wiki/Grammatical_conjugation">inflected form</a> (e.g., the simple past hugged). We propose an error taxonomy and use it to annotate errors made by the top two <a href="https://en.wikipedia.org/wiki/List_of_systems_of_plant_taxonomy">systems</a> across twelve languages. Many of the observed errors are related to inflectional patterns sensitive to inherent linguistic properties such as <a href="https://en.wikipedia.org/wiki/Animacy">animacy</a> or <a href="https://en.wikipedia.org/wiki/Affect_(linguistics)">affect</a> ; many others are failures to predict truly unpredictable inflectional behaviors. We also find nearly one quarter of the residual errors reflect errors in the gold data.</abstract>
+      <url hash="04d41e8d">K19-1014</url>
+      <doi>10.18653/v1/K19-1014</doi>
+      <bibkey>gorman-etal-2019-weird</bibkey>
+    </paper>
+    <paper id="15">
+      <title>Learning to Represent Bilingual Dictionaries</title>
+      <author><first>Muhao</first><last>Chen</last></author>
+      <author><first>Yingtao</first><last>Tian</last></author>
+      <author><first>Haochen</first><last>Chen</last></author>
+      <author><first>Kai-Wei</first><last>Chang</last></author>
+      <author><first>Steven</first><last>Skiena</last></author>
+      <author><first>Carlo</first><last>Zaniolo</last></author>
+      <pages>152–162</pages>
+      <abstract>Bilingual word embeddings have been widely used to capture the correspondence of lexical semantics in different <a href="https://en.wikipedia.org/wiki/Language">human languages</a>. However, the cross-lingual correspondence between sentences and words is less studied, despite that this correspondence can significantly benefit many applications such as crosslingual semantic search and textual inference. To bridge this gap, we propose a neural embedding model that leverages <a href="https://en.wikipedia.org/wiki/Bilingual_dictionary">bilingual dictionaries</a>. The proposed model is trained to map the lexical definitions to the cross-lingual target words, for which we explore with different sentence encoding techniques. To enhance the learning process on limited resources, our model adopts several critical learning strategies, including multi-task learning on different bridges of languages, and joint learning of the dictionary model with a bilingual word embedding model. We conduct experiments on two new <a href="https://en.wikipedia.org/wiki/Task_(project_management)">tasks</a>. In the cross-lingual reverse dictionary retrieval task, we demonstrate that our model is capable of comprehending bilingual concepts based on descriptions, and the proposed learning strategies are effective. In the bilingual paraphrase identification task, we show that our model effectively associates sentences in different languages via a shared embedding space, and outperforms existing approaches in identifying bilingual paraphrases.</abstract>
+      <url hash="223c184b">K19-1015</url>
+      <doi>10.18653/v1/K19-1015</doi>
+      <bibkey>chen-etal-2019-learning</bibkey>
+      <pwccode url="https://github.com/muhaochen/bilingual_dictionaries" additional="false">muhaochen/bilingual_dictionaries</pwccode>
+    </paper>
+    <paper id="16">
+      <title>Improving <a href="https://en.wikipedia.org/wiki/Natural-language_understanding">Natural Language Understanding</a> by Reverse Mapping Bytepair Encoding</title>
+      <author><first>Chaodong</first><last>Tong</last></author>
+      <author><first>Huailiang</first><last>Peng</last></author>
+      <author><first>Qiong</first><last>Dai</last></author>
+      <author><first>Lei</first><last>Jiang</last></author>
+      <author><first>Jianghua</first><last>Huang</last></author>
+      <pages>163–173</pages>
+      <abstract>We propose a method called reverse mapping bytepair encoding, which maps named-entity information and other word-level linguistic features back to subwords during the encoding procedure of bytepair encoding (BPE). We employ this method to the Generative Pre-trained Transformer (OpenAI GPT) by adding a weighted linear layer after the embedding layer. We also propose a new model architecture named as the multi-channel separate transformer to employ a <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training process</a> without parameter-sharing. Evaluation on Stories Cloze, RTE, SciTail and SST-2 datasets demonstrates the effectiveness of our approach.</abstract>
+      <url hash="5393164f">K19-1016</url>
+      <doi>10.18653/v1/K19-1016</doi>
+      <bibkey>tong-etal-2019-improving</bibkey>
+    </paper>
+    <paper id="17">
+      <title>Made for Each Other : Broad-Coverage Semantic Structures Meet Preposition Supersenses</title>
+      <author><first>Jakob</first><last>Prange</last></author>
+      <author><first>Nathan</first><last>Schneider</last></author>
+      <author><first>Omri</first><last>Abend</last></author>
+      <pages>174–185</pages>
+      <abstract>Universal Conceptual Cognitive Annotation (UCCA ; Abend and Rappoport, 2013) is a typologically-informed, broad-coverage semantic annotation scheme that describes coarse-grained predicate-argument structure but currently lacks semantic roles. We argue that lexicon-free annotation of the semantic roles marked by <a href="https://en.wikipedia.org/wiki/Preposition_and_postposition">prepositions</a>, as formulated by Schneider et al. (2018), is complementary and suitable for integration within <a href="https://en.wikipedia.org/wiki/UCCA">UCCA</a>. We show empirically for <a href="https://en.wikipedia.org/wiki/English_language">English</a> that the <a href="https://en.wikipedia.org/wiki/Scheme_(mathematics)">schemes</a>, though annotated independently, are compatible and can be combined in a single semantic graph. A comparison of several approaches to parsing the integrated representation lays the groundwork for future research on this task.</abstract>
+      <url hash="93d2378c">K19-1017</url>
+      <attachment type="supplementary-material" hash="c2f9ca34">K19-1017.Supplementary_Material.pdf</attachment>
+      <attachment hash="7c1c8c1e">K19-1017.Attachment.pdf</attachment>
+      <doi>10.18653/v1/K19-1017</doi>
+      <bibkey>prange-etal-2019-made</bibkey>
+      <pwccode url="https://github.com/jakpra/ucca-streusle" additional="false">jakpra/ucca-streusle</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="18">
+      <title>Generating Timelines by Modeling Semantic Change</title>
+      <author><first>Guy D.</first><last>Rosin</last></author>
+      <author><first>Kira</first><last>Radinsky</last></author>
+      <pages>186–195</pages>
+      <abstract>Though <a href="https://en.wikipedia.org/wiki/Language">languages</a> can evolve slowly, they can also react strongly to <a href="https://en.wikipedia.org/wiki/Event_(philosophy)">dramatic world events</a>. By studying the connection between words and events, it is possible to identify which events change our vocabulary and in what way. In this work, we tackle the task of creating timelines-records of historical turning points, represented by either words or events, to understand the dynamics of a target word. Our approach identifies these points by leveraging both static and time-varying word embeddings to measure the influence of words and events. In addition to quantifying changes, we show how our technique can help isolate semantic changes. Our qualitative and quantitative evaluations show that we are able to capture this <a href="https://en.wikipedia.org/wiki/Semantic_change">semantic change</a> and event influence.</abstract>
+      <url hash="d01b3ef0">K19-1018</url>
+      <attachment type="supplementary-material" hash="b210ac83">K19-1018.Supplementary_Material.zip</attachment>
+      <doi>10.18653/v1/K19-1018</doi>
+      <bibkey>rosin-radinsky-2019-generating</bibkey>
+      <pwccode url="https://github.com/guyrosin/generating_timelines" additional="false">guyrosin/generating_timelines</pwccode>
+    </paper>
+    <paper id="19">
+      <title>Diversify Your Datasets : Analyzing Generalization via Controlled Variance in Adversarial Datasets</title>
+      <author><first>Ohad</first><last>Rozen</last></author>
+      <author><first>Vered</first><last>Shwartz</last></author>
+      <author><first>Roee</first><last>Aharoni</last></author>
+      <author><first>Ido</first><last>Dagan</last></author>
+      <pages>196–205</pages>
+      <abstract>Phenomenon-specific adversarial datasets have been recently designed to perform targeted stress-tests for particular inference types. Recent work (Liu et al., 2019a) proposed that such datasets can be utilized for training NLI and other types of models, often allowing to learn the phenomenon in focus and improve on the challenge dataset, indicating a blind spot in the original training data. Yet, although a <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> can improve in such a training process, it might still be vulnerable to other challenge datasets targeting the same phenomenon but drawn from a different distribution, such as having a different syntactic complexity level. In this work, we extend this method to drive conclusions about a <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a>’s ability to learn and generalize a target phenomenon rather than to learn a <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a>, by controlling additional aspects in the adversarial datasets. We demonstrate our approach on two inference phenomena   dative alternation and numerical reasoning, elaborating, and in some cases contradicting, the results of Liu et al.. Our methodology enables building better challenge datasets for creating more robust models, and may yield better model understanding and subsequent overarching improvements.</abstract>
+      <url hash="be6e30b7">K19-1019</url>
+      <doi>10.18653/v1/K19-1019</doi>
+      <bibkey>rozen-etal-2019-diversify</bibkey>
+      <pwccode url="https://github.com/ohadrozen/generalization" additional="false">ohadrozen/generalization</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/glue">GLUE</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/multinli">MultiNLI</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/snli">SNLI</pwcdataset>
+    </paper>
+    <paper id="20">
+      <title>Fully Unsupervised Crosslingual Semantic Textual Similarity Metric Based on BERT for Identifying Parallel Data<fixed-case>BERT</fixed-case> for Identifying Parallel Data</title>
+      <author><first>Chi-kiu</first><last>Lo</last></author>
+      <author><first>Michel</first><last>Simard</last></author>
+      <pages>206–215</pages>
+      <abstract>We present a fully unsupervised crosslingual semantic textual similarity (STS) metric, based on contextual embeddings extracted from BERT   Bidirectional Encoder Representations from Transformers (Devlin et al., 2019). The goal of crosslingual STS is to measure to what degree two segments of text in different languages express the same meaning. Not only is it a key task in crosslingual natural language understanding (XLU), it is also particularly useful for identifying parallel resources for training and evaluating downstream multilingual natural language processing (NLP) applications, such as <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>. Most previous crosslingual STS methods relied heavily on existing <a href="https://en.wikipedia.org/wiki/Parallel_computing">parallel resources</a>, thus leading to a circular dependency problem. With the advent of massively multilingual context representation models such as <a href="https://en.wikipedia.org/wiki/BERT">BERT</a>, which are trained on the concatenation of non-parallel data from each language, we show that the deadlock around parallel resources can be broken. We perform intrinsic evaluations on crosslingual STS data sets and extrinsic evaluations on parallel corpus filtering and human translation equivalence assessment tasks. Our results show that the unsupervised crosslingual STS metric using BERT without fine-tuning achieves performance on par with supervised or weakly supervised approaches.</abstract>
+      <url hash="d8604adc">K19-1020</url>
+      <doi>10.18653/v1/K19-1020</doi>
+      <bibkey>lo-simard-2019-fully</bibkey>
+    </paper>
+    <paper id="21">
+      <title>On the Importance of Subword Information for <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">Morphological Tasks</a> in Truly Low-Resource Languages</title>
+      <author><first>Yi</first><last>Zhu</last></author>
+      <author><first>Benjamin</first><last>Heinzerling</last></author>
+      <author><first>Ivan</first><last>Vulić</last></author>
+      <author><first>Michael</first><last>Strube</last></author>
+      <author><first>Roi</first><last>Reichart</last></author>
+      <author><first>Anna</first><last>Korhonen</last></author>
+      <pages>216–226</pages>
+      <abstract>Recent work has validated the importance of subword information for word representation learning. Since <a href="https://en.wikipedia.org/wiki/Subword">subwords</a> increase parameter sharing ability in neural models, their value should be even more pronounced in low-data regimes. In this work, we therefore provide a comprehensive analysis focused on the usefulness of subwords for word representation learning in truly low-resource scenarios and for three representative morphological tasks : fine-grained entity typing, morphological tagging, and <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">named entity recognition</a>. We conduct a systematic study that spans several dimensions of comparison : 1) type of data scarcity which can stem from the lack of task-specific training data, or even from the lack of unannotated data required to train <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a>, or both ; 2) language type by working with a sample of 16 typologically diverse languages including some truly low-resource ones (e.g. Rusyn, Buryat, and Zulu) ; 3) the choice of the subword-informed word representation method. Our main results show that subword-informed models are universally useful across all language types, with large gains over subword-agnostic embeddings. They also suggest that the effective use of subwords largely depends on the language (type) and the task at hand, as well as on the amount of available data for training the embeddings and task-based models, where having sufficient in-task data is a more critical requirement.</abstract>
+      <url hash="f2ca69bf">K19-1021</url>
+      <doi>10.18653/v1/K19-1021</doi>
+      <bibkey>zhu-etal-2019-importance</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/universal-dependencies">Universal Dependencies</pwcdataset>
+    </paper>
+    <paper id="22">
+      <title>Comparing Top-Down and Bottom-Up Neural Generative Dependency Models</title>
+      <author><first>Austin</first><last>Matthews</last></author>
+      <author><first>Graham</first><last>Neubig</last></author>
+      <author><first>Chris</first><last>Dyer</last></author>
+      <pages>227–237</pages>
+      <abstract>Recurrent neural network grammars generate sentences using phrase-structure syntax and perform very well on both <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a> and <a href="https://en.wikipedia.org/wiki/Language_model">language modeling</a>. To explore whether generative dependency models are similarly effective, we propose two new generative models of dependency syntax. Both models use <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural nets</a> to avoid making explicit <a href="https://en.wikipedia.org/wiki/Independence_(probability_theory)">independence assumptions</a>, but they differ in the order used to construct the <a href="https://en.wikipedia.org/wiki/Tree_(graph_theory)">trees</a> : one builds the tree bottom-up and the other top-down, which profoundly changes the estimation problem faced by the learner. We evaluate the two models on three typologically different languages : <a href="https://en.wikipedia.org/wiki/English_language">English</a>, <a href="https://en.wikipedia.org/wiki/Arabic">Arabic</a>, and <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a>. While both <a href="https://en.wikipedia.org/wiki/Generative_model">generative models</a> improve <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a> performance over a <a href="https://en.wikipedia.org/wiki/Discriminative_model">discriminative baseline</a>, they are significantly less effective than non-syntactic LSTM language models. Surprisingly, little difference between the construction orders is observed for either <a href="https://en.wikipedia.org/wiki/Parsing">parsing</a> or <a href="https://en.wikipedia.org/wiki/Language_model">language modeling</a>.</abstract>
+      <url hash="88970331">K19-1022</url>
+      <doi>10.18653/v1/K19-1022</doi>
+      <bibkey>matthews-etal-2019-comparing</bibkey>
+    <title_pt>Comparando modelos de dependência generativa neurais de cima para baixo e de baixo para cima</title_pt>
+      <title_ar>مقارنة نماذج التبعية العصبية التوليدية من أعلى إلى أسفل ومن أسفل إلى أعلى</title_ar>
+      <title_es>Comparación de modelos de dependencia generativa neuronal descendente y ascendente</title_es>
+      <title_ja>トップダウンとボトムアップの神経生成依存モデルの比較</title_ja>
+      <title_zh>校自上而下,与自下而上者神经生依模形</title_zh>
+      <title_hi>ऊपर-नीचे और नीचे-ऊपर तंत्रिका जननात्मक निर्भरता मॉडल की तुलना</title_hi>
+      <title_ga>Comparáid a dhéanamh idir Múnlaí Spleáchais Néaracha ó Bhun Anuas agus ó Bhun Suas</title_ga>
+      <title_ka>ზემო- ქვემო და ქვემო- ზემო ნეიროლური დამხმარება მოდელების შემდგომარება</title_ka>
+      <title_el>Σύγκριση μοντέλων γενετικής εξάρτησης από πάνω προς τα κάτω και από κάτω προς τα πάνω</title_el>
+      <title_hu>Felülről lefelé és alulról felfelé generált függőségi modellek összehasonlítása</title_hu>
+      <title_it>Confronto dei modelli di dipendenza generativa neurale dall'alto verso il basso e dal basso verso l'alto</title_it>
+      <title_kk>Жоғарғы төменгі және төменгі жоғарғы нейрондық жасау тәуелдік үлгілерін салыстыру</title_kk>
+      <title_lt>Palyginti iš viršaus į apačią ir iš apačią į viršų generuojančių nervų priklausomybės modelius</title_lt>
+      <title_mk>Според моделите на генеративна нервна зависност од горе надолу и долу надолу</title_mk>
+      <title_ms>Comparing Top-Down and Bottom-Up Neural Generative Dependency Models</title_ms>
+      <title_ml>മുകളില്‍ നിന്നും താഴേക്കും മുകളില്‍ ന്യൂറല്‍ സൃഷ്ടിക്കുന്നതിന്റെ ആശ്രമമോഡലുകള്‍ തുല്യമാക്കുക</title_ml>
+      <title_mt>Tqabbil ta’ Mudelli ta’ Dipendenza Ġenerattiva Newrali minn fuq għal isfel u minn isfel għal fuq</title_mt>
+      <title_mn>Үүний доор болон доор доор нь мэдрэлийн төрөлхтний хамааралтай загваруудыг харьцуулах</title_mn>
+      <title_pl>Porównanie modeli zależności generacyjnej od góry i oddolnej od góry</title_pl>
+      <title_ro>Compararea modelelor de dependenţă generativă neurală de sus în jos şi de jos în sus</title_ro>
+      <title_no>Samanliknar modeller for neuralgenerering av avhengighet</title_no>
+      <title_sr>Uspoređujući modele zavisnosti neuronske generacije</title_sr>
+      <title_si>උඩ- පහළ හා පහළ- පහළ- උඩ නිර්මාණ ප්‍රමාණය විශේෂතා මඩේල්</title_si>
+      <title_so>Isbarbarbardhigga Top-Down and Bottom-Up Neural Generative Dependence Models</title_so>
+      <title_sv>Jämföra neurala generativa beroendemodeller uppifrån och ner och uppifrån</title_sv>
+      <title_ta>மேல்- கீழ் மற்றும் கீழ் புதிய பொருள் உருவாக்கும் சார்பு மாதிரிகளை ஒப்பிடுகிறது</title_ta>
+      <title_ur>Top- Down اور Bottom- Up Neural Generative Dependency Models</title_ur>
+      <title_uz>Yuqori- pastga va pastga yangi Umumiy</title_uz>
+      <title_vi>Đối chiếu các chế độ tự động phát triển từ trên xuống</title_vi>
+      <title_bg>Сравняване на моделите на генеративна зависимост от неврола отгоре надолу и отдолу нагоре</title_bg>
+      <title_nl>Vergelijking van top-down en bottom-up neurale generatieve afhankelijkheidsmodellen</title_nl>
+      <title_da>Sammenligning top-down og bottom-up neural generative afhængighedsmodeller</title_da>
+      <title_hr>U usporedbi modela zavisnosti Neuralne generacije vrha dolje i dolje</title_hr>
+      <title_id>Mengbandingkan Model Dependensi Neural Generatif Atas-Bawah dan Bawah-Up</title_id>
+      <title_ko>위에서 아래로 신경 생성 의존 모델의 비교</title_ko>
+      <title_fa>مقایسه مدل بستگی نسل عصبی بالا و پایین بالا</title_fa>
+      <title_de>Vergleich von Top-Down und Bottom-Up neuronalen generativen Abhängigkeitsmodellen</title_de>
+      <title_af>Vergelyking Bo- Onderkant en Bo- Onderkant Neurale Genereerde Afhanklikheid Modelle</title_af>
+      <title_am>gradient-editor-action</title_am>
+      <title_sw>Kulinganisha Top-Down and Bottom-Up Models of Creating Neural Dependence</title_sw>
+      <title_tr>Üst-Ast we Ast-Ast Niýal Jeşirmek Maýylyklary</title_tr>
+      <title_hy>Համեմատելով վերևից ներքև և ներքև գտնվող նյարդային գեներատիվ կախվածության մոդելները</title_hy>
+      <title_sq>Comparing Top-Down and Bottom-Up Neural Generative Dependency Models</title_sq>
+      <title_az>Yuxarı Aşağı və Aşağı Nöral Generativ Bağılılıq Modelləri</title_az>
+      <title_bn>উপর- নিচে এবং নিম্ন- নিউরেটিভ জেনারেটিভ নির্ভর মোডেল তুলনা করো</title_bn>
+      <title_ca>Comparar models de dependencia neuronal generativa de dalt a baix i de baix</title_ca>
+      <title_cs>Porovnání modelů neuronové generační závislosti shora dolů a zdola nahoru</title_cs>
+      <title_et>Ülalt alla ja alt üles neurogeneratiivse sõltuvuse mudelite võrdlemine</title_et>
+      <title_fi>Ylhäältä alas- ja alhaalta ylös -hermojen generatiivisen riippuvuuden mallien vertailu</title_fi>
+      <title_bs>U usporedbi modela zavisnosti neuronske generacije</title_bs>
+      <title_jv>bookmarks</title_jv>
+      <title_ha>@ action</title_ha>
+      <title_he>שיווה מודלים של תלויות ניאורליות גנרטיביות מעל למטה ומתחת למעלה</title_he>
+      <title_sk>Primerjava modelov generativne odvisnosti od zgoraj navzdol in od spodaj navzgor</title_sk>
+      <title_bo>མགོ་རིང་འོག་ཏུ་དང་མགོ་རིང་མཐོང་ནུས་མིན་པའི་སྒེར་གྱི་རྟེན་འབྲེལ་མ་དཔེ་དབྱིབས</title_bo>
+      <abstract_ar>تولد القواعد النحوية للشبكة العصبية المتكررة جملًا باستخدام بناء جملة بنية العبارات وتؤدي أداءً جيدًا في كل من التحليل ونمذجة اللغة. لاستكشاف ما إذا كانت نماذج التبعية التوليدية فعالة بالمثل ، نقترح نموذجين توليديين جديدين لبناء جملة التبعية. يستخدم كلا النموذجين شبكات عصبية متكررة لتجنب وضع افتراضات استقلالية صريحة ، لكنهما يختلفان في الترتيب المستخدم لبناء الأشجار: أحدهما يبني الشجرة من أسفل إلى أعلى والآخر من أعلى إلى أسفل ، مما يغير بشكل عميق مشكلة التقدير التي يواجهها المتعلم. نقوم بتقييم النموذجين على ثلاث لغات مختلفة نمطياً: الإنجليزية والعربية واليابانية. بينما يعمل كلا النموذجين التوليدين على تحسين أداء التحليل على أساس تمييزي ، إلا أنهما أقل فعالية بشكل ملحوظ من نماذج لغة LSTM غير النحوية. والمثير للدهشة أنه لوحظ اختلاف بسيط بين أوامر البناء سواء من حيث الإعراب أو النمذجة اللغوية.</abstract_ar>
+      <abstract_es>Las gramáticas recurrentes de redes neuronales generan oraciones utilizando la sintaxis de estructura de frases y funcionan muy bien tanto en el análisis como en el modelado del lenguaje. Para explorar si los modelos de dependencia generativa son igualmente efectivos, proponemos dos nuevos modelos generativos de sintaxis de dependencias. Ambos modelos utilizan redes neuronales recurrentes para evitar hacer suposiciones explícitas de independencia, pero difieren en el orden utilizado para construir los árboles: uno construye el árbol de abajo hacia arriba y el otro de arriba hacia abajo, lo que cambia profundamente el problema de estimación al que se enfrenta el alumno. Evaluamos los dos modelos en tres idiomas tipológicamente diferentes: inglés, árabe y japonés. Si bien ambos modelos generativos mejoran el rendimiento del análisis por encima de una línea de base discriminativa, son significativamente menos efectivos que los modelos de lenguaje LSTM no sintácticos. Sorprendentemente, se observa poca diferencia entre las órdenes de construcción para el análisis o el modelado del lenguaje.</abstract_es>
+      <abstract_pt>As gramáticas de redes neurais recorrentes geram sentenças usando sintaxe de estrutura de frase e funcionam muito bem tanto na análise quanto na modelagem de linguagem. Para explorar se os modelos de dependência generativa são igualmente eficazes, propomos dois novos modelos generativos de sintaxe de dependência. Ambos os modelos usam redes neurais recorrentes para evitar suposições explícitas de independência, mas diferem na ordem usada para construir as árvores: um constrói a árvore de baixo para cima e o outro de cima para baixo, o que muda profundamente o problema de estimativa enfrentado pelo aprendiz. Avaliamos os dois modelos em três idiomas tipologicamente diferentes: inglês, árabe e japonês. Embora ambos os modelos generativos melhorem o desempenho de análise em uma linha de base discriminativa, eles são significativamente menos eficazes do que os modelos de linguagem LSTM não sintáticos. Surpreendentemente, pouca diferença entre as ordens de construção é observada tanto para análise sintática quanto para modelagem de linguagem.</abstract_pt>
+      <abstract_ja>再帰ニューラルネットワーク文法は、句構造構文を使用して文を生成し、構文解析と言語モデリングの両方で非常に優れたパフォーマンスを発揮します。生成依存性モデルが同様に効果的かどうかを探るために、2つの新しい生成依存性構文モデルを提案します。どちらのモデルも、明確な独立性の仮定を立てることを避けるために再帰的なニューラルネットを使用しますが、木を構築するために使用される順序が異なります。1つは木のボトムアップを構築し、もう1つはトップダウンを構築し、学習者が直面する推定問題を深刻に変化させます。私たちは、英語、アラビア語、日本語の3つの異なる言語で2つのモデルを評価します。両方の生成モデルは、識別ベースラインにわたって構文解析パフォーマンスを改善するが、それらは非構文LSTM言語モデルよりも有意に効果が低い。驚くべきことに、構築オーダー間の差異は、構文解析または言語モデリングのいずれにおいてもほとんど観察されない。</abstract_ja>
+      <abstract_hi>आवर्तक तंत्रिका नेटवर्क व्याकरण वाक्यांश-संरचना वाक्यविन्यास का उपयोग करके वाक्य उत्पन्न करते हैं और पार्सिंग और भाषा मॉडलिंग दोनों पर बहुत अच्छा प्रदर्शन करते हैं। यह पता लगाने के लिए कि क्या उत्पादक निर्भरता मॉडल समान रूप से प्रभावी हैं, हम निर्भरता वाक्यविन्यास के दो नए उत्पादक मॉडल का प्रस्ताव करते हैं। दोनों मॉडल स्पष्ट स्वतंत्रता धारणाओं को बनाने से बचने के लिए आवर्तक तंत्रिका जाल का उपयोग करते हैं, लेकिन वे पेड़ों के निर्माण के लिए उपयोग किए जाने वाले क्रम में भिन्न होते हैं: एक पेड़ को नीचे-ऊपर और दूसरा ऊपर-नीचे बनाता है, जो शिक्षार्थी द्वारा सामना की जाने वाली अनुमान समस्या को गहराई से बदलदेता है। हम तीन टाइपोलॉजिकल रूप से अलग-अलग भाषाओं पर दो मॉडलों का मूल्यांकन करते हैं: अंग्रेजी, अरबी और जापानी। जबकि दोनों उत्पादक मॉडल एक भेदभावपूर्ण आधार रेखा पर पार्सिंग प्रदर्शन में सुधार करते हैं, वे गैर-वाक्यात्मक एलएसटीएम भाषा मॉडल की तुलना में काफी कम प्रभावी होते हैं। हैरानी की बात है, निर्माण आदेशों के बीच थोड़ा अंतर या तो पार्सिंग या भाषा मॉडलिंग के लिए मनाया जाता है।</abstract_hi>
+      <abstract_zh>递归神经网络语法以短语构语法成句,解析言建模善。 求生成与不同效,吾二新语法成模样。 二模皆用递归神经网络以避明独立性之设,然其次序不同:一自下而上,一自上而下,深变学者之虑也。 吾以三类型学异言质之:英语、阿拉伯语、日语。 虽二者成模基线皆增解析性,然其效明下非句法 LSTM 言。 令人讶之,解析语建模,工订单之异小也。</abstract_zh>
+      <abstract_ga>Gineann gramadach líonra néarach athfhillteach abairtí trí úsáid a bhaint as comhréir frása-struchtúr agus feidhmíonn siad go han-mhaith ar pharsáil agus samhaltú teanga. Chun iniúchadh a dhéanamh an bhfuil na samhlacha giniúna spleáchais chomh héifeachtach céanna, molaimid dhá shamhail ghiniúna nua de chomhréir spleáchais. Úsáideann an dá mhúnla líonta néaracha athfhillteacha chun boinn tuisceana soiléire neamhspleáchais a sheachaint, ach tá difríocht eatarthu san ord a úsáidtear chun na crainn a thógáil: tógann duine acu an crann ó bhun aníos agus an ceann eile ó bharr anuas, rud a athraíonn go mór an fhadhb meastacháin a bhíonn roimh an bhfoghlaimeoir. Déanaimid measúnú ar an dá mhúnla ar thrí theanga atá difriúil ó thaobh na clódóireachta de: Béarla, Araibis agus Seapáinis. Cé go gcuireann an dá mhúnla giniúna feabhas ar fheidhmíocht parsála thar bhunlíne idirdhealaitheach, tá siad i bhfad níos lú éifeachtaí ná samhlacha teanga LSTM neamh-chomhréireacha. Is ionadh é nach bhfuil mórán difríochta le sonrú idir na horduithe tógála maidir le parsáil nó samhaltú teanga.</abstract_ga>
+      <abstract_hu>Az ismétlődő neurális hálózati nyelvtanfolyamok mondatokat hoznak létre kifejezésszerkezet szintaxisával, és nagyon jól teljesítenek mind az elemzésben, mind a nyelvmodellezésben. Annak vizsgálatára, hogy a generációs függőségi modellek hasonlóan hatékonyak-e, a függőségi szintaxis két új generációs modelljét javasoljuk. Mindkét modell visszatérő neurális hálókat használ annak érdekében, hogy elkerüljék a kifejezett függetlenségi feltételezéseket, de eltérnek a fák építéséhez használt sorrendben: az egyik alulról felfelé építi a fát, a másik felülről lefelé, ami alapvetően megváltoztatja a tanuló becslési problémáját. A két modellt három tipológiailag különböző nyelven értékeljük: angol, arab és japán. Bár mindkét generációs modell javítja az értelmezési teljesítményt egy diszkriminatív alapszinten, jelentősen kevésbé hatékonyak, mint a nem szintaktikus LSTM nyelvi modellek. Meglepő módon kevés különbséget figyelhetünk meg az építési megbízások között az elemzés vagy a nyelvi modellezés esetén.</abstract_hu>
+      <abstract_el>Οι επαναλαμβανόμενες γραμματικές νευρωνικών δικτύων δημιουργούν προτάσεις χρησιμοποιώντας σύνταξη δομής φράσεων και αποδίδουν πολύ καλά τόσο στην ανάλυση όσο και στη μοντελοποίηση γλωσσών. Για να διερευνήσουμε αν τα μοντέλα γενεαλογικής εξάρτησης είναι εξίσου αποτελεσματικά, προτείνουμε δύο νέα γενεαλογικά μοντέλα σύνταξης εξάρτησης. Και τα δύο μοντέλα χρησιμοποιούν επαναλαμβανόμενα νευρωνικά δίχτυα για να αποφύγουν τις ρητές υποθέσεις ανεξαρτησίας, αλλά διαφέρουν στη σειρά που χρησιμοποιείται για την κατασκευή των δέντρων: το ένα χτίζει το δέντρο από κάτω προς τα πάνω και το άλλο από πάνω προς τα κάτω, γεγονός που αλλάζει ριζικά το πρόβλημα εκτίμησης που αντιμετωπίζει ο μαθητής. Αξιολογούμε τα δύο μοντέλα σε τρεις τυπολογικά διαφορετικές γλώσσες: Αγγλικά, Αραβικά και Ιαπωνικά. Ενώ και τα δύο παραγωγικά μοντέλα βελτιώνουν την απόδοση ανάλυσης σε μια διακριτική βάση βάσης, είναι σημαντικά λιγότερο αποτελεσματικά από τα μη συντακτικά γλωσσικά μοντέλα. Παραδόξως, παρατηρείται μικρή διαφορά μεταξύ των παραγγελιών κατασκευής είτε για ανάλυση είτε για γλωσσική μοντελοποίηση.</abstract_el>
+      <abstract_it>Le grammatiche di rete neurale ricorrenti generano frasi utilizzando sintassi frasari e funzionano molto bene sia nell'analisi che nella modellazione del linguaggio. Per esplorare se i modelli di dipendenza generativa sono altrettanto efficaci, proponiamo due nuovi modelli generativi di sintassi di dipendenza. Entrambi i modelli utilizzano reti neurali ricorrenti per evitare di fare ipotesi di indipendenza esplicita, ma differiscono nell'ordine utilizzato per costruire gli alberi: uno costruisce l'albero dal basso verso l'alto e l'altro dall'alto verso il basso, il che cambia profondamente il problema di stima affrontato dallo studente. Valutiamo i due modelli su tre lingue tipologicamente diverse: inglese, arabo e giapponese. Mentre entrambi i modelli generativi migliorano le prestazioni di analisi rispetto a una base di base discriminatoria, sono significativamente meno efficaci rispetto ai modelli LSTM non sintattici. Sorprendentemente, si osserva poca differenza tra gli ordini di costruzione sia per l'analisi che per la modellazione del linguaggio.</abstract_it>
+      <abstract_lt>Kartotinės neurologinio tinklo gramatikos sukuria sakinius naudojant frazių struktūros sintaksą ir labai gerai veikia tiek analizuojant, tiek kalbų modeliuojant. Siekiant ištirti, ar kartų priklausomybės modeliai yra panašiai veiksmingi, siūlome du naujus kartų priklausomybės sintakso modelius. Abu modeliai naudoja pakartotinius nervinius tinklus, kad būtų išvengta aiškių nepriklausomybės prielaidų, tačiau jie skiriasi pagal medžių statybos tvarką: vienas stato medį iš apačios į viršų ir kitą iš viršaus į apačią, o tai labai keičia mokslo patiriamą vertinimo problem ą. Vertiname du modelius trimis tipologiškai skirtingomis kalbomis: anglų, arabų ir japonų. Nors abiejų kartų modeliai gerina analizavimo rezultatus, palyginti su diskriminacine baze, jie yra žymiai mažiau veiksmingi nei nesusintaktiniai LSTM kalbos modeliai. Įspūdinga, kad analizuojant arba modeliuojant kalbas konstrukcijos nurodymai skiriasi nedaug.</abstract_lt>
+      <abstract_kk>Қайталанған невралдық желі граммалары сөздерді сөздер құрылып, талдау және тіл моделінде де дұрыс жасайды. Жалпы тәуелдік үлгілерінің ұқсас әсер етпегенін зерттеу үшін, біз тәуелдік синтаксисінің екі жаңа генерациялық үлгілерін ұсынамыз. Екі үлгілер қайталанатын невралдық желілерді түсінікті тәуелсіздік тапсырмаларын құру үшін қолданылады, бірақ олар ағаштарды құру үшін қолданылатын ретінде айырмашылық: бір ағаш төменгі және жоғары төменгі желінде құрады. Бұл оқытушы Біз үш типтологиялық тілдер үшін екі үлгі үлгілерді бағалаймыз: ағылшын, араб және жапон тілдер. Екі жасалған үлгілер дискриминациялық негізгі сызықтың талдауын жақсартқанда, олар синтактикалық LSTM тіл үлгілерінен әсер етеді. Құрылғы реттерінің арасындағы кішкентай айырмашылығы талдау не тіл моделігі үшін байқалады.</abstract_kk>
+      <abstract_ka>განვითარებული ნეიროლური ქსელის გრამიმარები გამოყენება ფრაზების სტრუქტურაციის სინტაქსის გამოყენება და ძალიან კარგი გამოყენება მარტივი პარაზაციის და ენ განსხვავებლად, თუ არა განსხვავებული დადარდამული მოდელები სხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვადასხვა მო ორივე მოდელები გამოყენებენ რეკურენტური ნეიროლური ქსელები, რომელიც გამოცდილობენ გამოცდილობული განსაზღვრებულება, მაგრამ ისინი განსხვავებენ სწორედ, რომელიც სახელის კონტურაციაში გამოყენებულია: ერთი შექმნის ქვემოთ და მეორ ჩვენ სამი ტიპოლოგიურად განსხვავებული ენების ორი მოდელის შესახებ: ანგლისურად, აპაბურად და იაპონურად. თუმცა ორივე განვითარებული მოდელები განაზღვრებას განაზღვრება დისკრიმინატიური ფესკლინტიური მხარეს, ისინი ძალიან უფრო ეფექტიური არა სინტაქტიური LSTM ენის მოდე სხვადასხვა, შექმნის მოწყობინებაში მალკი განსხვავება იყოს ან პანსტირებისთვის ან ენის მოდელირებისთვის.</abstract_ka>
+      <abstract_ml>പാര്‍സിങ്ങ് ചെയ്യുന്നതിനും ഭാഷ മോഡലോഡിങ്ങിനും ഉപയോഗിച്ച് വാക്കുകള്‍ സൃഷ്ടിക്കുന്ന നെയൂറല്‍ നെറുല്‍ ശൃംഖല ഗ്രാ ജനറല്‍ ആശ്രയിക്കുന്ന മോഡലുകള്‍ ഒരേ പോലെയാണോ പ്രാവര്‍ത്തികമായിരിക്കുന്നതെന്ന് പരിശോധിക്കാന്‍, ആശ്രയിക്കുന്നതിന രണ്ടു മോഡലുകളും വ്യക്തമായ സ്വാതന്ത്ര്യ ഊഹിക്കാന്‍ ന്യൂറല്‍ നെറുല്‍ നെറ്റുകള്‍ ഉപയോഗിക്കുന്നു. പക്ഷെ മരങ്ങള്‍ നിര്‍മ്മിക്കാന്‍ ഉപയോഗിക്കുന്ന ക്രമീകരണത്തില്‍ അവര്‍ വ്യത് മൂന്നു സാധാരണ വ്യത്യസ്ത ഭാഷകളില്‍ രണ്ടു മോഡലുകളെ ഞങ്ങള്‍ വിലയിച്ചുകൊടുക്കുന്നു. ഇംഗ്ലീഷ്, അറബി, ജപ്പ രണ്ടു ജനററിവ് മോഡലുകളും ഒരു വ്യത്യസ്തമാക്കുന്ന ബേസ്ലൈനിലേക്ക് പാര്‍സിങ്ങ് പാര്‍സിങ്ങ് പ്രവര്‍ത്തനങ്ങള്‍ മുന്‍കൂട്ടുമ്പോള അത്ഭുതപ്പെട്ടു, നിര്‍മ്മാണിക്കുന്ന കല്‍പനകള്‍ക്കിടയില്‍ കുറച്ചു വ്യത്യാസം പാര്‍സിങ്ങ് അല്ലെങ്കി</abstract_ml>
+      <abstract_ms>Gramatika rangkaian saraf berulang menghasilkan kalimat menggunakan sintaks-struktur frasa dan berjalan dengan baik pada penghuraian dan pemodelan bahasa. Untuk mengeksplorasi sama ada model dependensi generatif sama-sama efektif, kami cadangkan dua model generatif baru sintaks dependensi. Both models use recurrent neural nets to avoid making explicit independence assumptions, but they differ in the order used to construct the trees: one builds the tree bottom-up and the other top-down, which profoundly changes the estimation problem faced by the learner.  Kami menilai dua model dalam tiga bahasa yang berbeza tipologi: Bahasa Inggeris, Arab, dan Jepun. Sementara kedua-dua model generatif meningkatkan prestasi penghuraian atas dasar diskriminatif, ia jauh lebih berkesan daripada model bahasa LSTM yang bukan sintaktik. Yang mengejutkan, sedikit perbezaan antara arahan pembinaan diperhatikan sama ada untuk penghuraian atau pemodelan bahasa.</abstract_ms>
+      <abstract_mk>Рекурентните граматики на нервната мрежа генерираат реченици користејќи синтаксис со фраза- структура и извршуваат многу добро во анализирањето и моделирањето на јазикот. За да истражуваме дали генеративните модели на зависност се слично ефикасни, предложуваме два нови генеративни модели на синтаксија на зависност. Двајцата модели користат рецидентни нервни мрежи за да избегнат да се прават експлицитни претпоставувања за независност, но се разликуваат во редот кој се користи за изградба на дрвјата: еден го изградува дрвото од дното нагоре и другиот од горе нагоре, што длабоко го менува проценувачкиот проблем со кој се соочува Ги проценуваме двата модели на три типологички различни јазици: англиски, арапски и јапонски. While both generative models improve parsing performance over a discriminative baseline, they are significantly less effective than non-syntactic LSTM language models.  Изненадувачки, мала разлика помеѓу наредбите за изградба се забележа или за анализирање или моделирање на јазици.</abstract_mk>
+      <abstract_mt>Il-grammi rikorrenti tan-netwerk newrali jiġġeneraw sentenzi bl-użu tas-sintaks tal-istruttura tal-frażi u jwettqu prestazzjoni tajba kemm fl-analizzazzjoni kif ukoll fl-immudellar tal-lingwi. Biex jiġi esplorat jekk mudelli ta’ dipendenza ġenerattiva humiex effettivi b’mod simili, nipproponu żewġ mudelli ġenerattivi ġodda ta’ sintaks ta’ dipendenza. Both models use recurrent neural nets to avoid making explicit independence assumptions, but they differ in the order used to construct the trees: one builds the tree bottom-up and the other top-down, which profoundly changes the estimation problem faced by the learner.  Aħna jevalwaw iż-żewġ mudelli fuq tliet lingwi tipikament differenti: l-Ingliż, l-Għarbi u l-Ġappuniż. Filwaqt li ż-żewġ mudelli ġenerattivi jtejbu l-prestazzjoni tal-analiżi fuq linja bażi diskriminatorja, huma sinifikament inqas effettivi minn mudelli lingwistiċi LSTM mhux sintetiċi. Surprisingly, little difference between the construction orders is observed for either parsing or language modeling.</abstract_mt>
+      <abstract_mn>Дахин дахин мэдрэлийн сүлжээний грамм нь өгүүлбэр-бүтцийн синтаксисийг ашиглан өгүүлбэрийг бий болгодог бөгөөд хэл загварын талаар ажиллах болон загварын загварын талаар маш сайн хийдэг Бүтээгдэхүүний хамааралтай загваруудыг адилхан үр дүнтэй эсэхийг судалж үзэхийн тулд бид хоёр шинэ үйлдвэрлэл хамааралтай синтаксисын шинэ загварыг санал болгоно. Хоёр загвар нь дахин дахин сэтгэл зүйн сүлжээг ашигладаг. Яг тодорхой тогтнолтой байдлын тодорхойлолтуудыг гаргахын тулд тэд мод бүтээх загвараар өөрчлөгдөж байна. Нэг нь мод доор болон нөгөө дээд доор нь бүтээж байна. Энэ нь сурагчийн тулгарсан тооцоо Бид 3 төрлийн хэл дээр хоёр загварыг үнэлдэг: Англи, Араб, Япон. Бүтээлтийн загварууд хоёр нь хуваалцах үйл ажиллагааг ялгаатай суурь шугам дээр улам сайжруулдаг ч тэд синтактикгүй LSTM хэл загвараас илүү үр дүнтэй. Хамгийн гайхалтай нь барилгын захирамжуудын хоорондох бага ялгаа нь хэлний захирамжуудыг хуваалцах, эсвэл хэлний захирамжуудын хоорондох бага ялгаа байдаг.</abstract_mn>
+      <abstract_pl>Powtarzające się gramatyki sieci neuronowych generują zdania za pomocą składni struktury fraz i sprawdzają się bardzo dobrze zarówno w parsowaniu, jak i modelowaniu językowym. Aby zbadać, czy modele zależności generacyjnej są podobnie skuteczne, proponujemy dwa nowe modele składni zależności generacyjnej. Oba modele wykorzystują powtarzające się sieci neuronowe, aby uniknąć wyraźnych założeń niezależności, ale różnią się one kolejnością używaną do konstruowania drzew: jeden buduje drzewo oddolnie, a drugi górnie w dół, co głęboko zmienia problem szacunkowy, z którym boryka się uczący. Oceniamy dwa modele na trzech typologicznie różnych językach: angielskim, arabskim i japońskim. Podczas gdy oba modele generatywne poprawiają wydajność parsowania w odniesieniu do dyskryminacyjnej bazy bazowej, są one znacznie mniej skuteczne niż nieskładniowe modele językowe LSTM. Co zaskakujące, niewielka różnica między zleceniami konstrukcyjnymi jest obserwowana zarówno w przypadku parsowania, jak i modelowania językowego.</abstract_pl>
+      <abstract_no>Gjennomsiktige neuralnettverksgrammar lagar setningar ved hjelp av frase- struktursyntaks og utfør veldig godt ved tolking og språk- modellering. For å utforske om genererte avhengighetsmodeller er likevel effektive, fører vi to nye genererte modeller av avhengighetssyntaks. Begge modeller brukar rekurserande neuralnettverk for å unngå å gjera eksplisitt uavhengighetsassumpsjon, men dei er ulike i rekkefølgja som brukar til å konstruera trær: ein bygger trær nedover og den andre øvre nedover, som endrar dårlig problemet med estimasjonen som lærer. Vi evaluerer dei to modelane på tre typologisk ulike språk: engelsk, arabisk og japansk. Selv om begge genererte modeller forbedrar tolkingsfunksjonen over ein diskriminert baseline, er dei mykje mindre effektive enn ikkje-syntaktiske LSTM-språk-modeller. Manglar at liten forskjell mellom konstruksjonsrekkefølgja er observert for anten tolking eller språk modellering.</abstract_no>
+      <abstract_ro>Grammaticele recurente ale rețelei neurale generează propoziții folosind sintaxa structurii frazelor și funcționează foarte bine atât în analizare, cât și în modelarea limbajului. Pentru a explora dacă modelele de dependență generativă sunt la fel de eficiente, propunem două noi modele generative de sintaxă a dependenței. Ambele modele folosesc rețele neurale recurente pentru a evita ipotezele explicite de independență, dar diferă în ordinea utilizată pentru a construi copacii: unul construiește copacul de jos în sus și celălalt de sus în jos, ceea ce schimbă profund problema estimării cu care se confruntă elevul. Evaluăm cele două modele pe trei limbi tipologice diferite: engleză, arabă și japoneză. În timp ce ambele modele generative îmbunătățesc performanța analizării față de o bază discriminatorie, ele sunt semnificativ mai puțin eficiente decât modelele LSTM nesintactice. În mod surprinzător, se observă o mică diferență între ordinele de construcție fie pentru analizare, fie pentru modelarea limbajului.</abstract_ro>
+      <abstract_si>වාර්තාව- සංවිධානය සහ භාෂාව මොඩලින් සඳහා වාර්තාව සඳහා ප්‍රයෝජනයක් නිර්මාණය කරනවා. පරීක්ෂණය කරන්න ප්‍රභාවිත විශේෂතාවක් සමාන්‍යයෙන් ප්‍රභාවිත විද්‍යාවක් තියෙන්නේ නැද්ද කියලා, අපි අළු දෙන්නම් මොඩල් දෙන්නම් ප්‍රතිශීල නිර්මාණ ජාලය භාවිත කරනවා ප්‍රතිශීල විශ්වාසය නිර්මාණය කරන්න, ඒත් එයාලා ගස් නිර්මාණය කරන්න ප්‍රතිශේෂයෙන් වෙනස් කරනවා:  අපි වෙනස් භාෂාවල් තුනක් වගේ මොඩේල් දෙකක් විශ්වාස කරනවා: ඉංග්‍රීසි, අරාබික්, ජාපානිය දෙන්නම ප්‍රභාවිත මොඩේල්ස් දෙන්නම් විශේෂ විශේෂ ප්‍රභාව ප්‍රභාවිත විශේෂ කරනවා නම්, ඔවුන් විශේෂ විශ පුදුම විදිහට, නිර්මාණය නිර්මාණය අතරේ පොඩි වෙනස් තියෙන්නේ භාෂාවක් නිර්මාණය සඳහා විශේෂ</abstract_si>
+      <abstract_sr>Povratni gramari neuralne mreže stvaraju rečenice koristeći sintaks fraze strukture i vrlo dobro izvode na analizu i jezičkom modelima. Da bi istražili da li su generični modeli ovisnosti slično efikasni, predlažemo dva nove generična modela sintaksa ovisnosti. Obje modele koriste rekonstruirane neuralne mreže kako bi izbjegli izražavanje jasnih pretpostavki nezavisnosti, ali se razlikuju u redovima koji se koristi za konstrukciju drveta: jedan izgradi drvo dole i drugi vrh dole, koji duboko mijenja problem procjene sa učenikom. Procjenjujemo dva modela na tri tipološki različita jezika: engleski, arapski i japanski. Iako obe generične modele poboljšavaju analizu učinkovitosti na diskriminacijskoj osnovnoj liniji, značajno su manje efikasni od nesintaktičnih jezičkih modela LSTM-a. Iznenađujuće, malo razlike između zapovijedi o konstrukciji posmatraju se za analizu ili jezičke modele.</abstract_sr>
+      <abstract_so>Shabakadda neurada ee ku soo dhowaaday waxay soo bandhigaan qeybo lagu isticmaalayo kaarista rasmiga ah oo lagu isticmaalo tusaale ahaan baardinta iyo luuqada. Si aan u baarayno in tusaalaha ku xiran ee geneeral-ku-xiran ay si siman u shaqeeyaan, waxaan soo jeedinayaa laba tusaale oo cusub oo dhaqan oo ah cashuurta ku xiran. Labada model waxay isticmaalaan shabakado neurada ah oo soo socda si aan uga dhigo malaabo xorriyad ah, laakiin waxay ku kala duwan yihiin sida loo dhiso geedaha: mid wuxuu dhisaa geedka hoose iyo tan kale hoose, kaas oo si weyn u beddela dhibaatada qiimeynta ee ay cilmiga u jeedo. Waxaannu qiimeynaynaa labada tusaale ee ku qoran saddex luuqadood oo kala duduwan: Ingiriis, Carabi, Jabanees. Inta lagu jiro labada model oo geneeral ah waxay bedeshaa horumarinta baaritaanka si takoorista ah, waxay si badan uga shaqeeyaan noocyada luqada LSTM ee aan la kooban. Si la yaab leh waxaa la soo jeedaa kala duwanaanshaha ku saabsan amarrada dhismaha ama tusaale ahaan baaritaanka ama luuqada.</abstract_so>
+      <abstract_sv>Återkommande neurala nätverksgrammatiker genererar meningar med frasstruktur syntax och presterar mycket bra på både tolkning och språkmodellering. För att undersöka om generativa beroendemodeller är lika effektiva föreslår vi två nya generativa beroendemodeller. Båda modellerna använder återkommande neurala nät för att undvika att göra uttryckliga oberoende antaganden, men de skiljer sig åt i den ordning som används för att bygga träden: den ena bygger trädet nedifrån och upp och den andra uppifrån och ner, vilket förändrar skattningsproblemet för eleven. Vi utvärderar de två modellerna på tre typologiskt olika språk: engelska, arabiska och japanska. Även om båda generativa modeller förbättrar tolkningens prestanda jämfört med en diskriminerande baslinje, är de betydligt mindre effektiva än icke-syntaktiska LSTM språkmodeller. Överraskande nog observeras liten skillnad mellan byggorder för antingen tolkning eller språkmodellering.</abstract_sv>
+      <abstract_ta>தற்போதும் புதிய பிணைய பிணையத்தின் குறிப்புகள் சொற்றொடர்- structure syntax பயன்படுத்தி வாக்கியங்களை உருவாக்குகிறது மற்றும் பாடல பொதுவான சார்பு மாதிரிகள் அதே போல் வெளிப்படையாக இருக்குமா என்று கண்டறிய, சார்ந்த சார்ந்த ஒத்திசைவு வரிசையின இரண்டு மாதிரிகளும் திரும்ப புதிய புதிய வலைப்பின்னல்களை பயன்படுத்தி வெளிப்படையான சுதந்திரத்தை உருவாக்குவதற்கு தவிர்க்க, ஆனால் அவை வித்தியாசமாக இருக்கிறது, மரங்களை உர மூன்று வழக்கமான வித்தியாசமான மொழிகளில் இரண்டு மாதிரிகளை மதிப்பிடுகிறோம்: ஆங்கிலம், அரேபி, ஜப்பானிய இரண்டு பொதுவான மாதிரிகளும் ஒரு வித்தியாசமான அடிப்படைக்கோட்டில் பாடல் செயல்பாட்டை மேம்படுத்தும் போது, அவை முக்கியமாக ஒத்த ஆச்சரியமாக, கட்டும் கட்டளைகளுக்கிடையில் உள்ள சிறிய வேறுபாடு பாடல் அல்லது மொழி மாதிரியாக்கத்திற்கா</abstract_ta>
+      <abstract_ur>دوبارہ نیورال نیٹ ورک گرامر فریز-ساختر سینٹکس کے مطابق عبارت پیدا کر رہے ہیں اور دونوں پارسینگ اور زبان موڈلینگ پر بہت اچھی طرح عمل کرتے ہیں. ان کے لئے تحقیق کرنا چاہیے کہ جنرائٹیوں اعتمادی موڈل برابر اثرات ہیں، ہم دو نو جنرائٹیوں موڈل ڈال دیتے ہیں۔ دونوں مدلکوں دوبارہ نیورال نیٹوں کو استعمال کرتے ہیں کہ صریح آزادی حدس سے منع کریں، لیکن وہ درختوں کو بنانے کے لئے استعمال کرنے کے لئے اختلاف کرتے ہیں: ایک درخت کے نیچے اوپر اور دوسرے نیچے نیچے نیٹوں کو بناتا ہے، جو علم والے کے سامنے مواجہ ہونے کے مسئلہ کو عمیق طور پر تغییر دیتا ہے. ہم نے تین ٹیپٹولوژیکی مختلف زبانوں پر دو نمڈل کا ارزش کیا: انگلیسی، عربی اور جاپانی. حالانکہ دونوں جنرائیٹ موڈلز ایک جدائی بیس لین پر پارسینٹ کی فعالیت کو بہتر کر رہے ہیں، وہ غیر سینٹکتیک LSTM زبان موڈلز سے بہت کم فائدہ ہیں۔ تعجب ہے کہ ساختاری دستور کے درمیان بہت کم تفاوت ہے یا پارسینگ یا زبان موڈلینگ کے لئے.</abstract_ur>
+      <abstract_uz>@ info: whatsthis Umumiy ishlatuvchi modellari shunday ishlayotganligini aniqlash uchun biz ishlatadigan ikkita yangi generativ modellarini tasavvur qilamiz. Ikkita modellar davom etilgan tarmoq tarmoqlaridan foydalanadi, lekin ular daraxtni quyish uchun ajratilgan tarmoqni ajratib turadi: biri daraxtni pastga va boshqa yuqoriga yaratadi, bu ta'lim qo'yilgan qiymatni o'zgartiradi. Biz ikkita modelni o'qiymatimiz, har xil turli tillarda: Ingliz, араб, Япония. Bu ikkita generativ modellar taqdimlik asboblar tarkibida parsing natijasini bajaradi. Ular LSTM tili modellaridan juda katta ishlaydi. Aniqlik, quyidagi buyruqlar orasidagi bir ajratish yoki tillar modeli uchun ko'ra koʻrinadi.</abstract_uz>
+      <abstract_vi>Các tạp chí mạng thần kinh liên tục tạo ra câu, sử dụng cấu trúc cụm từ, và thực hiện rất tốt trong việc phân tách và tạo mẫu ngôn ngữ. Để tìm hiểu xem các mô hình phụ thuộc tạo hóa có hiệu quả tương tự không, chúng tôi đề xuất hai mô hình gây tác động mới của cú chạm phụ thuộc. Cả hai mẫu dùng lưới thần kinh thường xuyên để tránh những giả định độc lập rõ ràng, nhưng chúng khác nhau trong trật tự được dùng để xây dựng cây: một người xây dựng cây ở trên và một người ở trên xuống, điều đó thay đổi sâu sắc vấn đề ước tính đối với học sinh. Chúng tôi đánh giá hai mẫu về ba loại ngôn ngữ khác nhau: Anh, Á Rập và Nhật. Trong khi cả hai mô- đun gây tác động cải thiện hiệu quả hơn so với mô hình ngôn ngữ LSD không cú pháp. Ngạc nhiên là, có rất ít sự khác biệt giữa các mệnh lệnh xây dựng cho việc phân tách hoặc tạo mẫu ngôn ngữ.</abstract_vi>
+      <abstract_bg>Повтарящите се граматики на невронната мрежа генерират изречения, използвайки синтаксиса на фраза-структура и се представят много добре както при анализирането, така и при езиковото моделиране. За да проучим дали моделите на генеративна зависимост са еднакво ефективни, предлагаме два нови генеративни модела на синтаксис на зависимост. И двата модела използват повтарящи се невронни мрежи, за да избегнат изрични предположения за независимост, но те се различават по реда, използван за изграждане на дърветата: единият изгражда дървото отдолу нагоре, а другият отгоре надолу, което дълбоко променя проблема с оценката, пред който е изправен обучаемият. Ние оценяваме двата модела на три типологично различни езика: английски, арабски и японски. Макар и двата генеративни модела да подобряват ефективността на анализа на дискриминационна база, те са значително по-малко ефективни от несинтактичните езикови модели. Изненадващо, малка разлика между поръчките за строеж се наблюдава както при анализиране, така и при езиково моделиране.</abstract_bg>
+      <abstract_hr>Povratni gramari neuralne mreže stvaraju rečenice koristeći sintaks fraze strukture i vrlo dobro izvode na analiziranju i jezičkom modelima. Da bi istražili da li su modeli generativne zavisnosti slično učinkoviti, predlažemo dva nove generativne modele syntakse ovisnosti. Obje modele koriste rekonstruirane neuralne mreže kako bi se izbjegli izražavati jasne pretpostavke nezavisnosti, ali se razlikuju u redovima koji se koristi za konstrukciju drveta: jedan izgradi drvo dolje i drugi vrh dolje, koji duboko mijenja problem procjene s učenikom. Procjenjujemo dva modela na tri tipološki različita jezika: engleski, arapski i japanski. Iako su obje generativne modele poboljšale učinkovitost analize na diskriminacijskom početku, značajno su manje učinkoviti od neosintaktičnih jezičkih modela LSTM-a. Iznenađujuće, malo razlike između zapovijedi o konstrukciji primjećuje se za analizu ili jezičke modele.</abstract_hr>
+      <abstract_de>Wiederholte neuronale Netzwerkgrammatiken generieren Sätze mit Phrasenstruktur-Syntax und funktionieren sowohl beim Parsen als auch bei der Sprachmodellierung sehr gut. Um zu untersuchen, ob generative Abhängigkeitsmodelle ähnlich effektiv sind, schlagen wir zwei neue generative Abhängigkeitsmodelle vor. Beide Modelle verwenden wiederkehrende neuronale Netze, um explizite Unabhängigkeitsannahmen zu vermeiden, unterscheiden sich jedoch in der Reihenfolge, in der die Bäume konstruiert werden: Das eine baut den Baum von unten nach oben und das andere von oben nach unten, was das Schätzproblem des Lernenden grundlegend verändert. Wir bewerten die beiden Modelle anhand von drei typologisch unterschiedlichen Sprachen: Englisch, Arabisch und Japanisch. Während beide generativen Modelle die Parsing-Leistung über eine diskriminierende Basislinie verbessern, sind sie deutlich weniger effektiv als nicht-syntaktische LSTM-Sprachmodelle. Überraschenderweise werden bei Parsing oder Sprachmodellierung nur geringe Unterschiede zwischen den Bauaufträgen beobachtet.</abstract_de>
+      <abstract_da>Tilbagevendende neurale netværksgrammater genererer sætninger ved hjælp af sætningsstruktur syntaks og fungerer meget godt på både parsing og sprogmodellering. For at undersøge, om generative afhængighedsmodeller er tilsvarende effektive, foreslår vi to nye generative modeller for afhængighedssyntaks. Begge modeller bruger tilbagevendende neurale net for at undgå at gøre eksplicitte uafhængighedsantagelser, men de adskiller sig i den rækkefølge, der anvendes til at konstruere træerne: den ene bygger træet nedefra og op og den anden top-down, hvilket dybt ændrer det estimeringsproblem, som eleven står over for. Vi evaluerer de to modeller på tre typologisk forskellige sprog: engelsk, arabisk og japansk. Mens begge generative modeller forbedrer fortolkningens ydeevne i forhold til en diskriminerende baseline, er de betydeligt mindre effektive end ikke-syntaktiske LSTM sprogmodeller. Overraskende nok observeres der kun lidt forskel mellem byggeordrerne for enten parsing eller sprogmodellering.</abstract_da>
+      <abstract_nl>Recurrente neuronale netwerkgrammatica's genereren zinnen met behulp van frase-structure syntaxis en presteren zeer goed op zowel parsing als taalmodellering. Om te onderzoeken of generatieve afhankelijkheidsmodellen vergelijkbaar effectief zijn, stellen we twee nieuwe generatieve modellen voor afhankelijkheidssyntaxis voor. Beide modellen maken gebruik van terugkerende neurale netten om expliciete onafhankelijkheidsveronderstellingen te vermijden, maar ze verschillen in de volgorde die gebruikt wordt om de bomen te bouwen: de ene bouwt de boom bottom-up en de andere top-down, wat het schattingsprobleem van de leerling ingrijpend verandert. We evalueren de twee modellen op drie typologisch verschillende talen: Engels, Arabisch en Japans. Hoewel beide generatieve modellen de parseringsprestaties over een discriminerende baseline verbeteren, zijn ze aanzienlijk minder effectief dan niet-syntactische LSTM taalmodellen. Verrassend genoeg wordt er weinig verschil waargenomen tussen de bouworders voor parsing of taalmodellering.</abstract_nl>
+      <abstract_sw>Watumiaji wa mtandao wa neura unaoendelea wanatengeneza sentensi kwa kutumia mfumo wa mifumo na kutekeleza vizuri kwenye mifano ya wimbo na lugha. Kuchunguza kama modeli za kutegemea kwa ajili ya jenerali zinaweza kuwa na ufanisi, tunapendekeza mifano miwili mpya ya mfumo wa usajili wa kujitegemea. Viwili viwili vinatumia mtandao wa neura unaoendelea ili kuepuka kudhania uhuru wa wazi, lakini wanatofautiana na amri ya kujenga mti: moja hujenga mti wa chini na mwingine wa juu, ambalo hubadilisha tatizo la kadirino lililokabiliwa na mwanafunzi. Tunatathmini mifano miwili kwenye lugha tatu kwa kawaida tofauti: Kiingereza, Kiarabu na Kijapani. Wakati mifano yote ya kizazi inaboresha utendaji wa wimbo wa wimbo wa msingi wa kibaguzi, wanakuwa na ufanisi kidogo kuliko mifano ya lugha ya LSTM isiyo na ushirikiano. Inashangaza, tofauti kidogo kati ya amri za ujenzi huonekana kwa ajili ya kuuza au kutengeneza mifano ya lugha.</abstract_sw>
+      <abstract_ko>귀속신경 네트워크 문법은 단어 구조 문법으로 문장을 생성하는데 문법 분석과 언어 모델링에 있어 모두 양호하다.생성 의존 모델이 똑같이 효과가 있는지 연구하기 위해 우리는 두 가지 새로운 생성 의존 문법 모델을 제시했다.이 두 모델 모두 귀속신경 네트워크를 사용하여 명확한 독립성 가설을 피하지만 나무를 구축하는 순서가 다르다. 하나는 아래에서 위로 나무를 구축하는 것이고 다른 하나는 위에서 아래로 나무를 구축하는 것이다. 이것은 학습자가 직면하는 평가 문제를 심각하게 변화시켰다.우리는 세 가지 유형의 서로 다른 언어에서 이 두 가지 모델, 즉 영어, 아랍어, 일본어를 평가한다.이 두 가지 생성 모델 모두 구분 기선보다 해석 성능을 높였지만 비문법 LSTM 언어 모델보다 효율이 현저히 낮았다.놀랍게도 해석이든 언어 모델링이든 구조 순서 사이에는 차이가 거의 없다.</abstract_ko>
+      <abstract_fa>برنامه‌های شبکه عصبی دوباره با استفاده از ویژه‌سازی عبارت تولید می‌کنند و در مورد ویژه‌سازی و مدل‌سازی زبان خیلی خوب انجام می‌دهند. برای تحقیق کردن که آیا مدل بستگی نسبت به موجود موثر هستند، ما دو مدل جدید نسبت به نسبت بستگی را پیشنهاد می کنیم. هر دو مدل از شبکه‌های عصبی دوباره استفاده می‌کند تا از فرض کردن فرضیه‌های استفاده از استفاده نکنند، ولی آنها در فرض ساختن درختان تفاوت می‌کنند: یک درخت پایین و پایین پایین را ساخته می‌کند، که مشکل ارزیابی که توسط دانش آموزش روبرو می‌شود عمیقا تغییر می‌دهد. ما دو مدل را در سه زبان نوع‌شناسی متفاوت ارزیابی می‌کنیم: انگلیسی، عربی و ژاپنی. در حالی که هر دو مدل ژنراتیک عملکرد تجزیه کردن روی یک خط پایین جدایی بهتر می‌شود، آنها خیلی کمتر از مدل‌های زبان LSTM غیر سنتاکتیک موثر هستند. تعجب کننده است که تفاوت کوچک بین دستورات ساختمون برای شناسایی یا مدل زبانی مشاهده می شود.</abstract_fa>
+      <abstract_tr>Hata bellenilýär Döredijili bağlılık nusgalarynyň meňzeş şekilde etkisi bardygyny keşfetmek üçin, biz iki täze döredijili baglanylyk syntaksiniň täze nusgasyny teklif edip görýäris. Iki modeller ýene-täsirli neural şebekelerini açıklamak üçin üýtgetmek üçin ulanýarlar, ýöne agaçlary in şamak üçin üýtgeşirilýärler: biri agaç aşagyny we üstüni aşagyny inşaýar. Bu adam öwreniň gözlenen hasaplamada meseläni derinden üýtgedir. Biz iki nusga üç tipologik görnüşli dilde deňleýäris: Iňlisçe, Arapça we Japonça. Iki döredijili nusgalar diskriminçy baserden çykyş etmegini gowlaşdyryp bilýärler. Olar sintaktik LSTM dil nusgalaryndan has iň az täsirli. Gurama bilen inşaat düzenleriniñ arasyndaky kynçylyk üýtgeşigi ýa-da dil modellendirmesi üçin gözlenýär.</abstract_tr>
+      <abstract_id>Recurrent neural network grammars generate sentences using phrase-structure syntax and perform very well on both parsing and language modeling.  Untuk mengeksplorasi apakah model dependensi generatif sama-sama efektif, kami mengusulkan dua model dependensi generatif baru sintaks. Kedua model menggunakan jaringan saraf berkurang untuk menghindari membuat asumsi kemerdekaan eksplicit, tetapi mereka berbeda dalam urutan yang digunakan untuk membangun pohon: satu membangun pohon bawah-atas dan yang lain atas-bawah, yang mengubah secara mendalam masalah perhitungan yang dihadapkan oleh pelajar. Kami mengevaluasi dua model dalam tiga bahasa tipologi yang berbeda: Bahasa Inggris, Arab, dan Jepang. While both generative models improve parsing performance over a discriminative baseline, they are significantly less effective than non-syntactic LSTM language models.  Mengejutkan, sedikit perbedaan antara perintah konstruksi diperhatikan baik untuk menghurai atau model bahasa.</abstract_id>
+      <abstract_sq>Gramatikat e rrjetit neural të përsëritur gjenerojnë fraza duke përdorur sintaksin e frazës-strukturës dhe funksionojnë shumë mirë në analizimin dhe modelimin e gjuhës. Për të eksploruar nëse modelet e varësisë gjenerative janë njëlloj të efektshëm, ne propozojmë dy modele të reja gjenerative të sintaksit të varësisë. Të dy modelet përdorin rrjete neurale të përsëritura për të shmangur bërjen e supozimeve të shprehura të pavarësisë, por ato ndryshojnë në rendin e përdorur për të ndërtuar pemët: një ndërton pemën poshtë lart dhe tjetrin poshtë lart, gjë që ndryshon thellësisht problem in e vlerësimit që përballet mësuesi. Ne vlerësojmë dy modelet në tre gjuhë tipologjikisht të ndryshme: anglisht, arabisht dhe japonez. Ndërsa të dy modelet gjenerative përmirësojnë analizimin e performancës lidhur me një bazë diskriminuese, ato janë më pak efektive se modelet e gjuhës LSTM jo sintaktike. Megjithatë, dallimi i vogël midis urdhërave të ndërtimit është vëzhguar për analizimin ose modelimin gjuhësor.</abstract_sq>
+      <abstract_am>Recurrent neural network grammars generate sentences using phrase-structure syntax and perform very well on both parsing and language modeling.  አዲስ አዲስ አዲስ የፍላጎት ተሟጋቾች የሲንካስር ምሳሌዎች መሆኑን ለመመርመር እናሳውቃለን፡፡ ሁለቱም ሞላጆች የነፃነትን አሳብ ለመግለጥ የሚቆጠሩ የደዌብ መረብ ይጠይቃሉ፤ ነገር ግን ዛፎችን ለመሥራት በተለያዩ ይለያሉ፤ አንዱ የዛፉን መሠረትና ሁለተኛውን በላይ ይሠራል፣ ይህም በተማሪው የተቃውሞ ጉዳይ ይለውጣል፡፡ በሦስት በተለያዩ ቋንቋዎች ላይ ሁለቱን ምሳሌዎች እናረጋግጣለን፤ እንግሊዝኛ፣ ዐረብኛ እና ጃፓንኛ፡፡ ሁለቱም የዘረኝነት ሞዴሎች በተለያየ ብሔራዊ ደረጃዎች ላይ የፓርቲውን አካባቢ ሲያሳድጉ፣ ከLSTM ቋንቋ ምሳሌዎች የበለጠ ጥያቄ በጣም ጥቂት ናቸው፡፡ በማስደንቀቅ፣ የግንኙነቱ ትእዛዝ መካከለኛ ትንሽ ልዩነት ማኅበረሰብ ወይም ቋንቋ ምሳሌ ማሳየት ነው፡፡</abstract_am>
+      <abstract_hy>Նյարդային ցանցի գրամագրությունները ստեղծում են նախադասություններ՝ օգտագործելով արտահայտության կառուցվածքի սինտաքսը և շատ լավ աշխատում են վերլուծության և լեզվի մոդելավորման վրա: Որպեսզի ուսումնասիրենք, թե արդյոք սերունդային կախվածության մոդելները նույնքան արդյունավետ են, մենք առաջարկում ենք կախվածության սինտաքսի երկու նոր սերունդային մոդել: Երկու մոդելները օգտագործում են կրկնօրինակ նյարդային ցանցեր, որպեսզի խուսափելի անկախության ենթադրություններ չկատարեն, բայց դրանք տարբերվում են ծառերի կառուցվածքի համակարգում. մեկը կառուցում է ծառը ներքև և մյուսը ներքև, ինչը խորապես փոխում է ուսանողի հանդիպման գն Մենք գնահատում ենք երկու մոդելները երեք տիպոլոգիապես տարբեր լեզուներով՝ անգլերեն, արաբերեն և ճապոներեն: Մինչդեռ երկու սերունդների մոդելները բարելավում են խտրականության հարաբերությունը, դրանք ավելի քիչ արդյունավետ են, քան ոչ սինտակտիկ LSMT լեզվի մոդելները: Զարմանալի է, որ կառուցվածքի հրամանների միջև փոքր տարբերություն է հետևում կամ վերլուծության, կամ լեզվի մոդելավորման համար:</abstract_hy>
+      <abstract_af>Herhaalde neuralnetwerk gramme genereer setnings gebruik frase- struktuur sintaks en uitvoer baie goed op beide verwerking en taal modeling. Om te ondersoek of genereerbare afhanklikheidmodele gelyk effektief is, voorstel ons twee nuwe genereerbare modele van afhanklikheidsintaks. Beide modele gebruik herhaalde neurale netwerke om uitbreek te maak eksplisiese onveiligheid assumpsies, maar hulle verskil in die volgorde wat gebruik word om die bome te konstrukteer: een bou die boom onderste en die ander bo-onderste, wat profunde verander die estimatie probleme wat deur die leerder aangesig is. Ons evalueer die twee modele op drie tipologiese verskillende tale: Engels, Arabiese en Japanse. Alhoewel beide genereerde modele verbeter die verwerking van prestasie oor 'n diskriminasiewe basislien, is hulle betekenlik minder effektief as nie-sintaktieke LSTM taal modele. Verskil tussen die konstruksiebevele is onderwerp vir verwerking of taal modellering.</abstract_af>
+      <abstract_bn>বর্তমান নিউরেল নেটওয়ার্ক গ্রামার ব্যবহার করে শব্দ-কাঠামো সিন্ট্যাক্স ব্যবহার করে বাক্য সৃষ্টি করে এবং পার্সিং এবং ভাষা  জেনারেটিভ নির্ভরশীল মডেল একই সাথে কার্যকর কিনা, আমরা নির্ভর সিন্ট্যাক্সের দুই নতুন জেনারেটিভ মডেল প্রস্তাব করি। Both models use recurrent neural nets to avoid making explicit independence assumptions, but they differ in the order used to construct the trees: one builds the tree bottom-up and the other top-down, which profoundly changes the estimation problem faced by the learner.  আমরা তিন ভিন্ন ভিন্ন ভাষায় এই দুটি মডেলের মূল্য দিচ্ছি: ইংরেজী, আরবী এবং জাপানীয়। যদিও উভয় জেনারেটিভ মডেল একটি বৈষম্যিক ভাষায় পার্সিং প্রদর্শনের প্রভাব উন্নত করে, তারা গুরুত্বপূর্ণ কার্যকর এলসিএম ভাষার মডেলের বিস্ময়কর, নির্মাণ নির্মাণ নির্দেশের মধ্যে কিছুটা পার্জিং অথবা ভাষা মডেলিং দেখা যাচ্ছে।</abstract_bn>
+      <abstract_az>Tekrar nöral ağ grammaları fərz-strukturası sintaksi vasitəsilə cümlələri yaradır və dil modellərində də çox yaxşı işlər edir. Generativ bağımlılıq modellərinin eyni kimi etkin olduğunu keşfetmək üçün iki yeni generativ modellərin bağımlılıq sintaksi təklif edirik. İki modellər açıq bağımsızlıq iddialarını etmək üçün yenidən nöral ağlarını istifadə edirlər, amma ağacları in şa etmək üçün istifadə edilən müddətlərdə ixtilaf edirlər: birisi ağac aşağı və digər yuxarı aşağı inşa edir, ki öyrənənənin qarşısındakı hesab problemini dəyişdirir. Biz bu iki modeli üç tipolojik fərqli dildə değerlendiririk: İngilizce, ərəb və Japonca. Həqiqətən, hər ikisi generikat modellər diskriminasiyyətli səhifələr üzərində analizmə performansını yaxşılaşdırmaq üçün, sintaktik LSTM dili modellərindən çox daha çox etkilidir. İnşallah ki, inşaat əmrinin arasında az bir fərqli yoxdur ya analizə, ya da dil modelləri üçün gözləyir.</abstract_az>
+      <abstract_cs>Opakované gramatiky neuronových sítí generují věty pomocí syntaxe frázové struktury a velmi dobře fungují jak při parsování, tak i při modelování jazyka. Abychom zjistili, zda jsou generační závislostní modely podobně efektivní, navrhujeme dva nové generační modely syntaxe závislostí. Oba modely používají recidivující neuronové sítě, aby se vyhnuly explicitním předpokladům o nezávislosti, ale liší se pořadím použitým k konstrukci stromů: jeden buduje strom zdola nahoru a druhý shora dolů, což výrazně mění problém odhadu, kterému žák čelí. Tyto dva modely hodnotíme na třech typologicky odlišných jazycích: angličtině, arabštině a japonštině. Zatímco oba generativní modely zlepšují výkon analýzy nad diskriminační základní linií, jsou výrazně méně efektivní než nesyntaktické jazykové modely LSTM. Překvapivě je pozorován malý rozdíl mezi stavebními zakázkami buď pro parsování nebo jazykové modelování.</abstract_cs>
+      <abstract_et>Korduvad närvivõrgu grammatikad genereerivad lauseid fraasistruktuuri süntaksi abil ja toimivad väga hästi nii parsimisel kui ka keele modelleerimisel. Et uurida, kas generatiivsed sõltuvusmudelid on sarnaselt efektiivsed, pakume välja kaks uut generatiivset sõltuvussüntaksi mudelit. Mõlemad mudelid kasutavad korduvaid närvivõrke, et vältida selgesõnaliste sõltumatuse eelduste tegemist, kuid nad erinevad puude ehitamise järjekorras: üks ehitab puu alt üles ja teine ülalt alla, mis muudab põhjalikult hindamisprobleemi, millega õppija silmitsi seisab. Hindame kahte mudelit kolmes tüpoloogiliselt erinevas keeles: inglise, araabia ja jaapani keeles. Kuigi mõlemad generatiivsed mudelid parandavad parsimise jõudlust diskrimineeriva algtasemega võrreldes, on need oluliselt vähem efektiivsed kui mittesüntaktilised LSTM keelemudelid. Üllataval kombel täheldatakse ehitustellimuste vahel vähe erinevusi kas parsimise või keele modelleerimise puhul.</abstract_et>
+      <abstract_fi>Toistuvat neuroverkkogrammatikat tuottavat lauseita fraasirakenteen syntaksilla ja toimivat erittäin hyvin sekä jäsentämisessä että kielimallinnuksessa. Selvittääksemme, ovatko generatiiviset riippuvuusmallit yhtä tehokkaita, ehdotamme kahta uutta generatiivista riippuvuussuuntamallia. Molemmat mallit käyttävät toistuvia hermoverkkoja välttääkseen selkeitä itsenäisyysoletuksia, mutta ne eroavat toisistaan puiden rakentamisessa käytetyssä järjestyksessä: toinen rakentaa puun alhaalta ylös ja toinen ylhäältä alas, mikä muuttaa perusteellisesti oppijan kohtaamia arviointiongelmia. Arvioimme malleja kolmella eri kielellä: englanti, arabia ja japani. Vaikka molemmat generatiiviset mallit parantavat jäsennyssuorituskykyä diskriminatiiviseen lähtötilanteeseen verrattuna, ne ovat huomattavasti vähemmän tehokkaita kuin ei-syntaktiset LSTM-kielimallit. Yllättävää kyllä rakennustilausten välillä ei ole juurikaan eroa joko parsauksessa tai kielimallinnuksessa.</abstract_fi>
+      <abstract_bs>Povratni gramari neuralne mreže stvaraju rečenice koristeći sintaks fraze strukture i vrlo dobro izvode na analizu i jezičkom modelima. Da bi istražili da li su modeli generične zavisnosti slično efikasni, predlažemo dva nove generična modela sintaksa ovisnosti. Obje modele koriste rekonstruirane neuralne mreže kako bi izbjegli izražavanje jasnih pretpostavki o nezavisnosti, ali se razlikuju u redovima koji se koristi za konstrukciju drveta: jedan izgradi drvo dolje i drugi vrh dolje, koji se duboko mijenja problem procjene s kojim se suočava učenik. Procjenjujemo dva modela na tri tipološki različita jezika: engleski, arapski i japanski. Iako su obje generativne modele poboljšale analizu učinkovitosti nad diskriminacijom početnom linijom, značajno su manje učinkoviti od neosintaktičnih jezičkih modela LSTM-a. Iznenađujuće, malo razlike između zapovijedi o konstrukciji primijećuje se za analizu ili modeliranje jezika.</abstract_bs>
+      <abstract_ca>Les gramàtiques de xarxa neural recurrents generen frases utilitzant sintaxis d'estructura de frases i funcionen molt bé tant en l'analització com en la modelació de llenguatges. To explore whether generative dependency models are similarly effective, we propose two new generative models of dependency syntax.  Ambdós models utilitzen xarxes neurals recurrents per evitar fer suposicions explícites de independència, però difereixen en l'ordre que s'utilitzen per construir els arbres: un construeix l'arbre de dalt a dalt i l'altre de dalt a baix, que canvia profundament el problema d'estimació que enfronta l'aprenent. We evaluate the two models on three typologically different languages: English, Arabic, and Japanese.  While both generative models improve parsing performance over a discriminative baseline, they are significantly less effective than non-syntactic LSTM language models.  Sorprenentment, hi ha poca diferència entre les ordres de construcció, tant per l'analització com per la modelació lingüística.</abstract_ca>
+      <abstract_jv>Laptop" and "Desktop Jejaring Awak dhéwé model sing gambar kelas kuwi tambah-iwakan sing bisa nggawe gerarané supoyo carane sing beraksi supoyo, maca wong wis diparahan kanggo nguasai dar alih sing diparahan kanggo nggawe punika: wong dhéwé nggawe akeh sekang carane lan kewong sangan carane sing ngedol padha kanggo tuka nggawe kesempatan uwong. Awak dhéwé éntukno sistem sing sampeyan telu, luwih basa luwih: Inggal, Perancis, lan Japang. Saying maneh</abstract_jv>
+      <abstract_sk>Ponavljajoče se slovnice nevronskega omrežja ustvarjajo stavke z uporabo sintakse frazne strukture in delujejo zelo dobro pri razčlenjevanju in modeliranju jezika. Da bi raziskali, ali so generativni modeli odvisnosti podobno učinkoviti, predlagamo dva nova generativna modela sintakse odvisnosti. Oba modela uporabljata ponavljajoče se nevronske mreže, da bi se izognili izrecnim predpostavkam neodvisnosti, vendar se razlikujeta po vrstnem redu, ki se uporablja za gradnjo dreves: eden gradi drevo od spodaj navzgor in drugi od zgoraj navzdol, kar globoko spremeni problem ocenjevanja, s katerim se sooča učenec. Oba modela ocenjujemo na treh tipološko različnih jezikih: angleščini, arabščini in japonščini. Medtem ko oba generativna modela izboljšata učinkovitost razčlenitve v primerjavi z diskriminativno osnovno vrednostjo, sta bistveno manj učinkovita kot nesintaktična jezikovna modela LSTM. Presenetljivo je, da se med naročili gradnje opažajo majhne razlike bodisi za razčlenjevanje ali jezikovno modeliranje.</abstract_sk>
+      <abstract_ha>KCharselect unicode block name To, ka gane kowa misãlai masu inganci na jenatacce, masu amfani da kwamfyutan, za'a buƙata, misãlai biyu na daban-daban na sassautar da ɗabi'a. Dukan motsala biyu sunã yin amfani da waɗanan neural wanda ya sake zartar da shi, don ya bayyana zato mai inganci, kuma amma sun sãɓã wajen ƙayyade kamar an yi amfani da shi ga ya gina itãce: ɗayan yana samar itãciyar ƙasa da ƙasa da kuma gudan sama, da mai musanya muhimmin zartar muhimmanci mai ƙidãya da mai amfani da shi. Tuna ƙaddara misalin biyu a cikin lingui uku mai fasa-nau'i: Ingiriya, Larabci, da Japane. Waku da dukansu masu motsi biyu suka improve performance ga parse a kan wani basalin da yin ɓarna, sai su masu da muhimmi masu amfani da shi ne mafi ƙaranci daga misãlai na LSSM-da-syntactic. Ina yi mãmãki, za'a nuna difwalta kaɗan a tsakanin umarnin mazaɓa ko kuma don a sami misalin harshe.</abstract_ha>
+      <abstract_he>גרמטיקות רשת עצבית חוזרות יוצרות משפטים באמצעות סינטקס מבנה ביטויים ומפקדות היטב בין בדיקות וגם דגם שפה. כדי לחקור אם דוגמני תלויות דוריות הם יעילים באותה מידה, אנחנו מציעים שני דוגמנים דוריים חדשים של סינטקס תלויות. שני הדוגמנים משתמשים ברשתות עצביות חוזרות כדי להימנע מלעשות הנחות עצמאות ברורות, אבל הם שונים במסדר שנמשיך לבנות את העצים: אחד בונה את העץ מתחת למעלה והשני למעלה למטה אנו מעריכים את שני הדוגמנים בשלושה שפות טיפולוגיות שונות: אנגלית, ערבית, יפנית. למרות ששני דוגמנים דוריים משתפרים את ההעברה על בסיס דיסקרטיבי, הם פחות יעילים משמעותיים מאשר דוגמנים לשפה LSTM לא סינטקטיים. באופן מפתיע, הבדל הקטן בין פקודות הבנייה מתבונן עבור בדיקת או דוגמנית שפה.</abstract_he>
+      <abstract_bo>རྩིས་འཁྲུལ་གྱི་ཉེན་སྐྱེས་འབྲེལ་གྱི་རྩིས་འབྲུ་བཞིན་པའི་ཚིག་རྟགས་སྒྲུབ་ཀྱིས་ཚིག་རྟགས་བཀོད་པ་དང་སྐད་རིགས་མ་དབ ལྟ་རྟོག་ནུས་པ་ཁག་གི་རྟེན་འབྲེལ་བ་མིག Both models use recurrent neural nets to avoid making explicit independence assumptions, but they differ in the order used to construct the trees: one builds the tree bottom-up and the other top-down, which profoundly changes the estimation problem faced by the learner. ང་ཚོས་དབྱེ་རིགས་དང་། སྐད་རིགས་མི་འདྲ་བའི་མིག་གཟུགས་གཉིས་ཀྱི་རྩི་མོལ་ཞིབ་བྱས་པ་ཡིན། ཨིན་ཇིས་དང While both generative models improve parsing performance over a discriminative baseline, they are significantly less effective than non-syntactic LSTM language models. མཐའ་འཁོར་སྣང་མེད་པར། བཟོ་བརྩིགས་གྱི་བཀའ་བརྗོད་ལས་དབྱེ་སྟངས་གང་ཡང་ན་སྐད་རིགས་མ་དབྱེ་བ</abstract_bo>
+      </paper>
+    <paper id="23">
+      <title>Representation Learning and <a href="https://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> for Arc-Hybrid Parsing</title>
+      <author><first>Joseph</first><last>Le Roux</last></author>
+      <author><first>Antoine</first><last>Rozenknop</last></author>
+      <author><first>Mathieu</first><last>Lacroix</last></author>
+      <pages>238–248</pages>
+      <abstract>We present a new method for transition-based parsing where a solution is a pair made of a dependency tree and a derivation graph describing the construction of the former. From this representation we are able to derive an efficient <a href="https://en.wikipedia.org/wiki/Parsing">parsing algorithm</a> and design a <a href="https://en.wikipedia.org/wiki/Neural_network">neural network</a> that learns <a href="https://en.wikipedia.org/wiki/Vertex_(graph_theory)">vertex representations</a> and arc scores. Experimentally, although we only train via local classifiers, our approach improves over previous arc-hybrid systems and reach state-of-the-art parsing accuracy.</abstract>
+      <url hash="343c6884">K19-1023</url>
+      <doi>10.18653/v1/K19-1023</doi>
+      <bibkey>le-roux-etal-2019-representation</bibkey>
+    </paper>
+    <paper id="25">
+      <title>Improving <a href="https://en.wikipedia.org/wiki/Neural_machine_translation">Neural Machine Translation</a> by Achieving <a href="https://en.wikipedia.org/wiki/Knowledge_transfer">Knowledge Transfer</a> with Sentence Alignment Learning</title>
+      <author><first>Xuewen</first><last>Shi</last></author>
+      <author><first>Heyan</first><last>Huang</last></author>
+      <author><first>Wenguan</first><last>Wang</last></author>
+      <author><first>Ping</first><last>Jian</last></author>
+      <author><first>Yi-Kun</first><last>Tang</last></author>
+      <pages>260–270</pages>
+      <abstract>Neural Machine Translation (NMT) optimized by Maximum Likelihood Estimation (MLE) lacks the guarantee of translation adequacy. To alleviate this problem, we propose an NMT approach that heightens the adequacy in <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a> by transferring the semantic knowledge learned from bilingual sentence alignment. Specifically, we first design a discriminator that learns to estimate sentence aligning score over translation candidates, and then the learned semantic knowledge is transfered to the NMT model under an adversarial learning framework. We also propose a gated self-attention based encoder for <a href="https://en.wikipedia.org/wiki/Sentence_embedding">sentence embedding</a>. Furthermore, an N-pair training loss is introduced in our framework to aid the <a href="https://en.wikipedia.org/wiki/Discriminator">discriminator</a> in better capturing lexical evidence in translation candidates. Experimental results show that our proposed method outperforms baseline NMT models on Chinese-to-English and English-to-German translation tasks. Further analysis also indicates the detailed semantic knowledge transfered from the <a href="https://en.wikipedia.org/wiki/Discriminator">discriminator</a> to the NMT model.</abstract>
+      <url hash="fd4a5cbf">K19-1025</url>
+      <doi>10.18653/v1/K19-1025</doi>
+      <bibkey>shi-etal-2019-improving</bibkey>
+    </paper>
+    <paper id="26">
+      <title>Code-Switched Language Models Using Neural Based Synthetic Data from Parallel Sentences</title>
+      <author><first>Genta Indra</first><last>Winata</last></author>
+      <author><first>Andrea</first><last>Madotto</last></author>
+      <author><first>Chien-Sheng</first><last>Wu</last></author>
+      <author><first>Pascale</first><last>Fung</last></author>
+      <pages>271–280</pages>
+      <abstract>Training code-switched language models is difficult due to lack of data and complexity in the <a href="https://en.wikipedia.org/wiki/Grammar">grammatical structure</a>. Linguistic constraint theories have been used for decades to generate artificial code-switching sentences to cope with this issue. However, this require external word alignments or <a href="https://en.wikipedia.org/wiki/Constituent_(linguistics)">constituency parsers</a> that create erroneous results on distant languages. We propose a sequence-to-sequence model using a copy mechanism to generate code-switching data by leveraging parallel monolingual translations from a limited source of code-switching data. The <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> learns how to combine words from parallel sentences and identifies when to switch one language to the other. Moreover, it captures code-switching constraints by attending and aligning the words in inputs, without requiring any external knowledge. Based on experimental results, the <a href="https://en.wikipedia.org/wiki/Language_model">language model</a> trained with the generated sentences achieves state-of-the-art performance and improves end-to-end automatic speech recognition.</abstract>
+      <url hash="66c08e25">K19-1026</url>
+      <attachment type="supplementary-material" hash="409c588a">K19-1026.Supplementary_Material.pdf</attachment>
+      <doi>10.18653/v1/K19-1026</doi>
+      <bibkey>winata-etal-2019-code</bibkey>
+    </paper>
+    <paper id="27">
+      <title>Unsupervised Neural Machine Translation with Future Rewarding</title>
+      <author><first>Xiangpeng</first><last>Wei</last></author>
+      <author><first>Yue</first><last>Hu</last></author>
+      <author><first>Luxi</first><last>Xing</last></author>
+      <author><first>Li</first><last>Gao</last></author>
+      <pages>281–290</pages>
+      <abstract>In this paper, we alleviate the local optimality of back-translation by learning a policy (takes the form of an encoder-decoder and is defined by its parameters) with future rewarding under the reinforcement learning framework, which aims to optimize the global word predictions for unsupervised neural machine translation. To this end, we design a novel <a href="https://en.wikipedia.org/wiki/Reward_system">reward function</a> to characterize high-quality translations from two aspects : n-gram matching and semantic adequacy. The n-gram matching is defined as an alternative for the discrete BLEU metric, and the semantic adequacy is used to measure the adequacy of conveying the meaning of the source sentence to the target. During <a href="https://en.wikipedia.org/wiki/Training">training</a>, our <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> strives for earning higher rewards by learning to produce grammatically more accurate and semantically more adequate translations. Besides, a variational inference network (VIN) is proposed to constrain the corresponding sentences in two languages have the same or similar latent semantic code. On the widely used WMT’14 English-French, WMT’16 English-German and NIST Chinese-to-English benchmarks, our <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> respectively obtain 27.59/27.15, 19.65/23.42 and 22.40 BLEU points without using any labeled data, demonstrating consistent improvements over previous unsupervised NMT models.</abstract>
+      <url hash="8444e843">K19-1027</url>
+      <doi>10.18653/v1/K19-1027</doi>
+      <bibkey>wei-etal-2019-unsupervised</bibkey>
+    </paper>
+    <paper id="28">
+      <title>Automatically Extracting Challenge Sets for Non-Local Phenomena in Neural Machine Translation</title>
+      <author><first>Leshem</first><last>Choshen</last></author>
+      <author><first>Omri</first><last>Abend</last></author>
+      <pages>291–303</pages>
+      <abstract>We show that the state-of-the-art Transformer MT model is not biased towards monotonic reordering (unlike previous recurrent neural network models), but that nevertheless, long-distance dependencies remain a challenge for the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>. Since most dependencies are short-distance, common evaluation metrics will be little influenced by how well systems perform on them. We therefore propose an automatic approach for extracting challenge sets rich with long-distance dependencies, and argue that evaluation using this <a href="https://en.wikipedia.org/wiki/Methodology">methodology</a> provides a complementary perspective on system performance. To support our claim, we compile challenge sets for <a href="https://en.wikipedia.org/wiki/German_language">English-German</a> and <a href="https://en.wikipedia.org/wiki/German_language">German-English</a>, which are much larger than any previously released challenge set for MT. The extracted sets are large enough to allow reliable automatic evaluation, which makes the proposed approach a scalable and practical solution for evaluating MT performance on the long-tail of syntactic phenomena.</abstract>
+      <url hash="2410db87">K19-1028</url>
+      <attachment type="supplementary-material" hash="9ef72412">K19-1028.Supplementary_Material.pdf</attachment>
+      <doi>10.18653/v1/K19-1028</doi>
+      <bibkey>choshen-abend-2019-automatically</bibkey>
+    </paper>
+    <paper id="30">
+      <title>Improving Pre-Trained Multilingual Model with Vocabulary Expansion</title>
+      <author><first>Hai</first><last>Wang</last></author>
+      <author><first>Dian</first><last>Yu</last></author>
+      <author><first>Kai</first><last>Sun</last></author>
+      <author><first>Jianshu</first><last>Chen</last></author>
+      <author><first>Dong</first><last>Yu</last></author>
+      <pages>316–327</pages>
+      <abstract>Recently, pre-trained language models have achieved remarkable success in a broad range of natural language processing tasks. However, in multilingual setting, it is extremely resource-consuming to pre-train a deep language model over large-scale corpora for each language. Instead of exhaustively pre-training monolingual language models independently, an alternative solution is to pre-train a powerful multilingual deep language model over large-scale corpora in hundreds of languages. However, the <a href="https://en.wikipedia.org/wiki/Vocabulary_size">vocabulary size</a> for each language in such a <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> is relatively small, especially for low-resource languages. This limitation inevitably hinders the performance of these multilingual models on tasks such as <a href="https://en.wikipedia.org/wiki/Sequence_labeling">sequence labeling</a>, wherein in-depth token-level or sentence-level understanding is essential. In this paper, inspired by previous <a href="https://en.wikipedia.org/wiki/Methodology">methods</a> designed for monolingual settings, we investigate two <a href="https://en.wikipedia.org/wiki/Methodology">approaches</a> (i.e., joint mapping and mixture mapping) based on a pre-trained multilingual model BERT for addressing the out-of-vocabulary (OOV) problem on a variety of tasks, including <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part-of-speech tagging</a>, <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">named entity recognition</a>, machine translation quality estimation, and machine reading comprehension. Experimental results show that using mixture mapping is more promising. To the best of our knowledge, this is the first work that attempts to address and discuss the OOV issue in multilingual settings.</abstract>
+      <url hash="651a99e1">K19-1030</url>
+      <doi>10.18653/v1/K19-1030</doi>
+      <bibkey>wang-etal-2019-improving</bibkey>
+    </paper>
+    <paper id="31">
+      <title>On the Relation between Position Information and <a href="https://en.wikipedia.org/wiki/Sentence_length">Sentence Length</a> in Neural Machine Translation</title>
+      <author><first>Masato</first><last>Neishi</last></author>
+      <author><first>Naoki</first><last>Yoshinaga</last></author>
+      <pages>328–338</pages>
+      <abstract>Long sentences have been one of the major challenges in <a href="https://en.wikipedia.org/wiki/Neural_machine_translation">neural machine translation (NMT)</a>. Although some approaches such as the attention mechanism have partially remedied the problem, we found that the current standard NMT model, Transformer, has difficulty in translating long sentences compared to the former standard, Recurrent Neural Network (RNN)-based model. One of the key differences of these NMT models is how the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> handles position information which is essential to process sequential data. In this study, we focus on the position information type of NMT models, and hypothesize that relative position is better than absolute position. To examine the hypothesis, we propose RNN-Transformer which replaces positional encoding layer of Transformer by RNN, and then compare RNN-based model and four variants of Transformer. Experiments on ASPEC English-to-Japanese and WMT2014 English-to-German translation tasks demonstrate that relative position helps translating sentences longer than those in the training data. Further experiments on length-controlled training data reveal that absolute position actually causes <a href="https://en.wikipedia.org/wiki/Overfitting">overfitting</a> to the <a href="https://en.wikipedia.org/wiki/Sentence_(linguistics)">sentence length</a>.</abstract>
+      <url hash="3899df70">K19-1031</url>
+      <doi>10.18653/v1/K19-1031</doi>
+      <bibkey>neishi-yoshinaga-2019-relation</bibkey>
+    </paper>
+    <paper id="32">
+      <title>Word Recognition, Competition, and Activation in a Model of Visually Grounded Speech</title>
+      <author><first>William N.</first><last>Havard</last></author>
+      <author><first>Jean-Pierre</first><last>Chevrot</last></author>
+      <author><first>Laurent</first><last>Besacier</last></author>
+      <pages>339–348</pages>
+      <abstract>In this paper, we study how word-like units are represented and activated in a recurrent neural model of visually grounded speech. The <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> used in our experiments is trained to project an <a href="https://en.wikipedia.org/wiki/Image">image</a> and its spoken description in a common representation space. We show that a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent model</a> trained on spoken sentences implicitly segments its input into word-like units and reliably maps them to their correct visual referents. We introduce a methodology originating from <a href="https://en.wikipedia.org/wiki/Linguistics">linguistics</a> to analyse the representation learned by neural networks   the gating paradigm   and show that the correct representation of a word is only activated if the <a href="https://en.wikipedia.org/wiki/Neural_network">network</a> has access to first phoneme of the target word, suggesting that the <a href="https://en.wikipedia.org/wiki/Neural_network">network</a> does not rely on a global acoustic pattern. Furthermore, we find out that not all speech frames (MFCC vectors in our case) play an equal role in the final encoded representation of a given word, but that some frames have a crucial effect on it. Finally we suggest that word representation could be activated through a process of lexical competition.</abstract>
+      <url hash="125a4792">K19-1032</url>
+      <attachment type="supplementary-material" hash="4cbd29ef">K19-1032.Supplementary_Material.pdf</attachment>
+      <doi>10.18653/v1/K19-1032</doi>
+      <bibkey>havard-etal-2019-word</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/coco">COCO</pwcdataset>
+    </paper>
+    <paper id="34">
+      <title>Linguistic Analysis Improves Neural Metaphor Detection</title>
+      <author><first>Kevin</first><last>Stowe</last></author>
+      <author><first>Sarah</first><last>Moeller</last></author>
+      <author><first>Laura</first><last>Michaelis</last></author>
+      <author><first>Martha</first><last>Palmer</last></author>
+      <pages>362–371</pages>
+      <abstract>In the field of metaphor detection, <a href="https://en.wikipedia.org/wiki/Deep_learning">deep learning systems</a> are the ubiquitous and achieve strong performance on many tasks. However, due to the complicated procedures for manually identifying metaphors, the datasets available are relatively small and fraught with complications. We show that using syntactic features and lexical resources can automatically provide additional high-quality training data for metaphoric language, and this <a href="https://en.wikipedia.org/wiki/Data">data</a> can cover gaps and inconsistencies in metaphor annotation, improving state-of-the-art word-level metaphor identification. This novel application of automatically improving training data improves <a href="https://en.wikipedia.org/wiki/Statistical_classification">classification</a> across numerous tasks, and reconfirms the necessity of high-quality data for deep learning frameworks.</abstract>
+      <url hash="cfca20ce">K19-1034</url>
+      <doi>10.18653/v1/K19-1034</doi>
+      <bibkey>stowe-etal-2019-linguistic</bibkey>
+    </paper>
+    <paper id="36">
+      <title>A Dual-Attention Hierarchical Recurrent Neural Network for Dialogue Act Classification</title>
+      <author><first>Ruizhe</first><last>Li</last></author>
+      <author><first>Chenghua</first><last>Lin</last></author>
+      <author><first>Matthew</first><last>Collinson</last></author>
+      <author><first>Xiao</first><last>Li</last></author>
+      <author><first>Guanyi</first><last>Chen</last></author>
+      <pages>383–392</pages>
+      <abstract>Recognising dialogue acts (DA) is important for many natural language processing tasks such as dialogue generation and intention recognition. In this paper, we propose a dual-attention hierarchical recurrent neural network for DA classification. Our model is partially inspired by the observation that conversational utterances are normally associated with both a DA and a topic, where the former captures the social act and the latter describes the subject matter. However, such a dependency between DAs and topics has not been utilised by most existing systems for DA classification. With a novel dual task-specific attention mechanism, our model is able, for utterances, to capture information about both DAs and topics, as well as information about the interactions between them. Experimental results show that by modelling topic as an auxiliary task, our model can significantly improve DA classification, yielding better or comparable performance to the state-of-the-art method on three public datasets.</abstract>
+      <url hash="6b2634ff">K19-1036</url>
+      <doi>10.18653/v1/K19-1036</doi>
+      <bibkey>li-etal-2019-dual</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/dailydialog">DailyDialog</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/switchboard-1-corpus">Switchboard-1 Corpus</pwcdataset>
+    </paper>
+    <paper id="37">
+      <title>Mimic and Rephrase : Reflective Listening in Open-Ended Dialogue</title>
+      <author><first>Justin</first><last>Dieter</last></author>
+      <author><first>Tian</first><last>Wang</last></author>
+      <author><first>Arun Tejasvi</first><last>Chaganty</last></author>
+      <author><first>Gabor</first><last>Angeli</last></author>
+      <author><first>Angel X.</first><last>Chang</last></author>
+      <pages>393–403</pages>
+      <abstract>Reflective listeningdemonstrating that you have heard your conversational partneris key to effective <a href="https://en.wikipedia.org/wiki/Communication">communication</a>. Expert human communicators often mimic and rephrase their conversational partner, e.g., when responding to sentimental stories or to questions they do n’t know the answer to. We introduce a new task and an associated <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> wherein dialogue agents similarly mimic and rephrase a user’s request to communicate sympathy (I’m sorry to hear that) or lack of knowledge (I do not know that). We study what makes a rephrasal response good against a set of qualitative metrics. We then evaluate three models for generating responses : a syntax-aware rule-based system, a seq2seq LSTM neural models with attention (S2SA), and the same neural model augmented with a copy mechanism (S2SA+C). In a human evaluation, we find that S2SA+C and the <a href="https://en.wikipedia.org/wiki/Rule-based_system">rule-based system</a> are comparable and approach human-generated response quality. In addition, experiences with a live deployment of S2SA+C in a customer support setting suggest that this generation task is a practical contribution to real world conversational agents.</abstract>
+      <url hash="82065a5a">K19-1037</url>
+      <attachment hash="51f931cf">K19-1037.Attachment.zip</attachment>
+      <doi>10.18653/v1/K19-1037</doi>
+      <bibkey>dieter-etal-2019-mimic</bibkey>
+    </paper>
+    <paper id="40">
+      <title>Leveraging Past References for Robust Language Grounding</title>
+      <author><first>Subhro</first><last>Roy</last></author>
+      <author><first>Michael</first><last>Noseworthy</last></author>
+      <author><first>Rohan</first><last>Paul</last></author>
+      <author><first>Daehyung</first><last>Park</last></author>
+      <author><first>Nicholas</first><last>Roy</last></author>
+      <pages>430–440</pages>
+      <abstract>Grounding referring expressions to objects in an environment has traditionally been considered a one-off, ahistorical task. However, in realistic applications of grounding, multiple users will repeatedly refer to the same set of objects. As a result, past referring expressions for objects can provide strong signals for grounding subsequent <a href="https://en.wikipedia.org/wiki/Referring_expression">referring expressions</a>. We therefore reframe the <a href="https://en.wikipedia.org/wiki/Grounding_problem">grounding problem</a> from the perspective of coreference detection and propose a <a href="https://en.wikipedia.org/wiki/Neural_network">neural network</a> that detects when two expressions are referring to the same object. The <a href="https://en.wikipedia.org/wiki/Computer_network">network</a> combines information from <a href="https://en.wikipedia.org/wiki/Computer_vision">vision</a> and past referring expressions to resolve which object is being referred to. Our experiments show that detecting referring expression coreference is an effective way to ground objects described by subtle visual properties, which standard visual grounding models have difficulty capturing. We also show the ability to detect object coreference allows the grounding model to perform well even when it encounters object categories not seen in the training data.</abstract>
+      <url hash="3f58a196">K19-1040</url>
+      <attachment hash="e59468dc">K19-1040.Attachment.pdf</attachment>
+      <doi>10.18653/v1/K19-1040</doi>
+      <bibkey>roy-etal-2019-leveraging</bibkey>
+    </paper>
+    <paper id="41">
+      <title>Procedural Reasoning Networks for Understanding Multimodal Procedures</title>
+      <author><first>Mustafa Sercan</first><last>Amac</last></author>
+      <author><first>Semih</first><last>Yagcioglu</last></author>
+      <author><first>Aykut</first><last>Erdem</last></author>
+      <author><first>Erkut</first><last>Erdem</last></author>
+      <pages>441–451</pages>
+      <abstract>This paper addresses the problem of comprehending procedural commonsense knowledge. This is a challenging task as it requires identifying key entities, keeping track of their state changes, and understanding temporal and causal relations. Contrary to most of the previous work, in this study, we do not rely on strong <a href="https://en.wikipedia.org/wiki/Inductive_bias">inductive bias</a> and explore the question of how <a href="https://en.wikipedia.org/wiki/Multimodality">multimodality</a> can be exploited to provide a complementary semantic signal. Towards this end, we introduce a new entity-aware neural comprehension model augmented with external relational memory units. Our <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> learns to dynamically update entity states in relation to each other while reading the text instructions. Our experimental analysis on the visual reasoning tasks in the recently proposed RecipeQA dataset reveals that our approach improves the accuracy of the previously reported models by a large margin. Moreover, we find that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> learns effective dynamic representations of entities even though we do not use any <a href="https://en.wikipedia.org/wiki/Supervisor">supervision</a> at the level of entity states.</abstract>
+      <url hash="90d91fbf">K19-1041</url>
+      <doi>10.18653/v1/K19-1041</doi>
+      <bibkey>amac-etal-2019-procedural</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/recipeqa">RecipeQA</pwcdataset>
+    </paper>
+    <paper id="42">
+      <title>On the Limits of Learning to Actively Learn Semantic Representations</title>
+      <author><first>Omri</first><last>Koshorek</last></author>
+      <author><first>Gabriel</first><last>Stanovsky</last></author>
+      <author><first>Yichu</first><last>Zhou</last></author>
+      <author><first>Vivek</first><last>Srikumar</last></author>
+      <author><first>Jonathan</first><last>Berant</last></author>
+      <pages>452–462</pages>
+      <abstract>One of the goals of <a href="https://en.wikipedia.org/wiki/Natural-language_understanding">natural language understanding</a> is to develop <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> that map sentences into meaning representations. However, training such <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> requires expensive annotation of complex structures, which hinders their adoption. Learning to actively-learn(LTAL) is a recent paradigm for reducing the amount of labeled data by learning a policy that selects which samples should be labeled. In this work, we examine <a href="https://en.wikipedia.org/wiki/LTAL">LTAL</a> for learning semantic representations, such as QA-SRL. We show that even an oracle policy that is allowed to pick examples that maximize performance on the test set (and constitutes an upper bound on the potential of LTAL), does not substantially improve performance compared to a random policy. We investigate factors that could explain this finding and show that a distinguishing characteristic of successful applications of LTAL is the interaction between <a href="https://en.wikipedia.org/wiki/Mathematical_optimization">optimization</a> and the oracle policy selection process. In successful applications of LTAL, the examples selected by the oracle policy do not substantially depend on the <a href="https://en.wikipedia.org/wiki/Mathematical_optimization">optimization procedure</a>, while in our setup the stochastic nature of <a href="https://en.wikipedia.org/wiki/Mathematical_optimization">optimization</a> strongly affects the examples selected by the oracle. We conclude that the current applicability of LTAL for improving <a href="https://en.wikipedia.org/wiki/Data_efficiency">data efficiency</a> in learning semantic meaning representations is limited.</abstract>
+      <url hash="a5f02e26">K19-1042</url>
+      <doi>10.18653/v1/K19-1042</doi>
+      <bibkey>koshorek-etal-2019-limits</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/qa-srl">QA-SRL</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/qa-srl-bank-2-0">QA-SRL Bank 2.0</pwcdataset>
+    </paper>
+    <paper id="43">
+      <title>How Does <a href="https://en.wikipedia.org/wiki/Grammatical_gender">Grammatical Gender</a> Affect Noun Representations in Gender-Marking Languages?</title>
+      <author><first>Hila</first><last>Gonen</last></author>
+      <author><first>Yova</first><last>Kementchedjhieva</last></author>
+      <author><first>Yoav</first><last>Goldberg</last></author>
+      <pages>463–471</pages>
+      <abstract>Many <a href="https://en.wikipedia.org/wiki/Natural_language">natural languages</a> assign <a href="https://en.wikipedia.org/wiki/Grammatical_gender">grammatical gender</a> also to inanimate nouns in the language. In such <a href="https://en.wikipedia.org/wiki/Language">languages</a>, words that relate to the gender-marked nouns are inflected to agree with the noun’s gender. We show that this affects the word representations of inanimate nouns, resulting in <a href="https://en.wikipedia.org/wiki/Noun">nouns</a> with the same gender being closer to each other than nouns with different gender. While embedding debiasing methods fail to remove the effect, we demonstrate that a careful application of methods that neutralize grammatical gender signals from the words’ context when training word embeddings is effective in removing it. Fixing the grammatical gender bias yields a positive effect on the quality of the resulting <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a>, both in monolingual and cross-lingual settings. We note that successfully removing gender signals, while achievable, is not trivial to do and that a language-specific morphological analyzer, together with careful usage of it, are essential for achieving good results.</abstract>
+      <url hash="3a49459c">K19-1043</url>
+      <attachment hash="51988d78">K19-1043.Attachment.pdf</attachment>
+      <doi>10.18653/v1/K19-1043</doi>
+      <bibkey>gonen-etal-2019-grammatical</bibkey>
+      <pwccode url="https://github.com/gonenhila/grammatical_gender" additional="false">gonenhila/grammatical_gender</pwccode>
+    </paper>
+    <paper id="47">
+      <title>Detecting Frames in <a href="https://en.wikipedia.org/wiki/Headline">News Headlines</a> and Its Application to Analyzing News Framing Trends Surrounding U.S. Gun Violence<fixed-case>U</fixed-case>.<fixed-case>S</fixed-case>. Gun Violence</title>
+      <author><first>Siyi</first><last>Liu</last></author>
+      <author><first>Lei</first><last>Guo</last></author>
+      <author><first>Kate</first><last>Mays</last></author>
+      <author><first>Margrit</first><last>Betke</last></author>
+      <author><first>Derry Tanti</first><last>Wijaya</last></author>
+      <pages>504–514</pages>
+      <abstract>Different news articles about the same topic often offer a variety of perspectives : an article written about <a href="https://en.wikipedia.org/wiki/Gun_violence">gun violence</a> might emphasize <a href="https://en.wikipedia.org/wiki/Gun_control">gun control</a>, while another might promote <a href="https://en.wikipedia.org/wiki/Second_Amendment_to_the_United_States_Constitution">2nd Amendment rights</a>, and yet a third might focus on <a href="https://en.wikipedia.org/wiki/Mental_health">mental health issues</a>. In <a href="https://en.wikipedia.org/wiki/Communication_studies">communication research</a>, these different perspectives are known as <a href="https://en.wikipedia.org/wiki/Framing_(social_sciences)">frames</a>, which, when used in <a href="https://en.wikipedia.org/wiki/News_media">news media</a> will influence the opinion of their readers in multiple ways. In this paper, we present a <a href="https://en.wikipedia.org/wiki/Methodology">method</a> for effectively detecting <a href="https://en.wikipedia.org/wiki/Framing_(social_sciences)">frames</a> in <a href="https://en.wikipedia.org/wiki/Headline">news headlines</a>. Our training and performance evaluation is based on a new <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> of <a href="https://en.wikipedia.org/wiki/Headline">news headlines</a> related to the issue of <a href="https://en.wikipedia.org/wiki/Gun_violence_in_the_United_States">gun violence</a> in the United States. This Gun Violence Frame Corpus (GVFC) was curated and annotated by journalism and communication experts. Our proposed approach sets a new state-of-the-art performance for multiclass news frame detection, significantly outperforming a recent <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> by 35.9 % absolute difference in <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a>. We apply our frame detection approach in a large scale study of 88k <a href="https://en.wikipedia.org/wiki/Headline">news headlines</a> about the coverage of <a href="https://en.wikipedia.org/wiki/Gun_violence">gun violence</a> in the U.S. between 2016 and 2018.</abstract>
+      <url hash="a666a1db">K19-1047</url>
+      <doi>10.18653/v1/K19-1047</doi>
+      <bibkey>liu-etal-2019-detecting</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/gvfc">GVFC</pwcdataset>
+    </paper>
+    <paper id="49">
+      <title>Learning Dense Representations for Entity Retrieval</title>
+      <author><first>Daniel</first><last>Gillick</last></author>
+      <author><first>Sayali</first><last>Kulkarni</last></author>
+      <author><first>Larry</first><last>Lansing</last></author>
+      <author><first>Alessandro</first><last>Presta</last></author>
+      <author><first>Jason</first><last>Baldridge</last></author>
+      <author><first>Eugene</first><last>Ie</last></author>
+      <author><first>Diego</first><last>Garcia-Olano</last></author>
+      <pages>528–537</pages>
+      <abstract>We show that it is feasible to perform <a href="https://en.wikipedia.org/wiki/Entity_linking">entity linking</a> by training a dual encoder (two-tower) model that encodes mentions and entities in the same dense vector space, where candidate entities are retrieved by approximate nearest neighbor search. Unlike prior work, this setup does not rely on an alias table followed by a re-ranker, and is thus the first fully learned entity retrieval model. We show that our dual encoder, trained using only anchor-text links in <a href="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a>, outperforms discrete alias table and BM25 baselines, and is competitive with the best comparable results on the standard TACKBP-2010 dataset. In addition, <a href="https://en.wikipedia.org/wiki/Information_technology">it</a> can retrieve candidates extremely fast, and generalizes well to a new <a href="https://en.wikipedia.org/wiki/Data_set">dataset</a> derived from <a href="https://en.wikipedia.org/wiki/Wikinews">Wikinews</a>. On the modeling side, we demonstrate the dramatic value of an unsupervised negative mining algorithm for this task.</abstract>
+      <url hash="7fa8e51f">K19-1049</url>
+      <doi>10.18653/v1/K19-1049</doi>
+      <bibkey>gillick-etal-2019-learning</bibkey>
+    </paper>
+    <paper id="51">
+      <title>KnowSemLM : A Knowledge Infused Semantic Language Model<fixed-case>K</fixed-case>now<fixed-case>S</fixed-case>em<fixed-case>LM</fixed-case>: A Knowledge Infused Semantic Language Model</title>
+      <author><first>Haoruo</first><last>Peng</last></author>
+      <author><first>Qiang</first><last>Ning</last></author>
+      <author><first>Dan</first><last>Roth</last></author>
+      <pages>550–562</pages>
+      <abstract>Story understanding requires developing expectations of what events come next in text. Prior knowledge   both statistical and declarative   is essential in guiding such expectations. While existing semantic language models (SemLM) capture event co-occurrence information by modeling event sequences as <a href="https://en.wikipedia.org/wiki/Semantic_frame">semantic frames</a>, entities, and other semantic units, this paper aims at augmenting them with causal knowledge (i.e., one event is likely to lead to another). Such <a href="https://en.wikipedia.org/wiki/Knowledge">knowledge</a> is modeled at the frame and entity level, and can be obtained either statistically from text or stated declaratively. The proposed method, KnowSemLM, infuses this knowledge into a semantic LM by joint training and inference, and is shown to be effective on both the event cloze test and story / referent prediction tasks.</abstract>
+      <url hash="954ecd24">K19-1051</url>
+      <doi>10.18653/v1/K19-1051</doi>
+      <bibkey>peng-etal-2019-knowsemlm</bibkey>
+    </paper>
+    <paper id="52">
+      <title>Neural Attentive Bag-of-Entities Model for Text Classification</title>
+      <author><first>Ikuya</first><last>Yamada</last></author>
+      <author><first>Hiroyuki</first><last>Shindo</last></author>
+      <pages>563–573</pages>
+      <abstract>This study proposes a Neural Attentive Bag-of-Entities model, which is a <a href="https://en.wikipedia.org/wiki/Neural_network">neural network model</a> that performs text classification using entities in a <a href="https://en.wikipedia.org/wiki/Knowledge_base">knowledge base</a>. Entities provide unambiguous and relevant semantic signals that are beneficial for text classification. We combine simple high-recall entity detection based on a <a href="https://en.wikipedia.org/wiki/Dictionary">dictionary</a>, to detect entities in a document, with a novel neural attention mechanism that enables the model to focus on a small number of unambiguous and relevant entities. We tested the effectiveness of our <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> using two standard <a href="https://en.wikipedia.org/wiki/Text_classification">text classification datasets</a> (i.e., the 20 <a href="https://en.wikipedia.org/wiki/Usenet_newsgroup">Newsgroups</a> and R8 datasets) and a popular factoid question answering dataset based on a <a href="https://en.wikipedia.org/wiki/Quiz">trivia quiz game</a>. As a result, our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> achieved state-of-the-art results on all datasets. The source code of the proposed model is available online at https://github.com/wikipedia2vec/wikipedia2vec.</abstract>
+      <url hash="bcba0737">K19-1052</url>
+      <doi>10.18653/v1/K19-1052</doi>
+      <bibkey>yamada-shindo-2019-neural</bibkey>
+      <pwccode url="https://github.com/wikipedia2vec/wikipedia2vec" additional="true">wikipedia2vec/wikipedia2vec</pwccode>
+    </paper>
+    <paper id="55">
+      <title>MrMep : Joint Extraction of Multiple Relations and Multiple Entity Pairs Based on Triplet Attention<fixed-case>M</fixed-case>r<fixed-case>M</fixed-case>ep: Joint Extraction of Multiple Relations and Multiple Entity Pairs Based on Triplet Attention</title>
+      <author><first>Jiayu</first><last>Chen</last></author>
+      <author><first>Caixia</first><last>Yuan</last></author>
+      <author><first>Xiaojie</first><last>Wang</last></author>
+      <author><first>Ziwei</first><last>Bai</last></author>
+      <pages>593–602</pages>
+      <abstract>This paper focuses on how to extract multiple relational facts from <a href="https://en.wikipedia.org/wiki/Unstructured_data">unstructured text</a>. Neural encoder-decoder models have provided a viable new approach for jointly extracting relations and entity pairs. However, these <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> either fail to deal with entity overlapping among relational facts, or neglect to produce the whole entity pairs. In this work, we propose a novel <a href="https://en.wikipedia.org/wiki/Architecture">architecture</a> that augments the encoder and <a href="https://en.wikipedia.org/wiki/Code">decoder</a> in two elegant ways. First, we apply a binary CNN classifier for each relation, which identifies all possible relations maintained in the text, while retaining the target relation representation to aid <a href="https://en.wikipedia.org/wiki/Entity–relationship_model">entity pair recognition</a>. Second, we perform a multi-head attention over the text and a triplet attention with the target relation interacting with every token of the text to precisely produce all possible entity pairs in a sequential manner. Experiments on three benchmark datasets show that our proposed method successfully addresses the multiple relations and multiple entity pairs even with complex overlapping and significantly outperforms the state-of-the-art methods.</abstract>
+      <url hash="ec4e994e">K19-1055</url>
+      <doi>10.18653/v1/K19-1055</doi>
+      <bibkey>chen-etal-2019-mrmep</bibkey>
+    </paper>
+    <paper id="56">
+      <title>Effective Attention Modeling for Neural Relation Extraction</title>
+      <author><first>Tapas</first><last>Nayak</last></author>
+      <author><first>Hwee Tou</first><last>Ng</last></author>
+      <pages>603–612</pages>
+      <abstract>Relation extraction is the task of determining the relation between two entities in a sentence. Distantly-supervised models are popular for this <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>. However, sentences can be long and two entities can be located far from each other in a sentence. The pieces of evidence supporting the presence of a relation between two entities may not be very direct, since the entities may be connected via some indirect links such as a third entity or via <a href="https://en.wikipedia.org/wiki/Co-reference">co-reference</a>. Relation extraction in such scenarios becomes more challenging as we need to capture the long-distance interactions among the entities and other words in the sentence. Also, the words in a sentence do not contribute equally in identifying the relation between the two entities. To address this issue, we propose a novel and effective attention model which incorporates syntactic information of the sentence and a multi-factor attention mechanism. Experiments on the <a href="https://en.wikipedia.org/wiki/The_New_York_Times">New York Times corpus</a> show that our proposed <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> outperforms prior state-of-the-art models.</abstract>
+      <url hash="d92c42db">K19-1056</url>
+      <doi>10.18653/v1/K19-1056</doi>
+      <bibkey>nayak-ng-2019-effective</bibkey>
+      <pwccode url="https://github.com/nusnlp/MFA4RE" additional="false">nusnlp/MFA4RE</pwccode>
+    </paper>
+    <paper id="57">
+      <title>Exploiting the Entity Type Sequence to Benefit Event Detection</title>
+      <author><first>Yuze</first><last>Ji</last></author>
+      <author><first>Youfang</first><last>Lin</last></author>
+      <author><first>Jianwei</first><last>Gao</last></author>
+      <author><first>Huaiyu</first><last>Wan</last></author>
+      <pages>613–623</pages>
+      <abstract>Event Detection (ED) is one of the most important task in the field of <a href="https://en.wikipedia.org/wiki/Information_extraction">information extraction</a>. The goal of ED is to find triggers in sentences and classify them into different <a href="https://en.wikipedia.org/wiki/Event_(probability_theory)">event types</a>. In previous works, the information of entity types are commonly utilized to benefit event detection. However, the sequential features of entity types have not been well utilized yet in the existing ED methods. In this paper, we propose a novel ED approach which learns sequential features from word sequences and entity type sequences separately, and combines these two types of sequential features with the help of a trigger-entity interaction learning module. The experimental results demonstrate that our proposed approach outperforms the <a href="https://en.wikipedia.org/wiki/State-of-the-art">state-of-the-art methods</a>.</abstract>
+      <url hash="4ac784fe">K19-1057</url>
+      <doi>10.18653/v1/K19-1057</doi>
+      <bibkey>ji-etal-2019-exploiting</bibkey>
+    </paper>
+    <paper id="60">
+      <title>Named Entity Recognition with Partially Annotated Training Data</title>
+      <author><first>Stephen</first><last>Mayhew</last></author>
+      <author><first>Snigdha</first><last>Chaturvedi</last></author>
+      <author><first>Chen-Tse</first><last>Tsai</last></author>
+      <author><first>Dan</first><last>Roth</last></author>
+      <pages>645–655</pages>
+      <abstract>Supervised machine learning assumes the availability of fully-labeled data, but in many cases, such as low-resource languages, the only data available is partially annotated. We study the problem of Named Entity Recognition (NER) with partially annotated training data in which a fraction of the named entities are labeled, and all other tokens, entities or otherwise, are labeled as non-entity by default. In order to train on this <a href="https://en.wikipedia.org/wiki/Noise_(signal_processing)">noisy dataset</a>, we need to distinguish between the true and false negatives. To this end, we introduce a constraint-driven iterative algorithm that learns to detect false negatives in the noisy set and downweigh them, resulting in a weighted training set. With this <a href="https://en.wikipedia.org/wiki/Set_(mathematics)">set</a>, we train a weighted NER model. We evaluate our <a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a> with weighted variants of neural and non-neural NER models on data in 8 languages from several language and script families, showing strong ability to learn from partial data. Finally, to show real-world efficacy, we evaluate on a Bengali NER corpus annotated by non-speakers, outperforming the prior <a href="https://en.wikipedia.org/wiki/State_of_the_art">state-of-the-art</a> by over 5 points <a href="https://en.wikipedia.org/wiki/F-number">F1</a>.</abstract>
+      <url hash="3d93dd83">K19-1060</url>
+      <doi>10.18653/v1/K19-1060</doi>
+      <bibkey>mayhew-etal-2019-named</bibkey>
+    </paper>
+    <paper id="62">
+      <title>Deep Structured Neural Network for Event Temporal Relation Extraction</title>
+      <author><first>Rujun</first><last>Han</last></author>
+      <author><first>I-Hung</first><last>Hsu</last></author>
+      <author><first>Mu</first><last>Yang</last></author>
+      <author><first>Aram</first><last>Galstyan</last></author>
+      <author><first>Ralph</first><last>Weischedel</last></author>
+      <author><first>Nanyun</first><last>Peng</last></author>
+      <pages>666–106</pages>
+      <abstract>We propose a novel deep structured learning framework for event temporal relation extraction. The model consists of 1) a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural network (RNN)</a> to learn scoring functions for pair-wise relations, and 2) a <a href="https://en.wikipedia.org/wiki/Structured_support_vector_machine">structured support vector machine (SSVM)</a> to make joint predictions. The <a href="https://en.wikipedia.org/wiki/Neural_network">neural network</a> automatically learns representations that account for long-term contexts to provide robust features for the structured model, while the SSVM incorporates <a href="https://en.wikipedia.org/wiki/Domain_knowledge">domain knowledge</a> such as transitive closure of temporal relations as constraints to make better globally consistent decisions. By jointly training the two components, our <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> combines the benefits of both <a href="https://en.wikipedia.org/wiki/Data-driven_learning">data-driven learning</a> and knowledge exploitation. Experimental results on three high-quality event temporal relation datasets (TCR, MATRES, and TB-Dense) demonstrate that incorporated with pre-trained contextualized embeddings, the proposed model achieves significantly better performances than the state-of-the-art methods on all three datasets. We also provide thorough ablation studies to investigate our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>.</abstract>
+      <url hash="c2f1e107">K19-1062</url>
+      <doi>10.18653/v1/K19-1062</doi>
+      <bibkey>han-etal-2019-deep</bibkey>
+      <pwccode url="https://github.com/PlusLabNLP/Deep-Structured-EveEveTemp" additional="false">PlusLabNLP/Deep-Structured-EveEveTemp</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/tcr">TCR</pwcdataset>
+    </paper>
+    <paper id="68">
+      <title>Memory Graph Networks for Explainable Memory-grounded Question Answering</title>
+      <author><first>Seungwhan</first><last>Moon</last></author>
+      <author><first>Pararth</first><last>Shah</last></author>
+      <author><first>Anuj</first><last>Kumar</last></author>
+      <author><first>Rajen</first><last>Subba</last></author>
+      <pages>728–736</pages>
+      <abstract>We introduce Episodic Memory QA, the task of answering personal user questions grounded on memory graph (MG), where <a href="https://en.wikipedia.org/wiki/Episodic_memory">episodic memories</a> and related entity nodes are connected via relational edges. We create a new benchmark dataset first by generating synthetic memory graphs with simulated attributes, and by composing 100 K QA pairs for the generated MG with bootstrapped scripts. To address the unique challenges for the proposed task, we propose Memory Graph Networks (MGN), a novel extension of memory networks to enable dynamic expansion of memory slots through graph traversals, thus able to answer queries in which contexts from multiple linked episodes and external knowledge are required. We then propose the Episodic Memory QA Net with multiple module networks to effectively handle various question types. Empirical results show improvement over the QA baselines in top-k answer prediction accuracy in the proposed task. The proposed <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> also generates a graph walk path and attention vectors for each predicted answer, providing a natural way to explain its QA reasoning.</abstract>
+      <url hash="261ae358">K19-1068</url>
+      <doi>10.18653/v1/K19-1068</doi>
+      <bibkey>moon-etal-2019-memory</bibkey>
+    </paper>
+    <paper id="73">
+      <title>TILM : Neural Language Models with Evolving Topical Influence<fixed-case>TILM</fixed-case>: Neural Language Models with Evolving Topical Influence</title>
+      <author><first>Shubhra Kanti</first><last>Karmaker Santu</last></author>
+      <author><first>Kalyan</first><last>Veeramachaneni</last></author>
+      <author><first>Chengxiang</first><last>Zhai</last></author>
+      <pages>778–788</pages>
+      <abstract>Content of text data are often influenced by <a href="https://en.wikipedia.org/wiki/Context_(language_use)">contextual factors</a> which often evolve over time (e.g., content of <a href="https://en.wikipedia.org/wiki/Social_media">social media</a> are often influenced by topics covered in the major news streams). Existing <a href="https://en.wikipedia.org/wiki/Language_model">language models</a> do not consider the influence of such related evolving topics, and thus are not optimal. In this paper, we propose to incorporate such topical-influence into a <a href="https://en.wikipedia.org/wiki/Language_model">language model</a> to both improve its <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a> and enable cross-stream analysis of topical influences. Specifically, we propose a novel <a href="https://en.wikipedia.org/wiki/Language_model">language model</a> called Topical Influence Language Model (TILM), which is a novel extension of a neural language model to capture the influences on the contents in one text stream by the evolving topics in another related (or possibly same) text stream. Experimental results on six different text stream data comprised of conference paper titles show that the incorporation of evolving topical influence into a <a href="https://en.wikipedia.org/wiki/Language_model">language model</a> is beneficial and TILM outperforms multiple baselines in a challenging task of text forecasting. In addition to serving as a <a href="https://en.wikipedia.org/wiki/Language_model">language model</a>, TILM further enables interesting analysis of topical influence among multiple text streams.</abstract>
+      <url hash="9202a96c">K19-1073</url>
+      <attachment hash="34ab3136">K19-1073.Attachment.zip</attachment>
+      <doi>10.18653/v1/K19-1073</doi>
+      <bibkey>karmaker-santu-etal-2019-tilm</bibkey>
+    </paper>
+    <paper id="74">
+      <title>Pretraining-Based Natural Language Generation for Text Summarization</title>
+      <author><first>Haoyu</first><last>Zhang</last></author>
+      <author><first>Jingjing</first><last>Cai</last></author>
+      <author><first>Jianjun</first><last>Xu</last></author>
+      <author><first>Ji</first><last>Wang</last></author>
+      <pages>789–797</pages>
+      <abstract>In this paper, we propose a novel pretraining-based encoder-decoder framework, which can generate the output sequence based on the input sequence in a two-stage manner. For the <a href="https://en.wikipedia.org/wiki/Encoder">encoder</a> of our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>, we encode the input sequence into context representations using BERT. For the <a href="https://en.wikipedia.org/wiki/Codec">decoder</a>, there are two stages in our model, in the first stage, we use a Transformer-based decoder to generate a draft output sequence. In the second stage, we mask each word of the draft sequence and feed it to BERT, then by combining the input sequence and the draft representation generated by BERT, we use a Transformer-based decoder to predict the refined word for each masked position. To the best of our knowledge, our approach is the first <a href="https://en.wikipedia.org/wiki/Method_(computer_programming)">method</a> which applies the BERT into text generation tasks. As the first step in this direction, we evaluate our proposed <a href="https://en.wikipedia.org/wiki/Methodology">method</a> on the text summarization task. Experimental results show that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> achieves new <a href="https://en.wikipedia.org/wiki/State_of_the_art">state-of-the-art</a> on both CNN / Daily Mail and New York Times datasets.</abstract>
+      <url hash="37068e20">K19-1074</url>
+      <doi>10.18653/v1/K19-1074</doi>
+      <bibkey>zhang-etal-2019-pretraining</bibkey>
+      <pwccode url="" additional="true" />
+      <pwcdataset url="https://paperswithcode.com/dataset/cnn-daily-mail-1">CNN/Daily Mail</pwcdataset>
+    </paper>
+    <paper id="75">
+      <title>Goal-Embedded Dual Hierarchical Model for Task-Oriented Dialogue Generation</title>
+      <author><first>Yi-An</first><last>Lai</last></author>
+      <author><first>Arshit</first><last>Gupta</last></author>
+      <author><first>Yi</first><last>Zhang</last></author>
+      <pages>798–811</pages>
+      <abstract>Hierarchical neural networks are often used to model inherent structures within dialogues. For goal-oriented dialogues, these models miss a mechanism adhering to the goals and neglect the distinct conversational patterns between two interlocutors. In this work, we propose Goal-Embedded Dual Hierarchical Attentional Encoder-Decoder (G-DuHA) able to center around goals and capture interlocutor-level disparity while modeling goal-oriented dialogues. Experiments on dialogue generation, response generation, and human evaluations demonstrate that the proposed model successfully generates higher-quality, more diverse and goal-centric dialogues. Moreover, we apply <a href="https://en.wikipedia.org/wiki/Data_augmentation">data augmentation</a> via goal-oriented dialogue generation for task-oriented dialog systems with better performance achieved.</abstract>
+      <url hash="660a197d">K19-1075</url>
+      <attachment hash="a56086fc">K19-1075.Attachment.zip</attachment>
+      <doi>10.18653/v1/K19-1075</doi>
+      <bibkey>lai-etal-2019-goal</bibkey>
+    </paper>
+    <paper id="77">
+      <title>In Conclusion Not Repetition : Comprehensive Abstractive Summarization with Diversified Attention Based on Determinantal Point Processes</title>
+      <author><first>Lei</first><last>Li</last></author>
+      <author><first>Wei</first><last>Liu</last></author>
+      <author><first>Marina</first><last>Litvak</last></author>
+      <author><first>Natalia</first><last>Vanetik</last></author>
+      <author><first>Zuying</first><last>Huang</last></author>
+      <pages>822–832</pages>
+      <abstract>Various Seq2Seq learning models designed for <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a> were applied for abstractive summarization task recently. Despite these <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> provide high ROUGE scores, they are limited to generate comprehensive summaries with a high level of abstraction due to its degenerated <a href="https://en.wikipedia.org/wiki/Attentional_control">attention distribution</a>. We introduce Diverse Convolutional Seq2Seq Model(DivCNN Seq2Seq) using Determinantal Point Processes methods(Micro DPPs and Macro DPPs) to produce attention distribution considering both quality and diversity. Without breaking the <a href="https://en.wikipedia.org/wiki/End-to-end_principle">end to end architecture</a>, DivCNN Seq2Seq achieves a higher level of comprehensiveness compared to vanilla models and strong baselines. All the reproducible codes and datasets are available online.</abstract>
+      <url hash="e076bf61">K19-1077</url>
+      <attachment type="supplementary-material" hash="ecf727d3">K19-1077.Supplementary_Material.zip</attachment>
+      <doi>10.18653/v1/K19-1077</doi>
+      <revision id="1" href="K19-1077v1" hash="53aee35e" />
+      <revision id="2" href="K19-1077v2" date="2020-01-01" hash="e076bf61">The equation 11 should be opposite since we add this term into the loss function to minimize it not to maximize it. The code is right and this is just a erratum.</revision>
+      <bibkey>li-etal-2019-conclusion</bibkey>
+      <pwccode url="https://github.com/thinkwee/DPP_CNN_Summarization" additional="false">thinkwee/DPP_CNN_Summarization</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/bigpatent">BigPatent</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/cnn-daily-mail-1">CNN/Daily Mail</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/newsroom">NEWSROOM</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikihow">WikiHow</pwcdataset>
+    </paper>
+    <paper id="81">
+      <title>BIOfid Dataset : Publishing a German Gold Standard for Named Entity Recognition in Historical Biodiversity Literature<fixed-case>BIO</fixed-case>fid Dataset: Publishing a <fixed-case>G</fixed-case>erman Gold Standard for Named Entity Recognition in Historical Biodiversity Literature</title>
+      <author><first>Sajawel</first><last>Ahmed</last></author>
+      <author><first>Manuel</first><last>Stoeckel</last></author>
+      <author><first>Christine</first><last>Driller</last></author>
+      <author><first>Adrian</first><last>Pachzelt</last></author>
+      <author><first>Alexander</first><last>Mehler</last></author>
+      <pages>871–880</pages>
+      <abstract>The Specialized Information Service Biodiversity Research (BIOfid) has been launched to mobilize valuable biological data from printed literature hidden in German libraries for over the past 250 years. In this project, we annotate German texts converted by <a href="https://en.wikipedia.org/wiki/Optical_character_recognition">OCR</a> from historical scientific literature on the <a href="https://en.wikipedia.org/wiki/Biodiversity">biodiversity</a> of plants, birds, <a href="https://en.wikipedia.org/wiki/Moth">moths</a> and <a href="https://en.wikipedia.org/wiki/Butterfly">butterflies</a>. Our work enables the automatic extraction of biological information previously buried in the mass of papers and volumes. For this purpose, we generated <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training data</a> for the tasks of Named Entity Recognition (NER) and Taxa Recognition (TR) in biological documents. We use this <a href="https://en.wikipedia.org/wiki/Data">data</a> to train a number of leading <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning tools</a> and create a gold standard for TR in biodiversity literature. More specifically, we perform a practical analysis of our newly generated BIOfid dataset through various downstream-task evaluations and establish a new state of the art for TR with 80.23 % <a href="https://en.wikipedia.org/wiki/F-score">F-score</a>. In this sense, our paper lays the foundations for future work in the field of information extraction in biology texts.</abstract>
+      <url hash="e58ec986">K19-1081</url>
+      <attachment type="supplementary-material" hash="18ff8a37">K19-1081.Supplementary_Material.zip</attachment>
+      <doi>10.18653/v1/K19-1081</doi>
+      <bibkey>ahmed-etal-2019-biofid</bibkey>
+    </paper>
+    <paper id="83">
+      <title>Alleviating Sequence Information Loss with Data Overlapping and Prime Batch Sizes</title>
+      <author><first>Noémien</first><last>Kocher</last></author>
+      <author><first>Christian</first><last>Scuito</last></author>
+      <author><first>Lorenzo</first><last>Tarantino</last></author>
+      <author><first>Alexandros</first><last>Lazaridis</last></author>
+      <author><first>Andreas</first><last>Fischer</last></author>
+      <author><first>Claudiu</first><last>Musat</last></author>
+      <pages>890–899</pages>
+      <abstract>In sequence modeling tasks the token order matters, but this information can be partially lost due to the discretization of the sequence into data points. In this paper, we study the imbalance between the way certain token pairs are included in data points and others are not. We denote this a token order imbalance (TOI) and we link the partial sequence information loss to a diminished performance of the system as a whole, both in text and speech processing tasks. We then provide a mechanism to leverage the full token order informationAlleviated TOIby iteratively overlapping the token composition of data points. For recurrent networks, we use <a href="https://en.wikipedia.org/wiki/Prime_number">prime numbers</a> for the <a href="https://en.wikipedia.org/wiki/Batch_processing">batch size</a> to avoid <a href="https://en.wikipedia.org/wiki/Data_redundancy">redundancies</a> when building batches from overlapped data points. The proposed <a href="https://en.wikipedia.org/wiki/Methodology">method</a> achieved state of the art performance in both text and speech related tasks.</abstract>
+      <url hash="b8f78ed8">K19-1083</url>
+      <doi>10.18653/v1/K19-1083</doi>
+      <bibkey>kocher-etal-2019-alleviating</bibkey>
+      <pwccode url="https://github.com/nkcr/overlap-ml" additional="false">nkcr/overlap-ml</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/iemocap">IEMOCAP</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/penn-treebank">Penn Treebank</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikitext-103">WikiText-103</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikitext-2">WikiText-2</pwcdataset>
+    </paper>
+    <paper id="84">
+      <title>Global Autoregressive Models for Data-Efficient Sequence Learning</title>
+      <author><first>Tetiana</first><last>Parshakova</last></author>
+      <author><first>Jean-Marc</first><last>Andreoli</last></author>
+      <author><first>Marc</first><last>Dymetman</last></author>
+      <pages>900–909</pages>
+      <abstract>Standard autoregressive seq2seq models are easily trained by max-likelihood, but tend to show poor results under small-data conditions. We introduce a class of seq2seq models, GAMs (Global Autoregressive Models), which combine an autoregressive component with a log-linear component, allowing the use of global a priori features to compensate for lack of data. We train these <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a> in two steps. In the first step, we obtain an unnormalized GAM that maximizes the likelihood of the data, but is improper for fast inference or <a href="https://en.wikipedia.org/wiki/Evaluation">evaluation</a>. In the second step, we use this GAM to train (by distillation) a second <a href="https://en.wikipedia.org/wiki/Autoregressive_model">autoregressive model</a> that approximates the normalized distribution associated with the GAM, and can be used for fast inference and evaluation. Our experiments focus on language modelling under synthetic conditions and show a strong perplexity reduction of using the second <a href="https://en.wikipedia.org/wiki/Autoregressive_model">autoregressive model</a> over the standard one.<i>a priori</i> features to compensate for lack of data. We train these models in two steps. In the first step, we obtain an <i>unnormalized</i> GAM that maximizes the likelihood of the data, but is improper for fast inference or evaluation. In the second step, we use this GAM to train (by distillation) a second autoregressive model that approximates the <i>normalized</i> distribution associated with the GAM, and can be used for fast inference and evaluation. Our experiments focus on language modelling under synthetic conditions and show a strong perplexity reduction of using the second autoregressive model over the standard one.</abstract>
+      <url hash="932a38bc">K19-1084</url>
+      <attachment hash="b96df6c5">K19-1084.Attachment.pdf</attachment>
+      <attachment type="supplementary-material" hash="b96df6c5">K19-1084.Supplementary_Material.pdf</attachment>
+      <doi>10.18653/v1/K19-1084</doi>
+      <bibkey>parshakova-etal-2019-global</bibkey>
+    </paper>
+    <paper id="85">
+      <title>Learning Analogy-Preserving Sentence Embeddings for Answer Selection</title>
+      <author><first>Aïssatou</first><last>Diallo</last></author>
+      <author><first>Markus</first><last>Zopf</last></author>
+      <author><first>Johannes</first><last>Fürnkranz</last></author>
+      <pages>910–919</pages>
+      <abstract>Answer selection aims at identifying the correct answer for a given question from a set of potentially correct answers. Contrary to previous works, which typically focus on the <a href="https://en.wikipedia.org/wiki/Semantic_similarity">semantic similarity</a> between a question and its answer, our hypothesis is that question-answer pairs are often in <a href="https://en.wikipedia.org/wiki/Analogy">analogical relation</a> to each other. Using <a href="https://en.wikipedia.org/wiki/Analogy">analogical inference</a> as our use case, we propose a framework and a neural network architecture for learning dedicated sentence embeddings that preserve analogical properties in the <a href="https://en.wikipedia.org/wiki/Semantic_space">semantic space</a>. We evaluate the proposed method on benchmark datasets for answer selection and demonstrate that our sentence embeddings indeed capture analogical properties better than conventional embeddings, and that analogy-based question answering outperforms a comparable similarity-based technique.</abstract>
+      <url hash="aac114e4">K19-1085</url>
+      <doi>10.18653/v1/K19-1085</doi>
+      <bibkey>diallo-etal-2019-learning</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikiqa">WikiQA</pwcdataset>
+    </paper>
+    <paper id="86">
+      <title>A Simple and Effective Method for Injecting Word-Level Information into Character-Aware Neural Language Models</title>
+      <author><first>Yukun</first><last>Feng</last></author>
+      <author><first>Hidetaka</first><last>Kamigaito</last></author>
+      <author><first>Hiroya</first><last>Takamura</last></author>
+      <author><first>Manabu</first><last>Okumura</last></author>
+      <pages>920–928</pages>
+      <abstract>We propose a simple and effective method to inject word-level information into character-aware neural language models. Unlike previous approaches which usually inject word-level information at the input of a long short-term memory (LSTM) network, we inject it into the <a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a>. The resultant <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> can be seen as a combination of character-aware language model and simple word-level language model. Our <a href="https://en.wikipedia.org/wiki/Injection_(medicine)">injection method</a> can also be used together with previous methods. Through the experiments on 14 typologically diverse languages, we empirically show that our injection method, when used together with the previous methods, works better than the previous methods, including a gating mechanism, averaging, and concatenation of word vectors. We also provide a comprehensive comparison of these <a href="https://en.wikipedia.org/wiki/Injection_(medicine)">injection methods</a>.</abstract>
+      <url hash="9c32eb7c">K19-1086</url>
+      <doi>10.18653/v1/K19-1086</doi>
+      <bibkey>feng-etal-2019-simple</bibkey>
+    </paper>
+    <paper id="87">
+      <title>On Model Stability as a Function of Random Seed</title>
+      <author><first>Pranava</first><last>Madhyastha</last></author>
+      <author><first>Rishabh</first><last>Jain</last></author>
+      <pages>929–939</pages>
+      <abstract>In this paper, we focus on quantifying <a href="https://en.wikipedia.org/wiki/Mathematical_model">model stability</a> as a function of random seed by investigating the effects of the induced randomness on <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> performance and the robustness of the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> in general. We specifically perform a controlled study on the effect of <a href="https://en.wikipedia.org/wiki/Random_seed">random seeds</a> on the behaviour of attention, gradient-based and surrogate model based (LIME) interpretations. Our analysis suggests that <a href="https://en.wikipedia.org/wiki/Random_seed">random seeds</a> can adversely affect the consistency of models resulting in <a href="https://en.wikipedia.org/wiki/Counterfactual_conditional">counterfactual interpretations</a>. We propose a technique called Aggressive Stochastic Weight Averaging (ASWA) and an extension called Norm-filtered Aggressive Stochastic Weight Averaging (NASWA) which improves the stability of models over random seeds. With our ASWA and NASWA based optimization, we are able to improve the <a href="https://en.wikipedia.org/wiki/Robust_statistics">robustness</a> of the original <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>, on average reducing the standard deviation of the model’s performance by 72 %.</abstract>
+      <url hash="8a2c1fe2">K19-1087</url>
+      <attachment type="supplementary-material" hash="73abed49">K19-1087.Supplementary_Material.zip</attachment>
+      <attachment hash="73abed49">K19-1087.Attachment.zip</attachment>
+      <doi>10.18653/v1/K19-1087</doi>
+      <bibkey>madhyastha-jain-2019-model</bibkey>
+      <pwccode url="https://github.com/rishj97/ModelStability" additional="false">rishj97/ModelStability</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/ag-news">AG News</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/imdb-movie-reviews">IMDb Movie Reviews</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/snli">SNLI</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/sst">SST</pwcdataset>
+    </paper>
+    <paper id="88">
+      <title>Studying Generalisability across Abusive Language Detection Datasets</title>
+      <author><first>Steve Durairaj</first><last>Swamy</last></author>
+      <author><first>Anupam</first><last>Jamatia</last></author>
+      <author><first>Björn</first><last>Gambäck</last></author>
+      <pages>940–950</pages>
+      <abstract>Work on Abusive Language Detection has tackled a wide range of subtasks and domains. As a result of this, there exists a great deal of <a href="https://en.wikipedia.org/wiki/Redundancy_(information_theory)">redundancy</a> and non-generalisability between datasets. Through experiments on cross-dataset training and testing, the paper reveals that the preconceived notion of including more non-abusive samples in a dataset (to emulate reality) may have a detrimental effect on the generalisability of a <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> trained on that data. Hence a hierarchical annotation model is utilised here to reveal redundancies in existing datasets and to help reduce redundancy in future efforts.</abstract>
+      <url hash="bafcaa79">K19-1088</url>
+      <doi>10.18653/v1/K19-1088</doi>
+      <bibkey>swamy-etal-2019-studying</bibkey>
+    </paper>
+    <paper id="89">
+      <title>Reduce &amp; Attribute : Two-Step Authorship Attribution for Large-Scale Problems</title>
+      <author><first>Michael</first><last>Tschuggnall</last></author>
+      <author><first>Benjamin</first><last>Murauer</last></author>
+      <author><first>Günther</first><last>Specht</last></author>
+      <pages>951–960</pages>
+      <abstract>Authorship attribution is an active research area which has been prevalent for many decades. Nevertheless, the majority of approaches consider problem sizes of a few candidate authors only, making them difficult to apply to recent scenarios incorporating thousands of authors emerging due to the manifold means to digitally share text. In this study, we focus on such large-scale problems and propose to effectively reduce the number of candidate authors before applying common attribution techniques. By utilizing document embeddings, we show on a novel, comprehensive dataset collection that the set of candidate authors can be reduced with high <a href="https://en.wikipedia.org/wiki/Accuracy_and_precision">accuracy</a>. Moreover, we show that common authorship attribution methods substantially benefit from a preliminary reduction if thousands of authors are involved.</abstract>
+      <url hash="26117bc1">K19-1089</url>
+      <doi>10.18653/v1/K19-1089</doi>
+      <bibkey>tschuggnall-etal-2019-reduce</bibkey>
+    </paper>
+    <paper id="93">
+      <title>A Personalized Sentiment Model with Textual and Contextual Information</title>
+      <author><first>Siwen</first><last>Guo</last></author>
+      <author><first>Sviatlana</first><last>Höhn</last></author>
+      <author><first>Christoph</first><last>Schommer</last></author>
+      <pages>992–1001</pages>
+      <abstract>In this paper, we look beyond the traditional population-level sentiment modeling and consider the individuality in a person’s expressions by discovering both textual and contextual information. In particular, we construct a hierarchical neural network that leverages valuable information from a person’s past expressions, and offer a better understanding of the <a href="https://en.wikipedia.org/wiki/Sentimentality">sentiment</a> from the expresser’s perspective. Additionally, we investigate how a person’s sentiment changes over time so that recent incidents or opinions may have more effect on the person’s current sentiment than the old ones. Psychological studies have also shown that individual variation exists in how easily people change their sentiments. In order to model such traits, we develop a modified <a href="https://en.wikipedia.org/wiki/Attentional_control">attention mechanism</a> with Hawkes process applied on top of a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent network</a> for a user-specific design. Implemented with automatically labeled Twitter data, the proposed model has shown positive results employing different input formulations for representing the concerned information.</abstract>
+      <url hash="2c9348a4">K19-1093</url>
+      <attachment hash="036a838a">K19-1093.Attachment.zip</attachment>
+      <attachment type="supplementary-material" hash="d7a33241">K19-1093.Supplementary_Material.zip</attachment>
+      <doi>10.18653/v1/K19-1093</doi>
+      <bibkey>guo-etal-2019-personalized</bibkey>
+    </paper>
+    <paper id="94">
+      <title>Cluster-Gated Convolutional Neural Network for Short Text Classification</title>
+      <author><first>Haidong</first><last>Zhang</last></author>
+      <author><first>Wancheng</first><last>Ni</last></author>
+      <author><first>Meijing</first><last>Zhao</last></author>
+      <author><first>Ziqi</first><last>Lin</last></author>
+      <pages>1002–1011</pages>
+      <abstract>Text classification plays a crucial role for understanding natural language in a wide range of applications. Most existing <a href="https://en.wikipedia.org/wiki/Comparison_and_contrast_of_classification_schemes_in_linguistics_and_metadata">approaches</a> mainly focus on long text classification (e.g., <a href="https://en.wikipedia.org/wiki/Blog">blogs</a>, <a href="https://en.wikipedia.org/wiki/Document">documents</a>, paragraphs). However, they can not easily be applied to <a href="https://en.wikipedia.org/wiki/Text_(literary_theory)">short text</a> because of its sparsity and lack of context. In this paper, we propose a new model called cluster-gated convolutional neural network (CGCNN), which jointly explores word-level clustering and text classification in an end-to-end manner. Specifically, the proposed model firstly uses a bi-directional long short-term memory to learn word representations. Then, it leverages a soft clustering method to explore their semantic relation with the cluster centers, and takes <a href="https://en.wikipedia.org/wiki/Linear_map">linear transformation</a> on text representations. It develops a cluster-dependent gated convolutional layer to further control the cluster-dependent feature flows. Experimental results on five commonly used datasets show that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> outperforms state-of-the-art models.</abstract>
+      <url hash="ce185d60">K19-1094</url>
+      <doi>10.18653/v1/K19-1094</doi>
+      <bibkey>zhang-etal-2019-cluster</bibkey>
+    </paper>
+    <paper id="96">
+      <title>Predicting the Role of Political Trolls in <a href="https://en.wikipedia.org/wiki/Social_media">Social Media</a></title>
+      <author><first>Atanas</first><last>Atanasov</last></author>
+      <author><first>Gianmarco</first><last>De Francisci Morales</last></author>
+      <author><first>Preslav</first><last>Nakov</last></author>
+      <pages>1023–1034</pages>
+      <abstract>We investigate the political roles of <a href="https://en.wikipedia.org/wiki/Internet_troll">Internet trolls</a> in <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>. Political trolls, such as the ones linked to the Russian Internet Research Agency (IRA), have recently gained enormous attention for their ability to sway public opinion and even influence elections. Analysis of the online traces of trolls has shown different behavioral patterns, which target different slices of the population. However, this <a href="https://en.wikipedia.org/wiki/Analysis">analysis</a> is manual and labor-intensive, thus making it impractical as a first-response tool for newly-discovered troll farms. In this paper, we show how to automate this <a href="https://en.wikipedia.org/wiki/Analysis">analysis</a> by using <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> in a realistic setting. In particular, we show how to classify <a href="https://en.wikipedia.org/wiki/Internet_troll">trolls</a> according to their political role left, <a href="https://en.wikipedia.org/wiki/Web_feed">news feed</a>, right by using features extracted from <a href="https://en.wikipedia.org/wiki/Social_media">social media</a>, i.e., <a href="https://en.wikipedia.org/wiki/Twitter">Twitter</a>, in two scenarios : (i) in a traditional supervised learning scenario, where labels for <a href="https://en.wikipedia.org/wiki/Internet_troll">trolls</a> are available, and (ii) in a distant supervision scenario, where labels for <a href="https://en.wikipedia.org/wiki/Internet_troll">trolls</a> are not available, and we rely on more-commonly-available labels for news outlets mentioned by the trolls. Technically, we leverage the community structure and the text of the messages in the online social network of trolls represented as a <a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)">graph</a>, from which we extract several types of learned representations, i.e., <a href="https://en.wikipedia.org/wiki/Embedding">embeddings</a>, for the <a href="https://en.wikipedia.org/wiki/Internet_troll">trolls</a>. Experiments on the IRA Russian Troll dataset show that our methodology improves over the state-of-the-art in the first scenario, while providing a compelling case for the second scenario, which has not been explored in the literature thus far.</abstract>
+      <url hash="5faa5564">K19-1096</url>
+      <attachment hash="00fe9e31">K19-1096.Attachment.txt</attachment>
+      <doi>10.18653/v1/K19-1096</doi>
+      <bibkey>atanasov-etal-2019-predicting</bibkey>
+      <pwccode url="https://github.com/amatanasov/conll_political_trolls" additional="false">amatanasov/conll_political_trolls</pwccode>
+    </paper>
+    <paper id="97">
+      <title>Towards a Unified End-to-End Approach for Fully Unsupervised Cross-Lingual Sentiment Analysis</title>
+      <author><first>Yanlin</first><last>Feng</last></author>
+      <author><first>Xiaojun</first><last>Wan</last></author>
+      <pages>1035–1044</pages>
+      <abstract>Sentiment analysis in low-resource languages suffers from the lack of training data. Cross-lingual sentiment analysis (CLSA) aims to improve the performance on these <a href="https://en.wikipedia.org/wiki/Language">languages</a> by leveraging annotated data from other languages. Recent studies have shown that CLSA can be performed in a fully unsupervised manner, without exploiting either target language supervision or cross-lingual supervision. However, these methods rely heavily on unsupervised cross-lingual word embeddings (CLWE), which has been shown to have serious drawbacks on distant language pairs (e.g. English-Japanese). In this paper, we propose an end-to-end CLSA model by leveraging unlabeled data in multiple languages and multiple domains and eliminate the need for unsupervised CLWE. Our model applies to two CLSA settings : the traditional cross-lingual in-domain setting and the more challenging cross-lingual cross-domain setting. We empirically evaluate our approach on the multilingual multi-domain Amazon review dataset. Experimental results show that our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> outperforms the baselines by a large margin despite its minimal resource requirement.</abstract>
+      <url hash="a9db649b">K19-1097</url>
+      <doi>10.18653/v1/K19-1097</doi>
+      <bibkey>feng-wan-2019-towards</bibkey>
+    </paper>
+  </volume>
+  <volume id="2" ingest-date="2019-11-03">
+    <meta>
+      <booktitle>Proceedings of the Shared Task on Cross-Framework Meaning Representation Parsing at the 2019 Conference on Natural Language Learning</booktitle>
+      <url hash="1639259f">K19-2</url>
+      <editor><first>Stephan</first><last>Oepen</last></editor>
+      <editor><first>Omri</first><last>Abend</last></editor>
+      <editor><first>Jan</first><last>Hajic</last></editor>
+      <editor><first>Daniel</first><last>Hershcovich</last></editor>
+      <editor><first>Marco</first><last>Kuhlmann</last></editor>
+      <editor><first>Tim</first><last>O’Gorman</last></editor>
+      <editor><first>Nianwen</first><last>Xue</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Hong Kong</address>
+      <month>November</month>
+      <year>2019</year>
+    </meta>
+    <frontmatter>
+      <url hash="2c016060">K19-2000</url>
+      <bibkey>conll-2019-shared</bibkey>
+    </frontmatter>
+    <paper id="1">
+      <title>MRP 2019 : Cross-Framework Meaning Representation Parsing<fixed-case>MRP</fixed-case> 2019: Cross-Framework Meaning Representation Parsing</title>
+      <author><first>Stephan</first><last>Oepen</last></author>
+      <author><first>Omri</first><last>Abend</last></author>
+      <author><first>Jan</first><last>Hajic</last></author>
+      <author><first>Daniel</first><last>Hershcovich</last></author>
+      <author><first>Marco</first><last>Kuhlmann</last></author>
+      <author><first>Tim</first><last>O’Gorman</last></author>
+      <author><first>Nianwen</first><last>Xue</last></author>
+      <author><first>Jayeol</first><last>Chun</last></author>
+      <author><first>Milan</first><last>Straka</last></author>
+      <author><first>Zdenka</first><last>Uresova</last></author>
+      <pages>1–27</pages>
+      <abstract>The 2019 Shared Task at the Conference for Computational Language Learning (CoNLL) was devoted to Meaning Representation Parsing (MRP) across frameworks. Five distinct approaches to the representation of sentence meaning in the form of <a href="https://en.wikipedia.org/wiki/Directed_graph">directed graph</a> were represented in the training and evaluation data for the task, packaged in a uniform abstract graph representation and <a href="https://en.wikipedia.org/wiki/Serialization">serialization</a>. The <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a> received submissions from eighteen teams, of which five do not participate in the official ranking because they arrived after the closing deadline, made use of additional training data, or involved one of the task co-organizers. All technical information regarding the <a href="https://en.wikipedia.org/wiki/Task_(computing)">task</a>, including system submissions, official results, and links to supporting resources and software are available from the task web site at : http://mrp.nlpl.eu</abstract>
+      <url hash="334f3476">K19-2001</url>
+      <attachment hash="a11f02e8">K19-2001.Attachment.pdf</attachment>
+      <doi>10.18653/v1/K19-2001</doi>
+      <bibkey>oepen-etal-2019-mrp</bibkey>
+    </paper>
+    <paper id="3">
+      <title>The ERG at MRP 2019 : Radically Compositional Semantic Dependencies<fixed-case>ERG</fixed-case> at <fixed-case>MRP</fixed-case> 2019: Radically Compositional Semantic Dependencies</title>
+      <author><first>Stephan</first><last>Oepen</last></author>
+      <author><first>Dan</first><last>Flickinger</last></author>
+      <pages>40–44</pages>
+      <abstract>The English Resource Grammar (ERG) is a broad-coverage computational grammar of English that outputs underspecified logical-form representations of meaning in a framework dubbed English Resource Semantics (ERS). Two of the target representations in the the 2019 Shared Task on Cross-Framework Meaning Representation Parsing (MRP 2019) derive graph-based simplifications of ERS, viz. Elementary Dependency Structures (EDS) and DELPH-IN MRS Bi-Lexical Dependencies (DM). As a point of reference outside the official MRP competition, we parsed the evaluation strings using the ERG and converted the resulting meaning representations to EDS and DM. These graphs yield higher evaluation scores than the purely data-driven parsers in the actual shared task, suggesting that the general-purpose linguistic knowledge about <a href="https://en.wikipedia.org/wiki/English_grammar">English grammar</a> encoded in the ERG can add value when parsing into these meaning representations.</abstract>
+      <url hash="b3459db6">K19-2003</url>
+      <doi>10.18653/v1/K19-2003</doi>
+      <bibkey>oepen-flickinger-2019-erg</bibkey>
+    </paper>
+    <paper id="4">
+      <title>SJTU-NICT at MRP 2019 : Multi-Task Learning for End-to-End Uniform Semantic Graph Parsing<fixed-case>SJTU</fixed-case>-<fixed-case>NICT</fixed-case> at <fixed-case>MRP</fixed-case> 2019: Multi-Task Learning for End-to-End Uniform Semantic Graph Parsing</title>
+      <author><first>Zuchao</first><last>Li</last></author>
+      <author><first>Hai</first><last>Zhao</last></author>
+      <author><first>Zhuosheng</first><last>Zhang</last></author>
+      <author><first>Rui</first><last>Wang</last></author>
+      <author><first>Masao</first><last>Utiyama</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <pages>45–54</pages>
+      <abstract>This paper describes our SJTU-NICT’s system for participating in the shared task on Cross-Framework Meaning Representation Parsing (MRP) at the 2019 Conference for Computational Language Learning (CoNLL). Our <a href="https://en.wikipedia.org/wiki/System">system</a> uses a graph-based approach to model a variety of semantic graph parsing tasks. Our main contributions in the submitted <a href="https://en.wikipedia.org/wiki/System">system</a> are summarized as follows : 1. Our model is fully end-to-end and is capable of being trained only on the given training set which does not rely on any other extra training source including the companion data provided by the organizer ; 2. We extend our graph pruning algorithm to a variety of semantic graphs, solving the problem of excessive semantic graph search space ; 3. We introduce <a href="https://en.wikipedia.org/wiki/Multi-task_learning">multi-task learning</a> for multiple objectives within the same <a href="https://en.wikipedia.org/wiki/Software_framework">framework</a>. The evaluation results show that our <a href="https://en.wikipedia.org/wiki/System">system</a> achieved second place in the overall <a href="https://en.wikipedia.org/wiki/Grading_in_education">F_1 score</a> and achieved the best <a href="https://en.wikipedia.org/wiki/Grading_in_education">F_1 score</a> on the DM framework.<tex-math>F_1</tex-math> score and achieved the best <tex-math>F_1</tex-math> score on the DM framework.</abstract>
+      <url hash="c50a7818">K19-2004</url>
+      <doi>10.18653/v1/K19-2004</doi>
+      <bibkey>li-etal-2019-sjtu</bibkey>
+    </paper>
+    <paper id="10">
+      <title>CUHK at MRP 2019 : Transition-Based Parser with Cross-Framework Variable-Arity Resolve Action<fixed-case>CUHK</fixed-case> at <fixed-case>MRP</fixed-case> 2019: Transition-Based Parser with Cross-Framework Variable-Arity Resolve Action</title>
+      <author><first>Sunny</first><last>Lai</last></author>
+      <author><first>Chun Hei</first><last>Lo</last></author>
+      <author><first>Kwong Sak</first><last>Leung</last></author>
+      <author><first>Yee</first><last>Leung</last></author>
+      <pages>104–113</pages>
+      <abstract>This paper describes our system (RESOLVER) submitted to the CoNLL 2019 shared task on Cross-Framework Meaning Representation Parsing (MRP). Our system implements a transition-based parser with a <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">directed acyclic graph (DAG)</a> to tree preprocessor and a novel cross-framework variable-arity resolve action that generalizes over five different representations. Although we ranked low in the competition, we have shown the current limitations and potentials of including variable-arity action in MRP and concluded with directions for improvements in the future.</abstract>
+      <url hash="39a18478">K19-2010</url>
+      <attachment hash="eb8d53a8">K19-2010.Attachment.zip</attachment>
+      <doi>10.18653/v1/K19-2010</doi>
+      <bibkey>lai-etal-2019-cuhk</bibkey>
+    </paper>
+    <paper id="11">
+      <title>Hitachi at MRP 2019 : Unified Encoder-to-Biaffine Network for Cross-Framework Meaning Representation Parsing<fixed-case>MRP</fixed-case> 2019: Unified Encoder-to-Biaffine Network for Cross-Framework Meaning Representation Parsing</title>
+      <author><first>Yuta</first><last>Koreeda</last></author>
+      <author><first>Gaku</first><last>Morio</last></author>
+      <author><first>Terufumi</first><last>Morishita</last></author>
+      <author><first>Hiroaki</first><last>Ozaki</last></author>
+      <author><first>Kohsuke</first><last>Yanai</last></author>
+      <pages>114–126</pages>
+      <abstract>This paper describes the proposed system of the Hitachi team for the Cross-Framework Meaning Representation Parsing (MRP 2019) shared task. In this shared task, the participating systems were asked to predict <a href="https://en.wikipedia.org/wiki/Vertex_(graph_theory)">nodes</a>, <a href="https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms">edges</a> and their attributes for five <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a>, each with different order of abstraction from input tokens. We proposed a unified encoder-to-biaffine network for all five frameworks, which effectively incorporates a shared encoder to extract rich input features, decoder networks to generate anchorless nodes in UCCA and AMR, and biaffine networks to predict edges. Our system was ranked fifth with the macro-averaged MRP F1 score of 0.7604, and outperformed the baseline unified transition-based MRP. Furthermore, post-evaluation experiments showed that we can boost the performance of the proposed <a href="https://en.wikipedia.org/wiki/System">system</a> by incorporating <a href="https://en.wikipedia.org/wiki/Multi-task_learning">multi-task learning</a>, whereas the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> could not. These imply efficacy of incorporating the biaffine network to the shared architecture for MRP and that learning heterogeneous meaning representations at once can boost the system performance.</abstract>
+      <url hash="a040a48e">K19-2011</url>
+      <doi>10.18653/v1/K19-2011</doi>
+      <bibkey>koreeda-etal-2019-hitachi</bibkey>
+    </paper>
+    <paper id="15">
+      <title>FAL-Oslo at MRP 2019 : Garage Sale Semantic Parsing<fixed-case>ÚFAL</fixed-case>-<fixed-case>O</fixed-case>slo at <fixed-case>MRP</fixed-case> 2019: Garage Sale Semantic Parsing</title>
+      <author><first>Kira</first><last>Droganova</last></author>
+      <author><first>Andrey</first><last>Kutuzov</last></author>
+      <author><first>Nikita</first><last>Mediankin</last></author>
+      <author><first>Daniel</first><last>Zeman</last></author>
+      <pages>158–165</pages>
+      <abstract>This paper describes the FALOslo system submission to the shared task on Cross-Framework Meaning Representation Parsing (MRP, Oepen et al. The submission is based on several <a href="https://en.wikipedia.org/wiki/Parsing">third-party parsers</a>. Within the official shared task results, the submission ranked 11th out of 13 participating systems.</abstract>
+      <url hash="b353eb20">K19-2015</url>
+      <attachment hash="291225cf">K19-2015.Attachment.zip</attachment>
+      <doi>10.18653/v1/K19-2015</doi>
+      <bibkey>droganova-etal-2019-ufal</bibkey>
+    </paper>
+    <paper id="16">
+      <title>Peking at MRP 2019 : Factorization- and Composition-Based Parsing for Elementary Dependency Structures<fixed-case>MRP</fixed-case> 2019: Factorization- and Composition-Based Parsing for Elementary Dependency Structures</title>
+      <author><first>Yufei</first><last>Chen</last></author>
+      <author><first>Yajie</first><last>Ye</last></author>
+      <author><first>Weiwei</first><last>Sun</last></author>
+      <pages>166–176</pages>
+      <abstract>We design, implement and evaluate two semantic parsers, which represent factorization- and composition-based approaches respectively, for Elementary Dependency Structures (EDS) at the CoNLL 2019 Shared Task on Cross-Framework Meaning Representation Parsing. The detailed evaluation of the two <a href="https://en.wikipedia.org/wiki/Parsing">parsers</a> gives us a new perception about parsing into linguistically enriched meaning representations : current neural EDS parsers are able to reach an accuracy at the inter-annotator agreement level in the same-epoch-and-domain setup.</abstract>
+      <url hash="a8a2198e">K19-2016</url>
+      <doi>10.18653/v1/K19-2016</doi>
+      <bibkey>chen-etal-2019-peking</bibkey>
+    </paper>
+  </volume>
+</collection>

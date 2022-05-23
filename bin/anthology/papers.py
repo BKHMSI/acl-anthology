@@ -322,135 +322,135 @@ class Paper:
         return self.formatter(self.get("xml_title"), form)
 
     def get_other_titles(self, form='xml'):
-        return self.formatter(self.get("xml_title_af"), form),\
-            self.formatter(self.get("xml_title_sq"), form),\
-            self.formatter(self.get("xml_title_am"), form),\
-            self.formatter(self.get("xml_title_ar"), form),\
-            self.formatter(self.get("xml_title_hy"), form),\
-            self.formatter(self.get("xml_title_az"), form),\
-            self.formatter(self.get("xml_title_bn"), form),\
-            self.formatter(self.get("xml_title_bs"), form),\
-            self.formatter(self.get("xml_title_bg"), form),\
-            self.formatter(self.get("xml_title_ca"), form),\
-            self.formatter(self.get("xml_title_zh"), form),\
-            self.formatter(self.get("xml_title_hr"), form),\
-            self.formatter(self.get("xml_title_cs"), form),\
-            self.formatter(self.get("xml_title_da"), form),\
-            self.formatter(self.get("xml_title_nl"), form),\
-            self.formatter(self.get("xml_title_et"), form),\
-            self.formatter(self.get("xml_title_fl"), form),\
-            self.formatter(self.get("xml_title_fi"), form),\
-            self.formatter(self.get("xml_title_fr"), form),\
-            self.formatter(self.get("xml_title_ka"), form),\
-            self.formatter(self.get("xml_title_de"), form),\
-            self.formatter(self.get("xml_title_el"), form),\
-            self.formatter(self.get("xml_title_ha"), form),\
-            self.formatter(self.get("xml_title_he"), form),\
-            self.formatter(self.get("xml_title_hi"), form),\
-            self.formatter(self.get("xml_title_hu"), form),\
-            self.formatter(self.get("xml_title_is"), form),\
-            self.formatter(self.get("xml_title_id"), form),\
-            self.formatter(self.get("xml_title_ga"), form),\
-            self.formatter(self.get("xml_title_it"), form),\
-            self.formatter(self.get("xml_title_ja"), form),\
-            self.formatter(self.get("xml_title_jv"), form),\
-            self.formatter(self.get("xml_title_kk"), form),\
-            self.formatter(self.get("xml_title_ko"), form),\
-            self.formatter(self.get("xml_title_lt"), form),\
-            self.formatter(self.get("xml_title_mk"), form),\
-            self.formatter(self.get("xml_title_ms"), form),\
-            self.formatter(self.get("xml_title_ml"), form),\
-            self.formatter(self.get("xml_title_mt"), form),\
-            self.formatter(self.get("xml_title_mn"), form),\
-            self.formatter(self.get("xml_title_no"), form),\
-            self.formatter(self.get("xml_title_fa"), form),\
-            self.formatter(self.get("xml_title_pl"), form),\
-            self.formatter(self.get("xml_title_pt"), form),\
-            self.formatter(self.get("xml_title_ro"), form),\
-            self.formatter(self.get("xml_title_ru"), form),\
-            self.formatter(self.get("xml_title_sr"), form),\
-            self.formatter(self.get("xml_title_si"), form),\
-            self.formatter(self.get("xml_title_sk"), form),\
-            self.formatter(self.get("xml_title_so"), form),\
-            self.formatter(self.get("xml_title_es"), form),\
-            self.formatter(self.get("xml_title_sw"), form),\
-            self.formatter(self.get("xml_title_sv"), form),\
-            self.formatter(self.get("xml_title_ta"), form),\
-            self.formatter(self.get("xml_title_bo"), form),\
-            self.formatter(self.get("xml_title_tr"), form),\
-            self.formatter(self.get("xml_title_uk"), form),\
-            self.formatter(self.get("xml_title_ur"), form),\
-            self.formatter(self.get("xml_title_uz"), form),\
-            self.formatter(self.get("xml_title_vi"), form),\
+        return self.get("title_af"),\
+            self.get("title_sq"),\
+            self.get("title_am"),\
+            self.get("title_ar"),\
+            self.get("title_hy"),\
+            self.get("title_az"),\
+            self.get("title_bn"),\
+            self.get("title_bs"),\
+            self.get("title_bg"),\
+            self.get("title_ca"),\
+            self.get("title_zh"),\
+            self.get("title_hr"),\
+            self.get("title_cs"),\
+            self.get("title_da"),\
+            self.get("title_nl"),\
+            self.get("title_et"),\
+            self.get("title_fl"),\
+            self.get("title_fi"),\
+            self.get("title_fr"),\
+            self.get("title_ka"),\
+            self.get("title_de"),\
+            self.get("title_el"),\
+            self.get("title_ha"),\
+            self.get("title_he"),\
+            self.get("title_hi"),\
+            self.get("title_hu"),\
+            self.get("title_is"),\
+            self.get("title_id"),\
+            self.get("title_ga"),\
+            self.get("title_it"),\
+            self.get("title_ja"),\
+            self.get("title_jv"),\
+            self.get("title_kk"),\
+            self.get("title_ko"),\
+            self.get("title_lt"),\
+            self.get("title_mk"),\
+            self.get("title_ms"),\
+            self.get("title_ml"),\
+            self.get("title_mt"),\
+            self.get("title_mn"),\
+            self.get("title_no"),\
+            self.get("title_fa"),\
+            self.get("title_pl"),\
+            self.get("title_pt"),\
+            self.get("title_ro"),\
+            self.get("title_ru"),\
+            self.get("title_sr"),\
+            self.get("title_si"),\
+            self.get("title_sk"),\
+            self.get("title_so"),\
+            self.get("title_es"),\
+            self.get("title_sw"),\
+            self.get("title_sv"),\
+            self.get("title_ta"),\
+            self.get("title_bo"),\
+            self.get("title_tr"),\
+            self.get("title_uk"),\
+            self.get("title_ur"),\
+            self.get("title_uz"),\
+            self.get("title_vi")
 
     def get_abstract(self, form="xml"):
         """Returns the abstract, optionally formatting it.
 
         See `get_title()` for details.
         """
-        return self.formatter(self.get("xml_abstract"), form, allow_url=True)
+        return self.get("abstract")
 
     def get_other_abstracts(self, form='xml'):
-        return self.formatter(self.get("xml_abstract_af"), form),\
-            self.formatter(self.get("xml_abstract_sq"), form),\
-            self.formatter(self.get("xml_abstract_am"), form),\
-            self.formatter(self.get("xml_abstract_ar"), form),\
-            self.formatter(self.get("xml_abstract_hy"), form),\
-            self.formatter(self.get("xml_abstract_az"), form),\
-            self.formatter(self.get("xml_abstract_bn"), form),\
-            self.formatter(self.get("xml_abstract_bs"), form),\
-            self.formatter(self.get("xml_abstract_bg"), form),\
-            self.formatter(self.get("xml_abstract_ca"), form),\
-            self.formatter(self.get("xml_abstract_zh"), form),\
-            self.formatter(self.get("xml_abstract_hr"), form),\
-            self.formatter(self.get("xml_abstract_cs"), form),\
-            self.formatter(self.get("xml_abstract_da"), form),\
-            self.formatter(self.get("xml_abstract_nl"), form),\
-            self.formatter(self.get("xml_abstract_et"), form),\
-            self.formatter(self.get("xml_abstract_fl"), form),\
-            self.formatter(self.get("xml_abstract_fi"), form),\
-            self.formatter(self.get("xml_abstract_fr"), form),\
-            self.formatter(self.get("xml_abstract_ka"), form),\
-            self.formatter(self.get("xml_abstract_de"), form),\
-            self.formatter(self.get("xml_abstract_el"), form),\
-            self.formatter(self.get("xml_abstract_ha"), form),\
-            self.formatter(self.get("xml_abstract_he"), form),\
-            self.formatter(self.get("xml_abstract_hi"), form),\
-            self.formatter(self.get("xml_abstract_hu"), form),\
-            self.formatter(self.get("xml_abstract_is"), form),\
-            self.formatter(self.get("xml_abstract_id"), form),\
-            self.formatter(self.get("xml_abstract_ga"), form),\
-            self.formatter(self.get("xml_abstract_it"), form),\
-            self.formatter(self.get("xml_abstract_ja"), form),\
-            self.formatter(self.get("xml_abstract_jv"), form),\
-            self.formatter(self.get("xml_abstract_kk"), form),\
-            self.formatter(self.get("xml_abstract_ko"), form),\
-            self.formatter(self.get("xml_abstract_lt"), form),\
-            self.formatter(self.get("xml_abstract_mk"), form),\
-            self.formatter(self.get("xml_abstract_ms"), form),\
-            self.formatter(self.get("xml_abstract_ml"), form),\
-            self.formatter(self.get("xml_abstract_mt"), form),\
-            self.formatter(self.get("xml_abstract_mn"), form),\
-            self.formatter(self.get("xml_abstract_no"), form),\
-            self.formatter(self.get("xml_abstract_fa"), form),\
-            self.formatter(self.get("xml_abstract_pl"), form),\
-            self.formatter(self.get("xml_abstract_pt"), form),\
-            self.formatter(self.get("xml_abstract_ro"), form),\
-            self.formatter(self.get("xml_abstract_ru"), form),\
-            self.formatter(self.get("xml_abstract_sr"), form),\
-            self.formatter(self.get("xml_abstract_si"), form),\
-            self.formatter(self.get("xml_abstract_sk"), form),\
-            self.formatter(self.get("xml_abstract_so"), form),\
-            self.formatter(self.get("xml_abstract_es"), form),\
-            self.formatter(self.get("xml_abstract_sw"), form),\
-            self.formatter(self.get("xml_abstract_sv"), form),\
-            self.formatter(self.get("xml_abstract_ta"), form),\
-            self.formatter(self.get("xml_abstract_bo"), form),\
-            self.formatter(self.get("xml_abstract_tr"), form),\
-            self.formatter(self.get("xml_abstract_uk"), form),\
-            self.formatter(self.get("xml_abstract_ur"), form),\
-            self.formatter(self.get("xml_abstract_uz"), form),\
-            self.formatter(self.get("xml_abstract_vi"), form),\
+        return self.get("abstract_af"),\
+            self.get("abstract_sq"),\
+            self.get("abstract_am"),\
+            self.get("abstract_ar"),\
+            self.get("abstract_hy"),\
+            self.get("abstract_az"),\
+            self.get("abstract_bn"),\
+            self.get("abstract_bs"),\
+            self.get("abstract_bg"),\
+            self.get("abstract_ca"),\
+            self.get("abstract_zh"),\
+            self.get("abstract_hr"),\
+            self.get("abstract_cs"),\
+            self.get("abstract_da"),\
+            self.get("abstract_nl"),\
+            self.get("abstract_et"),\
+            self.get("abstract_fl"),\
+            self.get("abstract_fi"),\
+            self.get("abstract_fr"),\
+            self.get("abstract_ka"),\
+            self.get("abstract_de"),\
+            self.get("abstract_el"),\
+            self.get("abstract_ha"),\
+            self.get("abstract_he"),\
+            self.get("abstract_hi"),\
+            self.get("abstract_hu"),\
+            self.get("abstract_is"),\
+            self.get("abstract_id"),\
+            self.get("abstract_ga"),\
+            self.get("abstract_it"),\
+            self.get("abstract_ja"),\
+            self.get("abstract_jv"),\
+            self.get("abstract_kk"),\
+            self.get("abstract_ko"),\
+            self.get("abstract_lt"),\
+            self.get("abstract_mk"),\
+            self.get("abstract_ms"),\
+            self.get("abstract_ml"),\
+            self.get("abstract_mt"),\
+            self.get("abstract_mn"),\
+            self.get("abstract_no"),\
+            self.get("abstract_fa"),\
+            self.get("abstract_pl"),\
+            self.get("abstract_pt"),\
+            self.get("abstract_ro"),\
+            self.get("abstract_ru"),\
+            self.get("abstract_sr"),\
+            self.get("abstract_si"),\
+            self.get("abstract_sk"),\
+            self.get("abstract_so"),\
+            self.get("abstract_es"),\
+            self.get("abstract_sw"),\
+            self.get("abstract_sv"),\
+            self.get("abstract_ta"),\
+            self.get("abstract_bo"),\
+            self.get("abstract_tr"),\
+            self.get("abstract_uk"),\
+            self.get("abstract_ur"),\
+            self.get("abstract_uz"),\
+            self.get("abstract_vi")
 
     def get_booktitle(self, form="xml", default=""):
         """Returns the booktitle, optionally formatting it.

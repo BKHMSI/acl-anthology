@@ -37,9 +37,11 @@
       <language>eng</language>
       <bibkey>castelli-2020-eosc</bibkey>
     <title_ar>EOSC كمغير لقواعد اللعبة في أنشطة أبحاث العلوم الاجتماعية والإنسانية</title_ar>
+      <title_fr>L'EOSC change la donne dans les activités de recherche en sciences humaines</title_fr>
       <title_es>La EOSC como elemento de cambio de juego en las actividades de investigación en Ciencias Sociales y Humanidades</title_es>
       <title_pt>EOSC como um divisor de águas nas atividades de pesquisa em Ciências Sociais e Humanas</title_pt>
       <title_ja>社会科学と人文科学の研究活動におけるゲームチェンジャーとしてのEOSC</title_ja>
+      <title_ru>EOSC как игровой фактор в научно-исследовательской деятельности в области социальных и гуманитарных наук</title_ru>
       <title_zh>EOSC为社会科学人文游戏规则变者</title_zh>
       <title_hi>सामाजिक विज्ञान और मानविकी अनुसंधान गतिविधियों में एक गेम-चेंजर के रूप में EOSC</title_hi>
       <title_ga>EOSC mar ionadaí i ngníomhaíochtaí taighde na nEolaíochtaí Sóisialta agus na nDaonnachtaí</title_ga>
@@ -93,10 +95,12 @@
       <title_bo>EOSC ཚོགས་སྤྱི་ཚོགས་གནས་སྟངས་དང་འཚོལ་ཞིབ་བཤེར་གྱི་བྱ་འགུལ་ལ་རྩེད་འགྱུར་བ་ཞིག་</title_bo>
       <abstract_ar>تهدف هذه الورقة إلى إعطاء بعض الأفكار حول كيفية قدرة سحابة العلوم الأوروبية المفتوحة (EOSC) على التأثير في قطاع العلوم الاجتماعية والإنسانية (SSH) ، مما يمهد الطريق نحو الابتكار. يتم توفير نقاط المناقشة حول كيفية مساهمة LRs و RIs في الثورة في ممارسة مجالات البحث.</abstract_ar>
       <abstract_es>Este artículo tiene como objetivo ofrecer algunas ideas sobre cómo la European Open Science Cloud (EOSC) podrá influir en el sector de las Ciencias Sociales y Humanidades (SSH), allanando así el camino hacia la innovación. Se proporcionan puntos de discusión sobre cómo la comunidad de LR y RI puede contribuir a la revolución en la práctica de las áreas de investigación.</abstract_es>
+      <abstract_fr>Ce document vise à donner un aperçu de la manière dont le European Open Science Cloud (EOSC) pourra influencer le secteur des sciences sociales et humaines (SSH), ouvrant ainsi la voie à l'innovation. Des points de discussion sur la manière dont la communauté des LR et des IR peuvent contribuer à la révolution dans la pratique des domaines de recherche sont fournis.</abstract_fr>
       <abstract_pt>Este artigo pretende dar alguns insights sobre como a European Open Science Cloud (EOSC) poderá influenciar o setor das Ciências Sociais e Humanas (SSH), abrindo caminho para a inovação. São apresentados pontos de discussão sobre como a comunidade de RLs e RIs pode contribuir para a revolução na prática das áreas de pesquisa.</abstract_pt>
       <abstract_ja>この論文は、ヨーロッパのオープンサイエンスクラウド（ EOSC ）が社会科学と人文科学（ SSH ）セクターにどのように影響を与えるかについての洞察を提供し、イノベーションへの道を開くことを目的としています。LRとRIコミュニティが研究領域の実践における革命にどのように貢献できるかについての議論のポイントが提供されている。</abstract_ja>
       <abstract_hi>इस पेपर का उद्देश्य कुछ अंतर्दृष्टि देना है कि यूरोपीय ओपन साइंस क्लाउड (ईओएससी) सामाजिक विज्ञान और मानविकी (एसएसएच) क्षेत्र को कैसे प्रभावित करने में सक्षम होगा, इस प्रकार नवाचार की दिशा में मार्ग प्रशस्त करेगा। इस बात पर चर्चा के बिंदु कि कैसे एलआर और आरआई समुदाय अनुसंधान क्षेत्रों के अभ्यास में क्रांति में योगदान कर सकते हैं, प्रदान किए जाते हैं।</abstract_hi>
       <abstract_zh>旨在欧洲开科学云(EOSC)何以动社会科学人文(SSH)司给见解,创新铺平道路。 供LR、RI社区何以论革命之论?</abstract_zh>
+      <abstract_ru>Целью данного документа является дать некоторое представление о том, как Европейское открытое научное облако (EOSC) сможет влиять на сектор социальных и гуманитарных наук (SSH), тем самым прокладывая путь к инновациям. Представлены вопросы для обсуждения о том, каким образом сообщество ЛР и РИ может внести вклад в революцию в области исследований.</abstract_ru>
       <abstract_ga>Tá sé mar aidhm ag an bpáipéar seo roinnt léargais a thabhairt ar an gcaoi a mbeidh an Néal Eolaíochta Oscailte san Eoraip (EOSC) in ann tionchar a imirt ar earnáil na nEolaíochtaí Sóisialta agus na nDaonnachtaí (SSH), agus mar sin an bealach a réiteach i dtreo na nuálaíochta. Cuirtear pointí díospóireachta ar fáil maidir leis an gcaoi ar féidir leis an bpobal ó chlé agus ó na institiúideacha taighde a bheith rannpháirteach sa réabhlóid i gcleachtadh réimsí taighde.</abstract_ga>
       <abstract_ka>ამ დოკუმენტის მისამართი იქნება, როგორ იქნება ევროპოლიო გახსნა მეცნიერების ბულოს (EOSC) სოციალური მეცნიერების და ადამიანის (SSH) sektorის შესაძლებლობა, როგორც იქნება ინონოციაცი განსაზღვრების მისამართები თუ როგორ შეიძლება LRs და RIs-ის საზოგადოებაში რემოლუციაში გადაწყვეტის პრექტიკის პარამეტრებში.</abstract_ka>
       <abstract_hu>A tanulmány célja, hogy betekintést nyújtson arra vonatkozóan, hogy az Európai Nyílt Tudományos Felhő (EOSC) miként lesz képes befolyásolni a társadalomtudományok és humán tudományok (SSH) ágazatát, ezzel megnyitva az utat az innováció felé. A kutatási területek gyakorlatának forradalmához való hozzájárulásról szóló vitákat tartalmaznak arról, hogy az LR-k és a RI-k közössége miként járulhat hozzá.</abstract_hu>

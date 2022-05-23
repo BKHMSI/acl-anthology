@@ -27,6 +27,7 @@ from xml.sax.saxutils import escape as xml_escape
 from typing import Tuple, Optional
 from zlib import crc32
 
+
 from .people import PersonName
 from . import data
 
@@ -409,12 +410,17 @@ def parse_element(xml_element):
     for element in xml_element:
         # parse value
         tag = element.tag.lower()
-        # if tag in ("abstract", "title", "booktitle"):
-        if tag in ("abstract", "title", "booktitle", 'abstract_arab', 'abstract_cn', \
-            'abstract_fr', 'abstract_ru', 'abstract_sp', 'title_arab', 'title_cn', \
-            'title_fr', 'title_ru', 'title_sp'):
+        if tag == "abstract":
+            value = str(etree.tostring(element)).split("<abstract>")[-1].split("</abstract>")[0].strip()
+        elif tag in ("booktitle", "title"):
+        # if tag in ("abstract", "title", "booktitle", 'abstract_arab', 'abstract_cn', \
+        #     'abstract_fr', 'abstract_ru', 'abstract_sp', 'title_arab', 'title_cn', \
+        #     'title_fr', 'title_ru', 'title_sp'):
             tag = f"xml_{tag}"
-            value = element
+            if tag == "title":
+                value = str(etree.tostring(element)).split("<title>")[-1].split("</title>")[0].strip()
+            else:
+                value = element
         elif tag == "url":
             tag = "xml_url"
             value = element.text
@@ -465,7 +471,6 @@ def parse_element(xml_element):
                 attrib[tag] = [value]
         else:
             attrib[tag] = value
-
     return attrib
 
 

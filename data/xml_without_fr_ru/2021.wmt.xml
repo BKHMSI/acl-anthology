@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection id="2021.wmt">
+  <volume id="1" ingest-date="2022-01-11">
+    <meta>
+      <booktitle>Proceedings of the Sixth Conference on Machine Translation</booktitle>
+      <editor><first>Loic</first><last>Barrault</last></editor>
+      <editor><first>Ondrej</first><last>Bojar</last></editor>
+      <editor><first>Fethi</first><last>Bougares</last></editor>
+      <editor><first>Rajen</first><last>Chatterjee</last></editor>
+      <editor><first>Marta R.</first><last>Costa-jussa</last></editor>
+      <editor><first>Christian</first><last>Federmann</last></editor>
+      <editor><first>Mark</first><last>Fishel</last></editor>
+      <editor><first>Alexander</first><last>Fraser</last></editor>
+      <editor><first>Markus</first><last>Freitag</last></editor>
+      <editor><first>Yvette</first><last>Graham</last></editor>
+      <editor><first>Roman</first><last>Grundkiewicz</last></editor>
+      <editor><first>Paco</first><last>Guzman</last></editor>
+      <editor><first>Barry</first><last>Haddow</last></editor>
+      <editor><first>Matthias</first><last>Huck</last></editor>
+      <editor><first>Antonio Jimeno</first><last>Yepes</last></editor>
+      <editor><first>Philipp</first><last>Koehn</last></editor>
+      <editor><first>Tom</first><last>Kocmi</last></editor>
+      <editor><first>Andre</first><last>Martins</last></editor>
+      <editor><first>Makoto</first><last>Morishita</last></editor>
+      <editor><first>Christof</first><last>Monz</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>November</month>
+      <year>2021</year>
+      <url hash="74ed0994">2021.wmt-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="bbbc26a2">2021.wmt-1.0</url>
+      <bibkey>wmt-2021-machine</bibkey>
+    </frontmatter>
+    <paper id="3">
+      <title>GTCOM Neural Machine Translation Systems for WMT21<fixed-case>GTCOM</fixed-case> Neural Machine Translation Systems for <fixed-case>WMT</fixed-case>21</title>
+      <author><first>Chao</first><last>Bei</last></author>
+      <author><first>Hao</first><last>Zong</last></author>
+      <pages>100–103</pages>
+      <abstract>This paper describes the Global Tone Communication Co., Ltd.’s submission of the WMT21 shared news translation task. We participate in six directions : <a href="https://en.wikipedia.org/wiki/English_language">English</a> to / from <a href="https://en.wikipedia.org/wiki/Hausa_language">Hausa</a>, <a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a> to / from Bengali and <a href="https://en.wikipedia.org/wiki/Zulu_language">Zulu</a> to / from <a href="https://en.wikipedia.org/wiki/Xhosa_language">Xhosa</a>. Our submitted systems are unconstrained and focus on multilingual translation odel, backtranslation and forward-translation. We also apply rules and language model to filter monolingual, parallel sentences and synthetic sentences.</abstract>
+      <url hash="8ac14359">2021.wmt-1.3</url>
+      <bibkey>bei-zong-2021-gtcom</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/flores">FLoRes</pwcdataset>
+    </paper>
+    <paper id="6">
+      <title>The TALP-UPC Participation in WMT21 News Translation Task : an mBART-based NMT Approach<fixed-case>TALP</fixed-case>-<fixed-case>UPC</fixed-case> Participation in <fixed-case>WMT</fixed-case>21 News Translation Task: an m<fixed-case>BART</fixed-case>-based <fixed-case>NMT</fixed-case> Approach</title>
+      <author><first>Carlos</first><last>Escolano</last></author>
+      <author><first>Ioannis</first><last>Tsiamas</last></author>
+      <author><first>Christine</first><last>Basta</last></author>
+      <author><first>Javier</first><last>Ferrando</last></author>
+      <author><first>Marta R.</first><last>Costa-jussa</last></author>
+      <author><first>José A. R.</first><last>Fonollosa</last></author>
+      <pages>117–122</pages>
+      <abstract>This paper describes the submission to the WMT 2021 news translation shared task by the UPC Machine Translation group. The goal of the task is to translate German to French (De-Fr) and French to German (Fr-De). Our submission focuses on fine-tuning a pre-trained model to take advantage of <a href="https://en.wikipedia.org/wiki/Monolingualism">monolingual data</a>. We fine-tune mBART50 using the filtered data, and additionally, we train a Transformer model on the same <a href="https://en.wikipedia.org/wiki/Data">data</a> from scratch. In the experiments, we show that fine-tuning mBART50 results in 31.69 <a href="https://en.wikipedia.org/wiki/British_thermal_unit">BLEU</a> for De-Fr and 23.63 <a href="https://en.wikipedia.org/wiki/British_thermal_unit">BLEU</a> for Fr-De, which increases 2.71 and 1.90 BLEU accordingly, as compared to the model we train from scratch. Our final submission is an ensemble of these two <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a>, further increasing 0.3 <a href="https://en.wikipedia.org/wiki/Bijection">BLEU</a> for Fr-De.</abstract>
+      <url hash="ec7e9bd5">2021.wmt-1.6</url>
+      <bibkey>escolano-etal-2021-talp</bibkey>
+    </paper>
+    <paper id="9">
+      <title>Mieind’s WMT 2021 Submission<fixed-case>WMT</fixed-case> 2021 Submission</title>
+      <author><first>Haukur Barri</first><last>Símonarson</last></author>
+      <author><first>Vésteinn</first><last>Snæbjarnarson</last></author>
+      <author><first>Pétur Orri</first><last>Ragnarson</last></author>
+      <author><first>Haukur</first><last>Jónsson</last></author>
+      <author><first>Vilhjalmur</first><last>Thorsteinsson</last></author>
+      <pages>136–139</pages>
+      <abstract>We present Mieind’s submission for the EnglishIcelandic and IcelandicEnglish subsets of the 2021 WMT news translation task. Transformer-base models are trained for <a href="https://en.wikipedia.org/wiki/Translation">translation</a> on <a href="https://en.wikipedia.org/wiki/Parallel_computing">parallel data</a> to generate backtranslations teratively. A pretrained mBART-25 model is then adapted for <a href="https://en.wikipedia.org/wiki/Translation">translation</a> using parallel data as well as the last backtranslation iteration. This adapted pretrained model is then used to re-generate backtranslations, and the training of the adapted <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a> is continued.</abstract>
+      <url hash="1b5aa8e5">2021.wmt-1.9</url>
+      <bibkey>simonarson-etal-2021-mideinds</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/ccmatrix">CCMatrix</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/ipac">IPAC</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/paracrawl">ParaCrawl</pwcdataset>
+    </paper>
+    <paper id="10">
+      <title>Allegro.eu Submission to WMT21 News Translation Task<fixed-case>WMT</fixed-case>21 News Translation Task</title>
+      <author><first>Mikołaj</first><last>Koszowski</last></author>
+      <author><first>Karol</first><last>Grzegorczyk</last></author>
+      <author><first>Tsimur</first><last>Hadeliya</last></author>
+      <pages>140–143</pages>
+      <abstract>We submitted two uni-directional models, one for EnglishIcelandic direction and other for IcelandicEnglish direction. Our news translation system is based on the transformer-big architecture, it makes use of corpora filtering, <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a> and forward translation applied to parallel and monolingual data alike</abstract>
+      <url hash="2d5b1551">2021.wmt-1.10</url>
+      <bibkey>koszowski-etal-2021-allegro</bibkey>
+    </paper>
+    <paper id="11">
+      <title>Illinois Japanese   English News Translation for WMT 2021<fixed-case>I</fixed-case>llinois <fixed-case>J</fixed-case>apanese <tex-math>\leftrightarrow</tex-math> <fixed-case>E</fixed-case>nglish <fixed-case>N</fixed-case>ews <fixed-case>T</fixed-case>ranslation for <fixed-case>WMT</fixed-case> 2021</title>
+      <author><first>Giang</first><last>Le</last></author>
+      <author><first>Shinka</first><last>Mori</last></author>
+      <author><first>Lane</first><last>Schwartz</last></author>
+      <pages>144–153</pages>
+      <abstract>This system paper describes an end-to-end NMT pipeline for the Japanese   English news translation task as submitted to WMT 2021, where we explore the efficacy of techniques such as tokenizing with language-independent and language-dependent tokenizers, normalizing by orthographic conversion, creating a politeness-and-formality-aware model by implementing a tagger, back-translation, model ensembling, and n-best reranking. We use parallel corpora provided by WMT 2021 organizers for training, and development and test data from WMT 2020 for evaluation of different experiment models. The preprocessed corpora are trained with a Transformer neural network model. We found that combining various techniques described herein, such as language-independent BPE tokenization, incorporating politeness and formality tags, model ensembling, n-best reranking, and back-translation produced the best translation models relative to other experiment systems.<tex-math>\leftrightarrow</tex-math> English news translation task as submitted to WMT 2021, where we explore the efficacy of techniques such as tokenizing with language-independent and language-dependent tokenizers, normalizing by orthographic conversion, creating a politeness-and-formality-aware model by implementing a tagger, back-translation, model ensembling, and n-best reranking. We use parallel corpora provided by WMT 2021 organizers for training, and development and test data from WMT 2020 for evaluation of different experiment models. The preprocessed corpora are trained with a Transformer neural network model. We found that combining various techniques described herein, such as language-independent BPE tokenization, incorporating politeness and formality tags, model ensembling, n-best reranking, and back-translation produced the best translation models relative to other experiment systems.</abstract>
+      <url hash="c97ab624">2021.wmt-1.11</url>
+      <bibkey>le-etal-2021-illinois</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2020">WMT 2020</pwcdataset>
+    </paper>
+    <paper id="13">
+      <title>The Fujitsu DMATH Submissions for WMT21 News Translation and Biomedical Translation Tasks<fixed-case>DMATH</fixed-case> Submissions for <fixed-case>WMT</fixed-case>21 News Translation and Biomedical Translation Tasks</title>
+      <author><first>Ander</first><last>Martinez</last></author>
+      <pages>162–166</pages>
+      <abstract>This paper describes the Fujitsu DMATH systems used for WMT 2021 News Translation and Biomedical Translation tasks. We focused on low-resource pairs, using a simple <a href="https://en.wikipedia.org/wiki/System">system</a>. We conducted experiments on <a href="https://en.wikipedia.org/wiki/Hausa_language">English-Hausa</a>, <a href="https://en.wikipedia.org/wiki/Xhosa_language">Xhosa-Zulu</a> and <a href="https://en.wikipedia.org/wiki/Basque_language">English-Basque</a>, and submitted the results for XhosaZulu in the News Translation Task, and EnglishBasque in the Biomedical Translation Task, abstract and terminology translation subtasks. Our system combines BPE dropout, sub-subword features and back-translation with a Transformer (base) model, achieving good results on the evaluation sets.</abstract>
+      <url hash="641d5825">2021.wmt-1.13</url>
+      <bibkey>martinez-2021-fujitsu</bibkey>
+    </paper>
+    <paper id="16">
+      <title>The University of Edinburgh’s Bengali-Hindi Submissions to the WMT21 News Translation Task<fixed-case>U</fixed-case>niversity of <fixed-case>E</fixed-case>dinburgh’s <fixed-case>B</fixed-case>engali-<fixed-case>H</fixed-case>indi Submissions to the <fixed-case>WMT</fixed-case>21 News Translation Task</title>
+      <author><first>Proyag</first><last>Pal</last></author>
+      <author><first>Alham Fikri</first><last>Aji</last></author>
+      <author><first>Pinzhen</first><last>Chen</last></author>
+      <author><first>Sukanta</first><last>Sen</last></author>
+      <pages>180–186</pages>
+      <abstract>We describe the University of Edinburgh’s BengaliHindi constrained systems submitted to the WMT21 News Translation task. We submitted ensembles of Transformer models built with large-scale back-translation and fine-tuned on subsets of training data retrieved based on similarity to the target domain.<tex-math>\leftrightarrow</tex-math>Hindi constrained systems submitted to the WMT21 News Translation task. We submitted ensembles of Transformer models built with large-scale back-translation and fine-tuned on subsets of training data retrieved based on similarity to the target domain.</abstract>
+      <url hash="eb3f4531">2021.wmt-1.16</url>
+      <bibkey>pal-etal-2021-university</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/ccaligned">CCAligned</pwcdataset>
+    </paper>
+    <paper id="17">
+      <title>The Volctrans GLAT System : Non-autoregressive Translation Meets WMT21<fixed-case>GLAT</fixed-case> System: Non-autoregressive Translation Meets <fixed-case>WMT</fixed-case>21</title>
+      <author><first>Lihua</first><last>Qian</last></author>
+      <author><first>Yi</first><last>Zhou</last></author>
+      <author><first>Zaixiang</first><last>Zheng</last></author>
+      <author><first>Yaoming</first><last>Zhu</last></author>
+      <author><first>Zehui</first><last>Lin</last></author>
+      <author><first>Jiangtao</first><last>Feng</last></author>
+      <author><first>Shanbo</first><last>Cheng</last></author>
+      <author><first>Lei</first><last>Li</last></author>
+      <author><first>Mingxuan</first><last>Wang</last></author>
+      <author><first>Hao</first><last>Zhou</last></author>
+      <pages>187–196</pages>
+      <abstract>This paper describes the Volctrans’ submission to the WMT21 news translation shared task for German-English translation. We build a parallel (i.e., non-autoregressive) translation system using the Glancing Transformer, which enables fast and accurate parallel decoding in contrast to the currently prevailing <a href="https://en.wikipedia.org/wiki/Autoregressive_model">autoregressive models</a>. To the best of our knowledge, this is the first parallel translation system that can be scaled to such a practical scenario like WMT competition. More importantly, our parallel translation system achieves the best BLEU score (35.0) on German-English translation task, outperforming all strong <a href="https://en.wikipedia.org/wiki/Autoregressive_model">autoregressive counterparts</a>.</abstract>
+      <url hash="3f1ae1ed">2021.wmt-1.17</url>
+      <bibkey>qian-etal-2021-volctrans</bibkey>
+    </paper>
+    <paper id="20">
+      <title>Tencent Translation System for the WMT21 News Translation Task<fixed-case>WMT</fixed-case>21 News Translation Task</title>
+      <author><first>Longyue</first><last>Wang</last></author>
+      <author><first>Mu</first><last>Li</last></author>
+      <author><first>Fangxu</first><last>Liu</last></author>
+      <author><first>Shuming</first><last>Shi</last></author>
+      <author><first>Zhaopeng</first><last>Tu</last></author>
+      <author><first>Xing</first><last>Wang</last></author>
+      <author><first>Shuangzhi</first><last>Wu</last></author>
+      <author><first>Jiali</first><last>Zeng</last></author>
+      <author><first>Wen</first><last>Zhang</last></author>
+      <pages>216–224</pages>
+      <abstract>This paper describes Tencent Translation systems for the WMT21 shared task. We participate in the news translation task on three language pairs : Chinese-English, English-Chinese and German-English. Our <a href="https://en.wikipedia.org/wiki/System">systems</a> are built on various Transformer models with novel techniques adapted from our recent research work. First, we combine different data augmentation methods including <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a>, forward-translation and right-to-left training to enlarge the training data. We also apply language coverage bias, data rejuvenation and uncertainty-based sampling approaches to select content-relevant and high-quality data from large parallel and monolingual corpora. Expect for in-domain fine-tuning, we also propose a fine-grained one model one domain approach to model characteristics of different news genres at fine-tuning and decoding stages. Besides, we use greed-based ensemble algorithm and transductive ensemble method to further boost our systems. Based on our success in the last WMT, we continuously employed advanced techniques such as large batch training, data selection and data filtering. Finally, our constrained Chinese-English system achieves 33.4 case-sensitive BLEU score, which is the highest among all submissions. The German-English system is ranked at second place accordingly.</abstract>
+      <url hash="be22d27e">2021.wmt-1.20</url>
+      <bibkey>wang-etal-2021-tencent</bibkey>
+    </paper>
+    <paper id="21">
+      <title>HW-TSC’s Participation in the WMT 2021 News Translation Shared Task<fixed-case>HW</fixed-case>-<fixed-case>TSC</fixed-case>’s Participation in the <fixed-case>WMT</fixed-case> 2021 News Translation Shared Task</title>
+      <author><first>Daimeng</first><last>Wei</last></author>
+      <author><first>Zongyao</first><last>Li</last></author>
+      <author><first>Zhanglin</first><last>Wu</last></author>
+      <author><first>Zhengzhe</first><last>Yu</last></author>
+      <author><first>Xiaoyu</first><last>Chen</last></author>
+      <author><first>Hengchao</first><last>Shang</last></author>
+      <author><first>Jiaxin</first><last>Guo</last></author>
+      <author><first>Minghan</first><last>Wang</last></author>
+      <author><first>Lizhi</first><last>Lei</last></author>
+      <author><first>Min</first><last>Zhang</last></author>
+      <author><first>Hao</first><last>Yang</last></author>
+      <author><first>Ying</first><last>Qin</last></author>
+      <pages>225–231</pages>
+      <abstract>This paper presents the submission of Huawei Translate Services Center (HW-TSC) to the WMT 2021 News Translation Shared Task. We participate in 7 language pairs, including Zh / En, De / En, Ja / En, Ha / En, Is / En, Hi / Bn, and Xh / Zu in both directions under the constrained condition. We use Transformer architecture and obtain the best performance via multiple variants with larger parameter sizes. We perform detailed pre-processing and filtering on the provided large-scale bilingual and monolingual datasets. Several commonly used strategies are used to train our models, such as <a href="https://en.wikipedia.org/wiki/Back_translation">Back Translation</a>, Forward Translation, Multilingual Translation, Ensemble Knowledge Distillation, etc. Our submission obtains competitive results in the final evaluation.</abstract>
+      <url hash="8ca12125">2021.wmt-1.21</url>
+      <bibkey>wei-etal-2021-hw</bibkey>
+    </paper>
+    <paper id="24">
+      <title>Small Model and In-Domain Data Are All You Need</title>
+      <author><first>Hui</first><last>Zeng</last></author>
+      <pages>255–259</pages>
+      <abstract>I participated in the WMT shared news translation task and focus on one high resource language pair : <a href="https://en.wikipedia.org/wiki/English_language">English</a> and Chinese (two directions, Chinese to English and English to Chinese). The submitted systems (ZengHuiMT) focus on <a href="https://en.wikipedia.org/wiki/Data_cleansing">data cleaning</a>, data selection, <a href="https://en.wikipedia.org/wiki/Back_translation">back translation</a> and model ensemble. The techniques I used for data filtering and selection include filtering by rules, <a href="https://en.wikipedia.org/wiki/Language_model">language model</a> and <a href="https://en.wikipedia.org/wiki/Word_alignment">word alignment</a>. I used a base translation model trained on initial corpus to obtain the target versions of the WMT21 test sets, then I used language models to find out the monolingual data that is most similar to the target version of test set, such monolingual data was then used to do back translation. On the test set, my best submitted systems achieve 35.9 and 32.2 <a href="https://en.wikipedia.org/wiki/BLEU">BLEU</a> for English to Chinese and Chinese to English directions respectively, which are quite high for a small model.</abstract>
+      <url hash="5b06fb70">2021.wmt-1.24</url>
+      <bibkey>zeng-2021-small</bibkey>
+    </paper>
+    <paper id="25">
+      <title>The Mininglamp Machine Translation System for WMT21<fixed-case>WMT</fixed-case>21</title>
+      <author><first>Shiyu</first><last>Zhao</last></author>
+      <author><first>Xiaopu</first><last>Li</last></author>
+      <author><first>Minghui</first><last>Wu</last></author>
+      <author><first>Jie</first><last>Hao</last></author>
+      <pages>260–264</pages>
+      <abstract>This paper describes Mininglamp neural machine translation systems of the WMT2021 news translation tasks. We have participated in eight directions translation tasks for news text including <a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a> to / from English, Hausa to / from English, <a href="https://en.wikipedia.org/wiki/German_language">German</a> to / from English and <a href="https://en.wikipedia.org/wiki/French_language">French</a> to / from German. Our fundamental system was based on Transformer architecture, with wider or smaller construction for different news translation tasks. We mainly utilized the method of <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a>, knowledge distillation and <a href="https://en.wikipedia.org/wiki/Fine-tuning">fine-tuning</a> to boost single model, while the <a href="https://en.wikipedia.org/wiki/Statistical_ensemble_(mathematical_physics)">ensemble</a> was used to combine single models. Our final submission has ranked first for the English to / from Hausa task.</abstract>
+      <url hash="fc6fc9c3">2021.wmt-1.25</url>
+      <bibkey>zhao-etal-2021-mininglamp</bibkey>
+    </paper>
+    <paper id="27">
+      <title>Improving Similar Language Translation With <a href="https://en.wikipedia.org/wiki/Transfer_of_learning">Transfer Learning</a></title>
+      <author><first>Ife</first><last>Adebara</last></author>
+      <author><first>Muhammad</first><last>Abdul-Mageed</last></author>
+      <pages>273–278</pages>
+      <abstract>We investigate <a href="https://en.wikipedia.org/wiki/Transfer_learning">transfer learning</a> based on pre-trained neural machine translation models to translate between (low-resource) similar languages. This work is part of our contribution to the WMT 2021 Similar Languages Translation Shared Task where we submitted models for different language pairs, including French-Bambara, Spanish-Catalan, and Spanish-Portuguese in both directions. Our <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> for Catalan-Spanish (82.79 BLEU)and Portuguese-Spanish (87.11 BLEU) rank top 1 in the official shared task evaluation, and we are the only team to submit <a href="https://en.wikipedia.org/wiki/Conceptual_model">models</a> for the <a href="https://en.wikipedia.org/wiki/Bambara_language">French-Bambara pairs</a>.</abstract>
+      <url hash="9577e4df">2021.wmt-1.27</url>
+      <bibkey>adebara-abdul-mageed-2021-improving</bibkey>
+    </paper>
+    <paper id="28">
+      <title>T4 T Solution : WMT21 Similar Language Task for the Spanish-Catalan and Spanish-Portuguese Language Pair<fixed-case>T</fixed-case>4<fixed-case>T</fixed-case> Solution: <fixed-case>WMT</fixed-case>21 Similar Language Task for the <fixed-case>S</fixed-case>panish-<fixed-case>C</fixed-case>atalan and <fixed-case>S</fixed-case>panish-<fixed-case>P</fixed-case>ortuguese Language Pair</title>
+      <author><first>Miguel</first><last>Canals</last></author>
+      <author><first>Marc</first><last>Raventós Tato</last></author>
+      <pages>279–283</pages>
+      <abstract>The main idea of this <a href="https://en.wikipedia.org/wiki/Solution">solution</a> has been to focus on corpus cleaning and preparation and after that, use an out of box solution (OpenNMT) with its default published transformer model. To prepare the corpus, we have used set of standard tools (as Moses scripts or python packages), but also, among other python scripts, a python custom tokenizer with the ability to replace numbers for variables, solve the upper / lower case issue of the vocabulary and provide good segmentation for most of the punctuation. We also have started a line to clean corpus based on statistical probability estimation of source-target corpus, with unclear results. Also, we have run some tests with syllabical word segmentation, again with unclear results, so at the end, after word sentence tokenization we have used BPE SentencePiece for subword units to feed OpenNMT.</abstract>
+      <url hash="a3fe0c4b">2021.wmt-1.28</url>
+      <bibkey>canals-raventos-tato-2021-t4t</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2020">WMT 2020</pwcdataset>
+    </paper>
+    <paper id="31">
+      <title>Similar Language Translation for <a href="https://en.wikipedia.org/wiki/Catalan_language">Catalan</a>, <a href="https://en.wikipedia.org/wiki/Portuguese_language">Portuguese</a> and <a href="https://en.wikipedia.org/wiki/Spanish_language">Spanish</a> Using Marian NMT<fixed-case>C</fixed-case>atalan, <fixed-case>P</fixed-case>ortuguese and <fixed-case>S</fixed-case>panish Using <fixed-case>M</fixed-case>arian <fixed-case>NMT</fixed-case></title>
+      <author><first>Reinhard</first><last>Rapp</last></author>
+      <pages>292–298</pages>
+      <abstract>This paper describes the SEBAMAT contribution to the 2021 WMT Similar Language Translation shared task. Using the Marian neural machine translation toolkit, translation systems based on Google’s transformer architecture were built in both directions of CatalanSpanish and PortugueseSpanish. The systems were trained in two contrastive parameter settings (different vocabulary sizes for byte pair encoding) using only the parallel but not the comparable corpora provided by the shared task organizers. According to their official evaluation results, the SEBAMAT system turned out to be competitive with rankings among the top teams and BLEU scores between 38 and 47 for the language pairs involving <a href="https://en.wikipedia.org/wiki/Portuguese_language">Portuguese</a> and between 76 and 80 for the language pairs involving <a href="https://en.wikipedia.org/wiki/Catalan_language">Catalan</a>.</abstract>
+      <url hash="8b4421a7">2021.wmt-1.31</url>
+      <bibkey>rapp-2021-similar</bibkey>
+    </paper>
+    <paper id="35">
+      <title>Adapting <a href="https://en.wikipedia.org/wiki/Neural_machine_translation">Neural Machine Translation</a> for Automatic Post-Editing</title>
+      <author><first>Abhishek</first><last>Sharma</last></author>
+      <author><first>Prabhakar</first><last>Gupta</last></author>
+      <author><first>Anil</first><last>Nelakanti</last></author>
+      <pages>315–319</pages>
+      <abstract>Automatic post-editing (APE) models are usedto correct machine translation (MT) system outputs by learning from human post-editing patterns. We present the system used in our submission to the WMT’21 Automatic Post-Editing (APE) English-German (En-De) shared task. We leverage the state-of-the-art MT system (Ng et al., 2019) for this task. For further improvements, we adapt the MT model to the task domain by using WikiMatrix (Schwenket al., 2021) followed by fine-tuning with additional APE samples from previous editions of the <a href="https://en.wikipedia.org/wiki/Task_(computing)">shared task</a> (WMT-16,17,18) and ensembling the <a href="https://en.wikipedia.org/wiki/Mathematical_model">models</a>. Our systems beat the <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline</a> on TER scores on the WMT’21 test set.</abstract>
+      <url hash="47570d29">2021.wmt-1.35</url>
+      <bibkey>sharma-etal-2021-adapting</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2016">WMT 2016</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/wikimatrix">WikiMatrix</pwcdataset>
+    </paper>
+    <paper id="37">
+      <title>HW-TSC’s Participation in the WMT 2021 Triangular MT Shared Task<fixed-case>HW</fixed-case>-<fixed-case>TSC</fixed-case>’s Participation in the <fixed-case>WMT</fixed-case> 2021 Triangular <fixed-case>MT</fixed-case> Shared Task</title>
+      <author><first>Zongyao</first><last>Li</last></author>
+      <author><first>Daimeng</first><last>Wei</last></author>
+      <author><first>Hengchao</first><last>Shang</last></author>
+      <author><first>Xiaoyu</first><last>Chen</last></author>
+      <author><first>Zhanglin</first><last>Wu</last></author>
+      <author><first>Zhengzhe</first><last>Yu</last></author>
+      <author><first>Jiaxin</first><last>Guo</last></author>
+      <author><first>Minghan</first><last>Wang</last></author>
+      <author><first>Lizhi</first><last>Lei</last></author>
+      <author><first>Min</first><last>Zhang</last></author>
+      <author><first>Hao</first><last>Yang</last></author>
+      <author><first>Ying</first><last>Qin</last></author>
+      <pages>325–330</pages>
+      <abstract>This paper presents the submission of Huawei Translation Service Center (HW-TSC) to WMT 2021 Triangular MT Shared Task. We participate in the Russian-to-Chinese task under the constrained condition. We use Transformer architecture and obtain the best performance via a variant with larger parameter sizes. We perform detailed data pre-processing and filtering on the provided large-scale bilingual data. Several strategies are used to train our models, such as Multilingual Translation, Back Translation, Forward Translation, Data Denoising, Average Checkpoint, Ensemble, Fine-tuning, etc. Our <a href="https://en.wikipedia.org/wiki/System">system</a> obtains 32.5 <a href="https://en.wikipedia.org/wiki/British_undergraduate_degree_classification">BLEU</a> on the <a href="https://en.wikipedia.org/wiki/British_undergraduate_degree_classification">dev set</a> and 27.7 BLEU on the <a href="https://en.wikipedia.org/wiki/British_undergraduate_degree_classification">test set</a>, the highest score among all submissions.</abstract>
+      <url hash="b229fd5f">2021.wmt-1.37</url>
+      <bibkey>li-etal-2021-hw</bibkey>
+    </paper>
+    <paper id="43">
+      <title>Transfer Learning with Shallow Decoders : BSC at WMT2021’s Multilingual Low-Resource Translation for Indo-European Languages Shared Task<fixed-case>BSC</fixed-case> at <fixed-case>WMT</fixed-case>2021’s Multilingual Low-Resource Translation for <fixed-case>I</fixed-case>ndo-<fixed-case>E</fixed-case>uropean Languages Shared Task</title>
+      <author><first>Ksenia</first><last>Kharitonova</last></author>
+      <author><first>Ona</first><last>de Gibert Bonet</last></author>
+      <author><first>Jordi</first><last>Armengol-Estapé</last></author>
+      <author><first>Mar</first><last>Rodriguez i Alvarez</last></author>
+      <author><first>Maite</first><last>Melero</last></author>
+      <pages>362–367</pages>
+      <abstract>This paper describes the participation of the BSC team in the WMT2021’s Multilingual Low-Resource Translation for Indo-European Languages Shared Task. The system aims to solve the Subtask 2 : Wikipedia cultural heritage articles, which involves translation in four <a href="https://en.wikipedia.org/wiki/Romance_languages">Romance languages</a> : <a href="https://en.wikipedia.org/wiki/Catalan_language">Catalan</a>, <a href="https://en.wikipedia.org/wiki/Italian_language">Italian</a>, <a href="https://en.wikipedia.org/wiki/Occitan_language">Occitan</a> and <a href="https://en.wikipedia.org/wiki/Romanian_language">Romanian</a>. The submitted <a href="https://en.wikipedia.org/wiki/System">system</a> is a multilingual semi-supervised machine translation model. It is based on a pre-trained language model, namely XLM-RoBERTa, that is later fine-tuned with parallel data obtained mostly from <a href="https://en.wikipedia.org/wiki/OPUS">OPUS</a>. Unlike other works, we only use XLM to initialize the <a href="https://en.wikipedia.org/wiki/Encoder">encoder</a> and randomly initialize a shallow decoder. The reported results are robust and perform well for all tested languages.</abstract>
+      <url hash="8af47569">2021.wmt-1.43</url>
+      <bibkey>kharitonova-etal-2021-transfer</bibkey>
+      <pwccode url="https://github.com/temu-bsc/wmt2021-indoeuropean" additional="false">temu-bsc/wmt2021-indoeuropean</pwccode>
+    </paper>
+    <paper id="50">
+      <title>Back-translation for Large-Scale Multilingual Machine Translation</title>
+      <author><first>Baohao</first><last>Liao</last></author>
+      <author><first>Shahram</first><last>Khadivi</last></author>
+      <author><first>Sanjika</first><last>Hewavitharana</last></author>
+      <pages>418–424</pages>
+      <abstract>This paper illustrates our approach to the shared task on large-scale multilingual machine translation in the sixth conference on machine translation (WMT-21). In this work, we aim to build a single multilingual translation system with a hypothesis that a universal cross-language representation leads to better multilingual translation performance. We extend the exploration of different back-translation methods from bilingual translation to multilingual translation. Better performance is obtained by the constrained sampling method, which is different from the finding of the bilingual translation. Besides, we also explore the effect of <a href="https://en.wikipedia.org/wiki/Vocabulary">vocabularies</a> and the amount of <a href="https://en.wikipedia.org/wiki/Synthetic_data">synthetic data</a>. Surprisingly, the smaller size of vocabularies perform better, and the extensive monolingual English data offers a modest improvement. We submitted to both the small tasks and achieve the second place.</abstract>
+      <url hash="56782bf4">2021.wmt-1.50</url>
+      <bibkey>liao-etal-2021-back</bibkey>
+      <pwccode url="https://github.com/baohaoliao/multiback" additional="false">baohaoliao/multiback</pwccode>
+    </paper>
+    <paper id="51">
+      <title>Maastricht University’s Large-Scale Multilingual Machine Translation System for WMT 2021<fixed-case>WMT</fixed-case> 2021</title>
+      <author><first>Danni</first><last>Liu</last></author>
+      <author><first>Jan</first><last>Niehues</last></author>
+      <pages>425–430</pages>
+      <abstract>We present our development of the multilingual machine translation system for the large-scale multilingual machine translation task at WMT 2021. Starting form the provided <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline system</a>, we investigated several techniques to improve the translation quality on the target subset of languages. We were able to significantly improve the translation quality by adapting the <a href="https://en.wikipedia.org/wiki/System">system</a> towards the target subset of languages and by generating synthetic data using the initial <a href="https://en.wikipedia.org/wiki/Conceptual_model">model</a>. Techniques successfully applied in zero-shot multilingual machine translation (e.g. similarity regularizer) only had a minor effect on the final translation performance.</abstract>
+      <url hash="b71eaeda">2021.wmt-1.51</url>
+      <bibkey>liu-niehues-2021-maastricht-universitys</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/flores-101">FLORES-101</pwcdataset>
+    </paper>
+    <paper id="54">
+      <title>Multilingual Machine Translation Systems from Microsoft for WMT21 Shared Task<fixed-case>M</fixed-case>icrosoft for <fixed-case>WMT</fixed-case>21 Shared Task</title>
+      <author><first>Jian</first><last>Yang</last></author>
+      <author><first>Shuming</first><last>Ma</last></author>
+      <author><first>Haoyang</first><last>Huang</last></author>
+      <author><first>Dongdong</first><last>Zhang</last></author>
+      <author><first>Li</first><last>Dong</last></author>
+      <author><first>Shaohan</first><last>Huang</last></author>
+      <author><first>Alexandre</first><last>Muzio</last></author>
+      <author><first>Saksham</first><last>Singhal</last></author>
+      <author><first>Hany</first><last>Hassan</last></author>
+      <author><first>Xia</first><last>Song</last></author>
+      <author><first>Furu</first><last>Wei</last></author>
+      <pages>446–455</pages>
+      <abstract>This report describes Microsoft’s <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation systems</a> for the WMT21 shared task on large-scale multilingual machine translation. We participated in all three evaluation tracks including Large Track and two Small Tracks where the former one is unconstrained and the latter two are fully constrained. Our model submissions to the shared task were initialized with DeltaLM, a generic pre-trained multilingual encoder-decoder model, and fine-tuned correspondingly with the vast collected parallel data and allowed data sources according to track settings, together with applying progressive learning and iterative back-translation approaches to further improve the performance. Our final submissions ranked first on three tracks in terms of the automatic evaluation metric.</abstract>
+      <url hash="2a796749">2021.wmt-1.54</url>
+      <bibkey>yang-etal-2021-multilingual-machine</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/flores-101">FLORES-101</pwcdataset>
+    </paper>
+    <paper id="55">
+      <title>HW-TSC’s Participation in the WMT 2021 Large-Scale Multilingual Translation Task<fixed-case>HW</fixed-case>-<fixed-case>TSC</fixed-case>’s Participation in the <fixed-case>WMT</fixed-case> 2021 Large-Scale Multilingual Translation Task</title>
+      <author><first>Zhengzhe</first><last>Yu</last></author>
+      <author><first>Daimeng</first><last>Wei</last></author>
+      <author><first>Zongyao</first><last>Li</last></author>
+      <author><first>Hengchao</first><last>Shang</last></author>
+      <author><first>Xiaoyu</first><last>Chen</last></author>
+      <author><first>Zhanglin</first><last>Wu</last></author>
+      <author><first>Jiaxin</first><last>Guo</last></author>
+      <author><first>Minghan</first><last>Wang</last></author>
+      <author><first>Lizhi</first><last>Lei</last></author>
+      <author><first>Min</first><last>Zhang</last></author>
+      <author><first>Hao</first><last>Yang</last></author>
+      <author><first>Ying</first><last>Qin</last></author>
+      <pages>456–463</pages>
+      <abstract>This paper presents the submission of Huawei Translation Services Center (HW-TSC) to the WMT 2021 Large-Scale Multilingual Translation Task. We participate in Samll Track # 2, including 6 languages : <a href="https://en.wikipedia.org/wiki/Javanese_language">Javanese (Jv)</a>, <a href="https://en.wikipedia.org/wiki/Indonesian_language">Indonesian (I d)</a>, <a href="https://en.wikipedia.org/wiki/Malay_language">Malay (Ms)</a>, <a href="https://en.wikipedia.org/wiki/Tagalog_language">Tagalog (Tl)</a>, <a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil (Ta)</a> and <a href="https://en.wikipedia.org/wiki/English_language">English (En)</a> with 30 directions under the constrained condition. We use Transformer architecture and obtain the best performance via multiple variants with larger parameter sizes. We train a single multilingual model to translate all the 30 directions. We perform detailed pre-processing and filtering on the provided large-scale bilingual and monolingual datasets. Several commonly used strategies are used to train our models, such as <a href="https://en.wikipedia.org/wiki/Back_translation">Back Translation</a>, Forward Translation, Ensemble Knowledge Distillation, Adapter Fine-tuning. Our <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> obtains competitive results in the end.</abstract>
+      <url hash="cd9c4ef6">2021.wmt-1.55</url>
+      <bibkey>yu-etal-2021-hw</bibkey>
+    </paper>
+    <paper id="58">
+      <title>Just Ask ! Evaluating <a href="https://en.wikipedia.org/wiki/Machine_translation">Machine Translation</a> by Asking and Answering Questions</title>
+      <author><first>Mateusz</first><last>Krubiński</last></author>
+      <author><first>Erfan</first><last>Ghadery</last></author>
+      <author><first>Marie-Francine</first><last>Moens</last></author>
+      <author><first>Pavel</first><last>Pecina</last></author>
+      <pages>495–506</pages>
+      <abstract>In this paper, we show that automatically-generated questions and answers can be used to evaluate the quality of Machine Translation (MT) systems. Building on recent work on the evaluation of abstractive text summarization, we propose a new <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metric</a> for system-level MT evaluation, compare it with other state-of-the-art solutions, and show its robustness by conducting experiments for various MT directions.</abstract>
+      <url hash="c8e87bf1">2021.wmt-1.58</url>
+      <bibkey>krubinski-etal-2021-just</bibkey>
+      <pwccode url="https://github.com/ufal/mteqa" additional="false">ufal/mteqa</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/squad">SQuAD</pwcdataset>
+      <pwcdataset url="https://paperswithcode.com/dataset/xquad">XQuAD</pwcdataset>
+    </paper>
+    <paper id="60">
+      <title>Evaluating Multiway Multilingual NMT in the <a href="https://en.wikipedia.org/wiki/Turkic_languages">Turkic Languages</a><fixed-case>NMT</fixed-case> in the <fixed-case>T</fixed-case>urkic Languages</title>
+      <author><first>Jamshidbek</first><last>Mirzakhalov</last></author>
+      <author><first>Anoop</first><last>Babu</last></author>
+      <author><first>Aigiz</first><last>Kunafin</last></author>
+      <author><first>Ahsan</first><last>Wahab</last></author>
+      <author><first>Bekhzodbek</first><last>Moydinboyev</last></author>
+      <author><first>Sardana</first><last>Ivanova</last></author>
+      <author><first>Mokhiyakhon</first><last>Uzokova</last></author>
+      <author><first>Shaxnoza</first><last>Pulatova</last></author>
+      <author><first>Duygu</first><last>Ataman</last></author>
+      <author><first>Julia</first><last>Kreutzer</last></author>
+      <author><first>Francis</first><last>Tyers</last></author>
+      <author><first>Orhan</first><last>Firat</last></author>
+      <author><first>John</first><last>Licato</last></author>
+      <author><first>Sriram</first><last>Chellappan</last></author>
+      <pages>518–530</pages>
+      <abstract>Despite the increasing number of large and comprehensive machine translation (MT) systems, evaluation of these methods in various languages has been restrained by the lack of high-quality parallel corpora as well as engagement with the people that speak these languages. In this study, we present an evaluation of state-of-the-art approaches to training and evaluating MT systems in 22 languages from the <a href="https://en.wikipedia.org/wiki/Turkic_languages">Turkic language family</a>, most of which being extremely under-explored. First, we adopt the TIL Corpus with a few key improvements to the training and the evaluation sets. Then, we train 26 bilingual baselines as well as a multi-way neural MT (MNMT) model using the <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> and perform an extensive analysis using automatic metrics as well as human evaluations. We find that the MNMT model outperforms almost all bilingual baselines in the out-of-domain test sets and finetuning the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> on a downstream task of a single pair also results in a huge performance boost in both low- and high-resource scenarios. Our attentive analysis of evaluation criteria for MT models in <a href="https://en.wikipedia.org/wiki/Turkic_languages">Turkic languages</a> also points to the necessity for further research in this direction. We release the corpus splits, test sets as well as <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> to the public.</abstract>
+      <url hash="74fbd94f">2021.wmt-1.60</url>
+      <bibkey>mirzakhalov-etal-2021-evaluating</bibkey>
+      <pwccode url="https://github.com/turkic-interlingua/til-mt" additional="false">turkic-interlingua/til-mt</pwccode>
+    </paper>
+    <paper id="63">
+      <title>DELA Corpus-A Document-Level Corpus Annotated with Context-Related Issues<fixed-case>DELA</fixed-case> Corpus - A Document-Level Corpus Annotated with Context-Related Issues</title>
+      <author><first>Sheila</first><last>Castilho</last></author>
+      <author><first>João Lucas</first><last>Cavalheiro Camargo</last></author>
+      <author><first>Miguel</first><last>Menezes</last></author>
+      <author><first>Andy</first><last>Way</last></author>
+      <pages>566–577</pages>
+      <abstract>Recently, the Machine Translation (MT) community has become more interested in document-level evaluation especially in light of reactions to claims of human parity, since examining the quality at the level of the document rather than at the sentence level allows for the assessment of suprasentential context, providing a more reliable evaluation. This paper presents a document-level corpus annotated in English with context-aware issues that arise when translating from <a href="https://en.wikipedia.org/wiki/English_language">English</a> into <a href="https://en.wikipedia.org/wiki/Brazilian_Portuguese">Brazilian Portuguese</a>, namely ellipsis, gender, lexical ambiguity, number, reference, and terminology, with six different domains. The <a href="https://en.wikipedia.org/wiki/Text_corpus">corpus</a> can be used as a challenge test set for evaluation and as a training / testing corpus for MT as well as for deep linguistic analysis of context issues. To the best of our knowledge, this is the first corpus of its kind.</abstract>
+      <url hash="eda6418a">2021.wmt-1.63</url>
+      <bibkey>castilho-etal-2021-dela</bibkey>
+    </paper>
+    <paper id="66">
+      <title>Improving <a href="https://en.wikipedia.org/wiki/Machine_translation">Machine Translation</a> of Rare and Unseen Word Senses</title>
+      <author><first>Viktor</first><last>Hangya</last></author>
+      <author><first>Qianchu</first><last>Liu</last></author>
+      <author><first>Dario</first><last>Stojanovski</last></author>
+      <author><first>Alexander</first><last>Fraser</last></author>
+      <author><first>Anna</first><last>Korhonen</last></author>
+      <pages>614–624</pages>
+      <abstract>The performance of NMT systems has improved drastically in the past few years but the translation of multi-sense words still poses a challenge. Since word senses are not represented uniformly in the <a href="https://en.wikipedia.org/wiki/Parallel_text">parallel corpora</a> used for training, there is an excessive use of the most frequent sense in MT output. In this work, we propose CmBT (Contextually-mined Back-Translation), an approach for improving multi-sense word translation leveraging pre-trained cross-lingual contextual word representations (CCWRs). Because of their contextual sensitivity and their large <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">pre-training data</a>, CCWRs can easily capture <a href="https://en.wikipedia.org/wiki/Word_sense">word senses</a> that are missing or very rare in <a href="https://en.wikipedia.org/wiki/Parallel_text">parallel corpora</a> used to train MT. Specifically, CmBT applies bilingual lexicon induction on CCWRs to mine sense-specific target sentences from a monolingual dataset, and then back-translates these sentences to generate a pseudo parallel corpus as additional training data for an MT system. We test the translation quality of ambiguous words on the MuCoW test suite, which was built to test the <a href="https://en.wikipedia.org/wiki/Word-sense_disambiguation">word sense disambiguation</a> effectiveness of MT systems. We show that our <a href="https://en.wikipedia.org/wiki/System">system</a> improves on the translation of difficult unseen and low frequency word senses.</abstract>
+      <url hash="3fd0bb62">2021.wmt-1.66</url>
+      <bibkey>hangya-etal-2021-improving</bibkey>
+    </paper>
+    <paper id="71">
+      <title>Findings of the WMT 2021 Shared Task on Quality Estimation<fixed-case>WMT</fixed-case> 2021 Shared Task on Quality Estimation</title>
+      <author><first>Lucia</first><last>Specia</last></author>
+      <author><first>Frédéric</first><last>Blain</last></author>
+      <author><first>Marina</first><last>Fomicheva</last></author>
+      <author><first>Chrysoula</first><last>Zerva</last></author>
+      <author><first>Zhenhao</first><last>Li</last></author>
+      <author><first>Vishrav</first><last>Chaudhary</last></author>
+      <author><first>André F. T.</first><last>Martins</last></author>
+      <pages>684–725</pages>
+      <abstract>We report the results of the WMT 2021 shared task on Quality Estimation, where the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels. This edition focused on two main novel additions : (i) <a href="https://en.wikipedia.org/wiki/Prediction">prediction</a> for unseen languages, i.e. zero-shot settings, and (ii) prediction of sentences with catastrophic errors. In addition, new <a href="https://en.wikipedia.org/wiki/Data_(computing)">data</a> was released for a number of languages, especially post-edited data. Participating teams from 19 institutions submitted altogether 1263 <a href="https://en.wikipedia.org/wiki/System">systems</a> to different task variants and language pairs.</abstract>
+      <url hash="607328ce">2021.wmt-1.71</url>
+      <bibkey>specia-etal-2021-findings</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/mlqe-pe">MLQE-PE</pwcdataset>
+    </paper>
+    <paper id="74">
+      <title>Efficient <a href="https://en.wikipedia.org/wiki/Machine_translation">Machine Translation</a> with Model Pruning and Quantization</title>
+      <author><first>Maximiliana</first><last>Behnke</last></author>
+      <author><first>Nikolay</first><last>Bogoychev</last></author>
+      <author><first>Alham Fikri</first><last>Aji</last></author>
+      <author><first>Kenneth</first><last>Heafield</last></author>
+      <author><first>Graeme</first><last>Nail</last></author>
+      <author><first>Qianqian</first><last>Zhu</last></author>
+      <author><first>Svetlana</first><last>Tchistiakova</last></author>
+      <author><first>Jelmer</first><last>van der Linde</last></author>
+      <author><first>Pinzhen</first><last>Chen</last></author>
+      <author><first>Sidharth</first><last>Kashyap</last></author>
+      <author><first>Roman</first><last>Grundkiewicz</last></author>
+      <pages>775–780</pages>
+      <abstract>We participated in all tracks of the WMT 2021 efficient machine translation task : <a href="https://en.wikipedia.org/wiki/Single-core">single-core CPU</a>, <a href="https://en.wikipedia.org/wiki/Multi-core_processor">multi-core CPU</a>, and <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPU hardware</a> with throughput and latency conditions. Our submissions combine several efficiency strategies : knowledge distillation, a simpler simple recurrent unit (SSRU) decoder with one or two layers, lexical shortlists, smaller numerical formats, and pruning. For the CPU track, we used <a href="https://en.wikipedia.org/wiki/Quantization_(signal_processing)">quantized 8-bit models</a>. For the GPU track, we experimented with <a href="https://en.wikipedia.org/wiki/FP16">FP16</a> and 8-bit integers in tensorcores. Some of our submissions optimize for size via 4-bit log quantization and omitting a <a href="https://en.wikipedia.org/wiki/Lexical_analysis">lexical shortlist</a>. We have extended pruning to more parts of the network, emphasizing component- and block-level pruning that actually improves speed unlike coefficient-wise pruning.</abstract>
+      <url hash="0e3e5b60">2021.wmt-1.74</url>
+      <bibkey>behnke-etal-2021-efficient</bibkey>
+    </paper>
+    <paper id="78">
+      <title>Lingua Custodia’s Participation at the WMT 2021 Machine Translation Using Terminologies Shared Task<fixed-case>WMT</fixed-case> 2021 Machine Translation Using Terminologies Shared Task</title>
+      <author><first>Melissa</first><last>Ailem</last></author>
+      <author><first>Jingshu</first><last>Liu</last></author>
+      <author><first>Raheel</first><last>Qader</last></author>
+      <pages>799–803</pages>
+      <abstract>This paper describes Lingua Custodia’s submission to the WMT21 shared task on <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a> using <a href="https://en.wikipedia.org/wiki/Terminology">terminologies</a>. We consider three directions, namely <a href="https://en.wikipedia.org/wiki/English_language">English</a> to <a href="https://en.wikipedia.org/wiki/French_language">French</a>, <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a>, and <a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a>. We rely on a Transformer-based architecture as a building block, and we explore a method which introduces two main changes to the standard procedure to handle terminologies. The first one consists in augmenting the training data in such a way as to encourage the <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> to learn a copy behavior when it encounters terminology constraint terms. The second change is constraint token masking, whose purpose is to ease copy behavior learning and to improve model generalization. Empirical results show that our method satisfies most terminology constraints while maintaining high translation quality.</abstract>
+      <url hash="1c3e72ff">2021.wmt-1.78</url>
+      <bibkey>ailem-etal-2021-lingua</bibkey>
+    </paper>
+    <paper id="79">
+      <title>Kakao Enterprise’s WMT21 Machine Translation Using Terminologies Task Submission<fixed-case>WMT</fixed-case>21 Machine Translation Using Terminologies Task Submission</title>
+      <author><first>Yunju</first><last>Bak</last></author>
+      <author><first>Jimin</first><last>Sun</last></author>
+      <author><first>Jay</first><last>Kim</last></author>
+      <author><first>Sungwon</first><last>Lyu</last></author>
+      <author><first>Changmin</first><last>Lee</last></author>
+      <pages>804–812</pages>
+      <abstract>This paper describes Kakao Enterprise’s submission to the WMT21 shared Machine Translation using Terminologies task. We integrate terminology constraints by pre-training with target lemma annotations and fine-tuning with exact target annotations utilizing the given terminology dataset. This approach yields a model that achieves outstanding results in terms of both translation quality and term consistency, ranking first based on COMET in the EnFr language direction. Furthermore, we explore various methods such as <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a>, explicitly training <a href="https://en.wikipedia.org/wiki/Terminology">terminologies</a> as additional parallel data, and in-domain data selection.</abstract>
+      <url hash="ddbe79c1">2021.wmt-1.79</url>
+      <bibkey>bak-etal-2021-kakao</bibkey>
+    </paper>
+    <paper id="80">
+      <title>The SPECTRANS System Description for the WMT21 Terminology Task<fixed-case>SPECTRANS</fixed-case> System Description for the <fixed-case>WMT</fixed-case>21 Terminology Task</title>
+      <author><first>Nicolas</first><last>Ballier</last></author>
+      <author><first>Dahn</first><last>Cho</last></author>
+      <author><first>Bilal</first><last>Faye</last></author>
+      <author><first>Zong-You</first><last>Ke</last></author>
+      <author><first>Hanna</first><last>Martikainen</last></author>
+      <author><first>Mojca</first><last>Pecman</last></author>
+      <author><first>Guillaume</first><last>Wisniewski</last></author>
+      <author><first>Jean-Baptiste</first><last>Yunès</last></author>
+      <author><first>Lichao</first><last>Zhu</last></author>
+      <author><first>Maria</first><last>Zimina-Poirot</last></author>
+      <pages>813–820</pages>
+      <abstract>This paper discusses the WMT 2021 terminology shared task from a meta perspective. We present the results of our experiments using the terminology dataset and the OpenNMT (Klein et al., 2017) and JoeyNMT (Kreutzer et al., 2019) toolkits for the language direction English to French. Our experiment 1 compares the predictions of the two <a href="https://en.wikipedia.org/wiki/Widget_toolkit">toolkits</a>. Experiment 2 uses OpenNMT to fine-tune the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a>. We report our results for the <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a> with the evaluation script but mostly discuss the linguistic properties of the terminology dataset provided for the <a href="https://en.wikipedia.org/wiki/Task_(project_management)">task</a>. We provide evidence of the importance of text genres across scores, having replicated the evaluation scripts.</abstract>
+      <url hash="e8ce4e4a">2021.wmt-1.80</url>
+      <bibkey>ballier-etal-2021-spectrans</bibkey>
+    </paper>
+    <paper id="81">
+      <title>Dynamic Terminology Integration for COVID-19 and Other Emerging Domains<fixed-case>COVID</fixed-case>-19 and Other Emerging Domains</title>
+      <author><first>Toms</first><last>Bergmanis</last></author>
+      <author><first>Mārcis</first><last>Pinnis</last></author>
+      <pages>821–827</pages>
+      <abstract>The majority of <a href="https://en.wikipedia.org/wiki/Domain_of_discourse">language domains</a> require prudent use of terminology to ensure clarity and adequacy of information conveyed. While the correct use of terminology for some languages and domains can be achieved by adapting general-purpose MT systems on large volumes of in-domain parallel data, such quantities of domain-specific data are seldom available for less-resourced languages and niche domains. Furthermore, as exemplified by COVID-19 recently, no domain-specific parallel data is readily available for emerging domains. However, the gravity of this recent calamity created a high demand for reliable translation of critical information regarding pandemic and infection prevention. This work is part of WMT2021 Shared Task : <a href="https://en.wikipedia.org/wiki/Machine_translation">Machine Translation</a> using Terminologies, where we describe Tilde MT systems that are capable of dynamic terminology integration at the time of translation. Our systems achieve up to 94 % COVID-19 term use accuracy on the test set of the EN-FR language pair without having access to any form of in-domain information during system training.</abstract>
+      <url hash="15d5f494">2021.wmt-1.81</url>
+      <bibkey>bergmanis-pinnis-2021-dynamic</bibkey>
+    </paper>
+    <paper id="82">
+      <title>CUNI Systems for WMT21 : Terminology Translation Shared Task<fixed-case>CUNI</fixed-case> Systems for <fixed-case>WMT</fixed-case>21: Terminology Translation Shared Task</title>
+      <author><first>Josef</first><last>Jon</last></author>
+      <author><first>Michal</first><last>Novák</last></author>
+      <author><first>João Paulo</first><last>Aires</last></author>
+      <author><first>Dusan</first><last>Varis</last></author>
+      <author><first>Ondřej</first><last>Bojar</last></author>
+      <pages>828–834</pages>
+      <abstract>This paper describes Charles University sub-mission for Terminology translation Shared Task at WMT21. The objective of this task is to design a <a href="https://en.wikipedia.org/wiki/System">system</a> which translates certain terms based on a provided <a href="https://en.wikipedia.org/wiki/Terminology_database">terminology database</a>, while preserving high overall translation quality. We competed in English-French language pair. Our approach is based on providing the desired translations alongside the input sentence and training the <a href="https://en.wikipedia.org/wiki/Statistical_model">model</a> to use these provided terms. We lemmatize the terms both during the <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets">training</a> and inference, to allow the model to learn how to produce correct surface forms of the words, when they differ from the forms provided in the <a href="https://en.wikipedia.org/wiki/Terminology_database">terminology database</a>. Our submission ranked second in Exact Match metric which evaluates the ability of the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> to produce desired terms in the translation.</abstract>
+      <url hash="e5310f19">2021.wmt-1.82</url>
+      <bibkey>jon-etal-2021-cuni-systems</bibkey>
+    </paper>
+    <paper id="83">
+      <title>PROMT Systems for WMT21 Terminology Translation Task<fixed-case>PROMT</fixed-case> Systems for <fixed-case>WMT</fixed-case>21 Terminology Translation Task</title>
+      <author><first>Alexander</first><last>Molchanov</last></author>
+      <author><first>Vladislav</first><last>Kovalenko</last></author>
+      <author><first>Fedor</first><last>Bykov</last></author>
+      <pages>835–841</pages>
+      <abstract>This paper describes the PROMT submissions for the WMT21 Terminology Translation Task. We participate in two directions : <a href="https://en.wikipedia.org/wiki/English_language">English</a> to <a href="https://en.wikipedia.org/wiki/French_language">French</a> and <a href="https://en.wikipedia.org/wiki/English_language">English</a> to <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a>. Our final submissions are MarianNMT-based neural systems. We present two <a href="https://en.wikipedia.org/wiki/Technology">technologies</a> for terminology translation : a modification of the Dinu et al. (2019) soft-constrained approach and our own approach called PROMT Smart Neural Dictionary (SmartND). We achieve good results in both directions.</abstract>
+      <url hash="b600cdb6">2021.wmt-1.83</url>
+      <bibkey>molchanov-etal-2021-promt</bibkey>
+    </paper>
+    <paper id="84">
+      <title>SYSTRAN @ WMT 2021 : Terminology Task<fixed-case>SYSTRAN</fixed-case> @ <fixed-case>WMT</fixed-case> 2021: Terminology Task</title>
+      <author><first>Minh Quang</first><last>Pham</last></author>
+      <author><first>Josep</first><last>Crego</last></author>
+      <author><first>Antoine</first><last>Senellart</last></author>
+      <author><first>Dan</first><last>Berrebbi</last></author>
+      <author><first>Jean</first><last>Senellart</last></author>
+      <pages>842–850</pages>
+      <abstract>This paper describes SYSTRAN submissions to the WMT 2021 terminology shared task. We participate in the English-to-French translation direction with a standard Transformer neural machine translation network that we enhance with the ability to dynamically include terminology constraints, a very common industrial practice. Two state-of-the-art terminology insertion methods are evaluated based (i) on the use of placeholders complemented with morphosyntactic annotation and (ii) on the use of target constraints injected in the source stream. Results show the suitability of the presented approaches in the evaluated scenario where <a href="https://en.wikipedia.org/wiki/Terminology">terminology</a> is used in a <a href="https://en.wikipedia.org/wiki/System">system</a> trained on generic data only.</abstract>
+      <url hash="045ee97a">2021.wmt-1.84</url>
+      <bibkey>pham-etal-2021-systran</bibkey>
+    </paper>
+    <paper id="85">
+      <title>TermMind : Alibaba’s WMT21 Machine Translation Using Terminologies Task Submission<fixed-case>T</fixed-case>erm<fixed-case>M</fixed-case>ind: <fixed-case>A</fixed-case>libaba’s <fixed-case>WMT</fixed-case>21 Machine Translation Using Terminologies Task Submission</title>
+      <author><first>Ke</first><last>Wang</last></author>
+      <author><first>Shuqin</first><last>Gu</last></author>
+      <author><first>Boxing</first><last>Chen</last></author>
+      <author><first>Yu</first><last>Zhao</last></author>
+      <author><first>Weihua</first><last>Luo</last></author>
+      <author><first>Yuqi</first><last>Zhang</last></author>
+      <pages>851–856</pages>
+      <abstract>This paper describes our work in the WMT 2021 Machine Translation using Terminologies Shared Task. We participate in the shared translation terminologies task in English to Chinese language pair. To satisfy terminology constraints on <a href="https://en.wikipedia.org/wiki/Translation">translation</a>, we use a terminology data augmentation strategy based on Transformer model. We used <a href="https://en.wikipedia.org/wiki/Tag_(metadata)">tags</a> to mark and add the term translations into the matched sentences. We created synthetic terms using phrase tables extracted from bilingual corpus to increase the proportion of term translations in training data. Detailed pre-processing and filtering on data, in-domain finetuning and <a href="https://en.wikipedia.org/wiki/Ensemble_learning">ensemble method</a> are used in our system. Our submission obtains competitive results in the terminology-targeted evaluation.</abstract>
+      <url hash="6dc50e9f">2021.wmt-1.85</url>
+      <bibkey>wang-etal-2021-termmind</bibkey>
+    </paper>
+    <paper id="86">
+      <title>FJWU Participation for the WMT21 Biomedical Translation Task<fixed-case>FJWU</fixed-case> Participation for the <fixed-case>WMT</fixed-case>21 Biomedical Translation Task</title>
+      <author><first>Sumbal</first><last>Naz</last></author>
+      <author><first>Sadaf</first><last>Abdul Rauf</last></author>
+      <author><first>Sami Ul</first><last>Haq</last></author>
+      <pages>857–862</pages>
+      <abstract>In this paper we present the FJWU’s system submitted to the biomedical shared task at WMT21. We prepared state-of-the-art multilingual neural machine translation systems for three languages (i.e. German, <a href="https://en.wikipedia.org/wiki/Spanish_language">Spanish</a> and <a href="https://en.wikipedia.org/wiki/French_language">French</a>) with <a href="https://en.wikipedia.org/wiki/English_language">English</a> as target language. Our NMT systems based on Transformer architecture, were trained on combination of in-domain and out-domain parallel corpora developed using Information Retrieval (IR) and domain adaptation techniques.</abstract>
+      <url hash="178e9f87">2021.wmt-1.86</url>
+      <bibkey>naz-etal-2021-fjwu</bibkey>
+    </paper>
+    <paper id="88">
+      <title>Huawei AARC’s Submissions to the WMT21 Biomedical Translation Task : Domain Adaption from a Practical Perspective<fixed-case>AARC</fixed-case>’s Submissions to the <fixed-case>WMT</fixed-case>21 Biomedical Translation Task: Domain Adaption from a Practical Perspective</title>
+      <author><first>Weixuan</first><last>Wang</last></author>
+      <author><first>Wei</first><last>Peng</last></author>
+      <author><first>Xupeng</first><last>Meng</last></author>
+      <author><first>Qun</first><last>Liu</last></author>
+      <pages>868–873</pages>
+      <abstract>This paper describes Huawei Artificial Intelligence Application Research Center’s neural machine translation systems and submissions to the WMT21 biomedical translation shared task. Four of the submissions achieve state-of-the-art BLEU scores based on the official-released automatic evaluation results (EN-FR, EN-IT and ZH-EN). We perform experiments to unveil the practical insights of the involved domain adaptation techniques, including finetuning order, terminology dictionaries, and ensemble decoding. Issues associated with <a href="https://en.wikipedia.org/wiki/Overfitting">overfitting</a> and under-translation are also discussed.</abstract>
+      <url hash="314adefa">2021.wmt-1.88</url>
+      <bibkey>wang-etal-2021-huawei</bibkey>
+    </paper>
+    <paper id="92">
+      <title>HW-TSC’s Participation at WMT 2021 Quality Estimation Shared Task<fixed-case>HW</fixed-case>-<fixed-case>TSC</fixed-case>’s Participation at <fixed-case>WMT</fixed-case> 2021 Quality Estimation Shared Task</title>
+      <author><first>Yimeng</first><last>Chen</last></author>
+      <author><first>Chang</first><last>Su</last></author>
+      <author><first>Yingtao</first><last>Zhang</last></author>
+      <author><first>Yuxia</first><last>Wang</last></author>
+      <author><first>Xiang</first><last>Geng</last></author>
+      <author><first>Hao</first><last>Yang</last></author>
+      <author><first>Shimin</first><last>Tao</last></author>
+      <author><first>Guo</first><last>Jiaxin</last></author>
+      <author><first>Wang</first><last>Minghan</last></author>
+      <author><first>Min</first><last>Zhang</last></author>
+      <author><first>Yujia</first><last>Liu</last></author>
+      <author><first>Shujian</first><last>Huang</last></author>
+      <pages>890–896</pages>
+      <abstract>This paper presents our work in WMT 2021 Quality Estimation (QE) Shared Task. We participated in all of the three sub-tasks, including Sentence-Level Direct Assessment (DA) task, Word and Sentence-Level Post-editing Effort task and Critical Error Detection task, in all language pairs. Our systems employ the framework of Predictor-Estimator, concretely with a pre-trained XLM-Roberta as Predictor and task-specific classifier or regressor as Estimator. For all tasks, we improve our systems by incorporating post-edit sentence or additional high-quality translation sentence in the way of <a href="https://en.wikipedia.org/wiki/Multitask_learning">multitask learning</a> or encoding it with predictors directly. Moreover, in zero-shot setting, our data augmentation strategy based on Monte-Carlo Dropout brings up significant improvement on DA sub-task. Notably, our submissions achieve remarkable results over all <a href="https://en.wikipedia.org/wiki/Task_(project_management)">tasks</a>.</abstract>
+      <url hash="e68ee202">2021.wmt-1.92</url>
+      <bibkey>chen-etal-2021-hw</bibkey>
+    </paper>
+    <paper id="94">
+      <title>The JHU-Microsoft Submission for WMT21 Quality Estimation Shared Task<fixed-case>JHU</fixed-case>-<fixed-case>M</fixed-case>icrosoft Submission for <fixed-case>WMT</fixed-case>21 Quality Estimation Shared Task</title>
+      <author><first>Shuoyang</first><last>Ding</last></author>
+      <author><first>Marcin</first><last>Junczys-Dowmunt</last></author>
+      <author><first>Matt</first><last>Post</last></author>
+      <author><first>Christian</first><last>Federmann</last></author>
+      <author><first>Philipp</first><last>Koehn</last></author>
+      <pages>904–910</pages>
+      <abstract>This paper presents the JHU-Microsoft joint submission for WMT 2021 quality estimation shared task. We only participate in Task 2 (post-editing effort estimation) of the shared task, focusing on the target-side word-level quality estimation. The techniques we experimented with include Levenshtein Transformer training and <a href="https://en.wikipedia.org/wiki/Data_augmentation">data augmentation</a> with a combination of forward, backward, round-trip translation, and pseudo post-editing of the MT output. We demonstrate the competitiveness of our <a href="https://en.wikipedia.org/wiki/System">system</a> compared to the widely adopted OpenKiwi-XLM baseline. Our <a href="https://en.wikipedia.org/wiki/System">system</a> is also the top-ranking system on the MT MCC metric for the English-German language pair.</abstract>
+      <url hash="81d0cec7">2021.wmt-1.94</url>
+      <bibkey>ding-etal-2021-jhu</bibkey>
+    </paper>
+    <paper id="98">
+      <title>Papago’s Submission for the WMT21 Quality Estimation Shared Task<fixed-case>WMT</fixed-case>21 Quality Estimation Shared Task</title>
+      <author><first>Seunghyun</first><last>Lim</last></author>
+      <author><first>Hantae</first><last>Kim</last></author>
+      <author><first>Hyunjoong</first><last>Kim</last></author>
+      <pages>935–940</pages>
+      <abstract>This paper describes Papago submission to the WMT 2021 Quality Estimation Task 1 : Sentence-level Direct Assessment. Our multilingual Quality Estimation system explores the combination of Pretrained Language Models and Multi-task Learning architectures. We propose an iterative training pipeline based on pretraining with large amounts of in-domain synthetic data and <a href="https://en.wikipedia.org/wiki/Finetuning">finetuning</a> with gold (labeled) data. We then compress our <a href="https://en.wikipedia.org/wiki/System">system</a> via knowledge distillation in order to reduce parameters yet maintain strong performance. Our submitted multilingual systems perform competitively in multilingual and all 11 individual language pair settings including zero-shot.</abstract>
+      <url hash="94c87f95">2021.wmt-1.98</url>
+      <bibkey>lim-etal-2021-papagos</bibkey>
+    </paper>
+    <paper id="99">
+      <title>NICT Kyoto Submission for the WMT’21 Quality Estimation Task : Multimetric Multilingual Pretraining for Critical Error Detection<fixed-case>NICT</fixed-case> <fixed-case>K</fixed-case>yoto Submission for the <fixed-case>WMT</fixed-case>’21 Quality Estimation Task: Multimetric Multilingual Pretraining for Critical Error Detection</title>
+      <author><first>Raphael</first><last>Rubino</last></author>
+      <author><first>Atsushi</first><last>Fujita</last></author>
+      <author><first>Benjamin</first><last>Marie</last></author>
+      <pages>941–947</pages>
+      <abstract>This paper presents the NICT Kyoto submission for the WMT’21 Quality Estimation (QE) Critical Error Detection shared task (Task 3). Our approach relies mainly on QE model pretraining for which we used 11 language pairs, three sentence-level and three word-level translation quality metrics. Starting from an XLM-R checkpoint, we perform continued training by modifying the learning objective, switching from masked language modeling to QE oriented signals, before finetuning and ensembling the models. Results obtained on the test set in terms of <a href="https://en.wikipedia.org/wiki/Correlation_coefficient">correlation coefficient</a> and <a href="https://en.wikipedia.org/wiki/F-score">F-score</a> show that automatic metrics and synthetic data perform well for pretraining, with our submissions ranked first for two out of four language pairs. A deeper look at the impact of each metric on the downstream task indicates higher performance for token oriented metrics, while an ablation study emphasizes the usefulness of conducting both self-supervised and QE pretraining.</abstract>
+      <url hash="2f6549e8">2021.wmt-1.99</url>
+      <bibkey>rubino-etal-2021-nict</bibkey>
+    </paper>
+    <paper id="101">
+      <title>Direct Exploitation of Attention Weights for Translation Quality Estimation</title>
+      <author><first>Lisa</first><last>Yankovskaya</last></author>
+      <author><first>Mark</first><last>Fishel</last></author>
+      <pages>955–960</pages>
+      <abstract>The paper presents our submission to the WMT2021 Shared Task on Quality Estimation (QE). We participate in sentence-level predictions of human judgments and post-editing effort. We propose a glass-box approach based on attention weights extracted from <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation systems</a>. In contrast to the previous works, we directly explore attention weight matrices without replacing them with general metrics (like entropy). We show that some of our <a href="https://en.wikipedia.org/wiki/Statistical_model">models</a> can be trained with a small amount of a high-cost labelled data. In the absence of training data our approach still demonstrates a moderate linear correlation, when trained with synthetic data.</abstract>
+      <url hash="56444691">2021.wmt-1.101</url>
+      <bibkey>yankovskaya-fishel-2021-direct</bibkey>
+    </paper>
+    <paper id="102">
+      <title>IST-Unbabel 2021 Submission for the Quality Estimation Shared Task<fixed-case>IST</fixed-case>-Unbabel 2021 Submission for the Quality Estimation Shared Task</title>
+      <author><first>Chrysoula</first><last>Zerva</last></author>
+      <author><first>Daan</first><last>van Stigt</last></author>
+      <author><first>Ricardo</first><last>Rei</last></author>
+      <author><first>Ana C</first><last>Farinha</last></author>
+      <author><first>Pedro</first><last>Ramos</last></author>
+      <author><first>José G.</first><last>C. de Souza</last></author>
+      <author><first>Taisiya</first><last>Glushkova</last></author>
+      <author><first>Miguel</first><last>Vera</last></author>
+      <author><first>Fabio</first><last>Kepler</last></author>
+      <author><first>André F. T.</first><last>Martins</last></author>
+      <pages>961–972</pages>
+      <abstract>We present the joint contribution of IST and Unbabel to the WMT 2021 Shared Task on Quality Estimation. Our team participated on two tasks : Direct Assessment and Post-Editing Effort, encompassing a total of 35 submissions. For all submissions, our efforts focused on training multilingual models on top of OpenKiwi predictor-estimator architecture, using pre-trained multilingual encoders combined with adapters. We further experiment with and uncertainty-related objectives and features as well as training on out-of-domain direct assessment data.</abstract>
+      <url hash="7e30fbd5">2021.wmt-1.102</url>
+      <bibkey>zerva-etal-2021-ist</bibkey>
+    </paper>
+    <paper id="103">
+      <title>The IICT-Yverdon System for the WMT 2021 Unsupervised MT and Very Low Resource Supervised MT Task<fixed-case>IICT</fixed-case>-Yverdon System for the <fixed-case>WMT</fixed-case> 2021 Unsupervised <fixed-case>MT</fixed-case> and Very Low Resource Supervised <fixed-case>MT</fixed-case> Task</title>
+      <author><first>Àlex R.</first><last>Atrio</last></author>
+      <author><first>Gabriel</first><last>Luthier</last></author>
+      <author><first>Axel</first><last>Fahy</last></author>
+      <author><first>Giorgos</first><last>Vernikos</last></author>
+      <author><first>Andrei</first><last>Popescu-Belis</last></author>
+      <author><first>Ljiljana</first><last>Dolamic</last></author>
+      <pages>973–981</pages>
+      <abstract>In this paper, we present the systems submitted by our team from the Institute of ICT (HEIG-VD / HES-SO) to the Unsupervised MT and Very Low Resource Supervised MT task. We first study the improvements brought to a <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baseline system</a> by techniques such as <a href="https://en.wikipedia.org/wiki/Back-translation">back-translation</a> and initialization from a parent model. We find that both techniques are beneficial and suffice to reach performance that compares with more sophisticated <a href="https://en.wikipedia.org/wiki/System">systems</a> from the 2020 task. We then present the application of this system to the 2021 task for low-resource supervised Upper Sorbian (HSB) to German translation, in both directions. Finally, we present a contrastive system for HSB-DE in both directions, and for unsupervised German to Lower Sorbian (DSB) translation, which uses multi-task training with various training schedules to improve over the baseline.</abstract>
+      <url hash="e1e21724">2021.wmt-1.103</url>
+      <bibkey>atrio-etal-2021-iict</bibkey>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2020">WMT 2020</pwcdataset>
+    </paper>
+    <paper id="105">
+      <title>The <a href="https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich">LMU Munich Systems</a> for the WMT21 Unsupervised and Very Low-Resource Translation Task<fixed-case>LMU</fixed-case> <fixed-case>M</fixed-case>unich Systems for the <fixed-case>WMT</fixed-case>21 Unsupervised and Very Low-Resource Translation Task</title>
+      <author><first>Jindřich</first><last>Libovický</last></author>
+      <author><first>Alexander</first><last>Fraser</last></author>
+      <pages>989–994</pages>
+      <abstract>We present our submissions to the WMT21 shared task in Unsupervised and Very Low Resource machine translation between <a href="https://en.wikipedia.org/wiki/German_language">German</a> and Upper Sorbian, <a href="https://en.wikipedia.org/wiki/German_language">German and Lower Sorbian</a>, and <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a> and <a href="https://en.wikipedia.org/wiki/Chuvash_language">Chuvash</a>. Our low-resource systems (GermanUpper Sorbian, RussianChuvash) are pre-trained on high-resource pairs of related languages. We fine-tune those systems using the available authentic parallel data and improve by iterated back-translation. The unsupervised GermanLower Sorbian system is initialized by the best Upper Sorbian system and improved by iterated back-translation using monolingual data only.</abstract>
+      <url hash="a3e9bd63">2021.wmt-1.105</url>
+      <bibkey>libovicky-fraser-2021-lmu</bibkey>
+    </paper>
+    <paper id="109">
+      <title>cushLEPOR : customising hLEPOR metric using Optuna for higher agreement with human judgments or pre-trained language model LaBSE<fixed-case>LEPOR</fixed-case>: customising h<fixed-case>LEPOR</fixed-case> metric using Optuna for higher agreement with human judgments or pre-trained language model <fixed-case>L</fixed-case>a<fixed-case>BSE</fixed-case></title>
+      <author><first>Lifeng</first><last>Han</last></author>
+      <author><first>Irina</first><last>Sorokina</last></author>
+      <author><first>Gleb</first><last>Erofeev</last></author>
+      <author><first>Serge</first><last>Gladkoff</last></author>
+      <pages>1014–1023</pages>
+      <abstract>Human evaluation has always been expensive while researchers struggle to trust the <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">automatic metrics</a>. To address this, we propose to customise traditional <a href="https://en.wikipedia.org/wiki/Metric_(mathematics)">metrics</a> by taking advantages of the pre-trained language models (PLMs) and the limited available human labelled scores. We first re-introduce the hLEPOR metric factors, followed by the Python version we developed (ported) which achieved the automatic tuning of the weighting parameters in hLEPOR metric. Then we present the customised hLEPOR (cushLEPOR) which uses Optuna hyper-parameter optimisation framework to fine-tune hLEPOR weighting parameters towards better agreement to pre-trained language models (using LaBSE) regarding the exact MT language pairs that cushLEPOR is deployed to. We also optimise cushLEPOR towards professional human evaluation data based on MQM and pSQM framework on English-German and Chinese-English language pairs. The experimental investigations show cushLEPOR boosts hLEPOR performances towards better agreements to PLMs like LABSE with much lower cost, and better agreements to human evaluations including MQM and pSQM scores, and yields much better performances than <a href="https://en.wikipedia.org/wiki/BLEU">BLEU</a>. Official results show that our submissions win three language pairs including English-German and Chinese-English on News domain via cushLEPOR(LM) and English-Russian on TED domain via hLEPOR. (data available at https://github.com/poethan/cushLEPOR)</abstract>
+      <url hash="83648184">2021.wmt-1.109</url>
+      <attachment type="Software" hash="92ea3580">2021.wmt-1.109.Software.zip</attachment>
+      <bibkey>han-etal-2021-cushlepor</bibkey>
+      <pwccode url="https://github.com/poethan/cushLEPOR" additional="false">poethan/cushLEPOR</pwccode>
+      <pwcdataset url="https://paperswithcode.com/dataset/wmt-2020">WMT 2020</pwcdataset>
+    </paper>
+    <paper id="110">
+      <title>MTEQA at WMT21 Metrics Shared Task<fixed-case>MTEQA</fixed-case> at <fixed-case>WMT</fixed-case>21 Metrics Shared Task</title>
+      <author><first>Mateusz</first><last>Krubiński</last></author>
+      <author><first>Erfan</first><last>Ghadery</last></author>
+      <author><first>Marie-Francine</first><last>Moens</last></author>
+      <author><first>Pavel</first><last>Pecina</last></author>
+      <pages>1024–1029</pages>
+      <abstract>In this paper, we describe our submission to the WMT 2021 Metrics Shared Task. We use the automatically-generated questions and answers to evaluate the quality of Machine Translation (MT) systems. Our submission builds upon the recently proposed MTEQA framework. Experiments on WMT20 evaluation datasets show that at the system-level the MTEQA metric achieves performance comparable with other state-of-the-art solutions, while considering only a certain amount of information from the whole translation.</abstract>
+      <url hash="c11c991b">2021.wmt-1.110</url>
+      <bibkey>krubinski-etal-2021-mteqa</bibkey>
+    </paper>
+    <paper id="111">
+      <title>Are References Really Needed? Unbabel-IST 2021 Submission for the Metrics Shared Task<fixed-case>IST</fixed-case> 2021 Submission for the Metrics Shared Task</title>
+      <author><first>Ricardo</first><last>Rei</last></author>
+      <author><first>Ana C</first><last>Farinha</last></author>
+      <author><first>Chrysoula</first><last>Zerva</last></author>
+      <author><first>Daan</first><last>van Stigt</last></author>
+      <author><first>Craig</first><last>Stewart</last></author>
+      <author><first>Pedro</first><last>Ramos</last></author>
+      <author><first>Taisiya</first><last>Glushkova</last></author>
+      <author><first>André F. T.</first><last>Martins</last></author>
+      <author><first>Alon</first><last>Lavie</last></author>
+      <pages>1030–1040</pages>
+      <abstract>In this paper, we present the joint contribution of Unbabel and IST to the WMT 2021 Metrics Shared Task. With this year’s focus on Multidimensional Quality Metric (MQM) as the ground-truth human assessment, our aim was to steer COMET towards higher correlations with MQM. We do so by first pre-training on Direct Assessments and then fine-tuning on z-normalized MQM scores. In our experiments we also show that reference-free COMET models are becoming competitive with reference-based models, even outperforming the best COMET model from 2020 on this year’s development data. Additionally, we present COMETinho, a lightweight COMET model that is 19x faster on <a href="https://en.wikipedia.org/wiki/Central_processing_unit">CPU</a> than the original model, while also achieving state-of-the-art correlations with <a href="https://en.wikipedia.org/wiki/MQM">MQM</a>. Finally, in the <a href="https://en.wikipedia.org/wiki/Quantum_electrodynamics">QE</a> as a metric track, we also participated with a <a href="https://en.wikipedia.org/wiki/Quantum_electrodynamics">QE model</a> trained using the OpenKiwi framework leveraging MQM scores and word-level annotations.</abstract>
+      <url hash="f4b2bcd4">2021.wmt-1.111</url>
+      <bibkey>rei-etal-2021-references</bibkey>
+      <pwccode url="https://github.com/Unbabel/COMET" additional="false">Unbabel/COMET</pwccode>
+    </paper>
+    <paper id="120">
+      <title>Simultaneous Neural Machine Translation with Constituent Label Prediction</title>
+      <author><first>Yasumasa</first><last>Kano</last></author>
+      <author><first>Katsuhito</first><last>Sudoh</last></author>
+      <author><first>Satoshi</first><last>Nakamura</last></author>
+      <pages>1124–1134</pages>
+      <abstract>Simultaneous translation is a task in which <a href="https://en.wikipedia.org/wiki/Translation">translation</a> begins before the speaker has finished speaking, so it is important to decide when to start the <a href="https://en.wikipedia.org/wiki/Translation">translation process</a>. However, deciding whether to read more input words or start to translate is difficult for language pairs with different word orders such as <a href="https://en.wikipedia.org/wiki/English_language">English</a> and <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a>. Motivated by the concept of pre-reordering, we propose a couple of simple decision rules using the label of the next constituent predicted by incremental constituent label prediction. In experiments on English-to-Japanese simultaneous translation, the proposed method outperformed <a href="https://en.wikipedia.org/wiki/Baseline_(configuration_management)">baselines</a> in the <a href="https://en.wikipedia.org/wiki/Latency_(engineering)">quality-latency trade-off</a>.</abstract>
+      <url hash="bf9001e2">2021.wmt-1.120</url>
+      <bibkey>kano-etal-2021-simultaneous</bibkey>
+    <title_ar>الترجمة الآلية العصبية المتزامنة مع التنبؤ بالتسمية التأسيسية</title_ar>
+      <title_es>Traducción automática neuronal simultánea con predicción de etiquetas constituyentes</title_es>
+      <title_pt>Tradução automática neural simultânea com previsão de rótulos de constituintes</title_pt>
+      <title_ja>構成ラベル予測を伴う同時神経機械翻訳</title_ja>
+      <title_zh>有成分标占功能同声神经机器翻译</title_zh>
+      <title_hi>एक साथ न्यूरल मशीन अनुवाद के साथ घटक लेबल भविष्यवाणी</title_hi>
+      <title_ga>Aistriúchán Meaisín Néarach Comhuaineach le Tuar Lipéad Comhpháirteach</title_ga>
+      <title_ka>Name</title_ka>
+      <title_hu>Egyidejű idegi gépi fordítás alkotócímke előrejelzéssel</title_hu>
+      <title_it>Traduzione automatica neurale simultanea con previsione dell'etichetta costituente</title_it>
+      <title_kk>Қарапайым нейралы машинаның аудармасы, тұрақты жарлықтың алдындағысы</title_kk>
+      <title_mk>Симултан превод на неврална машина со предвидување на конститутната етикета</title_mk>
+      <title_lt>Tuo pačiu metu atliekamas neurologinis mašinų vertimas su konstitucinės etiketės prognoze</title_lt>
+      <title_el>Ταυτόχρονη νευρωνική μηχανική μετάφραση με πρόβλεψη ετικετών συστατικών</title_el>
+      <title_ms>Simultaneous Neural Machine Translation with Constituent Label Prediction</title_ms>
+      <title_mt>Traduzzjoni simultanja tal-Magna Newrali bi Tbassir tat-Tikketta Kostitwenti</title_mt>
+      <title_ml>സഹജമായ ലേബില്‍ മുന്‍ഗണന കൊണ്ട് നെയുറല്‍ മെഷീന്‍ പരിഭാഷപ്പെടുത്തുക</title_ml>
+      <title_mn>Түүнчлэн сэтгэл мэдрэлийн машины хөрөнгө</title_mn>
+      <title_no>Simulert neuralmaskinsomsetjing med førehandsvising av konstitusjonsmerkelapp</title_no>
+      <title_sr>Simultarna neuronska prevoda sa predviđanjem konstitucionog etiketa</title_sr>
+      <title_pl>Równoczesne tłumaczenie maszynowe neuronowe z predykcją etykiet składowych</title_pl>
+      <title_si>සාමාන්‍යය ලේබෙල් ප්‍රධානය සඳහා සාමාන්‍යය න්‍යූරල් මැෂින් පරිවර්තනය</title_si>
+      <title_ro>Traducere automată neurală simultană cu predicția etichetei constituente</title_ro>
+      <title_so>Turjumista wadajirka ah ee Masiinka Neural with Constitution Label Prediction</title_so>
+      <title_ta>Name</title_ta>
+      <title_sv>Samtidig neural maskinöversättning med förutsägelse av konstituerande etiketter</title_sv>
+      <title_ur>سیمالٹ نیورال ماشین ترجمہ</title_ur>
+      <title_uz>Simultaneous Neural Machine Translation with Constituent Label Prediction</title_uz>
+      <title_vi>Mô phỏng máy thần kinh có kèm theo hiệu ứng</title_vi>
+      <title_bg>Едновременен неврален машинен превод с предсказване на съставния етикет</title_bg>
+      <title_nl>Simultane Neurale Machine Translation met Constituent Label Prediction</title_nl>
+      <title_da>Samtidig neural maskinoversættelse med forudsigelse af konstituerende etiket</title_da>
+      <title_hr>Istodobna neuronska prevoda sa predviđanjem određene etikete</title_hr>
+      <title_ko>성분 라벨 예측 기반 신경 네트워크</title_ko>
+      <title_fa>ترجمه ماشین عصبی شبیه با پیش‌بینی برچسب پایین</title_fa>
+      <title_de>Simultane neuronale maschinelle Übersetzung mit Constituent Label Vorhersage</title_de>
+      <title_id>Translation Mesin Neural Simultaneous dengan Prediksi Label Konstitusi</title_id>
+      <title_sw>Tafsiri kwa wakati ule wa mashine ya Neural na Utawala wa Label</title_sw>
+      <title_tr>Aýratyn Etiket Öňliki bilen Taýtget Maşynyň terjimesini</title_tr>
+      <title_af>Gelykenis Neurale Masjien Vertaling met konstituent etiket voorvloediging</title_af>
+      <title_sq>Përkthimi i njëkohshëm i Makinës Neurale me parashikimin e etiketës së përbërshme</title_sq>
+      <title_am>Simultaneous Neural Machine Translation with Constituent Label Prediction</title_am>
+      <title_hy>Միևնույն նյարդային մեքենայի թարգմանությունը կոնստիտուցիոն պիտակի կանխատեսումով</title_hy>
+      <title_az>B칲t칲n n칬ral ma코in T톛rc칲m톛si Konstant Etiket 칐n칲m칲 il톛</title_az>
+      <title_bn>Name</title_bn>
+      <title_bs>Simultarna neuronska prevoda sa predviđanjem određene etikete</title_bs>
+      <title_cs>Současný neuronový strojový překlad s predikcí štítků</title_cs>
+      <title_et>Samaaegne neuroaalne masintõlk koostisosa etiketi prognoosiga</title_et>
+      <title_ca>Traducció simultànea de màquina neuronal amb predicció d'etiquetes</title_ca>
+      <title_fi>Samanaikainen hermojen konekäännös ja komponentin etiketin ennustaminen</title_fi>
+      <title_jv>Janet Smith (that's the same name)</title_jv>
+      <title_ha>@ action</title_ha>
+      <title_he>תורגם וסונכרן ע"י Qsubs מצוות</title_he>
+      <title_sk>Sočasni strojni živčni prevod z napovedjo nalepke sestavnega dela</title_sk>
+      <title_bo>རྩ་མཐུན་ཅན་གྱི་ཤོག་བྱང་ལ་སྔོན་འཛུགས་དང་མཚོན་རྟགས་ཀྱི་ལག་འཁྱེར་གྱི་ཚོར་བ</title_bo>
+      <abstract_ar>الترجمة الفورية هي مهمة تبدأ فيها الترجمة قبل أن ينتهي المتحدث من التحدث ، لذلك من المهم تحديد موعد بدء عملية الترجمة. ومع ذلك ، فإن تحديد ما إذا كنت تريد قراءة المزيد من كلمات الإدخال أو البدء في الترجمة أمر صعب بالنسبة للأزواج اللغوية ذات ترتيب الكلمات المختلفة مثل الإنجليزية واليابانية. بدافع من مفهوم إعادة الترتيب المسبق ، نقترح بضع قواعد قرار بسيطة باستخدام تسمية المكون التالي الذي تنبأ به توقع التسمية التأسيسية التزايدية. في التجارب على الترجمة الفورية من الإنجليزية إلى اليابانية ، تفوقت الطريقة المقترحة على خطوط الأساس في مقايضة زمن انتقال الجودة.</abstract_ar>
+      <abstract_es>La traducción simultánea es una tarea en la que la traducción comienza antes de que el orador haya terminado de hablar, por lo que es importante decidir cuándo iniciar el proceso de traducción. Sin embargo, decidir si leer más palabras de entrada o empezar a traducir es difícil para las combinaciones de idiomas con diferentes órdenes de palabras, como el inglés y el japonés. Motivados por el concepto de pre-reordenamiento, proponemos un par de reglas de decisión simples que utilizan la etiqueta del siguiente constituyente predicho por la predicción incremental de la etiqueta constituyente. En experimentos de traducción simultánea del inglés al japonés, el método propuesto superó a las líneas de base en la compensación calidad-latencia.</abstract_es>
+      <abstract_pt>A tradução simultânea é uma tarefa em que a tradução começa antes que o orador termine de falar, por isso é importante decidir quando iniciar o processo de tradução. No entanto, decidir se deve ler mais palavras de entrada ou começar a traduzir é difícil para pares de idiomas com ordens de palavras diferentes, como inglês e japonês. Motivados pelo conceito de pré-reordenação, propomos algumas regras de decisão simples usando o rótulo do próximo constituinte previsto pela predição incremental do rótulo do constituinte. Em experimentos de tradução simultânea de inglês para japonês, o método proposto superou as linhas de base na relação qualidade-latência.</abstract_pt>
+      <abstract_ja>同時翻訳は、話者が話す前に翻訳が開始されるタスクであるため、翻訳プロセスを開始するタイミングを決定することが重要です。ただし、入力された単語をより多く読むか、翻訳を開始するかを決定することは、英語や日本語などの異なる単語順序を持つ言語ペアにとって困難です。事前順序付けの概念に動機づけられて、増分成分ラベル予測によって予測される次の成分のラベルを使用して、いくつかの単純な決定規則を提案します。英語から日本語への同時翻訳の実験では、提案された方法は品質-遅延トレードオフでベースラインを上回った。</abstract_ja>
+      <abstract_zh>同声传译者,先言而后译者也,故其始重也。 然于词序(如英语、日语)之言,读之益多单词与始译为难。 预重排序,立数策,用增量分标下一分标。 英语至日语同声传译之实验,其法优于质-迟权于基线。</abstract_zh>
+      <abstract_hi>एक साथ अनुवाद एक ऐसा कार्य है जिसमें वक्ता के बोलने से पहले अनुवाद शुरू होता है, इसलिए अनुवाद प्रक्रिया कब शुरू करनी है, यह तय करना महत्वपूर्ण है। हालांकि, यह तय करना कि क्या अधिक इनपुट शब्दों को पढ़ना है या अनुवाद करना शुरू करना अंग्रेजी और जापानी जैसे विभिन्न शब्द आदेशों के साथ भाषा जोड़े के लिए मुश्किल है। पूर्व-पुन: क्रमबद्ध करने की अवधारणा से प्रेरित होकर, हम वृद्धिशील घटक लेबल भविष्यवाणी द्वारा भविष्यवाणी किए गए अगले घटक के लेबल का उपयोग करके कुछ सरल निर्णय नियमों का प्रस्ताव करते हैं। अंग्रेजी-से-जापानी एक साथ अनुवाद पर प्रयोगों में, प्रस्तावित विधि ने गुणवत्ता-विलंबता ट्रेड-ऑफ में बेसलाइन को पछाड़ दिया।</abstract_hi>
+      <abstract_ga>Is tasc é aistriúchán comhuaineach ina gcuirtear tús leis an aistriúchán sula mbíonn an cainteoir críochnaithe ag labhairt, agus mar sin tá sé tábhachtach cinneadh a dhéanamh cén uair is cóir tús a chur leis an bpróiseas aistriúcháin. Mar sin féin, bíonn sé deacair ag péirí teangacha a bhfuil ord éagsúil focal acu ar nós Béarla agus Seapáinis a chinneadh cé acu ar cheart tuilleadh focal ionchuir a léamh nó tosú ar an aistriú. Arna spreagadh ag coincheap an réamh-athordaithe, molaimid cúpla riail chinnidh shimplí ag baint úsáide as lipéad an chéad chomhábhair eile arna thuar ag tuar incriminteach lipéad an chomhábhair. I dturgnaimh ar aistriúchán comhuaineach Béarla-go-Seapáinis, d'fheidhmigh an modh molta níos fearr ná na bunlínte sa chomhbhabhtáil cáilíochta-latency.</abstract_ga>
+      <abstract_ka>QFontDatabase მაგრამ, გადაწყვება თუ უფრო მეტი შეტყობინებული სიტყვები ან დაწყვება სიტყვებისთვის განსხვავებული სიტყვებისთვის, როგორც ანგლისური და იაპონური მოტივირებულია პრე-ორდენტის კონფიგურაციაზე, ჩვენ გვეძლევა რამდენიმე უკეთესი გადაწყვეტილების კონფიგურაციას გამოყენებთ შემდეგი კონტიგურაციის ლებლის ლაბლის ექსპერიმენტებში ინგლისურად-იაპონურად ერთადერთი განგორმაციის შემთხვევაში, პროგრამის მეტი უფრო გავაკეთებულია ფესტური ხაზების შესაძლებლობაში.</abstract_ka>
+      <abstract_hu>Az egyidejű fordítás olyan feladat, amelynek során a fordítás elkezdődik, mielőtt a felszólaló befejezte a beszédet, ezért fontos eldönteni, hogy mikor kezdje el a fordítási folyamatot. Azonban nehéz eldönteni, hogy több beviteli szót olvassanak-e el vagy fordítsanak-e a különböző szósorrendű nyelvpároknál, mint például angol és japán. Az előrendelés koncepciójának motiválására néhány egyszerű döntési szabályt javasolunk a következő alkotóelem címkéjének felhasználásával, amelyeket inkrementális alkotóelem címke előrejelzéssel előrejelzett. Az angol-japán szimultán fordítással kapcsolatos kísérletekben a javasolt módszer felülmúlta a minőség-késleltetés kereskedelmét.</abstract_hu>
+      <abstract_el>Η ταυτόχρονη μετάφραση είναι ένα έργο στο οποίο η μετάφραση αρχίζει πριν τελειώσει ο ομιλητής, οπότε είναι σημαντικό να αποφασίσετε πότε θα ξεκινήσετε τη διαδικασία μετάφρασης. Ωστόσο, η απόφαση για το αν θα διαβάσετε περισσότερες λέξεις εισόδου ή να αρχίσετε να μεταφράζετε είναι δύσκολη για γλωσσικά ζεύγη με διαφορετικές τάξεις λέξεων, όπως τα αγγλικά και τα ιαπωνικά. Με κίνητρο την έννοια της προ-αναδιατάστασης, προτείνουμε δύο απλούς κανόνες απόφασης χρησιμοποιώντας την ετικέτα του επόμενου συστατικού που προβλέπεται από την προοδευτική πρόβλεψη της συστατικής ετικέτας. Σε πειράματα στην αγγλική-ιαπωνική ταυτόχρονη μετάφραση, η προτεινόμενη μέθοδος ξεπερνούσε τις γραμμές βάσης στο συμβιβασμό ποιότητας-καθυστέρησης.</abstract_el>
+      <abstract_it>La traduzione simultanea è un compito in cui la traduzione inizia prima che l'oratore abbia finito di parlare, quindi è importante decidere quando avviare il processo di traduzione. Tuttavia, decidere se leggere più parole di input o iniziare a tradurre è difficile per coppie di lingue con ordini di parole diversi come inglese e giapponese. Motivati dal concetto di pre-riordino, proponiamo un paio di semplici regole decisionali utilizzando l'etichetta del costituente successivo prevista dalla previsione incrementale dell'etichetta costituente. Negli esperimenti sulla traduzione simultanea inglese-giapponese, il metodo proposto ha superato le linee di base nel trade-off qualità-latenza.</abstract_it>
+      <abstract_kk>Бірақ аудармалы - аудармалы орындаушы сөйлесу аяқталмаған алдында аудармалы тапсырма, сондықтан аудармалы процесін қазір бастау үшін мәселе беру үшін маңызды. Бірақ, бірнеше кіріс сөздерді оқу не аудару үшін бастау үшін тіл екеуі әртүрлі сөздерді ағылшын және япон тілдері секілді әртүрлі реттері үшін қиын. Алдын- қайта реттеу концепциясы бойынша жылжытылады, біз келесі концепциясының белгісін қолдану үшін көп қарапайым шешім ережелерін қолдануға болады. Ағылшын тілінен жапон тілінен бір-бір аудару туралы тәжірибелерде ұсынылған тәжірибелер сапаттың негізгі сызықтарын сапаттау.</abstract_kk>
+      <abstract_mk>Симултанеозен превод е задача во која преводот започнува пред говорникот да заврши со говорот, па важно е да се одлучи кога да започне процесот на превод. Сепак, одлучувањето дали треба да читате повеќе внесени зборови или да почнете да преведувате е тешко за јазичките парови со различни наредби на зборови како што се англиски и јапонски. Мотивирано од концептот на прередовување, предложуваме неколку едноставни правила за одлука со користење на етикетата на следниот конститунт предвидена со провидување на поставувачките конститунти на етикетата. Во експериментите на истовремениот превод англиско-јапонски, предложениот метод ги надмина основните линии во размената за квалитет-лантенција.</abstract_mk>
+      <abstract_lt>Simultaneous translation is a task in which translation begins before the speaker has finished speaking, so it is important to decide when to start the translation process.  However, deciding whether to read more input words or start to translate is difficult for language pairs with different word orders such as English and Japanese.  Motivated by the concept of pre-reordering, we propose a couple of simple decision rules using the label of the next constituent predicted by incremental constituent label prediction.  In experiments on English-to-Japanese simultaneous translation, the proposed method outperformed baselines in the quality-latency trade-off.</abstract_lt>
+      <abstract_ms>Terjemahan bersamaan adalah tugas dimana terjemahan bermula sebelum pembicara selesai, jadi penting untuk memutuskan bila untuk memulakan proses terjemahan. Namun, memutuskan sama ada untuk membaca lebih banyak perkataan input atau mula menerjemahkan adalah sukar untuk pasangan bahasa dengan arahan perkataan berbeza seperti bahasa Inggeris dan Jepun. Dimotifkan oleh konsep pre-reordering, kami cadangkan beberapa peraturan keputusan sederhana menggunakan label komponen seterusnya dijangka oleh ramalan label komponen tambahan. In experiments on English-to-Japanese simultaneous translation, the proposed method outperformed baselines in the quality-latency trade-off.</abstract_ms>
+      <abstract_mn>Үүнтэй адилхан орчуулалт бол орчуулагч яриаг дуусахаас өмнө орчуулалт эхлүүлэх үйл ажиллагаа юм. Тиймээс орчуулалтын процессийг хэзээ эхлүүлэхийг шийдэх нь чухал. Гэхдээ илүү олон орнуудын үгийг унших эсвэл хөгжүүлэх эсэхийг шийдэх нь хэл хоёр нь Англи, Япон зэрэг өөр үг дарааллаар хэцүү. Өмнөх эргүүлэлтийн ойлголтын хувьд хөдөлгөөнтэй, дараагийн загварын загварын загварын загварыг ашиглах хэдэн энгийн шийдвэрлэлтийг санал болгож байна. Англи болон Япон зэрэг одоогийн орчуулалтын туршилтуудын хувьд санал өгсөн арга нь үндсэн шугамнуудыг сайн сайжруулсан.</abstract_mn>
+      <abstract_pl>Tłumaczenie symultaniczne to zadanie, w którym tłumaczenie rozpoczyna się zanim mówca skończy mówić, dlatego ważne jest, aby zdecydować, kiedy rozpocząć proces tłumaczenia. Jednak decyzja, czy przeczytać więcej słów wejściowych lub zacząć tłumaczyć, jest trudna dla par językowych o różnych kolejnościach słów, takich jak angielski i japoński. Motywowani koncepcją wstępnego porządkowania proponujemy kilka prostych reguł decyzji wykorzystujących etykietę następnego składnika przewidywaną przez przyrostową predykcję etykiety składnikowej. W eksperymentach nad tłumaczeniem symultanicznym angielsko-japońskim proponowana metoda przewyższyła linie bazowe w kompromisie jakości-opóźnienia.</abstract_pl>
+      <abstract_no>Somme omsetjing er ei oppgåve som omsetjinga startar før taleren er ferdig å snakke, så det er viktig å bestemma kor gong omsetjingsprosessen skal startast. Dette er likevel vanskeleg å bestemme om fleire inndata- ord skal lesast eller starta å oversette for språkopar med ulike ordordordlister som engelsk og japansk. Forskyving av konsepten for forordning, foreslår vi ein par enkle avgjøringsreglar med merkelappen til neste konstituent som foreslått av forhåndsvising av ekstremt konstituent- merkelappen. I eksperimenter om samtidig omsetjing av engelsk-til-japansk har det foreslått metoden utført baselinjer i kvalitetsfargen.</abstract_no>
+      <abstract_ro>Traducerea simultană este o sarcină în care traducerea începe înainte ca vorbitorul să termine cuvântul, deci este important să decideți când să începeți procesul de traducere. Cu toate acestea, decizia dacă să citească mai multe cuvinte introduse sau să înceapă să traducă este dificilă pentru perechile de limbi cu ordine diferite de cuvinte, cum ar fi engleza și japoneza. Motivați de conceptul de pre-reordonare, propunem câteva reguli de decizie simple folosind eticheta următorului constituent prevăzută prin predicția incrementală a etichetei constituente. În experimentele privind traducerea simultană din engleză în japoneză, metoda propusă a depășit liniile de bază în compromisul calitate-latență.</abstract_ro>
+      <abstract_ml>സ്പീക്ടര്‍ സംസാരം പൂര്‍ത്തിയാക്കുന്നതിനു മുമ്പായി അനുവാദം തുടങ്ങുന്ന ഒരു ജോലിയാണു് അതുകൊണ്ടു് പരിഭാഷപ്രക്ര എന്നാലും, ഇന്‍പുട്ട് വാക്കുകള്‍ വായിക്കണമോ അല്ലെങ്കില്‍ പരിഭാഷപ്പെടുത്താനോ തുടങ്ങുന്നതോ ഭാഷ ജോട്ടുകാര്‍ക്ക്  വീണ്ടും നിര്‍ദേശിക്കുന്നതിന്റെ ആശയം നമ്മള്‍ പ്രാവര്‍ത്തികമായി പ്രവചിക്കുന്നത് അടുത്ത കോണ്‍ട്ടെന്‍റിന്‍റെ ലേബറിന്‍റെ ലേബില്‍ ഉപ ഇംഗ്ലീഷില്‍ നിന്നും ജപ്പാനീസിലേക്കും ഒരേ സമയത്തെ പരീക്ഷണങ്ങളില്‍ പ്രൊദ്ദേശിക്കപ്പെട്ട രീതിയില്‍ മാറ്റിയിരിക്ക</abstract_ml>
+      <abstract_mt>It-traduzzjoni simultanja hija kompitu li fih tibda t-traduzzjoni qabel ma l-kelliem ikun lest jitkellem, għalhekk huwa importanti li jiġi deċiż meta jinbeda l-proċess tat-traduzzjoni. Madankollu, id-deċiżjoni dwar jekk għandekx taqra aktar kliem input jew tibda tittraduċi hija diffiċli għall-pari lingwistiċi b’ordnijiet ta’ kliem differenti bħall-Ingliż u l-Ġappuniż. Motivated by the concept of pre-reordering, we propose a couple of simple decision rules using the label of the next constituent predicted by incremental constituent label prediction.  In experiments on English-to-Japanese simultaneous translation, the proposed method outperformed baselines in the quality-latency trade-off.</abstract_mt>
+      <abstract_si>සාමාන්‍ය භාවිතානය තමයි භාවිතානය පටන් ගන්න පුළුවන් වැඩක්, ඉතින් භාවිතානය පටන් ගන්න පුළුවන් වැඩක්. නමුත්, වෙනස් වචන පණිවිඩයක් කියනවද නැත්නම් පටන් ගන්න පුළුවන් වෙනස් වචන පණිවිඩය සමග ඉංග්‍රීසි සහ ප්‍රස්ථාපනය සඳහා ප්‍රස්ථාපනය කරනවා, අපි ප්‍රස්ථාපනය කරනවා සාමාන්‍ය තීරණ නීතියක් සඳහා ඊළඟ ප්‍රස්ථාපනය සඳහා ප්‍රශ් ඉංග්‍රීසියෙන් ජාපානියෙන් එකම වාර්තාවක් ගැන පරීක්ෂණාවක් වලින්, ප්‍රතිචාරිත විදියට ප්‍රතිචාරිත</abstract_si>
+      <abstract_so>Turjumista isla markaasna waa shaqo ku qoran turjumista uu bilaabayo ka hor inta uu hadluhu dhamaado hadalka, sidaas darteed waa muhiim in aad go’aano goorma sameynta turjumaadda. Si kastaba ha ahaatee, go’aanka in la akhriyo hadalka warqada ah ama la bilaabo in lagu turjumo waa u adag yihiin labo luqada ah oo ku qoran amar kala duduwan sida Ingiriis iyo Jabanees. Waxaynu soo dhaqdhaqaaqnaa fikrada hore oo soo celinta, waxaynu soo jeedaynaa dhawr qaynuunno fudud oo go'aan ah, waxaynu isticmaalaynaa calaamadda qofka soo socda oo laguu soo sheegay wax laguu sii sheegay calaamada guud ee kordhiska. Imtixaanka ku qoran turjumaadda Ingiriiska-Japanese isla markaasna qaabkii la soo jeeday uu ku qoray qoraalka hoose-hoose ee ganacsiga-dhamaanka.</abstract_so>
+      <abstract_sv>Samtidig översättning är en uppgift där översättningen börjar innan talaren har talat färdigt, så det är viktigt att bestämma när översättningsprocessen ska påbörjas. Det är dock svårt att avgöra om du vill läsa fler inmatningsord eller börja översätta för språkpar med olika ordordningar som engelska och japanska. Motiverat av konceptet pre-order föreslår vi ett par enkla beslutsregler med hjälp av etiketten för nästa komponent som förutses genom inkrementell komponentetikett förutsägelse. I experiment med simultant översättning från engelska till japanska överträffade den föreslagna metoden baselines i kompromissen mellan kvalitet och latens.</abstract_sv>
+      <abstract_ur>Simultaneous translation is a task in which translation begins before the speaker has finished speaking, so it is important to decide when to start the translation process. However, deciding whether to read more input words or start to translate languages pairs with different word orders such as English and Japanese. پیش آئندر کی نظریہ سے چلنا ہے، ہم ایک دوسرے ساده فیصلہ کے قانون کو آئندہ قانون کے لابلیٹ کے مطابق پیش آئندہ قانون کے ذریعے پیش آئندہ کیا گیا ہے. انگلیسی سے جاپانی کی تجربیات میں ایک دفعہ ترجمہ میں، پیشنهاد کی طریقہ نے کیفیت-لاٹنسی تجارت-اف میں بنیس لینوں کو زیادہ انجام دیا۔</abstract_ur>
+      <abstract_ta>Simultaneous translation is a task in which translation begins before the speaker has finished speaking, so it is important to decide when to start the translation process.  However, deciding whether to read more input words or start to translate is difficult for language pairs with different word orders such as English and Japanese.  முன் வரிசையின் கருத்து மாற்றப்பட்டது, நாம் அடுத்த தேர்ந்தெடுக்கப்பட்ட அடுத்த த தீர்ப்பு விதிகளை பயன்படுத்தி சில எளிய தீர்ப்பு வித ஆங்கிலத்தில் இருந்து ஜப்பானிய மொழிபெயர்ப்பில் சோதனைகளில், திருந்திக்கப்பட்ட முறைமையில் தரம்- latency trade- off உள்ள அடிப்படை</abstract_ta>
+      <abstract_sr>Istodobni prevod je zadatak u kojem prevod počinje pre nego što govor završi govoriti, tako da je važno odlučiti kada započeti proces prevoda. Međutim, odlučujući da li čitati više ulaznih reči ili početi prevoditi je teško za jezičke parove sa različitim naređenjima reči kao što su engleski i japanski. Motivirani koncepcijom prereordinacije, predlažemo par jednostavnih pravila odluke koristeći etiketu sljedećeg sastavnika predviđenog povećavajućim predviđanjem etiketa. U eksperimentima o istovremenom prevodu engleskog na japanski, predložena metoda je nadmašila osnovne linije u trgovini kvalitetom-latencijom.</abstract_sr>
+      <abstract_uz>@ info: whatsthis Lekin, ingliz va Япон kabi so'zlarni oʻqishni yoki tarjima qilishni boshlashni bir xil so'zlar uchun qiyin. Qaytarishdan oldin qo'yish tomonidan foydalanilgan, biz bir necha oddiy xabar qoidalarini keyingi qanday bogʻ'lash qoidasini ishlatish mumkin. Engliz-Yaponchaga bir xil tarjima tarjima qilish imtiyozlarida, taʼminlov qilingan usuli sifatida latency trading-off bilan bazalashtirilgan.</abstract_uz>
+      <abstract_vi>Bản dịch đồng thời là một nhiệm vụ bắt đầu phiên dịch trước khi diễn giả nói xong, nên cần quyết định khi nào thì bắt đầu quá trình dịch. Tuy nhiên, việc quyết định nên đọc nhiều từ nhập hay bắt đầu dịch là rất khó đối với các cặp ngôn ngữ với các từ khác nhau như tiếng Anh và Nhật. Động đến khái niệm sắp xếp, chúng tôi đề xuất một vài quy tắc quyết định đơn giản, dùng nhãn của cử tri kế tiếp được dự đoán dựa trên các biểu tượng khác nhau. Trong thí nghiệm dịch đồng thời Anh-Qua-Nhật Bản, phương pháp được đề nghị hoàn thành trên nền tảng trong việc trao đổi tiềm năng tiềm ẩn.</abstract_vi>
+      <abstract_hr>Istodobni prevod je zadatak u kojem prevod počinje prije nego što govor završi govoriti, tako da je važno odlučiti kada početi proces prevoda. Međutim, odlučivanje da li čitati više ulaznih riječi ili početi prevoditi je teško za jezičke parove s različitim naredbama riječi poput engleskog i japanskog. Pod motivacijom koncepta predoređenja, predlažemo par jednostavnih pravila odluke koristeći etiketu sljedećeg sastavnika predviđenog povećavajućim predviđanjem etiketa. U eksperimentima o istovremenom prevodu engleskog i japanskog jezika, predložena metoda je nadmašila osnovne linije u trgovini kvalitetom-latencijom.</abstract_hr>
+      <abstract_bg>Едновременният превод е задача, при която преводът започва преди говорещият да приключи речта, така че е важно да решите кога да започнете преводния процес. Въпреки това, решаването дали да прочетете повече въведени думи или да започнете да превеждате е трудно за езикови двойки с различни реда на думите, като английски и японски. Мотивирани от концепцията за предварително пренареждане, ние предлагаме няколко прости правила за вземане на решение, използвайки етикета на следващата съставна съставка, прогнозирана чрез прогресивно прогнозиране на етикета на съставната съставна съставка. При експерименти на английски-японски симултанен превод предложеният метод надминава базовите линии в компромиса качество-латентност.</abstract_bg>
+      <abstract_da>Samtidig oversættelse er en opgave, hvor oversættelsen begynder, inden taleren er færdig med at tale, så det er vigtigt at beslutte, hvornår oversættelsesprocessen skal startes. Det er imidlertid vanskeligt for sprogpar med forskellige ordrækkefølger som engelsk og japansk at beslutte, om du vil læse flere indtastede ord eller begynde at oversætte. Motiveret af begrebet pre-order foreslår vi et par enkle beslutningsregler ved hjælp af etiketten på den næste bestanddel, der forudsiges ved inkrementel komponent label forudsigelse. I forsøg med simultant oversættelse fra engelsk til japansk klarede den foreslåede metode sig bedre end basislinjerne i kompromiset mellem kvalitet og latens.</abstract_da>
+      <abstract_nl>Simultane vertaling is een taak waarbij de vertaling begint voordat de spreker klaar is met spreken, dus het is belangrijk om te beslissen wanneer het vertaalproces wordt gestart. Echter, de beslissing om meer invoerwoorden te lezen of te beginnen met vertalen is moeilijk voor taalparen met verschillende woordvolgorde zoals Engels en Japans. Gemotiveerd door het concept van pre-reordering, stellen we een paar eenvoudige beslissingsregels voor met behulp van het label van het volgende component voorspeld door incrementele component label voorspelling. In experimenten met simultane vertaling van Engels naar Japans presteerde de voorgestelde methode beter dan de basislijnen in de compromis tussen kwaliteit en latentie.</abstract_nl>
+      <abstract_fa>ترجمه مشابه یک کار است که ترجمه قبل از اینکه صحبت کننده تموم شود شروع می‌شود، بنابراین برای تصمیم گرفتن فرآیند ترجمه زمانی مهم است. ولی تصمیم بگیرید که آیا کلمات ورودی بیشتری بخوانید یا شروع به ترجمه کردن برای جفت زبان با دستورات کلمات مختلف مثل انگلیسی و ژاپنی سخت است. توسط مفهوم پیش‌اندازی پیش‌اندازی، چند قانون تصمیم ساده را پیشنهاد می‌کنیم با استفاده از نقاشی نقاشی محیط بعدی که توسط پیش‌اندازی نقاشی‌های پیش‌اندازی برچسب‌های بیشتر پیش‌بینی می‌شود. در آزمایشات در ترجمه همزمان انگلیسی به ژاپن، روش پیشنهاد پایین‌خط‌های زیرزمینی در تجارت کیفیت-latency-off را بیشتر انجام داد.</abstract_fa>
+      <abstract_id>Simultaneous translation is a task in which translation begins before the speaker has finished speaking, so it is important to decide when to start the translation process.  Namun, memutuskan apakah untuk membaca lebih banyak kata input atau mulai menerjemahkan adalah sulit untuk pasangan bahasa dengan perintah kata yang berbeda seperti bahasa Inggris dan Jepang. Dimotifkan oleh konsep pre-reordering, kami mengusulkan beberapa aturan keputusan sederhana menggunakan label konstitusi berikutnya diprediksi oleh prediksi konstitusi incremental label. Dalam eksperimen pada terjemahan simultan bahasa Inggris-Jepang, metode yang diusulkan melampaui garis dasar dalam perdagangan kualitas-latensi.</abstract_id>
+      <abstract_tr>Tutaryş edilen bir täblisasdir, sözlediň gürrüňi bitirmeden öň terjime edilen täblisasynda başlaýan täblisasynda, şonuň üçin terjime edilen prosesini nähili başlatmak üçin wajypdyr. Iňlisçe we Japonça diller bilen terjime etmek üçin has kyn sözleri okamak ýa-da terjime etmek. Öňki düzenlemek concept tarapyndan Motiveýan, indiki konstituent etiket öňünden gelen etiketlerden ullanýan birnäçe basit karara teklif edip görýäris. Iňlis-ýa-japonça terjime edilen suratlarda teklip eden çykyşlarda görkezilen çykyş hasaplanja golaýlaşdy.</abstract_tr>
+      <abstract_sw>Tafsiri moja kwa moja ni jukumu ambalo tafsiri inaanza kabla hotuba yake imekwisha kuzungumza, kwa hiyo ni muhimu kuamua lini kuanza mchakato wa tafsiri. Hata hivyo, kuamua kama kusoma maneno zaidi ya input au kuanza kutafsiri ni vigumu kwa ajili ya wanaume wa lugha wenye amri tofauti za maneno kama vile Kiingereza na Kijapani. Kuhamasishwa na dhana ya kuamuru kabla ya upya, tunapendekeza sheria kadhaa rahisi za uamuzi kwa kutumia alama ya mpiga kura ijayo iliyotabiriwa na utabiri wa alama ya ubunge wa ukubwa. Katika majaribio yanayohusu tafsiri ya Kiingereza hadi Japani kwa wakati mmoja, mbinu hiyo ya pendekezo ilionyesha msingi katika biashara ya ubora.</abstract_sw>
+      <abstract_sq>Përkthimi në të njëjtën kohë është një detyrë në të cilën përkthimi fillon përpara se folësi të përfundojë duke folur, kështu që është e rëndësishme të vendosësh kur të fillosh procesin e përkthimit. Megjithatë, vendosja nëse duhet të lexosh më shumë fjalë të hyrjes apo të fillosh të përkthyesh është e vështirë për çiftet e gjuhës me urdhëra të ndryshme fjalësh të tilla si anglisht dhe japonez. Motivuar nga koncepti i pararenditjes, ne propozojmë disa rregulla të thjeshta vendimi duke përdorur etiketën e përbërësit të ardhshëm të parashikuar nga parashikimi shtesë i etiketës së përbërësve. Në eksperimentet në përkthimin e njëkohëshëm anglez-japonez, metoda e propozuar kaloi linjat bazë në kompromisin e cilësisë-vonesës.</abstract_sq>
+      <abstract_de>Die Simultanübersetzung ist eine Aufgabe, bei der die Übersetzung beginnt, bevor der Sprecher mit dem Sprechen fertig ist. Daher ist es wichtig zu entscheiden, wann der Übersetzungsprozess begonnen werden soll. Für Sprachpaare mit unterschiedlichen Wortreihen wie Englisch und Japanisch ist es jedoch schwierig, zu entscheiden, ob Sie mehr eingegebene Wörter lesen oder mit der Übersetzung beginnen möchten. Motiviert durch das Konzept der Pre-Reorder, schlagen wir ein paar einfache Entscheidungsregeln vor, die das Label der nächsten Komponente verwenden, das durch inkrementelle Component Label Vorhersage vorhergesagt wird. In Experimenten zur Englisch-Japanisch-Simultanübersetzung übertraf die vorgeschlagene Methode die Baselines im Qualitäts-Latenz-Kompromiss.</abstract_de>
+      <abstract_af>Ongelyklike vertaling is 'n taak waarin vertaling begin voor die spreker klaar spreek het, sodat dit is belangrik om te besluit wanneer na begin die vertaling proses. Maar die besluit of meer invoer woorde lees of begin om te vertaal is moeilik vir taal paars met verskillende woord ordorde soos Engels en Japanse. Gebeweging deur die konsepte van voor- herordening, voorstel ons 'n paar eenvoudige besluit reëls te gebruik die etiket van die volgende konstituent wat deur inkremensielike konstituent etiket voorskou is. In eksperimente oor Engels-na-Japanse samekomstige vertaling, het die voorgestelde metode uitgevoer basisline in die kwaliteit-latensie handel af.</abstract_af>
+      <abstract_am>በተመሳሳይ ትርጉም በተርጓሚው ንግግር ከመፈጸም በፊት ትርጉም የሚጀምርበት ስራ ነው፤ ስለዚህም ትርጉም ፕሮግራምን መጀመሪያ መፍጠር ያስፈልጋል፡፡ ምንም እንኳን፣ የበዛ የinput ቃላት ማነብ ወይም መተርጉም ለቋንቋ ዓይነቶች በተለየ ቃላት ሥርዓቶች እንደ እንግሊዘኛ እና ጃፓንኛ መሆኑን ማድረግ ግድ ነው፡፡ የቀድሞው ትርጉም በሚያሳየው አካባቢ፣ በአሁለተኛው ሰርቨርስቲ የመንግሥት ምልክት በመጠቀም የሚታወቀውን የውይይት ሕግ እናሳውቃለን፡፡ በንግግሊዝና-ወደ ጃፓን በተጨማሪው ትርጓሜ ላይ በተፈተና፣ በጥሩ-latency ንግድ-off የተፈጸመ ደረጃዎች ላይ የተፈጸመ ሥርዓት ነው፡፡</abstract_am>
+      <abstract_hy>Միևնույն թարգմանությունը մի խնդիր է, որտեղ թարգմանությունը սկսվում է մինչ խոսացողը ավարտել է խոսքը, ուստի կարևոր է որոշել, երբ սկսել է թարգմանման գործընթացը: Այնուամենայնիվ, որոշել, թե ավելի շատ ներմուծված բառեր կարդալ կամ սկսել թարգմանել, դժվար է լեզվի զույգերի համար, որոնք տարբեր բառերի կարգավորումներ ունեն, ինչպիսիք են անգլերենը և ճապոներենը: Հրաշարժված նախադասավորման գաղափարով, մենք առաջարկում ենք մի քանի պարզ որոշումների կանոններ, օգտագործելով հաջորդ բաղադրիչների պիտակը, որը կանխատեսվում է աճող բաղադրիչների պիտակի կանխատեսման միջոցով: Անգլերեն-ճապոներեն միևնույն թարգմանման փորձարկումներում առաջարկված մեթոդը գերազանցեց որակի-լանցիայի փոխարկման հիմնական գծերը:</abstract_hy>
+      <abstract_az>Tərcümə tərcümə danışmaq bitməmişdən əvvəl tərcümə başlamaq üçün başlayan bir işdir, böylece tərcümə işlətməsi nə vaxt başlayacağına qərar vermək mövcuddur. Lakin, daha çox girdi sözləri oxumaq və ya tercümə etmək üçün dil çiftləri üçün müxtəlif söz sıraları kimi İngilizə və Japonca kimi çətin deyildir. Əvvəlcə-reordering konsepti ilə hərəkət edilmişdir, biz bir neçə basit karar kurallarını təklif edirik ki, sonraki constituent etiketinin etiketini artırmaq məqsədilə tədbir edilmişdir. İngilizə-Japonca ilə birlikdə çevirilən təcrübələrdə təklif edilən metod kaliteli-latenci ticarət dəyişdirilməsi üçün baz çətinliklərdən üstün olmuşdur.</abstract_az>
+      <abstract_bn>একই সাথে অনুবাদ হচ্ছে একটি কাজ যেখানে বক্তৃপক্ষকে কথা শেষ করার আগে অনুবাদ শুরু করা হয়, তাই অনুবাদ প্রক্রিয়া শুরু করার জন্য এটি  তবে সিদ্ধান্ত নেয়া হচ্ছে যে ভাষার জোড়ার জন্য বিভিন্ন শব্দের নির্দেশ যেমন ইংরেজি এবং জাপানীয়। পুনরায় নির্দেশের ধারণা দ্বারা প্রস্তাব করা হয়েছে, আমরা পরবর্তী ভোটেন্টের লেবেল ব্যবহার করে সাধারণ সিদ্ধান্ত নিয়ম প্রস্তাব করি। ইংরেজি থেকে জাপানীদের একই সাথে অনুবাদের পরীক্ষায় প্রস্তাবিত পদ্ধতি মান-লেটেন্সি ব্যান্ড-আফের মানে বেসারেন্ট</abstract_bn>
+      <abstract_bs>Istodobni prevod je zadatak u kojem prevod počinje prije nego što govornik završi govoriti, tako da je važno odlučiti kada započeti proces prevoda. Međutim, odlučivanje da li čitati više ulaznih riječi ili početi prevoditi je teško za parove jezika sa različitim naredbama riječi poput engleskog i japanskog. Motivirani koncepcijom prereordinacije, predlažemo par jednostavnih pravila odluke koristeći etiketu sljedećeg sastavnika predviđenog povećavajućim predviđanjem etikete. U eksperimentima o istovremenom prevodu engleskog na japanski, predložena metoda je nadmašila osnovne linije u trgovini kvalitetom-latencijom.</abstract_bs>
+      <abstract_cs>Současný překlad je úkol, při kterém překlad začíná dříve, než mluvčí dokončí mluvit, proto je důležité rozhodnout, kdy začít překladatelský proces. Nicméně, rozhodnutí, zda číst více vstupních slov nebo začít překládat, je obtížné pro jazykové páry s různými pořadími slov, jako je angličtina a japonština. Motivováni konceptem předřazení navrhujeme několik jednoduchých rozhodovacích pravidel s využitím štítku další složky predikované inkrementální predikcí štítku. V experimentech s simultánním překladem z angličtiny do japonštiny navržená metoda předčila základní linie v kompromisu kvality a latence.</abstract_cs>
+      <abstract_ca>La traducció simultànea és una tasca en la que comença la traducció abans que l'orador acabi de parlar, així que és important decidir quan començar el procés de traducció. Però decidir si llegir més paraules d'entrada o començar a traduir és difícil per a parelles de llengües amb diferents ordres de paraules com l'anglès i el japonès. Motivat pel concepte de pré-reorganització, proposem un parell de regles simples de decisió utilitzant l'etiqueta del següent constituent predit per predicció incremental de l'etiqueta constituent. En experiments de traducció simultànea anglès-japonès, el mètode proposat va superar les línies de base en el compromís entre la qualitat i la latencia.</abstract_ca>
+      <abstract_et>Sünkroontõlge on ülesanne, kus tõlkimine algab enne kõneleja kõne lõpetamist, seega on oluline otsustada, millal alustada tõlkeprotsessi. Kuid otsustada, kas lugeda rohkem sisendsõnu või alustada tõlkimist, on keelepaaride jaoks raske erinevate sõnade järjekorras, nagu inglise ja jaapani keel. Motiveerituna eeljärjestuse mõistest pakume välja paar lihtsat otsusereeglit, kasutades järgmise koostisosa märgistust, mida prognoositakse täiendava koostisosa märgistuse prognoosimisel. Inglise-jaapani sünkroontõlke eksperimentides ületas kavandatud meetod lähtejooni kvaliteedi-latentsuse kompromiss.</abstract_et>
+      <abstract_fi>Simultaanik채채nn철s on teht채v채, jossa k채채nn철s alkaa ennen puhujan puheenvuoron p채채ttymist채, joten on t채rke채채 p채채tt채채, milloin k채채nn철sprosessi aloitetaan. Kuitenkin p채채t철s siit채, luetaanko lis채채 sy철tt철sanoja vai aletaanko k채채nt채채, on vaikea kielipareille, joilla on eri sanaj채rjestys, kuten englanti ja japani. Esij채rjestyksen k채sitteen motivoituneena ehdotamme muutamia yksinkertaisia p채채t철ss채채nt철j채 k채ytt채en seuraavan komponentin etiketti채, joka ennustetaan inkrementaalisella komponentin etiketin ennustuksella. Englannin-japanin simultaanik채채nn철ksen kokeiluissa ehdotettu menetelm채 ylitti l채ht철arvot laatu-viive-kompromississa.</abstract_fi>
+      <abstract_ko>동시통역은 말하는 사람이 말을 하기 전에 번역을 시작하는 임무이기 때문에 언제 번역 과정을 시작할지 결정하는 것이 중요하다.그러나 영어와 일본어 등 어순이 다른 언어는 입력된 단어를 더 많이 읽을지 번역을 시작할지 결정하기가 어렵다.예순열 개념의 계발을 받아 우리는 두 가지 간단한 결정 규칙을 제시했고 증량 성분 라벨로 예측한 다음 성분의 라벨을 사용했다.영어에서 일본어까지의 동시통역 실험에서 이 방법은 품질-지연 균형 방면에서 기선보다 우수하다.</abstract_ko>
+      <abstract_jv>translation politenessoffpolite"), and when there is a change ("assertivepoliteness word Nang neng éntuk sing nggambar Inggris-kanggo Japon sampeyan, supoyo nggawe sistem sing ditambah barang kanggo tatara cara-teka.</abstract_jv>
+      <abstract_ha>@ info: tooltip @ label: listbox Akwai fara da zato na fara-umurni, muna goyyade cutar-biyu masu sauki da amfani da label na ƙari wanda aka yi gargaɗi da kuma an gabatar da littãfin na ƙari. In experiments on English-to-Japanese simultaneous translation, the proposed method outperformed baselines in the quality-latency trade-off.</abstract_ha>
+      <abstract_sk>Sočasno prevajanje je naloga, pri kateri se prevajanje začne pred koncem govora, zato se je pomembno odločiti, kdaj začeti prevajanje. Vendar pa je odločitev, ali želite prebrati več vhodnih besed ali začeti prevajati, težko za jezikovne pare z različnimi vrstnimi redi besed, kot sta angleščina in japonščina. Motivirana s konceptom predhodnega razporejanja, predlagamo nekaj preprostih pravil odločanja z uporabo oznake naslednje sestavine, predvidene z napovedjo postopne nalepke sestavine. V poskusih simultanega prevajanja angleško-japonsko je predlagana metoda presegla izhodišče pri kompromisu kakovosti-latence.</abstract_sk>
+      <abstract_he>התרגום באופן זמני הוא משימה שבה התרגום מתחיל לפני שהרמקול סיים לדבר, כך חשוב להחליט מתי להתחיל תהליך התרגום. עם זאת, להחליט אם לקרוא יותר מילים כניסה או להתחיל לתרגם זה קשה לזוגות שפות עם פקודות מילים שונות כמו אנגלית ויפנית. Motivated by the concept of pre-reordering, we propose a couple of simple decision rules using the label of the next constituent predicted by incremental constituent label prediction.  בניסויים על תרגומת אנגלית-ליפנית באותו זמן, השיטה המוצעת עברה את קווי הבסיס במסחר איכות-לאנטיות.</abstract_he>
+      <abstract_bo>Simultaneous translation is a task in which translation begins before the speaker has finished speaking. So it is important to decide when to start the translation process. ཡིན་ནའང་མིན་པར། འགྲེལ་བཙུགས་ཀྱི་གནད་སྡུད་མིན་འདུག Motivated by the concept of pre-reordering, we propose a couple of simple decision rules using the label of the next constituent predicted by incremental constituent label prediction. དབྱིན་ཡིག་ལས་ཉེ་ཧོང་གི་སྐད་ཆ་གཅིག་མཚུངས་ཀྱི་སྐད་འཚོལ་བྱ་ཚིག་ནང་།</abstract_bo>
+      </paper>
+    <paper id="121">
+      <title>Contrastive Learning for Context-aware Neural Machine Translation Using Coreference Information</title>
+      <author><first>Yongkeun</first><last>Hwang</last></author>
+      <author><first>Hyeongu</first><last>Yun</last></author>
+      <author><first>Kyomin</first><last>Jung</last></author>
+      <pages>1135–1144</pages>
+      <abstract>Context-aware neural machine translation (NMT) incorporates contextual information of surrounding texts, that can improve the translation quality of document-level machine translation. Many existing works on context-aware NMT have focused on developing new model architectures for incorporating additional contexts and have shown some promising results. However, most of existing works rely on cross-entropy loss, resulting in limited use of <a href="https://en.wikipedia.org/wiki/Context_(language_use)">contextual information</a>. In this paper, we propose CorefCL, a novel data augmentation and contrastive learning scheme based on <a href="https://en.wikipedia.org/wiki/Coreference">coreference</a> between the source and contextual sentences. By corrupting automatically detected coreference mentions in the contextual sentence, CorefCL can train the <a href="https://en.wikipedia.org/wiki/Mathematical_model">model</a> to be sensitive to coreference inconsistency. We experimented with our <a href="https://en.wikipedia.org/wiki/Method_(computer_programming)">method</a> on common context-aware NMT models and two document-level translation tasks. In the experiments, our method consistently improved BLEU of compared models on <a href="https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language">English-German and English-Korean tasks</a>. We also show that our <a href="https://en.wikipedia.org/wiki/Methodology">method</a> significantly improves <a href="https://en.wikipedia.org/wiki/Coreference_resolution">coreference resolution</a> in the English-German contrastive test suite.</abstract>
+      <url hash="c91a0faa">2021.wmt-1.121</url>
+      <bibkey>hwang-etal-2021-contrastive</bibkey>
+    </paper>
+  </volume>
+</collection>

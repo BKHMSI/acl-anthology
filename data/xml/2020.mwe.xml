@@ -65,9 +65,11 @@
     <title_ar>شرح MWE اللفظية باللغة الأيرلندية لمهمة PARSEME المشتركة 1.2</title_ar>
       <title_es>Anotaciones de MWE verbales en irlandés para la tarea compartida 1.2 de PARSEME</title_es>
       <title_pt>Anotando MWEs Verbais em Irlandês para a Tarefa Compartilhada PARSEME 1.2</title_pt>
+      <title_fr>Annotation des MWE verbaux en irlandais pour la tâche partagée PARSEME 1.2</title_fr>
       <title_ja>PARSEME共有タスク1.2のためのアイルランド語での口頭MWEの注釈付け</title_ja>
       <title_zh>以爱尔兰语注 PARSEME 共享任务口 MWE 1.2</title_zh>
       <title_hi>PARSEME साझा कार्य 1.2 के लिए आयरिश में मौखिक MWEs annotating</title_hi>
+      <title_ru>Аннотирование словесных MWE на ирландском языке для общей задачи PARSEME 1.2</title_ru>
       <title_ga>MWEanna Briathartha i nGaeilge a Anó don Tasc Comhroinnte PARSEME 1.2</title_ga>
       <title_el>Σχολιασμός προφορικών MWE στα ιρλανδικά για την κοινή εργασία PARSEME 1.2</title_el>
       <title_hu>Szóbeli MWE-k megjegyzése ír nyelven a PARSEME megosztott feladathoz 1.2</title_hu>
@@ -118,10 +120,12 @@
       <title_ha>KCharselect unicode block name</title_ha>
       <title_bo>Annotating Verbal MWEs in Irish for the PARSEME Shared Task 1.2</title_bo>
       <abstract_ar>تصف هذه الورقة إنشاء مجموعتين أيرلنديتين (مصنفتين وغير موسمتين) من أجل MWEs اللفظية لإدراجها في مهمة PARSEME المشتركة 1.2 بشأن التعريف التلقائي لـ MWE اللفظية ، وعملية تطوير فئات MWE اللفظية للأيرلندية. يتم تقديم تحليل نوعي عن المجموعتين ، جنبًا إلى جنب مع مناقشة MWEs اللفظية الأيرلندية.</abstract_ar>
+      <abstract_fr>Cet article décrit la création de deux corpus irlandais (étiquetés et non étiquetés) pour les MWE verbaux à inclure dans la tâche partagée PARSEME 1.2 sur l'identification automatique des MWE verbaux, et le processus de développement de catégories d'EMT verbaux pour l'irlandais. Une analyse qualitative des deux corpus est présentée, ainsi qu'une discussion sur les MWE verbaux irlandais.</abstract_fr>
       <abstract_pt>Este artigo descreve a criação de dois corpora irlandeses (rotulados e não rotulados) para MWEs verbais para inclusão na Tarefa Compartilhada PARSEME 1.2 sobre identificação automática de MWEs verbais e o processo de desenvolvimento de categorias de MWE verbais para irlandês. Uma análise qualitativa dos dois corpora é apresentada, juntamente com a discussão dos MWEs verbais irlandeses.</abstract_pt>
       <abstract_es>Este artículo describe la creación de dos corpus irlandeses (etiquetados y no etiquetados) para los MWE verbales para su inclusión en la Tarea Compartida 1.2 de PARSEME sobre la identificación automática de los MWE verbales, y el proceso de desarrollo de categorías de MWE verbales para el irlandés. Se presenta un análisis cualitativo de los dos cuerpos, junto con una discusión de los MWE verbales irlandeses.</abstract_es>
       <abstract_ja>この論文では、言語MWEの自動識別に関するPARSEME Shared Task 1.2に含めるための言語MWEのための2つのアイルランドのコーポラ（ラベル付けおよび非ラベル付け）の作成、およびアイルランド人のための言語MWEカテゴリの開発プロセスについて説明します。アイルランド語の言葉によるMWEの議論とともに、2つのコーパに関する定性的分析が提示されている。</abstract_ja>
       <abstract_zh>本文述为口头MWE创立二爱尔兰语料库(标记及未标记),以包在自动识别口MWE之PARSEME共享1.2中,及为爱尔兰语开口头MWE类。 本文定性分析两语料库,并议爱尔兰语MWE。</abstract_zh>
+      <abstract_ru>В настоящем документе описывается создание двух ирландских корпусов (помеченных и немаркированных) для вербальных MWE для включения в общую задачу 1.2 ПАРСЕМЕ по автоматической идентификации вербальных MWE и процесс разработки вербальных категорий MWE для ирландских. Представлен качественный анализ двух корпусов, а также обсуждение ирландских словесных MWE.</abstract_ru>
       <abstract_hi>यह पेपर मौखिक MWEs की स्वचालित पहचान पर PARSEME साझा कार्य 1.2 में शामिल करने के लिए मौखिक MWEs के लिए दो आयरिश कॉर्पोरेट (लेबल और बिना लेबल वाले) के निर्माण का वर्णन करता है, और आयरिश के लिए मौखिक MWE श्रेणियों को विकसित करने की प्रक्रिया। आयरिश मौखिक MWEs की चर्चा के साथ दो कॉर्पोरेट पर एक गुणात्मक विश्लेषण प्रस्तुत किया गया है।</abstract_hi>
       <abstract_ga>Déanann an páipéar seo cur síos ar chruthú dhá chorpora Éireannacha (lipéadaithe agus neamhlipéadaithe) do MWEanna briathartha le cur san áireamh i dTasc Comhroinnte PARSEME 1.2 ar shainaithint uathoibríoch MWEanna briathartha, agus ar an bpróiseas chun catagóirí MWE ó bhéal a fhorbairt don Ghaeilge. Cuirtear anailís cháilíochtúil ar an dá chorp i láthair, mar aon le plé ar MWEanna briathartha Gaeilge.</abstract_ga>
       <abstract_el>Η παρούσα εργασία περιγράφει τη δημιουργία δύο ιρλανδικών σωμάτων (επισημασμένων και μη επισημασμένων) για προφορικές MWE για ένταξη στην κοινή εργασία PARSEME 1.2 για τον αυτόματο προσδιορισμό λεκτικών MWE, και τη διαδικασία ανάπτυξης λεκτικών κατηγοριών MWE για ιρλανδικά. Παρουσιάζεται ποιοτική ανάλυση των δύο σωμάτων, καθώς και συζήτηση των ιρλανδικών προφορικών MWE.</abstract_el>
