@@ -150,6 +150,120 @@
       <url hash="f2079a99">2020.computerm-1.14</url>
       <language>eng</language>
       <bibkey>pais-ion-2020-termeval</bibkey>
-    </paper>
+    <title_ar>TermEval 2020: نظام استخراج المصطلح التلقائي RACAI</title_ar>
+      <title_es>TermeVal 2020: sistema automático de extracción de términos de RACAI</title_es>
+      <title_fr>TermEval 2020 : le système d'extraction automatique de termes de RACAI</title_fr>
+      <title_pt>TermEval 2020: o sistema automático de extração de termos da RACAI</title_pt>
+      <title_ja>TermEval 2020 ： RACAIの自動用語抽出システム</title_ja>
+      <title_zh>TermEval 2020:RACAI自术语取统</title_zh>
+      <title_hi>TermEval 2020: RACAI की स्वचालित शब्द निष्कर्षण प्रणाली</title_hi>
+      <title_ru>TermEval 2020: автоматическая система извлечения терминов RACAI</title_ru>
+      <title_ga>TermEval 2020: córas uathbhainte téarma RACAI</title_ga>
+      <title_hu>TermEval 2020: A RACAI automatikus kifejezések kivonási rendszere</title_hu>
+      <title_ka>TermEval 2020: RACAI-ის ავტომატური ტერმინტიკური ექსტრექციის სისტემა</title_ka>
+      <title_el>TermEval 2020: Το αυτόματο σύστημα εξαγωγής ορού της RACAI</title_el>
+      <title_it>TermEval 2020: il sistema automatico di estrazione dei termini RACAI</title_it>
+      <title_kk>TermEval 2020: RACAI автоматты терминді тарқату жүйесі</title_kk>
+      <title_lt>TermEval 2020: RACAI automatinės terminų gavybos sistema</title_lt>
+      <title_mk>TermEval 2020: RACAI's automatic term extraction system</title_mk>
+      <title_mt>TermEval 2020: Is-sistema ta’ estrazzjoni awtomatika tat-terminu tar-RACAI</title_mt>
+      <title_ms>TermEval 2020: Sistem ekstraksi terma automatik RACAI</title_ms>
+      <title_ml>TermEval 2020: RACAI's automatic term extraction system</title_ml>
+      <title_pl>TermEval 2020: automatyczny system ekstrakcji terminów RACAI</title_pl>
+      <title_no>TermEval 2020: RACAI sin automatisk utpakkingssystem</title_no>
+      <title_ro>TermEval 2020: Sistemul automat de extragere a termenului RACAI</title_ro>
+      <title_sr>TermEval 2020: RACAI automatski sistem ekstrakcije termina</title_sr>
+      <title_si>තාර්මවේල් 2020යි: RACAI ගේ ස්වයංක්‍රිය ප්‍රවේශන පද්ධතිය</title_si>
+      <title_so>TermEval 2020: RACAI's automatic term extraction system</title_so>
+      <title_sv>TermEval 2020: RACAI:s automatiska termextraktionssystem</title_sv>
+      <title_ta>TermEval 2020: RACAI's automatic term extraction system</title_ta>
+      <title_mn>TermEval 2020: RACAI-ын автоматжуулалт гаргах систем</title_mn>
+      <title_ur>TermEval 2020: RACAI's automatic term extraction system</title_ur>
+      <title_uz>TermEval 2020: RACAI's automatic term extraction system</title_uz>
+      <title_vi>KCharselect unicode block name</title_vi>
+      <title_bg>Автоматична система за извличане на термини на РАКАИ</title_bg>
+      <title_da>TermEval 2020: RACAI's automatiske termekstraktionssystem</title_da>
+      <title_nl>TermEval 2020: RACAI's automatische termextractie systeem</title_nl>
+      <title_hr>TermEval 2020: RACAI automatski sustav izvlačenja termina</title_hr>
+      <title_de>TermEval 2020: Das automatische Termextraktionssystem von RACAI</title_de>
+      <title_ko>TermEval 2020: RACAI의 자동 용어 추출 시스템</title_ko>
+      <title_fa>TermEval 2020: سیستم استخراج ابزار خودکار RACAI</title_fa>
+      <title_id>TermEval 2020: sistem ekstraksi istilah otomatis RACAI</title_id>
+      <title_tr>TermEval 2020: RACAI'nin otomatik termi açma sistemi</title_tr>
+      <title_sw>TermEval 2020: Mfumo wa kujitegemea wa muda</title_sw>
+      <title_af>TermEval 2020: RACAI se outomatiese term uittrekking stelsel</title_af>
+      <title_sq>TermEval 2020: Sistemi automatik i nxjerrjes s ë afatit të RACAI</title_sq>
+      <title_am>TermEval 2020: RACAI's automatic term extraction system</title_am>
+      <title_hy>«Թերմել 2020»: RACAI-ի ավտոմատիկ տերմինների վերացման համակարգը</title_hy>
+      <title_az>TermEval 2020: RACAI'nin automatic term extraction system</title_az>
+      <title_bn>TermEval 2020: RACAI's automatic term extraction system</title_bn>
+      <title_bs>TermEval 2020: RACAI automatski sistem izvlačenja termina</title_bs>
+      <title_ca>TermEval 2020: el sistema d'extracció automàtica del RACAI</title_ca>
+      <title_cs>TermEval 2020: Automatický systém extrakce termínů RACAI</title_cs>
+      <title_et>TermEval 2020: RACAI automaatne termini ekstraheerimise süsteem</title_et>
+      <title_fi>TermEval 2020: RACAin automaattinen termien poistojärjestelmä</title_fi>
+      <title_ha>QScriptBreakpointsModel</title_ha>
+      <title_he>TermEval 2020: מערכת החילוץ האוטומטית של RACAI</title_he>
+      <title_sk>TermEval 2020: RACAI avtomatski sistem ekstrakcije z izrazom</title_sk>
+      <title_jv>Terminal Escape 2020: RICaI's automatically terms extract System</title_jv>
+      <title_bo>TermEval 2020: RACAI's automatic term extraction system</title_bo>
+      <abstract_ar>تصف هذه الورقة نظام استخراج المصطلح التلقائي الخاص بـ RACAI ، والذي شارك في مهمة TermEval 2020 المشتركة لاستخراج المصطلح أحادي اللغة الإنجليزية. نناقش بنية النظام ، وبعض التحديات التي واجهناها وكذلك نقدم نتائجنا في مسابقة اللغة الإنجليزية.</abstract_ar>
+      <abstract_pt>Este artigo descreve o sistema de extração automática de termos da RACAI, que participou da tarefa compartilhada TermEval 2020 sobre extração de termos monolíngues em inglês. Discutimos a arquitetura do sistema, alguns dos desafios que enfrentamos e apresentamos nossos resultados na competição inglesa.</abstract_pt>
+      <abstract_es>Este artículo describe el sistema automático de extracción de términos de RACAI, que participó en la tarea compartida TermeVal 2020 sobre la extracción de términos monolingües en inglés. Discutimos la arquitectura del sistema, algunos de los desafíos a los que nos enfrentamos y presentamos nuestros resultados en la competencia inglesa.</abstract_es>
+      <abstract_fr>Cet article décrit le système d'extraction automatique de termes de RACAI, qui a participé à la tâche partagée TermEval 2020 sur l'extraction de termes monolingues en anglais. Nous discutons de l'architecture du système, de certains des défis que nous avons rencontrés et présentons nos résultats lors du concours anglais.</abstract_fr>
+      <abstract_ja>本稿では、英語単語抽出に関するTermEval 2020共有タスクに参加したRACAIの自動用語抽出システムについて説明する。システムアーキテクチャ、直面したいくつかの課題、そして英語コンテストでの結果について説明します。</abstract_ja>
+      <abstract_zh>本文引RACAI自术语取统,当与TermeEval 2020英语单语术语取共同任务。 论系统架构,临战及展英语比赛中。</abstract_zh>
+      <abstract_hi>यह पेपर आरएसीएआई के स्वचालित शब्द निष्कर्षण प्रणाली का वर्णन करता है, जिसने अंग्रेजी मोनोलिंगुअल शब्द निष्कर्षण पर टर्मएवल 2020 साझा कार्य में भाग लिया। हम सिस्टम आर्किटेक्चर पर चर्चा करते हैं, कुछ चुनौतियों का सामना करना पड़ा और साथ ही अंग्रेजी प्रतियोगिता में हमारे परिणामों को प्रस्तुत करते हैं।</abstract_hi>
+      <abstract_ru>В этой статье описывается автоматическая система извлечения терминов RACAI, которая участвовала в совместной задаче TermEval 2020 по английскому одноязычному извлечению терминов. Мы обсуждаем архитектуру системы, некоторые из проблем, с которыми мы столкнулись, а также представляем наши результаты в конкурсе английского языка.</abstract_ru>
+      <abstract_ga>Déanann an páipéar seo cur síos ar chóras uathbhainte téarma RACAI, a ghlac páirt i dtasc comhroinnte TermEval 2020 ar eastóscadh téarma aonteangach Béarla. Pléimid ailtireacht an chórais, cuid de na dúshláin a bhí romhainn chomh maith lenár dtorthaí a chur i láthair sa chomórtas Béarla.</abstract_ga>
+      <abstract_el>Η παρούσα εργασία περιγράφει το αυτόματο σύστημα εξαγωγής ορού του RACAI, το οποίο συμμετείχε στην κοινή εργασία για την αγγλική μονογλωσσική εξαγωγή ορού. Συζητούμε την αρχιτεκτονική του συστήματος, μερικές από τις προκλήσεις που αντιμετωπίσαμε και παρουσιάζουμε τα αποτελέσματά μας στον αγγλικό διαγωνισμό.</abstract_el>
+      <abstract_hu>A tanulmány bemutatja a RACAI automatikus kifejezések kivonási rendszerét, amely részt vett a TermEval 2020 közös feladatában az angol egynyelvű kifejezések kivonásával kapcsolatban. Beszélünk a rendszer architektúráról, néhány kihívásról, amelyekkel szembesültünk, valamint bemutatjuk eredményeinket az angol versenyen.</abstract_hu>
+      <abstract_ka>ამ დოკუმენტი აღწერა RACAI-ის ავტომატიკური ტერმინტაქქციის სისტემა, რომელსაც TermEval 2020-ის გაყოფილი საქმე ანგლისური მონოლენგური ტერმინტაქციის გამოყენებაზე ჩვენ ვისაუბრობთ სისტემის არქტიქტურაციას, ზოგიერთი გამოცდილებები, რომლებიც ჩვენ განვითარებდით და ჩვენი შედეგები ინგლისური კონსპენტებში.</abstract_ka>
+      <abstract_it>Questo articolo descrive il sistema automatico di estrazione dei termini RACAI, che ha partecipato al compito condiviso TermEval 2020 sull'estrazione dei termini monolingue inglese. Discutiamo l'architettura del sistema, alcune delle sfide che abbiamo affrontato e presentiamo i nostri risultati nel concorso inglese.</abstract_it>
+      <abstract_kk>Бұл қағаз RACAI терминді автоматты түрде тарқату жүйесін түсіндіреді. Бұл термин TermEval 2020 тілінде ағылшын тілінің монолингі терминді тарқату жүйесіне қатынайды. Біз жүйелік архитектурасын, біздің көбірек әзірлеріміздің нәтижелерімізді ағылшынша конкурсына келтіріп тұрмыз.</abstract_kk>
+      <abstract_mk>Овој весник го опишува автоматскиот систем на извлекување на термини на РАКАИ, кој учествуваше во заедничката задача на Термевал 2020 за англиска монојазична извлекување на термини. Разговараме за системската архитектура, некои од предизвиците со кои се соочивме, како и ги претставуваме нашите резултати на англиската конкуренција.</abstract_mk>
+      <abstract_lt>Šiame dokumente aprašoma RACAI automatinio term in ų gavybos sistema, kuri dalyvavo „TermEval 2020“ bendroje užduotyje anglų kalbų vienkalbinio termino gavybos srityje. Mes aptariame sistemos architektūrą, kai kuriuos iššūkius, su kuriais susidūrėme, taip pat pristatome savo rezultatus Anglijos konkurencijoje.</abstract_lt>
+      <abstract_ml>ഈ പത്രത്തില്‍ റാക്കായിന്റെ സ്വയമായ വാക്ക് പുറത്തെടുക്കുന്ന സിസ്റ്റം വിവരിക്കുന്നു. അത് ടെര്‍മെവാല്‍ 2020 ല്‍ പങ്കെടുത്ത ഞങ്ങള്‍ സിസ്റ്റത്തിന്റെ ആര്‍ക്കിട്ടേഷനെപ്പറ്റി സംസാരിക്കുന്നു, ഞങ്ങള്‍ കണ്ടുമുട്ടിയ ചില വ്യാല്‍ക്കേഷനെപ്പറ</abstract_ml>
+      <abstract_ms>Kertas ini menggambarkan sistem ekstraksi terma automatik RACAI, yang berpartisipasi dalam tugas kongsi TermEval 2020 mengenai ekstraksi terma monobahasa Inggeris. Kita membincangkan arkitektur sistem, beberapa cabaran yang kita hadapi serta memperkenalkan hasil kita dalam pertandingan Inggeris.</abstract_ms>
+      <abstract_mn>Энэ цаас RACAI-ын автоматически хэлний гаргах системийг тайлбарлаж байна. Энэ нь TermEval 2020-д Англи хэлний нэг хэлний гаргах үйл ажилд оролцсон юм. Бид системийн архитектурыг, зарим сорилтуудыг ярьж, Англи хэлний өрсөлдөөнд үр дүнг үзүүлдэг.</abstract_mn>
+      <abstract_mt>Dan id-dokument jiddeskrivi s-sistema ta’ estrazzjoni awtomatika tat-terminu tar-RACAI, li pparteċipat fil-kompitu kondiviż tat-TermEval 2020 dwar l-estrazzjoni tat-terminu monolingwi Ingliż. Aħna niddiskutu l-arkitettura tas-sistema, uħud mill-isfidi li ffaċċjaw kif ukoll nippreżentaw ir-riżultati tagħna fil-kompetizzjoni Ingliża.</abstract_mt>
+      <abstract_pl>W artykule opisano automatyczny system ekstrakcji terminów RACAI, który uczestniczył w wspólnym zadaniu TermEval 2020 dotyczącym ekstrakcji terminów jednojęzycznych w języku angielskim. Omówimy architekturę systemu, niektóre z wyzwań, które stawiliśmy czoła, a także prezentujemy nasze wyniki w konkursie angielskim.</abstract_pl>
+      <abstract_no>Denne papiret beskriver RACAI s in automatisk utpakkingssystem, som delta i den delte oppgåva TermEval 2020 om utpakking av engelsk monospråk. Vi diskuterer systemarkitekturen, noen av utfordringane vi oppstod og presenterer resultatene våre i engelsk konkurranse.</abstract_no>
+      <abstract_si>මේ පත්තුව RACAI ගේ ස්වයංක්‍රිය ප්‍රවේශ පද්ධතිය ප්‍රවේශනය විස්තර කරනවා, ඒ වගේම තර්මේවාල් 2020යි ඉංග්‍රීසි එක භ අපි පද්ධතිය ස්ථාපනය විශ්වාස කතා කරනවා, අපි සම්බන්ධ වෙලා තියෙන ප්‍රශ්නයක් වගේම ඉංග්‍රීසි ප්‍රශ</abstract_si>
+      <abstract_ro>Această lucrare descrie sistemul automat de extragere a termenilor RACAI, care a participat la sarcina comună TermEval 2020 privind extragerea termenilor monolingvi în limba engleză. Discutăm arhitectura sistemului, câteva dintre provocările cu care ne-am confruntat, precum și prezentăm rezultatele noastre în competiția engleză.</abstract_ro>
+      <abstract_sr>Ovaj papir opisuje automatski sistem izvlačenja termina RACAI-a, koji je sudjelovao u zajedničkom zadatku TermEval 2020 o izvlačenju engleskog monojezičkog termina. Razgovaramo o sistemskoj arhitekturi, nekim izazovima sa kojima smo se suočili, kao i predstavljamo rezultate na engleskom natjecanju.</abstract_sr>
+      <abstract_so>Kanu wuxuu ku qoran karaa nidaamka rasmiga ah ee RACAI, kaas oo ka qayb galay xeerarka TermEval 2020 oo ku saabsan soo baxashada afka Ingiriiska oo monolingual ah. Waxaynu kala sheekaynaa dhismaha nidaamka, qaar ka mid ah dhibaatooyin aan la kulannay, iyo sidoo kale arimahayaga aan ku soo jeedno iskaashatada Ingiriiska.</abstract_so>
+      <abstract_sv>Denna uppsats beskriver RACAI:s automatiska termutvinningssystem, som deltog i den delade uppgiften TermEval 2020 om engelsk enspråkig termutvinning. Vi diskuterar systemarkitekturen, några av de utmaningar vi stod inför samt presenterar våra resultat i den engelska tävlingen.</abstract_sv>
+      <abstract_ta>இந்த தாள் RACAI தானியங்கி வெளியேறுதல் அமைப்பை குறிப்பிடுகிறது, இது TermEval 2020 ஆங்கிலத்தில் பங்கிடப்பட்ட பணியில் பங்கிடப்பட்டு நாங்கள் கணினி அமைப்பு உருவாக்கத்தை விவாதம் செய்கிறோம், நாங்கள் எதிர்பார்த்த சில சவால்கள் மற்றும் ஆங்கிலத்தின</abstract_ta>
+      <abstract_ur>This paper describes RACAI's automatic term extraction system, which participated in the TermEval 2020 shared task on English monolingual term extraction. ہم نے سیستم معماری کے بارے میں بحث کیا ہے، کچھ چالیں جن کے بارے میں ہم نے مواجہ کیا ہے اور ہمارے نتیجے انگلیسی مسابقات میں پیش کیے ہیں۔</abstract_ur>
+      <abstract_uz>Bu qogʻoz RACAI'ning avtomatik soʻzni chiqarish tizimini aytadi. Ular TermEval 2020'da ingliz monolingual soʻzni birlashtirilgan vazifani qaytadi. Biz tizim arxituvchisi, biz ko'rib turgan qanchalik muammolarni va ingliz tili rivojlanishimizni anglatamiz.</abstract_uz>
+      <abstract_vi>Bài báo này mô tả hệ thống chuyên môn khai thác theo thuật ngữ pháp của ACK. đã tham gia vào nhiệm vụ chia s ẻ của chót Evol 2020 về việc khai thác ngôn ngữ ngữ Anh. Chúng ta thảo luận về kiến trúc hệ thống, một số thách thức chúng ta phải đối mặt, và giới thiệu kết quả trong cuộc thi Anh Quốc.</abstract_vi>
+      <abstract_nl>Deze paper beschrijft RACAI's automatische termextractie systeem, dat deelnam aan de TermEval 2020 gedeelde taak over Engelse eentalige termextractie. We bespreken de systeemarchitectuur, enkele uitdagingen waarmee we geconfronteerd werden en presenteren onze resultaten in de Engelse competitie.</abstract_nl>
+      <abstract_bg>Настоящата статия описва автоматичната система за извличане на термини на РАКАИ, която участва в споделената задача за извличане на едноезични термини на английски език. Обсъждаме архитектурата на системата, някои от предизвикателствата, пред които се изправихме, както и представяме резултатите си в английския конкурс.</abstract_bg>
+      <abstract_da>Denne artikel beskriver RACAI's automatiske termekstraktionssystem, som deltog i TermEval 2020 delte opgave om engelsk ensproget termekstraktion. Vi diskuterer systemarkitekturen, nogle af de udfordringer, vi står over for, samt præsenterer vores resultater i den engelske konkurrence.</abstract_da>
+      <abstract_hr>Ovaj papir opisuje automatski sustav izvlačenja termina RACAI-a, koji je sudjelovao u zajedničkom zadatku TermEval 2020 o izvlačenju engleskog monojezičkog termina. Razgovaramo o arhitekturi sustava, nekim izazovima s kojima smo se suočili, kao i predstavljamo rezultate na engleskom natjecanju.</abstract_hr>
+      <abstract_de>Diese Arbeit beschreibt das automatische Termextraktionssystem von RACAI, das an der gemeinsamen Aufgabe TermEval 2020 zur englischsprachigen Termextraktion teilgenommen hat. Wir diskutieren die Systemarchitektur, einige der Herausforderungen, denen wir uns gestellt haben und stellen unsere Ergebnisse im englischen Wettbewerb vor.</abstract_de>
+      <abstract_id>Kertas ini menjelaskan sistem ekstraksi istilah otomatis RACAI, yang berpartisipasi dalam tugas berbagi TermEval 2020 tentang ekstraksi istilah monobahasa Inggris. Kita mendiskusikan arsitektur sistem, beberapa tantangan yang kita hadapi serta memperlihatkan hasil kita dalam kompetisi Inggris.</abstract_id>
+      <abstract_ko>본고는 RACAI의 자동 용어 추출 시스템을 소개하는데 이 시스템은 TermEval 2020의 영어 단어 용어 추출에 대한 공유 임무에 참여했다.우리는 시스템 구조, 우리가 직면한 몇 가지 도전에 대해 토론했고 영어 경연에서의 성적을 보여 주었다.</abstract_ko>
+      <abstract_fa>این کاغذ سیستم استخراج ابزار خودکار RACAI را توصیف می‌کند که در کار مشترک TermEval 2020 در مورد استخراج ابزار تک زبان انگلیسی مشترک شده است. ما در مورد معماری سیستم صحبت می کنیم، بعضی از چالش هایی که با آن روبرو شدیم، و نتیجه هایمان را در مسابقه انگلیسی نشان می دهیم.</abstract_fa>
+      <abstract_sw>Gazeti hili linaelezea mfumo wa kujitegemea wa uteuzi wa neno la RACAI, ambao ulishiriki katika kazi ya TermEval 2020 ilishiriki katika uteuzi wa muhula wa lugha ya Kiingereza. Tunajadili ujenzi wa mfumo, baadhi ya changamoto ambazo tulikabiliwa na pamoja na kuweka matokeo yetu katika mashindano ya Kiingereza.</abstract_sw>
+      <abstract_tr>Bu kagyz RACAI'yň awtomatik terjime sistemasyny tashylaýar. TermEval 2020-nji iňlisçe monolingüň ýüklemesi barada bölegi bölegi bardyr. Sistem arhitektura, biziň karşılaşdyklarymyz kynçylyklarymyz we iňlis ýaryşynyň netijelerimizi hem gürrüň edýäris.</abstract_tr>
+      <abstract_af>Hierdie papier beskryf RACAI se outomatiese term uittrekking stelsel, wat gedeel het in die TermEval 2020 deel taak op Engelske monolinguele term uittrekking. Ons bespreek die stelsel-arkitektuur, sommige van die uitdagings wat ons aangesig het, en ons resultate in die Engelske kommunikasie voorsien.</abstract_af>
+      <abstract_sq>Ky dokument përshkruan sistemin automatik të nxjerrjes s ë termave të RACAI, i cili mori pjesë në detyrën e përbashkët të TermEval 2020 mbi nxjerrjen e termave monogjuhësore angleze. Ne diskutojmë arkitekturën e sistemit, disa nga sfidat që përballemi si dhe paraqesim rezultatet tona në konkurrimin anglez.</abstract_sq>
+      <abstract_am>ይህ ፕሮግራም በንግግሊዝኛ እና በንግግሊዝኛ ቋንቋ ውጭ ላይ የተካፈለውን ተርምEval 2020 የተካፈለውን የራካI የራሱ የቁጥጥር ውጤት ስርዓት ይናገራል፡፡ የሲስተም አካውንት፣ የግንኙነታችንን ትንሣኤ እና ፍሬዎቻችንን በንግግሊዝኛ ተቃውሞ እናቀርባታለን፡፡</abstract_am>
+      <abstract_hy>Այս աշխատանքը նկարագրում է RACAI-ի ավտոմատիկ տերմինների վերացման համակարգը, որը մասնակցել է Թերմեվալ 2020-ի համագործակցած հանձնարարության անգլերենի միալեզու վերացման համար: Մենք քննարկում ենք համակարգի ճարտարապետությունը, որոշ մարտահրավերները, որոնց հանդիպեցինք, ինչպես նաև ներկայացնում ենք մեր արդյունքները անգլերենի մրցակցության մեջ:</abstract_hy>
+      <abstract_az>Bu kağıt RACAI'nin otomatik term extraction sistemini təsbiq edir. TermEval 2020'nin İngilizə dillərinin monolingual term extraction haqqında paylaşılan işə katılmışdır. Sistem arhitektürünü mübahisə edirik, bəzi çətinliklərdən və İngilizə müharibəsində sonuçlarımızı göstəririk.</abstract_az>
+      <abstract_bn>এই পত্রিকাটি রাকাআইর স্বয়ংক্রিয় মেয়াদ বের করার ব্যবস্থায় বর্ণনা করেছে, যা ইংরেজি মোনোলিভাল মেয়াদ বের করার ব্যাপারে টের্ম আমরা সিস্টেমের আর্কিকেট কার্যক্রম নিয়ে আলোচনা করি, যে কিছু চ্যালেঞ্জের মুখোমুখি হয়েছিলাম এবং ইংরেজী প্রতিযোগিতা</abstract_bn>
+      <abstract_bs>Ovaj papir opisuje automatski sustav izvlačenja termina RACAI-a, koji je sudjelovao u zajedničkom zadatku TermEval 2020 o izvlačenju engleskog monojezičkog termina. Razgovaramo o sistemskoj arhitekturi, nekim izazovima s kojima smo se suočili, kao i predstavljamo rezultate na engleskom natjecanju.</abstract_bs>
+      <abstract_ca>Aquest paper descriu el sistema d'extracció automàtica de termes RACAI, que va participar en la tasca compartida TermEval 2020 sobre l'extracció de termes monolingües anglès. Discutem sobre l'arquitectura del sistema, alguns dels reptes que ens enfrontàvem i presentem els nostres resultats en la competició anglesa.</abstract_ca>
+      <abstract_et>Käesolevas töös kirjeldatakse RACAI automaatset terminite ekstraheerimise süsteemi, mis osales TermEval 2020 jagatud ülesandes inglise keelse terminite ekstraheerimise kohta. Arutame süsteemi arhitektuuri, mõningaid väljakutseid, millega me silmitsi seisime, ning esitleme oma tulemusi Inglise konkursil.</abstract_et>
+      <abstract_cs>Tento článek popisuje automatický systém extrakce termů RACAI, který se podílel na sdíleném úkolu TermEval 2020 na anglické monojazyčné extrakci termů. Diskutujeme o architektuře systému, některých výzvách, kterým jsme čelili, a prezentujeme naše výsledky v anglické soutěži.</abstract_cs>
+      <abstract_fi>T瓣ss瓣 artikkelissa kuvataan RACAin automaattista termien uuttamista, joka osallistui TermEval 2020 -yhteiseen teht瓣v瓣瓣n englanninkielisest瓣 termien uuttamisesta. Keskustelemme j瓣rjestelm瓣arkkitehtuurista, joistakin kohtaamistamme haasteista sek瓣 esittelemme tuloksemme englanninkielisess瓣 kilpailussa.</abstract_fi>
+      <abstract_ha>Wannan takardan na faÉ—aÉ—a tsarin rubutun farat É—aya na RaCAI, wanda ya yi shirin karatun na Tarmeval 2020 da aka yi raba aikin ayukan harshen Ingiriya. MunĂŁ jĂŁyayya masu tsarin na'ura, da wasu na'ura waÉ—anda muka haÉ—u da shi, da kuma masu gabatar da matsalanmu a cikin muhallin Ingiriya.</abstract_ha>
+      <abstract_he>העיתון הזה מתאר את מערכת החילוץ המונחים האוטומטית של RACAI, אשר השתתף במשימה המשותפת של TermEval 2020 על החילוץ המונח המונולשוני אנגלי. אנחנו מדברים על ארכיטקטורת המערכת, חלק מהאתגרים שאנחנו מתמודדים איתם, כמו גם מציגים את התוצאות שלנו בתחרות האנגלית.</abstract_he>
+      <abstract_sk>V prispevku je opisan RACAI avtomatski sistem ekstrakcije izrazov, ki je sodeloval v skupni nalogi TermEval 2020 o ekstrakciji angleških enojezičnih izrazov. Razpravljamo o sistemski arhitekturi, nekaterih izzivih, s katerimi smo se soočali, ter predstavljamo naše rezultate na angleškem natečaju.</abstract_sk>
+      <abstract_jv>Gambar iki rambarang panjenengan tanggal nggambar, sistem bukalahan tanggal nggambar, nggambar terus "Terminal inval 2020" nggawe barang tanggal nggambar urip jenengani bukalahan tanggal nggambar. Awak dhéwé pisan architecture sistem, sing berarti ujak dhéwé iso ngejaraké awak dhéwé sapa nyimpen iki dadi sing bakal terus neng as éwé Inggris.</abstract_jv>
+      <abstract_bo>ཤོག་བྱང་འདིས་RACAI's automatic term extraction system(extraction system)སྒྲིག་ཡིན་པ་ལས་TermEval 2020་ནང་དུ་དབྱིན་ཡིག ང་ཚོས་མ་ལག་གི་བཟོ་བཀོད་དང་གདོང་ལེན་བྱེད་པའི་དཀའ་གདོང་ལ་ཤས་མང་ཆོག</abstract_bo>
+      </paper>
     </volume>
 </collection>
