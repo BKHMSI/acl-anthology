@@ -1205,10 +1205,12 @@
         {{ end }}
       {{ end }}
 
-      <a class="btn btn-dark" data-toggle="modal" data-target="#translateModal" title="Translate for '{{ $paper.title | htmlEscape }}'"
-        style="color: white;">
-        <i class="fas fa-language"></i><span class="pl-2">Translate</span>
-      </a>
+      {{ with $paper.abstract_ar }}
+        <a class="btn btn-dark" data-toggle="modal" data-target="#translateModal" title="Translate for '{{ $paper.title | htmlEscape }}'"
+          style="color: white;">
+          <i class="fas fa-language"></i><span class="pl-2">Translate</span>
+        </a>
+      {{ end }}
 
       {{ range $paper.attachment }}
       <a class="btn btn-attachment d-flex flex-wrap justify-content-center" href="{{ .url }}" title="Open {{ .type | humanize | lower }} for '{{ $paper.title | htmlEscape }}'">
