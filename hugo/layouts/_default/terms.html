@@ -1,8 +1,8 @@
 {{ define "javascript" }}
 <script>
 
-    let lang_codes = ['af', 'sq', 'am', 'ar', 'hy', 'az', 'bn', 'bs', 'bg', 'ca', 'zh', 'hr', 'cs', 'da', 'nl', 'et', 'fl', 'fi', 'fr', 'ka', 'de', 'el', 'ha', 'he', 'hi', 'hu', 'is', 'id', 'ga', 'it', 'ja', 'jv', 'kk', 'ko', 'lt', 'mk', 'ms', 'ml', 'mt', 'mn', 'no', 'fa', 'pl', 'pt', 'ro', 'ru', 'sr', 'si', 'sk', 'so', 'es', 'sw', 'sv', 'ta', 'bo', 'tr', 'uk', 'ur', 'uz', 'vi', 'en'];
-    let languages = ['Afrikaans', 'Albanian', 'Amharic', 'Arabic', 'Armenian', 'Azerbaijani', 'Bengali', 'Bosnian', 'Bulgarian', 'Catalan', 'Chinese', 'Croatian', 'Czech', 'Danish', 'Dutch', 'Estonian', 'Filipino', 'Finnish', 'French', 'Georgian', 'German', 'Greek', 'Hausa', 'Hebrew', 'Hindi', 'Hungarian', 'Icelandic', 'Indonesian', 'Irish', 'Italian', 'Japanese', 'Javanese', 'Kazakh', 'Korean', 'Lithuanian', 'Macedonian', 'Malay', 'Malayalam', 'Maltese', 'Mongolian', 'Norwegian', 'Persian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Serbian', 'Sinhala', 'Slovak', 'Somali', 'Spanish', 'Swahili', 'Swedish', 'Tamil', 'Tibetan', 'Turkish', 'Ukranian', 'Urdu', 'Uzbek', 'Vietnamese', 'English'];
+    let lang_codes = ["zh", "fa", "bg", "hr", "tr", "ga", "de", "ja", "pt", "ko", "ru", "sw", "nl", "hi", "id", "da"];
+    let languages = ["Chinese", "Persian", "Bulgarian", "Croatian", "Turkish", "Irish", "German", "Japanese", "Portuguese", "Korean", "Russian", "Swahili", "Flemish", "Hindi", "Indonesian", "Danish"];
 
     $( document ).ready(function() {
         let lang_select = document.getElementById("lang_select");
@@ -15,8 +15,24 @@
     });
 
     $('#lang_select').on('change', function() {
-        console.log( this.value );
+        hide_all()
+        for(let x in lang_codes){
+            let code = lang_codes[x];
+            if(this.value == code){
+                console.log(code);
+                $("."+code+"_term").show(); 
+                $("."+code+"_example").show();
+            }
+        }
     });
+
+    function hide_all(){
+        for (let x in lang_codes){
+            let code = lang_codes[x];
+            $("."+code+"_term").hide(); 
+            $("."+code+"_example").hide();
+        }
+    }
 
     function clearSearch(){
         document.getElementById('lang_query').value = "";
@@ -75,23 +91,64 @@
     </div>
   </div>
 
-  <table class="table table-striped table-responsive-lg" id="term_content">
+  <table class="table table-striped" style="inline-size: 100%; overflow-wrap: break-word;" id="term_content">
     <thead>
         <tr>
             <th scope="col"> Term </th>
-            <th scope="col"> Frequency </th>
-            <th scope="col"> Example Contexts </th>
+            <th scope="col"> Source Examples </th>
+            <th scope="col"> Target Examples </th>
         </tr>
     </thead>
     <tbody>
         {{ range .Site.Data.terms }}
             <tr>
                 {{ if eq .wiki ""}}
-                    <td rowspan="6"> {{ .term }} </td>
+                    <td rowspan="6"> 
+                        {{ .term }} 
+                        <hr>
+                        <div class='zh_term'> {{ .zh_term }} </div>
+                        <div class='fa_term' style='display:none;'> {{ .fa_term }} </div>
+                        <div class='bg_term' style='display:none;'> {{ .bg_term }} </div>
+                        <div class='hr_term' style='display:none;'> {{ .hr_term }} </div>
+                        <div class='tr_term' style='display:none;'> {{ .tr_term }} </div>
+                        <div class='ga_term' style='display:none;'> {{ .ga_term }} </div>
+                        <div class='de_term' style='display:none;'> {{ .de_term }} </div>
+                        <div class='ja_term' style='display:none;'> {{ .ja_term }} </div>
+                        <div class='pt_term' style='display:none;'> {{ .pt_term }} </div>
+                        <div class='ko_term' style='display:none;'> {{ .ko_term }} </div>
+                        <div class='ru_term' style='display:none;'> {{ .ru_term }} </div>
+                        <div class='sw_term' style='display:none;'> {{ .sw_term }} </div>
+                        <div class='nl_term' style='display:none;'> {{ .nl_term }} </div>
+                        <div class='hi_term' style='display:none;'> {{ .hi_term }} </div>
+                        <div class='id_term' style='display:none;'> {{ .id_term }} </div>
+                        <div class='da_term' style='display:none;'> {{ .da_term }} </div>
+                        <hr>
+                        <div>Frequency: {{ .frequency }}</div>
+                    </td>
                 {{else}}
-                    <td rowspan="6"> <a href="{{.wiki}}"> {{ .term }} </a> </td>
+                    <td rowspan="6"> 
+                        <a href="{{.wiki}}"> {{ .term }} </a> 
+                        <hr>
+                        <div class='zh_term'> {{ .zh_term }} </div>
+                        <div class='fa_term' style='display:none;'> {{ .fa_term }} </div>
+                        <div class='bg_term' style='display:none;'> {{ .bg_term }} </div>
+                        <div class='hr_term' style='display:none;'> {{ .hr_term }} </div>
+                        <div class='tr_term' style='display:none;'> {{ .tr_term }} </div>
+                        <div class='ga_term' style='display:none;'> {{ .ga_term }} </div>
+                        <div class='de_term' style='display:none;'> {{ .de_term }} </div>
+                        <div class='ja_term' style='display:none;'> {{ .ja_term }} </div>
+                        <div class='pt_term' style='display:none;'> {{ .pt_term }} </div>
+                        <div class='ko_term' style='display:none;'> {{ .ko_term }} </div>
+                        <div class='ru_term' style='display:none;'> {{ .ru_term }} </div>
+                        <div class='sw_term' style='display:none;'> {{ .sw_term }} </div>
+                        <div class='nl_term' style='display:none;'> {{ .nl_term }} </div>
+                        <div class='hi_term' style='display:none;'> {{ .hi_term }} </div>
+                        <div class='id_term' style='display:none;'> {{ .id_term }} </div>
+                        <div class='da_term' style='display:none;'> {{ .da_term }} </div>
+                        <hr>
+                        <div>Frequency: {{ .frequency }}</div>
+                    </td>
                 {{end}}
-                <td rowspan="6"> {{ .frequency }} </td>
             </tr>
             {{ range .sentences}}
             <tr>
@@ -101,13 +158,26 @@
                     <br>
                     {{ .sentence }} 
                 </td>
-            </tr>
+                <td class='zh_example'> {{ .zh_sentence }} </td>
+                <td class='fa_example' style="display: none;"> {{ .fa_sentence }} </td>
+                <td class='bg_example' style="display: none;"> {{ .bg_sentence }} </td>
+                <td class='hr_example' style="display: none;"> {{ .hr_sentence }} </td>
+                <td class='tr_example' style="display: none;"> {{ .tr_sentence }} </td>
+                <td class='ga_example' style="display: none;"> {{ .ga_sentence }} </td>
+                <td class='de_example' style="display: none;"> {{ .de_sentence }} </td>
+                <td class='ja_example' style="display: none;"> {{ .ja_sentence }} </td>
+                <td class='pt_example' style="display: none;"> {{ .pt_sentence }} </td>
+                <td class='ko_example' style="display: none;"> {{ .ko_sentence }} </td>
+                <td class='ru_example' style="display: none;"> {{ .ru_sentence }} </td>
+                <td class='sw_example' style="display: none;"> {{ .sw_sentence }} </td>
+                <td class='nl_example' style="display: none;"> {{ .nl_sentence }} </td>
+                <td class='hi_example' style="display: none;"> {{ .hi_sentence }} </td>
+                <td class='id_example' style="display: none;"> {{ .id_sentence }} </td>
+                <td class='da_example' style="display: none;"> {{ .da_sentence }} </td>
             {{end}}
+            </tr>
         {{ end }}
     </tbody>
-
   </table>
-
-
 </main>
 {{ end }}
