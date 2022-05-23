@@ -32,12 +32,14 @@
       <url hash="2ee04c3d">2021.autosimtrans-1.1</url>
       <doi>10.18653/v1/2021.autosimtrans-1.1</doi>
       <bibkey>zhang-feng-2021-icts</bibkey>
-    <title_ar>نظام تكنولوجيا المعلومات والاتصالات لـ AutoSimTrans 2021: ترجمة فورية قوية على مستوى Char</title_ar>
+    <title_fr>Système ICT pour AutoSimTrans 2021 : traduction simultanée robuste au niveau des caractères</title_fr>
+      <title_ar>نظام تكنولوجيا المعلومات والاتصالات لـ AutoSimTrans 2021: ترجمة فورية قوية على مستوى Char</title_ar>
       <title_es>Sistema de ICT para AutoSimTrans 2021: traducción simultánea sólida a nivel de caracteres</title_es>
       <title_pt>Sistema ICT para AutoSimTrans 2021: Tradução simultânea robusta em nível de caractere</title_pt>
       <title_ja>AutoSimTrans 2021用ICTシステム：堅牢な文字レベルの同時翻訳</title_ja>
       <title_zh>ICT AutoSimTrans 2021 系统:强字符同声传译</title_zh>
       <title_hi>AutoSimTrans 2021 के लिए आईसीटी की प्रणाली: मजबूत चार-स्तरीय एक साथ अनुवाद</title_hi>
+      <title_ru>Система ИКТ для AutoSimTrans 2021: надежный синхронный перевод на уровне символов</title_ru>
       <title_ga>Córas TFC um AutoSimTrans 2021: Aistriúchán Comhuaineach Láidir ar Leibhéal Carachtair</title_ga>
       <title_ka>Comment</title_ka>
       <title_hu>ICT rendszere az AutoSimTrans 2021-hez: Robusztus Char-Level egyidejű fordítás</title_hu>
@@ -90,9 +92,11 @@
       <abstract_ar>تقوم الترجمة الفورية (ST) بإخراج الترجمة في وقت واحد أثناء قراءة جملة الإدخال ، والتي تعد مكونًا مهمًا للترجمة الفورية. في هذه الورقة ، نصف نظام ST المقدم ، والذي فاز بالمركز الأول في مسار إدخال النسخ المتدفقة لمهمة الترجمة الصينية-الإنجليزية لـ AutoSimTrans 2021. وبهدف متانة ST ، نقترح أولاً ترجمة فورية على مستوى char وتطبيقها سياسة الانتظار k على ذلك. وفي الوقت نفسه ، نقوم بتطبيق طريقتين لمعالجة البيانات ودمج طريقتين للتدريب لتكييف المجال. تعمل طريقتنا على تحسين نموذج ST بقوة أقوى وقدرة على التكيف مع المجال. تُظهر التجارب على النسخ المتدفقة أن طريقتنا تتفوق على خط الأساس في جميع أوقات الاستجابة ، خاصةً في وقت الاستجابة المنخفض ، فالطريقة المقترحة تحسن حوالي 6 BLEU. إلى جانب ذلك ، تتحقق دراسات الاستئصال التي نجريها من فعالية كل وحدة في الطريقة المقترحة.</abstract_ar>
       <abstract_es>La traducción simultánea (ST) produce la traducción simultáneamente mientras lee la oración de entrada, que es un componente importante de la interpretación simultánea. En este artículo, describimos nuestro sistema ST presentado, que ganó el primer lugar en la pista de entrada de transcripciones en streaming de la tarea de traducción chino-inglés de AutoSimTrans 2021. Con el objetivo de lograr la solidez de ST, primero proponemos la traducción simultánea a nivel de caracteres y aplicamos la política de espera. Mientras tanto, aplicamos dos métodos de procesamiento de datos y combinamos dos métodos de entrenamiento para la adaptación de dominios. Nuestro método mejora el modelo ST con mayor robustez y adaptabilidad de dominio. Los experimentos sobre la transcripción en streaming muestran que nuestro método supera a la línea de base en toda latencia, especialmente en baja latencia, el método propuesto mejora alrededor de 6 BLEU. Además, los estudios de ablación que realizamos verifican la eficacia de cada módulo en el método propuesto.</abstract_es>
       <abstract_pt>A tradução simultânea (ST) produz a tradução simultaneamente enquanto lê a frase de entrada, que é um componente importante da interpretação simultânea. Neste artigo, descrevemos nosso sistema ST submetido, que conquistou o primeiro lugar na faixa de entrada de transcrição em streaming da tarefa de tradução chinês-inglês do AutoSimTrans 2021. Visando a robustez do ST, primeiro propomos a tradução simultânea em nível de caractere e aplicamos política wait-k nele. Enquanto isso, aplicamos dois métodos de processamento de dados e combinamos dois métodos de treinamento para adaptação de domínio. Nosso método aprimora o modelo ST com maior robustez e adaptabilidade de domínio. Experimentos em transcrição de streaming mostram que nosso método supera a linha de base em toda latência, especialmente em baixa latência, o método proposto melhora cerca de 6 BLEU. Além disso, estudos de ablação que realizamos verificam a eficácia de cada módulo no método proposto.</abstract_pt>
+      <abstract_fr>La traduction simultanée (ST) produit la traduction simultanément pendant la lecture de la phrase d'entrée, qui est un élément important de l'interprétation simultanée. Dans cet article, nous décrivons notre système ST soumis, qui a remporté la première place dans la piste d'entrée de transcription en continu de la tâche de traduction chinois-anglais d'AutoSimTrans 2021. Dans un souci de robustesse de ST, nous proposons d'abord une traduction simultanée au niveau du caractère et une politique attente-k appliquée à celle-ci. Entre-temps, nous appliquons deux méthodes de traitement des données et combinons deux méthodes de formation pour l'adaptation de domaines. Notre méthode améliore le modèle ST avec une plus grande robustesse et une plus grande adaptabilité au domaine. Les expériences sur la transcription en continu montrent que notre méthode surpasse la base à toutes les latences, en particulier à faible latence, la méthode proposée améliore environ 6 UEBL. En outre, les études d'ablation que nous menons vérifient l'efficacité de chaque module de la méthode proposée.</abstract_fr>
       <abstract_ja>同時翻訳（ ST ）は、同時通訳の重要な要素である入力文を読み取りながら、同時に翻訳を出力します。本稿では、AutoSimTrans 2021の中国語-英語翻訳タスクのストリーミング転写入力トラックで1位を獲得した提出されたSTシステムについて説明する。STの堅牢性を目指して、まずは文字レベルの同時翻訳を提案し、それにWait - kポリシーを適用します。一方、2つのデータ処理方法を適用し、ドメイン適応のための2つのトレーニング方法を組み合わせます。当社の方法は、より強力な堅牢性とドメイン適応性を備えたSTモデルを強化します。ストリーミング転写の実験は、本方法がすべてのレイテンシで、特に低レイテンシでベースラインを上回ることを示し、提案された方法は約6 BLEUを改善する。さらに、アブレーション試験を実施し、提案された方法における各モジュールの有効性を検証します。</abstract_ja>
       <abstract_zh>同声传译(ST)读输句者同时输译,此同声传译之要组成部分。 本文,我们述述了我们提交的ST系统,该系统在AutoSimTrans 2021的中英译职的流转录输入轨道中获了第一名。 针ST之稳健性,首建字符传译,以待k策。 兼用二数据处理,合二训练方法以应之。 吾道益ST,鲁棒性域适应性。 流录实验明,诸迟皆优于基线,特于卑延迟下,所请益6 BLEU。 此外,烧蚀考验所出法中模块有效性。</abstract_zh>
       <abstract_hi>एक साथ अनुवाद (एसटी) इनपुट वाक्य को पढ़ते समय एक साथ अनुवाद को आउटपुट करता है, जो एक साथ व्याख्या का एक महत्वपूर्ण घटक है। इस पेपर में, हम अपने प्रस्तुत एसटी सिस्टम का वर्णन करते हैं, जिसने ऑटोसिमट्रांस 2021 के चीनी-अंग्रेजी अनुवाद कार्य के स्ट्रीमिंग ट्रांसक्रिप्शन इनपुट ट्रैक में पहला स्थान जीता। एसटी की मजबूती को लक्षित करते हुए, हम पहले चार-स्तरीय एक साथ अनुवाद का प्रस्ताव करते हैं और इस पर प्रतीक्षा-के नीति लागू करते हैं। इस बीच, हम दो डेटा प्रसंस्करण विधियों को लागू करते हैं और डोमेन अनुकूलन के लिए दो प्रशिक्षण विधियों को जोड़ते हैं। हमारी विधि मजबूत मजबूती और डोमेन अनुकूलन क्षमता के साथ एसटी मॉडल को बढ़ाती है। स्ट्रीमिंग ट्रांसक्रिप्शन पर प्रयोगों से पता चलता है कि हमारी विधि सभी विलंबता पर बेसलाइन को मात देती है, विशेष रूप से कम विलंबता पर, प्रस्तावित विधि में लगभग 6 BLEU में सुधार होता है। इसके अलावा, एब्लेशन अध्ययन हम प्रस्तावित विधि में प्रत्येक मॉड्यूल की प्रभावशीलता को सत्यापित करते हैं।</abstract_hi>
+      <abstract_ru>Синхронный перевод (ST) выводит перевод одновременно при чтении входного предложения, что является важным компонентом синхронного перевода. В этой статье мы описываем нашу представленную ST-систему, которая заняла первое место во входном треке потоковой транскрипции китайско-английской задачи перевода AutoSimTrans 2021. Стремясь к надежности ST, мы сначала предлагаем синхронный перевод на уровне символов и применяем политику wait-k к нему. Между тем, мы применяем два метода обработки данных и комбинируем два метода обучения для адаптации домена. Наш метод улучшает модель ST с более сильной робастностью и адаптируемостью домена. Эксперименты по потоковой транскрипции показывают, что наш метод превосходит базовый при всех задержках, особенно при низких задержках, предлагаемый метод улучшает около 6 БЛЮ. Кроме того, исследования абляции мы проводим для проверки эффективности каждого модуля в предлагаемом методе.</abstract_ru>
       <abstract_ga>Aschuir aistriúchán comhuaineach (ST) an t-aistriúchán go comhuaineach agus an abairt ionchuir á léamh, rud atá ina chuid thábhachtach den ateangaireacht chomhuaineach. Sa pháipéar seo, déanaimid cur síos ar ár gcóras ST a cuireadh isteach, a bhuaigh an chéad áit sa rian ionchuir trascríobh sruthaithe de thasc aistriúcháin Síneach-Béarla AutoSimTrans 2021. Ag díriú ar stóinseacht ST, molaimid ar dtús aistriúchán comhuaineach ar leibhéal char agus curtha i bhfeidhm. fanacht-k polasaí ar sé. Idir an dá linn, cuirimid dhá mhodh próiseála sonraí i bhfeidhm agus cuirimid dhá mhodh oiliúna le chéile le haghaidh oiriúnú fearainn. Cuireann ár modh feabhas ar an tsamhail ST le stóinseacht níos láidre agus inoiriúnaitheacht fearainn. Léiríonn turgnaimh ar thrascríobh sruthaithe go n-éiríonn lenár modh an bonnlíne ar chor ar bith, go háirithe nuair a bhíonn an fhoighne íseal, feabhsaítear thart ar 6 BLEU leis an modh atá beartaithe. Ina theannta sin, deimhníonn staidéir eisláithreachta a dhéanaimid éifeachtacht gach modúl sa mhodh atá beartaithe.</abstract_ga>
       <abstract_hu>Az egyidejű fordítás (ST) egyszerre adja ki a fordítást, miközben elolvassa a bemeneti mondatot, ami a szimultán értelmezés fontos eleme. Ebben a tanulmányban bemutatjuk a benyújtott ST rendszerünket, amely első helyet nyert az AutoSimTrans 2021 kínai-angol fordítási feladatának streamelési bemeneti pályáján. Az ST robusztusságát célzva először char-szintű szimuláns fordítást javasolunk és alkalmazott wait-k politikát javasolunk rá. Eközben két adatfeldolgozási módszert alkalmazunk és két képzési módszert kombinálunk a domain adaptációhoz. Módszerünk erősebb robusztussággal és területi alkalmazkodóképességgel javítja az ST modellt. A streamelési transzkripcióval kapcsolatos kísérletek azt mutatják, hogy módszerünk minden késleltetésnél felülmúlja a kiindulási értéket, különösen alacsony késleltetésnél, a javasolt módszer körülbelül 6 BLEU-t javít. Emellett ablációs vizsgálatokat végzünk, amelyek ellenőrzik az egyes modulok hatékonyságát a javasolt módszerben.</abstract_hu>
       <abstract_kk>Бірнеше аудармалар (ST) келтірілген сөзді оқу кезінде аудармаларды бірден шығарып береді. Бұл бірдей толыптауының маңызды компоненті. Бұл қағазда ST жүйесімізді таңдаймыз. Бұл AutoSimTrans 2021 қытайша-ағылшын аудармалы тапсырмасының алғашқы аудармалы транскрипттің кіріс жолында алғашқы жетілді. ST құндылығына көмектесу керек, біріншіден таңбалардың деңгейінде бірден аудару және күту ережесін қолдану керек. Осы уақытта, біз екі деректерді өңдеу әдістерін қолданып, доменге қолдану үшін екі оқыту әдістерін біріктіреміз. Біздің әдіміміз ST үлгісін күшті және домендің адаптациясы арқылы күшті үлгілікті көтереді. Транскрипті көшірмелеу тәжірибесінің әдіміміздің негізгі жолын, өзгертілген кездегі тәжірибесінің шегінде, ұсынылған тәжірибесінің 6 BLEU көшірмесін жасайды. Бірақ қосымша зерттеулердің қосымша әрбір модульдің әрбір әрекетті әдістеу тәртібін тексереміз.</abstract_kk>
@@ -155,6 +159,120 @@
       <url hash="b22c6f61">2021.autosimtrans-1.3</url>
       <doi>10.18653/v1/2021.autosimtrans-1.3</doi>
       <bibkey>li-etal-2021-xmus</bibkey>
-    </paper>
+    <title_pt>Sistema de Tradução Simultânea da XMU na NAACL 2021</title_pt>
+      <title_ar>نظام الترجمة الفورية XMU في NAACL 2021</title_ar>
+      <title_fr>Le système de traduction simultanée de XMU au NAACL 2021</title_fr>
+      <title_es>Sistema de traducción simultánea de XMU en NAACL 2021</title_es>
+      <title_ja>NAACL 2021におけるXMUの同時翻訳システム</title_ja>
+      <title_zh>XMUŚú®NAACL 2021šłäŚźĆŚ£įšľ†ŤĮĎÁĽü</title_zh>
+      <title_hi>NAACL 2021 में XMU की एक साथ अनुवाद प्रणाली</title_hi>
+      <title_ru>Система синхронного перевода XMU на NAACL 2021</title_ru>
+      <title_ga>Córas Aistriúcháin Comhuaineach XMU ag NAACL 2021</title_ga>
+      <title_hu>Az XMU egyidejű fordítási rendszere a NAACL 2021-en</title_hu>
+      <title_el>Το σύστημα ταυτόχρονης μετάφρασης της XMU στο NAACL 2021</title_el>
+      <title_ka>Name</title_ka>
+      <title_kk>NAACL 2021- де XMU- тың бірдей аудару жүйесі</title_kk>
+      <title_lt>XMU vienu metu veikianti vertimo sistema NAACL 2021</title_lt>
+      <title_mk>Симултанеен преведувачки систем на XMU на NAACL 2021</title_mk>
+      <title_ms>Sistem Terjemahan Simultan XMU di NAACL 2021</title_ms>
+      <title_ml>NAACL 2021-ല്‍ എക്സ്‌എംയുവിന്റെ ഒരേ പരിഭാഷ സിസ്റ്റമാണ്</title_ml>
+      <title_mt>Sistema ta’ Traduzzjoni Simultanja ta’ XMU fin-NAACL 2021</title_mt>
+      <title_mn>NAACL 2021 оны XMU-ын нэг төрлийн орчуулах систем</title_mn>
+      <title_no>XMU sin simulert omsetjingssystem på NAACL 2021</title_no>
+      <title_pl>System tłumaczeń symultanicznych XMU na NAACL 2021</title_pl>
+      <title_ro>Sistemul de traduceri simultane XMU la NAACL 2021</title_ro>
+      <title_sr>XMU Simultarni prevodni sistem na NAACL 2021.</title_sr>
+      <title_it>Il sistema di traduzione simultanea XMU al NAACL 2021</title_it>
+      <title_si>Name</title_si>
+      <title_so>XMU's Simultaneous Translation System at NAACL 2021</title_so>
+      <title_sv>XMU:s system för samtidig översättning på NAACL 2021</title_sv>
+      <title_ta>NAACL 2021-ல் XMU' s simultaneous Translation System</title_ta>
+      <title_ur>Name</title_ur>
+      <title_uz>XMU's Simultaneous Translation System at NAACL 2021</title_uz>
+      <title_vi>Hệ thống dịch đồng bộ của XMU ở NAACL 2021</title_vi>
+      <title_nl>XMU's simultaan vertaalsysteem op NAACL 2021</title_nl>
+      <title_hr>XMU Simultarni sustav prevoda na NAACL 2021</title_hr>
+      <title_da>XMU's system til samtidig oversættelse på NAACL 2021</title_da>
+      <title_bg>Системата за едновременен превод на XMU в НААКЛ 2021</title_bg>
+      <title_id>Sistem Terjemahan Simultan XMU di NAACL 2021</title_id>
+      <title_de>Simultanes Übersetzungssystem von XMU auf der NAACL 2021</title_de>
+      <title_ko>XMU의 NAACL 2021 동시통역 시스템</title_ko>
+      <title_fa>سیستم ترجمه شبیه‌ای XMU در NAACL 2021</title_fa>
+      <title_sw>Mfumo wa Tafsiri kwa wakati mmoja wa XMU wa NAACL 2021</title_sw>
+      <title_tr>XMU's Simultaneous Translation System at NAACL 2021</title_tr>
+      <title_af>XMU se Simuleerde Vertalingsstelsel by NAACL 2021</title_af>
+      <title_sq>Sistemi i Përkthimit Simultan i XMU në NAACL 2021</title_sq>
+      <title_am>የXMU's Simultaneous Translation System at NAACL 2021</title_am>
+      <title_az>NAACL 2021'də XMU's Simultaneous Translation System</title_az>
+      <title_bn>NAACL 2021 এ XMU's একই সাথে অনুবাদ সিস্টেম</title_bn>
+      <title_ca>El sistema de traducció simultànea de la XMU al NAACL 2021</title_ca>
+      <title_hy>XMI-ի միաժամանակ թարգմանվող համակարգը NAACL 2021-ում</title_hy>
+      <title_fi>XMU:n samanaikainen käännösjärjestelmä NAACL 2021 -tapahtumassa</title_fi>
+      <title_cs>Systém simultánního překladu XMU na NAACL 2021</title_cs>
+      <title_et>XMU sünkroontõlke süsteem NAACL 2021</title_et>
+      <title_bs>XMU Simultarni prevodni sustav na NAACL 2021.</title_bs>
+      <title_jv>XMU's Simultaneous translation System at NIAL 2020 1</title_jv>
+      <title_sk>XMU-jev simultani prevajalski sistem na NAACL 2021</title_sk>
+      <title_he>מערכת התרגום המזמנית של XMU ב NAACL 2021</title_he>
+      <title_ha>KCharselect unicode block name</title_ha>
+      <title_bo>XMU's Simultaneous Translation System at NAACL 2021</title_bo>
+      <abstract_ar>تصف هذه الورقة النظامين اللذين تم تقديمهما لتقييم الترجمة الفورية في ورشة العمل الثانية للترجمة الفورية الآلية.</abstract_ar>
+      <abstract_pt>Este artigo descreve nossos dois sistemas submetidos à avaliação de tradução simultânea no 2º workshop de tradução simultânea automática.</abstract_pt>
+      <abstract_es>Este artículo describe nuestros dos sistemas sometidos a la evaluación de traducción simultánea en el segundo taller de traducción simultánea automática.</abstract_es>
+      <abstract_fr>Cet article décrit nos deux systèmes soumis à l'évaluation de la traduction simultanée lors du 2e atelier de traduction simultanée automatique.</abstract_fr>
+      <abstract_ja>本稿では、第2回自動同時翻訳ワークショップで同時翻訳評価に提出された当社の2つのシステムについて説明する。</abstract_ja>
+      <abstract_ru>В этой статье описываются наши две системы, представленные для оценки синхронного перевода на 2-м семинаре по автоматическому синхронному переводу.</abstract_ru>
+      <abstract_zh>本文引第二届自同声传译讨论会同声传译评估二统。</abstract_zh>
+      <abstract_hi>यह पेपर हमारे दो प्रणालियों का वर्णन करता है जो 2 स्वचालित एक साथ अनुवाद कार्यशाला में एक साथ अनुवाद मूल्यांकन के लिए प्रस्तुत किए गए हैं।</abstract_hi>
+      <abstract_ga>Déanann an páipéar seo cur síos ar an dá chóras atá againn a cuireadh faoi bhráid na meastóireachta ar an aistriúchán comhuaineach ag an dara ceardlann um aistriúchán comhuaineach uathoibríoch.</abstract_ga>
+      <abstract_el>Η παρούσα εργασία περιγράφει τα δύο συστήματα που υποβλήθηκαν στην αξιολόγηση ταυτόχρονης μετάφρασης στο 2ο εργαστήριο αυτόματης ταυτόχρονης μετάφρασης.</abstract_el>
+      <abstract_ka>ეს დოკუმენტი აღწერს ჩვენი ორი სისტემები, რომელიც ერთადერთი გაგრძელების განსაზღვრებაში ორი ავტომატური სამუშაო გაგრძელების სამუშაო.</abstract_ka>
+      <abstract_hu>Ez a tanulmány bemutatja két rendszerünket, amelyeket a 2. automatikus szimuláns fordítási műhely egyidejű fordítási értékelésére benyújtottak.</abstract_hu>
+      <abstract_it>Questo articolo descrive i nostri due sistemi sottoposti alla valutazione simultanea della traduzione nel secondo workshop di traduzione automatica simultanea.</abstract_it>
+      <abstract_kk>Бұл қағаз екі жүйелерімізді екінші автоматты түрде аудару жұмысында бірдей аудару оқиғасына жіберілген.</abstract_kk>
+      <abstract_mk>Овој документ ги опишува нашите два системи поднесени на истовремената проценка на преводот на втората автоматска истовремена работилница за превод.</abstract_mk>
+      <abstract_ms>Kertas ini menggambarkan dua sistem kita dihantar ke penilaian terjemahan bersamaan di workshop terjemahan bersamaan automatik ke-2.</abstract_ms>
+      <abstract_ml>ഈ പത്രത്തില്‍ നമ്മുടെ രണ്ടാം സിസ്റ്റമുകള്‍ക്ക് വിവരിച്ചുകൊടുത്തിരിക്കുന്നു. രണ്ടാമത്തെ സ്വയമായി ഒരേ സമയത്തെ പരിഭാഷക</abstract_ml>
+      <abstract_mn>Энэ цаас бидний хоёр системийг хоёр автоматически орчуулах ажлын хоёр дахь орчуулалтын үнэлгээнд тайлбарладаг.</abstract_mn>
+      <abstract_no>Denne papiret beskriver to systema våre som er sendt til samtidig omsetjingsverktøyet på den andre automatiske samtidig omsetjingsverktøya.</abstract_no>
+      <abstract_pl>Niniejszy artykuł opisuje nasze dwa systemy poddane ocenie tłumaczenia symultanicznego podczas drugiego warsztatu automatycznego tłumaczenia symultanicznego.</abstract_pl>
+      <abstract_lt>Šiame dokumente aprašomos dvi mūsų sistemos, pateiktos 2-ajame automatiniame vienu metu vertimo raštu seminare atliekamam vienu metu vertinimui.</abstract_lt>
+      <abstract_sr>Ovaj papir opisuje naše dve sisteme predate istovremenoj procjeni prevoda na drugom automatskom istovremenom radionici prevoda.</abstract_sr>
+      <abstract_ro>Lucrarea descrie cele două sisteme ale noastre supuse evaluării simultane a traducerii în cadrul celui de-al doilea atelier de traducere automată simultană.</abstract_ro>
+      <abstract_si>මේ පැත්තේ අපේ පද්ධතිය දෙකක් විස්තර කරනවා දෙවෙනි ස්වයංක්‍රියාවිත වාර්තාවක් විස්තරයෙන් අවශ්‍ය විස්</abstract_si>
+      <abstract_sv>Denna uppsats beskriver v책ra tv책 system som l채mnats in f철r simultan철vers채ttningsutv채rderingen vid den andra automatiska simultan철vers채ttningsverksamheten.</abstract_sv>
+      <abstract_so>Kanu wuxuu ku qoran yahay labadayada nidaam oo loo soo dhiibay qiimeynta turjumaadda isla markaasna lagu qoray warqadda iskaa-maamulka ah ee labaad oo isla mar ah.</abstract_so>
+      <abstract_ta>This paper describes our two systems submitted to the simultaneous translation evaluation at the 2nd automatic simultaneous translation workshop.</abstract_ta>
+      <abstract_mt>Dan id-dokument jiddeskrivi ż-żewġ sistemi tagħna sottomessi għall-evalwazzjoni simultanja tat-traduzzjoni fit-tieni workshop awtomatiku tat-traduzzjoni simultanja.</abstract_mt>
+      <abstract_ur>یہ کاغذ ہماری دو سیستم کی توصیح کرتا ہے جو دوسری اتماٹی اتماٹی ترجمہ کارشاپ میں ایک دوسری ترجمہ کا ارزش کرتا ہے۔</abstract_ur>
+      <abstract_uz>Bu hujjat bir necha xil tarjima tilidagi ikkita tizimmizning bir xil avtomatik bir xil tarjima workshopidagi qiymatlarimizni anglatadi.</abstract_uz>
+      <abstract_vi>Bài viết này mô tả hai hệ thống của chúng tôi được gửi đến buổi đánh giá dịch đồng thời tại phiên bản thứ hai tại phiên bản đồng thời.</abstract_vi>
+      <abstract_da>Denne artikel beskriver vores to systemer, der blev indsendt til den simultanske oversættelsesvurdering på den 2. automatiske simultanoversættelsesværksted.</abstract_da>
+      <abstract_bg>Настоящата статия описва нашите две системи, подложени на оценка на симултанен превод на втория семинар за автоматичен симултанен превод.</abstract_bg>
+      <abstract_nl>Deze paper beschrijft onze twee systemen die tijdens de 2e workshop voor automatische simultane vertaling aan de simultane vertaling zijn onderworpen.</abstract_nl>
+      <abstract_hr>Ovaj papir opisuje naše dvije sustave podignute istovremenoj procjeni prevoda na drugom automatskom istovremenom radionici prevoda.</abstract_hr>
+      <abstract_id>Kertas ini menjelaskan dua sistem kita yang dikirim ke evaluasi terjemahan simultan di workshop terjemahan simultan otomatis kedua.</abstract_id>
+      <abstract_fa>این کاغذ دو سیستم‌های ما را توصیف می‌کند که به ارزیابی ترجمه‌های همزمان در کارگاه دوم ترجمه‌های همزمان استفاده شده است.</abstract_fa>
+      <abstract_de>Diese Arbeit beschreibt unsere beiden Systeme, die der Simultanübersetzung im zweiten Workshop zur automatischen Simultanübersetzung unterzogen wurden.</abstract_de>
+      <abstract_ko>본고는 우리가 제2회 자동 동시통역 세미나에 제출한 동시통역 평가의 두 시스템을 묘사한다.</abstract_ko>
+      <abstract_sw>Makala hii inaelezea mifumo yetu miwili iliyotolewa kwenye tafsiri kwa wakati ule katika warsha ya tafsiri ya pili kwa mara moja.</abstract_sw>
+      <abstract_sq>Ky dokument përshkruan dy sistemet tona të paraqitura në vlerësimin e përkthimit të njëkohëshëm në seminarin e dytë automatik të përkthimit të njëkohëshëm.</abstract_sq>
+      <abstract_am>ይህ ፕሮግራም በሁለተኛው አውቶማቲካዊ እና በተርጓሚው ገጽ ላይ ለሁለቱ ተርጓሚዎች የተሰጡትን ስርዓቶች ይናገራል፡፡</abstract_am>
+      <abstract_hy>Այս հոդվածը նկարագրում է մեր երկու համակարգերը, որոնք ներկայացվել են երկրորդ ավտոմատիկ միաժամանակ թարգմանման աշխատասենյակում:</abstract_hy>
+      <abstract_bn>এই কাগজটি দ্বিতীয় স্বয়ংক্রিয়ভাবে একই সাথে অনুবাদের মূল্যের ব্যাপারে আমাদের দুই সিস্টেম বর্ণনা করেছে।</abstract_bn>
+      <abstract_af>Hierdie papier beskryf ons twee stelsels wat aan die samekomste vertaling van die tweede automaties samekomstige vertaling werkskerm voorgeskryf is.</abstract_af>
+      <abstract_az>Bu kağıt bizim iki sistemimizi ikinci avtomatik bir tercümə işarətində istifadə edilən ilk dəfə tercümə müqabilində təyin edir.</abstract_az>
+      <abstract_tr>Bu kagyz biziň iki sistemimizi 2-nji awtomatik terjime edip bellenilýär.</abstract_tr>
+      <abstract_bs>Ovaj papir opisuje naše dvije sustave predate istovremenoj procjeni prevoda na drugom automatskom istovremenom radionici prevoda.</abstract_bs>
+      <abstract_et>Käesolevas töös kirjeldatakse meie kahte sünkroontõlke süsteemi, mis on läbinud sünkroontõlke hindamise teises töötoas.</abstract_et>
+      <abstract_ca>Aquest paper descriu els nostres dos sistemes submetits a l'evaluació simultànea de traducció al segon taller automàtic de traducció simultànea.</abstract_ca>
+      <abstract_cs>Tento článek popisuje naše dva systémy, které byly předloženy k hodnocení simultánního překladu na druhém semináři automatického simultánního překladu.</abstract_cs>
+      <abstract_fi>Tässä artikkelissa kuvataan kahta järjestelmäämme, jotka toimitettiin simultaanikäännöksen arviointiin toisessa automaattisen simultaanikäännöksen työpajassa.</abstract_fi>
+      <abstract_jv>Perintah iki oleh pancen sistem awak dhéwé, sampeyan tanggal nggawe tarjamahan sampeyan, sampeyan tanggal 2 sampek tarjamahan.</abstract_jv>
+      <abstract_sk>Prispevek opisuje naša dva sistema, predložena oceni simultanega prevajanja na 2. delavnici avtomatskega simultanega prevajanja.</abstract_sk>
+      <abstract_he>העיתון הזה מתאר את שתי המערכות שלנו שנשלחו לערכת התרגום המזומנית במסעדה התרגום המזומנית השנייה.</abstract_he>
+      <abstract_ha>Wannan takardan na bayyana maganar kasa biyu na'uranmu wanda aka saka wa fassarar da shi sami-sami, a kan aikin na biyu na farat ɗaya da tafsiri guda.</abstract_ha>
+      <abstract_bo>This paper describes our two systems submitted to the simultaneous translation evaluation at the 2nd automatic simultaneous translation workshop.</abstract_bo>
+      </paper>
     </volume>
 </collection>
