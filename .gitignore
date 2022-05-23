@@ -30,3 +30,4 @@ Icon
 #virtual environment
 /venv/
 
+/data/terms.json

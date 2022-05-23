@@ -1,8 +1,8 @@
 {{ define "javascript" }}
 <script>
 
-    let lang_codes = ["zh", "fa", "bg", "hr", "tr", "ga", "de", "ja", "pt", "ko", "ru", "sw", "nl", "hi", "id", "da"];
-    let languages = ["Chinese", "Persian", "Bulgarian", "Croatian", "Turkish", "Irish", "German", "Japanese", "Portuguese", "Korean", "Russian", "Swahili", "Flemish", "Hindi", "Indonesian", "Danish"];
+    let lang_codes = ["zh", "fa", "bg", "hr", "tr", "ga", "de", "ja", "pt", "ko", "ru", "sw", "nl", "hi", "id", "da", 'hu', 'et', 'sr', 'pl', 'lt', 'mt', 'ha', 'sq', 'fi', 'ur', 'jv', 'vi', 'uz', 'hy', 'fl', 'mn', 'no', 'kk', 'ro', 'so', 'bn', 'sk', 'sv', 'ca', 'is', 'ka', 'ml', 'mk', 'am', 'si', 'az', 'bo', 'bs', 'el', 'ta', 'he', 'ms', 'af', 'cs', 'it'];
+    let languages = ["Chinese", "Persian", "Bulgarian", "Croatian", "Turkish", "Irish", "German", "Japanese", "Portuguese", "Korean", "Russian", "Swahili", "Flemish", "Hindi", "Indonesian", "Danish", 'Hungarian', 'Estonian', 'Serbian', 'Polish', 'Lithuanian', 'Maltese', 'Hausa', 'Albanian', 'Finnish', 'Urdu', 'Javanese', 'Vietnamese', 'Uzbek', 'Armenian', 'Filipino', 'Mongolian', 'Norwegian', 'Kazakh', 'Moldovan', 'Somali', 'Bengali', 'Slovak', 'Swedish', 'Valencian', 'Icelandic', 'Georgian', 'Malayalam', 'Macedonian', 'Amharic', 'Sinhalese', 'Azerbaijani', 'Tibetan', 'Bosnian', 'Greek', 'Tamil', 'Hebrew', 'Malay', 'Afrikaans', 'Czech', 'Italian'];
 
     $( document ).ready(function() {
         let lang_select = document.getElementById("lang_select");
@@ -174,6 +174,46 @@
                 <td class='hi_example' style="display: none;"> {{ .hi_sentence }} </td>
                 <td class='id_example' style="display: none;"> {{ .id_sentence }} </td>
                 <td class='da_example' style="display: none;"> {{ .da_sentence }} </td>
+                <td class='hu_example' style='display:none;'> {{ .hu_sentence }} </td>
+                <td class='et_example' style='display:none;'> {{ .et_sentence }} </td>
+                <td class='sr_example' style='display:none;'> {{ .sr_sentence }} </td>
+                <td class='pl_example' style='display:none;'> {{ .pl_sentence }} </td>
+                <td class='lt_example' style='display:none;'> {{ .lt_sentence }} </td>
+                <td class='mt_example' style='display:none;'> {{ .mt_sentence }} </td>
+                <td class='ha_example' style='display:none;'> {{ .ha_sentence }} </td>
+                <td class='sq_example' style='display:none;'> {{ .sq_sentence }} </td>
+                <td class='fi_example' style='display:none;'> {{ .fi_sentence }} </td>
+                <td class='ur_example' style='display:none;'> {{ .ur_sentence }} </td>
+                <td class='jv_example' style='display:none;'> {{ .jv_sentence }} </td>
+                <td class='vi_example' style='display:none;'> {{ .vi_sentence }} </td>
+                <td class='uz_example' style='display:none;'> {{ .uz_sentence }} </td>
+                <td class='hy_example' style='display:none;'> {{ .hy_sentence }} </td>
+                <td class='fl_example' style='display:none;'> {{ .fl_sentence }} </td>
+                <td class='mn_example' style='display:none;'> {{ .mn_sentence }} </td>
+                <td class='no_example' style='display:none;'> {{ .no_sentence }} </td>
+                <td class='kk_example' style='display:none;'> {{ .kk_sentence }} </td>
+                <td class='ro_example' style='display:none;'> {{ .ro_sentence }} </td>
+                <td class='so_example' style='display:none;'> {{ .so_sentence }} </td>
+                <td class='bn_example' style='display:none;'> {{ .bn_sentence }} </td>
+                <td class='sk_example' style='display:none;'> {{ .sk_sentence }} </td>
+                <td class='sv_example' style='display:none;'> {{ .sv_sentence }} </td>
+                <td class='ca_example' style='display:none;'> {{ .ca_sentence }} </td>
+                <td class='is_example' style='display:none;'> {{ .is_sentence }} </td>
+                <td class='ka_example' style='display:none;'> {{ .ka_sentence }} </td>
+                <td class='ml_example' style='display:none;'> {{ .ml_sentence }} </td>
+                <td class='mk_example' style='display:none;'> {{ .mk_sentence }} </td>
+                <td class='am_example' style='display:none;'> {{ .am_sentence }} </td>
+                <td class='si_example' style='display:none;'> {{ .si_sentence }} </td>
+                <td class='az_example' style='display:none;'> {{ .az_sentence }} </td>
+                <td class='bo_example' style='display:none;'> {{ .bo_sentence }} </td>
+                <td class='bs_example' style='display:none;'> {{ .bs_sentence }} </td>
+                <td class='el_example' style='display:none;'> {{ .el_sentence }} </td>
+                <td class='ta_example' style='display:none;'> {{ .ta_sentence }} </td>
+                <td class='he_example' style='display:none;'> {{ .he_sentence }} </td>
+                <td class='ms_example' style='display:none;'> {{ .ms_sentence }} </td>
+                <td class='af_example' style='display:none;'> {{ .af_sentence }} </td>
+                <td class='cs_example' style='display:none;'> {{ .cs_sentence }} </td>
+                <td class='it_example' style='display:none;'> {{ .it_sentence }} </td>
             {{end}}
             </tr>
         {{ end }}

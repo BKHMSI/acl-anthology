@@ -231,23 +231,27 @@ for code, langs in languages_codes:
     for lang in langs.split(";"):
         lang_to_code[lang.strip()] = code
 
-def clean_data(data):
+def clean_data(data, reference=False):
 
     cleaned_data = {}
     old_term = data[0]["term"]
-    translated_term = data[0]["translated_term"]
+    translated_term = data[0]["translated_term"] if reference else ""
     examples = {data[0]["examples"][j]["acl_id"]: data[0]["examples"][j]["machine_translation"] for j in range(len(data[0]["examples"]))}
     for i in range(1, len(data)):
         if old_term == data[i]["term"]:
             for row in data[i]["examples"]:
                 examples[row["acl_id"]] = row["machine_translation"]
         else:
-            cleaned_data[old_term.strip()] = {
-                "translated_term": translated_term,
-                "examples": examples
-            }
-            if "translated_term" in data[i]:
-                translated_term = data[i]["translated_term"]
+
+            if reference:
+                cleaned_data[old_term.strip()] = {
+                    "translated_term": translated_term,
+                    "examples": examples
+                }
+                if "translated_term" in data[i]:
+                    translated_term = data[i]["translated_term"]
+            else:
+                cleaned_data[old_term.strip()] = {"examples": examples}
             old_term = data[i]["term"]
             examples = {data[i]["examples"][j]["acl_id"]: data[i]["examples"][j]["machine_translation"] for j in range(len(data[i]["examples"]))}
 
@@ -258,8 +262,10 @@ if __name__ == "__main__":
 
     path = "./data/terms.json"
     data = read_json(path)
+    reference = False 
 
-    paths = glob("/Users/bkhmsi/Downloads/terminologies_with_reference/*.json")
+    paths = glob("/Users/bkhmsi/Downloads/terminologies_without_reference/*.json")
+    print(len(paths))
 
     lang_to_code = {}
     code_to_lang = {}
@@ -282,7 +288,7 @@ if __name__ == "__main__":
     print(', '.join(langs))
 
     
-    template = "<div class='{}_term' style='display:none;'> {{{{ .{}_term }}}} </div>"
+    template = "<td class='{}_example' style='display:none;'> {{{{ .{}_sentence }}}} </td>"
     for lang_code in other_data:
         print(template.format(lang_code, lang_code))
 
@@ -292,11 +298,12 @@ if __name__ == "__main__":
         term = row["term"]
         for lang in other_data:
             if term not in other_data[lang]: continue
-            data[i][f"{lang}_term"] = other_data[lang][term]["translated_term"]
+            if reference:
+                data[i][f"{lang}_term"] = other_data[lang][term]["translated_term"]
             for j in range(min(len(other_data[lang][term]["examples"]), len(data[i]["sentences"]))):
                 acl_id = data[i]["sentences"][j]["id"].split(":")[0].strip()
                 if acl_id not in other_data[lang][term]["examples"]:
                     continue 
                 data[i]["sentences"][j][f"{lang}_sentence"] = other_data[lang][term]["examples"][acl_id]
     
-    write_json("terms_16langs.json", data)
+    write_json("terms_56langs.json", data)
