@@ -5,6 +5,18 @@ Title: Credits
 The ACL Anthology is largely a volunteer-run organization.
 We are grateful to all our contributors whose work makes this collection of scholarly papers freely available to all.
 
+### D&I Special Initiative Volunteers
+
++ Mohamed Elbadrashiny (aiXplain) who led a team (Thiago Castro Ferreira, Lucas Pavanelli, Salaheddin Alzubi) generating all the machine translations and their evaluations, crosslingual CC and Voice Over leveraging technologies for MT/ASR/TTS;
++ Evgeny Matusov (AppTek) for English ASR and Spanish voice-over;
++ Georgiana Dinu (Amazon AWS) for language Identification on the ACL anthology papers;
++ Kyle Lo & Lucy Wang (AI2) for leading and coordinating the paper processing and terminology curation effort;
++ Irene Li & Dragomir Radev (Yale University), Qingyun Wang & Heng Ji (UIUC), and Chen Zhang & Grandee Li & Haizhou Li (National University of Singapore) for English Scientific terminology extraction and curation;
++ Hend Alkhalifa (King Saud University, Saudi Arabia) & Nizar Habash (NYU-AD) for Arabic CL terminology;
++ Qingyun Wang & Heng Ji (UIUC) for cross-lingual terminology wikification;
++ Brian Bui (Meta) and Zeid Kasri (YaiGlobal) for providing/commissioning/monitoring the titles/abstracts/terminology reference translations;
++ Badr Alkhamissi (Meta) and Danqing Luo, Siqi Cai, Yiming Chen, Chen Zhang & Grandee Lee (National University of Singapore) for developing and designing the ACL 2022 D&I 60-60 website;
+
 ### Active Volunteers
 
 + **Indexing Lead**: [A. Seza Doğruöz](https://lt3.ugent.be/people/as-dogruoz/) (Universiteit Gent)
